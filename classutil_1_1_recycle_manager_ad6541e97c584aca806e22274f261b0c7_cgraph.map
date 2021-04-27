@@ -1,0 +1,6 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title="型Sの新しいインスタンスを初期化して返す．" alt="" coords="5,31,45,57"/>
+<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#aa71d41fd3d95c354d4d5e922c6c21210" title="空スタックか？" alt="" coords="93,5,252,32"/>
+<area shape="rect" id="node4" href="$classutil_1_1_stack_base.html#ad702374ab51a03308e76cc7305f42582" title="スタックをポップする." alt="" coords="107,56,239,83"/>
+<area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#af4b57d21919c42d55af03391f91a1c08" title="スタックのサイズを返す." alt="" coords="300,5,435,32"/>
+</map>

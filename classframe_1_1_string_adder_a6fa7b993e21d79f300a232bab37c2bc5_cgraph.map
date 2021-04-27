@@ -1,0 +1,4 @@
+<map id="reset" name="reset">
+<area shape="rect" id="node1" title="StringBufを空に初期化する。" alt="" coords="5,5,56,31"/>
+<area shape="rect" id="node2" href="$classutil_1_1_string_buf.html#a754e8e0b737041f9fe2a65102bc3d4eb" title="バッファの内容を空文字列に初期化する." alt="" coords="104,5,234,31"/>
+</map>

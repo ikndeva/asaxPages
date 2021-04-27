@@ -1,0 +1,6 @@
+<map id="emitEventETAG" name="emitEventETAG">
+<area shape="rect" id="node1" title="ETAGイベントを送出する．構造文書における要素（ノード）の終了を表す." alt="" coords="5,55,121,80"/>
+<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="169,5,250,31"/>
+<area shape="rect" id="node3" href="$classevent_1_1_event_reader_base.html#a78ee178b6a73658d65ca60da4d1e6683" title="現在の要素の名前の文字列を返す." alt="" coords="172,55,247,80"/>
+<area shape="rect" id="node4" href="$classevent_1_1_event_reader_base.html#afab766445043570e6a82c14851366933" title="現在の要素に対応するテキストを表す文字列を返す." alt="" coords="177,104,242,129"/>
+</map>

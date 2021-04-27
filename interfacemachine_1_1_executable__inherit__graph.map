@@ -1,0 +1,26 @@
+<map id="Executable" name="Executable">
+<area shape="rect" id="node1" title="仮装命令のインタフェース." alt="" coords="5,463,93,488"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_command.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="141,463,223,488"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_command_1_1_cmd_get_text.html" title="テキスト読み出し命令: 終端ノードのテキスト値を返す．" alt="" coords="310,5,471,31"/>
+<area shape="rect" id="node4" href="$classmachine_1_1_command_1_1_cmd_n_o_p.html" title="何もしない命令．" alt="" coords="319,55,462,80"/>
+<area shape="rect" id="node6" href="$classmachine_1_1_command_1_1_command_storage.html" title=" " alt="" coords="293,104,488,129"/>
+<area shape="rect" id="node9" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_and.html" title="論理積命令" alt="" coords="284,153,498,179"/>
+<area shape="rect" id="node10" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_not.html" title="論理否定命令" alt="" coords="285,203,496,228"/>
+<area shape="rect" id="node11" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_opr.html" title="論理二項演算命令" alt="" coords="284,252,497,277"/>
+<area shape="rect" id="node12" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_or.html" title="論理和命令" alt="" coords="288,301,493,327"/>
+<area shape="rect" id="node13" href="$classmachine_1_1_command_boolean_1_1_cmd_res_load.html" title="状態ビット値を取り出す．" alt="" coords="282,351,499,376"/>
+<area shape="rect" id="node14" href="$classmachine_1_1_command_string_1_1_cmd_o_stream_store.html" title="文字列変数にスタックトップの文字列を代入する．" alt="" coords="289,400,492,439"/>
+<area shape="rect" id="node15" href="$classmachine_1_1_command_string_1_1_cmd_str_add.html" title="文字列加算命令" alt="" coords="295,463,486,488"/>
+<area shape="rect" id="node16" href="$classmachine_1_1_command_string_1_1_cmd_str_regex_match.html" title="正規表現照合命令" alt="" coords="288,512,493,551"/>
+<area shape="rect" id="node17" href="$classmachine_1_1_command_string_1_1_cmd_str_string_match.html" title="部分文字列照合命令" alt="" coords="290,575,491,613"/>
+<area shape="rect" id="node18" href="$classmachine_1_1_command_string_1_1_cmd_str_sys_var_load.html" title="スタックトップにシステム変数値を取り出す．" alt="" coords="271,637,510,663"/>
+<area shape="rect" id="node19" href="$classmachine_1_1_command_typed_1_1_cmd_str2_type.html" title="OVMachine上の文字列値をInteger値に変換する命令．" alt="" coords="288,687,494,725"/>
+<area shape="rect" id="node20" href="$classmachine_1_1_command_typed_1_1_cmd_type_alloc_container.html" title="Integer変数を割り当てる" alt="" coords="285,749,496,788"/>
+<area shape="rect" id="node21" href="$classmachine_1_1_command_typed_1_1_cmd_type_alloc_header.html" title="整数変数のフレームを割り当てる" alt="" coords="285,812,496,851"/>
+<area shape="rect" id="node22" href="$classmachine_1_1_command_typed_1_1_cmd_type_const.html" title="スタックトップに整数定数値をおく命令" alt="" coords="285,875,496,913"/>
+<area shape="rect" id="node23" href="$classmachine_1_1_command_typed_1_1_cmd_type_opr.html" title="二つの型Tの値をもらい、型Rの値を返す二項演算演算命令。" alt="" coords="285,937,496,976"/>
+<area shape="rect" id="node24" href="$classmachine_1_1_command_typed_1_1_cmd_type_to_type.html" title="OVMachine上のS型の値をT型の値に変換する命令．" alt="" coords="285,1000,496,1039"/>
+<area shape="rect" id="node5" href="$classmachine_1_1_command_1_1_cmd_u_n_d_e_f.html" title="何もしない命令．" alt="" coords="561,55,721,80"/>
+<area shape="rect" id="node7" href="$classmachine_1_1_command_1_1_cmd_get_elem.html" title="テキスト読み出し命令の一つ:任意のノードの要素テキストを取得して，文字列型の変数に格納する．" alt="" coords="558,104,724,129"/>
+<area shape="rect" id="node8" href="$classmachine_1_1_command_1_1_cmd_set_elem.html" title="テキスト読み出し命令の一つ:任意のノードの要素テキストの開始位置を取得して，整数型の変数に格納する．" alt="" coords="558,153,724,179"/>
+</map>

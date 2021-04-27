@@ -1,0 +1,7 @@
+<map id="add" name="add">
+<area shape="rect" id="node1" title="内容の末尾に与えられた文字列を追加し，自分自身を返す。" alt="" coords="5,55,49,80"/>
+<area shape="rect" id="node2" href="$classutil_1_1_string_buf.html#a0c7945ff1d83a45aaee200c4bf428c53" title="バッファの末尾に文字{c} を追加する." alt="" coords="97,29,220,55"/>
+<area shape="rect" id="node5" href="$classutil_1_1_report.html#ae68320b8203db308b03de0834134ff8d" title="現在の入れ子深さで段差げして，printlnを呼ぶ．" alt="" coords="97,79,219,104"/>
+<area shape="rect" id="node3" href="$classutil_1_1_string_buf.html#a2dc9e4579aee8516f9402d5ab3eac5eb" title="バッファの末尾に文字列{str} を連結する." alt="" coords="268,29,413,55"/>
+<area shape="rect" id="node4" href="$classutil_1_1_string_buf.html#a9ea51ad122f068c0e30e6a7a17f57685" title="バッファの末尾に文字列{val} を追加する. メソッド {append} に同じ." alt="" coords="461,29,576,55"/>
+</map>

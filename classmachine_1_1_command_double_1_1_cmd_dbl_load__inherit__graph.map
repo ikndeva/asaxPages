@@ -1,0 +1,4 @@
+<map id="CommandDouble.CmdDblLoad" name="CommandDouble.CmdDblLoad">
+<area shape="rect" id="node1" title="倍精度実数変数値を取り出す．" alt="" coords="5,79,212,104"/>
+<area shape="rect" id="node2" href="$class_command_storage.html" title=" " alt="" coords="44,5,173,31"/>
+</map>

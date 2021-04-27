@@ -1,0 +1,6 @@
+<map id="nop" name="nop">
+<area shape="rect" id="node1" title="何もしない演算 (&quot;no operation&quot;)." alt="" coords="732,12,776,37"/>
+<area shape="rect" id="node2" href="$classframe_1_1_frame_stack_uni.html#abb6dc2b3a776fb3eec1367285a25d4ec" title="文字列表現を返す. *‍/" alt="" coords="483,5,684,44"/>
+<area shape="rect" id="node3" href="$classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す. *‍/" alt="" coords="235,12,435,37"/>
+<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#a123b91c8f1635d500e0192ab40268542" title="トークナイザーの状態を報告するYAML書式文字列を返す." alt="" coords="5,5,187,44"/>
+</map>

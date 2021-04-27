@@ -1,0 +1,4 @@
+<map id="CommandInteger.CmdStr2Int" name="CommandInteger.CmdStr2Int">
+<area shape="rect" id="node1" title="OVMachine上のString値をInteger値に変換する命令．" alt="" coords="5,79,200,104"/>
+<area shape="rect" id="node2" href="$class_cmd_str2_type.html" title=" " alt="" coords="19,5,186,31"/>
+</map>

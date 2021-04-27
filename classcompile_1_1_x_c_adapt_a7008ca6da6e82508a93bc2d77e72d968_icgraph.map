@@ -1,0 +1,5 @@
+<map id="adapting" name="adapting">
+<area shape="rect" id="node1" title="クエリのコード生成を行う．" alt="" coords="430,5,503,31"/>
+<area shape="rect" id="node2" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="200,5,382,31"/>
+<area shape="rect" id="node3" href="$classcompile_1_1_x_c_test.html#a8b260eecbaabcef8473fd87ada040682" title="テスト用のサンプルプログラム。" alt="" coords="5,5,152,31"/>
+</map>

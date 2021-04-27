@@ -1,0 +1,20 @@
+<map id="CommandBase.CmdStore" name="CommandBase.CmdStore">
+<area shape="rect" id="node1" title=" " alt="" coords="443,364,618,391"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base_1_1_command_ref.html" title=" " alt="" coords="432,288,629,315"/>
+<area shape="rect" id="node3" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="229,199,341,225"/>
+<area shape="rect" id="node4" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="163,109,213,136"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="357,109,576,136"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="462,5,562,32"/>
+<area shape="rect" id="node13" href="$classast_1_1_ast_node.html" title=" " alt="" coords="601,109,674,136"/>
+<area shape="rect" id="node7" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="238,109,333,136"/>
+<area shape="rect" id="node8" title=" " alt="" coords="381,5,437,32"/>
+<area shape="rect" id="node9" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="213,5,357,32"/>
+<area shape="rect" id="node10" title=" " alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node11" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="478,199,583,225"/>
+<area shape="rect" id="node12" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="685,199,728,225"/>
+<area shape="rect" id="node14" title=" " alt="" coords="678,5,765,32"/>
+<area shape="rect" id="node15" title=" " alt="" coords="789,5,886,32"/>
+<area shape="rect" id="node16" title=" " alt="" coords="959,5,998,32"/>
+<area shape="rect" id="node17" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="587,5,653,32"/>
+<area shape="rect" id="node18" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="698,109,785,136"/>
+</map>

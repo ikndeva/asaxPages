@@ -1,0 +1,4 @@
+<map id="TraceLevel.Level" name="TraceLevel.Level">
+<area shape="rect" id="node1" title="ログ出力用のトレースレベルを表す列挙型。" alt="" coords="23,105,146,131"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,164,44"/>
+</map>

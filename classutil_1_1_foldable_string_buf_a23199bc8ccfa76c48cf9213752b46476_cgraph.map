@@ -1,0 +1,9 @@
+<map id="nl" name="nl">
+<area shape="rect" id="node1" title="フラグtoFoldが真ならば改行し、そうでなければ空白を出力する." alt="" coords="5,48,44,75"/>
+<area shape="rect" id="node2" href="$classutil_1_1_foldable_string_buf.html#ab3d4d59d8a1bb8f1cffeef544c66c052" title="改行を出力する." alt="" coords="92,73,131,100"/>
+<area shape="rect" id="node7" href="$classutil_1_1_foldable_string_buf.html#a186579e7cd763dada34bcdc6c8f8f209" title="空白を出力する." alt="" coords="179,23,236,49"/>
+<area shape="rect" id="node3" href="$classutil_1_1_string_buf.html#a2dc9e4579aee8516f9402d5ab3eac5eb" title="バッファの末尾に文字列{str} を連結する." alt="" coords="289,111,431,137"/>
+<area shape="rect" id="node5" href="$classutil_1_1_trace_level.html#a163bdc94e3e530c147c8fcd59f9f01f4" title="モジュールnameの現在のトレースレベルが{level}以上かを返す。モジュールのレベルが登録されていなければ、全体のトレースレベルを返す。" alt="" coords="284,29,436,56"/>
+<area shape="rect" id="node4" href="$classutil_1_1_string_buf.html#a9ea51ad122f068c0e30e6a7a17f57685" title="バッファの末尾に文字列{val} を追加する. メソッド {append} に同じ." alt="" coords="506,111,622,137"/>
+<area shape="rect" id="node6" href="$classutil_1_1_trace_level.html#ac3ccfd677fa662c8af08cebe99eafebf" title="現在のプログラムでのトレースレベル（出力の活性化レベル）を返す." alt="" coords="484,29,644,56"/>
+</map>

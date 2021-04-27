@@ -1,0 +1,4 @@
+<map id="theStateHolds" name="theStateHolds">
+<area shape="rect" id="node1" title="状態ビットベクタの第fid番目の状態が真かを返す．" alt="" coords="93,5,198,31"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_state_stack.html#a8b664f23d8cadaf1c315805ed16207b2" title="現在アクティブなビットベクタで、状態ID fid の状態が真である." alt="" coords="5,5,45,31"/>
+</map>

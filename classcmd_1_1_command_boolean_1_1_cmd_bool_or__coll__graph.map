@@ -1,0 +1,11 @@
+<map id="CommandBoolean.CmdBoolOr" name="CommandBoolean.CmdBoolOr">
+<area shape="rect" id="node1" title="論理和命令" alt="" coords="173,275,374,301"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="217,199,329,225"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,109,56,136"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="80,109,299,136"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="106,5,206,32"/>
+<area shape="rect" id="node6" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="323,109,418,136"/>
+<area shape="rect" id="node7" title=" " alt="" coords="231,5,287,32"/>
+<area shape="rect" id="node8" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="311,5,455,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="489,5,556,32"/>
+</map>

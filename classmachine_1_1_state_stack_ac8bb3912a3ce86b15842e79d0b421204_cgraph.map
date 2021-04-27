@@ -1,0 +1,4 @@
+<map id="clear" name="clear">
+<area shape="rect" id="node1" title="スタックを空に初期化する。" alt="" coords="5,5,56,31"/>
+<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#ac8bb3912a3ce86b15842e79d0b421204" title="スタックを空にする." alt="" coords="104,5,242,31"/>
+</map>

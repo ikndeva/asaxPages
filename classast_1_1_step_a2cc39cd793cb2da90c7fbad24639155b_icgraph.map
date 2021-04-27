@@ -1,0 +1,5 @@
+<map id="getPost" name="getPost">
+<area shape="rect" id="node1" title="ステップのpostコードを返す．" alt="" coords="126,31,192,56"/>
+<area shape="rect" id="node2" href="$classast_1_1_step.html#a710f28dd1d68576e7d39222129249e41" title="ステップのpostコードに，命令を追加する．" alt="" coords="6,5,77,31"/>
+<area shape="rect" id="node3" href="$classast_1_1_step.html#a383612fb2c1d291f6f3f9c352a5cb262" title="受取りコード末尾に生成したコードを追加する．" alt="" coords="5,55,78,80"/>
+</map>

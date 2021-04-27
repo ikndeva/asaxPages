@@ -1,0 +1,6 @@
+<map id="scanFromSource" name="scanFromSource">
+<area shape="rect" id="node1" title="根クエリrootIDのもとで、与えられた入力ストリームを走査する。" alt="" coords="5,56,127,83"/>
+<area shape="rect" id="node2" href="$interfaceevent_1_1_event_readable.html#a5ae591df94fc66ccb85cbb6565368bca" title="ストリームを閉じる." alt="" coords="199,5,381,32"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_runnable.html#a46403ad73e6011bb5afef0b9394ffd2a" title="文字マスク索引オブジェクトを返す。" alt="" coords="175,56,405,83"/>
+<area shape="rect" id="node4" href="$interfaceevent_1_1_event_readable.html#ad146fa8579a5f8a876c4688cc5a68520" title="実行レポートの文字列を返す。" alt="" coords="192,107,388,133"/>
+</map>

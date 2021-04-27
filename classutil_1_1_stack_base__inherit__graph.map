@@ -1,0 +1,5 @@
+<map id="StackBase&lt; T &gt;" name="StackBase&lt; T &gt;">
+<area shape="rect" id="node1" title="型 T の要素を保持する汎用型のスタックの基本実装." alt="" coords="42,80,161,107"/>
+<area shape="rect" id="node2" href="$interfaceutil_1_1_stackable.html" title="レベル付きスタックを実装するための最小限のインタフェース" alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node3" href="$class_iterable.html" title=" " alt="" coords="110,5,207,32"/>
+</map>

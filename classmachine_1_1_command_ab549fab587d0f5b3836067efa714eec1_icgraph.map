@@ -1,0 +1,4 @@
+<map id="parseDoubleToBoolean" name="parseDoubleToBoolean">
+<area shape="rect" id="node1" title="DoubleをBooleanに変換する．" alt="" coords="275,12,434,37"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_command_factory.html#aa314e99bbbb1b4a0287bc4957bf366c6" title="値型ixtの値から値型oxtの値への変換命令を返すファクトリ手続き．" alt="" coords="5,5,227,44"/>
+</map>

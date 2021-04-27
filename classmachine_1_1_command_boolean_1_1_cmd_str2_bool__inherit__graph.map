@@ -1,0 +1,4 @@
+<map id="CommandBoolean.CmdStr2Bool" name="CommandBoolean.CmdStr2Bool">
+<area shape="rect" id="node1" title="OVMachine上のString値をBoolean値に変換する命令．" alt="" coords="5,79,220,104"/>
+<area shape="rect" id="node2" href="$class_cmd_str2_type.html" title=" " alt="" coords="25,5,200,31"/>
+</map>

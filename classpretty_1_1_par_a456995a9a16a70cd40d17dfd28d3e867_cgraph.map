@@ -1,0 +1,4 @@
+<map id="fold" name="fold">
+<area shape="rect" id="node1" title="与えられた文字列を清書した文字列を返す." alt="" coords="5,29,48,55"/>
+<area shape="rect" id="node2" href="$classpretty_1_1_par.html#a92f40843a2e5557ba0b823c2b1077f8a" title="入力ストリームから与えられた文字列を清書して、出力ストリームへ書き込む." alt="" coords="96,29,137,55"/>
+</map>

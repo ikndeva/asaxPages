@@ -1,0 +1,4 @@
+<map id="reset" name="reset">
+<area shape="rect" id="node1" title="内容を整数値 0 に初期化する。" alt="" coords="163,5,214,31"/>
+<area shape="rect" id="node2" href="$classframe_1_1_boolean_holder.html#adedd554f2ea164e3e2c88d14010c5e51" title="初期値0の整数をもつホルダを生成する。" alt="" coords="5,5,115,31"/>
+</map>

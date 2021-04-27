@@ -1,0 +1,4 @@
+<map id="Evaluable.EvaluableBoolean" name="Evaluable.EvaluableBoolean">
+<area shape="rect" id="node1" title="評価結果がブール値になるステップのインタフェース" alt="" coords="5,79,196,104"/>
+<area shape="rect" id="node2" href="$interfacemachine_1_1_evaluable_1_1_generatable.html" title="仮装命令生成のインタフェース." alt="" coords="22,5,179,31"/>
+</map>

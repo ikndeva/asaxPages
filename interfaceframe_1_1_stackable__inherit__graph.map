@@ -1,0 +1,7 @@
+<map id="Stackable" name="Stackable">
+<area shape="rect" id="node1" title="レベル付きスタックを実装するための最小限のインタフェース" alt="" coords="267,5,346,31"/>
+<area shape="rect" id="node2" href="$classframe_1_1_auto_stack_uni.html" title="セルのオブジェクトを再利用可能なスタックの実装." alt="" coords="5,79,178,117"/>
+<area shape="rect" id="node3" href="$classframe_1_1_level_stack.html" title="レベル付きスタックのクラス。" alt="" coords="202,85,288,111"/>
+<area shape="rect" id="node4" href="$classutil_1_1_auto_stack.html" title="セルのオブジェクトを再利用可能なスタックの実装." alt="" coords="312,85,426,111"/>
+<area shape="rect" id="node5" href="$classutil_1_1_stack_base.html" title="型 T の要素を保持する汎用型のスタックの基本実装." alt="" coords="450,85,566,111"/>
+</map>

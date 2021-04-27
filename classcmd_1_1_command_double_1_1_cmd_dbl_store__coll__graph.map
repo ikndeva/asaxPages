@@ -1,0 +1,4 @@
+<map id="CommandDouble.CmdDblStore" name="CommandDouble.CmdDblStore">
+<area shape="rect" id="node1" title="倍精度実数変数にスタックトップの倍精度実数を代入する．" alt="" coords="5,80,212,107"/>
+<area shape="rect" id="node2" href="$class_cmd_store.html" title=" " alt="" coords="68,5,149,32"/>
+</map>

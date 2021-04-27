@@ -1,0 +1,4 @@
+<map id="CommandBoolean.CmdBoolStore" name="CommandBoolean.CmdBoolStore">
+<area shape="rect" id="node1" title="整数変数にスタックトップの整数を代入する．" alt="" coords="5,80,224,107"/>
+<area shape="rect" id="node2" href="$class_cmd_store.html" title=" " alt="" coords="74,5,155,32"/>
+</map>

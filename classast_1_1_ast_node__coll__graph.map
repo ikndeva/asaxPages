@@ -1,0 +1,10 @@
+<map id="AstNode" name="AstNode">
+<area shape="rect" id="node1" title=" " alt="" coords="333,109,407,136"/>
+<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,5,105,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="130,5,186,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="211,5,297,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="321,5,419,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="443,5,481,32"/>
+<area shape="rect" id="node7" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="591,5,658,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="682,5,749,32"/>
+</map>

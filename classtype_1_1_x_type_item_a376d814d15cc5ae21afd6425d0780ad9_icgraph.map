@@ -1,0 +1,47 @@
+<map id="ty" name="ty">
+<area shape="rect" id="node1" title="この型変数thisがもつ値型を返す。" alt="" coords="1303,661,1341,688"/>
+<area shape="rect" id="node2" href="$classast_1_1_block_base_1_1_ret_list.html#adc55e2a1393e1ab76828f66894e0ac51" title="リターン節を加えて、保持する全てのリターン型の返り型の最小上界を更新する。新しい返り型が単一化可能でなければエラーを返す。" alt="" coords="803,249,982,290"/>
+<area shape="rect" id="node3" href="$classtype_1_1_basic_typing.html#a3137357d0abb2bd75321d6e19024956a" title="演算子型の文字列表現を返す。" alt="" coords="1078,687,1229,713"/>
+<area shape="rect" id="node5" href="$classtype_1_1_x_typing.html#a3137357d0abb2bd75321d6e19024956a" title="演算子型の文字列表現を返す。" alt="" coords="1090,737,1217,764"/>
+<area shape="rect" id="node7" href="$classast_1_1_block_base_1_1_ret_list.html#a5e986028a0761fd19362bc5aff252abb" title="保持する全てのリターン節の返り型の最小上界を返す。" alt="" coords="1052,788,1255,815"/>
+<area shape="rect" id="node8" href="$classtype_1_1_x_type_item.html#a8f3ab9d29a49a3c79ee1d258d2d0b613" title="この型変数thisの値型を指定された上限の値型に制約する（上限で置き換える）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="873,904,912,931"/>
+<area shape="rect" id="node9" href="$classtype_1_1_x_type_item.html#a14d03fd612a033d16306576e10febe7a" title="この型変数thisの値型が指定された値型に制約可能ならばtrueを返し、そうでなければfalseを返す。" alt="" coords="1123,901,1183,928"/>
+<area shape="rect" id="node10" href="$classast_1_1_ast_node.html#aac66012db63fd274931e6690afa76212" title="ノードのもつ値型を返す。" alt="" coords="831,467,955,493"/>
+<area shape="rect" id="node26" href="$classmachine_1_1_ref.html#aac66012db63fd274931e6690afa76212" title="データ型を返す." alt="" coords="1091,635,1216,661"/>
+<area shape="rect" id="node42" href="$classtype_1_1_x_type_item.html#a873823a56369ff4fac9157d8e6f7ec61" title="この型変数thisと指定された型変数が単一化可能ならばtrueを返し、そうでなければfalseを返す。" alt="" coords="1118,311,1189,337"/>
+<area shape="rect" id="node43" href="$classtype_1_1_x_type_item.html#a3057d3707a7f0e95cbc88e49f41e8a4c" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="1128,365,1179,392"/>
+<area shape="rect" id="node4" href="$classtype_1_1_basic_typing.html#ad146fa8579a5f8a876c4688cc5a68520" title="演算子型の文字列表現を返す。" alt="" coords="807,803,978,829"/>
+<area shape="rect" id="node6" href="$classtype_1_1_x_typing.html#ad146fa8579a5f8a876c4688cc5a68520" title="演算子型の文字列表現を返す。" alt="" coords="819,853,966,880"/>
+<area shape="rect" id="node11" href="$classast_1_1_ast_assign.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="551,543,709,569"/>
+<area shape="rect" id="node12" href="$classast_1_1_ast_oper.html#a32bccadf4b650391376fe92303e9b41c" title="二つの非演算子である子供のコードを生成す" alt="" coords="527,208,733,235"/>
+<area shape="rect" id="node21" href="$classcompile_1_1_x_c_adapt.html#aa83094ca51b30625f57724d7ab4ab432" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="540,441,720,468"/>
+<area shape="rect" id="node24" href="$classcompile_1_1_x_c_push.html#a2e0014478d7dd7a061888b3ab04e1df4" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="544,492,716,519"/>
+<area shape="rect" id="node13" href="$classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="234,5,478,32"/>
+<area shape="rect" id="node14" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="237,56,475,83"/>
+<area shape="rect" id="node15" href="$classast_1_1_ast_math_oper_1_1_double_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="233,107,479,133"/>
+<area shape="rect" id="node16" href="$classast_1_1_ast_math_oper_1_1_double_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="237,157,475,184"/>
+<area shape="rect" id="node17" href="$classast_1_1_ast_math_oper_1_1_pre_term.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="243,208,469,235"/>
+<area shape="rect" id="node18" href="$classast_1_1_string_rel_1_1_string_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="270,259,442,301"/>
+<area shape="rect" id="node19" href="$classast_1_1_string_rel_1_1_regex_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="268,325,444,366"/>
+<area shape="rect" id="node20" href="$classast_1_1_ast_func_call.html#a383612fb2c1d291f6f3f9c352a5cb262" title="コードを生成する．" alt="" coords="271,391,441,417"/>
+<area shape="rect" id="node22" href="$classcompile_1_1_x_c_adapt.html#a4f98b016198110f82cbd0767bad22612" title="クエリのコード生成を行う．" alt="" coords="267,441,445,468"/>
+<area shape="rect" id="node23" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="5,492,185,519"/>
+<area shape="rect" id="node25" href="$classcompile_1_1_x_c_push.html#a7a8fbc2be97dd1cb7a0b02131e362d9c" title="クエリのコード変換を行う．" alt="" coords="271,492,441,519"/>
+<area shape="rect" id="node27" href="$classcmd_1_1_command_factory.html#a4ceabd7214d0a53f6911c981cb1f3c79" title="値型xtに応じて，変数からの値の読み出し命令CmdLoadを返すファクトリ手続き．" alt="" coords="796,686,989,727"/>
+<area shape="rect" id="node28" href="$classcmd_1_1_command_factory.html#ac54a883e3a727bf1f2ef1fd5ca383227" title="値型xtに応じて，値の変数への書き込み命令CmdStore命令を返すファクトリ手続き．" alt="" coords="796,569,989,610"/>
+<area shape="rect" id="node29" href="$classmachine_1_1_ref.html#a3137357d0abb2bd75321d6e19024956a" title="ノードが保持するデータの文字列表現を返す. interface XFormattableで必要。" alt="" coords="830,752,955,779"/>
+<area shape="rect" id="node37" href="$classmachine_1_1_ref.html#a343c42ffb9569842e1d7bb8e4e060bdd" title="指定されたフレームIDと変数IDをもつRefを生成する." alt="" coords="832,635,953,661"/>
+<area shape="rect" id="node41" href="$classast_1_1_ast_data_reader_1_1_get_ref.html#acd2fd83a0adb6f44674827d7f05ddf7d" title="局所変数を設定する." alt="" coords="781,416,1004,443"/>
+<area shape="rect" id="node30" href="$classmachine_1_1_ref.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す。" alt="" coords="557,777,703,804"/>
+<area shape="rect" id="node31" href="$classast_1_1_ast_data_reader_1_1_get_ref.html#a3137357d0abb2bd75321d6e19024956a" title="ノードが保持するデータの文字列表現を返す。" alt="" coords="252,660,460,687"/>
+<area shape="rect" id="node32" href="$classast_1_1_ast_data_reader_1_1_ast_var_use.html#a3137357d0abb2bd75321d6e19024956a" title="ノードが保持するデータの文字列表現を返す。" alt="" coords="268,711,444,753"/>
+<area shape="rect" id="node33" href="$classast_1_1_ast_data_writer.html#a3137357d0abb2bd75321d6e19024956a" title="ノードが保持するデータの文字列表現を返す。" alt="" coords="279,777,433,804"/>
+<area shape="rect" id="node34" href="$classast_1_1_ast_var_decl.html#a3137357d0abb2bd75321d6e19024956a" title="内容を表す文字列を出力する" alt="" coords="287,828,425,855"/>
+<area shape="rect" id="node35" href="$classmachine_1_1_ref_list.html#a61a1316af87e4a6656beb03056a26f12" title="変数の名前から参照オブジェクトを得る．" alt="" coords="281,903,431,929"/>
+<area shape="rect" id="node36" href="$classast_1_1_ast_var_decl.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="275,953,437,980"/>
+<area shape="rect" id="node38" href="$classmachine_1_1_ref.html#ab788c909dc6f3580059add4ad31e57e3" title="与えられた型のRefのサブクラスのオブジェクトを返すファクトリ手続き．" alt="" coords="562,609,698,636"/>
+<area shape="rect" id="node39" href="$classmachine_1_1_program_1_1_global_ref_list.html#a7021cf7b5ebe466bd3fa5eddde303d9d" title="与えられた型と名前をもつ変数参照を生成する．" alt="" coords="263,543,449,585"/>
+<area shape="rect" id="node40" href="$classast_1_1_ast_var_decl.html#a5b4b6ffe4c04719694eaf8dd12feba4b" title="@breif" alt="" coords="279,609,433,636"/>
+<area shape="rect" id="node44" href="$classtype_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="791,315,994,341"/>
+<area shape="rect" id="node45" href="$classast_1_1_ast_var_decl.html#a01af0743509a33df0dfbfa0c0b46690e" title="@breif" alt="" coords="816,365,969,392"/>
+</map>

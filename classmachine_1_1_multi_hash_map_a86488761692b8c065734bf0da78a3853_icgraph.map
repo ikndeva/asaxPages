@@ -1,0 +1,6 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title="キーであるkeyに対して、値の集合を返す。" alt="" coords="470,31,510,56"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_x_machine.html#a5d1670debc473ca7a5c0977b1e7b1097" title="終了イベントに対して、実行系を動作させる。" alt="" coords="220,5,422,31"/>
+<area shape="rect" id="node4" href="$classmachine_1_1_x_machine.html#a47ca083dca1c8959e0a03a777d9564e8" title="開始イベントに対して、実行系を動作させる。" alt="" coords="220,55,422,80"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_x_machine.html#ae6f252a506b1cbafd253781a2b717a01" title="開始・テキスト・終了の３種類の入力イベントを受け取り、実行系を動作させる。" alt="" coords="5,31,172,56"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Ref" name="Ref">
+<area shape="rect" id="node1" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="86,155,129,181"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title=" " alt="" coords="19,80,92,107"/>
+<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,5,105,32"/>
+<area shape="rect" id="node4" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="116,80,203,107"/>
+</map>

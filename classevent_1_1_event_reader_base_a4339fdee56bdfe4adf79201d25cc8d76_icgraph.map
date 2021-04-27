@@ -1,0 +1,5 @@
+<map id="setBLKSIZE" name="setBLKSIZE">
+<area shape="rect" id="node1" title="入力ストリームのブロックサイズをBLKSIZEに設定する." alt="" coords="493,13,588,39"/>
+<area shape="rect" id="node2" href="$classevent_1_1asax_1_1_asax_event_reader_factory.html#ab9a998cf3d39d12685fd6d90da8b091a" title="新しいパーザーを生成する" alt="" coords="249,5,445,47"/>
+<area shape="rect" id="node3" href="$classevent_1_1asax_1_1_asax_event_reader_factory.html#a6513db3c8794043acafbb292b085f7c2" title="新しいパーザーを生成する" alt="" coords="5,5,201,47"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="RefImpl" name="RefImpl">
+<area shape="rect" id="node1" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="81,152,148,177"/>
+<area shape="rect" id="node6" href="$classmachine_1_1_ref_impl_1_1_ref_impl_string.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="39,225,191,251"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title=" " alt="" coords="29,79,102,104"/>
+<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,5,107,31"/>
+<area shape="rect" id="node4" href="$interfacemachine_1_1_ref.html" title="フレームスタック中のコンテナ型の要素を指す参照オブジェクト." alt="" coords="143,79,185,104"/>
+<area shape="rect" id="node5" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="130,5,217,31"/>
+</map>

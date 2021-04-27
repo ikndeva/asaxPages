@@ -1,0 +1,4 @@
+<map id="CommandBoolean.CmdBoolAllocHeader" name="CommandBoolean.CmdBoolAllocHeader">
+<area shape="rect" id="node1" title="Boolean変数のフレームを割り当てる" alt="" coords="5,92,225,131"/>
+<area shape="rect" id="node2" href="$class_cmd_type_alloc_header.html" title=" " alt="" coords="39,5,190,44"/>
+</map>

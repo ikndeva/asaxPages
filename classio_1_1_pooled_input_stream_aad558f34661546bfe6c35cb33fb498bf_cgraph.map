@@ -1,0 +1,6 @@
+<map id="getSubstring" name="getSubstring">
+<area shape="rect" id="node1" title="位置区間 [beg, end)に対応する入力テキストの部分文字列の複製を返す." alt="" coords="5,22,102,48"/>
+<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#ab5632d167a39d12d408470f6116d312b" title="Check if the current input buffer contains the given position." alt="" coords="289,22,368,48"/>
+<area shape="rect" id="node3" href="$classio_1_1_pooled_input_stream.html#ad17c692ebd215556e2ea511f5d5190eb" title="与えられた論理位置posに対して，バッファ中で論理位置posの文字を返す． もしバッファが論理位置posを含まないときは，EOFを返す．" alt="" coords="154,22,236,48"/>
+<area shape="rect" id="node4" href="$classio_1_1_pooled_input_stream.html#acb3856901477cbdc25853f51015dc8cb" title="Reset the active cursor to the specified position." alt="" coords="150,72,241,97"/>
+</map>

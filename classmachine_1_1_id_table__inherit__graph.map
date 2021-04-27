@@ -1,0 +1,6 @@
+<map id="IdTable" name="IdTable">
+<area shape="rect" id="node1" title="@整数の表" alt="" coords="176,152,240,177"/>
+<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable_1_1_terminatable.html" title="木構造の終端として清書可能なオブジェクトのクラス" alt="" coords="5,79,187,104"/>
+<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="157,5,259,31"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="210,79,432,104"/>
+</map>

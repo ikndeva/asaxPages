@@ -1,0 +1,5 @@
+<map id="register" name="register">
+<area shape="rect" id="node1" title="型と名前から，変数の参照オブジェクトを取得し，登録する．" alt="" coords="5,5,71,32"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_ref_list.html#ad146fa8579a5f8a876c4688cc5a68520" title="出力文字列を返す．" alt="" coords="119,5,185,32"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_ref_list.html#a3137357d0abb2bd75321d6e19024956a" title="清書出力文字列を返す．" alt="" coords="233,5,280,32"/>
+</map>

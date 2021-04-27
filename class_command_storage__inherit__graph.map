@@ -1,0 +1,11 @@
+<map id="CommandStorage" name="CommandStorage">
+<area shape="rect" id="node1" title=" " alt="" coords="5,179,135,204"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_load.html" title="整数変数値を取り出す．" alt="" coords="184,5,404,31"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_store.html" title="整数変数にスタックトップの整数を代入する．" alt="" coords="183,55,405,80"/>
+<area shape="rect" id="node4" href="$classmachine_1_1_command_double_1_1_cmd_dbl_load.html" title="倍精度実数変数値を取り出す．" alt="" coords="191,104,397,129"/>
+<area shape="rect" id="node5" href="$classmachine_1_1_command_double_1_1_cmd_dbl_store.html" title="倍精度実数変数にスタックトップの倍精度実数を代入する．" alt="" coords="190,153,398,179"/>
+<area shape="rect" id="node6" href="$classmachine_1_1_command_integer_1_1_cmd_int_load.html" title="整数変数値を取り出す．" alt="" coords="194,203,394,228"/>
+<area shape="rect" id="node7" href="$classmachine_1_1_command_integer_1_1_cmd_int_store.html" title="整数変数にスタックトップの整数を代入する．" alt="" coords="193,252,395,277"/>
+<area shape="rect" id="node8" href="$classmachine_1_1_command_string_1_1_cmd_str_load.html" title="スタックトップに文字列変数値を取り出す．" alt="" coords="196,301,392,327"/>
+<area shape="rect" id="node9" href="$classmachine_1_1_command_string_1_1_cmd_str_store.html" title="文字列変数にスタックトップの文字列を代入する．" alt="" coords="195,351,393,376"/>
+</map>

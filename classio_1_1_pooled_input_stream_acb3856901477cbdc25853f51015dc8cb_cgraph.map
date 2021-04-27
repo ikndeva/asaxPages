@@ -1,0 +1,4 @@
+<map id="resetCursor" name="resetCursor">
+<area shape="rect" id="node1" title="Reset the active cursor to the specified position." alt="" coords="5,5,96,31"/>
+<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#ab5632d167a39d12d408470f6116d312b" title="Check if the current input buffer contains the given position." alt="" coords="144,5,223,31"/>
+</map>

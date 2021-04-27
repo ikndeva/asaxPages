@@ -1,0 +1,5 @@
+<map id="RefList" name="RefList">
+<area shape="rect" id="node1" title="@整数の表" alt="" coords="85,152,148,177"/>
+<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="5,79,227,104"/>
+<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="66,5,167,31"/>
+</map>

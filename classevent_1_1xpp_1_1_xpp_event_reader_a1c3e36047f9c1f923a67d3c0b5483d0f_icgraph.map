@@ -1,0 +1,4 @@
+<map id="getNextEvent" name="getNextEvent">
+<area shape="rect" id="node1" title="次のイベントを返す." alt="" coords="241,12,342,37"/>
+<area shape="rect" id="node2" href="$classevent_1_1xpp_1_1_xpp_event_reader_1_1_xpp_event_iterator.html#aface30febb89dafb3fe3ea57f1ca1e3b" title="次の要素であるイベントを返す．終端に達したときはEOS型のイベントを返す．" alt="" coords="5,5,193,44"/>
+</map>

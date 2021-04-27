@@ -1,0 +1,4 @@
+<map id="reset" name="reset">
+<area shape="rect" id="node1" title="IntegerBufを空に初期化する。" alt="" coords="152,5,203,31"/>
+<area shape="rect" id="node2" href="$classframe_1_1_integer_adder.html#ab9fd317ed5e6fd2c80b392edb8cb3b08" title="空のIntegerBufをもつホルダを生成する。" alt="" coords="5,5,104,31"/>
+</map>

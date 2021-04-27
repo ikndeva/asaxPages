@@ -1,0 +1,6 @@
+<map id="CmdStr2Type" name="CmdStr2Type">
+<area shape="rect" id="node1" title=" " alt="" coords="5,78,108,105"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_boolean_1_1_cmd_str2_bool.html" title="OVMachine上のString値をBoolean値に変換する命令．" alt="" coords="156,5,367,47"/>
+<area shape="rect" id="node3" href="$classcmd_1_1_command_double_1_1_cmd_str2_dbl.html" title="OVMachine上のString値をDouble値に変換する命令．" alt="" coords="162,71,361,112"/>
+<area shape="rect" id="node4" href="$classcmd_1_1_command_integer_1_1_cmd_str2_int.html" title="OVMachine上のString値をInteger値に変換する命令．" alt="" coords="165,136,357,177"/>
+</map>

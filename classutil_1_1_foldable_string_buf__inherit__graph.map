@@ -1,0 +1,5 @@
+<map id="FoldableStringBuf" name="FoldableStringBuf">
+<area shape="rect" id="node1" title="入れ子深さに応じた段下げ表示を行うよう拡張された文字列バッファのクラス." alt="" coords="34,79,161,104"/>
+<area shape="rect" id="node3" href="$classutil_1_1_foldable_string_buf_1_1_lockable.html" title="初期化のロック機構をもつFoldableStringBufクラス" alt="" coords="5,152,190,177"/>
+<area shape="rect" id="node2" href="$classutil_1_1_string_buf.html" title="文字列バッファのクラス." alt="" coords="59,5,136,31"/>
+</map>

@@ -1,0 +1,25 @@
+var enumtype_1_1_x_type =
+[
+    [ "XType", "enumtype_1_1_x_type.html#a7ec079490deaf4e0ee54e946dd63927f", null ],
+    [ "XType", "enumtype_1_1_x_type.html#a48eb9d148d616026acee1ceb6f07d56d", null ],
+    [ "isConcreteType", "enumtype_1_1_x_type.html#ac866979e9af09ba2cc700c74bb89865f", null ],
+    [ "isNonReturnType", "enumtype_1_1_x_type.html#ac323bf3fdcf87214c9938fc4c04adb0d", null ],
+    [ "isReturnType", "enumtype_1_1_x_type.html#a473af21ac864558fb40b9defd43b56d4", null ],
+    [ "getPrefix", "enumtype_1_1_x_type.html#a5b9a69b246225ec2eca3637f32437a16", null ],
+    [ "getCustomObjectString", "enumtype_1_1_x_type.html#a54d57ec79cee3ac4683b86ee2dcddd49", null ],
+    [ "leq", "enumtype_1_1_x_type.html#a299033fd07237d997de10296fa5283ab", null ],
+    [ "getLeastUpperBound", "enumtype_1_1_x_type.html#abe8a03a20cb3fc094301b80f85ba67d1", null ],
+    [ "getGreatestLowerBound", "enumtype_1_1_x_type.html#a7f1a800ec5fd3b1844500bab56de66d9", null ],
+    [ "toString", "enumtype_1_1_x_type.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "Boolean", "enumtype_1_1_x_type.html#ae7d38601dfbd73adbe5c1b3ec34e0e13", null ],
+    [ "Number", "enumtype_1_1_x_type.html#ad1fb407b73d9c6e54eec2180d3bc4d48", null ],
+    [ "Integer", "enumtype_1_1_x_type.html#a8f1c62844f94b49f32b108711766d36b", null ],
+    [ "Double", "enumtype_1_1_x_type.html#ae7731a893109b41a186a62effd64cdda", null ],
+    [ "String", "enumtype_1_1_x_type.html#a626ea521670a14e666c265c566fe9f86", null ],
+    [ "ResState", "enumtype_1_1_x_type.html#a91fa7fcaa3fb9dc708f22c0245ca6ee8", null ],
+    [ "OStream", "enumtype_1_1_x_type.html#a6fabae2cb4f8fef4295211db0d8173c6", null ],
+    [ "Void", "enumtype_1_1_x_type.html#ae788395eecb5f6b1ad00f48f836abee2", null ],
+    [ "Undef", "enumtype_1_1_x_type.html#a4977ff4143fa87a95783c2d62e55d825", null ],
+    [ "Default", "enumtype_1_1_x_type.html#a926ecaa791ce6344e2d77a9add176b67", null ],
+    [ "Bottom", "enumtype_1_1_x_type.html#a901b2695b45f01b091a2a99fb88c3858", null ]
+];

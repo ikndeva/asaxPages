@@ -1,0 +1,17 @@
+<map id="AstDataReader.GetRef" name="AstDataReader.GetRef">
+<area shape="rect" id="node1" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="1268,195,1425,222"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="1107,120,1219,147"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_atom.html" title="値を返すことができる終端オブジェクトのクラス" alt="" coords="965,182,1039,208"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_terminal.html" title="値型をもたない終端オブジェクトのクラス" alt="" coords="789,182,879,208"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title=" " alt="" coords="370,176,443,203"/>
+<area shape="rect" id="node14" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="813,283,855,310"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,59,105,86"/>
+<area shape="rect" id="node9" href="$interfaceformat_1_1_x_formattable_1_1_terminatable.html" title="木構造の終端として清書可能なオブジェクトのクラス" alt="" coords="317,59,496,86"/>
+<area shape="rect" id="node12" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="520,8,728,35"/>
+<area shape="rect" id="node7" title=" " alt="" coords="36,310,75,336"/>
+<area shape="rect" id="node8" title=" " alt="" coords="22,143,89,170"/>
+<area shape="rect" id="node10" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="752,232,916,259"/>
+<area shape="rect" id="node11" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="361,232,453,259"/>
+<area shape="rect" id="node13" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="1110,195,1215,222"/>
+<area shape="rect" id="node15" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="363,283,450,310"/>
+</map>

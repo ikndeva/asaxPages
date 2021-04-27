@@ -1,0 +1,8 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title="スタックの値を返す." alt="" coords="240,143,280,170"/>
+<area shape="rect" id="node2" href="$classframe_1_1_frame_stack_uni.html#a58d3670e9ecf7f57e481d0b0afb165e0" title="フレームfpで変数IDがさすBooleanHolder型のコンテナを取得する. exp." alt="" coords="7,5,190,47"/>
+<area shape="rect" id="node3" href="$classframe_1_1_frame_stack_uni.html#a9731c380262fd5e18db63a136a509815" title="フレームfpで変数IDがさすDoubleHolder型のコンテナを取得する. exp." alt="" coords="7,71,190,112"/>
+<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#acbdb035a8d6b8d5221d645aadd815476" title="フレームfpで変数IDがさすIntegerHolder型のコンテナを取得する." alt="" coords="7,136,190,177"/>
+<area shape="rect" id="node5" href="$classframe_1_1_frame_stack_uni.html#add6cfcd182226467643bb7d2fc1275a0" title="フレームfpで変数IDがさすStringHolder型のコンテナを取得する." alt="" coords="7,201,190,243"/>
+<area shape="rect" id="node6" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="5,267,192,308"/>
+</map>
