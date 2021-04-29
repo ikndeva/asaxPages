@@ -96,7 +96,9 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
 <h1>210419 Thu, 昭和の日, 17:00-26:30 コード, 26:30-28:00 報告, 11h: 中間言語のための再設計の実装とリファクタリング</h1>
-<p>コンパイルと清書出力の両方を簡素化するために，AstNode階層の再構築を行った．対応するコンパイラのパイプラインも手直しした．実行系は，全体に動的な機構を導入することで，実装の簡素化と表現力の向上を図った．だいたい一区切りついたと思う．全体としては，これから行うXscanの実行系の上に乗る中間言語を実現するための準備のフェーズといえる．</p>
+<p>コンパイルと清書出力の両方を簡素化するために，AstNode階層の再構築と，関連の作業を行った．対応するコンパイラのパイプラインも手直しした．実行系は，全体に動的な機構を導入することで，実装の簡素化と表現力の向上を図った．</p>
+<p>Gitで，masterブランチから，asax03monostackブランチを分岐し，最後にffで1本にマージし，主幹に戻している．</p>
+<p>まとめると，今日の作業で，第3期の中間言語作成のfeasibility studyとして，だいたい一区切りついたと思う．全体としては，これから行うXscanの実行系の上に乗る中間言語を実現するための準備のフェーズといえる．</p>
 <ul>
 <li>ast/Node.java: クラスAstNodeを抽象化して，インタフェースNodeを作成し，合わせてインタフェースNavigatableを改良した．</li>
 </ul>
@@ -879,7 +881,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Apr 30 2021 04:06:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Apr 30 2021 04:12:18 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
