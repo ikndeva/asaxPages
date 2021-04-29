@@ -1,12 +1,11 @@
 <map id="CommandBase.CommandJumpBase" name="CommandBase.CommandJumpBase">
-<area shape="rect" id="node1" title="無条件ジャンプの命令" alt="" coords="580,107,819,133"/>
-<area shape="rect" id="node6" href="$classcmd_1_1_command_base_1_1_cmd_jmp.html" title="無条件ジャンプの命令" alt="" coords="900,5,1069,32"/>
-<area shape="rect" id="node7" href="$classcmd_1_1_command_base_1_1_cmd_jmp_f_a_l_s_e.html" title="偽ならばジャンプの命令" alt="" coords="879,56,1090,83"/>
-<area shape="rect" id="node8" href="$classcmd_1_1_command_base_1_1_cmd_jmp_n_o_n_z_e_r_o.html" title="スタックの値が非0ならばジャンプの命令" alt="" coords="867,107,1103,133"/>
-<area shape="rect" id="node9" href="$classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html" title="真ならばジャンプの命令" alt="" coords="881,157,1088,184"/>
-<area shape="rect" id="node10" href="$classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html" title="スタックの値が0ならばジャンプの命令" alt="" coords="881,208,1088,235"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="420,107,532,133"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="237,81,288,108"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="153,132,372,159"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,132,105,159"/>
+<area shape="rect" id="node1" title="無条件ジャンプの命令" alt="" coords="351,107,589,133"/>
+<area shape="rect" id="node5" href="$classcmd_1_1_command_base_1_1_cmd_jmp.html" title="無条件ジャンプの命令" alt="" coords="671,5,840,32"/>
+<area shape="rect" id="node6" href="$classcmd_1_1_command_base_1_1_cmd_jmp_f_a_l_s_e.html" title="偽ならばジャンプの命令" alt="" coords="650,56,861,83"/>
+<area shape="rect" id="node7" href="$classcmd_1_1_command_base_1_1_cmd_jmp_n_o_n_z_e_r_o.html" title="スタックの値が非0ならばジャンプの命令" alt="" coords="637,107,873,133"/>
+<area shape="rect" id="node8" href="$classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html" title="真ならばジャンプの命令" alt="" coords="652,157,859,184"/>
+<area shape="rect" id="node9" href="$classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html" title="スタックの値が0ならばジャンプの命令" alt="" coords="652,208,859,235"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="191,107,303,133"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="49,81,99,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,132,143,159"/>
 </map>

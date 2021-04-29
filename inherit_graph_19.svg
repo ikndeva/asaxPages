@@ -12,9 +12,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="classast_1_1_block_base_1_1_ret_list.html" target="_top" xlink:title="ブロックに出現するリターン節の集まりと、それらの型の最小上界を保持する。">
+<g id="a_node1"><a xlink:href="class_buffered_text_writer.html" target="_top" xlink:title="読み書き両方のストリームを実現するモジュール.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 98,-19.5 98,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="49" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BlockBase.RetList</text>
+<text text-anchor="middle" x="49" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">BufferedTextWriter</text>
 </a>
 </g>
 </g>

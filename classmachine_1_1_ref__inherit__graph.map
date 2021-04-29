@@ -1,9 +1,10 @@
 <map id="Ref" name="Ref">
-<area shape="rect" id="node1" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="250,229,293,256"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="183,155,256,181"/>
+<area shape="rect" id="node1" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="258,229,301,256"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="191,155,264,181"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="133,80,306,107"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="276,5,376,32"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="330,80,538,107"/>
-<area shape="rect" id="node7" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="280,155,367,181"/>
+<area shape="rect" id="node4" href="$interfaceast_1_1_node.html" title=" " alt="" coords="133,80,186,107"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="247,5,347,32"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="210,80,383,107"/>
+<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="407,80,615,107"/>
+<area shape="rect" id="node8" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="288,155,375,181"/>
 </map>

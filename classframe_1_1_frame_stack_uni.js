@@ -3,7 +3,7 @@ var classframe_1_1_frame_stack_uni =
     [ "FrameStackUni", "classframe_1_1_frame_stack_uni.html#ae6eaac2f39aa5ae1c7724dc2453c57c1", null ],
     [ "setReporter", "classframe_1_1_frame_stack_uni.html#a5d3ec868d7f73cc70303e27dad733f84", null ],
     [ "create", "classframe_1_1_frame_stack_uni.html#ac267d53cce93cb73a44fce46d41cec11", null ],
-    [ "setGlobalRefList", "classframe_1_1_frame_stack_uni.html#a05a37114608858a1f450b7eef4f2abc7", null ],
+    [ "setGlobalRefList", "classframe_1_1_frame_stack_uni.html#a787295d6104f3d0cb35486cdf2bdf2c4", null ],
     [ "pushLevel", "classframe_1_1_frame_stack_uni.html#aa913875bbd7c0cd052f26b3186054634", null ],
     [ "popLevel", "classframe_1_1_frame_stack_uni.html#a40466db01c1660fc5a481683f327ae01", null ],
     [ "allocFrame", "classframe_1_1_frame_stack_uni.html#a5a1fe313ead14b2efa55f0b78f6cd729", null ],

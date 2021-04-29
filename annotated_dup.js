@@ -14,7 +14,6 @@ var annotated_dup =
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", "classast_1_1_ast_func_call" ],
       [ "AstIf", "classast_1_1_ast_if.html", "classast_1_1_ast_if" ],
       [ "AstLet", "classast_1_1_ast_let.html", "classast_1_1_ast_let" ],
-      [ "AstList", "classast_1_1_ast_list.html", "classast_1_1_ast_list" ],
       [ "AstLiteral", "classast_1_1_ast_literal.html", [
         [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
         [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],
@@ -40,10 +39,11 @@ var annotated_dup =
       [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
       [ "Path", "classast_1_1_path.html", "classast_1_1_path" ],
       [ "Node", "interfaceast_1_1_node.html", "interfaceast_1_1_node" ],
+      [ "Program", "classast_1_1_program.html", "classast_1_1_program" ],
+      [ "SentList", "classast_1_1_sent_list.html", "classast_1_1_sent_list" ],
       [ "Step", "classast_1_1_step.html", "classast_1_1_step" ],
       [ "StepRule", "classast_1_1_step_rule.html", "classast_1_1_step_rule" ],
       [ "StringRel", "classast_1_1_string_rel.html", "classast_1_1_string_rel" ],
-      [ "Traversable", "interfaceast_1_1_traversable.html", "interfaceast_1_1_traversable" ],
       [ "XFormList< T extends XFormattable, S extends XFormList", "classast_1_1_x_form_list_3_01_t_01extends_01_x_formattable_00_01_s_01extends_01_x_form_list.html", null ]
     ] ],
     [ "cmd", "namespacecmd.html", [
@@ -92,7 +92,6 @@ var annotated_dup =
       [ "XCNorm", "classcompile_1_1_x_c_norm.html", null ],
       [ "XCompiler", "classcompile_1_1_x_compiler.html", "classcompile_1_1_x_compiler" ],
       [ "XCPush", "classcompile_1_1_x_c_push.html", "classcompile_1_1_x_c_push" ],
-      [ "XCTest", "classcompile_1_1_x_c_test.html", "classcompile_1_1_x_c_test" ],
       [ "XCTyping", "classcompile_1_1_x_c_typing.html", "classcompile_1_1_x_c_typing" ]
     ] ],
     [ "event", "namespaceevent.html", [
@@ -150,6 +149,7 @@ var annotated_dup =
       [ "Context", "interfacemachine_1_1_context.html", "interfacemachine_1_1_context" ],
       [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", "interfacemachine_1_1_data_accessor" ],
       [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ],
+      [ "GlobalRefList", "classmachine_1_1_global_ref_list.html", "classmachine_1_1_global_ref_list" ],
       [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ],
       [ "Inspectable", "interfacemachine_1_1_inspectable.html", "interfacemachine_1_1_inspectable" ],
       [ "LongMask", "classmachine_1_1_long_mask.html", "classmachine_1_1_long_mask" ],
@@ -157,7 +157,6 @@ var annotated_dup =
       [ "MultiHashMap", "classmachine_1_1_multi_hash_map.html", "classmachine_1_1_multi_hash_map" ],
       [ "OSRef", "classmachine_1_1_o_s_ref.html", "classmachine_1_1_o_s_ref" ],
       [ "OVMachine", "classmachine_1_1_o_v_machine.html", "classmachine_1_1_o_v_machine" ],
-      [ "Program", "classmachine_1_1_program.html", "classmachine_1_1_program" ],
       [ "Ref", "classmachine_1_1_ref.html", "classmachine_1_1_ref" ],
       [ "RefList", "classmachine_1_1_ref_list.html", "classmachine_1_1_ref_list" ],
       [ "Rule", "interfacemachine_1_1_rule.html", "interfacemachine_1_1_rule" ],

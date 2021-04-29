@@ -18,9 +18,6 @@ var dir_386d637001b72780a59011649cebfe97 =
     [ "XCPush.java", "_x_c_push_8java.html", [
       [ "XCPush", "classcompile_1_1_x_c_push.html", "classcompile_1_1_x_c_push" ]
     ] ],
-    [ "XCTest.java", "_x_c_test_8java.html", [
-      [ "XCTest", "classcompile_1_1_x_c_test.html", "classcompile_1_1_x_c_test" ]
-    ] ],
     [ "XCTyping.java", "_x_c_typing_8java.html", [
       [ "XCTyping", "classcompile_1_1_x_c_typing.html", "classcompile_1_1_x_c_typing" ]
     ] ]

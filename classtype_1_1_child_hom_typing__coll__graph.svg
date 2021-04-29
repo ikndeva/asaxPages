@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="親とすべての子が同値な関数型．">
+<g id="a_node1"><a xlink:title="すべての子が同値な関数型．親は異なる型を持値ち得る．">
 <polygon fill="#bfbfbf" stroke="black" points="151.5,-0.5 151.5,-19.5 240.5,-19.5 240.5,-0.5 151.5,-0.5"/>
 <text text-anchor="middle" x="196" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChildHomTyping</text>
 </a>

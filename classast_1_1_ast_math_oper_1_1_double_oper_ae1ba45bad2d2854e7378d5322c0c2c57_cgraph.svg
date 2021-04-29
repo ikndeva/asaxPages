@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 745;
+var viewWidth = 707;
 var viewHeight = 161;
 var sectionId = 'dynsection-2';
 </script>
@@ -54,7 +54,7 @@ var sectionId = 'dynsection-2';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>gencode</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-157 741,-157 741,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-157 703,-157 703,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -67,7 +67,7 @@ var sectionId = 'dynsection-2';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classast_1_1_ast_oper.html#a32bccadf4b650391376fe92303e9b41c" target="_top" xlink:title="二つの非演算子である子供のコードを生成す">
+<g id="a_node2"><a xlink:href="classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c" target="_top" xlink:title="二つの非演算子である子供のコードを生成す">
 <polygon fill="white" stroke="black" points="89,-76.5 89,-95.5 244,-95.5 244,-76.5 89,-76.5"/>
 <text text-anchor="middle" x="166.5" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstOper.generateChildCode</text>
 </a>
@@ -82,7 +82,7 @@ var sectionId = 'dynsection-2';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classast_1_1_ast_node.html#ae67707ee54f4c5d72844844470940d77" target="_top" xlink:title="i番目の子供を返す.">
+<g id="a_node10"><a xlink:href="classast_1_1_ast_node.html#a35d53cdd86285e56b69cfedc5ef28580" target="_top" xlink:title="i番目の子供を返す.">
 <polygon fill="white" stroke="black" points="111.5,-38.5 111.5,-57.5 221.5,-57.5 221.5,-38.5 111.5,-38.5"/>
 <text text-anchor="middle" x="166.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstNode.getChild</text>
 </a>
@@ -98,118 +98,118 @@ var sectionId = 'dynsection-2';
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" target="_top" xlink:title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。">
-<polygon fill="white" stroke="black" points="306,-133.5 306,-152.5 393,-152.5 393,-133.5 306,-133.5"/>
-<text text-anchor="middle" x="349.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Util.errorExit</text>
+<polygon fill="white" stroke="black" points="287,-133.5 287,-152.5 374,-152.5 374,-133.5 287,-133.5"/>
+<text text-anchor="middle" x="330.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Util.errorExit</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M194.64,-95.64C217.34,-103.58 250.64,-114.98 280,-124 287.3,-126.24 295.07,-128.51 302.67,-130.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="301.91,-134.09 312.48,-133.41 303.8,-127.35 301.91,-134.09"/>
+<path fill="none" stroke="midnightblue" d="M194.62,-95.54C221.48,-104.99 262.82,-119.54 292.66,-130.04"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="291.7,-133.41 302.3,-133.43 294.02,-126.81 291.7,-133.41"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classast_1_1_ast_node_base.html#adfc6b93e5d1b92cba301a9a917fe372c" target="_top" xlink:title="ノードの演算型を返す。">
-<polygon fill="white" stroke="black" points="280,-95.5 280,-114.5 419,-114.5 419,-95.5 280,-95.5"/>
-<text text-anchor="middle" x="349.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstNodeBase.getTyping</text>
+<g id="a_node5"><a xlink:href="interfaceast_1_1_node.html#adfc6b93e5d1b92cba301a9a917fe372c" target="_top" xlink:title="ノードの演算型を返す。">
+<polygon fill="white" stroke="black" points="280,-95.5 280,-114.5 381,-114.5 381,-95.5 280,-95.5"/>
+<text text-anchor="middle" x="330.5" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.Node.getTyping</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node2&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M244.26,-94.06C252.69,-94.94 261.27,-95.84 269.72,-96.73"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="269.63,-100.24 279.94,-97.8 270.36,-93.28 269.63,-100.24"/>
+<path fill="none" stroke="midnightblue" d="M244.23,-95C252.84,-96.01 261.5,-97.03 269.85,-98"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="269.5,-101.49 279.84,-99.18 270.31,-94.53 269.5,-101.49"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
 <g id="a_node6"><a xlink:href="interfacetype_1_1_typable.html#a1e3c48b50ed1c8eae4f3b92d90580630" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="304,-57.5 304,-76.5 395,-76.5 395,-57.5 304,-57.5"/>
-<text text-anchor="middle" x="349.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.Typable.self</text>
+<polygon fill="white" stroke="black" points="285,-57.5 285,-76.5 376,-76.5 376,-57.5 285,-57.5"/>
+<text text-anchor="middle" x="330.5" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.Typable.self</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node2&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M244.26,-77.94C260.94,-76.19 278.25,-74.37 293.87,-72.74"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="294.28,-76.21 303.86,-71.69 293.55,-69.25 294.28,-76.21"/>
+<path fill="none" stroke="midnightblue" d="M244.23,-77C254.55,-75.79 264.96,-74.57 274.79,-73.42"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="275.27,-76.88 284.8,-72.24 274.46,-69.93 275.27,-76.88"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
 <g id="a_node7"><a xlink:href="classtype_1_1_x_type_item.html#a376d814d15cc5ae21afd6425d0780ad9" target="_top" xlink:title="この型変数thisがもつ値型を返す。">
-<polygon fill="white" stroke="black" points="301,-19.5 301,-38.5 398,-38.5 398,-19.5 301,-19.5"/>
-<text text-anchor="middle" x="349.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTypeItem.ty</text>
+<polygon fill="white" stroke="black" points="282,-19.5 282,-38.5 379,-38.5 379,-19.5 282,-19.5"/>
+<text text-anchor="middle" x="330.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTypeItem.ty</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node2&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M213.77,-76.42C223.87,-73.8 234.41,-70.66 244,-67 260.9,-60.55 263.19,-54.68 280,-48 285.95,-45.64 292.29,-43.45 298.64,-41.47"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="299.95,-44.73 308.54,-38.53 297.96,-38.02 299.95,-44.73"/>
+<path fill="none" stroke="midnightblue" d="M213.77,-76.42C223.87,-73.8 234.41,-70.66 244,-67 260.9,-60.55 263.53,-55.48 280,-48 284.22,-46.09 288.69,-44.19 293.15,-42.38"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="294.78,-45.5 302.8,-38.58 292.21,-38.99 294.78,-45.5"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8" target="_top" xlink:title="スタックトレースを出力する。">
-<polygon fill="white" stroke="black" points="455,-133.5 455,-152.5 580,-152.5 580,-133.5 455,-133.5"/>
-<text text-anchor="middle" x="517.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Util.reportStackTrace</text>
+<polygon fill="white" stroke="black" points="417,-133.5 417,-152.5 542,-152.5 542,-133.5 417,-133.5"/>
+<text text-anchor="middle" x="479.5" y="-140.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Util.reportStackTrace</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M393.25,-143C408.91,-143 427.09,-143 444.6,-143"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="444.81,-146.5 454.81,-143 444.81,-139.5 444.81,-146.5"/>
+<path fill="none" stroke="midnightblue" d="M374.02,-143C384.28,-143 395.52,-143 406.71,-143"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="406.94,-146.5 416.94,-143 406.94,-139.5 406.94,-146.5"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
 <g id="a_node8"><a xlink:href="classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" target="_top" xlink:title="与えられた元が属する同値類の代表元を返す。">
-<polygon fill="white" stroke="black" points="616,-19.5 616,-38.5 737,-38.5 737,-19.5 616,-19.5"/>
-<text text-anchor="middle" x="676.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.UnionFindItem.find</text>
+<polygon fill="white" stroke="black" points="578,-19.5 578,-38.5 699,-38.5 699,-19.5 578,-19.5"/>
+<text text-anchor="middle" x="638.5" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.UnionFindItem.find</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node7&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M398.11,-29C452.8,-29 543.06,-29 605.7,-29"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="605.89,-32.5 615.89,-29 605.89,-25.5 605.89,-32.5"/>
+<path fill="none" stroke="midnightblue" d="M379.31,-29C429.9,-29 510.21,-29 567.83,-29"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="567.96,-32.5 577.96,-29 567.96,-25.5 567.96,-32.5"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
 <g id="a_node9"><a xlink:href="classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b" target="_top" xlink:title="この元の同値類がもつT型の値を返す。">
-<polygon fill="white" stroke="black" points="458,-0.5 458,-19.5 577,-19.5 577,-0.5 458,-0.5"/>
-<text text-anchor="middle" x="517.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.UnionFindItem.get</text>
+<polygon fill="white" stroke="black" points="420,-0.5 420,-19.5 539,-19.5 539,-0.5 420,-0.5"/>
+<text text-anchor="middle" x="479.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.UnionFindItem.get</text>
 </a>
 </g>
 </g>
 <!-- Node7&#45;&gt;Node9 -->
 <g id="edge9" class="edge">
 <title>Node7&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M398.07,-23.56C413.46,-21.79 430.85,-19.8 447.48,-17.9"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="448.17,-21.34 457.7,-16.73 447.37,-14.39 448.17,-21.34"/>
+<path fill="none" stroke="midnightblue" d="M379.23,-22.83C389.07,-21.56 399.63,-20.19 410.05,-18.85"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="410.5,-22.32 419.97,-17.57 409.6,-15.38 410.5,-22.32"/>
 </g>
 <!-- Node8&#45;&gt;Node8 -->
 <g id="edge8" class="edge">
 <title>Node8&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M652.15,-38.76C640.3,-47.57 648.42,-57 676.5,-57 694.93,-57 704.76,-52.94 705.99,-47.65"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="708.89,-45.66 700.85,-38.76 702.82,-49.17 708.89,-45.66"/>
+<path fill="none" stroke="midnightblue" d="M614.15,-38.76C602.3,-47.57 610.42,-57 638.5,-57 656.93,-57 666.76,-52.94 667.99,-47.65"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="670.89,-45.66 662.85,-38.76 664.82,-49.17 670.89,-45.66"/>
 </g>
 <!-- Node9&#45;&gt;Node8 -->
 <g id="edge10" class="edge">
 <title>Node9&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M577.41,-17.13C586.61,-18.24 596.19,-19.4 605.61,-20.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="605.39,-24.04 615.74,-21.77 606.23,-17.09 605.39,-24.04"/>
+<path fill="none" stroke="midnightblue" d="M539.41,-17.13C548.61,-18.24 558.19,-19.4 567.61,-20.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="567.39,-24.04 577.74,-21.77 568.23,-17.09 567.39,-24.04"/>
 </g>
 </g>
 </svg>

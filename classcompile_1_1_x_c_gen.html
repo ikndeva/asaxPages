@@ -109,13 +109,13 @@ Collaboration diagram for XCGen:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a5c8c0092f433cb4e947341e8c8a4e161"><td class="memItemLeft" align="right" valign="top"><a id="a5c8c0092f433cb4e947341e8c8a4e161"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompile_1_1_x_c_gen.html#a5c8c0092f433cb4e947341e8c8a4e161">generateCode</a> (<a class="el" href="classast_1_1_ast_node.html">AstNode</a> step)</td></tr>
-<tr class="memdesc:a5c8c0092f433cb4e947341e8c8a4e161"><td class="mdescLeft">&#160;</td><td class="mdescRight">コード生成を行う． <br /></td></tr>
-<tr class="separator:a5c8c0092f433cb4e947341e8c8a4e161"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3f537c1b2ff8f460564224a71770bf5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classast_1_1_ast_node.html">AstNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompile_1_1_x_c_gen.html#ad3f537c1b2ff8f460564224a71770bf5">recGen</a> (<a class="el" href="classast_1_1_ast_node.html">AstNode</a> node, <a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a> code, <a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a> precode)</td></tr>
-<tr class="memdesc:ad3f537c1b2ff8f460564224a71770bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">コード生成を行う再帰手続き．  <a href="classcompile_1_1_x_c_gen.html#ad3f537c1b2ff8f460564224a71770bf5">More...</a><br /></td></tr>
-<tr class="separator:ad3f537c1b2ff8f460564224a71770bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a587cd4000bde35e8f7427da80fb65d8b"><td class="memItemLeft" align="right" valign="top"><a id="a587cd4000bde35e8f7427da80fb65d8b"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompile_1_1_x_c_gen.html#a587cd4000bde35e8f7427da80fb65d8b">generateCode</a> (<a class="el" href="interfaceast_1_1_node.html">Node</a> step)</td></tr>
+<tr class="memdesc:a587cd4000bde35e8f7427da80fb65d8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">コード生成を行う． <br /></td></tr>
+<tr class="separator:a587cd4000bde35e8f7427da80fb65d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eeb728ff52edee4946ab175126699b8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interfaceast_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompile_1_1_x_c_gen.html#a1eeb728ff52edee4946ab175126699b8">recGen</a> (<a class="el" href="interfaceast_1_1_node.html">Node</a> node, <a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a> code, <a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a> precode)</td></tr>
+<tr class="memdesc:a1eeb728ff52edee4946ab175126699b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">コード生成を行う再帰手続き．  <a href="classcompile_1_1_x_c_gen.html#a1eeb728ff52edee4946ab175126699b8">More...</a><br /></td></tr>
+<tr class="separator:a1eeb728ff52edee4946ab175126699b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -160,10 +160,10 @@ static <a class="el" href="classmachine_1_1_ref.html">Ref</a>&#160;</td><td clas
 static <a class="el" href="classutil_1_1_trace_level.html">TraceLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LOG</b> = new <a class="el" href="classutil_1_1_trace_level.html">TraceLevel</a>()</td></tr>
 <tr class="separator:abd2c27be350958d3dc103ce4255901fa inherit pub_static_attribs_classcompile_1_1_x_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classcompile_1_1_x_compiler"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classcompile_1_1_x_compiler')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classcompile_1_1_x_compiler.html">XCompiler</a></td></tr>
-<tr class="memitem:a357861d8ce6a1f9ca08926858579238c inherit pro_methods_classcompile_1_1_x_compiler"><td class="memItemLeft" align="right" valign="top"><a id="a357861d8ce6a1f9ca08926858579238c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompile_1_1_x_compiler.html#a357861d8ce6a1f9ca08926858579238c">deletingSubs</a> (<a class="el" href="interfacemachine_1_1_runnable.html">machine.Runnable</a> prog)</td></tr>
-<tr class="memdesc:a357861d8ce6a1f9ca08926858579238c inherit pro_methods_classcompile_1_1_x_compiler"><td class="mdescLeft">&#160;</td><td class="mdescRight">各ステップのSubを消去する. <br /></td></tr>
-<tr class="separator:a357861d8ce6a1f9ca08926858579238c inherit pro_methods_classcompile_1_1_x_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d598c7e1cb5bc2b36f210cfcc70fe9a inherit pro_methods_classcompile_1_1_x_compiler"><td class="memItemLeft" align="right" valign="top"><a id="a8d598c7e1cb5bc2b36f210cfcc70fe9a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompile_1_1_x_compiler.html#a8d598c7e1cb5bc2b36f210cfcc70fe9a">deletePreSent</a> (<a class="el" href="interfacemachine_1_1_runnable.html">machine.Runnable</a> prog)</td></tr>
+<tr class="memdesc:a8d598c7e1cb5bc2b36f210cfcc70fe9a inherit pro_methods_classcompile_1_1_x_compiler"><td class="mdescLeft">&#160;</td><td class="mdescRight">各ステップのSubを消去する. <br /></td></tr>
+<tr class="separator:a8d598c7e1cb5bc2b36f210cfcc70fe9a inherit pro_methods_classcompile_1_1_x_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa90dec8e65a7f38b8eba06b66a5dff5b inherit pro_methods_classcompile_1_1_x_compiler"><td class="memItemLeft" align="right" valign="top"><a id="aa90dec8e65a7f38b8eba06b66a5dff5b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcompile_1_1_x_compiler.html#aa90dec8e65a7f38b8eba06b66a5dff5b">prepareLoopMask</a> (<a class="el" href="interfacemachine_1_1_runnable.html">machine.Runnable</a> prog)</td></tr>
 <tr class="memdesc:aa90dec8e65a7f38b8eba06b66a5dff5b inherit pro_methods_classcompile_1_1_x_compiler"><td class="mdescLeft">&#160;</td><td class="mdescRight">プログラムのループマスクに、各ルールのRIDを登録する。 <br /></td></tr>
@@ -174,8 +174,8 @@ static final String&#160;</td><td class="memItemRight" valign="bottom"><b>MOD_CO
 <tr class="separator:a0ffed6088f1f9535c6b78a407c4ac3d9 inherit pro_static_attribs_classcompile_1_1_x_compiler"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad3f537c1b2ff8f460564224a71770bf5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3f537c1b2ff8f460564224a71770bf5">&#9670;&nbsp;</a></span>recGen()</h2>
+<a id="a1eeb728ff52edee4946ab175126699b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eeb728ff52edee4946ab175126699b8">&#9670;&nbsp;</a></span>recGen()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -184,9 +184,9 @@ static final String&#160;</td><td class="memItemRight" valign="bottom"><b>MOD_CO
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classast_1_1_ast_node.html">AstNode</a> recGen </td>
+          <td class="memname">static <a class="el" href="interfaceast_1_1_node.html">Node</a> recGen </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classast_1_1_ast_node.html">AstNode</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="interfaceast_1_1_node.html">Node</a>&#160;</td>
           <td class="paramname"><em>node</em>, </td>
         </tr>
         <tr>
@@ -219,12 +219,13 @@ static final String&#160;</td><td class="memItemRight" valign="bottom"><b>MOD_CO
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcompile_1_1_x_c_gen_ad3f537c1b2ff8f460564224a71770bf5_cgraph.svg" width="470" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcompile_1_1_x_c_gen_a1eeb728ff52edee4946ab175126699b8_cgraph.svg" width="470" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classcompile_1_1_x_c_gen_ad3f537c1b2ff8f460564224a71770bf5_icgraph.svg" width="648" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classcompile_1_1_x_c_gen_a1eeb728ff52edee4946ab175126699b8_icgraph.svg" width="454" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -238,7 +239,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacecompile.html">compile</a></li><li class="navelem"><a class="el" href="classcompile_1_1_x_c_gen.html">XCGen</a></li>
-    <li class="footer">Generated on Thu Apr 29 2021 18:54:25 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Apr 30 2021 04:06:48 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

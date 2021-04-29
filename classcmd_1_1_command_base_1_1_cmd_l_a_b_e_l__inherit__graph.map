@@ -1,7 +1,6 @@
 <map id="CommandBase.CmdLABEL" name="CommandBase.CmdLABEL">
-<area shape="rect" id="node1" title="何もしない命令．" alt="" coords="17,229,202,256"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="53,155,165,181"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,80,56,107"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="80,80,299,107"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="139,5,239,32"/>
+<area shape="rect" id="node1" title="何もしない命令．" alt="" coords="5,155,191,181"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="42,80,154,107"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="14,5,65,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="89,5,227,32"/>
 </map>

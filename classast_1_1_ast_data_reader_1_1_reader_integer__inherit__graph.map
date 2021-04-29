@@ -1,12 +1,13 @@
 <map id="AstDataReader.ReaderInteger" name="AstDataReader.ReaderInteger">
-<area shape="rect" id="node1" title="整数型の値をもつ参照読み出しの呼び出し" alt="" coords="365,304,562,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_data_reader_1_1_get_ref.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="385,229,542,256"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="341,155,453,181"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="289,80,363,107"/>
+<area shape="rect" id="node1" title="整数型の値をもつ参照読み出しの呼び出し" alt="" coords="335,304,533,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_data_reader_1_1_get_ref.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="355,229,513,256"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="311,155,423,181"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="260,80,333,107"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,5,108,32"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="133,5,306,32"/>
-<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="330,5,538,32"/>
-<area shape="rect" id="node8" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="456,80,620,107"/>
-<area shape="rect" id="node9" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="563,5,655,32"/>
-<area shape="rect" id="node10" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="477,155,583,181"/>
+<area shape="rect" id="node6" href="$interfaceast_1_1_node.html" title=" " alt="" coords="133,5,186,32"/>
+<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="210,5,383,32"/>
+<area shape="rect" id="node8" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="407,5,615,32"/>
+<area shape="rect" id="node9" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="480,80,644,107"/>
+<area shape="rect" id="node10" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="640,5,732,32"/>
+<area shape="rect" id="node11" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="448,155,553,181"/>
 </map>

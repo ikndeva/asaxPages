@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 1031;
+var viewWidth = 859;
 var viewHeight = 956;
 var sectionId = 'dynsection-0';
 </script>
@@ -54,563 +54,548 @@ var sectionId = 'dynsection-0';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>CommandBase</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-951.5 1027,-951.5 1027,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-951.5 855,-951.5 855,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="局所変数環境に値を書き込む式の抽象クラス.">
-<polygon fill="#bfbfbf" stroke="black" points="311,-498 311,-517 395,-517 395,-498 311,-498"/>
-<text text-anchor="middle" x="353" y="-505" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase</text>
+<polygon fill="#bfbfbf" stroke="black" points="139,-498 139,-517 223,-517 223,-498 139,-498"/>
+<text text-anchor="middle" x="181" y="-505" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase</text>
 </a>
 </g>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node">
+<title>Node4</title>
+<g id="a_node4"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_text.html" target="_top" xlink:title="テキスト読み出し命令: 終端ノードのテキスト値を返す．">
+<polygon fill="white" stroke="black" points="277,-928 277,-947 420,-947 420,-928 277,-928"/>
+<text text-anchor="middle" x="348.5" y="-935" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdGetText</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node4 -->
+<g id="edge3" class="edge">
+<title>Node1&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M182.9,-527.41C186.65,-601.75 203.59,-861.61 259,-918.5 264.04,-923.68 270.13,-927.61 276.73,-930.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="186.38,-526.96 182.4,-517.14 179.39,-527.29 186.38,-526.96"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_text.html" target="_top" xlink:title="テキスト読み出し命令: 終端ノードのテキスト値を返す．">
-<polygon fill="white" stroke="black" points="449,-928 449,-947 592,-947 592,-928 449,-928"/>
-<text text-anchor="middle" x="520.5" y="-935" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdGetText</text>
+<g id="a_node5"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_h_a_l_t.html" target="_top" xlink:title="停止のマーカーになる命令">
+<polygon fill="white" stroke="black" points="281.5,-890 281.5,-909 415.5,-909 415.5,-890 281.5,-890"/>
+<text text-anchor="middle" x="348.5" y="-897" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdHALT</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M354.9,-527.41C358.65,-601.75 375.59,-861.61 431,-918.5 436.04,-923.68 442.13,-927.61 448.73,-930.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="358.38,-526.96 354.4,-517.14 351.39,-527.29 358.38,-526.96"/>
+<path fill="none" stroke="midnightblue" d="M183.3,-527.36C188.29,-597.14 208.49,-829.59 259,-880.5 265.2,-886.75 272.92,-891.17 281.2,-894.27"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="186.79,-527.01 182.61,-517.28 179.8,-527.5 186.79,-527.01"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_h_a_l_t.html" target="_top" xlink:title="停止のマーカーになる命令">
-<polygon fill="white" stroke="black" points="453.5,-890 453.5,-909 587.5,-909 587.5,-890 453.5,-890"/>
-<text text-anchor="middle" x="520.5" y="-897" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdHALT</text>
+<g id="a_node6"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_in_file_open.html" target="_top" xlink:title="入力ファイルを開き、そのファイル記述子をスタックへ積む。">
+<polygon fill="white" stroke="black" points="271,-852 271,-871 426,-871 426,-852 271,-852"/>
+<text text-anchor="middle" x="348.5" y="-859" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdInFileOpen</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M355.3,-527.36C360.29,-597.14 380.49,-829.59 431,-880.5 437.2,-886.75 444.92,-891.17 453.2,-894.27"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="358.79,-527.01 354.61,-517.28 351.8,-527.5 358.79,-527.01"/>
+<path fill="none" stroke="midnightblue" d="M183.81,-527.41C190.14,-592.52 213.39,-797.55 259,-842.5 262.81,-846.25 267.16,-849.34 271.85,-851.88"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="187.28,-526.89 182.85,-517.26 180.31,-527.54 187.28,-526.89"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_in_file_open.html" target="_top" xlink:title="入力ファイルを開き、そのファイル記述子をスタックへ積む。">
-<polygon fill="white" stroke="black" points="443,-852 443,-871 598,-871 598,-852 443,-852"/>
-<text text-anchor="middle" x="520.5" y="-859" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdInFileOpen</text>
+<g id="a_node7"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_inc_m_a_t_c_h.html" target="_top" xlink:title="何もしない命令．">
+<polygon fill="white" stroke="black" points="270,-814 270,-833 427,-833 427,-814 270,-814"/>
+<text text-anchor="middle" x="348.5" y="-821" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdIncMATCH</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M355.81,-527.41C362.14,-592.52 385.39,-797.55 431,-842.5 434.81,-846.25 439.16,-849.34 443.85,-851.88"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="359.28,-526.89 354.85,-517.26 352.31,-527.54 359.28,-526.89"/>
+<path fill="none" stroke="midnightblue" d="M184.42,-526.99C192.22,-586.52 218.5,-764.29 259,-803.5 263.41,-807.77 268.54,-811.21 274.05,-813.96"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="187.89,-526.5 183.15,-517.02 180.95,-527.39 187.89,-526.5"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_inc_m_a_t_c_h.html" target="_top" xlink:title="何もしない命令．">
-<polygon fill="white" stroke="black" points="442,-814 442,-833 599,-833 599,-814 442,-814"/>
-<text text-anchor="middle" x="520.5" y="-821" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdIncMATCH</text>
+<g id="a_node8"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html" target="_top" xlink:title="ファイル記述子をスタックへ積む。">
+<polygon fill="white" stroke="black" points="269,-764.5 269,-794.5 428,-794.5 428,-764.5 269,-764.5"/>
+<text text-anchor="start" x="277" y="-782.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdIntInStream</text>
+<text text-anchor="middle" x="348.5" y="-771.5" font-family="Helvetica,sans-Serif" font-size="10.00">Const</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node1&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M356.42,-526.99C364.22,-586.52 390.5,-764.29 431,-803.5 435.41,-807.77 440.54,-811.21 446.05,-813.96"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="359.89,-526.5 355.15,-517.02 352.95,-527.39 359.89,-526.5"/>
+<path fill="none" stroke="midnightblue" d="M182.16,-527.46C183.64,-574.14 194.02,-691.24 259,-754.5 263,-758.4 267.57,-761.7 272.46,-764.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="185.65,-527.11 181.94,-517.19 178.65,-527.26 185.65,-527.11"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html" target="_top" xlink:title="ファイル記述子をスタックへ積む。">
-<polygon fill="white" stroke="black" points="441,-764.5 441,-794.5 600,-794.5 600,-764.5 441,-764.5"/>
-<text text-anchor="start" x="449" y="-782.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdIntInStream</text>
-<text text-anchor="middle" x="520.5" y="-771.5" font-family="Helvetica,sans-Serif" font-size="10.00">Const</text>
+<g id="a_node9"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_l_a_b_e_l.html" target="_top" xlink:title="何もしない命令．">
+<polygon fill="white" stroke="black" points="279,-726 279,-745 418,-745 418,-726 279,-726"/>
+<text text-anchor="middle" x="348.5" y="-733" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdLABEL</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node1&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M354.16,-527.46C355.64,-574.14 366.02,-691.24 431,-754.5 435,-758.4 439.57,-761.7 444.46,-764.49"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="357.65,-527.11 353.94,-517.19 350.65,-527.26 357.65,-527.11"/>
+<path fill="none" stroke="midnightblue" d="M183.17,-527.19C186.75,-568.88 201.21,-666.36 259,-716.5 264.82,-721.55 271.65,-725.36 278.89,-728.22"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="186.66,-526.92 182.43,-517.2 179.68,-527.43 186.66,-526.92"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_l_a_b_e_l.html" target="_top" xlink:title="何もしない命令．">
-<polygon fill="white" stroke="black" points="451,-726 451,-745 590,-745 590,-726 451,-726"/>
-<text text-anchor="middle" x="520.5" y="-733" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdLABEL</text>
+<g id="a_node10"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_n_o_p.html" target="_top" xlink:title="何もしない命令．">
+<polygon fill="white" stroke="black" points="283.5,-688 283.5,-707 413.5,-707 413.5,-688 283.5,-688"/>
+<text text-anchor="middle" x="348.5" y="-695" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdNOP</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node1&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M355.17,-527.19C358.75,-568.88 373.21,-666.36 431,-716.5 436.82,-721.55 443.65,-725.36 450.89,-728.22"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="358.66,-526.92 354.43,-517.2 351.68,-527.43 358.66,-526.92"/>
+<path fill="none" stroke="midnightblue" d="M184.99,-527.25C191.52,-563.23 210.55,-639.36 259,-678.5 266.09,-684.23 274.51,-688.34 283.29,-691.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="188.39,-526.36 183.28,-517.07 181.48,-527.51 188.39,-526.36"/>
 </g>
-<!-- Node11 -->
-<g id="node11" class="node">
-<title>Node11</title>
-<g id="a_node11"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_n_o_p.html" target="_top" xlink:title="何もしない命令．">
-<polygon fill="white" stroke="black" points="455.5,-688 455.5,-707 585.5,-707 585.5,-688 455.5,-688"/>
-<text text-anchor="middle" x="520.5" y="-695" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdNOP</text>
+<!-- Node12 -->
+<g id="node12" class="node">
+<title>Node12</title>
+<g id="a_node12"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_scan_loop.html" target="_top" xlink:title="スタックからファイル記述子をとり、その入力ストリームを走査する。">
+<polygon fill="white" stroke="black" points="272.5,-650 272.5,-669 424.5,-669 424.5,-650 272.5,-650"/>
+<text text-anchor="middle" x="348.5" y="-657" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdScanLoop</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node11 -->
-<g id="edge10" class="edge">
-<title>Node1&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M356.99,-527.25C363.52,-563.23 382.55,-639.36 431,-678.5 438.09,-684.23 446.51,-688.34 455.29,-691.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="360.39,-526.36 355.28,-517.07 353.48,-527.51 360.39,-526.36"/>
+<!-- Node1&#45;&gt;Node12 -->
+<g id="edge11" class="edge">
+<title>Node1&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M187.63,-526.93C197.21,-556.36 219.58,-611.84 259,-640.5 264.21,-644.29 270.02,-647.35 276.11,-649.82"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="190.87,-525.56 184.58,-517.04 184.18,-527.63 190.87,-525.56"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_scan_loop.html" target="_top" xlink:title="スタックからファイル記述子をとり、その入力ストリームを走査する。">
-<polygon fill="white" stroke="black" points="444.5,-650 444.5,-669 596.5,-669 596.5,-650 444.5,-650"/>
-<text text-anchor="middle" x="520.5" y="-657" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdScanLoop</text>
+<g id="a_node13"><a xlink:href="classcmd_1_1_command_base_1_1_command_jump_base.html" target="_top" xlink:title="無条件ジャンプの命令">
+<polygon fill="white" stroke="black" points="259,-612 259,-631 438,-631 438,-612 259,-612"/>
+<text text-anchor="middle" x="348.5" y="-619" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandJumpBase</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node1&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M359.63,-526.93C369.21,-556.36 391.58,-611.84 431,-640.5 436.21,-644.29 442.02,-647.35 448.11,-649.82"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="362.87,-525.56 356.58,-517.04 356.18,-527.63 362.87,-525.56"/>
+<path fill="none" stroke="midnightblue" d="M191.82,-526.08C204.39,-547.93 228.25,-583.62 259,-602.5 265.29,-606.36 272.26,-609.45 279.44,-611.91"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="194.77,-524.17 186.86,-517.12 188.65,-527.57 194.77,-524.17"/>
 </g>
-<!-- Node14 -->
-<g id="node14" class="node">
-<title>Node14</title>
-<g id="a_node14"><a xlink:href="classcmd_1_1_command_base_1_1_command_jump_base.html" target="_top" xlink:title="無条件ジャンプの命令">
-<polygon fill="white" stroke="black" points="431,-612 431,-631 610,-631 610,-612 431,-612"/>
-<text text-anchor="middle" x="520.5" y="-619" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandJumpBase</text>
+<!-- Node19 -->
+<g id="node19" class="node">
+<title>Node19</title>
+<g id="a_node19"><a xlink:href="classcmd_1_1_command_base_1_1_command_ref.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="274.5,-574 274.5,-593 422.5,-593 422.5,-574 274.5,-574"/>
+<text text-anchor="middle" x="348.5" y="-581" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandRef</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node14 -->
-<g id="edge13" class="edge">
-<title>Node1&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M363.82,-526.08C376.39,-547.93 400.25,-583.62 431,-602.5 437.29,-606.36 444.26,-609.45 451.44,-611.91"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="366.77,-524.17 358.86,-517.12 360.65,-527.57 366.77,-524.17"/>
+<!-- Node1&#45;&gt;Node19 -->
+<g id="edge18" class="edge">
+<title>Node1&#45;&gt;Node19</title>
+<path fill="none" stroke="midnightblue" d="M199.84,-524.19C214.6,-537.1 236.7,-554.42 259,-564.5 267.59,-568.38 277.02,-571.49 286.42,-573.97"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="201.82,-521.27 192.04,-517.19 197.14,-526.48 201.82,-521.27"/>
 </g>
-<!-- Node20 -->
-<g id="node20" class="node">
-<title>Node20</title>
-<g id="a_node20"><a xlink:href="classcmd_1_1_command_base_1_1_command_ref.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="446.5,-574 446.5,-593 594.5,-593 594.5,-574 446.5,-574"/>
-<text text-anchor="middle" x="520.5" y="-581" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandRef</text>
+<!-- Node24 -->
+<g id="node24" class="node">
+<title>Node24</title>
+<g id="a_node24"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_and.html" target="_top" xlink:title="論理積命令">
+<polygon fill="white" stroke="black" points="269.5,-536 269.5,-555 427.5,-555 427.5,-536 269.5,-536"/>
+<text text-anchor="middle" x="348.5" y="-543" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolAnd</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node20 -->
-<g id="edge19" class="edge">
-<title>Node1&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M371.84,-524.19C386.6,-537.1 408.7,-554.42 431,-564.5 439.59,-568.38 449.02,-571.49 458.42,-573.97"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="373.82,-521.27 364.04,-517.19 369.14,-526.48 373.82,-521.27"/>
+<!-- Node1&#45;&gt;Node24 -->
+<g id="edge23" class="edge">
+<title>Node1&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M229.49,-519.46C239.24,-521.85 249.44,-524.29 259,-526.5 272.78,-529.68 287.81,-532.97 301.51,-535.9"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="230.09,-516 219.54,-517.01 228.41,-522.8 230.09,-516"/>
 </g>
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_and.html" target="_top" xlink:title="論理積命令">
-<polygon fill="white" stroke="black" points="441.5,-536 441.5,-555 599.5,-555 599.5,-536 441.5,-536"/>
-<text text-anchor="middle" x="520.5" y="-543" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolAnd</text>
+<g id="a_node25"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_not.html" target="_top" xlink:title="論理否定命令">
+<polygon fill="white" stroke="black" points="270.5,-498 270.5,-517 426.5,-517 426.5,-498 270.5,-498"/>
+<text text-anchor="middle" x="348.5" y="-505" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolNot</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node25 -->
 <g id="edge24" class="edge">
 <title>Node1&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M401.49,-519.46C411.24,-521.85 421.44,-524.29 431,-526.5 444.78,-529.68 459.81,-532.97 473.51,-535.9"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="402.09,-516 391.54,-517.01 400.41,-522.8 402.09,-516"/>
+<path fill="none" stroke="midnightblue" d="M233.34,-507.5C245.05,-507.5 257.75,-507.5 270.27,-507.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="233.34,-504 223.34,-507.5 233.34,-511 233.34,-504"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_not.html" target="_top" xlink:title="論理否定命令">
-<polygon fill="white" stroke="black" points="442.5,-498 442.5,-517 598.5,-517 598.5,-498 442.5,-498"/>
-<text text-anchor="middle" x="520.5" y="-505" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolNot</text>
+<g id="a_node26"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html" target="_top" xlink:title="論理二項演算命令">
+<polygon fill="white" stroke="black" points="270.5,-460 270.5,-479 426.5,-479 426.5,-460 270.5,-460"/>
+<text text-anchor="middle" x="348.5" y="-467" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolOpr</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node26 -->
 <g id="edge25" class="edge">
 <title>Node1&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M405.34,-507.5C417.05,-507.5 429.75,-507.5 442.27,-507.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="405.34,-504 395.34,-507.5 405.34,-511 405.34,-504"/>
+<path fill="none" stroke="midnightblue" d="M229.49,-495.54C239.24,-493.15 249.44,-490.71 259,-488.5 272.78,-485.32 287.81,-482.03 301.51,-479.1"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="228.41,-492.2 219.54,-497.99 230.09,-499 228.41,-492.2"/>
 </g>
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html" target="_top" xlink:title="論理二項演算命令">
-<polygon fill="white" stroke="black" points="442.5,-460 442.5,-479 598.5,-479 598.5,-460 442.5,-460"/>
-<text text-anchor="middle" x="520.5" y="-467" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolOpr</text>
+<g id="a_node27"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_or.html" target="_top" xlink:title="論理和命令">
+<polygon fill="white" stroke="black" points="273,-422 273,-441 424,-441 424,-422 273,-422"/>
+<text text-anchor="middle" x="348.5" y="-429" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolOr</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node27 -->
 <g id="edge26" class="edge">
 <title>Node1&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M401.49,-495.54C411.24,-493.15 421.44,-490.71 431,-488.5 444.78,-485.32 459.81,-482.03 473.51,-479.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="400.41,-492.2 391.54,-497.99 402.09,-499 400.41,-492.2"/>
+<path fill="none" stroke="midnightblue" d="M199.84,-490.81C214.6,-477.9 236.7,-460.58 259,-450.5 267.59,-446.62 277.02,-443.51 286.42,-441.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="197.14,-488.52 192.04,-497.81 201.82,-493.73 197.14,-488.52"/>
 </g>
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_or.html" target="_top" xlink:title="論理和命令">
-<polygon fill="white" stroke="black" points="445,-422 445,-441 596,-441 596,-422 445,-422"/>
-<text text-anchor="middle" x="520.5" y="-429" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdBoolOr</text>
+<g id="a_node28"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_o_stream_store.html" target="_top" xlink:title="文字列変数にスタックトップの文字列を代入する．">
+<polygon fill="white" stroke="black" points="273.5,-372.5 273.5,-402.5 423.5,-402.5 423.5,-372.5 273.5,-372.5"/>
+<text text-anchor="start" x="281.5" y="-390.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdOStream</text>
+<text text-anchor="middle" x="348.5" y="-379.5" font-family="Helvetica,sans-Serif" font-size="10.00">Store</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node28 -->
 <g id="edge27" class="edge">
 <title>Node1&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M371.84,-490.81C386.6,-477.9 408.7,-460.58 431,-450.5 439.59,-446.62 449.02,-443.51 458.42,-441.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="369.14,-488.52 364.04,-497.81 373.82,-493.73 369.14,-488.52"/>
+<path fill="none" stroke="midnightblue" d="M192.23,-488.92C205.05,-467.36 229.02,-432.25 259,-412.5 264.87,-408.64 271.33,-405.36 278.01,-402.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="189.09,-487.35 187.14,-497.77 195.16,-490.84 189.09,-487.35"/>
 </g>
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_o_stream_store.html" target="_top" xlink:title="文字列変数にスタックトップの文字列を代入する．">
-<polygon fill="white" stroke="black" points="445.5,-372.5 445.5,-402.5 595.5,-402.5 595.5,-372.5 445.5,-372.5"/>
-<text text-anchor="start" x="453.5" y="-390.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdOStream</text>
-<text text-anchor="middle" x="520.5" y="-379.5" font-family="Helvetica,sans-Serif" font-size="10.00">Store</text>
+<g id="a_node29"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_add.html" target="_top" xlink:title="文字列加算命令">
+<polygon fill="white" stroke="black" points="278,-334 278,-353 419,-353 419,-334 278,-334"/>
+<text text-anchor="middle" x="348.5" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrAdd</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node29 -->
 <g id="edge28" class="edge">
 <title>Node1&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M364.23,-488.92C377.05,-467.36 401.02,-432.25 431,-412.5 436.87,-408.64 443.33,-405.36 450.01,-402.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="361.09,-487.35 359.14,-497.77 367.16,-490.84 361.09,-487.35"/>
+<path fill="none" stroke="midnightblue" d="M186.63,-488.11C195.21,-456.56 216.69,-394.47 259,-362.5 264.64,-358.24 271.04,-354.89 277.74,-352.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="183.21,-487.33 184.12,-497.89 189.99,-489.07 183.21,-487.33"/>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_add.html" target="_top" xlink:title="文字列加算命令">
-<polygon fill="white" stroke="black" points="450,-334 450,-353 591,-353 591,-334 450,-334"/>
-<text text-anchor="middle" x="520.5" y="-341" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrAdd</text>
+<g id="a_node30"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_regex_match.html" target="_top" xlink:title="正規表現照合命令">
+<polygon fill="white" stroke="black" points="272.5,-284.5 272.5,-314.5 424.5,-314.5 424.5,-284.5 272.5,-284.5"/>
+<text text-anchor="start" x="280.5" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrRegex</text>
+<text text-anchor="middle" x="348.5" y="-291.5" font-family="Helvetica,sans-Serif" font-size="10.00">Match</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node30 -->
 <g id="edge29" class="edge">
 <title>Node1&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M358.63,-488.11C367.21,-456.56 388.69,-394.47 431,-362.5 436.64,-358.24 443.04,-354.89 449.74,-352.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="355.21,-487.33 356.12,-497.89 361.99,-489.07 355.21,-487.33"/>
+<path fill="none" stroke="midnightblue" d="M184.64,-487.73C190.7,-450.23 209.15,-368.57 259,-324.5 263.31,-320.69 268.15,-317.46 273.3,-314.72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="181.14,-487.46 183.13,-497.86 188.06,-488.48 181.14,-487.46"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_regex_match.html" target="_top" xlink:title="正規表現照合命令">
-<polygon fill="white" stroke="black" points="444.5,-284.5 444.5,-314.5 596.5,-314.5 596.5,-284.5 444.5,-284.5"/>
-<text text-anchor="start" x="452.5" y="-302.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrRegex</text>
-<text text-anchor="middle" x="520.5" y="-291.5" font-family="Helvetica,sans-Serif" font-size="10.00">Match</text>
+<g id="a_node31"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_string_match.html" target="_top" xlink:title="部分文字列照合命令">
+<polygon fill="white" stroke="black" points="274,-235.5 274,-265.5 423,-265.5 423,-235.5 274,-235.5"/>
+<text text-anchor="start" x="282" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrString</text>
+<text text-anchor="middle" x="348.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">Match</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node31 -->
 <g id="edge30" class="edge">
 <title>Node1&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M356.64,-487.73C362.7,-450.23 381.15,-368.57 431,-324.5 435.31,-320.69 440.15,-317.46 445.3,-314.72"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="353.14,-487.46 355.13,-497.86 360.06,-488.48 353.14,-487.46"/>
+<path fill="none" stroke="midnightblue" d="M182.54,-487.71C184.87,-442.94 196.97,-333.25 259,-274.5 263.39,-270.34 268.43,-266.89 273.83,-264.02"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="179.04,-487.71 182.13,-497.84 186.03,-487.99 179.04,-487.71"/>
 </g>
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_string_match.html" target="_top" xlink:title="部分文字列照合命令">
-<polygon fill="white" stroke="black" points="446,-235.5 446,-265.5 595,-265.5 595,-235.5 446,-235.5"/>
-<text text-anchor="start" x="454" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrString</text>
-<text text-anchor="middle" x="520.5" y="-242.5" font-family="Helvetica,sans-Serif" font-size="10.00">Match</text>
+<g id="a_node32"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html" target="_top" xlink:title="スタックトップにシステム変数値を取り出す．">
+<polygon fill="white" stroke="black" points="260.5,-197 260.5,-216 436.5,-216 436.5,-197 260.5,-197"/>
+<text text-anchor="middle" x="348.5" y="-204" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrSysVarLoad</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node32 -->
 <g id="edge31" class="edge">
 <title>Node1&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M354.54,-487.71C356.87,-442.94 368.97,-333.25 431,-274.5 435.39,-270.34 440.43,-266.89 445.83,-264.02"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="351.04,-487.71 354.13,-497.84 358.03,-487.99 351.04,-487.71"/>
+<path fill="none" stroke="midnightblue" d="M184.7,-487.78C193.04,-429.91 220.12,-262.29 259,-225.5 262.99,-221.72 267.55,-218.62 272.44,-216.08"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="181.22,-487.43 183.29,-497.82 188.15,-488.41 181.22,-487.43"/>
 </g>
 <!-- Node33 -->
 <g id="node33" class="node">
 <title>Node33</title>
-<g id="a_node33"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html" target="_top" xlink:title="スタックトップにシステム変数値を取り出す．">
-<polygon fill="white" stroke="black" points="432.5,-197 432.5,-216 608.5,-216 608.5,-197 432.5,-197"/>
-<text text-anchor="middle" x="520.5" y="-204" font-family="Helvetica,sans-Serif" font-size="10.00">CommandString.CmdStrSysVarLoad</text>
+<g id="a_node33"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_conv.html" target="_top" xlink:title="OVMachine上のS型の値をT型の値に変換する命令．">
+<polygon fill="white" stroke="black" points="269,-147.5 269,-177.5 428,-177.5 428,-147.5 269,-147.5"/>
+<text text-anchor="start" x="277" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdConv</text>
+<text text-anchor="middle" x="348.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; S, T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node33 -->
 <g id="edge32" class="edge">
 <title>Node1&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M356.7,-487.78C365.04,-429.91 392.12,-262.29 431,-225.5 434.99,-221.72 439.55,-218.62 444.44,-216.08"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="353.22,-487.43 355.29,-497.82 360.15,-488.41 353.22,-487.43"/>
+<path fill="none" stroke="midnightblue" d="M184.15,-487.78C191.36,-425.03 216.68,-231.51 259,-187.5 262.65,-183.7 266.83,-180.47 271.35,-177.72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="180.65,-487.58 183.01,-497.91 187.6,-488.36 180.65,-487.58"/>
 </g>
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_conv.html" target="_top" xlink:title="OVMachine上のS型の値をT型の値に変換する命令．">
-<polygon fill="white" stroke="black" points="441,-147.5 441,-177.5 600,-177.5 600,-147.5 441,-147.5"/>
-<text text-anchor="start" x="449" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdConv</text>
-<text text-anchor="middle" x="520.5" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; S, T &gt;</text>
+<g id="a_node34"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_str2_type.html" target="_top" xlink:title="OVMachine上の文字列値をInteger値に変換する命令．">
+<polygon fill="white" stroke="black" points="271.5,-98.5 271.5,-128.5 425.5,-128.5 425.5,-98.5 271.5,-98.5"/>
+<text text-anchor="start" x="279.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdStr2</text>
+<text text-anchor="middle" x="348.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">Type&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node34 -->
 <g id="edge33" class="edge">
 <title>Node1&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M356.15,-487.78C363.36,-425.03 388.68,-231.51 431,-187.5 434.65,-183.7 438.83,-180.47 443.35,-177.72"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="352.65,-487.58 355.01,-497.91 359.6,-488.36 352.65,-487.58"/>
+<path fill="none" stroke="midnightblue" d="M183.46,-487.46C188.9,-418.03 210.3,-189.19 259,-137.5 262.6,-133.68 266.75,-130.44 271.23,-127.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="179.94,-487.61 182.67,-497.85 186.92,-488.14 179.94,-487.61"/>
 </g>
 <!-- Node35 -->
 <g id="node35" class="node">
 <title>Node35</title>
-<g id="a_node35"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_str2_type.html" target="_top" xlink:title="OVMachine上の文字列値をInteger値に変換する命令．">
-<polygon fill="white" stroke="black" points="443.5,-98.5 443.5,-128.5 597.5,-128.5 597.5,-98.5 443.5,-98.5"/>
-<text text-anchor="start" x="451.5" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdStr2</text>
-<text text-anchor="middle" x="520.5" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">Type&lt; T &gt;</text>
+<g id="a_node35"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_type_const.html" target="_top" xlink:title="スタックトップに整数定数値をおく命令">
+<polygon fill="white" stroke="black" points="270,-49.5 270,-79.5 427,-79.5 427,-49.5 270,-49.5"/>
+<text text-anchor="start" x="278" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdType</text>
+<text text-anchor="middle" x="348.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Const&lt; T &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node35 -->
 <g id="edge34" class="edge">
 <title>Node1&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M355.46,-487.46C360.9,-418.03 382.3,-189.19 431,-137.5 434.6,-133.68 438.75,-130.44 443.23,-127.7"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="351.94,-487.61 354.67,-497.85 358.92,-488.14 351.94,-487.61"/>
+<path fill="none" stroke="midnightblue" d="M182.93,-487.3C186.83,-411.87 204.21,-148.04 259,-88.5 262.23,-84.99 265.93,-81.97 269.92,-79.37"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="179.42,-487.56 182.42,-497.72 186.41,-487.91 179.42,-487.56"/>
 </g>
 <!-- Node36 -->
 <g id="node36" class="node">
 <title>Node36</title>
-<g id="a_node36"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_type_const.html" target="_top" xlink:title="スタックトップに整数定数値をおく命令">
-<polygon fill="white" stroke="black" points="442,-49.5 442,-79.5 599,-79.5 599,-49.5 442,-49.5"/>
-<text text-anchor="start" x="450" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdType</text>
-<text text-anchor="middle" x="520.5" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">Const&lt; T &gt;</text>
+<g id="a_node36"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_type_opr.html" target="_top" xlink:title="二つの型Tの値をもらい、型Rの値を返す二項演算演算命令。">
+<polygon fill="white" stroke="black" points="270,-0.5 270,-30.5 427,-30.5 427,-0.5 270,-0.5"/>
+<text text-anchor="start" x="278" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdType</text>
+<text text-anchor="middle" x="348.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Opr&lt; T, R &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node36 -->
 <g id="edge35" class="edge">
 <title>Node1&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M354.93,-487.3C358.83,-411.87 376.21,-148.04 431,-88.5 434.23,-84.99 437.93,-81.97 441.92,-79.37"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="351.42,-487.56 354.42,-497.72 358.41,-487.91 351.42,-487.56"/>
-</g>
-<!-- Node37 -->
-<g id="node37" class="node">
-<title>Node37</title>
-<g id="a_node37"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_type_opr.html" target="_top" xlink:title="二つの型Tの値をもらい、型Rの値を返す二項演算演算命令。">
-<polygon fill="white" stroke="black" points="442,-0.5 442,-30.5 599,-30.5 599,-0.5 442,-0.5"/>
-<text text-anchor="start" x="450" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandTyped&lt; T &gt;.CmdType</text>
-<text text-anchor="middle" x="520.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Opr&lt; T, R &gt;</text>
-</a>
-</g>
-</g>
-<!-- Node1&#45;&gt;Node37 -->
-<g id="edge36" class="edge">
-<title>Node1&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M354.5,-487.57C356.93,-407.08 369.98,-107.07 431,-39.5 434.2,-35.96 437.87,-32.91 441.85,-30.3"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="351,-487.71 354.22,-497.8 357.99,-487.9 351,-487.71"/>
+<path fill="none" stroke="midnightblue" d="M182.5,-487.57C184.93,-407.08 197.98,-107.07 259,-39.5 262.2,-35.96 265.87,-32.91 269.85,-30.3"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="179,-487.71 182.22,-497.8 185.99,-487.9 179,-487.71"/>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="interfacemachine_1_1_cmd.html" target="_top" xlink:title="仮装命令のインタフェース.">
-<polygon fill="white" stroke="black" points="174,-517 174,-536 212,-536 212,-517 174,-517"/>
-<text text-anchor="middle" x="193" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">Cmd</text>
+<polygon fill="white" stroke="black" points="32.5,-517 32.5,-536 70.5,-536 70.5,-517 32.5,-517"/>
+<text text-anchor="middle" x="51.5" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">Cmd</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M222.25,-523.1C246.89,-520.14 282.95,-515.8 310.81,-512.45"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="221.64,-519.65 212.12,-524.32 222.47,-526.6 221.64,-519.65"/>
+<path fill="none" stroke="midnightblue" d="M80.68,-522.3C97.77,-519.75 119.86,-516.46 138.87,-513.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="80.14,-518.84 70.77,-523.78 81.17,-525.77 80.14,-518.84"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" target="_top" xlink:title="カスタム清書出力器をもつオブジェクトのクラス．">
-<polygon fill="white" stroke="black" points="111,-479 111,-498 275,-498 275,-479 111,-479"/>
-<text text-anchor="middle" x="193" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">XFormattable.CustomFormattable</text>
+<g id="a_node3"><a xlink:title=" ">
+<polygon fill="white" stroke="#bfbfbf" points="0,-479 0,-498 103,-498 103,-479 0,-479"/>
+<text text-anchor="middle" x="51.5" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">CustomFormattable</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node1 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M283.42,-499.25C292.93,-500.4 302.23,-501.52 310.76,-502.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="283.81,-495.77 273.46,-498.06 282.97,-502.72 283.81,-495.77"/>
+<path fill="none" stroke="midnightblue" d="M113.33,-497.56C121.97,-498.85 130.68,-500.15 138.82,-501.36"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="113.66,-494.08 103.26,-496.06 112.63,-501 113.66,-494.08"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node">
-<title>Node4</title>
-<g id="a_node4"><a xlink:href="interfaceformat_1_1_x_formattable.html" target="_top" xlink:title="入れ子フォーマット出力可能なオブジェクトのインタフェース。">
-<polygon fill="white" stroke="black" points="0,-479 0,-498 75,-498 75,-479 0,-479"/>
-<text text-anchor="middle" x="37.5" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">XFormattable</text>
+<!-- Node11 -->
+<g id="node11" class="node">
+<title>Node11</title>
+<g id="a_node11"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html" target="_top" xlink:title="何もしない命令．">
+<polygon fill="white" stroke="black" points="491,-745 491,-764 634,-764 634,-745 491,-745"/>
+<text text-anchor="middle" x="562.5" y="-752" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdUNDEF</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node3 -->
-<g id="edge3" class="edge">
-<title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M85.53,-488.5C93.59,-488.5 102.17,-488.5 110.83,-488.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="85.27,-485 75.27,-488.5 85.27,-492 85.27,-485"/>
+<!-- Node10&#45;&gt;Node11 -->
+<g id="edge10" class="edge">
+<title>Node10&#45;&gt;Node11</title>
+<path fill="none" stroke="midnightblue" d="M415.22,-709.49C422.98,-711.53 430.73,-713.86 438,-716.5 455,-722.68 457,-729.3 474,-735.5 484.37,-739.28 495.72,-742.43 506.7,-745"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="415.94,-706.07 405.39,-707.07 414.26,-712.86 415.94,-706.07"/>
 </g>
-<!-- Node12 -->
-<g id="node12" class="node">
-<title>Node12</title>
-<g id="a_node12"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html" target="_top" xlink:title="何もしない命令．">
-<polygon fill="white" stroke="black" points="663,-745 663,-764 806,-764 806,-745 663,-745"/>
-<text text-anchor="middle" x="734.5" y="-752" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdUNDEF</text>
+<!-- Node14 -->
+<g id="node14" class="node">
+<title>Node14</title>
+<g id="a_node14"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp.html" target="_top" xlink:title="無条件ジャンプの命令">
+<polygon fill="white" stroke="black" points="499,-707 499,-726 626,-726 626,-707 499,-707"/>
+<text text-anchor="middle" x="562.5" y="-714" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmp</text>
 </a>
 </g>
 </g>
-<!-- Node11&#45;&gt;Node12 -->
-<g id="edge11" class="edge">
-<title>Node11&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M587.22,-709.49C594.98,-711.53 602.73,-713.86 610,-716.5 627,-722.68 629,-729.3 646,-735.5 656.37,-739.28 667.72,-742.43 678.7,-745"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="587.94,-706.07 577.39,-707.07 586.26,-712.86 587.94,-706.07"/>
+<!-- Node13&#45;&gt;Node14 -->
+<g id="edge13" class="edge">
+<title>Node13&#45;&gt;Node14</title>
+<path fill="none" stroke="midnightblue" d="M429.26,-635.25C432.3,-636.82 435.23,-638.57 438,-640.5 462.57,-657.65 449.45,-680.32 474,-697.5 481.39,-702.67 489.92,-706.47 498.7,-709.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="430.4,-631.93 419.84,-631.04 427.54,-638.32 430.4,-631.93"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp.html" target="_top" xlink:title="無条件ジャンプの命令">
-<polygon fill="white" stroke="black" points="671,-707 671,-726 798,-726 798,-707 671,-707"/>
-<text text-anchor="middle" x="734.5" y="-714" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmp</text>
+<g id="a_node15"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_f_a_l_s_e.html" target="_top" xlink:title="偽ならばジャンプの命令">
+<polygon fill="white" stroke="black" points="483.5,-669 483.5,-688 641.5,-688 641.5,-669 483.5,-669"/>
+<text text-anchor="middle" x="562.5" y="-676" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpFALSE</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node15 -->
+<!-- Node13&#45;&gt;Node15 -->
 <g id="edge14" class="edge">
-<title>Node14&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M601.26,-635.25C604.3,-636.82 607.23,-638.57 610,-640.5 634.57,-657.65 621.45,-680.32 646,-697.5 653.39,-702.67 661.92,-706.47 670.7,-709.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="602.4,-631.93 591.84,-631.04 599.54,-638.32 602.4,-631.93"/>
+<title>Node13&#45;&gt;Node15</title>
+<path fill="none" stroke="midnightblue" d="M415.22,-633.49C422.98,-635.53 430.73,-637.86 438,-640.5 455,-646.68 457,-653.3 474,-659.5 484.37,-663.28 495.72,-666.43 506.7,-669"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="415.94,-630.07 405.39,-631.07 414.26,-636.86 415.94,-630.07"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_f_a_l_s_e.html" target="_top" xlink:title="偽ならばジャンプの命令">
-<polygon fill="white" stroke="black" points="655.5,-669 655.5,-688 813.5,-688 813.5,-669 655.5,-669"/>
-<text text-anchor="middle" x="734.5" y="-676" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpFALSE</text>
+<g id="a_node16"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_n_o_n_z_e_r_o.html" target="_top" xlink:title="スタックの値が非0ならばジャンプの命令">
+<polygon fill="white" stroke="black" points="474,-631 474,-650 651,-650 651,-631 474,-631"/>
+<text text-anchor="middle" x="562.5" y="-638" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpNONZERO</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node16 -->
+<!-- Node13&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
-<title>Node14&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M587.22,-633.49C594.98,-635.53 602.73,-637.86 610,-640.5 627,-646.68 629,-653.3 646,-659.5 656.37,-663.28 667.72,-666.43 678.7,-669"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="587.94,-630.07 577.39,-631.07 586.26,-636.86 587.94,-630.07"/>
+<title>Node13&#45;&gt;Node16</title>
+<path fill="none" stroke="midnightblue" d="M448.19,-630.34C456.76,-631.11 465.39,-631.89 473.86,-632.65"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="448.45,-626.85 438.18,-629.45 447.83,-633.83 448.45,-626.85"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_n_o_n_z_e_r_o.html" target="_top" xlink:title="スタックの値が非0ならばジャンプの命令">
-<polygon fill="white" stroke="black" points="646,-631 646,-650 823,-650 823,-631 646,-631"/>
-<text text-anchor="middle" x="734.5" y="-638" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpNONZERO</text>
+<g id="a_node17"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html" target="_top" xlink:title="真ならばジャンプの命令">
+<polygon fill="white" stroke="black" points="485,-593 485,-612 640,-612 640,-593 485,-593"/>
+<text text-anchor="middle" x="562.5" y="-600" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpTRUE</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node17 -->
+<!-- Node13&#45;&gt;Node17 -->
 <g id="edge16" class="edge">
-<title>Node14&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M620.19,-630.34C628.76,-631.11 637.39,-631.89 645.86,-632.65"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="620.45,-626.85 610.18,-629.45 619.83,-633.83 620.45,-626.85"/>
+<title>Node13&#45;&gt;Node17</title>
+<path fill="none" stroke="midnightblue" d="M448.44,-612.63C460.71,-611.53 473.1,-610.42 484.96,-609.36"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="447.83,-609.17 438.18,-613.55 448.45,-616.15 447.83,-609.17"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html" target="_top" xlink:title="真ならばジャンプの命令">
-<polygon fill="white" stroke="black" points="657,-593 657,-612 812,-612 812,-593 657,-593"/>
-<text text-anchor="middle" x="734.5" y="-600" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpTRUE</text>
+<g id="a_node18"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html" target="_top" xlink:title="スタックの値が0ならばジャンプの命令">
+<polygon fill="white" stroke="black" points="485,-555 485,-574 640,-574 640,-555 485,-555"/>
+<text text-anchor="middle" x="562.5" y="-562" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpZERO</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node18 -->
+<!-- Node13&#45;&gt;Node18 -->
 <g id="edge17" class="edge">
-<title>Node14&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M620.44,-612.63C632.71,-611.53 645.1,-610.42 656.96,-609.36"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="619.83,-609.17 610.18,-613.55 620.45,-616.15 619.83,-609.17"/>
+<title>Node13&#45;&gt;Node18</title>
+<path fill="none" stroke="midnightblue" d="M415.22,-609.51C422.98,-607.47 430.73,-605.14 438,-602.5 455,-596.32 457,-589.7 474,-583.5 484.37,-579.72 495.72,-576.57 506.7,-574"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="414.26,-606.14 405.39,-611.93 415.94,-612.93 414.26,-606.14"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node">
-<title>Node19</title>
-<g id="a_node19"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html" target="_top" xlink:title="スタックの値が0ならばジャンプの命令">
-<polygon fill="white" stroke="black" points="657,-555 657,-574 812,-574 812,-555 657,-555"/>
-<text text-anchor="middle" x="734.5" y="-562" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdJmpZERO</text>
+<!-- Node20 -->
+<g id="node20" class="node">
+<title>Node20</title>
+<g id="a_node20"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_load.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="498,-517 498,-536 627,-536 627,-517 498,-517"/>
+<text text-anchor="middle" x="562.5" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdLoad</text>
 </a>
 </g>
 </g>
-<!-- Node14&#45;&gt;Node19 -->
-<g id="edge18" class="edge">
-<title>Node14&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M587.22,-609.51C594.98,-607.47 602.73,-605.14 610,-602.5 627,-596.32 629,-589.7 646,-583.5 656.37,-579.72 667.72,-576.57 678.7,-574"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="586.26,-606.14 577.39,-611.93 587.94,-612.93 586.26,-606.14"/>
+<!-- Node19&#45;&gt;Node20 -->
+<g id="edge19" class="edge">
+<title>Node19&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M415.22,-571.51C422.98,-569.47 430.73,-567.14 438,-564.5 455,-558.32 457,-551.7 474,-545.5 484.37,-541.72 495.72,-538.57 506.7,-536"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="414.26,-568.14 405.39,-573.93 415.94,-574.93 414.26,-568.14"/>
+</g>
+<!-- Node22 -->
+<g id="node22" class="node">
+<title>Node22</title>
+<g id="a_node22"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_store.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="497,-479 497,-498 628,-498 628,-479 497,-479"/>
+<text text-anchor="middle" x="562.5" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdStore</text>
+</a>
+</g>
+</g>
+<!-- Node19&#45;&gt;Node22 -->
+<g id="edge21" class="edge">
+<title>Node19&#45;&gt;Node22</title>
+<path fill="none" stroke="midnightblue" d="M429.26,-569.75C432.3,-568.18 435.23,-566.43 438,-564.5 462.57,-547.35 449.45,-524.68 474,-507.5 480.88,-502.69 488.75,-499.06 496.88,-496.33"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="427.54,-566.68 419.84,-573.96 430.4,-573.07 427.54,-566.68"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_load.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="670,-517 670,-536 799,-536 799,-517 670,-517"/>
-<text text-anchor="middle" x="734.5" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdLoad</text>
+<g id="a_node21"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_elem_end.html" target="_top" xlink:title="テキスト読み出し命令の一つ:任意のノードの要素テキストを取得して，文字列型の変数に格納する．">
+<polygon fill="white" stroke="black" points="687,-517 687,-536 851,-536 851,-517 687,-517"/>
+<text text-anchor="middle" x="769" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdGetElemEnd</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node21 -->
 <g id="edge20" class="edge">
 <title>Node20&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M587.22,-571.51C594.98,-569.47 602.73,-567.14 610,-564.5 627,-558.32 629,-551.7 646,-545.5 656.37,-541.72 667.72,-538.57 678.7,-536"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="586.26,-568.14 577.39,-573.93 587.94,-574.93 586.26,-568.14"/>
+<path fill="none" stroke="midnightblue" d="M637.44,-526.5C653.45,-526.5 670.46,-526.5 686.74,-526.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="637.08,-523 627.08,-526.5 637.08,-530 637.08,-523"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_store.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="669,-479 669,-498 800,-498 800,-479 669,-479"/>
-<text text-anchor="middle" x="734.5" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdStore</text>
+<g id="a_node23"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_set_elem_beg.html" target="_top" xlink:title="テキスト読み出し命令の一つ:任意のノードの要素テキストの開始位置を取得して，整数型の変数に格納する．">
+<polygon fill="white" stroke="black" points="687.5,-479 687.5,-498 850.5,-498 850.5,-479 687.5,-479"/>
+<text text-anchor="middle" x="769" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdSetElemBeg</text>
 </a>
 </g>
 </g>
-<!-- Node20&#45;&gt;Node23 -->
+<!-- Node22&#45;&gt;Node23 -->
 <g id="edge22" class="edge">
-<title>Node20&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M601.26,-569.75C604.3,-568.18 607.23,-566.43 610,-564.5 634.57,-547.35 621.45,-524.68 646,-507.5 652.88,-502.69 660.75,-499.06 668.88,-496.33"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="599.54,-566.68 591.84,-573.96 602.4,-573.07 599.54,-566.68"/>
-</g>
-<!-- Node22 -->
-<g id="node22" class="node">
-<title>Node22</title>
-<g id="a_node22"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_elem_end.html" target="_top" xlink:title="テキスト読み出し命令の一つ:任意のノードの要素テキストを取得して，文字列型の変数に格納する．">
-<polygon fill="white" stroke="black" points="859,-517 859,-536 1023,-536 1023,-517 859,-517"/>
-<text text-anchor="middle" x="941" y="-524" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdGetElemEnd</text>
-</a>
-</g>
-</g>
-<!-- Node21&#45;&gt;Node22 -->
-<g id="edge21" class="edge">
-<title>Node21&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M809.44,-526.5C825.45,-526.5 842.46,-526.5 858.74,-526.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="809.08,-523 799.08,-526.5 809.08,-530 809.08,-523"/>
-</g>
-<!-- Node24 -->
-<g id="node24" class="node">
-<title>Node24</title>
-<g id="a_node24"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_set_elem_beg.html" target="_top" xlink:title="テキスト読み出し命令の一つ:任意のノードの要素テキストの開始位置を取得して，整数型の変数に格納する．">
-<polygon fill="white" stroke="black" points="859.5,-479 859.5,-498 1022.5,-498 1022.5,-479 859.5,-479"/>
-<text text-anchor="middle" x="941" y="-486" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdSetElemBeg</text>
-</a>
-</g>
-</g>
-<!-- Node23&#45;&gt;Node24 -->
-<g id="edge23" class="edge">
-<title>Node23&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M810.47,-488.5C826.32,-488.5 843.12,-488.5 859.18,-488.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="810.21,-485 800.21,-488.5 810.21,-492 810.21,-485"/>
+<title>Node22&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M638.47,-488.5C654.32,-488.5 671.12,-488.5 687.18,-488.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="638.21,-485 628.21,-488.5 638.21,-492 638.21,-485"/>
 </g>
 </g>
 </svg>

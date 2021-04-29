@@ -1,3 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceutil_1_1_resettable_1_1_generator.html" title="新しいオブジェクトの生成関数のインタフェース." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node1" href="$class_runtime_exception.html" title=" " alt="" coords="5,42,135,69"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_x_exception.html" title="実行系に関する実行時エラーのクラス" alt="" coords="183,42,272,69"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_x_exception_1_1_x_exception_skippable.html" title="スキップ可能例外であり、そのサブクエリのみをスキップすれば良い．" alt="" coords="320,42,537,69"/>
+<area shape="rect" id="node4" href="$classmachine_1_1_x_exception_1_1_x_exception_read_value.html" title="値取得時の例外。スキップ可能例外。" alt="" coords="593,5,783,47"/>
+<area shape="rect" id="node5" href="$classmachine_1_1_x_exception_1_1_x_exception_storage.html" title="記憶領域関係の例外。スキップ可能例外。" alt="" coords="585,71,791,98"/>
 </map>

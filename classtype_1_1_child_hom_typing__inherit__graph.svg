@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="親とすべての子が同値な関数型．">
+<g id="a_node1"><a xlink:title="すべての子が同値な関数型．親は異なる型を持値ち得る．">
 <polygon fill="#bfbfbf" stroke="black" points="26,-56.5 26,-75.5 115,-75.5 115,-56.5 26,-56.5"/>
 <text text-anchor="middle" x="70.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChildHomTyping</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classtype_1_1_child_hom_typing_1_1_hom_typing.html" target="_top" xlink:title="すべての子が同値な関数型．">
+<g id="a_node4"><a xlink:href="classtype_1_1_child_hom_typing_1_1_hom_typing.html" target="_top" xlink:title="親と子すべてが同値な関数型．">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 141,-19.5 141,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="70.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ChildHomTyping.HomTyping</text>
 </a>

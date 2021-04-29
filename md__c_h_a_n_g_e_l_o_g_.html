@@ -95,7 +95,66 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
-<h1>210419 Thu, 昭和の日, 5:00-10:00, 14:00-16:30: AstNodeの再設計</h1>
+<h1>210419 Thu, 昭和の日, 17:00-26:30 コード, 26:30-28:00 報告, 11h: 中間言語のための再設計の実装とリファクタリング</h1>
+<p>コンパイルと清書出力の両方を簡素化するために，AstNode階層の再構築を行った．対応するコンパイラのパイプラインも手直しした．実行系は，全体に動的な機構を導入することで，実装の簡素化と表現力の向上を図った．だいたい一区切りついたと思う．全体としては，これから行うXscanの実行系の上に乗る中間言語を実現するための準備のフェーズといえる．</p>
+<ul>
+<li>ast/Node.java: クラスAstNodeを抽象化して，インタフェースNodeを作成し，合わせてインタフェースNavigatableを改良した．</li>
+</ul>
+<div class="fragment"><div class="line"><span class="keyword">public</span> <span class="keyword">interface </span>Node <span class="keyword">extends</span> XFormattable { </div>
+<div class="line">    <span class="keyword">public</span> Typable getTyping(); </div>
+<div class="line">    <span class="keyword">public</span> String data(); </div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">boolean</span> notToEmit(); </div>
+<div class="line">    <span class="keyword">public</span> <span class="keywordtype">int</span> numChildren(); </div>
+<div class="line">    <span class="keyword">public</span> Node getChild(<span class="keywordtype">int</span> i); </div>
+<div class="line">    <span class="keyword">public</span> Node setChild(<span class="keywordtype">int</span> i, Node child); </div>
+<div class="line">    <span class="keyword">public</span> String toStr();</div>
+<div class="line"> </div>
+<div class="line">    <span class="keyword">static</span> <span class="keyword">interface </span>NodeUnary <span class="keyword">extends</span> Node {</div>
+<div class="line">      <span class="keyword">public</span> Node getTheChild();    </div>
+<div class="line">      <span class="keyword">public</span> Node setTheChild(Node child);  </div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="keyword">public</span> <span class="keyword">interface </span>XFormattable {</div>
+<div class="line">    <span class="keywordtype">boolean</span> notToEmit(); </div>
+<div class="line">    </div>
+<div class="line">　　</div>
+<div class="line">　　public <span class="keyword">interface </span>Navigatable <span class="keyword">extends</span> XFormattable {</div>
+<div class="line">　　　String getLabelString();</div>
+<div class="line">     <span class="keywordtype">int</span> numChildrenNav();  </div>
+<div class="line">     XFormattable getChildNav(<span class="keywordtype">int</span> i); </div>
+<div class="line">     String getFieldNav(<span class="keywordtype">int</span> i);     </div>
+<div class="line">     Style getStyle();  </div>
+<div class="line">   }</div>
+<div class="line">}</div>
+</div><!-- fragment --><ul>
+<li><a class="el" href="_ast_node_8java.html">ast/AstNode.java</a>, AstNodeBranch: インタフェースNodeにしたがい，次のクラスを整理したAstNode =&gt; AstNodeBase, AstNodeBranch =&gt; AstNode. AstNodeBranchは廃止した．</li>
+</ul>
+<div class="fragment"><div class="line">public abstract class AstNode extends AstNodeBase </div>
+<div class="line">  implements Node, XFormattable.Navigatable, XFormattable.TypedFormattable; </div>
+</div><!-- fragment --><ul>
+<li>ast/AstTerminal.java, AstAtom.java: 対応する子をもたないノードのクラスを統廃合した．</li>
+<li><a class="el" href="_ast_node_tagged_8java.html">ast/AstNodeTagged.java</a>: 明示的にタイプ配列<code>List&lt;XTypeItem&gt; types</code>を持たせて，タグと，タイプ，子のアクセッサ（getter）を一様に扱うようにした．</li>
+<li><a class="el" href="_x_formattable_8java.html">format/XFormattable.java</a>: インタフェース<code>Navigatable</code>に表示の昨日を集約し，<code>LabeledFormattable</code>と<code>Terminatable</code>を廃止した．</li>
+<li><a class="el" href="_node_formatter_simple_8java.html">format/NodeFormatterSimple.java</a>: インタフェースの簡略化に伴い，タグと型情報の表示方法を簡略にした．</li>
+<li><a class="el" href="_basic_typing_8java.html">type/BasicTyping.java</a>, ChildHomTyping.java: <code>ChildHomTyping</code>を中心に，子型のアクセスと表示を再設計した．</li>
+<li><a class="el" href="_sent_list_8java.html">ast/SentList.java</a>: ast/AstList.javaを，SentListに集約した. BlockとStepに関する式列は，SentListで扱うこととした．DataWrapperもAstlistの内部クラスとした．</li>
+<li><a class="el" href="_block_base_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">ast/BlockBase.java</a>, <a class="el" href="_block_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">Block.java</a>, <a class="el" href="_step_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">Step.java</a>: BlockBaseを実質的な仮想クラスとして，BlockとStepのgetterを整備した．タグ名称も整理している．</li>
+<li>ast/*.java: AstNode（旧AstBranch）の子リストの型を<code>List&lt;Node&gt; children_</code>としたのに合わせて，パッケージastとcompile中に現れる大多数の<code>AstNode</code>型を，インタフェース<code>Node</code>型に置き換えた．パッケージparse中のノードの生成部分では，AstNodeの部分クラスの型スイッチを用いて扱うこととした．</li>
+<li>compile/XC*.java: パッケージcompile中のコンパイラコードで，<code>AstNode</code>型を，インタフェース<code>Node</code>型に置き換えた．一部は，<code>AstNode</code>の部型の型スイッチで対応している．パッケージparse内のAstParserとAstNodeFactoryも一部手直しが必要だった．</li>
+<li><a class="el" href="_block_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">ast/Block.java</a>, <a class="el" href="_x_c_typing_8java.html">compile/XCTyping.java</a>: クエリのトップレベルで，変数宣言と代入ができるように，クラスStepと同様に，クラスBlockに変数リスト（RefList）を持たせた．このため，クラスXCTypingの最上位手続きtypingで，最上部のBlockの変数リストの設定を追加した．正しく動作しているようである．</li>
+<li>ast/StringRel.java, <a class="el" href="_command_string_8java.html">cmd/CommandString.java</a>: テキストの文字列パターン照合で，パターンに従来の文字列リテラルだけでなく，項を含む任意の文字列式を用いられるようにした．これに伴い，ast/AstTemplateの引用符が除去されないエラーを解消した．パターンに文字列テンプレートを使えるようになった．このため，StringMatchRelの<code>gencode</code>関数と仮想機械命令<code>CmdStrStringMatch</code>において，テキスト引数とパターン引数の両方をスタックから取り出す2スタック引数形式とした．却って，コードが以前より簡単になった．</li>
+</ul>
+<h2>TODO</h2>
+<ul>
+<li>当初の目標であるプロセスと関数の呼び出し方式を，実装する．現在の<code>Step</code>のコンパイル方式の拡張人なるはずである．EagerとLazyの2種の呼び出し方式も実装したい． それにより，現在の<code>Step</code>の呼び出し方式は，呼び出しグラフ中の関数呼び出しが一意であるときのみ可能なものであり，呼び出し時の返値のフレーム渡しが必要ない，効率良いLazyであることが言えると思う．</li>
+<li>関数呼び出しにおいては，単一値の他，多値の返却も可能にする．また，一般的な呼び出し手順を確立することで，従来のパス言語のステップ呼び出しを，中間言語を経由して，仮想機械コードにコンパイルできるようにしたい．見通しがよくなるはずである．</li>
+<li>また，手続き的な中間言語自体も公開したい．Java scriptのような構文と実装方法をもつ言語である．オブジェクトは持たず，モジュール機構として，関数閉包を利用できると思う．</li>
+<li>ast/StringRel.java, <a class="el" href="_command_string_8java.html">cmd/CommandString.java</a>: テキストの正規表現照合のパターンの組み立てに，項を含む任意の文字列式を用いられるようにする．最終的な目標として，文字列を引数にとる仮想機械命令は，全て文字列引数をスタックから取るようにする．動的な機構を使うことで，性能にオーバーヘッドが出るが，表現力が大きく，実装は簡潔にしたい．</li>
+<li><a class="el" href="_o_v_machine_8java.html">machine/OVMachine.java</a>: ．OVMのオペレーションスタックは，1本のObjectスタックと，型条件によるキャストを組み合わせて，簡単な実装にする． 動的型チェックもする．仮想機械命令の実行エラーの清書が容易になると期待できる．これは，すぐにでも実装できて，影響が少ないので，すぐやりたい．</li>
+<li><a class="el" href="_frame_stack_uni_8java.html">frame/FrameStackUni.java</a>: フレームスタックも，型がわからない変数の動的な割り付けができるようにしたい．簡素化もできるのではないか．こちらは要検討である．</li>
+</ul>
+<h1>210419 Thu, 昭和の日, 5:00-10:00, 14:00-16:00 7h: AstNodeの再設計</h1>
 <p>プロセス機構の再設計を受けて，AstNodeのクラス階層の再設計を行った．</p>
 <h1>210428 Wed, 21:00-22:00, 1h: プロセス呼び出しの再設計</h1>
 <p>プロセス呼び出し機構の再設計を行った．</p>
@@ -116,7 +175,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <li><a class="el" href="_x_c_typing_8java.html">compile/XCTyping.java</a>: 型推論のための再帰手続き<code>RecType</code>から，下記のノードクラスについて，ノード固有の型推論コードを除去した．</li>
 <li><a class="el" href="_ast_if_8java.html" title="190115: Created by arim@ist.hokudai.ac.jp">ast/AstIf.java</a>: <code>AstIf</code>の型を実装した： ret:$T &lt;- cond:Boolean x then:$T x else: $T</li>
 <li><a class="el" href="_ast_let_8java.html">ast/AstLet.java</a>: <code>AstLet</code>: ret:$T &lt;- sent:Void x term:$T</li>
-<li>ast/SentList.java: <code>SentList</code>の関数型として <code>ret:$T &lt;- (Inst:Void)^* x term:$T</code>を実装する．このために，BasicTypingのサブクラスとして，TailHomTypingを導入する．これは，特別な末尾の子<code>tail</code>をもち，<code>add()</code>は，<code>tail</code>以外の子列<code>children0</code>の末尾に追加する．常に，子列は<code>children := children0 + tail</code>を表す．</li>
+<li><a class="el" href="_sent_list_8java.html">ast/SentList.java</a>: <code>SentList</code>の関数型として <code>ret:$T &lt;- (Inst:Void)^* x term:$T</code>を実装する．このために，BasicTypingのサブクラスとして，TailHomTypingを導入する．これは，特別な末尾の子<code>tail</code>をもち，<code>add()</code>は，<code>tail</code>以外の子列<code>children0</code>の末尾に追加する．常に，子列は<code>children := children0 + tail</code>を表す．</li>
 </ul>
 <h2>下記の実行時エラーを解決した．</h2>
 <ul>
@@ -683,7 +742,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <ul>
 <li>parse/query.g4: ステップの述語と項の代わりに，複文からなるブロック<code>文_1; ...; 文_{n-1}; 項_n</code>を許すように構文を拡張した．これに合わせて，文の構文要素<code>Sent</code>と，各種の型の項と，型によらない項の構文要素を整備した．</li>
 <li><a class="el" href="_ast_parser_8java.html">parse/AstParser.java</a>, <a class="el" href="_ast_node_factory_8java.html">AstNodeFactory.java</a>: query.g4の文法の修正に合わせて，構文解析を行うように更新した．</li>
-<li>ast/AstArrow.java, <a class="el" href="_ast_list_8java.html">AstList.java</a>: 代入命令のクラス<code>AstArrow</code>を作成した．合わせて，型による汎的なコード生成のツールを整備した．さらに，<code>AstList</code>のサブクラス<code>SentList</code>を作成した．</li>
+<li>ast/AstArrow.java, AstList.java: 代入命令のクラス<code>AstArrow</code>を作成した．合わせて，型による汎的なコード生成のツールを整備した．さらに，<code>AstList</code>のサブクラス<code>SentList</code>を作成した．</li>
 <li>machine.CommandFactory.java: クラスCommandFactoryの内容が，へ移動した．<code>AstDataReader</code>と<code>AstDataWriter</code>の型スイッチによる生成のファクトリクラスCommandFactoryを作成した．</li>
 <li>ast.AstFactory.java: 旧<code>CommandFactory</code>からのコードを集めて，型スイッチに基づくAstNodeの生成のためのファクトリクラス<code>AstFactory</code>を作成した．</li>
 </ul>
@@ -820,7 +879,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Apr 29 2021 18:54:24 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Apr 30 2021 04:06:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

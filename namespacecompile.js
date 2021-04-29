@@ -6,6 +6,5 @@ var namespacecompile =
     [ "XCNorm", "classcompile_1_1_x_c_norm.html", null ],
     [ "XCompiler", "classcompile_1_1_x_compiler.html", "classcompile_1_1_x_compiler" ],
     [ "XCPush", "classcompile_1_1_x_c_push.html", "classcompile_1_1_x_c_push" ],
-    [ "XCTest", "classcompile_1_1_x_c_test.html", "classcompile_1_1_x_c_test" ],
     [ "XCTyping", "classcompile_1_1_x_c_typing.html", "classcompile_1_1_x_c_typing" ]
 ];

@@ -1,13 +1,12 @@
 <map id="CommandTyped&lt; T &gt;.CmdTypeOpr&lt; T, R &gt;" name="CommandTyped&lt; T &gt;.CmdTypeOpr&lt; T, R &gt;">
-<area shape="rect" id="node1" title="二つの型Tの値をもらい、型Rの値を返す二項演算演算命令。" alt="" coords="610,303,819,344"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="291,199,403,225"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="248,109,299,136"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="5,109,224,136"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="65,5,165,32"/>
-<area shape="rect" id="node6" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="462,109,557,136"/>
-<area shape="rect" id="node7" title=" " alt="" coords="616,5,672,32"/>
-<area shape="rect" id="node8" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="437,5,581,32"/>
-<area shape="rect" id="node9" title=" " alt="" coords="331,5,397,32"/>
-<area shape="rect" id="node10" title=" " alt="" coords="691,199,861,225"/>
-<area shape="rect" id="node11" href="$enumtype_1_1_x_type.html" title="基本型を表す半順序をもつ列挙型のクラス。" alt="" coords="885,199,944,225"/>
+<area shape="rect" id="node1" title="二つの型Tの値をもらい、型Rの値を返す二項演算演算命令。" alt="" coords="470,303,679,344"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="211,199,323,225"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,109,56,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="338,109,475,136"/>
+<area shape="rect" id="node5" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="219,109,314,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="401,5,457,32"/>
+<area shape="rect" id="node7" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="195,5,339,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="88,5,155,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="551,199,721,225"/>
+<area shape="rect" id="node10" href="$enumtype_1_1_x_type.html" title="基本型を表す半順序をもつ列挙型のクラス。" alt="" coords="745,199,804,225"/>
 </map>

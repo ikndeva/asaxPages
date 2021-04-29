@@ -9,7 +9,7 @@ var interfacemachine_1_1_frame_stackable =
     [ "fetchIntegerHolder", "interfacemachine_1_1_frame_stackable.html#ab55373c657c02becbcc3dfb503c25015", null ],
     [ "fetchDoubleHolder", "interfacemachine_1_1_frame_stackable.html#a2a035ec2d5a2b8cee9e6885c998c481c", null ],
     [ "fetchStringHolder", "interfacemachine_1_1_frame_stackable.html#a3e3e06d271ca539e24ca1e0ce5bf908a", null ],
-    [ "setGlobalRefList", "interfacemachine_1_1_frame_stackable.html#a7b2dd6cb85eaa72ea719220e5f0fd885", null ],
+    [ "setGlobalRefList", "interfacemachine_1_1_frame_stackable.html#a9ffb0376ecb513d1beb5f7bccab61dfe", null ],
     [ "frameToString", "interfacemachine_1_1_frame_stackable.html#a2642133c8586f59378e1bc16c614af68", null ],
     [ "toString", "interfacemachine_1_1_frame_stackable.html#ad146fa8579a5f8a876c4688cc5a68520", null ]
 ];

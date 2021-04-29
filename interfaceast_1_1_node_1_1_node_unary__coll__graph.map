@@ -1,0 +1,5 @@
+<map id="Node.NodeUnary" name="Node.NodeUnary">
+<area shape="rect" id="node1" title="子供を一つだけもつノードのインタフェース" alt="" coords="5,155,128,181"/>
+<area shape="rect" id="node2" href="$interfaceast_1_1_node.html" title=" " alt="" coords="40,80,93,107"/>
+<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="17,5,117,32"/>
+</map>

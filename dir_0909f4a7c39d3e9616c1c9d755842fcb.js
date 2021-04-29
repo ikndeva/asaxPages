@@ -26,6 +26,9 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "FrameStackable.java", "_frame_stackable_8java.html", [
       [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ]
     ] ],
+    [ "GlobalRefList.java", "_global_ref_list_8java.html", [
+      [ "GlobalRefList", "classmachine_1_1_global_ref_list.html", "classmachine_1_1_global_ref_list" ]
+    ] ],
     [ "IdMask.java", "_id_mask_8java.html", [
       [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ]
     ] ],
@@ -44,10 +47,6 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     ] ],
     [ "OVMachine.java", "_o_v_machine_8java.html", [
       [ "OVMachine", "classmachine_1_1_o_v_machine.html", "classmachine_1_1_o_v_machine" ]
-    ] ],
-    [ "Program.java", "_program_8java.html", [
-      [ "Program", "classmachine_1_1_program.html", "classmachine_1_1_program" ],
-      [ "GlobalRefList", "classmachine_1_1_program_1_1_global_ref_list.html", "classmachine_1_1_program_1_1_global_ref_list" ]
     ] ],
     [ "Ref.java", "_ref_8java.html", [
       [ "Ref", "classmachine_1_1_ref.html", "classmachine_1_1_ref" ]

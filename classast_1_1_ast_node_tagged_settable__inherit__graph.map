@@ -1,13 +1,13 @@
 <map id="AstNodeTaggedSettable" name="AstNodeTaggedSettable">
-<area shape="rect" id="node1" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，Setter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="262,229,425,256"/>
-<area shape="rect" id="node8" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="222,304,334,331"/>
-<area shape="rect" id="node11" href="$classast_1_1_ast_scan_from.html" title=" " alt="" coords="359,304,461,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="227,155,300,181"/>
+<area shape="rect" id="node1" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，Setter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="146,229,309,256"/>
+<area shape="rect" id="node8" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="106,304,218,331"/>
+<area shape="rect" id="node11" href="$classast_1_1_ast_scan_from.html" title=" " alt="" coords="243,304,345,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="191,155,264,181"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="365,80,538,107"/>
-<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_field_navigatable.html" title="タグ付きノードに対応する清書対象のクラス。" alt="" coords="337,155,539,181"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="293,5,393,32"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="133,80,341,107"/>
-<area shape="rect" id="node9" href="$classast_1_1_ast_if.html" title="抽象構文木のステップ式のクラス." alt="" coords="213,379,263,405"/>
-<area shape="rect" id="node10" href="$classast_1_1_ast_let.html" title="とりあえず任意の文をラップして，ブール値を与えるためのノード" alt="" coords="288,379,348,405"/>
+<area shape="rect" id="node4" href="$interfaceast_1_1_node.html" title=" " alt="" coords="133,80,186,107"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="247,5,347,32"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="210,80,383,107"/>
+<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="407,80,615,107"/>
+<area shape="rect" id="node9" href="$classast_1_1_ast_if.html" title="抽象構文木のステップ式のクラス." alt="" coords="97,379,147,405"/>
+<area shape="rect" id="node10" href="$classast_1_1_ast_let.html" title="とりあえず任意の文をラップして，ブール値を与えるためのノード" alt="" coords="172,379,232,405"/>
 </map>

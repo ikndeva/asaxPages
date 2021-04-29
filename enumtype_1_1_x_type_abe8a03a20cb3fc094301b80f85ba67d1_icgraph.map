@@ -1,8 +1,7 @@
 <map id="getLeastUpperBound" name="getLeastUpperBound">
-<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="471,93,615,120"/>
-<area shape="rect" id="node2" href="$classtype_1_1_x_type_item.html#a3057d3707a7f0e95cbc88e49f41e8a4c" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="276,93,423,120"/>
+<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="471,56,615,83"/>
+<area shape="rect" id="node2" href="$classtype_1_1_x_type_item.html#a3057d3707a7f0e95cbc88e49f41e8a4c" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="276,56,423,83"/>
 <area shape="rect" id="node3" href="$classtype_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="15,5,218,32"/>
-<area shape="rect" id="node4" href="$classast_1_1_block_base_1_1_ret_list.html#adc55e2a1393e1ab76828f66894e0ac51" title="リターン節を加えて、保持する全てのリターン型の返り型の最小上界を更新する。新しい返り型が単一化可能でなければエラーを返す。" alt="" coords="27,57,206,98"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_data_reader_1_1_get_ref.html#acd2fd83a0adb6f44674827d7f05ddf7d" title="局所変数を設定する." alt="" coords="5,123,228,149"/>
-<area shape="rect" id="node6" href="$classast_1_1_ast_var_decl.html#a01af0743509a33df0dfbfa0c0b46690e" title="@breif" alt="" coords="40,173,193,200"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_data_reader_1_1_get_ref.html#acd2fd83a0adb6f44674827d7f05ddf7d" title="局所変数を設定する." alt="" coords="5,56,228,83"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_var_decl.html#a01af0743509a33df0dfbfa0c0b46690e" title="@breif" alt="" coords="40,107,193,133"/>
 </map>

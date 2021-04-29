@@ -15,7 +15,6 @@ var dir_4ebe53fbe4496e9b16238525da078a5e =
     [ "XFormattable.java", "_x_formattable_8java.html", [
       [ "XFormattable", "interfaceformat_1_1_x_formattable.html", "interfaceformat_1_1_x_formattable" ],
       [ "Navigatable", "interfaceformat_1_1_x_formattable_1_1_navigatable.html", "interfaceformat_1_1_x_formattable_1_1_navigatable" ],
-      [ "FieldNavigatable", "interfaceformat_1_1_x_formattable_1_1_field_navigatable.html", "interfaceformat_1_1_x_formattable_1_1_field_navigatable" ],
       [ "TypedFormattable", "interfaceformat_1_1_x_formattable_1_1_typed_formattable.html", "interfaceformat_1_1_x_formattable_1_1_typed_formattable" ],
       [ "CustomFormattable", "interfaceformat_1_1_x_formattable_1_1_custom_formattable.html", "interfaceformat_1_1_x_formattable_1_1_custom_formattable" ]
     ] ]

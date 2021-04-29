@@ -56,11 +56,6 @@ var hierarchy =
           [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
           [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ]
         ] ],
-        [ "AstList", "classast_1_1_ast_list.html", [
-          [ "AstList.ListWrapper< T >", "classast_1_1_ast_list_1_1_list_wrapper.html", null ],
-          [ "AstList.SentList", "classast_1_1_ast_list_1_1_sent_list.html", null ],
-          [ "AstList.StepList", "classast_1_1_ast_list_1_1_step_list.html", null ]
-        ] ],
         [ "AstLiteral", "classast_1_1_ast_literal.html", [
           [ "AstLiteral.BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", null ],
           [ "AstLiteral.DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", null ],
@@ -77,7 +72,7 @@ var hierarchy =
               [ "StepRule", "classast_1_1_step_rule.html", null ]
             ] ]
           ] ],
-          [ "Program", "classmachine_1_1_program.html", null ]
+          [ "Program", "classast_1_1_program.html", null ]
         ] ],
         [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ],
         [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", [
@@ -120,6 +115,9 @@ var hierarchy =
         [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
         [ "Path", "classast_1_1_path.html", null ],
         [ "Path", "classast_1_1_path.html", null ],
+        [ "SentList", "classast_1_1_sent_list.html", [
+          [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ]
+        ] ],
         [ "Ref", "classmachine_1_1_ref.html", null ]
       ] ]
     ] ],
@@ -228,6 +226,18 @@ var hierarchy =
       [ "XMachine", "classmachine_1_1_x_machine.html", null ]
     ] ],
     [ "CustomFormattable", "class_custom_formattable.html", null ],
+    [ "CustomFormattable", null, [
+      [ "AstTag", "classast_1_1_ast_tag.html", null ],
+      [ "Path", "classast_1_1_path.html", null ],
+      [ "Path", "classast_1_1_path.html", null ],
+      [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ],
+      [ "CmdList", "classcmd_1_1_cmd_list.html", null ],
+      [ "CommandBase", "classcmd_1_1_command_base.html", null ],
+      [ "Call", "classmachine_1_1_call.html", null ],
+      [ "CallList", "classmachine_1_1_call_list.html", null ],
+      [ "IdMask", "classmachine_1_1_id_mask.html", null ],
+      [ "RefList", "classmachine_1_1_ref_list.html", null ]
+    ] ],
     [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", [
       [ "AstDataReader.GetRef", "classast_1_1_ast_data_reader_1_1_get_ref.html", null ],
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
@@ -252,6 +262,9 @@ var hierarchy =
       [ "XppEventReaderFactory", "classevent_1_1xpp_1_1_xpp_event_reader_factory.html", null ]
     ] ],
     [ "FieldInspectable", "interfaceutil_1_1_field_inspectable.html", null ],
+    [ "FieldNavigatable", null, [
+      [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ]
+    ] ],
     [ "FilterOutputStream", "class_filter_output_stream.html", [
       [ "PooledOutputStream", "classio_1_1_pooled_output_stream.html", null ]
     ] ],
@@ -268,8 +281,6 @@ var hierarchy =
       [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
       [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ],
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
-      [ "AstList.SentList", "classast_1_1_ast_list_1_1_sent_list.html", null ],
-      [ "AstList.StepList", "classast_1_1_ast_list_1_1_step_list.html", null ],
       [ "AstMathOper.BooleanOper", "classast_1_1_ast_math_oper_1_1_boolean_oper.html", null ],
       [ "AstMathOper.DoubleOper", "classast_1_1_ast_math_oper_1_1_double_oper.html", null ],
       [ "AstMathOper.DoubleRel", "classast_1_1_ast_math_oper_1_1_double_rel.html", null ],
@@ -280,6 +291,7 @@ var hierarchy =
       [ "AstSource", "classast_1_1_ast_source.html", null ],
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
       [ "BlockBase", "classast_1_1_block_base.html", null ],
+      [ "SentList", "classast_1_1_sent_list.html", null ],
       [ "StringRel.RegexMatchRel", "classast_1_1_string_rel_1_1_regex_match_rel.html", null ],
       [ "StringRel.StringMatchRel", "classast_1_1_string_rel_1_1_string_match_rel.html", null ],
       [ "Generatable.Evaluatable", "interfacecmd_1_1_generatable_1_1_evaluatable.html", [
@@ -290,7 +302,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "Resettable.Generator< S >", "interfaceutil_1_1_resettable_1_1_generator.html", null ],
-    [ "Program.GlobalRefList", "classmachine_1_1_program_1_1_global_ref_list.html", null ],
+    [ "GlobalRefList", "classmachine_1_1_global_ref_list.html", null ],
     [ "IncCounter", "classutil_1_1_inc_counter.html", null ],
     [ "InputScannable", "interfaceio_1_1_input_scannable.html", [
       [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", null ]
@@ -318,7 +330,6 @@ var hierarchy =
     [ "MultiHashMap< T >", "classmachine_1_1_multi_hash_map.html", null ],
     [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", null ],
     [ "NFBufs", "classformat_1_1_n_f_bufs.html", null ],
-    [ "Node", "interfaceast_1_1_node.html", null ],
     [ "NodeFormattable", "interfaceformat_1_1_node_formattable.html", [
       [ "NodeFormatterBase", "classformat_1_1_node_formatter_base.html", [
         [ "NodeFormatterSimple", "classformat_1_1_node_formatter_simple.html", null ]
@@ -350,7 +361,6 @@ var hierarchy =
     ] ],
     [ "Resettable", "interfaceutil_1_1_resettable.html", null ],
     [ "Resettable.Resetter< S >", "interfaceutil_1_1_resettable_1_1_resetter.html", null ],
-    [ "BlockBase.RetList", "classast_1_1_block_base_1_1_ret_list.html", null ],
     [ "Rule", "interfacemachine_1_1_rule.html", [
       [ "BlockBase", "classast_1_1_block_base.html", null ],
       [ "Blockable", "interfacemachine_1_1_blockable.html", null ],
@@ -360,7 +370,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "Runnable", "interfacemachine_1_1_runnable.html", [
-      [ "Program", "classmachine_1_1_program.html", null ]
+      [ "Program", "classast_1_1_program.html", null ]
     ] ],
     [ "RuntimeException", "class_runtime_exception.html", [
       [ "XException", "classmachine_1_1_x_exception.html", [
@@ -401,9 +411,6 @@ var hierarchy =
     [ "TestIsInstance", "classtype_1_1_test_is_instance.html", null ],
     [ "Tmpl", "classtmpl_1_1_tmpl.html", null ],
     [ "TraceLevel", "classutil_1_1_trace_level.html", null ],
-    [ "Traversable", "interfaceast_1_1_traversable.html", [
-      [ "Block", "classast_1_1_block.html", null ]
-    ] ],
     [ "Typable", "interfacetype_1_1_typable.html", [
       [ "BasicTyping", "classtype_1_1_basic_typing.html", [
         [ "ChildHomTyping", "classtype_1_1_child_hom_typing.html", [
@@ -423,30 +430,17 @@ var hierarchy =
       [ "XCPush", "classcompile_1_1_x_c_push.html", null ],
       [ "XCTyping", "classcompile_1_1_x_c_typing.html", null ]
     ] ],
-    [ "XCTest", "classcompile_1_1_x_c_test.html", null ],
     [ "XFormattable", "interfaceformat_1_1_x_formattable.html", [
-      [ "XFormattable.CustomFormattable", "interfaceformat_1_1_x_formattable_1_1_custom_formattable.html", [
-        [ "AstList.ListWrapper< T >", "classast_1_1_ast_list_1_1_list_wrapper.html", null ],
-        [ "AstTag", "classast_1_1_ast_tag.html", null ],
-        [ "Path", "classast_1_1_path.html", null ],
-        [ "Path", "classast_1_1_path.html", null ],
-        [ "CmdList", "classcmd_1_1_cmd_list.html", null ],
-        [ "CommandBase", "classcmd_1_1_command_base.html", null ],
-        [ "Call", "classmachine_1_1_call.html", null ],
-        [ "CallList", "classmachine_1_1_call_list.html", null ],
-        [ "IdMask", "classmachine_1_1_id_mask.html", null ],
-        [ "RefList", "classmachine_1_1_ref_list.html", null ]
+      [ "Node", "interfaceast_1_1_node.html", [
+        [ "AstNode", "classast_1_1_ast_node.html", null ],
+        [ "Node.NodeUnary", "interfaceast_1_1_node_1_1_node_unary.html", [
+          [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ]
+        ] ]
       ] ],
+      [ "XFormattable.CustomFormattable", "interfaceformat_1_1_x_formattable_1_1_custom_formattable.html", null ],
       [ "XFormattable.Navigatable", "interfaceformat_1_1_x_formattable_1_1_navigatable.html", [
         [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
-        [ "AstList", "classast_1_1_ast_list.html", null ],
-        [ "AstNode", "classast_1_1_ast_node.html", null ],
-        [ "XFormattable.FieldNavigatable", "interfaceformat_1_1_x_formattable_1_1_field_navigatable.html", [
-          [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ],
-          [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ],
-          [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", null ],
-          [ "Program", "classmachine_1_1_program.html", null ]
-        ] ]
+        [ "AstNode", "classast_1_1_ast_node.html", null ]
       ] ],
       [ "XFormattable.TypedFormattable", "interfaceformat_1_1_x_formattable_1_1_typed_formattable.html", [
         [ "AstNode", "classast_1_1_ast_node.html", null ]
@@ -526,8 +520,7 @@ var hierarchy =
       [ "queryParser.StrTermContext", "classparse_1_1query_parser_1_1_str_term_context.html", null ],
       [ "queryParser.StringRelContext", "classparse_1_1query_parser_1_1_string_rel_context.html", [
         [ "queryParser.StrRelRegexContext", "classparse_1_1query_parser_1_1_str_rel_regex_context.html", null ],
-        [ "queryParser.StrRelStrDQContext", "classparse_1_1query_parser_1_1_str_rel_str_d_q_context.html", null ],
-        [ "queryParser.StrRelStrSQContext", "classparse_1_1query_parser_1_1_str_rel_str_s_q_context.html", null ]
+        [ "queryParser.StrRelStrExprContext", "classparse_1_1query_parser_1_1_str_rel_str_expr_context.html", null ]
       ] ],
       [ "queryParser.SysVarUseContext", "classparse_1_1query_parser_1_1_sys_var_use_context.html", null ],
       [ "queryParser.TagExprContext", "classparse_1_1query_parser_1_1_tag_expr_context.html", null ],

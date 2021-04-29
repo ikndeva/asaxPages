@@ -1,7 +1,6 @@
 <map id="CommandBase.CmdIntInStreamConst" name="CommandBase.CmdIntInStreamConst">
-<area shape="rect" id="node1" title="ファイル記述子をスタックへ積む。" alt="" coords="5,229,217,271"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="55,155,167,181"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="7,80,58,107"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="82,80,301,107"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="141,5,241,32"/>
+<area shape="rect" id="node1" title="ファイル記述子をスタックへ積む。" alt="" coords="5,155,217,196"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="55,80,167,107"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="27,5,78,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="103,5,240,32"/>
 </map>

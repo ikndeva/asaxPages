@@ -1,6 +1,6 @@
 var classmachine_1_1_ref_list =
 [
-    [ "RefList", "classmachine_1_1_ref_list.html#a2cc4ed1ad2357ea4c19547c2bb29d27d", null ],
+    [ "RefList", "classmachine_1_1_ref_list.html#a574791a3ca6030b20efcb1e2b4d1592b", null ],
     [ "setReporter", "classmachine_1_1_ref_list.html#a5d3ec868d7f73cc70303e27dad733f84", null ],
     [ "list", "classmachine_1_1_ref_list.html#a87991eaf5d83f464441e557727344bf7", null ],
     [ "notToEmit", "classmachine_1_1_ref_list.html#a9bdb4531eee4ea10fafba49383ab366f", null ],

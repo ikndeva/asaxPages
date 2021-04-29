@@ -1,5 +1,6 @@
 var interfaceast_1_1_node =
 [
+    [ "NodeUnary", "interfaceast_1_1_node_1_1_node_unary.html", "interfaceast_1_1_node_1_1_node_unary" ],
     [ "getTyping", "interfaceast_1_1_node.html#adfc6b93e5d1b92cba301a9a917fe372c", null ],
     [ "data", "interfaceast_1_1_node.html#a3137357d0abb2bd75321d6e19024956a", null ],
     [ "notToEmit", "interfaceast_1_1_node.html#a9bdb4531eee4ea10fafba49383ab366f", null ],
