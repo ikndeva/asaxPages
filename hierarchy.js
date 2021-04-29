@@ -462,10 +462,8 @@ var hierarchy =
         ] ]
       ] ],
       [ "XFormattable.TypedFormattable", "interfaceformat_1_1_x_formattable_1_1_typed_formattable.html", [
-        [ "AstAssign", "classast_1_1_ast_assign.html", null ],
         [ "AstLet", "classast_1_1_ast_let.html", null ],
-        [ "AstNode", "classast_1_1_ast_node.html", null ],
-        [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ]
+        [ "AstNode", "classast_1_1_ast_node.html", null ]
       ] ]
     ] ],
     [ "XFormList", "class_x_form_list.html", null ],
