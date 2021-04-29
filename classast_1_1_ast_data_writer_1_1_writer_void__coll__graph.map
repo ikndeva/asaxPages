@@ -1,23 +1,22 @@
 <map id="AstDataWriter.WriterVoid" name="AstDataWriter.WriterVoid">
-<area shape="rect" id="node1" title="Void型の値をもつ局所変数" alt="" coords="1037,557,1203,584"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="625,481,729,508"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node_branch.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="313,392,428,419"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title=" " alt="" coords="950,282,1023,309"/>
-<area shape="rect" id="node18" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="656,392,699,419"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="766,5,866,32"/>
-<area shape="rect" id="node13" href="$interfaceformat_1_1_x_formattable_1_1_label_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="31,81,235,108"/>
-<area shape="rect" id="node14" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="143,177,351,204"/>
-<area shape="rect" id="node20" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="1229,341,1448,368"/>
-<area shape="rect" id="node6" title=" " alt="" coords="865,81,921,108"/>
-<area shape="rect" id="node16" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="659,282,711,309"/>
-<area shape="rect" id="node7" title=" " alt="" coords="1011,81,1098,108"/>
-<area shape="rect" id="node8" title=" " alt="" coords="1122,81,1219,108"/>
-<area shape="rect" id="node9" title=" " alt="" coords="407,81,446,108"/>
-<area shape="rect" id="node10" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="1244,81,1311,108"/>
-<area shape="rect" id="node11" title=" " alt="" coords="601,81,668,108"/>
-<area shape="rect" id="node12" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="5,282,179,309"/>
-<area shape="rect" id="node15" title=" " alt="" coords="203,282,272,309"/>
-<area shape="rect" id="node17" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="723,392,829,419"/>
-<area shape="rect" id="node19" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="1047,282,1134,309"/>
-<area shape="rect" id="node21" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="1158,481,1250,508"/>
+<area shape="rect" id="node1" title="Void型の値をもつ局所変数" alt="" coords="1325,540,1492,567"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="962,464,1066,491"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="788,299,861,325"/>
+<area shape="rect" id="node17" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="993,375,1035,401"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="317,197,420,224"/>
+<area shape="rect" id="node5" title=" " alt="" coords="435,5,491,32"/>
+<area shape="rect" id="node15" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="664,197,716,224"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,5,92,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="116,5,213,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="948,5,987,32"/>
+<area shape="rect" id="node9" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="238,5,305,32"/>
+<area shape="rect" id="node10" title=" " alt="" coords="565,5,631,32"/>
+<area shape="rect" id="node11" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="1283,197,1457,224"/>
+<area shape="rect" id="node12" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="1320,5,1420,32"/>
+<area shape="rect" id="node13" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="1051,197,1259,224"/>
+<area shape="rect" id="node19" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="1354,248,1573,275"/>
+<area shape="rect" id="node14" title=" " alt="" coords="223,197,293,224"/>
+<area shape="rect" id="node16" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="863,375,968,401"/>
+<area shape="rect" id="node18" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="889,299,976,325"/>
+<area shape="rect" id="node20" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="1447,464,1539,491"/>
 </map>

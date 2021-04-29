@@ -67,7 +67,7 @@ var sectionId = 'dynsection-3';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classcompile_1_1_x_c_push.html#a2e0014478d7dd7a061888b3ab04e1df4" target="_top" xlink:title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．">
+<g id="a_node2"><a xlink:href="classcompile_1_1_x_c_push.html#a023b650dca158bd7f315a864324875ff" target="_top" xlink:title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．">
 <polygon fill="white" stroke="black" points="480,-0.5 480,-19.5 609,-19.5 609,-0.5 480,-0.5"/>
 <text text-anchor="middle" x="544.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCPush.recPush</text>
 </a>
@@ -82,7 +82,7 @@ var sectionId = 'dynsection-3';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classcompile_1_1_x_c_push.html#a7a8fbc2be97dd1cb7a0b02131e362d9c" target="_top" xlink:title="クエリのコード変換を行う．">
+<g id="a_node3"><a xlink:href="classcompile_1_1_x_c_push.html#a7a8fbc2be97dd1cb7a0b02131e362d9c" target="_top" xlink:title="クエリのコード生成を行う．">
 <polygon fill="white" stroke="black" points="317,-0.5 317,-19.5 444,-19.5 444,-0.5 317,-0.5"/>
 <text text-anchor="middle" x="380.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCPush.pushing</text>
 </a>

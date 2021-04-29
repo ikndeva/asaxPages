@@ -1,6 +1,7 @@
 <map id="addGetter" name="addGetter">
-<area shape="rect" id="node1" title="次の子のField名と，Getter，型を設定し，子の添字idxを返す．" alt="" coords="5,56,84,83"/>
-<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#aa7232c3fd7a09d8287be32ad607556b6" title="子として，型をもつ型項を追加する．" alt="" coords="163,5,314,32"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node.html#adfc6b93e5d1b92cba301a9a917fe372c" title="ノードの演算型を返す。" alt="" coords="161,56,316,83"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node_branch.html#a43b257b2ab32fc064fad0355c7dc327d" title="子供の数を返す." alt="" coords="132,107,345,133"/>
+<area shape="rect" id="node1" title="次の子のField名と，Getter，型を設定し，子の添字idxを返す．" alt="" coords="5,81,84,108"/>
+<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#aa7232c3fd7a09d8287be32ad607556b6" title="子として，型をもつ型項を追加する．" alt="" coords="149,5,300,32"/>
+<area shape="rect" id="node3" href="$interfacetype_1_1_typable.html#a43fad88a40e732def4cd36c8b11a570b" title=" " alt="" coords="161,56,288,83"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html#adfc6b93e5d1b92cba301a9a917fe372c" title="ノードの演算型を返す。" alt="" coords="132,107,317,133"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_node.html#a43b257b2ab32fc064fad0355c7dc327d" title="子供の数を返す." alt="" coords="139,157,311,184"/>
 </map>

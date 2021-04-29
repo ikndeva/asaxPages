@@ -6,19 +6,26 @@ var annotated_dup =
     ] ],
     [ "ast", "namespaceast.html", [
       [ "AstAssign", "classast_1_1_ast_assign.html", "classast_1_1_ast_assign" ],
-      [ "AstAtom", "classast_1_1_ast_atom.html", "classast_1_1_ast_atom" ],
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
+      [ "AstDataWrapper", "classast_1_1_ast_data_wrapper.html", "classast_1_1_ast_data_wrapper" ],
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", "classast_1_1_ast_data_writer" ],
       [ "AstFactory", "classast_1_1_ast_factory.html", "classast_1_1_ast_factory" ],
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", "classast_1_1_ast_func_call" ],
       [ "AstIf", "classast_1_1_ast_if.html", "classast_1_1_ast_if" ],
       [ "AstLet", "classast_1_1_ast_let.html", "classast_1_1_ast_let" ],
       [ "AstList", "classast_1_1_ast_list.html", "classast_1_1_ast_list" ],
+      [ "AstLiteral", "classast_1_1_ast_literal.html", [
+        [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
+        [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],
+        [ "IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", "classast_1_1_ast_literal_1_1_integer_literal" ],
+        [ "RegexLiteral", "classast_1_1_ast_literal_1_1_regex_literal.html", "classast_1_1_ast_literal_1_1_regex_literal" ],
+        [ "StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", "classast_1_1_ast_literal_1_1_string_expr" ],
+        [ "StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", "classast_1_1_ast_literal_1_1_string_literal" ]
+      ] ],
       [ "AstMathOper", "classast_1_1_ast_math_oper.html", "classast_1_1_ast_math_oper" ],
       [ "AstNode", "classast_1_1_ast_node.html", "classast_1_1_ast_node" ],
-      [ "AstNodeBranch", "classast_1_1_ast_node_branch.html", "classast_1_1_ast_node_branch" ],
-      [ "AstNodeBranchTagged", "classast_1_1_ast_node_branch_tagged.html", "classast_1_1_ast_node_branch_tagged" ],
+      [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
       [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ],
       [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", "classast_1_1_ast_node_tagged_settable" ],
       [ "AstOper", "classast_1_1_ast_oper.html", "classast_1_1_ast_oper" ],
@@ -28,11 +35,11 @@ var annotated_dup =
       [ "AstSource", "classast_1_1_ast_source.html", "classast_1_1_ast_source" ],
       [ "AstTag", "classast_1_1_ast_tag.html", "classast_1_1_ast_tag" ],
       [ "AstTemplate", "classast_1_1_ast_template.html", "classast_1_1_ast_template" ],
-      [ "AstTerminal", "classast_1_1_ast_terminal.html", "classast_1_1_ast_terminal" ],
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ],
       [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
       [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
       [ "Path", "classast_1_1_path.html", "classast_1_1_path" ],
+      [ "Node", "interfaceast_1_1_node.html", "interfaceast_1_1_node" ],
       [ "Step", "classast_1_1_step.html", "classast_1_1_step" ],
       [ "StepRule", "classast_1_1_step_rule.html", "classast_1_1_step_rule" ],
       [ "StringRel", "classast_1_1_string_rel.html", "classast_1_1_string_rel" ],
@@ -107,8 +114,6 @@ var annotated_dup =
       [ "EventReaderBase", "classevent_1_1_event_reader_base.html", "classevent_1_1_event_reader_base" ]
     ] ],
     [ "format", "namespaceformat.html", [
-      [ "HgtFormattable", "interfaceformat_1_1_hgt_formattable.html", "interfaceformat_1_1_hgt_formattable" ],
-      [ "HeightFormatter", "classformat_1_1_height_formatter.html", "classformat_1_1_height_formatter" ],
       [ "NFBufs", "classformat_1_1_n_f_bufs.html", "classformat_1_1_n_f_bufs" ],
       [ "NodeFormattable", "interfaceformat_1_1_node_formattable.html", "interfaceformat_1_1_node_formattable" ],
       [ "NodeFormatterBase", "classformat_1_1_node_formatter_base.html", "classformat_1_1_node_formatter_base" ],
@@ -191,8 +196,7 @@ var annotated_dup =
       [ "Typable", "interfacetype_1_1_typable.html", "interfacetype_1_1_typable" ],
       [ "UnionFindItem", "classtype_1_1_union_find_item.html", "classtype_1_1_union_find_item" ],
       [ "XType", "enumtype_1_1_x_type.html", "enumtype_1_1_x_type" ],
-      [ "XTypeItem", "classtype_1_1_x_type_item.html", "classtype_1_1_x_type_item" ],
-      [ "XTyping", "classtype_1_1_x_typing.html", "classtype_1_1_x_typing" ]
+      [ "XTypeItem", "classtype_1_1_x_type_item.html", "classtype_1_1_x_type_item" ]
     ] ],
     [ "util", "namespaceutil.html", [
       [ "ArgTest", "classutil_1_1_arg_test.html", "classutil_1_1_arg_test" ],

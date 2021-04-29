@@ -18,7 +18,6 @@ var classast_1_1_block_base =
     [ "addCode", "classast_1_1_block_base.html#a44d5afc55dc7e352b9d056de5da6af7e", null ],
     [ "callString", "classast_1_1_block_base.html#ab105b81f19ab5a0c6b2616d86a158474", null ],
     [ "data", "classast_1_1_block_base.html#a3137357d0abb2bd75321d6e19024956a", null ],
-    [ "getTypeString", "classast_1_1_block_base.html#a00a28c4c9cc4dfcdb9c1179d4a991e66", null ],
     [ "gencode_safe", "classast_1_1_block_base.html#a4f5d129d0368204c68c05ec3848b7c0a", null ],
     [ "gencode", "classast_1_1_block_base.html#a383612fb2c1d291f6f3f9c352a5cb262", null ],
     [ "rid_", "classast_1_1_block_base.html#a8e5997399be42f2e072fb2100babe6d0", null ],

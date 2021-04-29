@@ -1,12 +1,11 @@
 <map id="AstDataReader.GetText" name="AstDataReader.GetText">
-<area shape="rect" id="node1" title=" " alt="" coords="170,379,331,405"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="195,304,307,331"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_atom.html" title="値を返すことができる終端オブジェクトのクラス" alt="" coords="301,229,374,256"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_terminal.html" title="値型をもたない終端オブジェクトのクラス" alt="" coords="292,155,383,181"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title=" " alt="" coords="350,80,423,107"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="186,5,286,32"/>
-<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_terminatable.html" title="木構造の終端として清書可能なオブジェクトのクラス" alt="" coords="147,80,325,107"/>
-<area shape="rect" id="node10" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="5,229,213,256"/>
-<area shape="rect" id="node8" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="409,155,573,181"/>
-<area shape="rect" id="node9" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="447,80,539,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="316,304,477,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="341,229,453,256"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="289,155,363,181"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="133,80,306,107"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="276,5,376,32"/>
+<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="330,80,538,107"/>
+<area shape="rect" id="node8" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="456,155,620,181"/>
+<area shape="rect" id="node9" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="563,80,655,107"/>
 </map>

@@ -7,8 +7,8 @@
 <area shape="rect" id="node21" href="$classast_1_1_ast_math_oper_1_1_string_add_oper.html" title=" " alt="" coords="953,284,1140,311"/>
 <area shape="rect" id="node2" href="$classast_1_1_ast_math_oper.html" title="値を返すことができるノードのクラス．一般に1個以上の子をもつ演算子である．" alt="" coords="592,183,691,209"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_oper.html" title=" " alt="" coords="473,183,544,209"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node_branch.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="286,151,401,177"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title=" " alt="" coords="73,75,146,101"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="307,151,380,177"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="58,75,161,101"/>
 <area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="23,125,196,152"/>
 <area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="5,176,213,203"/>
 <area shape="rect" id="node8" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="261,213,425,240"/>

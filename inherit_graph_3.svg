@@ -9,9 +9,9 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 73.5)">
 <title>Graphical Class Hierarchy</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-73.5 254,-73.5 254,4 -4,4"/>
-<!-- Node329 -->
+<!-- Node323 -->
 <g id="node1" class="node">
-<title>Node329</title>
+<title>Node323</title>
 <g id="a_node1"><a xlink:title=" ">
 <polygon fill="white" stroke="#bfbfbf" points="0,-22.5 0,-41.5 47,-41.5 47,-22.5 0,-22.5"/>
 <text text-anchor="middle" x="23.5" y="-29.5" font-family="Helvetica,sans-Serif" font-size="10.00">Iterator</text>
@@ -28,24 +28,24 @@
 </a>
 </g>
 </g>
-<!-- Node329&#45;&gt;Node0 -->
+<!-- Node323&#45;&gt;Node0 -->
 <g id="edge1" class="edge">
-<title>Node329&#45;&gt;Node0</title>
+<title>Node323&#45;&gt;Node0</title>
 <path fill="none" stroke="midnightblue" d="M57.07,-37.08C68.03,-38.79 80.73,-40.77 93.5,-42.77"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="57.57,-33.62 47.15,-35.53 56.49,-40.53 57.57,-33.62"/>
 </g>
-<!-- Node331 -->
+<!-- Node325 -->
 <g id="node3" class="node">
-<title>Node331</title>
+<title>Node325</title>
 <g id="a_node3"><a xlink:href="classevent_1_1xpp_1_1_xpp_event_reader_1_1_xpp_event_iterator.html" target="_top" xlink:title="An iterator for AXMLEvents implementing Iterable&lt;AXMLEvent&gt;">
 <polygon fill="white" stroke="black" points="83,-0.5 83,-19.5 250,-19.5 250,-0.5 83,-0.5"/>
 <text text-anchor="middle" x="166.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">XppEventReader.XppEventIterator</text>
 </a>
 </g>
 </g>
-<!-- Node329&#45;&gt;Node331 -->
+<!-- Node323&#45;&gt;Node325 -->
 <g id="edge2" class="edge">
-<title>Node329&#45;&gt;Node331</title>
+<title>Node323&#45;&gt;Node325</title>
 <path fill="none" stroke="midnightblue" d="M57.31,-26.88C71.4,-24.68 88.33,-22.04 104.57,-19.51"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="56.49,-23.47 47.15,-28.47 57.57,-30.38 56.49,-23.47"/>
 </g>

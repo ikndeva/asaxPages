@@ -1,12 +1,11 @@
 <map id="AstDataWriter.WriterOStream" name="AstDataWriter.WriterOStream">
-<area shape="rect" id="node1" title="String型の値をもつ局所変数" alt="" coords="241,379,434,405"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="224,304,328,331"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node_branch.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="219,229,333,256"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title=" " alt="" coords="378,80,451,107"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="257,5,357,32"/>
-<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_label_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="27,80,231,107"/>
-<area shape="rect" id="node8" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="203,155,411,181"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="5,155,179,181"/>
-<area shape="rect" id="node9" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="358,229,463,256"/>
-<area shape="rect" id="node10" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="353,304,445,331"/>
+<area shape="rect" id="node1" title="String型の値をもつ局所変数" alt="" coords="380,304,573,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="363,229,467,256"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="269,155,343,181"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="365,80,538,107"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="293,5,393,32"/>
+<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="133,80,341,107"/>
+<area shape="rect" id="node8" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="453,155,559,181"/>
+<area shape="rect" id="node9" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="492,229,584,256"/>
 </map>

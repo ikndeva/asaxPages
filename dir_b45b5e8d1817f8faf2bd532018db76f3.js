@@ -17,8 +17,5 @@ var dir_b45b5e8d1817f8faf2bd532018db76f3 =
     ] ],
     [ "XType.java", "_x_type_8java.html", [
       [ "XType", "enumtype_1_1_x_type.html", "enumtype_1_1_x_type" ]
-    ] ],
-    [ "XTyping.java", "_x_typing_8java.html", [
-      [ "XTyping", "classtype_1_1_x_typing.html", "classtype_1_1_x_typing" ]
     ] ]
 ];

@@ -95,10 +95,15 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
-<h1>210425 Sun, 23:00-:</h1>
-<p>ASTノードクラスのリファクタリング．</p>
-<ul>
-<li>ast:</li>
+<h1>210419 Thu, 昭和の日, 5:00-10:00, 14:00-16:30: AstNodeの再設計</h1>
+<p>プロセス機構の再設計を受けて，AstNodeのクラス階層の再設計を行った．</p>
+<h1>210428 Wed, 21:00-22:00, 1h: プロセス呼び出しの再設計</h1>
+<p>プロセス呼び出し機構の再設計を行った．</p>
+<h1>210425 Sun, 23:00-26:30, 3.5h: リファクタリング</h1>
+<p>パッケージcompileの各手続きのリファクタリング．ブロック呼び出し全体を再設計したい． BlockBaseの下に，BlockとStepをおいた．</p>
+<p>TODO:</p><ul>
+<li>おそらく，Blockは，パスと帰り値を持たない点をのぞいて，Stepと同じにする必要があるのではないか？</li>
+<li>XCPushについて，AstScanFromとStepについては整理の必要がある．</li>
 </ul>
 <h1>210423 Fri, 10:20-10:50, 30min: バグ</h1>
 <ul>
@@ -206,13 +211,13 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="line">  void addChildType(): 登録した型`xt1`を子の型として追加する．</div>
 <div class="line">}</div>
 </div><!-- fragment --><ul>
-<li>* <a class="el" href="_x_typing_8java.html">type/XTyping.java</a>: 型項を実装する．</li>
+<li>* type/XTyping.java: 型項を実装する．</li>
 </ul>
 <h1>210319 Fri, 18:00-20:00, 21:00-23:30, 4.5h: ScanFrom節の動的化．</h1>
 <p>ScanFrom節を，入力ストリーム指定の節に，任意の文字列項を許すようにリファクタリングした．実装中． 各種の構文要素を汎化して実装する試みとして行なった．</p>
 <p>これに先立ち，astパッケージのリファクタリングを行なった．</p><ul>
-<li><a class="el" href="_ast_node_branch_8java.html">ast/AstNodeBranch.java</a>: SetterとGetterを通して，名前付きの子供にアクセスするようにした．これを順序付きの子として，<code>int numChildren()</code>と<code>AstNode getChild(int i)</code>, <code>void setChild(int i, AstNode child)</code>でアクセスすることとした．</li>
-<li><a class="el" href="_ast_node_branch_8java.html">ast/AstNodeBranch.java</a>: インタフェース<code>Navigatable</code>のノードの清書演算<code>String getLabelString()</code>を，メソッド<code>data()</code>を呼び出す共通手続きとして1箇所にまとめた．</li>
+<li>ast/AstNodeBranch.java: SetterとGetterを通して，名前付きの子供にアクセスするようにした．これを順序付きの子として，<code>int numChildren()</code>と<code>AstNode getChild(int i)</code>, <code>void setChild(int i, AstNode child)</code>でアクセスすることとした．</li>
+<li>ast/AstNodeBranch.java: インタフェース<code>Navigatable</code>のノードの清書演算<code>String getLabelString()</code>を，メソッド<code>data()</code>を呼び出す共通手続きとして1箇所にまとめた．</li>
 <li><a class="el" href="_x_formattable_8java.html">format/XFormattable.java</a>: インタフェース<code>Navigatable</code>にノードの清書演算<code>String getLabelString()</code>を持たせた．これは，AstNodeBranchに各種の演算を集約するため．</li>
 </ul>
 <p>全体に，プログラム言語として，静的解析を減らして，動的な割り付けを行うようにする方針の一環である． そのためには，ASTノードに，これまでより高い表現力の型項を導入して，<code>compiler</code>の型推論を単純化する戦略がよさそうである．</p>
@@ -578,7 +583,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <h1>200703 Sat, 21:30-23:30:</h1>
 <p>Makeが一回でとおらないバグを，パッケージ間の依存性を除去して改善した．</p>
 <ul>
-<li><a class="el" href="_ast_atom_8java.html">AstAtom.java</a>: クラスにstatic なReportオブジェクトを持たせて，手続き<code>static void setReporter(Report repo)</code>を用いて，外部から<code>XMachine.repo</code>を注入し，サブクラスがこれを用いる方式とした．これにより，AstNodeのサブクラスからはXMachineをみなくてよくなった．</li>
+<li>AstAtom.java: クラスにstatic なReportオブジェクトを持たせて，手続き<code>static void setReporter(Report repo)</code>を用いて，外部から<code>XMachine.repo</code>を注入し，サブクラスがこれを用いる方式とした．これにより，AstNodeのサブクラスからはXMachineをみなくてよくなった．</li>
 <li>machine, cmd: 仮想機械語関係のコードを，パッケージ<code>machine</code>から<code>cmd</code>へ移した．</li>
 <li>parse/query.g4: タグ名にハイフン<code>-</code>を使えるようにした．</li>
 </ul>
@@ -815,7 +820,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Apr 25 2021 23:57:41 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Apr 29 2021 18:18:08 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

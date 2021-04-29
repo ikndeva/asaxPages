@@ -1,7 +1,5 @@
 var namespaceformat =
 [
-    [ "HgtFormattable", "interfaceformat_1_1_hgt_formattable.html", "interfaceformat_1_1_hgt_formattable" ],
-    [ "HeightFormatter", "classformat_1_1_height_formatter.html", "classformat_1_1_height_formatter" ],
     [ "NFBufs", "classformat_1_1_n_f_bufs.html", "classformat_1_1_n_f_bufs" ],
     [ "NodeFormattable", "interfaceformat_1_1_node_formattable.html", "interfaceformat_1_1_node_formattable" ],
     [ "NodeFormatterBase", "classformat_1_1_node_formatter_base.html", "classformat_1_1_node_formatter_base" ],

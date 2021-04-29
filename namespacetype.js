@@ -7,6 +7,5 @@ var namespacetype =
     [ "Typable", "interfacetype_1_1_typable.html", "interfacetype_1_1_typable" ],
     [ "UnionFindItem", "classtype_1_1_union_find_item.html", "classtype_1_1_union_find_item" ],
     [ "XType", "enumtype_1_1_x_type.html", "enumtype_1_1_x_type" ],
-    [ "XTypeItem", "classtype_1_1_x_type_item.html", "classtype_1_1_x_type_item" ],
-    [ "XTyping", "classtype_1_1_x_typing.html", "classtype_1_1_x_typing" ]
+    [ "XTypeItem", "classtype_1_1_x_type_item.html", "classtype_1_1_x_type_item" ]
 ];

@@ -94,7 +94,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>gencode()
 : <a class="el" href="classast_1_1_ast_assign.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstAssign</a>
-, <a class="el" href="classast_1_1_ast_atom.html#a383612fb2c1d291f6f3f9c352a5cb262">AstAtom</a>
 , <a class="el" href="classast_1_1_ast_data_reader_1_1_reader_integer.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstDataReader.ReaderInteger</a>
 , <a class="el" href="classast_1_1_ast_func_call.html#a383612fb2c1d291f6f3f9c352a5cb262">AstFuncCall</a>
 , <a class="el" href="classast_1_1_ast_if.html#a383612fb2c1d291f6f3f9c352a5cb262">AstIf</a>
@@ -178,14 +177,14 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classio_1_1_pooled_input_stream.html#ad17c692ebd215556e2ea511f5d5190eb">PooledInputStream</a>
 </li>
 <li>getChild()
-: <a class="el" href="classast_1_1_ast_node_branch.html#ae67707ee54f4c5d72844844470940d77">AstNodeBranch</a>
+: <a class="el" href="classast_1_1_ast_node.html#ae67707ee54f4c5d72844844470940d77">AstNode</a>
 , <a class="el" href="classast_1_1_ast_node_tagged_settable.html#ae67707ee54f4c5d72844844470940d77">AstNodeTaggedSettable</a>
 , <a class="el" href="classast_1_1_block.html#ae67707ee54f4c5d72844844470940d77">Block</a>
+, <a class="el" href="interfaceast_1_1_node.html#a35d53cdd86285e56b69cfedc5ef28580">Node</a>
 , <a class="el" href="interfaceast_1_1_traversable.html#ae67707ee54f4c5d72844844470940d77">Traversable</a>
 </li>
 <li>getChildNav()
-: <a class="el" href="classast_1_1_ast_node_branch.html#ad2e3a885d9dc86de242760deee9bc119">AstNodeBranch</a>
-, <a class="el" href="classast_1_1_ast_node_branch_tagged.html#ad2e3a885d9dc86de242760deee9bc119">AstNodeBranchTagged</a>
+: <a class="el" href="classast_1_1_ast_node.html#ad2e3a885d9dc86de242760deee9bc119">AstNode</a>
 , <a class="el" href="classast_1_1_ast_node_tagged.html#ad2e3a885d9dc86de242760deee9bc119">AstNodeTagged</a>
 , <a class="el" href="classast_1_1_ast_node_tagged_settable.html#ad2e3a885d9dc86de242760deee9bc119">AstNodeTaggedSettable</a>
 , <a class="el" href="interfaceformat_1_1_x_formattable_1_1_navigatable.html#ad2e3a885d9dc86de242760deee9bc119">XFormattable.Navigatable</a>
@@ -216,8 +215,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classutil_1_1_foldable_string_buf.html#af4e04c3e94acb04364b2b2a089685d8d">FoldableStringBuf</a>
 </li>
 <li>getFieldNav()
-: <a class="el" href="classast_1_1_ast_node_branch_tagged.html#aba3f875d3ffe003840447ea435b705d3">AstNodeBranchTagged</a>
-, <a class="el" href="classast_1_1_ast_node_tagged.html#aba3f875d3ffe003840447ea435b705d3">AstNodeTagged</a>
+: <a class="el" href="classast_1_1_ast_node_tagged.html#aba3f875d3ffe003840447ea435b705d3">AstNodeTagged</a>
 , <a class="el" href="classast_1_1_ast_node_tagged_settable.html#aba3f875d3ffe003840447ea435b705d3">AstNodeTaggedSettable</a>
 , <a class="el" href="interfaceformat_1_1_x_formattable_1_1_field_navigatable.html#aba3f875d3ffe003840447ea435b705d3">XFormattable.FieldNavigatable</a>
 </li>
@@ -231,9 +229,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="interfacetype_1_1_lower_joinable.html#a25aa8a8ebaa8858a7627cbb4b1eba401">LowerJoinable</a>
 , <a class="el" href="enumtype_1_1_x_type.html#a7f1a800ec5fd3b1844500bab56de66d9">XType</a>
 </li>
-<li>getHgt()
-: <a class="el" href="interfaceformat_1_1_hgt_formattable.html#aacc33d26939599b14f7e9b70a3db1542">HgtFormattable</a>
-</li>
 <li>getIndentString()
 : <a class="el" href="classutil_1_1_foldable_string_buf.html#a7b507b4a531e9c0c7b2c405d26ec1cbf">FoldableStringBuf</a>
 </li>
@@ -241,9 +236,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classparse_1_1_parse_table.html#a2e240bdecccf281d6e188d621165d1c8">ParseTable</a>
 </li>
 <li>getLabelString()
-: <a class="el" href="classast_1_1_ast_node_branch.html#abd38e5cba69d3147b297675cf17d160c">AstNodeBranch</a>
-, <a class="el" href="classast_1_1_ast_terminal_1_1_data_wrapper.html#abd38e5cba69d3147b297675cf17d160c">AstTerminal.DataWrapper&lt; T &gt;</a>
-, <a class="el" href="interfaceformat_1_1_x_formattable_1_1_label_formattable.html#abd38e5cba69d3147b297675cf17d160c">XFormattable.LabelFormattable</a>
+: <a class="el" href="classast_1_1_ast_data_wrapper.html#abd38e5cba69d3147b297675cf17d160c">AstDataWrapper&lt; T &gt;</a>
+, <a class="el" href="classast_1_1_ast_node.html#abd38e5cba69d3147b297675cf17d160c">AstNode</a>
+, <a class="el" href="interfaceformat_1_1_x_formattable_1_1_navigatable.html#abd38e5cba69d3147b297675cf17d160c">XFormattable.Navigatable</a>
 </li>
 <li>getLastWord()
 : <a class="el" href="classutil_1_1_util.html#ac549119d05578e8acebdce6350bc0e97">Util</a>
@@ -267,9 +262,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classevent_1_1_event_base.html#a78ee178b6a73658d65ca60da4d1e6683">EventBase</a>
 , <a class="el" href="classevent_1_1_event_reader_base.html#a78ee178b6a73658d65ca60da4d1e6683">EventReaderBase</a>
 , <a class="el" href="classmachine_1_1_ref.html#a78ee178b6a73658d65ca60da4d1e6683">Ref</a>
-</li>
-<li>getNativeType()
-: <a class="el" href="classast_1_1_ast_node.html#a81c8358a81686bfd18c8b7fbf8d50606">AstNode</a>
 </li>
 <li>getNewEvent()
 : <a class="el" href="classevent_1_1_event_manager.html#a314dd65176b0debdc3318b7e9c655e0e">EventManager</a>
@@ -358,7 +350,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classutil_1_1_stack_base.html#a49c73f80fff6c501212c08e4c0402c4b">StackBase&lt; T &gt;</a>
 </li>
 <li>getStyle()
-: <a class="el" href="classast_1_1_ast_node_branch.html#a30a310f70a73e0955ddca80783113431">AstNodeBranch</a>
+: <a class="el" href="classast_1_1_ast_node.html#a30a310f70a73e0955ddca80783113431">AstNode</a>
 , <a class="el" href="interfaceformat_1_1_x_formattable_1_1_navigatable.html#a30a310f70a73e0955ddca80783113431">XFormattable.Navigatable</a>
 </li>
 <li>getSubstring()
@@ -389,7 +381,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classevent_1_1_event_reader_base.html#a7e773e0012680226fafcbba6ac49b9e9">EventReaderBase</a>
 </li>
 <li>getTheChild()
-: <a class="el" href="classast_1_1_ast_node_branch.html#a68bbd4738aefeaf389e20e8a31fdd49b">AstNodeBranch</a>
+: <a class="el" href="classast_1_1_ast_node.html#a68bbd4738aefeaf389e20e8a31fdd49b">AstNode</a>
 </li>
 <li>getToFold()
 : <a class="el" href="classutil_1_1_foldable_string_buf.html#adee1b221d99dd96ce0f2d797c340d411">FoldableStringBuf</a>
@@ -401,17 +393,13 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classast_1_1_block_base_1_1_ret_list.html#a5e986028a0761fd19362bc5aff252abb">BlockBase.RetList</a>
 </li>
 <li>getTypeItem()
-: <a class="el" href="classast_1_1_ast_node_branch_tagged.html#afc7d1953fd3677ccd28c36df9a430a96">AstNodeBranchTagged</a>
-, <a class="el" href="classast_1_1_ast_node_tagged.html#afc7d1953fd3677ccd28c36df9a430a96">AstNodeTagged</a>
+: <a class="el" href="classast_1_1_ast_node_tagged.html#afc7d1953fd3677ccd28c36df9a430a96">AstNodeTagged</a>
 , <a class="el" href="classmachine_1_1_ref.html#ab594e85d9e3e578e12b3f3deeff5a006">Ref</a>
 </li>
-<li>getTypeString()
-: <a class="el" href="classast_1_1_ast_node.html#a00a28c4c9cc4dfcdb9c1179d4a991e66">AstNode</a>
-, <a class="el" href="classast_1_1_block_base.html#a00a28c4c9cc4dfcdb9c1179d4a991e66">BlockBase</a>
-, <a class="el" href="interfaceformat_1_1_x_formattable_1_1_typed_formattable.html#a00a28c4c9cc4dfcdb9c1179d4a991e66">XFormattable.TypedFormattable</a>
-</li>
 <li>getTyping()
-: <a class="el" href="classast_1_1_ast_node.html#adfc6b93e5d1b92cba301a9a917fe372c">AstNode</a>
+: <a class="el" href="classast_1_1_ast_node_base.html#adfc6b93e5d1b92cba301a9a917fe372c">AstNodeBase</a>
+, <a class="el" href="interfaceast_1_1_node.html#adfc6b93e5d1b92cba301a9a917fe372c">Node</a>
+, <a class="el" href="interfaceformat_1_1_x_formattable_1_1_typed_formattable.html#adfc6b93e5d1b92cba301a9a917fe372c">XFormattable.TypedFormattable</a>
 </li>
 <li>getValues()
 : <a class="el" href="classmachine_1_1_tag_mask_map.html#a5efb5de495a54b45be5fd17f9add9c0f">TagMaskMap</a>
@@ -432,7 +420,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Apr 25 2021 23:57:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu Apr 29 2021 18:18:11 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

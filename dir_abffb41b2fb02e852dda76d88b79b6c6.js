@@ -4,15 +4,6 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     [ "AstAssign.java", "_ast_assign_8java.html", [
       [ "AstAssign", "classast_1_1_ast_assign.html", "classast_1_1_ast_assign" ]
     ] ],
-    [ "AstAtom.java", "_ast_atom_8java.html", [
-      [ "AstAtom", "classast_1_1_ast_atom.html", "classast_1_1_ast_atom" ],
-      [ "BooleanLiteral", "classast_1_1_ast_atom_1_1_boolean_literal.html", "classast_1_1_ast_atom_1_1_boolean_literal" ],
-      [ "IntegerLiteral", "classast_1_1_ast_atom_1_1_integer_literal.html", "classast_1_1_ast_atom_1_1_integer_literal" ],
-      [ "DoubleLiteral", "classast_1_1_ast_atom_1_1_double_literal.html", "classast_1_1_ast_atom_1_1_double_literal" ],
-      [ "StringExpr", "classast_1_1_ast_atom_1_1_string_expr.html", "classast_1_1_ast_atom_1_1_string_expr" ],
-      [ "StringLiteral", "classast_1_1_ast_atom_1_1_string_literal.html", "classast_1_1_ast_atom_1_1_string_literal" ],
-      [ "RegexLiteral", "classast_1_1_ast_atom_1_1_regex_literal.html", "classast_1_1_ast_atom_1_1_regex_literal" ]
-    ] ],
     [ "AstConverter.java", "_ast_converter_8java.html", [
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstConv", "classast_1_1_ast_converter_1_1_ast_conv.html", "classast_1_1_ast_converter_1_1_ast_conv" ],
@@ -34,6 +25,9 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
       [ "ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", "classast_1_1_ast_data_reader_1_1_reader_get_elem" ],
       [ "GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", "classast_1_1_ast_data_reader_1_1_get_system_var" ],
       [ "AstVarUse", "classast_1_1_ast_data_reader_1_1_ast_var_use.html", "classast_1_1_ast_data_reader_1_1_ast_var_use" ]
+    ] ],
+    [ "AstDataWrapper.java", "_ast_data_wrapper_8java.html", [
+      [ "AstDataWrapper", "classast_1_1_ast_data_wrapper.html", "classast_1_1_ast_data_wrapper" ]
     ] ],
     [ "AstDataWriter.java", "_ast_data_writer_8java.html", [
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", "classast_1_1_ast_data_writer" ],
@@ -62,6 +56,22 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
       [ "SentList", "classast_1_1_ast_list_1_1_sent_list.html", "classast_1_1_ast_list_1_1_sent_list" ],
       [ "ListWrapper", "classast_1_1_ast_list_1_1_list_wrapper.html", "classast_1_1_ast_list_1_1_list_wrapper" ]
     ] ],
+    [ "AstLiteral.java", "_ast_literal_8java.html", [
+      [ "AstLiteral", "classast_1_1_ast_literal.html", [
+        [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
+        [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],
+        [ "IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", "classast_1_1_ast_literal_1_1_integer_literal" ],
+        [ "RegexLiteral", "classast_1_1_ast_literal_1_1_regex_literal.html", "classast_1_1_ast_literal_1_1_regex_literal" ],
+        [ "StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", "classast_1_1_ast_literal_1_1_string_expr" ],
+        [ "StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", "classast_1_1_ast_literal_1_1_string_literal" ]
+      ] ],
+      [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
+      [ "IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", "classast_1_1_ast_literal_1_1_integer_literal" ],
+      [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],
+      [ "StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", "classast_1_1_ast_literal_1_1_string_expr" ],
+      [ "StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", "classast_1_1_ast_literal_1_1_string_literal" ],
+      [ "RegexLiteral", "classast_1_1_ast_literal_1_1_regex_literal.html", "classast_1_1_ast_literal_1_1_regex_literal" ]
+    ] ],
     [ "AstMathOper.java", "_ast_math_oper_8java.html", [
       [ "AstMathOper", "classast_1_1_ast_math_oper.html", "classast_1_1_ast_math_oper" ],
       [ "BinaryOper", "classast_1_1_ast_math_oper_1_1_binary_oper.html", "classast_1_1_ast_math_oper_1_1_binary_oper" ],
@@ -84,11 +94,8 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     [ "AstNode.java", "_ast_node_8java.html", [
       [ "AstNode", "classast_1_1_ast_node.html", "classast_1_1_ast_node" ]
     ] ],
-    [ "AstNodeBranch.java", "_ast_node_branch_8java.html", [
-      [ "AstNodeBranch", "classast_1_1_ast_node_branch.html", "classast_1_1_ast_node_branch" ]
-    ] ],
-    [ "AstNodeBranchTagged.java", "_ast_node_branch_tagged_8java.html", [
-      [ "AstNodeBranchTagged", "classast_1_1_ast_node_branch_tagged.html", "classast_1_1_ast_node_branch_tagged" ]
+    [ "AstNodeBase.java", "_ast_node_base_8java.html", [
+      [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ]
     ] ],
     [ "AstNodeTagged.java", "_ast_node_tagged_8java.html", [
       [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ]
@@ -117,10 +124,6 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     [ "AstTagMap.java", "_ast_tag_map_8java.html", null ],
     [ "AstTemplate.java", "_ast_template_8java.html", [
       [ "AstTemplate", "classast_1_1_ast_template.html", "classast_1_1_ast_template" ]
-    ] ],
-    [ "AstTerminal.java", "_ast_terminal_8java.html", [
-      [ "AstTerminal", "classast_1_1_ast_terminal.html", "classast_1_1_ast_terminal" ],
-      [ "DataWrapper", "classast_1_1_ast_terminal_1_1_data_wrapper.html", "classast_1_1_ast_terminal_1_1_data_wrapper" ]
     ] ],
     [ "AstVarDecl.java", "_ast_var_decl_8java.html", [
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ]

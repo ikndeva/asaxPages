@@ -1,10 +1,9 @@
 <map id="AstVarDecl" name="AstVarDecl">
-<area shape="rect" id="node1" title="値の読み出しオブジェクト．" alt="" coords="306,304,394,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node_branch.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="169,229,283,256"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title=" " alt="" coords="5,80,79,107"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="155,5,255,32"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_label_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="103,80,307,107"/>
-<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="277,155,485,181"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="79,155,253,181"/>
-<area shape="rect" id="node8" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="388,229,480,256"/>
+<area shape="rect" id="node1" title="値の読み出しオブジェクト．" alt="" coords="354,229,442,256"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="252,155,325,181"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="133,80,306,107"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="276,5,376,32"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="330,80,538,107"/>
+<area shape="rect" id="node7" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="436,155,528,181"/>
 </map>

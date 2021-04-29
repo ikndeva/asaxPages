@@ -1,9 +1,8 @@
 <map id="IdMask" name="IdMask">
-<area shape="rect" id="node1" title="@IDのマスク" alt="" coords="385,200,450,227"/>
-<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable_1_1_terminatable.html" title="木構造の終端として清書可能なオブジェクトのクラス" alt="" coords="5,81,184,108"/>
-<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="155,5,255,32"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="208,81,427,108"/>
-<area shape="rect" id="node5" title=" " alt="" coords="451,81,490,108"/>
-<area shape="rect" id="node6" title=" " alt="" coords="567,81,673,108"/>
-<area shape="rect" id="node7" title=" " alt="" coords="698,81,745,108"/>
+<area shape="rect" id="node1" title="@IDのマスク" alt="" coords="337,200,402,227"/>
+<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="5,81,224,108"/>
+<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="65,5,165,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="249,81,287,108"/>
+<area shape="rect" id="node5" title=" " alt="" coords="417,81,524,108"/>
+<area shape="rect" id="node6" title=" " alt="" coords="549,81,595,108"/>
 </map>

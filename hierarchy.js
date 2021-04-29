@@ -30,6 +30,100 @@ var hierarchy =
       [ "AstConverter.TypeToSelf< T >", "classast_1_1_ast_converter_1_1_type_to_self.html", null ]
     ] ],
     [ "AstFactory", "classast_1_1_ast_factory.html", null ],
+    [ "AstNodeBase", "classast_1_1_ast_node_base.html", [
+      [ "AstNode", "classast_1_1_ast_node.html", [
+        [ "AstAssign", "classast_1_1_ast_assign.html", null ],
+        [ "AstConverter", "classast_1_1_ast_converter.html", [
+          [ "AstConverter.AstConv< S, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", null ]
+        ] ],
+        [ "AstDataReader", "classast_1_1_ast_data_reader.html", [
+          [ "AstDataReader.GetRef", "classast_1_1_ast_data_reader_1_1_get_ref.html", [
+            [ "AstDataReader.AstVarUse", "classast_1_1_ast_data_reader_1_1_ast_var_use.html", null ],
+            [ "AstDataReader.ReaderBoolean", "classast_1_1_ast_data_reader_1_1_reader_boolean.html", null ],
+            [ "AstDataReader.ReaderDouble", "classast_1_1_ast_data_reader_1_1_reader_double.html", null ],
+            [ "AstDataReader.ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", null ],
+            [ "AstDataReader.ReaderInteger", "classast_1_1_ast_data_reader_1_1_reader_integer.html", null ],
+            [ "AstDataReader.ReaderString", "classast_1_1_ast_data_reader_1_1_reader_string.html", null ]
+          ] ],
+          [ "AstDataReader.GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", null ],
+          [ "AstDataReader.GetText", "classast_1_1_ast_data_reader_1_1_get_text.html", null ]
+        ] ],
+        [ "AstDataWrapper< T >", "classast_1_1_ast_data_wrapper.html", null ],
+        [ "AstDataWriter", "classast_1_1_ast_data_writer.html", [
+          [ "AstDataWriter.WriterBoolean", "classast_1_1_ast_data_writer_1_1_writer_boolean.html", null ],
+          [ "AstDataWriter.WriterDouble", "classast_1_1_ast_data_writer_1_1_writer_double.html", null ],
+          [ "AstDataWriter.WriterInteger", "classast_1_1_ast_data_writer_1_1_writer_integer.html", null ],
+          [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
+          [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ],
+          [ "AstDataWriter.WriterVoid", "classast_1_1_ast_data_writer_1_1_writer_void.html", null ]
+        ] ],
+        [ "AstList", "classast_1_1_ast_list.html", [
+          [ "AstList.ListWrapper< T >", "classast_1_1_ast_list_1_1_list_wrapper.html", null ],
+          [ "AstList.SentList", "classast_1_1_ast_list_1_1_sent_list.html", null ],
+          [ "AstList.StepList", "classast_1_1_ast_list_1_1_step_list.html", null ]
+        ] ],
+        [ "AstLiteral", "classast_1_1_ast_literal.html", [
+          [ "AstLiteral.BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", null ],
+          [ "AstLiteral.DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", null ],
+          [ "AstLiteral.IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", null ],
+          [ "AstLiteral.StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", [
+            [ "AstLiteral.RegexLiteral", "classast_1_1_ast_literal_1_1_regex_literal.html", null ],
+            [ "AstLiteral.StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", null ]
+          ] ]
+        ] ],
+        [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", [
+          [ "BlockBase", "classast_1_1_block_base.html", [
+            [ "Block", "classast_1_1_block.html", null ],
+            [ "Step", "classast_1_1_step.html", [
+              [ "StepRule", "classast_1_1_step_rule.html", null ]
+            ] ]
+          ] ],
+          [ "Program", "classmachine_1_1_program.html", null ]
+        ] ],
+        [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ],
+        [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", [
+          [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", [
+            [ "AstIf", "classast_1_1_ast_if.html", null ],
+            [ "AstLet", "classast_1_1_ast_let.html", null ]
+          ] ],
+          [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ]
+        ] ],
+        [ "AstOper", "classast_1_1_ast_oper.html", [
+          [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
+          [ "AstMathOper", "classast_1_1_ast_math_oper.html", [
+            [ "AstMathOper.BinaryOper", "classast_1_1_ast_math_oper_1_1_binary_oper.html", [
+              [ "AstMathOper.BooleanOper", "classast_1_1_ast_math_oper_1_1_boolean_oper.html", [
+                [ "AstMathOper.AndExpr", "classast_1_1_ast_math_oper_1_1_and_expr.html", null ],
+                [ "AstMathOper.NotExpr", "classast_1_1_ast_math_oper_1_1_not_expr.html", null ],
+                [ "AstMathOper.OrExpr", "classast_1_1_ast_math_oper_1_1_or_expr.html", null ]
+              ] ],
+              [ "AstMathOper.DoubleOper", "classast_1_1_ast_math_oper_1_1_double_oper.html", null ],
+              [ "AstMathOper.IntegerOper", "classast_1_1_ast_math_oper_1_1_integer_oper.html", [
+                [ "AstMathOper.AddTerm", "classast_1_1_ast_math_oper_1_1_add_term.html", [
+                  [ "AstMathOper.PreTerm", "classast_1_1_ast_math_oper_1_1_pre_term.html", null ]
+                ] ],
+                [ "AstMathOper.MulTerm", "classast_1_1_ast_math_oper_1_1_mul_term.html", null ]
+              ] ],
+              [ "AstMathOper.NumberOper", "classast_1_1_ast_math_oper_1_1_number_oper.html", [
+                [ "AstMathOper.NumberOrStrOper", "classast_1_1_ast_math_oper_1_1_number_or_str_oper.html", null ]
+              ] ],
+              [ "AstMathOper.StringAddOper", "classast_1_1_ast_math_oper_1_1_string_add_oper.html", null ]
+            ] ]
+          ] ],
+          [ "AstReturn", "classast_1_1_ast_return.html", null ],
+          [ "AstTemplate", "classast_1_1_ast_template.html", null ]
+        ] ],
+        [ "AstSource", "classast_1_1_ast_source.html", [
+          [ "AstSource.AstInFileOpen", "classast_1_1_ast_source_1_1_ast_in_file_open.html", null ],
+          [ "AstSource.AstInstreamConst", "classast_1_1_ast_source_1_1_ast_instream_const.html", null ]
+        ] ],
+        [ "AstTag", "classast_1_1_ast_tag.html", null ],
+        [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
+        [ "Path", "classast_1_1_path.html", null ],
+        [ "Path", "classast_1_1_path.html", null ],
+        [ "Ref", "classmachine_1_1_ref.html", null ]
+      ] ]
+    ] ],
     [ "AstNodeFactory", "classparse_1_1_ast_node_factory.html", null ],
     [ "AutoStack< frame.BooleanHolder >", "classutil_1_1_auto_stack.html", null ],
     [ "AutoStack< frame.DoubleHolder >", "classutil_1_1_auto_stack.html", null ],
@@ -136,22 +230,8 @@ var hierarchy =
     ] ],
     [ "CustomFormattable", "class_custom_formattable.html", null ],
     [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", [
-      [ "AstDataReader.GetRef", "classast_1_1_ast_data_reader_1_1_get_ref.html", [
-        [ "AstDataReader.AstVarUse", "classast_1_1_ast_data_reader_1_1_ast_var_use.html", null ],
-        [ "AstDataReader.ReaderBoolean", "classast_1_1_ast_data_reader_1_1_reader_boolean.html", null ],
-        [ "AstDataReader.ReaderDouble", "classast_1_1_ast_data_reader_1_1_reader_double.html", null ],
-        [ "AstDataReader.ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", null ],
-        [ "AstDataReader.ReaderInteger", "classast_1_1_ast_data_reader_1_1_reader_integer.html", null ],
-        [ "AstDataReader.ReaderString", "classast_1_1_ast_data_reader_1_1_reader_string.html", null ]
-      ] ],
-      [ "AstDataWriter", "classast_1_1_ast_data_writer.html", [
-        [ "AstDataWriter.WriterBoolean", "classast_1_1_ast_data_writer_1_1_writer_boolean.html", null ],
-        [ "AstDataWriter.WriterDouble", "classast_1_1_ast_data_writer_1_1_writer_double.html", null ],
-        [ "AstDataWriter.WriterInteger", "classast_1_1_ast_data_writer_1_1_writer_integer.html", null ],
-        [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
-        [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ],
-        [ "AstDataWriter.WriterVoid", "classast_1_1_ast_data_writer_1_1_writer_void.html", null ]
-      ] ],
+      [ "AstDataReader.GetRef", "classast_1_1_ast_data_reader_1_1_get_ref.html", null ],
+      [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
       [ "CommandBase.CommandRef", "classcmd_1_1_command_base_1_1_command_ref.html", null ]
     ] ],
     [ "DataHolder", "class_data_holder.html", [
@@ -181,13 +261,6 @@ var hierarchy =
     ] ],
     [ "Generatable", "interfacecmd_1_1_generatable.html", [
       [ "AstAssign", "classast_1_1_ast_assign.html", null ],
-      [ "AstAtom.BooleanLiteral", "classast_1_1_ast_atom_1_1_boolean_literal.html", null ],
-      [ "AstAtom.DoubleLiteral", "classast_1_1_ast_atom_1_1_double_literal.html", null ],
-      [ "AstAtom.IntegerLiteral", "classast_1_1_ast_atom_1_1_integer_literal.html", null ],
-      [ "AstAtom.StringExpr", "classast_1_1_ast_atom_1_1_string_expr.html", [
-        [ "AstAtom.RegexLiteral", "classast_1_1_ast_atom_1_1_regex_literal.html", null ],
-        [ "AstAtom.StringLiteral", "classast_1_1_ast_atom_1_1_string_literal.html", null ]
-      ] ],
       [ "AstConverter.AstConv< S, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", null ],
       [ "AstConverter.IntegerToBoolean", "classast_1_1_ast_converter_1_1_integer_to_boolean.html", null ],
       [ "AstDataWriter.WriterBoolean", "classast_1_1_ast_data_writer_1_1_writer_boolean.html", null ],
@@ -199,67 +272,27 @@ var hierarchy =
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
       [ "AstList.SentList", "classast_1_1_ast_list_1_1_sent_list.html", null ],
       [ "AstList.StepList", "classast_1_1_ast_list_1_1_step_list.html", null ],
-      [ "AstMathOper.BooleanOper", "classast_1_1_ast_math_oper_1_1_boolean_oper.html", [
-        [ "AstMathOper.AndExpr", "classast_1_1_ast_math_oper_1_1_and_expr.html", null ],
-        [ "AstMathOper.NotExpr", "classast_1_1_ast_math_oper_1_1_not_expr.html", null ],
-        [ "AstMathOper.OrExpr", "classast_1_1_ast_math_oper_1_1_or_expr.html", null ]
-      ] ],
+      [ "AstLiteral.BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", null ],
+      [ "AstLiteral.DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", null ],
+      [ "AstLiteral.IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", null ],
+      [ "AstLiteral.StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", null ],
+      [ "AstMathOper.BooleanOper", "classast_1_1_ast_math_oper_1_1_boolean_oper.html", null ],
       [ "AstMathOper.DoubleOper", "classast_1_1_ast_math_oper_1_1_double_oper.html", null ],
       [ "AstMathOper.DoubleRel", "classast_1_1_ast_math_oper_1_1_double_rel.html", null ],
-      [ "AstMathOper.IntegerOper", "classast_1_1_ast_math_oper_1_1_integer_oper.html", [
-        [ "AstMathOper.AddTerm", "classast_1_1_ast_math_oper_1_1_add_term.html", [
-          [ "AstMathOper.PreTerm", "classast_1_1_ast_math_oper_1_1_pre_term.html", null ]
-        ] ],
-        [ "AstMathOper.MulTerm", "classast_1_1_ast_math_oper_1_1_mul_term.html", null ]
-      ] ],
+      [ "AstMathOper.IntegerOper", "classast_1_1_ast_math_oper_1_1_integer_oper.html", null ],
       [ "AstMathOper.IntegerRel", "classast_1_1_ast_math_oper_1_1_integer_rel.html", null ],
       [ "AstMathOper.StringAddOper", "classast_1_1_ast_math_oper_1_1_string_add_oper.html", null ],
       [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ],
-      [ "AstSource", "classast_1_1_ast_source.html", [
-        [ "AstSource.AstInFileOpen", "classast_1_1_ast_source_1_1_ast_in_file_open.html", null ],
-        [ "AstSource.AstInstreamConst", "classast_1_1_ast_source_1_1_ast_instream_const.html", null ]
-      ] ],
+      [ "AstSource", "classast_1_1_ast_source.html", null ],
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
-      [ "BlockBase", "classast_1_1_block_base.html", [
-        [ "Block", "classast_1_1_block.html", null ],
-        [ "Step", "classast_1_1_step.html", [
-          [ "StepRule", "classast_1_1_step_rule.html", null ]
-        ] ]
-      ] ],
+      [ "BlockBase", "classast_1_1_block_base.html", null ],
       [ "StringRel.RegexMatchRel", "classast_1_1_string_rel_1_1_regex_match_rel.html", null ],
       [ "StringRel.StringMatchRel", "classast_1_1_string_rel_1_1_string_match_rel.html", null ],
       [ "Generatable.Evaluatable", "interfacecmd_1_1_generatable_1_1_evaluatable.html", [
-        [ "AstAtom", "classast_1_1_ast_atom.html", [
-          [ "AstAtom.BooleanLiteral", "classast_1_1_ast_atom_1_1_boolean_literal.html", null ],
-          [ "AstAtom.DoubleLiteral", "classast_1_1_ast_atom_1_1_double_literal.html", null ],
-          [ "AstAtom.IntegerLiteral", "classast_1_1_ast_atom_1_1_integer_literal.html", null ],
-          [ "AstAtom.StringExpr", "classast_1_1_ast_atom_1_1_string_expr.html", null ],
-          [ "AstDataReader", "classast_1_1_ast_data_reader.html", [
-            [ "AstDataReader.GetRef", "classast_1_1_ast_data_reader_1_1_get_ref.html", null ],
-            [ "AstDataReader.GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", null ],
-            [ "AstDataReader.GetText", "classast_1_1_ast_data_reader_1_1_get_text.html", null ]
-          ] ]
-        ] ],
-        [ "AstOper", "classast_1_1_ast_oper.html", [
-          [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
-          [ "AstMathOper", "classast_1_1_ast_math_oper.html", [
-            [ "AstMathOper.BinaryOper", "classast_1_1_ast_math_oper_1_1_binary_oper.html", [
-              [ "AstMathOper.BooleanOper", "classast_1_1_ast_math_oper_1_1_boolean_oper.html", null ],
-              [ "AstMathOper.DoubleOper", "classast_1_1_ast_math_oper_1_1_double_oper.html", null ],
-              [ "AstMathOper.IntegerOper", "classast_1_1_ast_math_oper_1_1_integer_oper.html", null ],
-              [ "AstMathOper.NumberOper", "classast_1_1_ast_math_oper_1_1_number_oper.html", [
-                [ "AstMathOper.NumberOrStrOper", "classast_1_1_ast_math_oper_1_1_number_or_str_oper.html", null ]
-              ] ],
-              [ "AstMathOper.StringAddOper", "classast_1_1_ast_math_oper_1_1_string_add_oper.html", null ]
-            ] ]
-          ] ],
-          [ "AstReturn", "classast_1_1_ast_return.html", null ],
-          [ "AstTemplate", "classast_1_1_ast_template.html", null ]
-        ] ],
-        [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", [
-          [ "AstIf", "classast_1_1_ast_if.html", null ],
-          [ "AstLet", "classast_1_1_ast_let.html", null ]
-        ] ]
+        [ "AstDataReader", "classast_1_1_ast_data_reader.html", null ],
+        [ "AstLiteral", "classast_1_1_ast_literal.html", null ],
+        [ "AstOper", "classast_1_1_ast_oper.html", null ],
+        [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", null ]
       ] ]
     ] ],
     [ "Resettable.Generator< S >", "interfaceutil_1_1_resettable_1_1_generator.html", null ],
@@ -291,9 +324,9 @@ var hierarchy =
     [ "MultiHashMap< T >", "classmachine_1_1_multi_hash_map.html", null ],
     [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", null ],
     [ "NFBufs", "classformat_1_1_n_f_bufs.html", null ],
+    [ "Node", "interfaceast_1_1_node.html", null ],
     [ "NodeFormattable", "interfaceformat_1_1_node_formattable.html", [
       [ "NodeFormatterBase", "classformat_1_1_node_formatter_base.html", [
-        [ "HeightFormatter", "classformat_1_1_height_formatter.html", null ],
         [ "NodeFormatterSimple", "classformat_1_1_node_formatter_simple.html", null ]
       ] ]
     ] ],
@@ -385,10 +418,10 @@ var hierarchy =
       ] ]
     ] ],
     [ "TypedFormattable", "class_typed_formattable.html", [
-      [ "AstAtom.BooleanLiteral", "classast_1_1_ast_atom_1_1_boolean_literal.html", null ],
-      [ "AstAtom.DoubleLiteral", "classast_1_1_ast_atom_1_1_double_literal.html", null ],
-      [ "AstAtom.IntegerLiteral", "classast_1_1_ast_atom_1_1_integer_literal.html", null ],
-      [ "AstAtom.StringExpr", "classast_1_1_ast_atom_1_1_string_expr.html", null ]
+      [ "AstLiteral.BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", null ],
+      [ "AstLiteral.DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", null ],
+      [ "AstLiteral.IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", null ],
+      [ "AstLiteral.StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", null ]
     ] ],
     [ "UnionFindItem< T >", "classtype_1_1_union_find_item.html", null ],
     [ "UnionFindItem< type.XType >", "classtype_1_1_union_find_item.html", null ],
@@ -404,41 +437,6 @@ var hierarchy =
     ] ],
     [ "XCTest", "classcompile_1_1_x_c_test.html", null ],
     [ "XFormattable", "interfaceformat_1_1_x_formattable.html", [
-      [ "AstNode", "classast_1_1_ast_node.html", [
-        [ "AstNodeBranch", "classast_1_1_ast_node_branch.html", [
-          [ "AstAssign", "classast_1_1_ast_assign.html", null ],
-          [ "AstConverter", "classast_1_1_ast_converter.html", [
-            [ "AstConverter.AstConv< S, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", null ]
-          ] ],
-          [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
-          [ "AstList", "classast_1_1_ast_list.html", [
-            [ "AstList.ListWrapper< T >", "classast_1_1_ast_list_1_1_list_wrapper.html", null ],
-            [ "AstList.SentList", "classast_1_1_ast_list_1_1_sent_list.html", null ],
-            [ "AstList.StepList", "classast_1_1_ast_list_1_1_step_list.html", null ]
-          ] ],
-          [ "AstNodeBranchTagged", "classast_1_1_ast_node_branch_tagged.html", null ],
-          [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", [
-            [ "BlockBase", "classast_1_1_block_base.html", null ],
-            [ "Program", "classmachine_1_1_program.html", null ]
-          ] ],
-          [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", [
-            [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", null ],
-            [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ]
-          ] ],
-          [ "AstOper", "classast_1_1_ast_oper.html", null ],
-          [ "AstSource", "classast_1_1_ast_source.html", null ],
-          [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ]
-        ] ],
-        [ "AstTerminal", "classast_1_1_ast_terminal.html", [
-          [ "AstAtom", "classast_1_1_ast_atom.html", null ],
-          [ "AstTag", "classast_1_1_ast_tag.html", null ],
-          [ "AstTerminal.DataWrapper< T >", "classast_1_1_ast_terminal_1_1_data_wrapper.html", null ]
-        ] ],
-        [ "Path", "classast_1_1_path.html", null ],
-        [ "Path", "classast_1_1_path.html", null ],
-        [ "Ref", "classmachine_1_1_ref.html", null ]
-      ] ],
-      [ "HgtFormattable", "interfaceformat_1_1_hgt_formattable.html", null ],
       [ "XFormattable.CustomFormattable", "interfaceformat_1_1_x_formattable_1_1_custom_formattable.html", [
         [ "AstDataWriter.WriterVoid", "classast_1_1_ast_data_writer_1_1_writer_void.html", null ],
         [ "AstList.ListWrapper< T >", "classast_1_1_ast_list_1_1_list_wrapper.html", null ],
@@ -452,46 +450,28 @@ var hierarchy =
         [ "IdMask", "classmachine_1_1_id_mask.html", null ],
         [ "RefList", "classmachine_1_1_ref_list.html", null ]
       ] ],
-      [ "XFormattable.LabelFormattable", "interfaceformat_1_1_x_formattable_1_1_label_formattable.html", [
-        [ "AstIf", "classast_1_1_ast_if.html", null ],
-        [ "AstReturn", "classast_1_1_ast_return.html", null ],
-        [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ],
-        [ "AstSource", "classast_1_1_ast_source.html", null ],
-        [ "AstTerminal.DataWrapper< T >", "classast_1_1_ast_terminal_1_1_data_wrapper.html", null ],
-        [ "BlockBase", "classast_1_1_block_base.html", null ],
-        [ "XFormattable.Navigatable", "interfaceformat_1_1_x_formattable_1_1_navigatable.html", [
-          [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
-          [ "AstList", "classast_1_1_ast_list.html", null ],
-          [ "AstNodeBranch", "classast_1_1_ast_node_branch.html", null ],
-          [ "XFormattable.FieldNavigatable", "interfaceformat_1_1_x_formattable_1_1_field_navigatable.html", [
-            [ "AstNodeBranchTagged", "classast_1_1_ast_node_branch_tagged.html", null ],
-            [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ],
-            [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", null ],
-            [ "Program", "classmachine_1_1_program.html", null ]
-          ] ]
+      [ "XFormattable.Navigatable", "interfaceformat_1_1_x_formattable_1_1_navigatable.html", [
+        [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
+        [ "AstList", "classast_1_1_ast_list.html", null ],
+        [ "AstNode", "classast_1_1_ast_node.html", null ],
+        [ "XFormattable.FieldNavigatable", "interfaceformat_1_1_x_formattable_1_1_field_navigatable.html", [
+          [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ],
+          [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", null ],
+          [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", null ],
+          [ "Program", "classmachine_1_1_program.html", null ]
         ] ]
-      ] ],
-      [ "XFormattable.Terminatable", "interfaceformat_1_1_x_formattable_1_1_terminatable.html", [
-        [ "AstDataReader", "classast_1_1_ast_data_reader.html", null ],
-        [ "AstTerminal", "classast_1_1_ast_terminal.html", null ],
-        [ "IdMask", "classmachine_1_1_id_mask.html", null ]
       ] ],
       [ "XFormattable.TypedFormattable", "interfaceformat_1_1_x_formattable_1_1_typed_formattable.html", [
         [ "AstAssign", "classast_1_1_ast_assign.html", null ],
-        [ "AstDataReader", "classast_1_1_ast_data_reader.html", null ],
-        [ "AstIf", "classast_1_1_ast_if.html", null ],
         [ "AstLet", "classast_1_1_ast_let.html", null ],
-        [ "AstNodeBranch", "classast_1_1_ast_node_branch.html", null ],
-        [ "AstReturn", "classast_1_1_ast_return.html", null ],
-        [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
-        [ "BlockBase", "classast_1_1_block_base.html", null ]
+        [ "AstNode", "classast_1_1_ast_node.html", null ],
+        [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ]
       ] ]
     ] ],
     [ "XFormList", "class_x_form_list.html", null ],
     [ "XFormList< T extends XFormattable, S extends XFormList", "classast_1_1_x_form_list_3_01_t_01extends_01_x_formattable_00_01_s_01extends_01_x_form_list.html", null ],
     [ "XType", "enumtype_1_1_x_type.html", null ],
     [ "XTypeItem", "classtype_1_1_x_type_item.html", null ],
-    [ "XTyping", "classtype_1_1_x_typing.html", null ],
     [ "YamlBuf", "classutil_1_1_yaml_buf.html", null ],
     [ "CharSet", null, [
       [ "EventReaderBase.UTFCharSet", "classevent_1_1_event_reader_base_1_1_u_t_f_char_set.html", null ]
