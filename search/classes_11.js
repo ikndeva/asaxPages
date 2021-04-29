@@ -13,6 +13,6 @@ var searchData=
   ['tracelevel_1530',['TraceLevel',['../classutil_1_1_trace_level.html',1,'util']]],
   ['traversable_1531',['Traversable',['../interfaceast_1_1_traversable.html',1,'ast']]],
   ['typable_1532',['Typable',['../interfacetype_1_1_typable.html',1,'type']]],
-  ['typedformattable_1533',['TypedFormattable',['../interfaceformat_1_1_x_formattable_1_1_typed_formattable.html',1,'XFormattable.TypedFormattable'],['../class_typed_formattable.html',1,'TypedFormattable']]],
+  ['typedformattable_1533',['TypedFormattable',['../interfaceformat_1_1_x_formattable_1_1_typed_formattable.html',1,'format::XFormattable']]],
   ['typetoself_1534',['TypeToSelf',['../classast_1_1_ast_converter_1_1_type_to_self.html',1,'ast::AstConverter']]]
 ];

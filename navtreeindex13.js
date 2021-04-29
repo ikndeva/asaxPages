@@ -1,8 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"interfacetype_1_1_lower_joinable.html":[16,0,12,2],
-"interfacetype_1_1_lower_joinable.html#a25aa8a8ebaa8858a7627cbb4b1eba401":[16,0,12,2,1],
-"interfacetype_1_1_lower_joinable.html#ab6526a33cc50aa64c3aee41d34fbe9a3":[16,0,12,2,0],
 "interfacetype_1_1_typable.html":[16,0,12,4],
 "interfacetype_1_1_typable.html#a1e3c48b50ed1c8eae4f3b92d90580630":[16,0,12,4,1],
 "interfacetype_1_1_typable.html#a3feda0aa727b222e0627dd41646ff824":[16,0,12,4,5],
@@ -58,5 +55,7 @@ var NAVTREEINDEX13 =
 "namespaceutil.html":[15,0,15],
 "pages.html":[],
 "tmpl_8java.html":[17,0,13],
-"todo.html":[13]
+"todo.html":[13],
+"":[15,0,4,0],
+"":[15,0,4,1]
 };

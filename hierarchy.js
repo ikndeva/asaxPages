@@ -272,10 +272,6 @@ var hierarchy =
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
       [ "AstList.SentList", "classast_1_1_ast_list_1_1_sent_list.html", null ],
       [ "AstList.StepList", "classast_1_1_ast_list_1_1_step_list.html", null ],
-      [ "AstLiteral.BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", null ],
-      [ "AstLiteral.DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", null ],
-      [ "AstLiteral.IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", null ],
-      [ "AstLiteral.StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", null ],
       [ "AstMathOper.BooleanOper", "classast_1_1_ast_math_oper_1_1_boolean_oper.html", null ],
       [ "AstMathOper.DoubleOper", "classast_1_1_ast_math_oper_1_1_double_oper.html", null ],
       [ "AstMathOper.DoubleRel", "classast_1_1_ast_math_oper_1_1_double_rel.html", null ],
@@ -417,12 +413,6 @@ var hierarchy =
         ] ]
       ] ]
     ] ],
-    [ "TypedFormattable", "class_typed_formattable.html", [
-      [ "AstLiteral.BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", null ],
-      [ "AstLiteral.DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", null ],
-      [ "AstLiteral.IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", null ],
-      [ "AstLiteral.StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", null ]
-    ] ],
     [ "UnionFindItem< T >", "classtype_1_1_union_find_item.html", null ],
     [ "UnionFindItem< type.XType >", "classtype_1_1_union_find_item.html", null ],
     [ "Util", "classutil_1_1_util.html", null ],
@@ -462,7 +452,6 @@ var hierarchy =
         ] ]
       ] ],
       [ "XFormattable.TypedFormattable", "interfaceformat_1_1_x_formattable_1_1_typed_formattable.html", [
-        [ "AstLet", "classast_1_1_ast_let.html", null ],
         [ "AstNode", "classast_1_1_ast_node.html", null ]
       ] ]
     ] ],

@@ -238,6 +238,5 @@ var annotated_dup =
     [ "Match", "class_match.html", "class_match" ],
     [ "Parser", "class_parser.html", null ],
     [ "RuntimeException", "class_runtime_exception.html", null ],
-    [ "TypedFormattable", "class_typed_formattable.html", null ],
     [ "XFormList", "class_x_form_list.html", null ]
 ];
