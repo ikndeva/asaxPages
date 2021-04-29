@@ -35,8 +35,7 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
       [ "WriterInteger", "classast_1_1_ast_data_writer_1_1_writer_integer.html", "classast_1_1_ast_data_writer_1_1_writer_integer" ],
       [ "WriterDouble", "classast_1_1_ast_data_writer_1_1_writer_double.html", "classast_1_1_ast_data_writer_1_1_writer_double" ],
       [ "WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", "classast_1_1_ast_data_writer_1_1_writer_string" ],
-      [ "WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", "classast_1_1_ast_data_writer_1_1_writer_o_stream" ],
-      [ "WriterVoid", "classast_1_1_ast_data_writer_1_1_writer_void.html", "classast_1_1_ast_data_writer_1_1_writer_void" ]
+      [ "WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", "classast_1_1_ast_data_writer_1_1_writer_o_stream" ]
     ] ],
     [ "AstFactory.java", "_ast_factory_8java.html", [
       [ "AstFactory", "classast_1_1_ast_factory.html", "classast_1_1_ast_factory" ]

@@ -1,5 +1,5 @@
 <map id="AstLet" name="AstLet">
-<area shape="rect" id="node1" title="値の読み出しオブジェクト．" alt="" coords="492,304,552,331"/>
+<area shape="rect" id="node1" title="とりあえず任意の文をラップして，ブール値を与えるためのノード" alt="" coords="492,304,552,331"/>
 <area shape="rect" id="node2" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="466,229,578,256"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node_tagged_settable.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，Setter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="347,155,510,181"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="227,80,300,107"/>

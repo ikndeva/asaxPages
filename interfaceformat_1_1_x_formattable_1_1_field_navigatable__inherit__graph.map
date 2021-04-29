@@ -12,5 +12,5 @@
 <area shape="rect" id="node11" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="219,304,331,331"/>
 <area shape="rect" id="node14" href="$classast_1_1_ast_scan_from.html" title=" " alt="" coords="355,304,458,331"/>
 <area shape="rect" id="node12" href="$classast_1_1_ast_if.html" title="抽象構文木のステップ式のクラス." alt="" coords="213,379,264,405"/>
-<area shape="rect" id="node13" href="$classast_1_1_ast_let.html" title="値の読み出しオブジェクト．" alt="" coords="289,379,349,405"/>
+<area shape="rect" id="node13" href="$classast_1_1_ast_let.html" title="とりあえず任意の文をラップして，ブール値を与えるためのノード" alt="" coords="289,379,349,405"/>
 </map>

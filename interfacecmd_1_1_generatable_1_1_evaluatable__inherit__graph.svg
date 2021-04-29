@@ -637,7 +637,7 @@ var sectionId = 'dynsection-0';
 <!-- Node47 -->
 <g id="node40" class="node">
 <title>Node47</title>
-<g id="a_node40"><a xlink:href="classast_1_1_ast_let.html" target="_top" xlink:title="値の読み出しオブジェクト．">
+<g id="a_node40"><a xlink:href="classast_1_1_ast_let.html" target="_top" xlink:title="とりあえず任意の文をラップして，ブール値を与えるためのノード">
 <polygon fill="white" stroke="black" points="436.5,-0.5 436.5,-19.5 481.5,-19.5 481.5,-0.5 436.5,-0.5"/>
 <text text-anchor="middle" x="459" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLet</text>
 </a>

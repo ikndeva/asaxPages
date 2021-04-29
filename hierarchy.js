@@ -54,8 +54,7 @@ var hierarchy =
           [ "AstDataWriter.WriterDouble", "classast_1_1_ast_data_writer_1_1_writer_double.html", null ],
           [ "AstDataWriter.WriterInteger", "classast_1_1_ast_data_writer_1_1_writer_integer.html", null ],
           [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
-          [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ],
-          [ "AstDataWriter.WriterVoid", "classast_1_1_ast_data_writer_1_1_writer_void.html", null ]
+          [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ]
         ] ],
         [ "AstList", "classast_1_1_ast_list.html", [
           [ "AstList.ListWrapper< T >", "classast_1_1_ast_list_1_1_list_wrapper.html", null ],
@@ -268,7 +267,6 @@ var hierarchy =
       [ "AstDataWriter.WriterInteger", "classast_1_1_ast_data_writer_1_1_writer_integer.html", null ],
       [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
       [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ],
-      [ "AstDataWriter.WriterVoid", "classast_1_1_ast_data_writer_1_1_writer_void.html", null ],
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
       [ "AstList.SentList", "classast_1_1_ast_list_1_1_sent_list.html", null ],
       [ "AstList.StepList", "classast_1_1_ast_list_1_1_step_list.html", null ],
@@ -428,7 +426,6 @@ var hierarchy =
     [ "XCTest", "classcompile_1_1_x_c_test.html", null ],
     [ "XFormattable", "interfaceformat_1_1_x_formattable.html", [
       [ "XFormattable.CustomFormattable", "interfaceformat_1_1_x_formattable_1_1_custom_formattable.html", [
-        [ "AstDataWriter.WriterVoid", "classast_1_1_ast_data_writer_1_1_writer_void.html", null ],
         [ "AstList.ListWrapper< T >", "classast_1_1_ast_list_1_1_list_wrapper.html", null ],
         [ "AstTag", "classast_1_1_ast_tag.html", null ],
         [ "Path", "classast_1_1_path.html", null ],
