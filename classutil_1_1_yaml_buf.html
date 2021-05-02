@@ -93,44 +93,61 @@ $(document).ready(function(){initNavTree('classutil_1_1_yaml_buf.html',''); init
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classutil_1_1_yaml_buf-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">YamlBuf Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>YAML書式での出力を行うクラス.  
+<p>YAML書式の文字列を構築するための一連のメソッドを提供する． メソッドは，カスケードスタイルのインタフェースをもち，YamlBufオブジェクトの後ろに後置のドット'<code>. </code> 
  <a href="classutil_1_1_yaml_buf.html#details">More...</a></p>
 <div class="dynheader">
 Collaboration diagram for YamlBuf:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf__coll__graph.svg" width="402" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><b>Mode</b></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enumutil_1_1_yaml_buf_1_1_mode.html">Mode</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">バッファへの書き込みの文脈を表す．  <a href="enumutil_1_1_yaml_buf_1_1_mode.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:acdcf04d4bfae2908ad4ca365642629b2"><td class="memItemLeft" align="right" valign="top"><a id="acdcf04d4bfae2908ad4ca365642629b2"></a>
+String&#160;</td><td class="memItemRight" valign="bottom"><b>getObjDelim</b> ()</td></tr>
+<tr class="separator:acdcf04d4bfae2908ad4ca365642629b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea8ac913c80d5bffb4f77b70ed22d914"><td class="memItemLeft" align="right" valign="top"><a id="aea8ac913c80d5bffb4f77b70ed22d914"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><b>setObjDelim</b> (String delim)</td></tr>
 <tr class="separator:aea8ac913c80d5bffb4f77b70ed22d914"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5731498bd29ca2cc0574ef18df447a41"><td class="memItemLeft" align="right" valign="top"><a id="a5731498bd29ca2cc0574ef18df447a41"></a>
+String&#160;</td><td class="memItemRight" valign="bottom"><b>getFieldDelim</b> ()</td></tr>
+<tr class="separator:a5731498bd29ca2cc0574ef18df447a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a547af1fdd8ac0c56cd246e06b71835b8"><td class="memItemLeft" align="right" valign="top"><a id="a547af1fdd8ac0c56cd246e06b71835b8"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><b>setFieldDelim</b> (String delim)</td></tr>
 <tr class="separator:a547af1fdd8ac0c56cd246e06b71835b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3768957ea7e84470ee5f0d2522259d0e"><td class="memItemLeft" align="right" valign="top"><a id="a3768957ea7e84470ee5f0d2522259d0e"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e">YamlBuf</a> ()</td></tr>
-<tr class="memdesc:a3768957ea7e84470ee5f0d2522259d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">空のバッファを生成する *&zwj;/ <br /></td></tr>
+<tr class="memdesc:a3768957ea7e84470ee5f0d2522259d0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">空のバッファを生成する <br /></td></tr>
 <tr class="separator:a3768957ea7e84470ee5f0d2522259d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae50efd8ae3f2ac64ce4529df3430447b"><td class="memItemLeft" align="right" valign="top"><a id="ae50efd8ae3f2ac64ce4529df3430447b"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
 <tr class="separator:ae50efd8ae3f2ac64ce4529df3430447b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a73a60e392cdec784d7ec2d28c84cfc"><td class="memItemLeft" align="right" valign="top"><a id="a9a73a60e392cdec784d7ec2d28c84cfc"></a>
+boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a9a73a60e392cdec784d7ec2d28c84cfc">getToCompact</a> ()</td></tr>
+<tr class="memdesc:a9a73a60e392cdec784d7ec2d28c84cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンパクト出力書式のフラグの値を返す <br /></td></tr>
+<tr class="separator:a9a73a60e392cdec784d7ec2d28c84cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af0f714e7f2b80ce2eaf287d517a9df4d"><td class="memItemLeft" align="right" valign="top"><a id="af0f714e7f2b80ce2eaf287d517a9df4d"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#af0f714e7f2b80ce2eaf287d517a9df4d">setToCompact</a> (boolean flag)</td></tr>
 <tr class="memdesc:af0f714e7f2b80ce2eaf287d517a9df4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">コンパクト出力書式のフラグをセットする <br /></td></tr>
 <tr class="separator:af0f714e7f2b80ce2eaf287d517a9df4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34450246d85ea41241f46f4dde1133d1"><td class="memItemLeft" align="right" valign="top"><a id="a34450246d85ea41241f46f4dde1133d1"></a>
+boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a34450246d85ea41241f46f4dde1133d1">getToQuote</a> ()</td></tr>
+<tr class="memdesc:a34450246d85ea41241f46f4dde1133d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">引用符付き出力書式のフラグの値を返す <br /></td></tr>
+<tr class="separator:a34450246d85ea41241f46f4dde1133d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76a545dd1ec1ad850a6c34e2d1c6d10e"><td class="memItemLeft" align="right" valign="top"><a id="a76a545dd1ec1ad850a6c34e2d1c6d10e"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a76a545dd1ec1ad850a6c34e2d1c6d10e">setToQuote</a> (boolean flag)</td></tr>
 <tr class="memdesc:a76a545dd1ec1ad850a6c34e2d1c6d10e"><td class="mdescLeft">&#160;</td><td class="mdescRight">引用符付き出力書式のフラグをセットする <br /></td></tr>
@@ -146,30 +163,22 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 <tr class="memitem:a35d9dc8237a8111fc7f765daa35851ee"><td class="memItemLeft" align="right" valign="top"><a id="a35d9dc8237a8111fc7f765daa35851ee"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><b>setToIndex</b> (boolean flag)</td></tr>
 <tr class="separator:a35d9dc8237a8111fc7f765daa35851ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adee1b221d99dd96ce0f2d797c340d411"><td class="memItemLeft" align="right" valign="top"><a id="adee1b221d99dd96ce0f2d797c340d411"></a>
+boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#adee1b221d99dd96ce0f2d797c340d411">getToFold</a> ()</td></tr>
+<tr class="memdesc:adee1b221d99dd96ce0f2d797c340d411"><td class="mdescLeft">&#160;</td><td class="mdescRight">引用符付き出力書式のフラグの値を返す <br /></td></tr>
+<tr class="separator:adee1b221d99dd96ce0f2d797c340d411"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54eab65a2f17efaadbc230c3f9cc3451"><td class="memItemLeft" align="right" valign="top"><a id="a54eab65a2f17efaadbc230c3f9cc3451"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a54eab65a2f17efaadbc230c3f9cc3451">setToFold</a> (boolean flag)</td></tr>
 <tr class="memdesc:a54eab65a2f17efaadbc230c3f9cc3451"><td class="mdescLeft">&#160;</td><td class="mdescRight">引用符付き出力書式のフラグをセットする <br /></td></tr>
 <tr class="separator:a54eab65a2f17efaadbc230c3f9cc3451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a62f31d5fe25a8e665ece021c959a2f33"><td class="memItemLeft" align="right" valign="top"><a id="a62f31d5fe25a8e665ece021c959a2f33"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><b>repoStr</b> ()</td></tr>
-<tr class="separator:a62f31d5fe25a8e665ece021c959a2f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
+<tr class="memdesc:ad146fa8579a5f8a876c4688cc5a68520"><td class="mdescLeft">&#160;</td><td class="mdescRight">バッファの内容を表す文字列を返す．  <a href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520">More...</a><br /></td></tr>
+<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8fb4f22ed8e1e2a94d65d4dc70bdb50"><td class="memItemLeft" align="right" valign="top"><a id="aa8fb4f22ed8e1e2a94d65d4dc70bdb50"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#aa8fb4f22ed8e1e2a94d65d4dc70bdb50">nop</a> ()</td></tr>
 <tr class="memdesc:aa8fb4f22ed8e1e2a94d65d4dc70bdb50"><td class="mdescLeft">&#160;</td><td class="mdescRight">何もしない演算 ("no operation"). <br  />
  <br /></td></tr>
 <tr class="separator:aa8fb4f22ed8e1e2a94d65d4dc70bdb50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb9a0f5723e48d12790f370d16ec068a"><td class="memItemLeft" align="right" valign="top"><a id="abb9a0f5723e48d12790f370d16ec068a"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#abb9a0f5723e48d12790f370d16ec068a">nl</a> ()</td></tr>
-<tr class="memdesc:abb9a0f5723e48d12790f370d16ec068a"><td class="mdescLeft">&#160;</td><td class="mdescRight">改行 <br /></td></tr>
-<tr class="separator:abb9a0f5723e48d12790f370d16ec068a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e39e522843a86036cc31cc657317e61"><td class="memItemLeft" align="right" valign="top"><a id="a9e39e522843a86036cc31cc657317e61"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a9e39e522843a86036cc31cc657317e61">push</a> ()</td></tr>
-<tr class="memdesc:a9e39e522843a86036cc31cc657317e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">入れ子を深くする <br /></td></tr>
-<tr class="separator:a9e39e522843a86036cc31cc657317e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0999a5efa6b597e3e8509171958f15bc"><td class="memItemLeft" align="right" valign="top"><a id="a0999a5efa6b597e3e8509171958f15bc"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a0999a5efa6b597e3e8509171958f15bc">pop</a> ()</td></tr>
-<tr class="memdesc:a0999a5efa6b597e3e8509171958f15bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">入れ子を浅くする <br /></td></tr>
-<tr class="separator:a0999a5efa6b597e3e8509171958f15bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad53cd7a10238ce08a4f6b30b3460e3fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#ad53cd7a10238ce08a4f6b30b3460e3fa">addAttrName</a> (String name)</td></tr>
 <tr class="memdesc:ad53cd7a10238ce08a4f6b30b3460e3fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">属性名を追加する。  <a href="classutil_1_1_yaml_buf.html#ad53cd7a10238ce08a4f6b30b3460e3fa">More...</a><br /></td></tr>
 <tr class="separator:ad53cd7a10238ce08a4f6b30b3460e3fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -193,92 +202,51 @@ String&#160;</td><td class="memItemRight" valign="bottom"><b>repoStr</b> ()</td>
 <tr class="memdesc:aa2dbf5580c67426222a69dd024b3789c"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列のモードを終了する. <br  />
  <br /></td></tr>
 <tr class="separator:aa2dbf5580c67426222a69dd024b3789c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5005fc24515d55a5b8984d5c7f2e78c1"><td class="memItemLeft" align="right" valign="top"><a id="a5005fc24515d55a5b8984d5c7f2e78c1"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a5005fc24515d55a5b8984d5c7f2e78c1">space</a> ()</td></tr>
-<tr class="memdesc:a5005fc24515d55a5b8984d5c7f2e78c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">調整された空白をバッファに追加する <br /></td></tr>
-<tr class="separator:a5005fc24515d55a5b8984d5c7f2e78c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad017ca8a546ff2f064af200a7f5a712f"><td class="memItemLeft" align="right" valign="top"><a id="ad017ca8a546ff2f064af200a7f5a712f"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><b>addRawStr</b> (String str)</td></tr>
-<tr class="separator:ad017ca8a546ff2f064af200a7f5a712f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacd032b1cd9731ed0d608fb2ba029379"><td class="memItemLeft" align="right" valign="top"><a id="aacd032b1cd9731ed0d608fb2ba029379"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#aacd032b1cd9731ed0d608fb2ba029379">add</a> (String name, int value)</td></tr>
-<tr class="memdesc:aacd032b1cd9731ed0d608fb2ba029379"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ{<code>name}と整数値{<code>value}の対をバッファに追加する</code> </code> <br /></td></tr>
+<tr class="memdesc:aacd032b1cd9731ed0d608fb2ba029379"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ<code>name</code>と整数値<code>value</code>の対をバッファに追加する <br /></td></tr>
 <tr class="separator:aacd032b1cd9731ed0d608fb2ba029379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a904e76d4051283061fc060e37db47417"><td class="memItemLeft" align="right" valign="top"><a id="a904e76d4051283061fc060e37db47417"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a904e76d4051283061fc060e37db47417">add</a> (String name, double value)</td></tr>
-<tr class="memdesc:a904e76d4051283061fc060e37db47417"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ{<code>name}とダブル値{<code>value}の対をバッファに追加する</code> </code> <br /></td></tr>
+<tr class="memdesc:a904e76d4051283061fc060e37db47417"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ<code>name</code>とダブル値<code>value</code>の対をバッファに追加する <br /></td></tr>
 <tr class="separator:a904e76d4051283061fc060e37db47417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2455397399a0f8384cecbfcaa09c2897"><td class="memItemLeft" align="right" valign="top"><a id="a2455397399a0f8384cecbfcaa09c2897"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a2455397399a0f8384cecbfcaa09c2897">add</a> (String name, boolean value)</td></tr>
-<tr class="memdesc:a2455397399a0f8384cecbfcaa09c2897"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ{<code>name}とダブル値{<code>value}の対をバッファに追加する</code> </code> <br /></td></tr>
+<tr class="memdesc:a2455397399a0f8384cecbfcaa09c2897"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ<code>name</code>とダブル値<code>value</code>の対をバッファに追加する <br /></td></tr>
 <tr class="separator:a2455397399a0f8384cecbfcaa09c2897"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f8fd03100e4ced3de85f8959d3fcbc1"><td class="memItemLeft" align="right" valign="top"><a id="a4f8fd03100e4ced3de85f8959d3fcbc1"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a4f8fd03100e4ced3de85f8959d3fcbc1">add</a> (String name, <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> value)</td></tr>
-<tr class="memdesc:a4f8fd03100e4ced3de85f8959d3fcbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ{<code>name}とダブル値{<code>value}の対をバッファに追加する</code> </code> <br /></td></tr>
+<tr class="memdesc:a4f8fd03100e4ced3de85f8959d3fcbc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ<code>name</code>とダブル値<code>value</code>の対をバッファに追加する <br /></td></tr>
 <tr class="separator:a4f8fd03100e4ced3de85f8959d3fcbc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a177c43ee8ace735de2be156d34fce436"><td class="memItemLeft" align="right" valign="top"><a id="a177c43ee8ace735de2be156d34fce436"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a177c43ee8ace735de2be156d34fce436">add</a> (String name, String value)</td></tr>
-<tr class="memdesc:a177c43ee8ace735de2be156d34fce436"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ{<code>name}と文字列{<code>value}の対をバッファに追加する</code> </code> <br /></td></tr>
+<tr class="memdesc:a177c43ee8ace735de2be156d34fce436"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ<code>name</code>と文字列<code>value</code>の対をバッファに追加する <br /></td></tr>
 <tr class="separator:a177c43ee8ace735de2be156d34fce436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26686fd8cd643d772344c18a49f72201"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a26686fd8cd643d772344c18a49f72201">add</a> (int value)</td></tr>
+<tr class="memdesc:a26686fd8cd643d772344c18a49f72201"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで，単一の整数値<code>value</code>をバッファに追加する.  <a href="classutil_1_1_yaml_buf.html#a26686fd8cd643d772344c18a49f72201">More...</a><br /></td></tr>
+<tr class="separator:a26686fd8cd643d772344c18a49f72201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ea3f92dba324f2a99fc24f1ea9458c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a2ea3f92dba324f2a99fc24f1ea9458c0">add</a> (double value)</td></tr>
+<tr class="memdesc:a2ea3f92dba324f2a99fc24f1ea9458c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで，単一のダブル値<code>value</code>をバッファに追加する.  <a href="classutil_1_1_yaml_buf.html#a2ea3f92dba324f2a99fc24f1ea9458c0">More...</a><br /></td></tr>
+<tr class="separator:a2ea3f92dba324f2a99fc24f1ea9458c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bf97f32c624a1c72cd86b6745a0b587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a0bf97f32c624a1c72cd86b6745a0b587">add</a> (boolean value)</td></tr>
+<tr class="memdesc:a0bf97f32c624a1c72cd86b6745a0b587"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで，単一のダブル値<code>value</code>をバッファに追加する.  <a href="classutil_1_1_yaml_buf.html#a0bf97f32c624a1c72cd86b6745a0b587">More...</a><br /></td></tr>
+<tr class="separator:a0bf97f32c624a1c72cd86b6745a0b587"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5274d3b19552167eff7750cfb80fee90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a5274d3b19552167eff7750cfb80fee90">add</a> (String value)</td></tr>
+<tr class="memdesc:a5274d3b19552167eff7750cfb80fee90"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで，単一の文字列<code>value</code>をバッファに追加する.  <a href="classutil_1_1_yaml_buf.html#a5274d3b19552167eff7750cfb80fee90">More...</a><br /></td></tr>
+<tr class="separator:a5274d3b19552167eff7750cfb80fee90"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2611c1d12239be09263c7a92ef7c7776"><td class="memItemLeft" align="right" valign="top"><a id="a2611c1d12239be09263c7a92ef7c7776"></a>
 <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a2611c1d12239be09263c7a92ef7c7776">addif</a> (String name, Object value, boolean condition)</td></tr>
-<tr class="memdesc:a2611c1d12239be09263c7a92ef7c7776"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件<code>condition</code>がtrueのとき、タグ{<code>name}と型変数<code>T</code>の型の値{<code>value}の対をバッファに追加する</code> </code> <br /></td></tr>
+<tr class="memdesc:a2611c1d12239be09263c7a92ef7c7776"><td class="mdescLeft">&#160;</td><td class="mdescRight">条件<code>condition</code>がtrueのとき、タグ<code>name</code>と型変数<code>T</code>の型の値<code>value</code>の対をバッファに追加する <br /></td></tr>
 <tr class="separator:a2611c1d12239be09263c7a92ef7c7776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d761ecf6624800eae746bc6fbc5a117"><td class="memItemLeft" align="right" valign="top"><a id="a4d761ecf6624800eae746bc6fbc5a117"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a4d761ecf6624800eae746bc6fbc5a117">addRawString</a> (String name, String value)</td></tr>
-<tr class="memdesc:a4d761ecf6624800eae746bc6fbc5a117"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ{<code>name}と文字列{<code>value}の対をバッファに追加する</code> </code> <br /></td></tr>
-<tr class="separator:a4d761ecf6624800eae746bc6fbc5a117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8663c31f082a838793228ce664adf114"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a8663c31f082a838793228ce664adf114">addIndent</a> (String name, String value)</td></tr>
-<tr class="memdesc:a8663c31f082a838793228ce664adf114"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで、文字列<code>value</code>を正しい段下げでバッファに追加する。  <a href="classutil_1_1_yaml_buf.html#a8663c31f082a838793228ce664adf114">More...</a><br /></td></tr>
-<tr class="separator:a8663c31f082a838793228ce664adf114"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26686fd8cd643d772344c18a49f72201"><td class="memItemLeft" align="right" valign="top"><a id="a26686fd8cd643d772344c18a49f72201"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a26686fd8cd643d772344c18a49f72201">add</a> (int value)</td></tr>
-<tr class="memdesc:a26686fd8cd643d772344c18a49f72201"><td class="mdescLeft">&#160;</td><td class="mdescRight">整数値{<code>value}をバッファに追加する</code>. 配列モード以外ではエラーを起こす. <br  />
- <br /></td></tr>
-<tr class="separator:a26686fd8cd643d772344c18a49f72201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ea3f92dba324f2a99fc24f1ea9458c0"><td class="memItemLeft" align="right" valign="top"><a id="a2ea3f92dba324f2a99fc24f1ea9458c0"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a2ea3f92dba324f2a99fc24f1ea9458c0">add</a> (double value)</td></tr>
-<tr class="memdesc:a2ea3f92dba324f2a99fc24f1ea9458c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">ダブル値{<code>value}をバッファに追加する</code>. 配列モード以外ではエラーを起こす. <br  />
- <br /></td></tr>
-<tr class="separator:a2ea3f92dba324f2a99fc24f1ea9458c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf97f32c624a1c72cd86b6745a0b587"><td class="memItemLeft" align="right" valign="top"><a id="a0bf97f32c624a1c72cd86b6745a0b587"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a0bf97f32c624a1c72cd86b6745a0b587">add</a> (boolean value)</td></tr>
-<tr class="memdesc:a0bf97f32c624a1c72cd86b6745a0b587"><td class="mdescLeft">&#160;</td><td class="mdescRight">ダブル値{<code>value}をバッファに追加する</code>. 配列モード以外ではエラーを起こす. <br  />
- <br /></td></tr>
-<tr class="separator:a0bf97f32c624a1c72cd86b6745a0b587"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5274d3b19552167eff7750cfb80fee90"><td class="memItemLeft" align="right" valign="top"><a id="a5274d3b19552167eff7750cfb80fee90"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a5274d3b19552167eff7750cfb80fee90">add</a> (String value)</td></tr>
-<tr class="memdesc:a5274d3b19552167eff7750cfb80fee90"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列{<code>value}をバッファに追加する</code>. 配列モード以外ではエラーを起こす. <br  />
- <br /></td></tr>
-<tr class="separator:a5274d3b19552167eff7750cfb80fee90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff5391088022eb05cbf2b46dc89252e7"><td class="memItemLeft" align="right" valign="top"><a id="aff5391088022eb05cbf2b46dc89252e7"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#aff5391088022eb05cbf2b46dc89252e7">addRawString</a> (String value)</td></tr>
-<tr class="memdesc:aff5391088022eb05cbf2b46dc89252e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列{<code>value}をバッファに追加する</code>. 配列モード以外ではエラーを起こす. <br  />
- <br /></td></tr>
-<tr class="separator:aff5391088022eb05cbf2b46dc89252e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee371624d7c135f4684656e6ab6b8269"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#aee371624d7c135f4684656e6ab6b8269">addIndent</a> (String str)</td></tr>
-<tr class="memdesc:aee371624d7c135f4684656e6ab6b8269"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで、文字列<code>value</code>を正しい段下げでバッファに追加する。  <a href="classutil_1_1_yaml_buf.html#aee371624d7c135f4684656e6ab6b8269">More...</a><br /></td></tr>
-<tr class="separator:aee371624d7c135f4684656e6ab6b8269"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4048c4dbacc178a6483bd8b894b78f18"><td class="memItemLeft" align="right" valign="top"><a id="a4048c4dbacc178a6483bd8b894b78f18"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a4048c4dbacc178a6483bd8b894b78f18">toObjectString</a> ()</td></tr>
-<tr class="memdesc:a4048c4dbacc178a6483bd8b894b78f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">要素列を中かっこで囲んだオブジェクト表現の文字列を返す． <br /></td></tr>
-<tr class="separator:a4048c4dbacc178a6483bd8b894b78f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50f6097b032e431f7d3340bdd3768d9f"><td class="memItemLeft" align="right" valign="top"><a id="a50f6097b032e431f7d3340bdd3768d9f"></a>
-<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a50f6097b032e431f7d3340bdd3768d9f">includeStr</a> (String S)</td></tr>
-<tr class="memdesc:a50f6097b032e431f7d3340bdd3768d9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">入れ子文字列を、正しく段下げしながら読み込む。 <br /></td></tr>
-<tr class="separator:a50f6097b032e431f7d3340bdd3768d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top"><a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
-<tr class="memdesc:ad146fa8579a5f8a876c4688cc5a68520"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code><a class="el" href="classutil_1_1_yaml_buf.html#a4048c4dbacc178a6483bd8b894b78f18" title="要素列を中かっこで囲んだオブジェクト表現の文字列を返す．">toObjectString()</a></code>に同じ。 <br /></td></tr>
-<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38f831616a2e7f37c002d84d381dc611"><td class="memItemLeft" align="right" valign="top"><a id="a38f831616a2e7f37c002d84d381dc611"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a38f831616a2e7f37c002d84d381dc611">toSequence</a> ()</td></tr>
-<tr class="memdesc:a38f831616a2e7f37c002d84d381dc611"><td class="mdescLeft">&#160;</td><td class="mdescRight">要素列を中かっこで囲まずに、要素列をそのまま表す文字列を返す． <br /></td></tr>
-<tr class="separator:a38f831616a2e7f37c002d84d381dc611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ed7b817d414d1b0553d255ac6692926"><td class="memItemLeft" align="right" valign="top"><a id="a2ed7b817d414d1b0553d255ac6692926"></a>
-String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a2ed7b817d414d1b0553d255ac6692926">toSeq</a> ()</td></tr>
-<tr class="memdesc:a2ed7b817d414d1b0553d255ac6692926"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code><a class="el" href="classutil_1_1_yaml_buf.html#a38f831616a2e7f37c002d84d381dc611" title="要素列を中かっこで囲まずに、要素列をそのまま表す文字列を返す．">toSequence()</a></code>と同じ <br /></td></tr>
-<tr class="separator:a2ed7b817d414d1b0553d255ac6692926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b731bd7e5760374c78d4aef4140df0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#af9b731bd7e5760374c78d4aef4140df0">includeStrIndent</a> (String S)</td></tr>
+<tr class="memdesc:af9b731bd7e5760374c78d4aef4140df0"><td class="mdescLeft">&#160;</td><td class="mdescRight">YamlBufで作成済みの入れ子文字列を、正しく段下げしながらバッファに追加する基本手続き．文字列を段下げしながらそのまま挿入し，区切り記号は挿入しない．  <a href="classutil_1_1_yaml_buf.html#af9b731bd7e5760374c78d4aef4140df0">More...</a><br /></td></tr>
+<tr class="separator:af9b731bd7e5760374c78d4aef4140df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7bbf751cbb1c71e697315495afcc788"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#ac7bbf751cbb1c71e697315495afcc788">includeStrIndentArray</a> (String objStr)</td></tr>
+<tr class="memdesc:ac7bbf751cbb1c71e697315495afcc788"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで、文字列<code>value</code>を正しい段下げで，区切り記号を挿入しながら，バッファに追加する。  <a href="classutil_1_1_yaml_buf.html#ac7bbf751cbb1c71e697315495afcc788">More...</a><br /></td></tr>
+<tr class="separator:ac7bbf751cbb1c71e697315495afcc788"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a909471b62c0b5944feb3af85e40ca9f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a909471b62c0b5944feb3af85e40ca9f5">includeStrIndentObj</a> (String name, String objStr)</td></tr>
+<tr class="memdesc:a909471b62c0b5944feb3af85e40ca9f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">配列モードで、文字列<code>value</code>を正しい段下げで，区切り記号を挿入しながら，バッファに追加する。  <a href="classutil_1_1_yaml_buf.html#a909471b62c0b5944feb3af85e40ca9f5">More...</a><br /></td></tr>
+<tr class="separator:a909471b62c0b5944feb3af85e40ca9f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -288,31 +256,87 @@ static final String&#160;</td><td class="memItemRight" valign="bottom"><b>SINGLE
 <tr class="memitem:a61f8244daedd476595fa70a2c0c18804"><td class="memItemLeft" align="right" valign="top"><a id="a61f8244daedd476595fa70a2c0c18804"></a>
 static final String&#160;</td><td class="memItemRight" valign="bottom"><b>DOUBLE_QUOTE</b> = &quot;\&quot;&quot;</td></tr>
 <tr class="separator:a61f8244daedd476595fa70a2c0c18804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3485f5ab5468c9283bab864f20e0c734"><td class="memItemLeft" align="right" valign="top"><a id="a3485f5ab5468c9283bab864f20e0c734"></a>
+static final String&#160;</td><td class="memItemRight" valign="bottom"><b>DEFAULT_INDENT_STR</b> = &quot; &quot;</td></tr>
+<tr class="separator:a3485f5ab5468c9283bab864f20e0c734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:abb9a0f5723e48d12790f370d16ec068a"><td class="memItemLeft" align="right" valign="top"><a id="abb9a0f5723e48d12790f370d16ec068a"></a>
+<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#abb9a0f5723e48d12790f370d16ec068a">nl</a> ()</td></tr>
+<tr class="memdesc:abb9a0f5723e48d12790f370d16ec068a"><td class="mdescLeft">&#160;</td><td class="mdescRight">改行する <br /></td></tr>
+<tr class="separator:abb9a0f5723e48d12790f370d16ec068a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e39e522843a86036cc31cc657317e61"><td class="memItemLeft" align="right" valign="top"><a id="a9e39e522843a86036cc31cc657317e61"></a>
+<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a9e39e522843a86036cc31cc657317e61">push</a> ()</td></tr>
+<tr class="memdesc:a9e39e522843a86036cc31cc657317e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">入れ子を深くする <br /></td></tr>
+<tr class="separator:a9e39e522843a86036cc31cc657317e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0999a5efa6b597e3e8509171958f15bc"><td class="memItemLeft" align="right" valign="top"><a id="a0999a5efa6b597e3e8509171958f15bc"></a>
+<a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_yaml_buf.html#a0999a5efa6b597e3e8509171958f15bc">pop</a> ()</td></tr>
+<tr class="memdesc:a0999a5efa6b597e3e8509171958f15bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">入れ子を浅くする <br /></td></tr>
+<tr class="separator:a0999a5efa6b597e3e8509171958f15bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>YAML書式での出力を行うクラス. </p>
-<p>メソッドは，返り値として自分自身の参照を返し，ストリームスタイル（後置記法）で続けて記述する． オブジェクトの区切り記号はYamlBufオブジェクトが適宜挿入する． オブジェクト文字列を構築は次の手順で行う．</p>
-<ul>
-<li>メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a0ac66c68634f271c4e64c2fac7c39ae5" title="オブジェクトのモードを開始する.">openObj()</a></code>でオブジェクトの記述を開始する．</li>
+<div class="textblock"><p>YAML書式の文字列を構築するための一連のメソッドを提供する． メソッドは，カスケードスタイルのインタフェースをもち，YamlBufオブジェクトの後ろに後置のドット'<code>. </code></p>
+<p>'を用いた記法で，複数のメソッド呼び出しを連続して書く．</p><ul>
+<li></li>
+<li>オブジェクトの構築は，メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a0ac66c68634f271c4e64c2fac7c39ae5" title="オブジェクトのモードを開始する.">openObj()</a></code>と<code><a class="el" href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" title="オブジェクトのモードを終了する.">closeObj()</a></code>で開始と終了する．</li>
+<li>配列の構築は，メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a0cdc3f00b2d8dc03acf755b2e205bd55" title="配列のモードを開始する.">openArray()</a></code>と<code><a class="el" href="classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c" title="配列のモードを終了する.">closeArray()</a></code>で記述を開始および終了する．</li>
+<li>オブジェクトと配列の構築を自由に混在し，任意の段数の入れ子にできる．インデントと区切りは，入子に応じて，自動的に挿入される．</li>
+<li>オブジェクト文字列を構築は次の手順で行う．<ul>
+<li>メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a0ac66c68634f271c4e64c2fac7c39ae5" title="オブジェクトのモードを開始する.">openObj()</a></code>で，バッファを開き，オブジェクトの記述を開始する．</li>
 <li>メソッド<code>add(属性名，属性値)</code>で属性値対をくりかえし追加する．</li>
 <li>メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" title="オブジェクトのモードを終了する.">closeObj()</a></code>でオブジェクトの記述を終了する．</li>
-<li>最後にメソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520" title="toObjectString()に同じ。">toString()</a></code>で文字列に変換して，使用する．</li>
+<li>最後にメソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520" title="バッファの内容を表す文字列を返す．">toString()</a></code>でバッファを閉じて，内容の文字列を返す． <dl class="section note"><dt>Note</dt><dd>複数の<code><a class="el" href="classutil_1_1_foldable_string_buf.html" title="入れ子深さに応じた段下げ表示を行うよう拡張された文字列バッファのクラス.">FoldableStringBuf</a></code>を用いて実装されている．</dd></dl>
+例： <div class="fragment"><div class="line"><a class="code" href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e">YamlBuf</a> yaml = <span class="keyword">new</span> <a class="code" href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e">YamlBuf</a>();</div>
+<div class="line">System.out.println(yaml.openArray()</div>
+<div class="line">       .add(1).add(2).closeArray().toString()); </div>
+<div class="line">System.out.println(</div>
+<div class="line">       yaml.clear()</div>
+<div class="line">       .openObj()</div>
+<div class="line">       .add(<span class="stringliteral">&quot;numEventRead&quot;</span>, <span class="keyword">this</span>.numEventRead)</div>
+<div class="line">       .add(<span class="stringliteral">&quot;text&quot;</span>, <span class="stringliteral">&quot;&#39;&quot;</span>+text+<span class="stringliteral">&quot;&#39;&quot;</span>)</div>
+<div class="line">       .add(<span class="stringliteral">&quot;fid&quot;</span>, rule.state())</div>
+<div class="line">       .closeObj()</div>
+<div class="line">       .toString()</div>
+<div class="line">);</div>
+<div class="ttc" id="aclassutil_1_1_yaml_buf_html_a3768957ea7e84470ee5f0d2522259d0e"><div class="ttname"><a href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e">util.YamlBuf.YamlBuf</a></div><div class="ttdeci">YamlBuf()</div><div class="ttdoc">空のバッファを生成する</div><div class="ttdef"><b>Definition:</b> YamlBuf.java:96</div></div>
+</div><!-- fragment --> </li>
 </ul>
-<p>オブジェクト文字列を構築する際は，メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a0ac66c68634f271c4e64c2fac7c39ae5" title="オブジェクトのモードを開始する.">openObj()</a></code>と<code><a class="el" href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" title="オブジェクトのモードを終了する.">closeObj()</a></code>で記述を開始および終了する． 配列文字列を構築する際は，メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a0cdc3f00b2d8dc03acf755b2e205bd55" title="配列のモードを開始する.">openArray()</a></code>と<code><a class="el" href="classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c" title="配列のモードを終了する.">closeArray()</a></code>で記述を開始および終了する． オブジェクト記述と配列記述は，自由に混在して，任意の段数の入れ子にできる． 実装には，複数の<code><a class="el" href="classutil_1_1_foldable_string_buf.html" title="入れ子深さに応じた段下げ表示を行うよう拡張された文字列バッファのクラス.">FoldableStringBuf</a></code>を用いている．</p>
-<p>例：</p>
-<pre><a class="el" href="classutil_1_1_yaml_buf.html" title="YAML書式での出力を行うクラス.">YamlBuf</a> yaml = new <a class="el" href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e" title="空のバッファを生成する *‍/">YamlBuf()</a>;
-  System.out.println(yaml.openArray()
-         .add(1).add(2).<a class="el" href="classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c" title="配列のモードを終了する.">closeArray()</a>.<a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520" title="toObjectString()に同じ。">toString()</a>); 
-  System.out.println(
-         yaml.clear()
-         .<a class="el" href="classutil_1_1_yaml_buf.html#a0ac66c68634f271c4e64c2fac7c39ae5" title="オブジェクトのモードを開始する.">openObj()</a>
-         .add("numEventRead", this.numEventRead)
-         .add("text", "'"+text+"'")
-         .add("fid", rule.state())
-         .<a class="el" href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" title="オブジェクトのモードを終了する.">closeObj()</a>
-         .<a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520" title="toObjectString()に同じ。">toString()</a>
-  );
-  </pre> </div><h2 class="groupheader">Member Function Documentation</h2>
+</li>
+</ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad146fa8579a5f8a876c4688cc5a68520">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>バッファの内容を表す文字列を返す． </p>
+<p>YamlBufを用いてYaml文字列を作成したら，最後にこの演算を用いて，文字列を生成して用いる． </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad146fa8579a5f8a876c4688cc5a68520_cgraph.svg" width="272" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad146fa8579a5f8a876c4688cc5a68520_icgraph.svg" width="280" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="ad53cd7a10238ce08a4f6b30b3460e3fa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad53cd7a10238ce08a4f6b30b3460e3fa">&#9670;&nbsp;</a></span>addAttrName()</h2>
 
@@ -334,19 +358,169 @@ static final String&#160;</td><td class="memItemRight" valign="bottom"><b>DOUBLE
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad53cd7a10238ce08a4f6b30b3460e3fa_cgraph.svg" width="100%" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad53cd7a10238ce08a4f6b30b3460e3fa_cgraph.svg" width="100%" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a8663c31f082a838793228ce664adf114"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8663c31f082a838793228ce664adf114">&#9670;&nbsp;</a></span>addIndent() <span class="overload">[1/2]</span></h2>
+<a id="a26686fd8cd643d772344c18a49f72201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26686fd8cd643d772344c18a49f72201">&#9670;&nbsp;</a></span>add() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> addIndent </td>
+          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> add </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>配列モードで，単一の整数値<code>value</code>をバッファに追加する. </p>
+<dl class="section note"><dt>Note</dt><dd>配列モード以外ではエラーを起こす. <br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a2ea3f92dba324f2a99fc24f1ea9458c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ea3f92dba324f2a99fc24f1ea9458c0">&#9670;&nbsp;</a></span>add() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> add </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>配列モードで，単一のダブル値<code>value</code>をバッファに追加する. </p>
+<dl class="section note"><dt>Note</dt><dd>配列モード以外ではエラーを起こす. <br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a0bf97f32c624a1c72cd86b6745a0b587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf97f32c624a1c72cd86b6745a0b587">&#9670;&nbsp;</a></span>add() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> add </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>配列モードで，単一のダブル値<code>value</code>をバッファに追加する. </p>
+<dl class="section note"><dt>Note</dt><dd>配列モード以外ではエラーを起こす. <br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="a5274d3b19552167eff7750cfb80fee90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5274d3b19552167eff7750cfb80fee90">&#9670;&nbsp;</a></span>add() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> add </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>配列モードで，単一の文字列<code>value</code>をバッファに追加する. </p>
+<dl class="section note"><dt>Note</dt><dd>配列モード以外ではエラーを起こす. <br  />
+ </dd></dl>
+
+</div>
+</div>
+<a id="af9b731bd7e5760374c78d4aef4140df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9b731bd7e5760374c78d4aef4140df0">&#9670;&nbsp;</a></span>includeStrIndent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> includeStrIndent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>S</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>YamlBufで作成済みの入れ子文字列を、正しく段下げしながらバッファに追加する基本手続き．文字列を段下げしながらそのまま挿入し，区切り記号は挿入しない． </p>
+<dl class="section note"><dt>Note</dt><dd>配列モード以外ではエラーを起こす. <br  />
+ </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_af9b731bd7e5760374c78d4aef4140df0_cgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_af9b731bd7e5760374c78d4aef4140df0_icgraph.svg" width="558" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="ac7bbf751cbb1c71e697315495afcc788"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7bbf751cbb1c71e697315495afcc788">&#9670;&nbsp;</a></span>includeStrIndentArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> includeStrIndentArray </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>objStr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>配列モードで、文字列<code>value</code>を正しい段下げで，区切り記号を挿入しながら，バッファに追加する。 </p>
+<p>文字列<code>value</code>はYamlBufで作成された段下げ付き文字列である。 </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ac7bbf751cbb1c71e697315495afcc788_cgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a909471b62c0b5944feb3af85e40ca9f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a909471b62c0b5944feb3af85e40ca9f5">&#9670;&nbsp;</a></span>includeStrIndentObj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> includeStrIndentObj </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -355,7 +529,7 @@ Here is the call graph for this function:</div>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramname"><em>objStr</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -365,43 +539,19 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>配列モードで、文字列<code>value</code>を正しい段下げでバッファに追加する。 </p>
+<p>配列モードで、文字列<code>value</code>を正しい段下げで，区切り記号を挿入しながら，バッファに追加する。 </p>
 <p>文字列<code>value</code>はYamlBufで作成された段下げ付き文字列である。 </p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a8663c31f082a838793228ce664adf114_cgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a909471b62c0b5944feb3af85e40ca9f5_cgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a8663c31f082a838793228ce664adf114_icgraph.svg" width="336" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a909471b62c0b5944feb3af85e40ca9f5_icgraph.svg" width="394" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
-
-</div>
-</div>
-<a id="aee371624d7c135f4684656e6ab6b8269"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee371624d7c135f4684656e6ab6b8269">&#9670;&nbsp;</a></span>addIndent() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a> addIndent </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>配列モードで、文字列<code>value</code>を正しい段下げでバッファに追加する。 </p>
-<p>文字列<code>value</code>はYamlBufで作成された段下げ付き文字列である。 </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_aee371624d7c135f4684656e6ab6b8269_cgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -415,7 +565,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceutil.html">util</a></li><li class="navelem"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></li>
-    <li class="footer">Generated on Fri Apr 30 2021 04:12:21 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 3 2021 08:05:01 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

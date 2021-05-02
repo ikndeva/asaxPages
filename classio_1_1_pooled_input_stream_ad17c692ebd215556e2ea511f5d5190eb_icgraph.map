@@ -1,4 +1,4 @@
 <map id="getCharAt" name="getCharAt">
-<area shape="rect" id="node1" title="与えられた論理位置posに対して，バッファ中で論理位置posの文字を返す． もしバッファが論理位置posを含まないときは，EOFを返す．" alt="" coords="150,5,231,31"/>
-<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#aad558f34661546bfe6c35cb33fb498bf" title="位置区間 [beg, end)に対応する入力テキストの部分文字列の複製を返す." alt="" coords="5,5,102,31"/>
+<area shape="rect" id="node1" title="与えられた論理位置posに対して，バッファ中で論理位置posの文字を返す． もしバッファが論理位置posを含まないときは，EOFを返す．" alt="" coords="148,5,229,32"/>
+<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#aad558f34661546bfe6c35cb33fb498bf" title="位置区間 [beg, end)に対応する入力テキストの部分文字列の複製を返す." alt="" coords="5,5,100,32"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="contained" name="contained">
-<area shape="rect" id="node1" title="Check if the current input buffer contains the given position." alt="" coords="289,56,368,81"/>
-<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#ad17c692ebd215556e2ea511f5d5190eb" title="与えられた論理位置posに対して，バッファ中で論理位置posの文字を返す． もしバッファが論理位置posを含まないときは，EOFを返す．" alt="" coords="154,5,236,31"/>
-<area shape="rect" id="node3" href="$classio_1_1_pooled_input_stream.html#aad558f34661546bfe6c35cb33fb498bf" title="位置区間 [beg, end)に対応する入力テキストの部分文字列の複製を返す." alt="" coords="5,56,102,81"/>
-<area shape="rect" id="node4" href="$classio_1_1_pooled_input_stream.html#acb3856901477cbdc25853f51015dc8cb" title="Reset the active cursor to the specified position." alt="" coords="150,107,241,132"/>
-<area shape="rect" id="node5" href="$classio_1_1_pooled_input_stream.html#aaab5dab5b969a87f538242e524431637" title="Read a byte or letter from an PooledInputStream." alt="" coords="29,107,77,132"/>
+<area shape="rect" id="node1" title="Check if the current input buffer contains the given position." alt="" coords="287,56,365,83"/>
+<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#ad17c692ebd215556e2ea511f5d5190eb" title="与えられた論理位置posに対して，バッファ中で論理位置posの文字を返す． もしバッファが論理位置posを含まないときは，EOFを返す．" alt="" coords="153,5,234,32"/>
+<area shape="rect" id="node3" href="$classio_1_1_pooled_input_stream.html#aad558f34661546bfe6c35cb33fb498bf" title="位置区間 [beg, end)に対応する入力テキストの部分文字列の複製を返す." alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node4" href="$classio_1_1_pooled_input_stream.html#acb3856901477cbdc25853f51015dc8cb" title="Reset the active cursor to the specified position." alt="" coords="148,107,239,133"/>
+<area shape="rect" id="node5" href="$classio_1_1_pooled_input_stream.html#aaab5dab5b969a87f538242e524431637" title="Read a byte or letter from an PooledInputStream." alt="" coords="29,107,76,133"/>
 </map>

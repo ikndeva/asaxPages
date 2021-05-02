@@ -12,6 +12,7 @@ var classtype_1_1_basic_typing =
     [ "addChild", "classtype_1_1_basic_typing.html#aa7232c3fd7a09d8287be32ad607556b6", null ],
     [ "addChild", "classtype_1_1_basic_typing.html#a63c4b84e072ab3ea55255ba2d1259643", null ],
     [ "childData", "classtype_1_1_basic_typing.html#ac773e3c20a29c208fea84c33d8b35cd2", null ],
+    [ "isBasicType", "classtype_1_1_basic_typing.html#ab764fc36d8fbb4e90f1a6c4b1f48ca6b", null ],
     [ "data", "classtype_1_1_basic_typing.html#a3137357d0abb2bd75321d6e19024956a", null ],
     [ "toString", "classtype_1_1_basic_typing.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
     [ "self", "classtype_1_1_basic_typing.html#a242e4ae6b951fcd174ce28d10b97c860", null ],

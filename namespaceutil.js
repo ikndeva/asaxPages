@@ -12,6 +12,7 @@ var namespaceutil =
     [ "Lock", "classutil_1_1_lock.html", "classutil_1_1_lock" ],
     [ "MultiBytesQueryTest", "classutil_1_1_multi_bytes_query_test.html", "classutil_1_1_multi_bytes_query_test" ],
     [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", "classutil_1_1_multi_words_option" ],
+    [ "Panic", "classutil_1_1_panic.html", "classutil_1_1_panic" ],
     [ "RecycleManager", "classutil_1_1_recycle_manager.html", "classutil_1_1_recycle_manager" ],
     [ "Report", "classutil_1_1_report.html", "classutil_1_1_report" ],
     [ "ReportEnter", "classutil_1_1_report_enter.html", "classutil_1_1_report_enter" ],

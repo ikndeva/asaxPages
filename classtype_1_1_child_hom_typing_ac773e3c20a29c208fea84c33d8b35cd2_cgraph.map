@@ -1,8 +1,9 @@
 <map id="childData" name="childData">
-<area shape="rect" id="node1" title="子型の文字列表現を返す。" alt="" coords="5,31,83,57"/>
-<area shape="rect" id="node2" href="$classtype_1_1_basic_typing.html#ad146fa8579a5f8a876c4688cc5a68520" title="演算子型の文字列表現を返す。" alt="" coords="131,31,301,57"/>
-<area shape="rect" id="node3" href="$classtype_1_1_basic_typing.html#a3137357d0abb2bd75321d6e19024956a" title="演算子型の文字列表現を返す。" alt="" coords="349,31,500,57"/>
-<area shape="rect" id="node4" href="$classtype_1_1_basic_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" title="子型の文字列表現を返す。" alt="" coords="548,31,729,57"/>
-<area shape="rect" id="node5" href="$classtype_1_1_basic_typing.html#a43fad88a40e732def4cd36c8b11a570b" title=" " alt="" coords="777,5,931,32"/>
-<area shape="rect" id="node6" href="$classtype_1_1_x_type_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="789,56,919,83"/>
+<area shape="rect" id="node1" title="子型の文字列表現を返す。" alt="" coords="5,56,83,83"/>
+<area shape="rect" id="node2" href="$classtype_1_1_basic_typing.html#ad146fa8579a5f8a876c4688cc5a68520" title="演算子型の文字列表現を返す。" alt="" coords="131,56,301,83"/>
+<area shape="rect" id="node3" href="$classtype_1_1_basic_typing.html#a3137357d0abb2bd75321d6e19024956a" title="演算子型の文字列表現を返す。" alt="" coords="349,56,500,83"/>
+<area shape="rect" id="node4" href="$classtype_1_1_basic_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" title="子型の文字列表現を返す。" alt="" coords="556,31,737,57"/>
+<area shape="rect" id="node7" href="$classtype_1_1_basic_typing.html#ab764fc36d8fbb4e90f1a6c4b1f48ca6b" title="data()の切り替え用" alt="" coords="548,81,745,108"/>
+<area shape="rect" id="node5" href="$classtype_1_1_basic_typing.html#a43fad88a40e732def4cd36c8b11a570b" title=" " alt="" coords="793,5,947,32"/>
+<area shape="rect" id="node6" href="$classtype_1_1_x_type_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="805,56,935,83"/>
 </map>

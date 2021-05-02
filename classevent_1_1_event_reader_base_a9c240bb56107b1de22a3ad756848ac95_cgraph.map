@@ -1,4 +1,4 @@
 <map id="emitEventENDDOC" name="emitEventENDDOC">
-<area shape="rect" id="node1" title="ENDDOCイベントを送出する．これはETAGとほぼ同じ動作をする．" alt="" coords="5,5,144,31"/>
-<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="192,5,272,31"/>
+<area shape="rect" id="node1" title="ENDDOCイベントを送出する．これはETAGとほぼ同じ動作をする．" alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="193,5,275,32"/>
 </map>

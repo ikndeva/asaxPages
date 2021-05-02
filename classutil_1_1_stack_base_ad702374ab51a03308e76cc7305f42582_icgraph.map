@@ -1,5 +1,5 @@
 <map id="pop" name="pop">
-<area shape="rect" id="node1" title="スタックをポップする." alt="" coords="505,659,548,685"/>
+<area shape="rect" id="node1" title="スタックをポップする." alt="" coords="505,692,548,719"/>
 <area shape="rect" id="node2" href="$classcmd_1_1_command_base_1_1_cmd_scan_loop.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="177,5,440,32"/>
 <area shape="rect" id="node3" href="$classcmd_1_1_command_base_1_1_cmd_jmp_f_a_l_s_e.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="173,56,445,83"/>
 <area shape="rect" id="node4" href="$classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="175,107,442,133"/>
@@ -20,8 +20,9 @@
 <area shape="rect" id="node19" href="$classcmd_1_1_command_typed_1_1_cmd_str2_type.html#aed930e84d9417830c38fbb0917e1c58a" title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする" alt="" coords="207,1043,410,1085"/>
 <area shape="rect" id="node20" href="$classcmd_1_1_command_typed_1_1_cmd_conv.html#aed930e84d9417830c38fbb0917e1c58a" title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする" alt="" coords="189,1109,428,1136"/>
 <area shape="rect" id="node21" href="$classcmd_1_1_command_typed_1_1_cmd_type_opr.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つのIntegerを演算して，結果をスタックトップにおく．" alt="" coords="205,1161,412,1202"/>
-<area shape="rect" id="node22" href="$classutil_1_1_recycle_manager.html#ad6541e97c584aca806e22274f261b0c7" title="型Sの新しいインスタンスを初期化して返す．" alt="" coords="227,1227,390,1253"/>
-<area shape="rect" id="node23" href="$classutil_1_1_report.html#a03135aa774dc9eea1dd6229cb2586de4" title="現在の入れ子深さを一つ浅くする．" alt="" coords="255,1277,362,1304"/>
-<area shape="rect" id="node25" href="$classutil_1_1_stack_base.html#a49c60b1f2ff143fe7f10122d76b8fdc7" title="スタックをポップする." alt="" coords="283,1328,334,1355"/>
-<area shape="rect" id="node24" href="$classutil_1_1_report.html#af0022e20c64f9d3646a91a82b49c0ea8" title="現在の入れ子深さで段差げして，関数の戻りと文字列msgを出力する。" alt="" coords="5,1277,112,1304"/>
+<area shape="rect" id="node22" href="$classutil_1_1_panic.html#a94ef3c2205e21e7472e855906c2fabbc" title="現在の入れ子深さで段差げして，関数の戻りを出力する。" alt="" coords="258,1227,359,1253"/>
+<area shape="rect" id="node23" href="$classutil_1_1_recycle_manager.html#ad6541e97c584aca806e22274f261b0c7" title="型Sの新しいインスタンスを初期化して返す．" alt="" coords="227,1277,390,1304"/>
+<area shape="rect" id="node24" href="$classutil_1_1_report.html#a03135aa774dc9eea1dd6229cb2586de4" title="現在の入れ子深さを一つ浅くする．" alt="" coords="255,1328,362,1355"/>
+<area shape="rect" id="node26" href="$classutil_1_1_stack_base.html#a49c60b1f2ff143fe7f10122d76b8fdc7" title="スタックをポップする." alt="" coords="283,1379,334,1405"/>
+<area shape="rect" id="node25" href="$classutil_1_1_report.html#af0022e20c64f9d3646a91a82b49c0ea8" title="現在の入れ子深さで段差げして，関数の戻りと文字列msgを出力する。" alt="" coords="5,1328,112,1355"/>
 </map>

@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$class_buffered_text_writer.html#a6c1e02d7a003dcb3b86188ed0ea6de78" xlink:title="入出力ストリームから一つの文字を読み出す.">
+<g id="a_node2"><a xlink:href="class_buffered_text_writer.html#a6c1e02d7a003dcb3b86188ed0ea6de78" target="_top" xlink:title="入出力ストリームから一つの文字を読み出す.">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 35,-19.5 35,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="17.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">read</text>
 </a>

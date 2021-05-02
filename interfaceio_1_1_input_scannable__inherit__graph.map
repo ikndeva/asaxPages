@@ -1,4 +1,4 @@
 <map id="InputScannable" name="InputScannable">
-<area shape="rect" id="node1" title="部分文字列の抽出が可能な入力文字ストリームのインタフェース." alt="" coords="16,5,130,31"/>
-<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html" title="論理位置アクセスによる再読み出しが可能なバッファつき入力ストリーム." alt="" coords="5,79,141,104"/>
+<area shape="rect" id="node1" title="部分文字列の抽出が可能な入力文字ストリームのインタフェース." alt="" coords="16,5,128,32"/>
+<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html" title="論理位置アクセスによる再読み出しが可能なバッファつき入力ストリーム." alt="" coords="5,80,139,107"/>
 </map>

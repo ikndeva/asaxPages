@@ -1,4 +1,4 @@
 <map id="emitEventGUARD" name="emitEventGUARD">
-<area shape="rect" id="node1" title="GUARDイベントを送出する．" alt="" coords="5,5,134,31"/>
-<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="182,5,263,31"/>
+<area shape="rect" id="node1" title="GUARDイベントを送出する．" alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="184,5,265,32"/>
 </map>

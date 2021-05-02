@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceevent_1_1_actable.html" title="EventReadable が構文解析中に返すオブジェクトのインタフェース" alt="" coords="5,31,71,56"/>
-<area shape="rect" id="node2" href="$classevent_1_1_action_code.html" title="EventReadable が構文解析中に実行する動作命令を表すインタフェース" alt="" coords="119,5,209,31"/>
-<area shape="rect" id="node3" href="$interfaceevent_1_1_event.html" title="構文解析イベントを表すインタフェース。" alt="" coords="137,55,192,80"/>
-<area shape="rect" id="node4" href="$classevent_1_1_event_base.html" title="EventReadable が構文解析中に返す構文解析イベントを表すクラス。" alt="" coords="257,55,343,80"/>
+<area shape="rect" id="node1" href="$interfaceevent_1_1_actable.html" title="EventReadable が構文解析中に返すオブジェクトのインタフェース" alt="" coords="5,31,72,57"/>
+<area shape="rect" id="node2" href="$classevent_1_1_action_code.html" title="EventReadable が構文解析中に実行する動作命令を表すインタフェース" alt="" coords="120,5,211,32"/>
+<area shape="rect" id="node3" href="$interfaceevent_1_1_event.html" title="構文解析イベントを表すインタフェース。" alt="" coords="137,56,193,83"/>
+<area shape="rect" id="node4" href="$classevent_1_1_event_base.html" title="EventReadable が構文解析中に返す構文解析イベントを表すクラス。" alt="" coords="259,56,345,83"/>
 </map>

@@ -103,7 +103,8 @@ $(document).ready(function(){initNavTree('classutil_1_1_util.html',''); initResi
 <div class="dynheader">
 Collaboration diagram for Util:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -252,9 +253,15 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <tr class="memitem:aa34dabb5413b3dfb4eae5f38118b091b"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#aa34dabb5413b3dfb4eae5f38118b091b">isQuotedString</a> (String str)</td></tr>
 <tr class="memdesc:aa34dabb5413b3dfb4eae5f38118b091b"><td class="mdescLeft">&#160;</td><td class="mdescRight">引用文字列か？  <a href="classutil_1_1_util.html#aa34dabb5413b3dfb4eae5f38118b091b">More...</a><br /></td></tr>
 <tr class="separator:aa34dabb5413b3dfb4eae5f38118b091b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b7230489ec4b99305bcba4811ca54c"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#a60b7230489ec4b99305bcba4811ca54c">stripStringQuote</a> (String str)</td></tr>
-<tr class="memdesc:a60b7230489ec4b99305bcba4811ca54c"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列から両端の引用符を除く。  <a href="classutil_1_1_util.html#a60b7230489ec4b99305bcba4811ca54c">More...</a><br /></td></tr>
-<tr class="separator:a60b7230489ec4b99305bcba4811ca54c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ae598a050a5bfb55c74101a2240b30"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#a05ae598a050a5bfb55c74101a2240b30">isQuotedString</a> (String str, String QuoteChars)</td></tr>
+<tr class="memdesc:a05ae598a050a5bfb55c74101a2240b30"><td class="mdescLeft">&#160;</td><td class="mdescRight">引用文字列か？  <a href="classutil_1_1_util.html#a05ae598a050a5bfb55c74101a2240b30">More...</a><br /></td></tr>
+<tr class="separator:a05ae598a050a5bfb55c74101a2240b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d25561a483859288306f053ea0c1eee"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#a6d25561a483859288306f053ea0c1eee">stripBothEnds</a> (String str)</td></tr>
+<tr class="memdesc:a6d25561a483859288306f053ea0c1eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列から両端の一文字ずつ（引用符）を除く。  <a href="classutil_1_1_util.html#a6d25561a483859288306f053ea0c1eee">More...</a><br /></td></tr>
+<tr class="separator:a6d25561a483859288306f053ea0c1eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af68c39de02f3f532129c21c01e6c8d3c"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#af68c39de02f3f532129c21c01e6c8d3c">stripStringQuote</a> (String str, String QuoteChars)</td></tr>
+<tr class="memdesc:af68c39de02f3f532129c21c01e6c8d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列から両端の引用符を除く。  <a href="classutil_1_1_util.html#af68c39de02f3f532129c21c01e6c8d3c">More...</a><br /></td></tr>
+<tr class="separator:af68c39de02f3f532129c21c01e6c8d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefbe4290c061279d7d60565658385bde"><td class="memItemLeft" align="right" valign="top"><a id="aefbe4290c061279d7d60565658385bde"></a>
 static&lt; T &gt; String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#aefbe4290c061279d7d60565658385bde">arrayToString</a> (T[] A)</td></tr>
 <tr class="memdesc:aefbe4290c061279d7d60565658385bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">型パラメータ<code>T</code>の要素をもつ配列を受け取り、清書文字列を返す。 <br  />
@@ -368,12 +375,14 @@ String <a class="el" href="classutil_1_1_util.html#a2fda1db09e4ca322c95602c6e747
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae411a90dd0a4a15776ea6eb5f0cbae13_cgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae411a90dd0a4a15776ea6eb5f0cbae13_cgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae411a90dd0a4a15776ea6eb5f0cbae13_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae411a90dd0a4a15776ea6eb5f0cbae13_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -417,7 +426,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae3c5ad9aa6794f2d4525a3ed3a3a53e8_cgraph.svg" width="266" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae3c5ad9aa6794f2d4525a3ed3a3a53e8_cgraph.svg" width="266" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -450,7 +460,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a7c4b5534ff284b188f83399c344c89c8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a7c4b5534ff284b188f83399c344c89c8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -513,13 +524,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a293b0ae795cb95c9e8e9575473a9efed_cgraph.svg" width="399" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a293b0ae795cb95c9e8e9575473a9efed_cgraph.svg" width="399" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
 <a id="aa34dabb5413b3dfb4eae5f38118b091b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa34dabb5413b3dfb4eae5f38118b091b">&#9670;&nbsp;</a></span>isQuotedString()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34dabb5413b3dfb4eae5f38118b091b">&#9670;&nbsp;</a></span>isQuotedString() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -543,17 +555,86 @@ Here is the call graph for this function:</div>
 </div><div class="memdoc">
 
 <p>引用文字列か？ </p>
-<dl class="section note"><dt>Note</dt><dd><code><a class="el" href="classutil_1_1_util.html#a60b7230489ec4b99305bcba4811ca54c" title="文字列から両端の引用符を除く。">Util.stripStringQuote(String str)</a></code>と対で用いること。 </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><code>Util.stripStringQuote(String str)</code>と対で用いること。 </dd></dl>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_aa34dabb5413b3dfb4eae5f38118b091b_icgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_aa34dabb5413b3dfb4eae5f38118b091b_icgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
 </div>
-<a id="a60b7230489ec4b99305bcba4811ca54c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60b7230489ec4b99305bcba4811ca54c">&#9670;&nbsp;</a></span>stripStringQuote()</h2>
+<a id="a05ae598a050a5bfb55c74101a2240b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05ae598a050a5bfb55c74101a2240b30">&#9670;&nbsp;</a></span>isQuotedString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean isQuotedString </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>QuoteChars</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>引用文字列か？ </p>
+<dl class="section note"><dt>Note</dt><dd><code>Util.stripStringQuote(String str)</code>と対で用いること。 </dd></dl>
+
+</div>
+</div>
+<a id="a6d25561a483859288306f053ea0c1eee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d25561a483859288306f053ea0c1eee">&#9670;&nbsp;</a></span>stripBothEnds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String stripBothEnds </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>文字列から両端の一文字ずつ（引用符）を除く。 </p>
+<dl class="section note"><dt>Note</dt><dd><code><a class="el" href="classutil_1_1_util.html#aa34dabb5413b3dfb4eae5f38118b091b" title="引用文字列か？">Util.isQuotedString(String str)</a></code>と対で用いること。 </dd></dl>
+
+</div>
+</div>
+<a id="af68c39de02f3f532129c21c01e6c8d3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af68c39de02f3f532129c21c01e6c8d3c">&#9670;&nbsp;</a></span>stripStringQuote()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,8 +646,18 @@ Here is the caller graph for this function:</div>
           <td class="memname">static String stripStringQuote </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>str</em></td><td>)</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>QuoteChars</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -581,7 +672,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a60b7230489ec4b99305bcba4811ca54c_cgraph.svg" width="454" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_af68c39de02f3f532129c21c01e6c8d3c_cgraph.svg" width="454" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -625,7 +717,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a5ca1fa6debc2726baddad4eeef28cb0e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a5ca1fa6debc2726baddad4eeef28cb0e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -669,7 +762,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceutil.html">util</a></li><li class="navelem"><a class="el" href="classutil_1_1_util.html">Util</a></li>
-    <li class="footer">Generated on Fri Apr 30 2021 04:12:21 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 3 2021 08:05:01 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

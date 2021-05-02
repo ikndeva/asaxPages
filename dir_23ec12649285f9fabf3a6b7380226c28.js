@@ -30,6 +30,9 @@ var dir_23ec12649285f9fabf3a6b7380226c28 =
     [ "Lock.java", "_lock_8java.html", [
       [ "Lock", "classutil_1_1_lock.html", "classutil_1_1_lock" ]
     ] ],
+    [ "Panic.java", "_panic_8java.html", [
+      [ "Panic", "classutil_1_1_panic.html", "classutil_1_1_panic" ]
+    ] ],
     [ "RecycleManager.java", "_recycle_manager_8java.html", [
       [ "RecycleManager", "classutil_1_1_recycle_manager.html", "classutil_1_1_recycle_manager" ]
     ] ],

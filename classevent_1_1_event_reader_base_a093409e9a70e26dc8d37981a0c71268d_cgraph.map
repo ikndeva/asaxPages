@@ -1,4 +1,4 @@
 <map id="emitEventTEXT" name="emitEventTEXT">
-<area shape="rect" id="node1" title="Emit a EventText unless the text consists of spaces only." alt="" coords="5,5,120,31"/>
-<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="168,5,249,31"/>
+<area shape="rect" id="node1" title="Emit a EventText unless the text consists of spaces only." alt="" coords="5,5,120,32"/>
+<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="168,5,249,32"/>
 </map>

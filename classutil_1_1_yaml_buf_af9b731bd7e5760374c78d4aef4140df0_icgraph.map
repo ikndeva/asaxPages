@@ -1,0 +1,5 @@
+<map id="includeStrIndent" name="includeStrIndent">
+<area shape="rect" id="node1" title="YamlBufで作成済みの入れ子文字列を、正しく段下げしながらバッファに追加する基本手続き．文字列を段下げしながらそのまま挿入し，区切り記号は挿入しない．" alt="" coords="436,5,552,32"/>
+<area shape="rect" id="node2" href="$classutil_1_1_yaml_buf.html#a909471b62c0b5944feb3af85e40ca9f5" title="配列モードで、文字列valueを正しい段下げで，区切り記号を挿入しながら，バッファに追加する。" alt="" coords="252,5,388,32"/>
+<area shape="rect" id="node3" href="$classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" title="フレームスタックの文字列表現を返す." alt="" coords="5,5,204,32"/>
+</map>

@@ -1,6 +1,6 @@
 <map id="ActionCode" name="ActionCode">
-<area shape="rect" id="node1" title="EventReadable が構文解析中に実行する動作命令を表すインタフェース" alt="" coords="88,179,178,204"/>
-<area shape="rect" id="node2" href="$interfaceevent_1_1_actable.html" title="EventReadable が構文解析中に返すオブジェクトのインタフェース" alt="" coords="5,92,71,117"/>
-<area shape="rect" id="node3" title=" " alt="" coords="19,5,58,31"/>
-<area shape="rect" id="node4" href="$interfaceevent_1_1_action_code_1_1_codelet.html" title="EventReadableの環境内部で動作する動作命令のインタフェース．構文解析時にEventReadableから唯一のメソッドrun()が呼び出される．環境へのアクセスは，このメソッドの引数で与えられ..." alt="" coords="95,92,235,117"/>
+<area shape="rect" id="node1" title="EventReadable が構文解析中に実行する動作命令を表すインタフェース" alt="" coords="88,184,179,211"/>
+<area shape="rect" id="node2" href="$interfaceevent_1_1_actable.html" title="EventReadable が構文解析中に返すオブジェクトのインタフェース" alt="" coords="5,95,72,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="19,5,58,32"/>
+<area shape="rect" id="node4" href="$interfaceevent_1_1_action_code_1_1_codelet.html" title="EventReadableの環境内部で動作する動作命令のインタフェース．構文解析時にEventReadableから唯一のメソッドrun()が呼び出される．環境へのアクセスは，このメソッドの引数で与えられ..." alt="" coords="96,95,235,121"/>
 </map>

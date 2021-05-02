@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classcmd_1_1_command_boolean_1_1_cmd_str2_bool.html" xlink:title="OVMachine上のString値をBoolean値に変換する命令．">
+<g id="a_node2"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_str2_bool.html" target="_top" xlink:title="OVMachine上のString値をBoolean値に変換する命令．">
 <polygon fill="white" stroke="black" points="113,-98.5 113,-128.5 271,-128.5 271,-98.5 113,-98.5"/>
 <text text-anchor="start" x="121" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBoolean.CmdStr2Bool</text>
 <text text-anchor="middle" x="192" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Boolean &gt;</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classcmd_1_1_command_double_1_1_cmd_str2_dbl.html" xlink:title="OVMachine上のString値をDouble値に変換する命令．">
+<g id="a_node3"><a xlink:href="classcmd_1_1_command_double_1_1_cmd_str2_dbl.html" target="_top" xlink:title="OVMachine上のString値をDouble値に変換する命令．">
 <polygon fill="white" stroke="black" points="117.5,-49.5 117.5,-79.5 266.5,-79.5 266.5,-49.5 117.5,-49.5"/>
 <text text-anchor="start" x="125.5" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandDouble.CmdStr2Dbl</text>
 <text text-anchor="middle" x="192" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Double &gt;</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classcmd_1_1_command_integer_1_1_cmd_str2_int.html" xlink:title="OVMachine上のString値をInteger値に変換する命令．">
+<g id="a_node4"><a xlink:href="classcmd_1_1_command_integer_1_1_cmd_str2_int.html" target="_top" xlink:title="OVMachine上のString値をInteger値に変換する命令．">
 <polygon fill="white" stroke="black" points="120,-0.5 120,-30.5 264,-30.5 264,-0.5 120,-0.5"/>
 <text text-anchor="start" x="128" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandInteger.CmdStr2Int</text>
 <text text-anchor="middle" x="192" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">&lt; Integer &gt;</text>

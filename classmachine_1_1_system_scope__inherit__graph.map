@@ -1,4 +1,4 @@
 <map id="SystemScope" name="SystemScope">
-<area shape="rect" id="node1" title="システム変数にアクセスするための読み出し専用スコープ．" alt="" coords="23,92,127,117"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_inspectable.html" title=" " alt="" coords="5,5,145,44"/>
+<area shape="rect" id="node1" title="システム変数にアクセスするための読み出し専用スコープ．" alt="" coords="23,95,127,121"/>
+<area shape="rect" id="node2" href="$interfacemachine_1_1_inspectable.html" title=" " alt="" coords="5,5,144,47"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="getLeastUpperBound" name="getLeastUpperBound">
-<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="5,5,153,31"/>
-<area shape="rect" id="node2" href="$enumtype_1_1_x_type.html#a299033fd07237d997de10296fa5283ab" title="型thisが型thatと同じか小さな半順序をもつ（less than or equal to）ならばtrueを返し、そうでなければ false を返す。" alt="" coords="201,5,240,31"/>
+<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node2" href="$enumtype_1_1_x_type.html#a299033fd07237d997de10296fa5283ab" title="型thisが型thatと同じか小さな半順序をもつ（less than or equal to）ならばtrueを返し、そうでなければ false を返す。" alt="" coords="197,5,236,32"/>
 </map>

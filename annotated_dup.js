@@ -1,6 +1,7 @@
 var annotated_dup =
 [
     [ "app", "namespaceapp.html", [
+      [ "Match", "classapp_1_1_match.html", "classapp_1_1_match" ],
       [ "QueryHolder", "interfaceapp_1_1_query_holder.html", "interfaceapp_1_1_query_holder" ],
       [ "StreamBuilder", "classapp_1_1_stream_builder.html", "classapp_1_1_stream_builder" ]
     ] ],
@@ -14,14 +15,7 @@ var annotated_dup =
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", "classast_1_1_ast_func_call" ],
       [ "AstIf", "classast_1_1_ast_if.html", "classast_1_1_ast_if" ],
       [ "AstLet", "classast_1_1_ast_let.html", "classast_1_1_ast_let" ],
-      [ "AstLiteral", "classast_1_1_ast_literal.html", [
-        [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
-        [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],
-        [ "IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", "classast_1_1_ast_literal_1_1_integer_literal" ],
-        [ "RegexLiteral", "classast_1_1_ast_literal_1_1_regex_literal.html", "classast_1_1_ast_literal_1_1_regex_literal" ],
-        [ "StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", "classast_1_1_ast_literal_1_1_string_expr" ],
-        [ "StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", "classast_1_1_ast_literal_1_1_string_literal" ]
-      ] ],
+      [ "AstLiteral", "classast_1_1_ast_literal.html", "classast_1_1_ast_literal" ],
       [ "AstMathOper", "classast_1_1_ast_math_oper.html", "classast_1_1_ast_math_oper" ],
       [ "AstNode", "classast_1_1_ast_node.html", "classast_1_1_ast_node" ],
       [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
@@ -210,6 +204,7 @@ var annotated_dup =
       [ "Lock", "classutil_1_1_lock.html", "classutil_1_1_lock" ],
       [ "MultiBytesQueryTest", "classutil_1_1_multi_bytes_query_test.html", "classutil_1_1_multi_bytes_query_test" ],
       [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", "classutil_1_1_multi_words_option" ],
+      [ "Panic", "classutil_1_1_panic.html", "classutil_1_1_panic" ],
       [ "RecycleManager", "classutil_1_1_recycle_manager.html", "classutil_1_1_recycle_manager" ],
       [ "Report", "classutil_1_1_report.html", "classutil_1_1_report" ],
       [ "ReportEnter", "classutil_1_1_report_enter.html", "classutil_1_1_report_enter" ],
@@ -234,7 +229,6 @@ var annotated_dup =
     [ "Exception", "class_exception.html", null ],
     [ "FilterOutputStream", "class_filter_output_stream.html", null ],
     [ "Iterable", "class_iterable.html", null ],
-    [ "Match", "class_match.html", "class_match" ],
     [ "Parser", "class_parser.html", null ],
     [ "RuntimeException", "class_runtime_exception.html", null ],
     [ "XFormList", "class_x_form_list.html", null ]

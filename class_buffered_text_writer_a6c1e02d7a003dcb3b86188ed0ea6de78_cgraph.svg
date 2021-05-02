@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$class_buffered_text_writer.html#a27242f064d99d53cfe4a235e03d69bfc" xlink:title="ストリームを空に初期化する。">
+<g id="a_node2"><a xlink:href="class_buffered_text_writer.html#a27242f064d99d53cfe4a235e03d69bfc" target="_top" xlink:title="ストリームを空に初期化する。">
 <polygon fill="white" stroke="black" points="71,-38.5 71,-57.5 115,-57.5 115,-38.5 71,-38.5"/>
 <text text-anchor="middle" x="93" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">_reset</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$class_buffered_text_writer.html#ac38570a2949e0ff3d522e8d35c9e4402" xlink:title="入力ストリームの読み出し準備が出来ているかどうかをテストする.">
+<g id="a_node3"><a xlink:href="class_buffered_text_writer.html#ac38570a2949e0ff3d522e8d35c9e4402" target="_top" xlink:title="入力ストリームの読み出し準備が出来ているかどうかをテストする.">
 <polygon fill="white" stroke="black" points="72.5,-0.5 72.5,-19.5 113.5,-19.5 113.5,-0.5 72.5,-0.5"/>
 <text text-anchor="middle" x="93" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ready</text>
 </a>

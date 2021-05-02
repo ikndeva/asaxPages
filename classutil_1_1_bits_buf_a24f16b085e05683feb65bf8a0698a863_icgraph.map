@@ -1,4 +1,4 @@
 <map id="toBinaryString" name="toBinaryString">
-<area shape="rect" id="node1" title="与えられた整数値{val}を表す幅{ncol}ビットの二進文字列を返す." alt="" coords="121,5,226,31"/>
-<area shape="rect" id="node2" href="$classutil_1_1_bits_buf.html#a4efba764c83bd687e353c049c2b75d1e" title="文字列値を返すラッパー関数." alt="" coords="5,5,73,31"/>
+<area shape="rect" id="node1" title="与えられた整数値{val}を表す幅{ncol}ビットの二進文字列を返す." alt="" coords="120,5,224,32"/>
+<area shape="rect" id="node2" href="$classutil_1_1_bits_buf.html#a4efba764c83bd687e353c049c2b75d1e" title="文字列値を返すラッパー関数." alt="" coords="5,5,72,32"/>
 </map>

@@ -326,6 +326,7 @@ var hierarchy =
     [ "LowerJoinable", "interfacetype_1_1_lower_joinable.html", null ],
     [ "MaskMap< K extends Comparable", "classmachine_1_1_mask_map_3_01_k_01extends_01_comparable.html", null ],
     [ "MemCell", "classframe_1_1_mem_cell.html", null ],
+    [ "YamlBuf.Mode", "enumutil_1_1_yaml_buf_1_1_mode.html", null ],
     [ "MultiBytesQueryTest", "classutil_1_1_multi_bytes_query_test.html", null ],
     [ "MultiHashMap< T >", "classmachine_1_1_multi_hash_map.html", null ],
     [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", null ],
@@ -336,6 +337,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "OVMachine", "classmachine_1_1_o_v_machine.html", null ],
+    [ "Panic", "classutil_1_1_panic.html", null ],
     [ "Par", "classpretty_1_1_par.html", null ],
     [ "Parsable", "interfaceparse_1_1_parsable.html", [
       [ "AstParser", "classparse_1_1_ast_parser.html", null ]
@@ -349,7 +351,7 @@ var hierarchy =
     [ "Context.PrintMode", "enummachine_1_1_context_1_1_print_mode.html", null ],
     [ "PrintState", "classformat_1_1_print_state.html", null ],
     [ "QueryHolder", "interfaceapp_1_1_query_holder.html", [
-      [ "Match", "class_match.html", null ]
+      [ "Match", "classapp_1_1_match.html", null ]
     ] ],
     [ "RecycleManager< S >", "classutil_1_1_recycle_manager.html", null ],
     [ "RecycleManager< format.NodeFormattable >", "classutil_1_1_recycle_manager.html", null ],
@@ -390,11 +392,11 @@ var hierarchy =
     [ "StackBase< Boolean >", "classutil_1_1_stack_base.html", null ],
     [ "StackBase< Double >", "classutil_1_1_stack_base.html", null ],
     [ "StackBase< Integer >", "classutil_1_1_stack_base.html", null ],
-    [ "StackBase< Mode >", "classutil_1_1_stack_base.html", null ],
     [ "StackBase< S >", "classutil_1_1_stack_base.html", [
       [ "AutoStack< S >", "classutil_1_1_auto_stack.html", null ]
     ] ],
     [ "StackBase< String >", "classutil_1_1_stack_base.html", null ],
+    [ "StackBase< util.YamlBuf.Mode >", "classutil_1_1_stack_base.html", null ],
     [ "StackBase< T >.Stat", "classutil_1_1_stack_base_1_1_stat.html", null ],
     [ "StreamBuilder", "classapp_1_1_stream_builder.html", null ],
     [ "StringBuf", "classutil_1_1_string_buf.html", [
@@ -474,6 +476,8 @@ var hierarchy =
       ] ],
       [ "queryParser.ArithTermContext", "classparse_1_1query_parser_1_1_arith_term_context.html", null ],
       [ "queryParser.Assign_statContext", "classparse_1_1query_parser_1_1_assign__stat_context.html", null ],
+      [ "queryParser.Axis_chldContext", "classparse_1_1query_parser_1_1_axis__chld_context.html", null ],
+      [ "queryParser.Axis_descContext", "classparse_1_1query_parser_1_1_axis__desc_context.html", null ],
       [ "queryParser.BlockArgListContext", "classparse_1_1query_parser_1_1_block_arg_list_context.html", null ],
       [ "queryParser.Block_bodyContext", "classparse_1_1query_parser_1_1_block__body_context.html", null ],
       [ "queryParser.Block_endContext", "classparse_1_1query_parser_1_1_block__end_context.html", null ],
@@ -508,7 +512,6 @@ var hierarchy =
       [ "queryParser.Return_statContext", "classparse_1_1query_parser_1_1_return__stat_context.html", null ],
       [ "queryParser.ScanContext", "classparse_1_1query_parser_1_1_scan_context.html", null ],
       [ "queryParser.SourceContext", "classparse_1_1query_parser_1_1_source_context.html", null ],
-      [ "queryParser.SqMatchExprContext", "classparse_1_1query_parser_1_1_sq_match_expr_context.html", null ],
       [ "queryParser.StatementContext", "classparse_1_1query_parser_1_1_statement_context.html", null ],
       [ "queryParser.Statement_or_declContext", "classparse_1_1query_parser_1_1_statement__or__decl_context.html", null ],
       [ "queryParser.Statement_or_decl_or_scanContext", "classparse_1_1query_parser_1_1_statement__or__decl__or__scan_context.html", null ],
@@ -522,6 +525,8 @@ var hierarchy =
         [ "queryParser.StrRelRegexContext", "classparse_1_1query_parser_1_1_str_rel_regex_context.html", null ],
         [ "queryParser.StrRelStrExprContext", "classparse_1_1query_parser_1_1_str_rel_str_expr_context.html", null ]
       ] ],
+      [ "queryParser.StringTermDQContext", "classparse_1_1query_parser_1_1_string_term_d_q_context.html", null ],
+      [ "queryParser.StringTermSLContext", "classparse_1_1query_parser_1_1_string_term_s_l_context.html", null ],
       [ "queryParser.SysVarUseContext", "classparse_1_1query_parser_1_1_sys_var_use_context.html", null ],
       [ "queryParser.TagExprContext", "classparse_1_1query_parser_1_1_tag_expr_context.html", null ],
       [ "queryParser.TagExprMidContext", "classparse_1_1query_parser_1_1_tag_expr_mid_context.html", [
@@ -534,6 +539,8 @@ var hierarchy =
       ] ],
       [ "queryParser.TagNameContext", "classparse_1_1query_parser_1_1_tag_name_context.html", null ],
       [ "queryParser.TemplateTermContext", "classparse_1_1query_parser_1_1_template_term_context.html", null ],
+      [ "queryParser.TemplateTermDQContext", "classparse_1_1query_parser_1_1_template_term_d_q_context.html", null ],
+      [ "queryParser.TemplateTermSLContext", "classparse_1_1query_parser_1_1_template_term_s_l_context.html", null ],
       [ "queryParser.TextoperContext", "classparse_1_1query_parser_1_1_textoper_context.html", null ],
       [ "queryParser.Top_statsContext", "classparse_1_1query_parser_1_1_top__stats_context.html", null ],
       [ "queryParser.VarDeclsContext", "classparse_1_1query_parser_1_1_var_decls_context.html", null ],

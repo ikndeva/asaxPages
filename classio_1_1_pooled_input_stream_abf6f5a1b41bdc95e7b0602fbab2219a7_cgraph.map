@@ -1,4 +1,4 @@
 <map id="rescan" name="rescan">
-<area shape="rect" id="node1" title="現在の論理カーソル位置から、一つ次の文字を読む." alt="" coords="5,5,67,31"/>
-<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#a4cb880d0d45dbf544b858a38a01baf8e" title="現在の論理カーソル位置から、一つ次の文字を読む." alt="" coords="115,5,225,31"/>
+<area shape="rect" id="node1" title="現在の論理カーソル位置から、一つ次の文字を読む." alt="" coords="5,5,67,32"/>
+<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#a4cb880d0d45dbf544b858a38a01baf8e" title="現在の論理カーソル位置から、一つ次の文字を読む." alt="" coords="115,5,223,32"/>
 </map>

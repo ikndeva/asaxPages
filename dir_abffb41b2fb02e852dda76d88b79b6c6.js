@@ -50,14 +50,7 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
       [ "AstLet", "classast_1_1_ast_let.html", "classast_1_1_ast_let" ]
     ] ],
     [ "AstLiteral.java", "_ast_literal_8java.html", [
-      [ "AstLiteral", "classast_1_1_ast_literal.html", [
-        [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
-        [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],
-        [ "IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", "classast_1_1_ast_literal_1_1_integer_literal" ],
-        [ "RegexLiteral", "classast_1_1_ast_literal_1_1_regex_literal.html", "classast_1_1_ast_literal_1_1_regex_literal" ],
-        [ "StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", "classast_1_1_ast_literal_1_1_string_expr" ],
-        [ "StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", "classast_1_1_ast_literal_1_1_string_literal" ]
-      ] ],
+      [ "AstLiteral", "classast_1_1_ast_literal.html", "classast_1_1_ast_literal" ],
       [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
       [ "IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", "classast_1_1_ast_literal_1_1_integer_literal" ],
       [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],

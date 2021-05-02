@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "asax02.neo", "index.html", [
+    [ "210502 Design of Query Syntax", "md_210502design_query_syntax.html", null ],
     [ "200828 Ast Typeの使用例調査", "md_ast_200828asttype.html", null ],
     [ "memostyle", "md_ast_memostyle.html", null ],
     [ "CHANGELOG.md: XML parser, ver2", "md__c_h_a_n_g_e_l_o_g_.html", null ],
@@ -66,19 +67,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "",
-"classast_1_1_ast_data_wrapper.html",
-"classast_1_1_ast_oper_tagged.html",
+"classast_1_1_ast_data_reader_1_1_reader_string.html#ae1ba45bad2d2854e7378d5322c0c2c57",
+"classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c",
 "classcmd_1_1_command_base_1_1_cmd_get_text.html",
 "classevent_1_1_event_manager.html#a5d13ae0877f01d2825d2580623011840",
 "classframe_1_1_string_holder.html#a8cd3901aa3912e06e90154825a616140",
 "classparse_1_1_parse_table.html",
-"classparse_1_1query_parser_1_1_and_expr_context.html#a0c50a62e93a5c29330d8100f8ce7757a",
-"classparse_1_1query_parser_1_1_func_call_context.html#a210ca7b48d1fca63cb055a90fb3d219f",
-"classparse_1_1query_parser_1_1_str_rel_str_expr_context.html#abc1e85b405d1aa03fe54b0ced8ff8826",
-"classutil_1_1_bufs.html#aefb81caf48824b8a699d428ae64ef47d",
-"classutil_1_1_util.html#ad4fdca539c309975516ad6e30af76f19",
-"interfacemachine_1_1_assignable.html#ad146fa8579a5f8a876c4688cc5a68520",
-"md_parse__c_h_a_n_g_e_l_o_g_.html"
+"classparse_1_1query_parser.html#adb714ee45adcbd7ea11351bdfd71a27a",
+"classparse_1_1query_parser_1_1_file_open_context.html#a69c41174d23ea155f97b4cb6215e9579",
+"classparse_1_1query_parser_1_1_str_mul_expr_context.html#a87ad4f016da1e2939c5b97da733d00e9",
+"classtype_1_1_union_find_item.html#a4a716406d3d9d4fdbbe46f100e648f3b",
+"classutil_1_1_string_buf.html#adde1d881e065768508743c8224917f0c",
+"interfaceapp_1_1_query_holder.html",
+"interfaceparse_1_1query_listener.html#aba3addb30ece74047cfeafccb524a604"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

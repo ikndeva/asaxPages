@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classmachine_1_1_x_exception.html" xlink:title="実行系に関する実行時エラーのクラス">
+<g id="a_node2"><a xlink:href="classmachine_1_1_x_exception.html" target="_top" xlink:title="実行系に関する実行時エラーのクラス">
 <polygon fill="white" stroke="black" points="121,-123.5 121,-142.5 188,-142.5 188,-123.5 121,-123.5"/>
 <text text-anchor="middle" x="154.5" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">XException</text>
 </a>
@@ -36,7 +36,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classmachine_1_1_x_exception_1_1_x_exception_skippable.html" xlink:title="スキップ可能例外であり、そのサブクエリのみをスキップすれば良い．">
+<g id="a_node3"><a xlink:href="classmachine_1_1_x_exception_1_1_x_exception_skippable.html" target="_top" xlink:title="スキップ可能例外であり、そのサブクエリのみをスキップすれば良い．">
 <polygon fill="white" stroke="black" points="73,-67.5 73,-86.5 236,-86.5 236,-67.5 73,-67.5"/>
 <text text-anchor="middle" x="154.5" y="-74.5" font-family="Helvetica,sans-Serif" font-size="10.00">XException.XExceptionSkippable</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classmachine_1_1_x_exception_1_1_x_exception_read_value.html" xlink:title="値取得時の例外。スキップ可能例外。">
+<g id="a_node4"><a xlink:href="classmachine_1_1_x_exception_1_1_x_exception_read_value.html" target="_top" xlink:title="値取得時の例外。スキップ可能例外。">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-30.5 143,-30.5 143,-0.5 0,-0.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">XException.XExceptionRead</text>
 <text text-anchor="middle" x="71.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Value</text>
@@ -67,7 +67,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classmachine_1_1_x_exception_1_1_x_exception_storage.html" xlink:title="記憶領域関係の例外。スキップ可能例外。">
+<g id="a_node5"><a xlink:href="classmachine_1_1_x_exception_1_1_x_exception_storage.html" target="_top" xlink:title="記憶領域関係の例外。スキップ可能例外。">
 <polygon fill="white" stroke="black" points="161.5,-6 161.5,-25 315.5,-25 315.5,-6 161.5,-6"/>
 <text text-anchor="middle" x="238.5" y="-13" font-family="Helvetica,sans-Serif" font-size="10.00">XException.XExceptionStorage</text>
 </a>

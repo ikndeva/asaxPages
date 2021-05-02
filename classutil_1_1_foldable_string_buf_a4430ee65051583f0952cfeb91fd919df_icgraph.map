@@ -1,6 +1,5 @@
 <map id="clear" name="clear">
-<area shape="rect" id="node1" title="文字列バッファを空に初期化する." alt="" coords="508,38,559,65"/>
-<area shape="rect" id="node2" href="$classformat_1_1_node_formatter_base.html#ac8bb3912a3ce86b15842e79d0b421204" title="初期化する" alt="" coords="248,13,460,39"/>
-<area shape="rect" id="node4" href="$classutil_1_1_yaml_buf.html#a4048c4dbacc178a6483bd8b894b78f18" title="要素列を中かっこで囲んだオブジェクト表現の文字列を返す．" alt="" coords="265,63,443,90"/>
-<area shape="rect" id="node3" href="$classformat_1_1_node_formatter_base.html#ad2ed4947c266a995d1a0fb4b766bc824" title="クエリの項表現の文字列（qsring）を返す." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node1" title="文字列バッファを空に初期化する." alt="" coords="508,29,559,56"/>
+<area shape="rect" id="node2" href="$classformat_1_1_node_formatter_base.html#ac8bb3912a3ce86b15842e79d0b421204" title="初期化する" alt="" coords="248,29,460,56"/>
+<area shape="rect" id="node3" href="$classformat_1_1_node_formatter_base.html#ad2ed4947c266a995d1a0fb4b766bc824" title="クエリの項表現の文字列（qsring）を返す." alt="" coords="5,22,200,63"/>
 </map>

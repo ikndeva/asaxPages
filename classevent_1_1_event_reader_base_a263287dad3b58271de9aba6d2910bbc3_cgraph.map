@@ -1,4 +1,4 @@
 <map id="emitEventEOF" name="emitEventEOF">
-<area shape="rect" id="node1" title="EOFイベントを送出する．" alt="" coords="5,5,113,31"/>
-<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="161,5,242,31"/>
+<area shape="rect" id="node1" title="EOFイベントを送出する．" alt="" coords="5,5,113,32"/>
+<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a263fa01fedac93f3acf09b1d0bb11d12" title="現在の環境において、イベントを送出する." alt="" coords="161,5,243,32"/>
 </map>

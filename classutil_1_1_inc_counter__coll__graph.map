@@ -1,5 +1,5 @@
 <map id="IncCounter" name="IncCounter">
-<area shape="rect" id="node1" title="非負整数値を保持するカウンタ." alt="" coords="20,92,107,117"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,44,31"/>
-<area shape="rect" id="node3" title=" " alt="" coords="68,5,136,31"/>
+<area shape="rect" id="node1" title="非負整数値を保持するカウンタ." alt="" coords="20,95,107,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,44,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="69,5,135,32"/>
 </map>

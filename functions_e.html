@@ -151,7 +151,8 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 : <a class="el" href="classutil_1_1_stack_base.html#afc83463b28590258e734220f6cafdbfb">StackBase&lt; T &gt;</a>
 </li>
 <li>enter()
-: <a class="el" href="classutil_1_1_report.html#ab052f098b7c42da9ac2f8b92b32a5016">Report&lt; S &gt;</a>
+: <a class="el" href="classutil_1_1_panic.html#a8ae511d13228b346b493970111efbf64">Panic</a>
+, <a class="el" href="classutil_1_1_report.html#ab052f098b7c42da9ac2f8b92b32a5016">Report&lt; S &gt;</a>
 </li>
 <li>enterAndExpr()
 : <a class="el" href="classparse_1_1query_base_listener.html#a7cdd2108ccc7f828cc333ffba5981d75">queryBaseListener</a>
@@ -192,6 +193,14 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <li>enterAssign_stat()
 : <a class="el" href="classparse_1_1query_base_listener.html#aee0bd5e84e56447e3629bd1ff46720fa">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#aee0bd5e84e56447e3629bd1ff46720fa">queryListener</a>
+</li>
+<li>enterAxis_chld()
+: <a class="el" href="classparse_1_1query_base_listener.html#a7b0efd03d46cb957aed831fc1e79452f">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a7b0efd03d46cb957aed831fc1e79452f">queryListener</a>
+</li>
+<li>enterAxis_desc()
+: <a class="el" href="classparse_1_1query_base_listener.html#a50ded83c793a0be51efacceae7219c40">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a50ded83c793a0be51efacceae7219c40">queryListener</a>
 </li>
 <li>enterBlock_body()
 : <a class="el" href="classparse_1_1query_base_listener.html#ad2e7ae04765c7db9cec01e2955b7e423">queryBaseListener</a>
@@ -340,10 +349,6 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 : <a class="el" href="classparse_1_1query_base_listener.html#adbea8d2db18ef18103968f6bd410126c">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#adbea8d2db18ef18103968f6bd410126c">queryListener</a>
 </li>
-<li>enterSqMatchExpr()
-: <a class="el" href="classparse_1_1query_base_listener.html#a0b4554b83bfded30ba1ae13a455885d1">queryBaseListener</a>
-, <a class="el" href="interfaceparse_1_1query_listener.html#a0b4554b83bfded30ba1ae13a455885d1">queryListener</a>
-</li>
 <li>enterStatement()
 : <a class="el" href="classparse_1_1query_base_listener.html#a39e679273fb5c3cb3a83b0e955ef9476">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#a39e679273fb5c3cb3a83b0e955ef9476">queryListener</a>
@@ -371,6 +376,14 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <li>enterStrExpr()
 : <a class="el" href="classparse_1_1query_base_listener.html#aec12012fa94b8bdee203d9e905b6a677">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#aec12012fa94b8bdee203d9e905b6a677">queryListener</a>
+</li>
+<li>enterStringTermDQ()
+: <a class="el" href="classparse_1_1query_base_listener.html#a7f21bbb75778a86823dbba8351ce2955">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a7f21bbb75778a86823dbba8351ce2955">queryListener</a>
+</li>
+<li>enterStringTermSL()
+: <a class="el" href="classparse_1_1query_base_listener.html#adb54b07cc6953e80a02bb99681658738">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#adb54b07cc6953e80a02bb99681658738">queryListener</a>
 </li>
 <li>enterStrMulExpr()
 : <a class="el" href="classparse_1_1query_base_listener.html#a7404911d6a49edb62674f1c9e4ea7a85">queryBaseListener</a>
@@ -403,6 +416,14 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <li>enterTemplateTerm()
 : <a class="el" href="classparse_1_1query_base_listener.html#ad1b57015c04ef54bfeb7117e71c47212">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#ad1b57015c04ef54bfeb7117e71c47212">queryListener</a>
+</li>
+<li>enterTemplateTermDQ()
+: <a class="el" href="classparse_1_1query_base_listener.html#a6b609320e487914e7f1db12acea2908e">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a6b609320e487914e7f1db12acea2908e">queryListener</a>
+</li>
+<li>enterTemplateTermSL()
+: <a class="el" href="classparse_1_1query_base_listener.html#a49c275dd10595ee5ac439a3d0ce3760d">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a49c275dd10595ee5ac439a3d0ce3760d">queryListener</a>
 </li>
 <li>enterTextoper()
 : <a class="el" href="classparse_1_1query_base_listener.html#a015f805e0ebc9b0a65b25cf38aad566a">queryBaseListener</a>
@@ -526,7 +547,8 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 : <a class="el" href="classevent_1_1_event_reader_base.html#a3b5beb7e7b7bdbb754b5633c6ba4f494">EventReaderBase</a>
 </li>
 <li>exit()
-: <a class="el" href="classutil_1_1_report.html#a3628122cd5aeb0268a446c708a18c5cf">Report&lt; S &gt;</a>
+: <a class="el" href="classutil_1_1_panic.html#a94ef3c2205e21e7472e855906c2fabbc">Panic</a>
+, <a class="el" href="classutil_1_1_report.html#a3628122cd5aeb0268a446c708a18c5cf">Report&lt; S &gt;</a>
 , <a class="el" href="classutil_1_1_util.html#a98a9fd114ee065ff149a7d4fb4de8de8">Util</a>
 </li>
 <li>exitAndExpr()
@@ -568,6 +590,14 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <li>exitAssign_stat()
 : <a class="el" href="classparse_1_1query_base_listener.html#ab3c873c3dec97b538f8d9366f926ddda">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#ab3c873c3dec97b538f8d9366f926ddda">queryListener</a>
+</li>
+<li>exitAxis_chld()
+: <a class="el" href="classparse_1_1query_base_listener.html#aed9d07d8f45945f648da4a19220f8da5">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#aed9d07d8f45945f648da4a19220f8da5">queryListener</a>
+</li>
+<li>exitAxis_desc()
+: <a class="el" href="classparse_1_1query_base_listener.html#aa90e31dc07a71831e7e8bde5b55ff23a">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#aa90e31dc07a71831e7e8bde5b55ff23a">queryListener</a>
 </li>
 <li>exitBlock_body()
 : <a class="el" href="classparse_1_1query_base_listener.html#a2e6f2c48241017fcd95347a7c5dd2f56">queryBaseListener</a>
@@ -716,10 +746,6 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 : <a class="el" href="classparse_1_1query_base_listener.html#a988910048f8e730c788d4ca006b68445">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#a988910048f8e730c788d4ca006b68445">queryListener</a>
 </li>
-<li>exitSqMatchExpr()
-: <a class="el" href="classparse_1_1query_base_listener.html#a0a515c75586ac6e4d982cf1afe41c2cb">queryBaseListener</a>
-, <a class="el" href="interfaceparse_1_1query_listener.html#a0a515c75586ac6e4d982cf1afe41c2cb">queryListener</a>
-</li>
 <li>exitStatement()
 : <a class="el" href="classparse_1_1query_base_listener.html#a2e14540e705fca9701d60fd8ae877a55">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#a2e14540e705fca9701d60fd8ae877a55">queryListener</a>
@@ -747,6 +773,14 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <li>exitStrExpr()
 : <a class="el" href="classparse_1_1query_base_listener.html#af7c4b5180ad98ac90b3424f1d2402930">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#af7c4b5180ad98ac90b3424f1d2402930">queryListener</a>
+</li>
+<li>exitStringTermDQ()
+: <a class="el" href="classparse_1_1query_base_listener.html#aaa079651fc58b1c966f28c148c0e3226">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#aaa079651fc58b1c966f28c148c0e3226">queryListener</a>
+</li>
+<li>exitStringTermSL()
+: <a class="el" href="classparse_1_1query_base_listener.html#a43177415d6667de007264df8e50ee979">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a43177415d6667de007264df8e50ee979">queryListener</a>
 </li>
 <li>exitStrMulExpr()
 : <a class="el" href="classparse_1_1query_base_listener.html#a7963d59a80ee0437992d9492da04f916">queryBaseListener</a>
@@ -780,6 +814,14 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 : <a class="el" href="classparse_1_1query_base_listener.html#a707e2a07d1e961ef4097afebe37088ab">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#a707e2a07d1e961ef4097afebe37088ab">queryListener</a>
 </li>
+<li>exitTemplateTermDQ()
+: <a class="el" href="classparse_1_1query_base_listener.html#a52ef402e4caa82b3c743e2383fc020e7">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a52ef402e4caa82b3c743e2383fc020e7">queryListener</a>
+</li>
+<li>exitTemplateTermSL()
+: <a class="el" href="classparse_1_1query_base_listener.html#a630caefc2ef897d217ca50c6a74f7972">queryBaseListener</a>
+, <a class="el" href="interfaceparse_1_1query_listener.html#a630caefc2ef897d217ca50c6a74f7972">queryListener</a>
+</li>
 <li>exitTextoper()
 : <a class="el" href="classparse_1_1query_base_listener.html#a80a6799443d3194364539ae6274785cd">queryBaseListener</a>
 , <a class="el" href="interfaceparse_1_1query_listener.html#a80a6799443d3194364539ae6274785cd">queryListener</a>
@@ -810,7 +852,7 @@ $(document).ready(function(){initNavTree('functions_e.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Apr 30 2021 04:12:21 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 3 2021 08:05:01 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

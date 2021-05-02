@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="class_match.html" target="_top" xlink:title="AsaxEventReaderを用いた簡単な構造テキストの操作器の実装例.">
+<g id="a_node2"><a xlink:href="classapp_1_1_match.html" target="_top" xlink:title="AsaxEventReaderを用いた簡単な構造テキストの操作器の実装例.">
 <polygon fill="white" stroke="black" points="13.5,-0.5 13.5,-19.5 57.5,-19.5 57.5,-0.5 13.5,-0.5"/>
 <text text-anchor="middle" x="35.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Match</text>
 </a>

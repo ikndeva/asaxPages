@@ -1,7 +1,7 @@
 <map id="EventReadable" name="EventReadable">
-<area shape="rect" id="node1" title="構造文書走査器が備えるべき機能を記述するインタフェース." alt="" coords="89,79,201,104"/>
-<area shape="rect" id="node3" href="$classevent_1_1_event_reader_base.html" title="構造文書走査器の実装に有用な基本手続きを提供するEventReadableインタフェースの実装クラス." alt="" coords="5,152,135,177"/>
-<area shape="rect" id="node5" href="$classevent_1_1xpp_1_1_xpp_event_reader.html" title=" " alt="" coords="159,152,282,177"/>
-<area shape="rect" id="node2" href="$class_iterable.html" title=" " alt="" coords="83,5,206,31"/>
-<area shape="rect" id="node4" href="$classevent_1_1asax_1_1_asax_event_reader.html" title="EventReadableインタフェースを実現するストリーム指向のプル型XMLパーザのクラス." alt="" coords="6,225,135,251"/>
+<area shape="rect" id="node1" title="構造文書走査器が備えるべき機能を記述するインタフェース." alt="" coords="89,80,199,107"/>
+<area shape="rect" id="node3" href="$classevent_1_1_event_reader_base.html" title="構造文書走査器の実装に有用な基本手続きを提供するEventReadableインタフェースの実装クラス." alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node5" href="$classevent_1_1xpp_1_1_xpp_event_reader.html" title=" " alt="" coords="158,155,279,181"/>
+<area shape="rect" id="node2" href="$class_iterable.html" title=" " alt="" coords="83,5,205,32"/>
+<area shape="rect" id="node4" href="$classevent_1_1asax_1_1_asax_event_reader.html" title="EventReadableインタフェースを実現するストリーム指向のプル型XMLパーザのクラス." alt="" coords="5,229,133,256"/>
 </map>

@@ -39,6 +39,6 @@ var classutil_1_1_foldable_string_buf =
     [ "add", "classutil_1_1_foldable_string_buf.html#a5ffdfabab4d2b4c08450e29e20a83633", null ],
     [ "add", "classutil_1_1_foldable_string_buf.html#a25475e9eb7f68cd76f28100caa81ce16", null ],
     [ "addif", "classutil_1_1_foldable_string_buf.html#a87676b0459a997b5851066104a501cbc", null ],
-    [ "includeStr", "classutil_1_1_foldable_string_buf.html#ad8c09f96206ccb28fc5e37e0e47eb22d", null ],
+    [ "includeStrIndent", "classutil_1_1_foldable_string_buf.html#af6ee3a021ca300a156d8347b5bf0f71f", null ],
     [ "tag", "classutil_1_1_foldable_string_buf.html#a3d1b2b9aa7be6b4548fc2e6dbd97103f", null ]
 ];

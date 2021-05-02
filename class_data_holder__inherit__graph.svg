@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="$classframe_1_1_boolean_holder.html" xlink:title="整数を保持するオブジェクト。">
+<g id="a_node2"><a xlink:href="classframe_1_1_boolean_holder.html" target="_top" xlink:title="整数を保持するオブジェクト。">
 <polygon fill="white" stroke="black" points="102,-196.5 102,-226.5 230,-226.5 230,-196.5 102,-196.5"/>
 <text text-anchor="start" x="110" y="-214.5" font-family="Helvetica,sans-Serif" font-size="10.00">BooleanHolder&lt; Boolean,</text>
 <text text-anchor="middle" x="166" y="-203.5" font-family="Helvetica,sans-Serif" font-size="10.00"> BooleanHolder &gt;</text>
@@ -37,7 +37,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="$classframe_1_1_double_holder.html" xlink:title="倍精度浮動小数点数を保持するオブジェクト。">
+<g id="a_node3"><a xlink:href="classframe_1_1_double_holder.html" target="_top" xlink:title="倍精度浮動小数点数を保持するオブジェクト。">
 <polygon fill="white" stroke="black" points="106.5,-147.5 106.5,-177.5 225.5,-177.5 225.5,-147.5 106.5,-147.5"/>
 <text text-anchor="start" x="114.5" y="-165.5" font-family="Helvetica,sans-Serif" font-size="10.00">DoubleHolder&lt; Double,</text>
 <text text-anchor="middle" x="166" y="-154.5" font-family="Helvetica,sans-Serif" font-size="10.00"> DoubleHolder &gt;</text>
@@ -53,7 +53,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="$classframe_1_1_integer_holder.html" xlink:title="整数を保持するオブジェクト。">
+<g id="a_node4"><a xlink:href="classframe_1_1_integer_holder.html" target="_top" xlink:title="整数を保持するオブジェクト。">
 <polygon fill="white" stroke="black" points="108,-98.5 108,-128.5 224,-128.5 224,-98.5 108,-98.5"/>
 <text text-anchor="start" x="116" y="-116.5" font-family="Helvetica,sans-Serif" font-size="10.00">IntegerHolder&lt; Integer,</text>
 <text text-anchor="middle" x="166" y="-105.5" font-family="Helvetica,sans-Serif" font-size="10.00"> IntegerHolder &gt;</text>
@@ -69,7 +69,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="$classframe_1_1_o_stream_holder.html" xlink:title="書き込み限定（write only）の文字列出力ストリームオブジェクト．標準出力へ書き出す．">
+<g id="a_node5"><a xlink:href="classframe_1_1_o_stream_holder.html" target="_top" xlink:title="書き込み限定（write only）の文字列出力ストリームオブジェクト．標準出力へ書き出す．">
 <polygon fill="white" stroke="black" points="105,-49.5 105,-79.5 227,-79.5 227,-49.5 105,-49.5"/>
 <text text-anchor="start" x="113" y="-67.5" font-family="Helvetica,sans-Serif" font-size="10.00">OStreamHolder&lt; String,</text>
 <text text-anchor="middle" x="166" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00"> OStreamHolder &gt;</text>
@@ -85,7 +85,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="$classframe_1_1_string_holder.html" xlink:title="追記可能な文字列バッファ型値を格納するオブジェクト。">
+<g id="a_node6"><a xlink:href="classframe_1_1_string_holder.html" target="_top" xlink:title="追記可能な文字列バッファ型値を格納するオブジェクト。">
 <polygon fill="white" stroke="black" points="112,-0.5 112,-30.5 220,-30.5 220,-0.5 112,-0.5"/>
 <text text-anchor="start" x="120" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00">StringHolder&lt; String,</text>
 <text text-anchor="middle" x="166" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00"> StringHolder &gt;</text>

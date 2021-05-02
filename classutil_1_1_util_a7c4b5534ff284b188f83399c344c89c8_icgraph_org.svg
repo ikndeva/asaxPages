@@ -5,16 +5,16 @@
  -->
 <!-- Title: reportStackTrace Pages: 1 -->
 <svg width="1085pt" height="2383pt"
- viewBox="0.00 0.00 1085.00 2382.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 2378.5)">
+ viewBox="0.00 0.00 1085.00 2383.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 2379)">
 <title>reportStackTrace</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-2378.5 1081,-2378.5 1081,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-2379 1081,-2379 1081,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="スタックトレースを出力する。">
-<polygon fill="#bfbfbf" stroke="black" points="985,-708.5 985,-727.5 1077,-727.5 1077,-708.5 985,-708.5"/>
-<text text-anchor="middle" x="1031" y="-715.5" font-family="Helvetica,sans-Serif" font-size="10.00">reportStackTrace</text>
+<polygon fill="#bfbfbf" stroke="black" points="985,-689.5 985,-708.5 1077,-708.5 1077,-689.5 985,-689.5"/>
+<text text-anchor="middle" x="1031" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">reportStackTrace</text>
 </a>
 </g>
 </g>
@@ -22,410 +22,410 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" target="_top" xlink:title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。">
-<polygon fill="white" stroke="black" points="891,-727.5 891,-746.5 944,-746.5 944,-727.5 891,-727.5"/>
-<text text-anchor="middle" x="917.5" y="-734.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorExit</text>
+<polygon fill="white" stroke="black" points="891,-708.5 891,-727.5 944,-727.5 944,-708.5 891,-708.5"/>
+<text text-anchor="middle" x="917.5" y="-715.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorExit</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M975.09,-727.36C964.27,-729.2 953.4,-731.05 944.13,-732.63"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="975.7,-730.8 984.97,-725.67 974.52,-723.9 975.7,-730.8"/>
+<path fill="none" stroke="midnightblue" d="M975.09,-708.36C964.27,-710.2 953.4,-712.05 944.13,-713.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="975.7,-711.8 984.97,-706.67 974.52,-704.9 975.7,-711.8"/>
 </g>
-<!-- Node98 -->
-<g id="node95" class="node">
-<title>Node98</title>
-<g id="a_node95"><a xlink:href="classutil_1_1_util.html#ae3c5ad9aa6794f2d4525a3ed3a3a53e8" target="_top" xlink:title="与えられた文字列とオブジェクトを標準出力に印刷して、プログラムを強制停止する。">
-<polygon fill="white" stroke="black" points="886,-689.5 886,-708.5 949,-708.5 949,-689.5 886,-689.5"/>
-<text text-anchor="middle" x="917.5" y="-696.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorExitAt</text>
+<!-- Node96 -->
+<g id="node93" class="node">
+<title>Node96</title>
+<g id="a_node93"><a xlink:href="classutil_1_1_util.html#ae3c5ad9aa6794f2d4525a3ed3a3a53e8" target="_top" xlink:title="与えられた文字列とオブジェクトを標準出力に印刷して、プログラムを強制停止する。">
+<polygon fill="white" stroke="black" points="886,-670.5 886,-689.5 949,-689.5 949,-670.5 886,-670.5"/>
+<text text-anchor="middle" x="917.5" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">errorExitAt</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node98 -->
-<g id="edge113" class="edge">
-<title>Node1&#45;&gt;Node98</title>
-<path fill="none" stroke="midnightblue" d="M974.95,-708.62C966.02,-707.1 957.06,-705.57 949,-704.2"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="974.52,-712.1 984.97,-710.33 975.7,-705.2 974.52,-712.1"/>
+<!-- Node1&#45;&gt;Node96 -->
+<g id="edge111" class="edge">
+<title>Node1&#45;&gt;Node96</title>
+<path fill="none" stroke="midnightblue" d="M974.95,-689.62C966.02,-688.1 957.06,-686.57 949,-685.2"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="974.52,-693.1 984.97,-691.33 975.7,-686.2 974.52,-693.1"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="classutil_1_1_stack_base.html#a43e79abd6dbad7bc60422a3043912493" target="_top" xlink:title="スタックにエントリをプッシュし、その番地を返す。">
-<polygon fill="white" stroke="black" points="701,-1684 701,-1714 811,-1714 811,-1684 701,-1684"/>
-<text text-anchor="start" x="709" y="-1702" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase._push</text>
-<text text-anchor="middle" x="756" y="-1691" font-family="Helvetica,sans-Serif" font-size="10.00">_entry</text>
+<polygon fill="white" stroke="black" points="701,-1635 701,-1665 811,-1665 811,-1635 701,-1635"/>
+<text text-anchor="start" x="709" y="-1653" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase._push</text>
+<text text-anchor="middle" x="756" y="-1642" font-family="Helvetica,sans-Serif" font-size="10.00">_entry</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M916.47,-756.88C915.94,-841.08 909.98,-1176.28 850,-1443 828.73,-1537.58 781.89,-1644.84 764.07,-1683.83"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.97,-756.71 916.51,-746.7 912.97,-756.68 919.97,-756.71"/>
+<path fill="none" stroke="midnightblue" d="M916.49,-737.9C916.07,-820.8 910.44,-1146.46 850,-1405 828.87,-1495.38 782.36,-1597.29 764.34,-1634.97"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="919.99,-737.85 916.52,-727.84 912.99,-737.83 919.99,-737.85"/>
 </g>
-<!-- Node19 -->
-<g id="node19" class="node">
-<title>Node19</title>
-<g id="a_node19"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップにシステム変数値をおく．">
-<polygon fill="white" stroke="black" points="239,-1417 239,-1447 385,-1447 385,-1417 239,-1417"/>
-<text text-anchor="start" x="247" y="-1435" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
-<text text-anchor="middle" x="312" y="-1424" font-family="Helvetica,sans-Serif" font-size="10.00">SysVarLoad.exec</text>
+<!-- Node20 -->
+<g id="node20" class="node">
+<title>Node20</title>
+<g id="a_node20"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップにシステム変数値をおく．">
+<polygon fill="white" stroke="black" points="239,-1379 239,-1409 385,-1409 385,-1379 239,-1379"/>
+<text text-anchor="start" x="247" y="-1397" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
+<text text-anchor="middle" x="312" y="-1386" font-family="Helvetica,sans-Serif" font-size="10.00">SysVarLoad.exec</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node19 -->
-<g id="edge35" class="edge">
-<title>Node2&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M916.04,-757.03C913.38,-863.62 898.42,-1361.05 850,-1407 785.09,-1468.59 516.14,-1451.94 385.23,-1439.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.54,-756.82 916.29,-746.74 912.55,-756.65 919.54,-756.82"/>
-</g>
-<!-- Node27 -->
-<g id="node26" class="node">
-<title>Node27</title>
-<g id="a_node26"><a xlink:href="classcompile_1_1_x_c_adapt.html#adb6c78cdd870364329efbacd0451f5d4" target="_top" xlink:title="クエリのコード生成を行う．">
-<polygon fill="white" stroke="black" points="245.5,-1204.5 245.5,-1223.5 378.5,-1223.5 378.5,-1204.5 245.5,-1204.5"/>
-<text text-anchor="middle" x="312" y="-1211.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCAdapt.adapting</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node27 -->
-<g id="edge25" class="edge">
-<title>Node2&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M916.07,-756.98C914.09,-829.32 903.46,-1076.12 850,-1129 845.78,-1133.17 517.14,-1183.19 376.13,-1204.49"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.58,-756.66 916.33,-746.58 912.58,-756.49 919.58,-756.66"/>
+<!-- Node2&#45;&gt;Node20 -->
+<g id="edge36" class="edge">
+<title>Node2&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M915.97,-738.13C913.03,-843.07 897.03,-1324.5 850,-1369 785,-1430.5 516.1,-1413.9 385.21,-1401.69"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="919.48,-738.04 916.25,-727.95 912.48,-737.85 919.48,-738.04"/>
 </g>
 <!-- Node28 -->
 <g id="node27" class="node">
 <title>Node28</title>
-<g id="a_node27"><a xlink:href="classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" target="_top" xlink:title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする.">
-<polygon fill="white" stroke="black" points="23.5,-1264.5 23.5,-1283.5 158.5,-1283.5 158.5,-1264.5 23.5,-1264.5"/>
-<text text-anchor="middle" x="91" y="-1271.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCompiler.compile</text>
+<g id="a_node27"><a xlink:href="classcompile_1_1_x_c_adapt.html#adb6c78cdd870364329efbacd0451f5d4" target="_top" xlink:title="クエリのコード生成を行う．">
+<polygon fill="white" stroke="black" points="245.5,-1218.5 245.5,-1237.5 378.5,-1237.5 378.5,-1218.5 245.5,-1218.5"/>
+<text text-anchor="middle" x="312" y="-1225.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCAdapt.adapting</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node28 -->
-<g id="edge28" class="edge">
+<g id="edge26" class="edge">
 <title>Node2&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M915.44,-756.71C910.38,-846.86 887.45,-1217.07 850,-1251 799.48,-1296.78 334.51,-1283.54 158.81,-1276.81"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="918.94,-756.7 916,-746.52 911.95,-756.31 918.94,-756.7"/>
+<path fill="none" stroke="midnightblue" d="M916.99,-738.08C918.59,-821.82 919.96,-1141.83 850,-1206 782.95,-1267.49 506.47,-1248.07 378.52,-1235.32"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="920.49,-737.81 916.77,-727.88 913.49,-737.96 920.49,-737.81"/>
 </g>
 <!-- Node29 -->
 <g id="node28" class="node">
 <title>Node29</title>
-<g id="a_node28"><a xlink:href="classast_1_1_ast_var_decl.html#a6fbaf19ac15ec00270602c3ed816a39f" target="_top" xlink:title="コンストラクタ">
-<polygon fill="white" stroke="black" points="688.5,-986.5 688.5,-1005.5 823.5,-1005.5 823.5,-986.5 688.5,-986.5"/>
-<text text-anchor="middle" x="756" y="-993.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.AstVarDecl</text>
+<g id="a_node28"><a xlink:href="classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" target="_top" xlink:title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする.">
+<polygon fill="white" stroke="black" points="23.5,-1218.5 23.5,-1237.5 158.5,-1237.5 158.5,-1218.5 23.5,-1218.5"/>
+<text text-anchor="middle" x="91" y="-1225.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCompiler.compile</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node29 -->
-<g id="edge27" class="edge">
+<g id="edge29" class="edge">
 <title>Node2&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M917.4,-756.65C918.33,-802.55 913.81,-917.43 850,-977 842.65,-983.86 833.52,-988.53 823.88,-991.66"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="920.89,-756.42 917.07,-746.54 913.89,-756.65 920.89,-756.42"/>
+<path fill="none" stroke="midnightblue" d="M915.43,-737.69C910.33,-828.55 887.07,-1204.45 850,-1240 799.31,-1288.6 287.86,-1254.12 218,-1247 194.78,-1244.63 169.3,-1240.99 147.37,-1237.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="918.93,-737.82 915.99,-727.64 911.94,-737.43 918.93,-737.82"/>
 </g>
 <!-- Node30 -->
 <g id="node29" class="node">
 <title>Node30</title>
-<g id="a_node29"><a xlink:href="classmachine_1_1_ref.html#ab788c909dc6f3580059add4ad31e57e3" target="_top" xlink:title="与えられた型のRefのサブクラスのオブジェクトを返すファクトリ手続き．">
+<g id="a_node29"><a xlink:href="classast_1_1_ast_var_decl.html#a6fbaf19ac15ec00270602c3ed816a39f" target="_top" xlink:title="コンストラクタ">
+<polygon fill="white" stroke="black" points="688.5,-948.5 688.5,-967.5 823.5,-967.5 823.5,-948.5 688.5,-948.5"/>
+<text text-anchor="middle" x="756" y="-955.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.AstVarDecl</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node30 -->
+<g id="edge28" class="edge">
+<title>Node2&#45;&gt;Node30</title>
+<path fill="none" stroke="midnightblue" d="M916.84,-737.86C916.42,-781.31 908.94,-885.18 850,-939 842.58,-945.78 833.41,-950.41 823.75,-953.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="920.34,-737.73 916.81,-727.74 913.34,-737.75 920.34,-737.73"/>
+</g>
+<!-- Node31 -->
+<g id="node30" class="node">
+<title>Node31</title>
+<g id="a_node30"><a xlink:href="classmachine_1_1_ref.html#ab788c909dc6f3580059add4ad31e57e3" target="_top" xlink:title="与えられた型のRefのサブクラスのオブジェクトを返すファクトリ手続き．">
 <polygon fill="white" stroke="black" points="705,-1100.5 705,-1119.5 807,-1119.5 807,-1100.5 705,-1100.5"/>
 <text text-anchor="middle" x="756" y="-1107.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.Ref.create</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node30 -->
-<g id="edge29" class="edge">
-<title>Node2&#45;&gt;Node30</title>
-<path fill="none" stroke="midnightblue" d="M915.61,-756.7C912.15,-823.93 897.38,-1042.87 850,-1091 838.79,-1102.39 822.72,-1107.88 807.09,-1110.3"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.11,-756.77 916.1,-746.61 912.12,-756.43 919.11,-756.77"/>
-</g>
-<!-- Node33 -->
-<g id="node32" class="node">
-<title>Node33</title>
-<g id="a_node32"><a xlink:href="classcmd_1_1_command_base.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="命令を実行する">
-<polygon fill="white" stroke="black" points="691,-948.5 691,-967.5 821,-967.5 821,-948.5 691,-948.5"/>
-<text text-anchor="middle" x="756" y="-955.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.exec</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node33 -->
-<g id="edge33" class="edge">
-<title>Node2&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M916.18,-756.83C914.38,-797.55 904.21,-890.77 850,-939 841.87,-946.23 831.76,-950.99 821.22,-954.09"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.68,-756.93 916.49,-746.82 912.68,-756.71 919.68,-756.93"/>
+<!-- Node2&#45;&gt;Node31 -->
+<g id="edge30" class="edge">
+<title>Node2&#45;&gt;Node31</title>
+<path fill="none" stroke="midnightblue" d="M915.65,-737.92C912.32,-806.96 897.82,-1034.51 850,-1086 838.99,-1097.85 822.97,-1104.17 807.32,-1107.44"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="919.17,-737.75 916.13,-727.6 912.17,-737.43 919.17,-737.75"/>
 </g>
 <!-- Node34 -->
 <g id="node33" class="node">
 <title>Node34</title>
-<g id="a_node33"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="メッセージとエラーを出して停止する．">
-<polygon fill="white" stroke="black" points="662,-910.5 662,-929.5 850,-929.5 850,-910.5 662,-910.5"/>
-<text text-anchor="middle" x="756" y="-917.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdUNDEF.exec</text>
+<g id="a_node33"><a xlink:href="classcmd_1_1_command_base.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="命令を実行する">
+<polygon fill="white" stroke="black" points="691,-910.5 691,-929.5 821,-929.5 821,-910.5 691,-910.5"/>
+<text text-anchor="middle" x="756" y="-917.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.exec</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node34 -->
 <g id="edge34" class="edge">
 <title>Node2&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M914.44,-756.88C909.71,-791.75 894.79,-863.77 850,-901 845.44,-904.79 840.32,-907.89 834.89,-910.42"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="917.96,-756.93 915.68,-746.58 911.01,-756.09 917.96,-756.93"/>
+<path fill="none" stroke="midnightblue" d="M915.38,-738.03C912.11,-775.98 899.4,-858.37 850,-901 841.77,-908.11 831.59,-912.81 821.03,-915.88"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="918.89,-738 916.12,-727.77 911.91,-737.5 918.89,-738"/>
 </g>
 <!-- Node35 -->
 <g id="node34" class="node">
 <title>Node35</title>
-<g id="a_node34"><a xlink:href="classevent_1_1_action_code.html#a7aa586655162fdd844a467f7d5eafe1f" target="_top" xlink:title="Code を，現在の環境中で実行する．">
-<polygon fill="white" stroke="black" points="696.5,-872.5 696.5,-891.5 815.5,-891.5 815.5,-872.5 696.5,-872.5"/>
-<text text-anchor="middle" x="756" y="-879.5" font-family="Helvetica,sans-Serif" font-size="10.00">event.ActionCode.exec</text>
+<g id="a_node34"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="メッセージとエラーを出して停止する．">
+<polygon fill="white" stroke="black" points="662,-872.5 662,-891.5 850,-891.5 850,-872.5 662,-872.5"/>
+<text text-anchor="middle" x="756" y="-879.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdUNDEF.exec</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node35 -->
-<g id="edge36" class="edge">
+<g id="edge35" class="edge">
 <title>Node2&#45;&gt;Node35</title>
-<path fill="none" stroke="midnightblue" d="M911.83,-756.62C904.05,-784.8 885.64,-836.28 850,-863 840.11,-870.41 828.03,-875.11 815.9,-878.06"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="915.27,-757.3 914.38,-746.74 908.49,-755.54 915.27,-757.3"/>
+<path fill="none" stroke="midnightblue" d="M913.28,-737.79C907.03,-769.44 890.18,-831.09 850,-863 845.23,-866.79 839.89,-869.88 834.25,-872.4"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="916.78,-738.07 915.12,-727.6 909.89,-736.82 916.78,-738.07"/>
 </g>
 <!-- Node36 -->
 <g id="node35" class="node">
 <title>Node36</title>
-<g id="a_node35"><a xlink:href="classast_1_1_ast_assign.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="697,-834.5 697,-853.5 815,-853.5 815,-834.5 697,-834.5"/>
-<text text-anchor="middle" x="756" y="-841.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstAssign.gencode</text>
+<g id="a_node35"><a xlink:href="classevent_1_1_action_code.html#a7aa586655162fdd844a467f7d5eafe1f" target="_top" xlink:title="Code を，現在の環境中で実行する．">
+<polygon fill="white" stroke="black" points="696.5,-834.5 696.5,-853.5 815.5,-853.5 815.5,-834.5 696.5,-834.5"/>
+<text text-anchor="middle" x="756" y="-841.5" font-family="Helvetica,sans-Serif" font-size="10.00">event.ActionCode.exec</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node36 -->
 <g id="edge37" class="edge">
 <title>Node2&#45;&gt;Node36</title>
-<path fill="none" stroke="midnightblue" d="M907.56,-755.75C896.83,-776.13 876.87,-808.06 850,-825 839.55,-831.59 827.23,-835.95 815.05,-838.82"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="910.71,-757.29 912.08,-746.78 904.45,-754.14 910.71,-757.29"/>
+<path fill="none" stroke="midnightblue" d="M910.05,-737.12C900.78,-761.53 881.27,-803.23 850,-825 839.86,-832.06 827.67,-836.62 815.52,-839.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="913.41,-738.13 913.5,-727.53 906.82,-735.76 913.41,-738.13"/>
 </g>
 <!-- Node37 -->
 <g id="node36" class="node">
 <title>Node37</title>
-<g id="a_node36"><a xlink:href="classast_1_1_ast_data_reader_1_1_reader_integer.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="689,-785 689,-815 823,-815 823,-785 689,-785"/>
-<text text-anchor="start" x="697" y="-803" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstDataReader.Reader</text>
-<text text-anchor="middle" x="756" y="-792" font-family="Helvetica,sans-Serif" font-size="10.00">Integer.gencode</text>
+<g id="a_node36"><a xlink:href="classast_1_1_ast_assign.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="697,-796.5 697,-815.5 815,-815.5 815,-796.5 697,-796.5"/>
+<text text-anchor="middle" x="756" y="-803.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstAssign.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node37 -->
 <g id="edge38" class="edge">
 <title>Node2&#45;&gt;Node37</title>
-<path fill="none" stroke="midnightblue" d="M893.46,-752.12C880.99,-759.79 865.09,-768.78 850,-775 841.03,-778.69 831.36,-782 821.75,-784.9"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="895.67,-754.87 902.26,-746.57 891.93,-748.95 895.67,-754.87"/>
+<path fill="none" stroke="midnightblue" d="M903.89,-736.31C891.91,-752.25 872.42,-774.67 850,-787 839.46,-792.8 827.37,-796.83 815.47,-799.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="907.02,-737.96 910.04,-727.8 901.35,-733.86 907.02,-737.96"/>
 </g>
 <!-- Node38 -->
 <g id="node37" class="node">
 <title>Node38</title>
-<g id="a_node37"><a xlink:href="classast_1_1_ast_source.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="696.5,-746.5 696.5,-765.5 815.5,-765.5 815.5,-746.5 696.5,-746.5"/>
-<text text-anchor="middle" x="756" y="-753.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstSource.gencode</text>
+<g id="a_node37"><a xlink:href="classast_1_1_ast_data_reader_1_1_reader_integer.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="689,-747 689,-777 823,-777 823,-747 689,-747"/>
+<text text-anchor="start" x="697" y="-765" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstDataReader.Reader</text>
+<text text-anchor="middle" x="756" y="-754" font-family="Helvetica,sans-Serif" font-size="10.00">Integer.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node38 -->
 <g id="edge39" class="edge">
 <title>Node2&#45;&gt;Node38</title>
-<path fill="none" stroke="midnightblue" d="M880.78,-741.26C861.61,-743.54 837.5,-746.41 815.67,-749.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="881.36,-744.71 890.87,-740.05 880.53,-737.76 881.36,-744.71"/>
+<path fill="none" stroke="midnightblue" d="M881.24,-728.19C871.16,-731.07 860.15,-734.19 850,-737 838.24,-740.26 825.62,-743.69 813.6,-746.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="882.3,-731.52 890.95,-725.4 880.37,-724.79 882.3,-731.52"/>
 </g>
 <!-- Node39 -->
 <g id="node38" class="node">
 <title>Node39</title>
-<g id="a_node38"><a xlink:href="classast_1_1_ast_source_1_1_ast_in_file_open.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="664,-708.5 664,-727.5 848,-727.5 848,-708.5 664,-708.5"/>
-<text text-anchor="middle" x="756" y="-715.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstSource.AstInFileOpen.gencode</text>
+<g id="a_node38"><a xlink:href="classast_1_1_ast_source.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="696.5,-708.5 696.5,-727.5 815.5,-727.5 815.5,-708.5 696.5,-708.5"/>
+<text text-anchor="middle" x="756" y="-715.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstSource.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node39 -->
 <g id="edge40" class="edge">
 <title>Node2&#45;&gt;Node39</title>
-<path fill="none" stroke="midnightblue" d="M880.93,-732.76C867.85,-731.2 852.46,-729.37 837.06,-727.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="880.53,-736.24 890.87,-733.95 881.36,-729.29 880.53,-736.24"/>
+<path fill="none" stroke="midnightblue" d="M880.78,-718C861.61,-718 837.5,-718 815.67,-718"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="880.87,-721.5 890.87,-718 880.87,-714.5 880.87,-721.5"/>
 </g>
 <!-- Node40 -->
 <g id="node39" class="node">
 <title>Node40</title>
-<g id="a_node39"><a xlink:href="classast_1_1_ast_let.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="受取りコード末尾に生成したコードを追加する．">
-<polygon fill="white" stroke="black" points="705.5,-670.5 705.5,-689.5 806.5,-689.5 806.5,-670.5 705.5,-670.5"/>
-<text text-anchor="middle" x="756" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstLet.gencode</text>
+<g id="a_node39"><a xlink:href="classast_1_1_ast_source_1_1_ast_in_file_open.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="664,-670.5 664,-689.5 848,-689.5 848,-670.5 664,-670.5"/>
+<text text-anchor="middle" x="756" y="-677.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstSource.AstInFileOpen.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node40 -->
 <g id="edge41" class="edge">
 <title>Node2&#45;&gt;Node40</title>
-<path fill="none" stroke="midnightblue" d="M892.59,-722.27C877.22,-713.01 858.58,-702.23 850,-699 836.28,-693.83 820.85,-689.96 806.57,-687.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="890.79,-725.27 901.16,-727.48 894.43,-719.29 890.79,-725.27"/>
+<path fill="none" stroke="midnightblue" d="M881.09,-707.34C871.08,-704.47 860.15,-701.48 850,-699 836.23,-695.63 821.22,-692.38 807.35,-689.55"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="880.15,-710.71 890.73,-710.14 882.1,-703.99 880.15,-710.71"/>
 </g>
 <!-- Node41 -->
 <g id="node40" class="node">
 <title>Node41</title>
-<g id="a_node40"><a xlink:href="classast_1_1_ast_oper.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="受取りコード末尾に生成したコードを追加する．ダミー手続き．">
-<polygon fill="white" stroke="black" points="702,-632.5 702,-651.5 810,-651.5 810,-632.5 702,-632.5"/>
-<text text-anchor="middle" x="756" y="-639.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstOper.gencode</text>
+<g id="a_node40"><a xlink:href="classast_1_1_ast_let.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="受取りコード末尾に生成したコードを追加する．">
+<polygon fill="white" stroke="black" points="705.5,-632.5 705.5,-651.5 806.5,-651.5 806.5,-632.5 705.5,-632.5"/>
+<text text-anchor="middle" x="756" y="-639.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstLet.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node41 -->
 <g id="edge42" class="edge">
 <title>Node2&#45;&gt;Node41</title>
-<path fill="none" stroke="midnightblue" d="M889.89,-721.5C888.52,-720.38 887.22,-719.21 886,-718 864.75,-696.88 874.65,-678.03 850,-661 838.34,-652.95 824.02,-648.16 810.14,-645.35"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="887.93,-724.4 898.09,-727.4 892.01,-718.72 887.93,-724.4"/>
+<path fill="none" stroke="midnightblue" d="M890.9,-702.74C889.21,-701.53 887.56,-700.27 886,-699 867.98,-684.29 870.34,-672.3 850,-661 836.89,-653.72 821.35,-649.21 806.76,-646.43"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="889.25,-705.85 899.51,-708.48 893.13,-700.02 889.25,-705.85"/>
 </g>
 <!-- Node42 -->
 <g id="node41" class="node">
 <title>Node42</title>
-<g id="a_node41"><a xlink:href="classast_1_1_ast_oper_tagged.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="受取りコード末尾に生成したコードを追加する．ダミー手続き．">
-<polygon fill="white" stroke="black" points="686,-594.5 686,-613.5 826,-613.5 826,-594.5 686,-594.5"/>
-<text text-anchor="middle" x="756" y="-601.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstOperTagged.gencode</text>
+<g id="a_node41"><a xlink:href="classast_1_1_ast_oper.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="受取りコード末尾に生成したコードを追加する．ダミー手続き．">
+<polygon fill="white" stroke="black" points="702,-594.5 702,-613.5 810,-613.5 810,-594.5 702,-594.5"/>
+<text text-anchor="middle" x="756" y="-601.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstOper.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node42 -->
 <g id="edge43" class="edge">
 <title>Node2&#45;&gt;Node42</title>
-<path fill="none" stroke="midnightblue" d="M889.06,-721.29C887.97,-720.24 886.94,-719.14 886,-718 857.33,-683.12 884.39,-652.26 850,-623 843.1,-617.13 834.87,-612.9 826.2,-609.88"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="886.91,-724.04 896.93,-727.46 891.23,-718.54 886.91,-724.04"/>
+<path fill="none" stroke="midnightblue" d="M889.26,-702.27C888.11,-701.23 887.01,-700.14 886,-699 861.13,-671.1 879.41,-646.06 850,-623 838.72,-614.15 824.36,-609.13 810.33,-606.34"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="887.38,-705.24 897.47,-708.49 891.61,-699.66 887.38,-705.24"/>
 </g>
 <!-- Node43 -->
 <g id="node42" class="node">
 <title>Node43</title>
-<g id="a_node42"><a xlink:href="classast_1_1_ast_scan_from.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="689.5,-556.5 689.5,-575.5 822.5,-575.5 822.5,-556.5 689.5,-556.5"/>
-<text text-anchor="middle" x="756" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstScanFrom.gencode</text>
+<g id="a_node42"><a xlink:href="classast_1_1_ast_oper_tagged.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="受取りコード末尾に生成したコードを追加する．ダミー手続き．">
+<polygon fill="white" stroke="black" points="686,-556.5 686,-575.5 826,-575.5 826,-556.5 686,-556.5"/>
+<text text-anchor="middle" x="756" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstOperTagged.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node43 -->
 <g id="edge44" class="edge">
 <title>Node2&#45;&gt;Node43</title>
-<path fill="none" stroke="midnightblue" d="M888.53,-721C887.62,-720.04 886.77,-719.04 886,-718 849.48,-668.84 894.64,-626.92 850,-585 842.43,-577.89 832.96,-573.13 822.97,-570"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="886.41,-723.78 896.35,-727.46 890.88,-718.39 886.41,-723.78"/>
+<path fill="none" stroke="midnightblue" d="M888.59,-701.95C887.66,-701.01 886.8,-700.03 886,-699 853.43,-657.02 889.48,-620.56 850,-585 843.14,-578.82 834.84,-574.44 826.04,-571.36"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="886.5,-704.77 896.46,-708.38 890.92,-699.34 886.5,-704.77"/>
 </g>
 <!-- Node44 -->
 <g id="node43" class="node">
 <title>Node44</title>
-<g id="a_node43"><a xlink:href="classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c" target="_top" xlink:title="二つの非演算子である子供のコードを生成す">
-<polygon fill="white" stroke="black" points="678.5,-518.5 678.5,-537.5 833.5,-537.5 833.5,-518.5 678.5,-518.5"/>
-<text text-anchor="middle" x="756" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstOper.generateChildCode</text>
+<g id="a_node43"><a xlink:href="classast_1_1_ast_scan_from.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="689.5,-518.5 689.5,-537.5 822.5,-537.5 822.5,-518.5 689.5,-518.5"/>
+<text text-anchor="middle" x="756" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstScanFrom.gencode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node44 -->
 <g id="edge45" class="edge">
 <title>Node2&#45;&gt;Node44</title>
-<path fill="none" stroke="midnightblue" d="M888.1,-720.65C887.35,-719.8 886.64,-718.92 886,-718 841.47,-654.37 905.08,-601.75 850,-547 845.33,-542.35 839.84,-538.69 833.91,-535.83"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="886.02,-723.48 895.87,-727.37 890.59,-718.18 886.02,-723.48"/>
+<path fill="none" stroke="midnightblue" d="M888.13,-701.63C887.37,-700.79 886.66,-699.91 886,-699 845.49,-642.62 899.85,-595.32 850,-547 842.43,-539.66 832.83,-534.8 822.69,-531.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="886.07,-704.48 895.94,-708.32 890.62,-699.16 886.07,-704.48"/>
 </g>
-<!-- Node53 -->
-<g id="node52" class="node">
-<title>Node53</title>
-<g id="a_node52"><a xlink:href="classframe_1_1_o_stream_holder.html#ac5f5202af3bb4156a22175cb76becb91" target="_top" xlink:title="内容の文字列を返す。@カスケードAPIではない。">
-<polygon fill="white" stroke="black" points="692,-480.5 692,-499.5 820,-499.5 820,-480.5 692,-480.5"/>
-<text text-anchor="middle" x="756" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame.OStreamHolder.get</text>
+<!-- Node45 -->
+<g id="node44" class="node">
+<title>Node45</title>
+<g id="a_node44"><a xlink:href="classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c" target="_top" xlink:title="二つの非演算子である子供のコードを生成す">
+<polygon fill="white" stroke="black" points="678.5,-480.5 678.5,-499.5 833.5,-499.5 833.5,-480.5 678.5,-480.5"/>
+<text text-anchor="middle" x="756" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstOper.generateChildCode</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node53 -->
-<g id="edge54" class="edge">
-<title>Node2&#45;&gt;Node53</title>
-<path fill="none" stroke="midnightblue" d="M888.06,-720.68C887.32,-719.83 886.63,-718.93 886,-718 833.39,-639.79 915.61,-576.67 850,-509 841.97,-500.72 831.38,-495.54 820.23,-492.4"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.94,-723.48 895.77,-727.44 890.55,-718.22 885.94,-723.48"/>
+<!-- Node2&#45;&gt;Node45 -->
+<g id="edge46" class="edge">
+<title>Node2&#45;&gt;Node45</title>
+<path fill="none" stroke="midnightblue" d="M888.08,-701.67C887.33,-700.82 886.63,-699.93 886,-699 837.44,-628.09 910.34,-570.21 850,-509 845.26,-504.19 839.65,-500.43 833.57,-497.51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.97,-704.48 895.81,-708.41 890.57,-699.2 885.97,-704.48"/>
 </g>
 <!-- Node54 -->
 <g id="node53" class="node">
 <title>Node54</title>
-<g id="a_node53"><a xlink:href="classcompile_1_1_x_c_adapt.html#a67168fb139604f65ae3fab7d9022932c" target="_top" xlink:title="推論された型にしたがって，多相型のノードを具体型のノードに変換する．">
-<polygon fill="white" stroke="black" points="684.5,-1177 684.5,-1207 827.5,-1207 827.5,-1177 684.5,-1177"/>
-<text text-anchor="start" x="692.5" y="-1195" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCAdapt.instanciate</text>
-<text text-anchor="middle" x="756" y="-1184" font-family="Helvetica,sans-Serif" font-size="10.00">PolymorphicNode</text>
+<g id="a_node53"><a xlink:href="classframe_1_1_o_stream_holder.html#ac5f5202af3bb4156a22175cb76becb91" target="_top" xlink:title="内容の文字列を返す。@カスケードAPIではない。">
+<polygon fill="white" stroke="black" points="692,-442.5 692,-461.5 820,-461.5 820,-442.5 692,-442.5"/>
+<text text-anchor="middle" x="756" y="-449.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame.OStreamHolder.get</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node54 -->
 <g id="edge55" class="edge">
 <title>Node2&#45;&gt;Node54</title>
-<path fill="none" stroke="midnightblue" d="M916.07,-756.92C914.05,-832.4 903.18,-1099.75 850,-1162 843.94,-1169.09 836.19,-1174.53 827.76,-1178.68"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.57,-756.95 916.32,-746.86 912.57,-756.77 919.57,-756.95"/>
+<path fill="none" stroke="midnightblue" d="M888.04,-701.7C887.3,-700.83 886.62,-699.94 886,-699 829.34,-613.48 920.89,-545.15 850,-471 842.03,-462.66 831.46,-457.46 820.32,-454.31"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.91,-704.48 895.73,-708.47 890.54,-699.23 885.91,-704.48"/>
 </g>
 <!-- Node55 -->
 <g id="node54" class="node">
 <title>Node55</title>
-<g id="a_node54"><a xlink:href="classcompile_1_1_x_c_adapt.html#ae1b1751d636b911f0a9ee870587cf991" target="_top" xlink:title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．">
-<polygon fill="white" stroke="black" points="466.5,-1204.5 466.5,-1223.5 601.5,-1223.5 601.5,-1204.5 466.5,-1204.5"/>
-<text text-anchor="middle" x="534" y="-1211.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCAdapt.recAdapt</text>
+<g id="a_node54"><a xlink:href="classcompile_1_1_x_c_adapt.html#a67168fb139604f65ae3fab7d9022932c" target="_top" xlink:title="推論された型にしたがって，多相型のノードを具体型のノードに変換する．">
+<polygon fill="white" stroke="black" points="684.5,-1139 684.5,-1169 827.5,-1169 827.5,-1139 684.5,-1139"/>
+<text text-anchor="start" x="692.5" y="-1157" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCAdapt.instanciate</text>
+<text text-anchor="middle" x="756" y="-1146" font-family="Helvetica,sans-Serif" font-size="10.00">PolymorphicNode</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node55 -->
-<g id="edge78" class="edge">
+<g id="edge56" class="edge">
 <title>Node2&#45;&gt;Node55</title>
-<path fill="none" stroke="midnightblue" d="M915.27,-756.79C909.68,-843.4 885.44,-1186.13 850,-1217 766.08,-1290.1 616.53,-1245.09 558.72,-1223.55"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="918.77,-756.93 915.91,-746.72 911.78,-756.48 918.77,-756.93"/>
+<path fill="none" stroke="midnightblue" d="M916.05,-737.8C913.98,-811.72 902.99,-1070.3 850,-1129 843.84,-1135.83 836.03,-1140.87 827.57,-1144.59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="919.56,-737.67 916.31,-727.58 912.56,-737.49 919.56,-737.67"/>
 </g>
 <!-- Node56 -->
 <g id="node55" class="node">
 <title>Node56</title>
-<g id="a_node55"><a xlink:href="classutil_1_1_foldable_string_buf.html#a8a8abe37bfbae078b20ff72050fd2751" target="_top" xlink:title="入れ子を一つ浅く、ポップする">
+<g id="a_node55"><a xlink:href="classcompile_1_1_x_c_adapt.html#ae1b1751d636b911f0a9ee870587cf991" target="_top" xlink:title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．">
+<polygon fill="white" stroke="black" points="466.5,-1188.5 466.5,-1207.5 601.5,-1207.5 601.5,-1188.5 466.5,-1188.5"/>
+<text text-anchor="middle" x="534" y="-1195.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCAdapt.recAdapt</text>
+</a>
+</g>
+</g>
+<!-- Node2&#45;&gt;Node56 -->
+<g id="edge78" class="edge">
+<title>Node2&#45;&gt;Node56</title>
+<path fill="none" stroke="midnightblue" d="M916.8,-737.97C917.54,-818.55 915.79,-1118.46 850,-1179 815.08,-1211.14 683.15,-1208.48 601.51,-1203.4"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="920.29,-737.68 916.68,-727.72 913.29,-737.76 920.29,-737.68"/>
+</g>
+<!-- Node57 -->
+<g id="node56" class="node">
+<title>Node57</title>
+<g id="a_node56"><a xlink:href="classutil_1_1_foldable_string_buf.html#a8a8abe37bfbae078b20ff72050fd2751" target="_top" xlink:title="入れ子を一つ浅く、ポップする">
 <polygon fill="white" stroke="black" points="692,-404.5 692,-423.5 820,-423.5 820,-404.5 692,-404.5"/>
 <text text-anchor="middle" x="756" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.FoldableStringBuf.pop</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node56 -->
-<g id="edge58" class="edge">
-<title>Node2&#45;&gt;Node56</title>
-<path fill="none" stroke="midnightblue" d="M887.68,-720.33C887.08,-719.58 886.52,-718.8 886,-718 818.21,-612.42 933.02,-532.07 850,-438 842.17,-429.12 831.52,-423.32 820.23,-419.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.58,-723.15 895.33,-727.3 890.3,-717.98 885.58,-723.15"/>
+<!-- Node2&#45;&gt;Node57 -->
+<g id="edge59" class="edge">
+<title>Node2&#45;&gt;Node57</title>
+<path fill="none" stroke="midnightblue" d="M887.69,-701.32C887.08,-700.58 886.52,-699.8 886,-699 821.21,-598.83 931.48,-520.14 850,-433 842.12,-424.57 831.6,-419.34 820.46,-416.17"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.6,-704.15 895.35,-708.29 890.31,-698.97 885.6,-704.15"/>
 </g>
 <!-- Node72 -->
 <g id="node70" class="node">
 <title>Node72</title>
 <g id="a_node70"><a xlink:href="classutil_1_1_report.html#a03135aa774dc9eea1dd6229cb2586de4" target="_top" xlink:title="現在の入れ子深さを一つ浅くする．">
-<polygon fill="white" stroke="black" points="716,-366.5 716,-385.5 796,-385.5 796,-366.5 716,-366.5"/>
-<text text-anchor="middle" x="756" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.pop</text>
+<polygon fill="white" stroke="black" points="716,-328.5 716,-347.5 796,-347.5 796,-328.5 716,-328.5"/>
+<text text-anchor="middle" x="756" y="-335.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.pop</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node72 -->
 <g id="edge74" class="edge">
 <title>Node2&#45;&gt;Node72</title>
-<path fill="none" stroke="midnightblue" d="M887.66,-720.34C887.07,-719.59 886.51,-718.81 886,-718 847.49,-656.9 898.71,-448.33 850,-395 836.55,-380.28 815.04,-375.23 796.09,-374"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.55,-723.15 895.28,-727.34 890.28,-717.99 885.55,-723.15"/>
+<path fill="none" stroke="midnightblue" d="M887.66,-701.34C887.06,-700.59 886.51,-699.81 886,-699 845.99,-635.19 899.23,-419 850,-362 836.81,-346.73 815.31,-340.53 796.31,-338.24"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.54,-704.15 895.27,-708.34 890.28,-699 885.54,-704.15"/>
 </g>
 <!-- Node74 -->
 <g id="node72" class="node">
 <title>Node74</title>
 <g id="a_node72"><a xlink:href="classcompile_1_1_x_c_push.html#a186d57e8aae3c0ea575f2b54f982f508" target="_top" xlink:title="クエリのコード生成を行う．">
-<polygon fill="white" stroke="black" points="470.5,-1024.5 470.5,-1043.5 597.5,-1043.5 597.5,-1024.5 470.5,-1024.5"/>
-<text text-anchor="middle" x="534" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCPush.pushing</text>
+<polygon fill="white" stroke="black" points="470.5,-1062.5 470.5,-1081.5 597.5,-1081.5 597.5,-1062.5 470.5,-1062.5"/>
+<text text-anchor="middle" x="534" y="-1069.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCPush.pushing</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node74 -->
 <g id="edge76" class="edge">
 <title>Node2&#45;&gt;Node74</title>
-<path fill="none" stroke="midnightblue" d="M914.77,-756.68C909.26,-814.41 890.09,-981.36 850,-1015 813.12,-1045.95 678.41,-1043.36 597.58,-1038.69"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="918.26,-756.94 915.69,-746.66 911.29,-756.3 918.26,-756.94"/>
+<path fill="none" stroke="midnightblue" d="M915.63,-737.72C912.3,-803.12 898.04,-1011.07 850,-1053 813.73,-1084.66 678.79,-1081.8 597.76,-1076.9"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="919.13,-737.71 916.12,-727.55 912.14,-737.37 919.13,-737.71"/>
 </g>
 <!-- Node75 -->
 <g id="node73" class="node">
 <title>Node75</title>
 <g id="a_node73"><a xlink:href="classcompile_1_1_x_c_flat.html#a029cff3eb4de07cc0123c3490f1190dd" target="_top" xlink:title="正規形への変換の再起手続き">
-<polygon fill="white" stroke="black" points="697.5,-1378.5 697.5,-1397.5 814.5,-1397.5 814.5,-1378.5 697.5,-1378.5"/>
-<text text-anchor="middle" x="756" y="-1385.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCFlat.recFlat</text>
+<polygon fill="white" stroke="black" points="697.5,-986.5 697.5,-1005.5 814.5,-1005.5 814.5,-986.5 697.5,-986.5"/>
+<text text-anchor="middle" x="756" y="-993.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCFlat.recFlat</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node75 -->
 <g id="edge79" class="edge">
 <title>Node2&#45;&gt;Node75</title>
-<path fill="none" stroke="midnightblue" d="M915.79,-756.73C911.95,-858.63 892.22,-1322.49 850,-1369 840.92,-1379.01 828.11,-1384.55 814.9,-1387.47"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.29,-756.72 916.16,-746.6 912.3,-756.47 919.29,-756.72"/>
+<path fill="none" stroke="midnightblue" d="M914.12,-737.87C907.16,-792.59 885.09,-943.62 850,-977 840.45,-986.09 827.78,-991.35 814.89,-994.29"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="917.62,-738.09 915.37,-727.73 910.67,-737.23 917.62,-738.09"/>
 </g>
 <!-- Node77 -->
 <g id="node75" class="node">
@@ -439,963 +439,948 @@
 <!-- Node2&#45;&gt;Node77 -->
 <g id="edge82" class="edge">
 <title>Node2&#45;&gt;Node77</title>
-<path fill="none" stroke="midnightblue" d="M915.58,-756.87C910.87,-854.67 888.22,-1282.01 850,-1326 841.25,-1336.07 828.89,-1342.19 816.02,-1345.85"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.08,-757 916.05,-746.85 912.08,-756.67 919.08,-757"/>
+<path fill="none" stroke="midnightblue" d="M915.65,-737.87C911.23,-837.58 889.45,-1280.44 850,-1326 841.27,-1336.09 828.91,-1342.21 816.05,-1345.87"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="919.16,-737.83 916.1,-727.69 912.16,-737.52 919.16,-737.83"/>
 </g>
 <!-- Node79 -->
 <g id="node77" class="node">
 <title>Node79</title>
-<g id="a_node77"><a xlink:href="classparse_1_1_ast_parser.html#a6bc8c294437e23b0a9b038b422b2c4d2" target="_top" xlink:title="AstParserの主手続き．">
-<polygon fill="white" stroke="black" points="692,-328.5 692,-347.5 820,-347.5 820,-328.5 692,-328.5"/>
-<text text-anchor="middle" x="756" y="-335.5" font-family="Helvetica,sans-Serif" font-size="10.00">parse.AstParser.recParse</text>
+<g id="a_node77"><a xlink:href="classcompile_1_1_x_c_push.html#a7714f05e08bb949fcf8d9b0526d50ce2" target="_top" xlink:title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．">
+<polygon fill="white" stroke="black" points="691.5,-1024.5 691.5,-1043.5 820.5,-1043.5 820.5,-1024.5 691.5,-1024.5"/>
+<text text-anchor="middle" x="756" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCPush.recPush</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node79 -->
 <g id="edge85" class="edge">
 <title>Node2&#45;&gt;Node79</title>
-<path fill="none" stroke="midnightblue" d="M887.65,-720.35C887.06,-719.59 886.5,-718.81 886,-718 843.41,-649.55 904.02,-416.84 850,-357 842.16,-348.32 831.51,-342.99 820.22,-339.82"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.53,-723.15 895.25,-727.36 890.27,-718 885.53,-723.15"/>
+<path fill="none" stroke="midnightblue" d="M914.85,-737.56C909.4,-797.3 890.03,-975.71 850,-1015 842,-1022.85 831.69,-1027.87 820.86,-1031.01"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="918.34,-737.83 915.73,-727.56 911.37,-737.21 918.34,-737.83"/>
 </g>
 <!-- Node80 -->
 <g id="node78" class="node">
 <title>Node80</title>
-<g id="a_node78"><a xlink:href="classcompile_1_1_x_c_push.html#a7714f05e08bb949fcf8d9b0526d50ce2" target="_top" xlink:title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．">
-<polygon fill="white" stroke="black" points="691.5,-1062.5 691.5,-1081.5 820.5,-1081.5 820.5,-1062.5 691.5,-1062.5"/>
-<text text-anchor="middle" x="756" y="-1069.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCPush.recPush</text>
+<g id="a_node78"><a xlink:href="classcompile_1_1_x_c_typing.html#a5cb8672d9165fed5af2dbb8cf0158e63" target="_top" xlink:title="与えられたノードの出力型が上限itemUpperを持つよう部分式を型付けする.">
+<polygon fill="white" stroke="black" points="689,-290.5 689,-309.5 823,-309.5 823,-290.5 689,-290.5"/>
+<text text-anchor="middle" x="756" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCTyping.recType</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node80 -->
-<g id="edge86" class="edge">
+<g id="edge87" class="edge">
 <title>Node2&#45;&gt;Node80</title>
-<path fill="none" stroke="midnightblue" d="M914.93,-756.97C909.67,-818.82 890.66,-1005.6 850,-1048 842.04,-1056.3 831.61,-1061.88 820.63,-1065.58"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="918.45,-756.89 915.78,-746.64 911.47,-756.32 918.45,-756.89"/>
+<path fill="none" stroke="midnightblue" d="M887.65,-701.35C887.05,-700.6 886.5,-699.81 886,-699 841.37,-626.87 906.68,-382.1 850,-319 842.84,-311.03 833.32,-305.88 823.1,-302.64"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.52,-704.15 895.23,-708.37 890.27,-699.01 885.52,-704.15"/>
 </g>
 <!-- Node81 -->
 <g id="node79" class="node">
 <title>Node81</title>
-<g id="a_node79"><a xlink:href="classcompile_1_1_x_c_typing.html#a5cb8672d9165fed5af2dbb8cf0158e63" target="_top" xlink:title="与えられたノードの出力型が上限itemUpperを持つよう部分式を型付けする.">
-<polygon fill="white" stroke="black" points="689,-290.5 689,-309.5 823,-309.5 823,-290.5 689,-290.5"/>
-<text text-anchor="middle" x="756" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCTyping.recType</text>
+<g id="a_node79"><a xlink:href="classformat_1_1_n_f_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" target="_top" xlink:title="リサイクラーオブジェクトを回収する。">
+<polygon fill="white" stroke="black" points="476,-1302.5 476,-1321.5 592,-1321.5 592,-1302.5 476,-1302.5"/>
+<text text-anchor="middle" x="534" y="-1309.5" font-family="Helvetica,sans-Serif" font-size="10.00">format.NFBufs.recycle</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node81 -->
 <g id="edge88" class="edge">
 <title>Node2&#45;&gt;Node81</title>
-<path fill="none" stroke="midnightblue" d="M887.64,-720.35C887.05,-719.6 886.5,-718.81 886,-718 839.33,-642.19 909.34,-385.36 850,-319 842.86,-311.02 833.35,-305.86 823.13,-302.61"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.51,-723.14 895.22,-727.37 890.26,-718.01 885.51,-723.14"/>
+<path fill="none" stroke="midnightblue" d="M915.66,-737.66C911.4,-833.52 890.65,-1248.95 850,-1288 814.35,-1322.24 672.74,-1320.16 592.06,-1315.93"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="919.16,-737.74 916.1,-727.6 912.17,-737.44 919.16,-737.74"/>
 </g>
 <!-- Node82 -->
 <g id="node80" class="node">
 <title>Node82</title>
-<g id="a_node80"><a xlink:href="classformat_1_1_n_f_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" target="_top" xlink:title="リサイクラーオブジェクトを回収する。">
-<polygon fill="white" stroke="black" points="476,-1302.5 476,-1321.5 592,-1321.5 592,-1302.5 476,-1302.5"/>
-<text text-anchor="middle" x="534" y="-1309.5" font-family="Helvetica,sans-Serif" font-size="10.00">format.NFBufs.recycle</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node82 -->
-<g id="edge89" class="edge">
-<title>Node2&#45;&gt;Node82</title>
-<path fill="none" stroke="midnightblue" d="M915.57,-756.89C910.97,-851.2 889.26,-1250.43 850,-1288 814.29,-1322.17 672.7,-1320.12 592.04,-1315.92"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="919.07,-756.88 916.06,-746.72 912.08,-756.55 919.07,-756.88"/>
-</g>
-<!-- Node83 -->
-<g id="node81" class="node">
-<title>Node83</title>
-<g id="a_node81"><a xlink:href="classutil_1_1_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" target="_top" xlink:title="リサイクラーオブジェクトを回収する。">
+<g id="a_node80"><a xlink:href="classutil_1_1_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" target="_top" xlink:title="リサイクラーオブジェクトを回収する。">
 <polygon fill="white" stroke="black" points="712.5,-252.5 712.5,-271.5 799.5,-271.5 799.5,-252.5 712.5,-252.5"/>
 <text text-anchor="middle" x="756" y="-259.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Bufs.recycle</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node83 -->
-<g id="edge91" class="edge">
-<title>Node2&#45;&gt;Node83</title>
-<path fill="none" stroke="midnightblue" d="M887.63,-720.36C887.04,-719.6 886.5,-718.82 886,-718 835.24,-634.82 914.67,-353.89 850,-281 837.53,-266.95 817.73,-261.64 799.59,-260.08"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.49,-723.14 895.2,-727.39 890.26,-718.02 885.49,-723.14"/>
+<!-- Node2&#45;&gt;Node82 -->
+<g id="edge90" class="edge">
+<title>Node2&#45;&gt;Node82</title>
+<path fill="none" stroke="midnightblue" d="M887.64,-701.36C887.05,-700.6 886.5,-699.81 886,-699 837.28,-619.51 912.01,-350.62 850,-281 837.51,-266.97 817.7,-261.67 799.57,-260.1"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.5,-704.14 895.21,-708.38 890.26,-699.01 885.5,-704.14"/>
 </g>
-<!-- Node84 -->
-<g id="node82" class="node">
-<title>Node84</title>
-<g id="a_node82"><a xlink:href="classutil_1_1_trace_level.html#a665fc9bf4c1ce79578733ce069eb5f11" target="_top" xlink:title="与えられた文字列を名前にもつ列挙型Levelの定数を返す。">
+<!-- Node83 -->
+<g id="node81" class="node">
+<title>Node83</title>
+<g id="a_node81"><a xlink:href="classutil_1_1_trace_level.html#a665fc9bf4c1ce79578733ce069eb5f11" target="_top" xlink:title="与えられた文字列を名前にもつ列挙型Levelの定数を返す。">
 <polygon fill="white" stroke="black" points="698,-203 698,-233 814,-233 814,-203 698,-203"/>
 <text text-anchor="start" x="706" y="-221" font-family="Helvetica,sans-Serif" font-size="10.00">util.TraceLevel.register</text>
 <text text-anchor="middle" x="756" y="-210" font-family="Helvetica,sans-Serif" font-size="10.00">TraceLevel</text>
 </a>
 </g>
 </g>
+<!-- Node2&#45;&gt;Node83 -->
+<g id="edge91" class="edge">
+<title>Node2&#45;&gt;Node83</title>
+<path fill="none" stroke="midnightblue" d="M887.63,-701.36C887.04,-700.6 886.5,-699.82 886,-699 833.2,-612.14 914.98,-321.17 850,-243 841.02,-232.2 827.92,-225.8 814.37,-222.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.48,-704.14 895.19,-708.39 890.25,-699.02 885.48,-704.14"/>
+</g>
+<!-- Node84 -->
+<g id="node82" class="node">
+<title>Node84</title>
+<g id="a_node82"><a xlink:href="classutil_1_1_stack_base.html#ab8ead535198d700082bc45c8a8e48050" target="_top" xlink:title="class StackBaseでは実装されない.">
+<polygon fill="white" stroke="black" points="703.5,-164.5 703.5,-183.5 808.5,-183.5 808.5,-164.5 703.5,-164.5"/>
+<text text-anchor="middle" x="756" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.reset</text>
+</a>
+</g>
+</g>
 <!-- Node2&#45;&gt;Node84 -->
 <g id="edge92" class="edge">
 <title>Node2&#45;&gt;Node84</title>
-<path fill="none" stroke="midnightblue" d="M887.63,-720.36C887.04,-719.6 886.49,-718.82 886,-718 831.15,-627.46 917.54,-324.51 850,-243 841.04,-232.19 827.95,-225.78 814.4,-222.05"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.48,-723.14 895.18,-727.4 890.25,-718.02 885.48,-723.14"/>
+<path fill="none" stroke="midnightblue" d="M887.62,-701.37C887.04,-700.61 886.49,-699.82 886,-699 827.92,-602.64 923.77,-278.95 850,-194 839.71,-182.15 824.25,-176.35 808.88,-173.73"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.47,-704.14 895.16,-708.41 890.24,-699.03 885.47,-704.14"/>
 </g>
 <!-- Node85 -->
 <g id="node83" class="node">
 <title>Node85</title>
-<g id="a_node83"><a xlink:href="classutil_1_1_stack_base.html#ab8ead535198d700082bc45c8a8e48050" target="_top" xlink:title="class StackBaseでは実装されない.">
-<polygon fill="white" stroke="black" points="703.5,-164.5 703.5,-183.5 808.5,-183.5 808.5,-164.5 703.5,-164.5"/>
-<text text-anchor="middle" x="756" y="-171.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.reset</text>
+<g id="a_node83"><a xlink:href="classast_1_1_ast_scan_from.html#ad575d7d6c3a5a5994eaf580a1ee18bcc" target="_top" xlink:title="子として、根ステップを設定する。">
+<polygon fill="white" stroke="black" points="691,-126.5 691,-145.5 821,-145.5 821,-126.5 691,-126.5"/>
+<text text-anchor="middle" x="756" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstScanFrom.setStep</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node85 -->
 <g id="edge93" class="edge">
 <title>Node2&#45;&gt;Node85</title>
-<path fill="none" stroke="midnightblue" d="M887.62,-720.37C887.03,-719.61 886.49,-718.82 886,-718 825.77,-617.76 927.01,-281 850,-193 839.69,-181.22 824.23,-175.56 808.85,-173.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.46,-723.14 895.16,-727.41 890.24,-718.03 885.46,-723.14"/>
+<path fill="none" stroke="midnightblue" d="M887.62,-701.37C887.03,-700.61 886.49,-699.82 886,-699 823.72,-595.08 929.67,-246.27 850,-155 842.52,-146.43 832.32,-141.11 821.4,-137.89"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.46,-704.14 895.15,-708.42 890.24,-699.03 885.46,-704.14"/>
 </g>
 <!-- Node86 -->
 <g id="node84" class="node">
 <title>Node86</title>
-<g id="a_node84"><a xlink:href="classast_1_1_ast_scan_from.html#ad575d7d6c3a5a5994eaf580a1ee18bcc" target="_top" xlink:title="子として、根ステップを設定する。">
-<polygon fill="white" stroke="black" points="691,-126.5 691,-145.5 821,-145.5 821,-126.5 691,-126.5"/>
-<text text-anchor="middle" x="756" y="-133.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstScanFrom.setStep</text>
+<g id="a_node84"><a xlink:href="classutil_1_1_util.html#af68c39de02f3f532129c21c01e6c8d3c" target="_top" xlink:title="文字列から両端の引用符を除く。">
+<polygon fill="white" stroke="black" points="712.5,-88.5 712.5,-107.5 799.5,-107.5 799.5,-88.5 712.5,-88.5"/>
+<text text-anchor="middle" x="756" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">stripStringQuote</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node86 -->
 <g id="edge94" class="edge">
 <title>Node2&#45;&gt;Node86</title>
-<path fill="none" stroke="midnightblue" d="M887.61,-720.37C887.03,-719.61 886.49,-718.82 886,-718 821.68,-610.39 932.34,-249.53 850,-155 842.53,-146.43 832.33,-141.09 821.42,-137.88"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.45,-723.14 895.14,-727.42 890.24,-718.03 885.45,-723.14"/>
+<path fill="none" stroke="midnightblue" d="M887.61,-701.37C887.03,-700.61 886.49,-699.82 886,-699 819.63,-587.71 935.01,-214.8 850,-117 837.68,-102.82 817.89,-97.5 799.72,-95.96"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.45,-704.14 895.14,-708.42 890.23,-699.03 885.45,-704.14"/>
 </g>
 <!-- Node87 -->
 <g id="node85" class="node">
 <title>Node87</title>
-<g id="a_node85"><a xlink:href="classutil_1_1_util.html#a60b7230489ec4b99305bcba4811ca54c" target="_top" xlink:title="文字列から両端の引用符を除く。">
-<polygon fill="white" stroke="black" points="712.5,-88.5 712.5,-107.5 799.5,-107.5 799.5,-88.5 712.5,-88.5"/>
-<text text-anchor="middle" x="756" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">stripStringQuote</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node87 -->
-<g id="edge95" class="edge">
-<title>Node2&#45;&gt;Node87</title>
-<path fill="none" stroke="midnightblue" d="M887.61,-720.37C887.03,-719.61 886.49,-718.82 886,-718 817.58,-603.02 937.67,-218.07 850,-117 837.69,-102.81 817.9,-97.49 799.74,-95.95"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.44,-723.14 895.13,-727.43 890.23,-718.03 885.44,-723.14"/>
-</g>
-<!-- Node88 -->
-<g id="node86" class="node">
-<title>Node88</title>
-<g id="a_node86"><a xlink:href="classformat_1_1_node_formatter_base.html#ad2ed4947c266a995d1a0fb4b766bc824" target="_top" xlink:title="クエリの項表現の文字列（qsring）を返す.">
+<g id="a_node85"><a xlink:href="classformat_1_1_node_formatter_base.html#ad2ed4947c266a995d1a0fb4b766bc824" target="_top" xlink:title="クエリの項表現の文字列（qsring）を返す.">
 <polygon fill="white" stroke="black" points="683,-39 683,-69 829,-69 829,-39 683,-39"/>
 <text text-anchor="start" x="691" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">format.NodeFormatterBase.to</text>
 <text text-anchor="middle" x="756" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">EmitString</text>
 </a>
 </g>
 </g>
+<!-- Node2&#45;&gt;Node87 -->
+<g id="edge95" class="edge">
+<title>Node2&#45;&gt;Node87</title>
+<path fill="none" stroke="midnightblue" d="M887.61,-701.37C887.03,-700.61 886.49,-699.82 886,-699 815.54,-580.33 937.11,-186.04 850,-79 844.41,-72.13 837.14,-67.03 829.14,-63.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.44,-704.14 895.13,-708.43 890.23,-699.04 885.44,-704.14"/>
+</g>
+<!-- Node88 -->
+<g id="node86" class="node">
+<title>Node88</title>
+<g id="a_node86"><a xlink:href="classformat_1_1_n_f_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" target="_top" xlink:title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。">
+<polygon fill="white" stroke="black" points="697,-0.5 697,-19.5 815,-19.5 815,-0.5 697,-0.5"/>
+<text text-anchor="middle" x="756" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">format.NFBufs.toString</text>
+</a>
+</g>
+</g>
 <!-- Node2&#45;&gt;Node88 -->
 <g id="edge96" class="edge">
 <title>Node2&#45;&gt;Node88</title>
-<path fill="none" stroke="midnightblue" d="M887.61,-720.38C887.02,-719.61 886.49,-718.82 886,-718 813.49,-595.65 939.68,-189.39 850,-79 844.41,-72.12 837.15,-67.02 829.15,-63.25"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.44,-723.14 895.12,-727.43 890.23,-718.04 885.44,-723.14"/>
+<path fill="none" stroke="midnightblue" d="M887.6,-701.38C887.02,-700.61 886.49,-699.82 886,-699 848.08,-634.82 898.68,-85.47 850,-29 841.18,-18.77 828.46,-13.14 815.26,-10.22"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.43,-704.14 895.11,-708.44 890.23,-699.04 885.43,-704.14"/>
 </g>
 <!-- Node89 -->
 <g id="node87" class="node">
 <title>Node89</title>
-<g id="a_node87"><a xlink:href="classformat_1_1_n_f_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" target="_top" xlink:title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。">
-<polygon fill="white" stroke="black" points="697,-0.5 697,-19.5 815,-19.5 815,-0.5 697,-0.5"/>
-<text text-anchor="middle" x="756" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">format.NFBufs.toString</text>
+<g id="a_node87"><a xlink:href="classutil_1_1_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" target="_top" xlink:title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。">
+<polygon fill="white" stroke="black" points="489.5,-322.5 489.5,-341.5 578.5,-341.5 578.5,-322.5 489.5,-322.5"/>
+<text text-anchor="middle" x="534" y="-329.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Bufs.toString</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node89 -->
 <g id="edge97" class="edge">
 <title>Node2&#45;&gt;Node89</title>
-<path fill="none" stroke="midnightblue" d="M887.6,-720.38C887.02,-719.62 886.49,-718.82 886,-718 847.05,-651.97 900.01,-87.1 850,-29 841.18,-18.76 828.47,-13.13 815.27,-10.21"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.43,-723.14 895.11,-727.44 890.22,-718.04 885.43,-723.14"/>
-</g>
-<!-- Node90 -->
-<g id="node88" class="node">
-<title>Node90</title>
-<g id="a_node88"><a xlink:href="classutil_1_1_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" target="_top" xlink:title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。">
-<polygon fill="white" stroke="black" points="489.5,-442.5 489.5,-461.5 578.5,-461.5 578.5,-442.5 489.5,-442.5"/>
-<text text-anchor="middle" x="534" y="-449.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Bufs.toString</text>
-</a>
-</g>
-</g>
-<!-- Node2&#45;&gt;Node90 -->
-<g id="edge98" class="edge">
-<title>Node2&#45;&gt;Node90</title>
-<path fill="none" stroke="midnightblue" d="M888.02,-720.71C887.29,-719.84 886.61,-718.94 886,-718 825.28,-625.16 931.69,-546.06 850,-471 811.57,-435.69 655.91,-442.41 578.76,-448.16"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="885.88,-723.48 895.69,-727.49 890.52,-718.24 885.88,-723.48"/>
+<path fill="none" stroke="midnightblue" d="M887.67,-701.33C887.07,-700.58 886.51,-699.81 886,-699 813.07,-584.15 942.31,-494.95 850,-395 849.42,-394.37 665.08,-357.78 578.7,-340.66"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="885.56,-704.15 895.3,-708.32 890.29,-698.99 885.56,-704.15"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:href="classutil_1_1_stack_base.html#a95cd624d209c6e05e342b8f5f85ed28a" target="_top" xlink:title="スタックに値 val をプッシュし、その番地を返す。">
-<polygon fill="white" stroke="black" points="482,-1887.5 482,-1906.5 586,-1906.5 586,-1887.5 482,-1887.5"/>
-<text text-anchor="middle" x="534" y="-1894.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.push</text>
+<polygon fill="white" stroke="black" points="482,-1854.5 482,-1873.5 586,-1873.5 586,-1854.5 482,-1854.5"/>
+<text text-anchor="middle" x="534" y="-1861.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.push</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node3&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M730.4,-1721.14C682.62,-1764.14 579.05,-1857.35 545.63,-1887.43"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="733.01,-1723.5 738.1,-1714.21 728.33,-1718.3 733.01,-1723.5"/>
+<path fill="none" stroke="midnightblue" d="M732.21,-1672.17C684.93,-1718.16 577.8,-1822.36 544.84,-1854.43"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="734.8,-1674.53 739.53,-1665.05 729.92,-1669.51 734.8,-1674.53"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_text.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="テキスト文字列を読み出す．">
-<polygon fill="white" stroke="black" points="218,-1956.5 218,-1975.5 406,-1975.5 406,-1956.5 218,-1956.5"/>
-<text text-anchor="middle" x="312" y="-1963.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdGetText.exec</text>
+<g id="a_node5"><a xlink:href="classutil_1_1_panic.html#a8ae511d13228b346b493970111efbf64" target="_top" xlink:title="現在の入れ子深さで段差げして，関数名nameの呼び出しを出力する。">
+<polygon fill="white" stroke="black" points="271,-2279.5 271,-2298.5 353,-2298.5 353,-2279.5 271,-2279.5"/>
+<text text-anchor="middle" x="312" y="-2286.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Panic.enter</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge4" class="edge">
 <title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M502.37,-1910.79C476.97,-1921.81 439.69,-1937.01 406,-1947 393.83,-1950.61 380.57,-1953.76 367.98,-1956.41"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="504.07,-1913.87 511.83,-1906.65 501.26,-1907.46 504.07,-1913.87"/>
+<path fill="none" stroke="midnightblue" d="M533.34,-1884.07C533.29,-1950.31 523.63,-2163.76 406,-2270 391.81,-2282.81 371.39,-2287.92 353.29,-2289.66"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="536.84,-1883.76 533.26,-1873.79 529.84,-1883.81 536.84,-1883.76"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_elem_end.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="テキスト文字列を読み出す．">
-<polygon fill="white" stroke="black" points="228,-1907 228,-1937 396,-1937 396,-1907 228,-1907"/>
-<text text-anchor="start" x="236" y="-1925" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdGetElem</text>
-<text text-anchor="middle" x="312" y="-1914" font-family="Helvetica,sans-Serif" font-size="10.00">End.exec</text>
+<g id="a_node6"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_text.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="テキスト文字列を読み出す．">
+<polygon fill="white" stroke="black" points="218,-2241.5 218,-2260.5 406,-2260.5 406,-2241.5 218,-2241.5"/>
+<text text-anchor="middle" x="312" y="-2248.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdGetText.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node6 -->
 <g id="edge5" class="edge">
 <title>Node4&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M471.83,-1903.95C448.38,-1906.62 421.21,-1909.7 396.05,-1912.56"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="472.43,-1907.41 481.97,-1902.8 471.64,-1900.45 472.43,-1907.41"/>
+<path fill="none" stroke="midnightblue" d="M532.61,-1883.81C530.24,-1945.74 514.12,-2137.17 406,-2232 401.66,-2235.8 396.77,-2238.92 391.57,-2241.47"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="536.12,-1883.61 532.91,-1873.51 529.12,-1883.4 536.12,-1883.61"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="命令を実行する">
-<polygon fill="white" stroke="black" points="237.5,-1858 237.5,-1888 386.5,-1888 386.5,-1858 237.5,-1858"/>
-<text text-anchor="start" x="245.5" y="-1876" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdIntIn</text>
-<text text-anchor="middle" x="312" y="-1865" font-family="Helvetica,sans-Serif" font-size="10.00">StreamConst.exec</text>
+<g id="a_node7"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_get_elem_end.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="テキスト文字列を読み出す．">
+<polygon fill="white" stroke="black" points="228,-2192 228,-2222 396,-2222 396,-2192 228,-2192"/>
+<text text-anchor="start" x="236" y="-2210" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdGetElem</text>
+<text text-anchor="middle" x="312" y="-2199" font-family="Helvetica,sans-Serif" font-size="10.00">End.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node7 -->
 <g id="edge6" class="edge">
 <title>Node4&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M471.74,-1890.32C445.36,-1887.44 414.3,-1884.05 386.68,-1881.04"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="471.65,-1893.83 481.97,-1891.43 472.41,-1886.87 471.65,-1893.83"/>
+<path fill="none" stroke="midnightblue" d="M531.23,-1883.53C525.11,-1939.28 499.73,-2100.42 406,-2183 402.12,-2186.42 397.82,-2189.36 393.25,-2191.89"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="534.72,-1883.87 532.24,-1873.57 527.75,-1883.17 534.72,-1883.87"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="イベントevから要素テキストを読み出す．">
-<polygon fill="white" stroke="black" points="231,-1809 231,-1839 393,-1839 393,-1809 231,-1809"/>
-<text text-anchor="start" x="239" y="-1827" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
-<text text-anchor="middle" x="312" y="-1816" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
+<g id="a_node8"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="命令を実行する">
+<polygon fill="white" stroke="black" points="237.5,-2143 237.5,-2173 386.5,-2173 386.5,-2143 237.5,-2143"/>
+<text text-anchor="start" x="245.5" y="-2161" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBase.CmdIntIn</text>
+<text text-anchor="middle" x="312" y="-2150" font-family="Helvetica,sans-Serif" font-size="10.00">StreamConst.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node8 -->
 <g id="edge7" class="edge">
 <title>Node4&#45;&gt;Node8</title>
-<path fill="none" stroke="midnightblue" d="M500.31,-1883.62C474.84,-1873.45 438.48,-1859.47 406,-1849 395.34,-1845.56 383.89,-1842.21 372.79,-1839.14"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="499.25,-1886.97 509.84,-1887.46 501.86,-1880.48 499.25,-1886.97"/>
+<path fill="none" stroke="midnightblue" d="M529.63,-1883.79C520.03,-1933.83 487.79,-2066.24 406,-2134 400.22,-2138.79 393.6,-2142.63 386.61,-2145.72"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="533.12,-1884.13 531.47,-1873.67 526.24,-1882.88 533.12,-1884.13"/>
 </g>
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="231,-1760 231,-1790 393,-1790 393,-1760 231,-1760"/>
-<text text-anchor="start" x="239" y="-1778" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
-<text text-anchor="middle" x="312" y="-1767" font-family="Helvetica,sans-Serif" font-size="10.00">Opr.exec</text>
+<g id="a_node9"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="イベントevから要素テキストを読み出す．">
+<polygon fill="white" stroke="black" points="231,-2094 231,-2124 393,-2124 393,-2094 231,-2094"/>
+<text text-anchor="start" x="239" y="-2112" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
+<text text-anchor="middle" x="312" y="-2101" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node9 -->
 <g id="edge8" class="edge">
 <title>Node4&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M516.12,-1880.57C493.08,-1859.04 449.64,-1821.48 406,-1800 398.2,-1796.16 389.73,-1792.85 381.19,-1790.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="513.72,-1883.12 523.38,-1887.47 518.54,-1878.05 513.72,-1883.12"/>
+<path fill="none" stroke="midnightblue" d="M527.54,-1883.37C514.34,-1926.6 476.43,-2031.36 406,-2085 401.49,-2088.44 396.54,-2091.38 391.34,-2093.91"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="530.9,-1884.36 530.37,-1873.77 524.19,-1882.38 530.9,-1884.36"/>
 </g>
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_and.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="231,-1711 231,-1741 393,-1741 393,-1711 231,-1711"/>
-<text text-anchor="start" x="239" y="-1729" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
-<text text-anchor="middle" x="312" y="-1718" font-family="Helvetica,sans-Serif" font-size="10.00">And.exec</text>
+<g id="a_node10"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="231,-2045 231,-2075 393,-2075 393,-2045 231,-2045"/>
+<text text-anchor="start" x="239" y="-2063" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
+<text text-anchor="middle" x="312" y="-2052" font-family="Helvetica,sans-Serif" font-size="10.00">Opr.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node10 -->
 <g id="edge9" class="edge">
 <title>Node4&#45;&gt;Node10</title>
-<path fill="none" stroke="midnightblue" d="M522.12,-1878.5C502.8,-1847.32 459.46,-1784.43 406,-1751 399.76,-1747.1 392.92,-1743.8 385.87,-1741.01"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="519.35,-1880.69 527.53,-1887.43 525.34,-1877.07 519.35,-1880.69"/>
+<path fill="none" stroke="midnightblue" d="M524.49,-1882.87C507.39,-1918.55 465.37,-1995.93 406,-2036 400.89,-2039.45 395.31,-2042.41 389.51,-2044.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="527.76,-1884.14 528.82,-1873.6 521.41,-1881.18 527.76,-1884.14"/>
 </g>
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_or.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの値を論理和演算して，結果をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="231,-1662 231,-1692 393,-1692 393,-1662 231,-1662"/>
-<text text-anchor="start" x="239" y="-1680" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
-<text text-anchor="middle" x="312" y="-1669" font-family="Helvetica,sans-Serif" font-size="10.00">Or.exec</text>
+<g id="a_node11"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_and.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="231,-1996 231,-2026 393,-2026 393,-1996 231,-1996"/>
+<text text-anchor="start" x="239" y="-2014" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
+<text text-anchor="middle" x="312" y="-2003" font-family="Helvetica,sans-Serif" font-size="10.00">And.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node11 -->
 <g id="edge10" class="edge">
 <title>Node4&#45;&gt;Node11</title>
-<path fill="none" stroke="midnightblue" d="M525.91,-1877.57C510.49,-1838.14 470.08,-1748.53 406,-1702 400.72,-1698.17 394.9,-1694.92 388.81,-1692.18"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="522.69,-1878.97 529.52,-1887.08 529.24,-1876.49 522.69,-1878.97"/>
+<path fill="none" stroke="midnightblue" d="M519.65,-1881.87C498.54,-1908.82 454.83,-1959.62 406,-1987 399.89,-1990.42 393.28,-1993.37 386.51,-1995.91"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="522.6,-1883.78 525.91,-1873.71 517.05,-1879.51 522.6,-1883.78"/>
 </g>
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_not.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの値を否定して，結果をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="231,-1613 231,-1643 393,-1643 393,-1613 231,-1613"/>
-<text text-anchor="start" x="239" y="-1631" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
-<text text-anchor="middle" x="312" y="-1620" font-family="Helvetica,sans-Serif" font-size="10.00">Not.exec</text>
+<g id="a_node12"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_or.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの値を論理和演算して，結果をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="231,-1947 231,-1977 393,-1977 393,-1947 231,-1947"/>
+<text text-anchor="start" x="239" y="-1965" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
+<text text-anchor="middle" x="312" y="-1954" font-family="Helvetica,sans-Serif" font-size="10.00">Or.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node4&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M528.53,-1877.29C516.91,-1830.77 481.32,-1713.51 406,-1653 401.18,-1649.13 395.81,-1645.85 390.15,-1643.08"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="525.19,-1878.38 530.92,-1887.29 531.99,-1876.75 525.19,-1878.38"/>
+<path fill="none" stroke="midnightblue" d="M511,-1879.36C486.41,-1895.9 444.93,-1922 406,-1938 397.83,-1941.36 389.05,-1944.36 380.27,-1947"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="513.26,-1882.05 519.55,-1873.52 509.32,-1876.26 513.26,-1882.05"/>
 </g>
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="classcmd_1_1_command_double_1_1_cmd_dbl_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="イベントevから要素テキストを読み出す．">
-<polygon fill="white" stroke="black" points="235.5,-1564 235.5,-1594 388.5,-1594 388.5,-1564 235.5,-1564"/>
-<text text-anchor="start" x="243.5" y="-1582" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandDouble.CmdDbl</text>
-<text text-anchor="middle" x="312" y="-1571" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
+<g id="a_node13"><a xlink:href="classcmd_1_1_command_boolean_1_1_cmd_bool_not.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの値を否定して，結果をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="231,-1898 231,-1928 393,-1928 393,-1898 231,-1898"/>
+<text text-anchor="start" x="239" y="-1916" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandBoolean.CmdBool</text>
+<text text-anchor="middle" x="312" y="-1905" font-family="Helvetica,sans-Serif" font-size="10.00">Not.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node13 -->
 <g id="edge12" class="edge">
 <title>Node4&#45;&gt;Node13</title>
-<path fill="none" stroke="midnightblue" d="M530.4,-1877.37C522.37,-1824.69 492.99,-1679.1 406,-1604 400.81,-1599.52 394.9,-1595.83 388.63,-1592.8"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="526.96,-1878 531.84,-1887.4 533.89,-1877.01 526.96,-1878"/>
+<path fill="none" stroke="midnightblue" d="M480.5,-1875.69C450.59,-1882.36 412.79,-1890.77 380.67,-1897.93"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="481.32,-1879.1 490.32,-1873.51 479.8,-1872.26 481.32,-1879.1"/>
 </g>
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="classcmd_1_1_command_integer_1_1_cmd_int_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="イベントevから要素テキストを読み出す．">
-<polygon fill="white" stroke="black" points="238,-1515 238,-1545 386,-1545 386,-1515 238,-1515"/>
-<text text-anchor="start" x="246" y="-1533" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandInteger.CmdInt</text>
-<text text-anchor="middle" x="312" y="-1522" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
+<g id="a_node14"><a xlink:href="classcmd_1_1_command_double_1_1_cmd_dbl_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="イベントevから要素テキストを読み出す．">
+<polygon fill="white" stroke="black" points="235.5,-1849 235.5,-1879 388.5,-1879 388.5,-1849 235.5,-1849"/>
+<text text-anchor="start" x="243.5" y="-1867" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandDouble.CmdDbl</text>
+<text text-anchor="middle" x="312" y="-1856" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node14 -->
 <g id="edge13" class="edge">
 <title>Node4&#45;&gt;Node14</title>
-<path fill="none" stroke="midnightblue" d="M531.76,-1877.3C526.99,-1818.87 504.76,-1644.98 406,-1555 400.19,-1549.71 393.38,-1545.52 386.13,-1542.2"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="528.28,-1877.67 532.5,-1887.39 535.26,-1877.16 528.28,-1877.67"/>
+<path fill="none" stroke="midnightblue" d="M471.97,-1864C446.22,-1864 415.96,-1864 388.79,-1864"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="471.97,-1867.5 481.97,-1864 471.97,-1860.5 471.97,-1867.5"/>
 </g>
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップに文字列変数値をおく．">
-<polygon fill="white" stroke="black" points="239,-1466 239,-1496 385,-1496 385,-1466 239,-1466"/>
-<text text-anchor="start" x="247" y="-1484" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
-<text text-anchor="middle" x="312" y="-1473" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
+<g id="a_node15"><a xlink:href="classcmd_1_1_command_integer_1_1_cmd_int_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="イベントevから要素テキストを読み出す．">
+<polygon fill="white" stroke="black" points="238,-1800 238,-1830 386,-1830 386,-1800 238,-1800"/>
+<text text-anchor="start" x="246" y="-1818" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandInteger.CmdInt</text>
+<text text-anchor="middle" x="312" y="-1807" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node15 -->
 <g id="edge14" class="edge">
 <title>Node4&#45;&gt;Node15</title>
-<path fill="none" stroke="midnightblue" d="M532.8,-1877.11C531.04,-1813.17 516.59,-1611.04 406,-1506 400.06,-1500.36 392.99,-1495.96 385.43,-1492.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="529.31,-1877.45 533,-1887.38 536.31,-1877.31 529.31,-1877.45"/>
+<path fill="none" stroke="midnightblue" d="M480.5,-1852.31C450.59,-1845.64 412.79,-1837.23 380.67,-1830.07"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="479.8,-1855.74 490.32,-1854.49 481.32,-1848.9 479.8,-1855.74"/>
 </g>
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_add.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの文字列を連結して，結果をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="239,-2344 239,-2374 385,-2374 385,-2344 239,-2344"/>
-<text text-anchor="start" x="247" y="-2362" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
-<text text-anchor="middle" x="312" y="-2351" font-family="Helvetica,sans-Serif" font-size="10.00">Add.exec</text>
+<g id="a_node16"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_load.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップに文字列変数値をおく．">
+<polygon fill="white" stroke="black" points="239,-1751 239,-1781 385,-1781 385,-1751 239,-1751"/>
+<text text-anchor="start" x="247" y="-1769" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
+<text text-anchor="middle" x="312" y="-1758" font-family="Helvetica,sans-Serif" font-size="10.00">Load.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node16 -->
 <g id="edge15" class="edge">
 <title>Node4&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M533.65,-1917.01C534.76,-1985.95 528.71,-2215.88 406,-2335 400.02,-2340.81 392.82,-2345.26 385.12,-2348.67"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="537.15,-1916.63 533.41,-1906.71 530.15,-1916.79 537.15,-1916.63"/>
+<path fill="none" stroke="midnightblue" d="M510.54,-1848.68C485.84,-1832.43 444.55,-1806.94 406,-1791 397.04,-1787.29 387.36,-1783.98 377.76,-1781.08"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="508.88,-1851.79 519.14,-1854.42 512.76,-1845.96 508.88,-1851.79"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
-<g id="a_node17"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_string_match.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの文字列を，保持した文字列パターンに部分文字列照合し，その結果のブール値をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="239,-2295 239,-2325 385,-2325 385,-2295 239,-2295"/>
-<text text-anchor="start" x="247" y="-2313" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
-<text text-anchor="middle" x="312" y="-2302" font-family="Helvetica,sans-Serif" font-size="10.00">StringMatch.exec</text>
+<g id="a_node17"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_add.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つの文字列を連結して，結果をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="239,-1702 239,-1732 385,-1732 385,-1702 239,-1702"/>
+<text text-anchor="start" x="247" y="-1720" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
+<text text-anchor="middle" x="312" y="-1709" font-family="Helvetica,sans-Serif" font-size="10.00">Add.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node17 -->
 <g id="edge16" class="edge">
 <title>Node4&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M532.81,-1916.84C531.07,-1980.59 516.68,-2182.08 406,-2286 400.04,-2291.59 392.96,-2295.92 385.4,-2299.27"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="536.31,-1916.66 533.01,-1906.6 529.31,-1916.53 536.31,-1916.66"/>
+<path fill="none" stroke="midnightblue" d="M519.58,-1846.34C498.39,-1819.69 454.56,-1769.41 406,-1742 399.16,-1738.14 391.69,-1734.85 384.06,-1732.06"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="516.96,-1848.67 525.87,-1854.4 522.48,-1844.36 516.96,-1848.67"/>
 </g>
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_regex_match.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの文字列を，保持した正規表現に照合し，その結果のブール値をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="239,-2246 239,-2276 385,-2276 385,-2246 239,-2246"/>
-<text text-anchor="start" x="247" y="-2264" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
-<text text-anchor="middle" x="312" y="-2253" font-family="Helvetica,sans-Serif" font-size="10.00">RegexMatch.exec</text>
+<g id="a_node18"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_string_match.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの文字列を，保持した文字列パターンに部分文字列照合し，その結果のブール値をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="239,-1653 239,-1683 385,-1683 385,-1653 239,-1653"/>
+<text text-anchor="start" x="247" y="-1671" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
+<text text-anchor="middle" x="312" y="-1660" font-family="Helvetica,sans-Serif" font-size="10.00">StringMatch.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node18 -->
 <g id="edge17" class="edge">
 <title>Node4&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M531.76,-1916.63C527,-1974.86 504.78,-2148.07 406,-2237 399.93,-2242.47 392.77,-2246.72 385.17,-2250.02"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="535.26,-1916.81 532.5,-1906.58 528.28,-1916.29 535.26,-1916.81"/>
+<path fill="none" stroke="midnightblue" d="M524.42,-1845.3C507.21,-1809.91 465,-1733.13 406,-1693 399.64,-1688.67 392.56,-1685.1 385.23,-1682.14"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="521.33,-1846.95 528.78,-1854.49 527.66,-1843.95 521.33,-1846.95"/>
+</g>
+<!-- Node19 -->
+<g id="node19" class="node">
+<title>Node19</title>
+<g id="a_node19"><a xlink:href="classcmd_1_1_command_string_1_1_cmd_str_regex_match.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの文字列を，保持した正規表現に照合し，その結果のブール値をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="239,-1604 239,-1634 385,-1634 385,-1604 239,-1604"/>
+<text text-anchor="start" x="247" y="-1622" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandString.CmdStr</text>
+<text text-anchor="middle" x="312" y="-1611" font-family="Helvetica,sans-Serif" font-size="10.00">RegexMatch.exec</text>
+</a>
+</g>
 </g>
 <!-- Node4&#45;&gt;Node19 -->
 <g id="edge18" class="edge">
 <title>Node4&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M533.64,-1876.95C534.71,-1807.85 528.55,-1577.32 406,-1457 400.03,-1451.14 392.85,-1446.62 385.16,-1443.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="530.14,-1877.19 533.41,-1887.26 537.13,-1877.35 530.14,-1877.19"/>
-</g>
-<!-- Node20 -->
-<g id="node20" class="node">
-<title>Node20</title>
-<g id="a_node20"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_str2_type.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする">
-<polygon fill="white" stroke="black" points="236,-2197 236,-2227 388,-2227 388,-2197 236,-2197"/>
-<text text-anchor="start" x="244" y="-2215" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandTyped.CmdStr2</text>
-<text text-anchor="middle" x="312" y="-2204" font-family="Helvetica,sans-Serif" font-size="10.00">Type.exec</text>
-</a>
-</g>
+<path fill="none" stroke="midnightblue" d="M527.39,-1844.49C513.98,-1801.39 475.82,-1697.62 406,-1644 399.77,-1639.21 392.69,-1635.34 385.29,-1632.21"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="524.11,-1845.73 530.34,-1854.3 530.81,-1843.71 524.11,-1845.73"/>
 </g>
 <!-- Node4&#45;&gt;Node20 -->
 <g id="edge19" class="edge">
 <title>Node4&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M530.34,-1916.43C522.14,-1968.59 492.38,-2112.71 406,-2187 400.68,-2191.58 394.6,-2195.33 388.15,-2198.4"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="533.81,-1916.91 531.81,-1906.5 526.88,-1915.88 533.81,-1916.91"/>
+<path fill="none" stroke="midnightblue" d="M533.72,-1844.16C535.08,-1774.82 529.91,-1541.02 406,-1419 400.04,-1413.13 392.87,-1408.61 385.17,-1405.12"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="530.22,-1844.07 533.45,-1854.16 537.21,-1844.25 530.22,-1844.07"/>
 </g>
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_conv.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする">
-<polygon fill="white" stroke="black" points="222.5,-2158.5 222.5,-2177.5 401.5,-2177.5 401.5,-2158.5 222.5,-2158.5"/>
-<text text-anchor="middle" x="312" y="-2165.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandTyped.CmdConv.exec</text>
+<g id="a_node21"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_str2_type.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする">
+<polygon fill="white" stroke="black" points="236,-1555 236,-1585 388,-1585 388,-1555 236,-1555"/>
+<text text-anchor="start" x="244" y="-1573" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandTyped.CmdStr2</text>
+<text text-anchor="middle" x="312" y="-1562" font-family="Helvetica,sans-Serif" font-size="10.00">Type.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node21 -->
 <g id="edge20" class="edge">
 <title>Node4&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M529.19,-1916.69C518.79,-1964.72 485.27,-2088.39 406,-2149 401.03,-2152.8 395.48,-2155.9 389.64,-2158.41"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="532.66,-1917.17 531.25,-1906.66 525.81,-1915.75 532.66,-1917.17"/>
+<path fill="none" stroke="midnightblue" d="M529.56,-1844.33C519.82,-1794.58 487.25,-1662.9 406,-1595 400.61,-1590.5 394.49,-1586.8 388.02,-1583.76"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="526.17,-1845.2 531.44,-1854.39 533.05,-1843.92 526.17,-1845.2"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_type_opr.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つのIntegerを演算して，結果をスタックトップにおく．">
-<polygon fill="white" stroke="black" points="234.5,-2109 234.5,-2139 389.5,-2139 389.5,-2109 234.5,-2109"/>
-<text text-anchor="start" x="242.5" y="-2127" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandTyped.CmdType</text>
-<text text-anchor="middle" x="312" y="-2116" font-family="Helvetica,sans-Serif" font-size="10.00">Opr.exec</text>
+<g id="a_node22"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_conv.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする">
+<polygon fill="white" stroke="black" points="222.5,-1516.5 222.5,-1535.5 401.5,-1535.5 401.5,-1516.5 222.5,-1516.5"/>
+<text text-anchor="middle" x="312" y="-1523.5" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandTyped.CmdConv.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node22 -->
 <g id="edge21" class="edge">
 <title>Node4&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M526.41,-1916.29C511.61,-1956.69 471.77,-2050.43 406,-2099 400.75,-2102.87 394.95,-2106.15 388.88,-2108.91"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="529.73,-1917.41 529.78,-1906.81 523.14,-1915.06 529.73,-1917.41"/>
+<path fill="none" stroke="midnightblue" d="M531.37,-1844.34C525.63,-1788.26 501.18,-1626.38 406,-1546 400.95,-1541.74 395.21,-1538.32 389.12,-1535.58"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="527.9,-1844.73 532.31,-1854.36 534.87,-1844.08 527.9,-1844.73"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node">
 <title>Node23</title>
-<g id="a_node23"><a xlink:href="classutil_1_1_report.html#a18c2ea265e8622e114f6b037e69aa09a" target="_top" xlink:title="現在の入れ子深さを一つ深くする．">
-<polygon fill="white" stroke="red" points="269,-2070.5 269,-2089.5 355,-2089.5 355,-2070.5 269,-2070.5"/>
-<text text-anchor="middle" x="312" y="-2077.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.push</text>
+<g id="a_node23"><a xlink:href="classcmd_1_1_command_typed_1_1_cmd_type_opr.html#aed930e84d9417830c38fbb0917e1c58a" target="_top" xlink:title="スタックトップの二つのIntegerを演算して，結果をスタックトップにおく．">
+<polygon fill="white" stroke="black" points="234.5,-1467 234.5,-1497 389.5,-1497 389.5,-1467 234.5,-1467"/>
+<text text-anchor="start" x="242.5" y="-1485" font-family="Helvetica,sans-Serif" font-size="10.00">cmd.CommandTyped.CmdType</text>
+<text text-anchor="middle" x="312" y="-1474" font-family="Helvetica,sans-Serif" font-size="10.00">Opr.exec</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node23 -->
 <g id="edge22" class="edge">
 <title>Node4&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M524.17,-1915.75C506.81,-1950.45 464.71,-2024.46 406,-2061 390.89,-2070.4 371.98,-2075.26 355.16,-2077.72"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="527.35,-1917.22 528.59,-1906.7 521.06,-1914.15 527.35,-1917.22"/>
+<path fill="none" stroke="midnightblue" d="M532.1,-1844.24C528.28,-1784.09 508.37,-1601.57 406,-1507 401.21,-1502.58 395.72,-1498.92 389.86,-1495.9"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="528.61,-1844.5 532.66,-1854.29 535.6,-1844.11 528.61,-1844.5"/>
 </g>
-<!-- Node25 -->
+<!-- Node24 -->
 <g id="node24" class="node">
-<title>Node25</title>
-<g id="a_node24"><a xlink:href="classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" target="_top" xlink:title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．">
-<polygon fill="white" stroke="black" points="242,-2032.5 242,-2051.5 382,-2051.5 382,-2032.5 242,-2032.5"/>
-<text text-anchor="middle" x="312" y="-2039.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.RecycleManager.recycle</text>
+<title>Node24</title>
+<g id="a_node24"><a xlink:href="classutil_1_1_report.html#a18c2ea265e8622e114f6b037e69aa09a" target="_top" xlink:title="現在の入れ子深さを一つ深くする．">
+<polygon fill="white" stroke="red" points="269,-1428.5 269,-1447.5 355,-1447.5 355,-1428.5 269,-1428.5"/>
+<text text-anchor="middle" x="312" y="-1435.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.push</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node25 -->
+<!-- Node4&#45;&gt;Node24 -->
 <g id="edge23" class="edge">
-<title>Node4&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M520.23,-1915.22C499.61,-1943.15 456.19,-1996.13 406,-2023 398.59,-2026.97 390.44,-2030.11 382.14,-2032.59"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="523.3,-1916.94 526.32,-1906.78 517.63,-1912.84 523.3,-1916.94"/>
+<title>Node4&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M533.3,-1843.98C533.11,-1777.89 523.08,-1564.84 406,-1458 392.34,-1445.53 372.83,-1440.14 355.2,-1438.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="529.79,-1844.22 533.24,-1854.24 536.79,-1844.25 529.79,-1844.22"/>
 </g>
 <!-- Node26 -->
 <g id="node25" class="node">
 <title>Node26</title>
-<g id="a_node25"><a xlink:href="classutil_1_1_report.html#a62bc0d20ce17d1ee1289cfccd4c0ce68" target="_top" xlink:title="name stack">
-<polygon fill="white" stroke="black" points="265,-1994.5 265,-2013.5 359,-2013.5 359,-1994.5 265,-1994.5"/>
-<text text-anchor="middle" x="312" y="-2001.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.Report</text>
+<g id="a_node25"><a xlink:href="classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" target="_top" xlink:title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．">
+<polygon fill="white" stroke="black" points="242,-2355.5 242,-2374.5 382,-2374.5 382,-2355.5 242,-2355.5"/>
+<text text-anchor="middle" x="312" y="-2362.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.RecycleManager.recycle</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node26 -->
 <g id="edge24" class="edge">
 <title>Node4&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M514.61,-1913.39C491.12,-1933.42 448.4,-1966.89 406,-1985 391.3,-1991.28 374.39,-1995.53 359.05,-1998.38"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="517.1,-1915.87 522.36,-1906.67 512.51,-1910.58 517.1,-1915.87"/>
+<path fill="none" stroke="midnightblue" d="M530.58,-1883.69C520.07,-1965.84 475.82,-2279.99 406,-2346 399.29,-2352.34 391.07,-2356.82 382.32,-2359.94"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="534.06,-1884.05 531.83,-1873.69 527.11,-1883.18 534.06,-1884.05"/>
 </g>
-<!-- Node27&#45;&gt;Node28 -->
-<g id="edge26" class="edge">
-<title>Node27&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M266.52,-1226.19C225.28,-1237.49 164.75,-1254.07 126.9,-1264.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="267.58,-1229.53 276.3,-1223.51 265.73,-1222.77 267.58,-1229.53"/>
-</g>
-<!-- Node31 -->
-<g id="node30" class="node">
-<title>Node31</title>
-<g id="a_node30"><a xlink:href="classmachine_1_1_global_ref_list.html#a7021cf7b5ebe466bd3fa5eddde303d9d" target="_top" xlink:title="与えられた型と名前をもつ変数参照を生成する．">
-<polygon fill="white" stroke="black" points="453.5,-1062.5 453.5,-1081.5 614.5,-1081.5 614.5,-1062.5 453.5,-1062.5"/>
-<text text-anchor="middle" x="534" y="-1069.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.GlobalRefList.createRef</text>
+<!-- Node27 -->
+<g id="node26" class="node">
+<title>Node27</title>
+<g id="a_node26"><a xlink:href="classutil_1_1_report.html#a62bc0d20ce17d1ee1289cfccd4c0ce68" target="_top" xlink:title="name stack">
+<polygon fill="white" stroke="black" points="265,-2317.5 265,-2336.5 359,-2336.5 359,-2317.5 265,-2317.5"/>
+<text text-anchor="middle" x="312" y="-2324.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.Report</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node31 -->
-<g id="edge30" class="edge">
-<title>Node30&#45;&gt;Node31</title>
-<path fill="none" stroke="midnightblue" d="M694.94,-1099.63C662.31,-1093.99 622.25,-1087.07 590.39,-1081.57"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="694.35,-1103.08 704.8,-1101.33 695.54,-1096.18 694.35,-1103.08"/>
+<!-- Node4&#45;&gt;Node27 -->
+<g id="edge25" class="edge">
+<title>Node4&#45;&gt;Node27</title>
+<path fill="none" stroke="midnightblue" d="M530.12,-1883.62C518.27,-1961.56 470.91,-2247.91 406,-2308 393.42,-2319.64 375.72,-2324.96 359.12,-2327.17"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="533.58,-1884.1 531.6,-1873.69 526.66,-1883.06 533.58,-1884.1"/>
+</g>
+<!-- Node28&#45;&gt;Node29 -->
+<g id="edge27" class="edge">
+<title>Node28&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M235.18,-1228C210.34,-1228 182.93,-1228 158.8,-1228"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="235.29,-1231.5 245.29,-1228 235.29,-1224.5 235.29,-1231.5"/>
 </g>
 <!-- Node32 -->
 <g id="node31" class="node">
 <title>Node32</title>
-<g id="a_node31"><a xlink:href="classast_1_1_ast_var_decl.html#a5b4b6ffe4c04719694eaf8dd12feba4b" target="_top" xlink:title="@breif">
-<polygon fill="white" stroke="black" points="476.5,-1100.5 476.5,-1119.5 591.5,-1119.5 591.5,-1100.5 476.5,-1100.5"/>
-<text text-anchor="middle" x="534" y="-1107.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.setRef</text>
+<g id="a_node31"><a xlink:href="classmachine_1_1_global_ref_list.html#a7021cf7b5ebe466bd3fa5eddde303d9d" target="_top" xlink:title="与えられた型と名前をもつ変数参照を生成する．">
+<polygon fill="white" stroke="black" points="453.5,-1100.5 453.5,-1119.5 614.5,-1119.5 614.5,-1100.5 453.5,-1100.5"/>
+<text text-anchor="middle" x="534" y="-1107.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.GlobalRefList.createRef</text>
 </a>
 </g>
 </g>
-<!-- Node30&#45;&gt;Node32 -->
-<g id="edge32" class="edge">
-<title>Node30&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M694.63,-1110C662.47,-1110 623.14,-1110 591.57,-1110"/>
+<!-- Node31&#45;&gt;Node32 -->
+<g id="edge31" class="edge">
+<title>Node31&#45;&gt;Node32</title>
+<path fill="none" stroke="midnightblue" d="M694.52,-1110C669.88,-1110 641.06,-1110 614.74,-1110"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="694.8,-1113.5 704.8,-1110 694.8,-1106.5 694.8,-1113.5"/>
 </g>
-<!-- Node31&#45;&gt;Node28 -->
-<g id="edge31" class="edge">
-<title>Node31&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M467.14,-1083.88C458.6,-1085.96 450.04,-1088.33 442,-1091 337.82,-1125.55 314.46,-1142.63 218,-1195 176.02,-1217.79 128.91,-1248.9 106.01,-1264.4"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="468.17,-1087.23 477.12,-1081.56 466.59,-1080.41 468.17,-1087.23"/>
-</g>
-<!-- Node45 -->
-<g id="node44" class="node">
-<title>Node45</title>
-<g id="a_node44"><a xlink:href="classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="442.5,-518.5 442.5,-537.5 625.5,-537.5 625.5,-518.5 442.5,-518.5"/>
-<text text-anchor="middle" x="534" y="-525.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.IntegerOper.gencode</text>
+<!-- Node33 -->
+<g id="node32" class="node">
+<title>Node33</title>
+<g id="a_node32"><a xlink:href="classast_1_1_ast_var_decl.html#a5b4b6ffe4c04719694eaf8dd12feba4b" target="_top" xlink:title="@breif">
+<polygon fill="white" stroke="black" points="476.5,-1138.5 476.5,-1157.5 591.5,-1157.5 591.5,-1138.5 476.5,-1138.5"/>
+<text text-anchor="middle" x="534" y="-1145.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.setRef</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node45 -->
-<g id="edge46" class="edge">
-<title>Node44&#45;&gt;Node45</title>
-<path fill="none" stroke="midnightblue" d="M668.29,-528C654.31,-528 639.8,-528 625.72,-528"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="668.36,-531.5 678.36,-528 668.36,-524.5 668.36,-531.5"/>
+<!-- Node31&#45;&gt;Node33 -->
+<g id="edge33" class="edge">
+<title>Node31&#45;&gt;Node33</title>
+<path fill="none" stroke="midnightblue" d="M694.94,-1120.37C662.31,-1126.01 622.25,-1132.93 590.39,-1138.43"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="695.54,-1123.82 704.8,-1118.67 694.35,-1116.92 695.54,-1123.82"/>
+</g>
+<!-- Node32&#45;&gt;Node29 -->
+<g id="edge32" class="edge">
+<title>Node32&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M474.42,-1121.6C463.61,-1123.92 452.44,-1126.44 442,-1129 323.33,-1158.13 184.09,-1199.79 123.18,-1218.39"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="475.15,-1125.02 484.21,-1119.53 473.71,-1118.18 475.15,-1125.02"/>
 </g>
 <!-- Node46 -->
 <g id="node45" class="node">
 <title>Node46</title>
-<g id="a_node45"><a xlink:href="classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="445,-480.5 445,-499.5 623,-499.5 623,-480.5 445,-480.5"/>
-<text text-anchor="middle" x="534" y="-487.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.IntegerRel.gencode</text>
+<g id="a_node45"><a xlink:href="classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="442.5,-638.5 442.5,-657.5 625.5,-657.5 625.5,-638.5 442.5,-638.5"/>
+<text text-anchor="middle" x="534" y="-645.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.IntegerOper.gencode</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node46 -->
+<!-- Node45&#45;&gt;Node46 -->
 <g id="edge47" class="edge">
-<title>Node44&#45;&gt;Node46</title>
-<path fill="none" stroke="midnightblue" d="M689.72,-516.72C658.07,-511.26 620.46,-504.76 590.25,-499.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="689.32,-520.21 699.77,-518.46 690.51,-513.31 689.32,-520.21"/>
+<title>Node45&#45;&gt;Node46</title>
+<path fill="none" stroke="midnightblue" d="M669.56,-503.17C666.89,-504.91 664.36,-506.85 662,-509 620.9,-546.56 667.02,-591.35 626,-629 621.96,-632.71 617.38,-635.77 612.49,-638.29"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="671.42,-506.14 678.49,-498.26 668.05,-500.01 671.42,-506.14"/>
 </g>
 <!-- Node47 -->
 <g id="node46" class="node">
 <title>Node47</title>
-<g id="a_node46"><a xlink:href="classast_1_1_ast_math_oper_1_1_double_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="442,-769.5 442,-788.5 626,-788.5 626,-769.5 442,-769.5"/>
-<text text-anchor="middle" x="534" y="-776.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.DoubleOper.gencode</text>
+<g id="a_node46"><a xlink:href="classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="445,-600.5 445,-619.5 623,-619.5 623,-600.5 445,-600.5"/>
+<text text-anchor="middle" x="534" y="-607.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.IntegerRel.gencode</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node47 -->
+<!-- Node45&#45;&gt;Node47 -->
 <g id="edge48" class="edge">
-<title>Node44&#45;&gt;Node47</title>
-<path fill="none" stroke="midnightblue" d="M669.65,-540.49C666.92,-542.41 664.35,-544.57 662,-547 595.28,-616.04 692.57,-690.82 626,-760 622.42,-763.72 618.31,-766.81 613.86,-769.36"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="671.46,-543.48 678.33,-535.41 667.93,-537.44 671.46,-543.48"/>
+<title>Node45&#45;&gt;Node47</title>
+<path fill="none" stroke="midnightblue" d="M669.22,-503.95C666.7,-505.48 664.28,-507.16 662,-509 631.03,-534.01 656.91,-565.93 626,-591 621.36,-594.76 616.16,-597.83 610.66,-600.33"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="670.88,-507.03 678.14,-499.31 667.65,-500.82 670.88,-507.03"/>
 </g>
 <!-- Node48 -->
 <g id="node47" class="node">
 <title>Node48</title>
-<g id="a_node47"><a xlink:href="classast_1_1_ast_math_oper_1_1_double_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="444.5,-731.5 444.5,-750.5 623.5,-750.5 623.5,-731.5 444.5,-731.5"/>
-<text text-anchor="middle" x="534" y="-738.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.DoubleRel.gencode</text>
+<g id="a_node47"><a xlink:href="classast_1_1_ast_math_oper_1_1_double_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="442,-562.5 442,-581.5 626,-581.5 626,-562.5 442,-562.5"/>
+<text text-anchor="middle" x="534" y="-569.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.DoubleOper.gencode</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node48 -->
+<!-- Node45&#45;&gt;Node48 -->
 <g id="edge49" class="edge">
-<title>Node44&#45;&gt;Node48</title>
-<path fill="none" stroke="midnightblue" d="M669.06,-541.08C666.55,-542.85 664.19,-544.82 662,-547 605.81,-603.11 682.07,-665.77 626,-722 622.24,-725.77 617.94,-728.89 613.29,-731.45"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="671.21,-543.88 678.06,-535.81 667.67,-537.84 671.21,-543.88"/>
+<title>Node45&#45;&gt;Node48</title>
+<path fill="none" stroke="midnightblue" d="M672.92,-503.37C669.14,-505.03 665.47,-506.9 662,-509 640.37,-522.06 647.6,-539.89 626,-553 619.65,-556.85 612.65,-559.93 605.43,-562.4"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="674.49,-506.51 682.55,-499.63 671.96,-499.99 674.49,-506.51"/>
 </g>
 <!-- Node49 -->
 <g id="node48" class="node">
 <title>Node49</title>
-<g id="a_node48"><a xlink:href="classast_1_1_ast_math_oper_1_1_pre_term.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="449,-693.5 449,-712.5 619,-712.5 619,-693.5 449,-693.5"/>
-<text text-anchor="middle" x="534" y="-700.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.PreTerm.gencode</text>
+<g id="a_node48"><a xlink:href="classast_1_1_ast_math_oper_1_1_double_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="444.5,-524.5 444.5,-543.5 623.5,-543.5 623.5,-524.5 444.5,-524.5"/>
+<text text-anchor="middle" x="534" y="-531.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.DoubleRel.gencode</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node49 -->
+<!-- Node45&#45;&gt;Node49 -->
 <g id="edge50" class="edge">
-<title>Node44&#45;&gt;Node49</title>
-<path fill="none" stroke="midnightblue" d="M669.46,-541.07C666.82,-542.83 664.32,-544.81 662,-547 616.27,-590.27 671.64,-640.64 626,-684 622.02,-687.78 617.5,-690.89 612.64,-693.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="671.33,-544.03 678.33,-536.08 667.9,-537.93 671.33,-544.03"/>
+<title>Node45&#45;&gt;Node49</title>
+<path fill="none" stroke="midnightblue" d="M697,-501.6C661.34,-508.73 616.21,-517.76 582.64,-524.47"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="698.14,-504.94 707.26,-499.55 696.77,-498.08 698.14,-504.94"/>
 </g>
 <!-- Node50 -->
 <g id="node49" class="node">
 <title>Node50</title>
-<g id="a_node49"><a xlink:href="classast_1_1_string_rel_1_1_string_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="469.5,-644 469.5,-674 598.5,-674 598.5,-644 469.5,-644"/>
-<text text-anchor="start" x="477.5" y="-662" font-family="Helvetica,sans-Serif" font-size="10.00">ast.StringRel.StringMatch</text>
-<text text-anchor="middle" x="534" y="-651" font-family="Helvetica,sans-Serif" font-size="10.00">Rel.gencode</text>
+<g id="a_node49"><a xlink:href="classast_1_1_ast_math_oper_1_1_pre_term.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="449,-486.5 449,-505.5 619,-505.5 619,-486.5 449,-486.5"/>
+<text text-anchor="middle" x="534" y="-493.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstMathOper.PreTerm.gencode</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node50 -->
+<!-- Node45&#45;&gt;Node50 -->
 <g id="edge51" class="edge">
-<title>Node44&#45;&gt;Node50</title>
-<path fill="none" stroke="midnightblue" d="M669.61,-541.59C666.95,-543.22 664.4,-545.01 662,-547 629.46,-573.96 657.76,-607.13 626,-635 618.14,-641.9 608.52,-646.84 598.52,-650.39"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="671.23,-544.7 678.48,-536.97 668,-538.49 671.23,-544.7"/>
+<title>Node45&#45;&gt;Node50</title>
+<path fill="none" stroke="midnightblue" d="M667.94,-492.37C651.91,-492.81 635.19,-493.27 619.25,-493.7"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="668.46,-495.86 678.36,-492.09 668.27,-488.86 668.46,-495.86"/>
 </g>
 <!-- Node51 -->
 <g id="node50" class="node">
 <title>Node51</title>
-<g id="a_node50"><a xlink:href="classast_1_1_string_rel_1_1_regex_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="468,-595 468,-625 600,-625 600,-595 468,-595"/>
-<text text-anchor="start" x="476" y="-613" font-family="Helvetica,sans-Serif" font-size="10.00">ast.StringRel.RegexMatch</text>
-<text text-anchor="middle" x="534" y="-602" font-family="Helvetica,sans-Serif" font-size="10.00">Rel.gencode</text>
+<g id="a_node50"><a xlink:href="classast_1_1_string_rel_1_1_string_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="469.5,-437 469.5,-467 598.5,-467 598.5,-437 469.5,-437"/>
+<text text-anchor="start" x="477.5" y="-455" font-family="Helvetica,sans-Serif" font-size="10.00">ast.StringRel.StringMatch</text>
+<text text-anchor="middle" x="534" y="-444" font-family="Helvetica,sans-Serif" font-size="10.00">Rel.gencode</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node51 -->
+<!-- Node45&#45;&gt;Node51 -->
 <g id="edge52" class="edge">
-<title>Node44&#45;&gt;Node51</title>
-<path fill="none" stroke="midnightblue" d="M674.58,-541.08C670.22,-542.82 666,-544.78 662,-547 641.66,-558.3 645.95,-573.03 626,-585 618.13,-589.72 609.35,-593.57 600.43,-596.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="676.02,-544.28 684.28,-537.64 673.68,-537.69 676.02,-544.28"/>
+<title>Node45&#45;&gt;Node51</title>
+<path fill="none" stroke="midnightblue" d="M689.82,-478.74C661.08,-473.78 627.42,-467.96 598.84,-463.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="689.32,-482.21 699.77,-480.46 690.51,-475.31 689.32,-482.21"/>
 </g>
 <!-- Node52 -->
 <g id="node51" class="node">
 <title>Node52</title>
-<g id="a_node51"><a xlink:href="classast_1_1_ast_func_call.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="コードを生成する．">
-<polygon fill="white" stroke="black" points="470.5,-556.5 470.5,-575.5 597.5,-575.5 597.5,-556.5 470.5,-556.5"/>
-<text text-anchor="middle" x="534" y="-563.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstFuncCall.gencode</text>
+<g id="a_node51"><a xlink:href="classast_1_1_string_rel_1_1_regex_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="468,-715 468,-745 600,-745 600,-715 468,-715"/>
+<text text-anchor="start" x="476" y="-733" font-family="Helvetica,sans-Serif" font-size="10.00">ast.StringRel.RegexMatch</text>
+<text text-anchor="middle" x="534" y="-722" font-family="Helvetica,sans-Serif" font-size="10.00">Rel.gencode</text>
 </a>
 </g>
 </g>
-<!-- Node44&#45;&gt;Node52 -->
+<!-- Node45&#45;&gt;Node52 -->
 <g id="edge53" class="edge">
-<title>Node44&#45;&gt;Node52</title>
-<path fill="none" stroke="midnightblue" d="M689.72,-539.28C658.07,-544.74 620.46,-551.24 590.25,-556.46"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="690.51,-542.69 699.77,-537.54 689.32,-535.79 690.51,-542.69"/>
+<title>Node45&#45;&gt;Node52</title>
+<path fill="none" stroke="midnightblue" d="M669.7,-502.53C666.95,-504.44 664.36,-506.59 662,-509 600,-572.25 685.86,-639.72 626,-705 619.02,-712.61 609.97,-717.98 600.28,-721.77"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="671.5,-505.53 678.4,-497.48 667.99,-499.47 671.5,-505.53"/>
 </g>
-<!-- Node54&#45;&gt;Node55 -->
-<g id="edge56" class="edge">
-<title>Node54&#45;&gt;Node55</title>
-<path fill="none" stroke="midnightblue" d="M674.39,-1200.06C650.51,-1202.45 624.64,-1205.04 601.75,-1207.33"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="674.88,-1203.53 684.48,-1199.05 674.18,-1196.56 674.88,-1203.53"/>
+<!-- Node53 -->
+<g id="node52" class="node">
+<title>Node53</title>
+<g id="a_node52"><a xlink:href="classast_1_1_ast_func_call.html#a383612fb2c1d291f6f3f9c352a5cb262" target="_top" xlink:title="コードを生成する．">
+<polygon fill="white" stroke="black" points="470.5,-676.5 470.5,-695.5 597.5,-695.5 597.5,-676.5 470.5,-676.5"/>
+<text text-anchor="middle" x="534" y="-683.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstFuncCall.gencode</text>
+</a>
 </g>
-<!-- Node55&#45;&gt;Node27 -->
+</g>
+<!-- Node45&#45;&gt;Node53 -->
+<g id="edge54" class="edge">
+<title>Node45&#45;&gt;Node53</title>
+<path fill="none" stroke="midnightblue" d="M669.37,-502.97C666.75,-504.76 664.28,-506.77 662,-509 610.5,-559.35 677.39,-616.54 626,-667 618.28,-674.58 608.37,-679.49 597.95,-682.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="671.24,-505.93 678.17,-497.91 667.75,-499.86 671.24,-505.93"/>
+</g>
+<!-- Node55&#45;&gt;Node56 -->
 <g id="edge57" class="edge">
-<title>Node55&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M456.11,-1214C430.83,-1214 402.98,-1214 378.62,-1214"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="456.4,-1217.5 466.4,-1214 456.4,-1210.5 456.4,-1217.5"/>
+<title>Node55&#45;&gt;Node56</title>
+<path fill="none" stroke="midnightblue" d="M674.58,-1170.08C643.67,-1176.27 609.4,-1183.12 582.55,-1188.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="675.36,-1173.5 684.48,-1168.1 673.99,-1166.63 675.36,-1173.5"/>
 </g>
-<!-- Node57 -->
-<g id="node56" class="node">
-<title>Node57</title>
-<g id="a_node56"><a xlink:href="classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c" target="_top" xlink:title="配列のモードを終了する.">
-<polygon fill="white" stroke="black" points="474.5,-366.5 474.5,-385.5 593.5,-385.5 593.5,-366.5 474.5,-366.5"/>
-<text text-anchor="middle" x="534" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.closeArray</text>
-</a>
-</g>
-</g>
-<!-- Node56&#45;&gt;Node57 -->
-<g id="edge59" class="edge">
-<title>Node56&#45;&gt;Node57</title>
-<path fill="none" stroke="midnightblue" d="M689.72,-402.72C658.07,-397.26 620.46,-390.76 590.25,-385.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="689.32,-406.21 699.77,-404.46 690.51,-399.31 689.32,-406.21"/>
-</g>
-<!-- Node63 -->
-<g id="node61" class="node">
-<title>Node63</title>
-<g id="a_node61"><a xlink:href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" target="_top" xlink:title="オブジェクトのモードを終了する.">
-<polygon fill="white" stroke="black" points="479,-309.5 479,-328.5 589,-328.5 589,-309.5 479,-309.5"/>
-<text text-anchor="middle" x="534" y="-316.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.closeObj</text>
-</a>
-</g>
-</g>
-<!-- Node56&#45;&gt;Node63 -->
-<g id="edge64" class="edge">
-<title>Node56&#45;&gt;Node63</title>
-<path fill="none" stroke="midnightblue" d="M682.01,-403.62C675.03,-401.3 668.24,-398.47 662,-395 641.66,-383.7 645.15,-370.21 626,-357 607.82,-344.46 584.86,-334.91 566.55,-328.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="681.02,-406.98 691.6,-406.48 683.02,-400.27 681.02,-406.98"/>
-</g>
-<!-- Node68 -->
-<g id="node66" class="node">
-<title>Node68</title>
-<g id="a_node66"><a xlink:href="classutil_1_1_yaml_buf.html#a0999a5efa6b597e3e8509171958f15bc" target="_top" xlink:title="入れ子を浅くする">
-<polygon fill="white" stroke="black" points="490,-404.5 490,-423.5 578,-423.5 578,-404.5 490,-404.5"/>
-<text text-anchor="middle" x="534" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.pop</text>
-</a>
-</g>
-</g>
-<!-- Node56&#45;&gt;Node68 -->
-<g id="edge70" class="edge">
-<title>Node56&#45;&gt;Node68</title>
-<path fill="none" stroke="midnightblue" d="M681.95,-414C647.55,-414 607.7,-414 578.18,-414"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="681.96,-417.5 691.96,-414 681.96,-410.5 681.96,-417.5"/>
-</g>
-<!-- Node69 -->
-<g id="node67" class="node">
-<title>Node69</title>
-<g id="a_node67"><a xlink:href="classformat_1_1_node_formatter_simple.html#aac82597a42c45dabd61899050038d1d4" target="_top" xlink:title="項表現を出力する再帰ルーチン">
-<polygon fill="white" stroke="black" points="454.5,-260 454.5,-290 613.5,-290 613.5,-260 454.5,-260"/>
-<text text-anchor="start" x="462.5" y="-278" font-family="Helvetica,sans-Serif" font-size="10.00">format.NodeFormatterSimple.rec</text>
-<text text-anchor="middle" x="534" y="-267" font-family="Helvetica,sans-Serif" font-size="10.00">EmitString</text>
-</a>
-</g>
-</g>
-<!-- Node56&#45;&gt;Node69 -->
-<g id="edge71" class="edge">
-<title>Node56&#45;&gt;Node69</title>
-<path fill="none" stroke="midnightblue" d="M681.61,-406.55C674.49,-403.68 667.78,-399.92 662,-395 627.61,-365.74 659.39,-330.39 626,-300 621.76,-296.14 616.98,-292.87 611.88,-290.1"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="680.93,-410.01 691.53,-409.92 683.19,-403.39 680.93,-410.01"/>
-</g>
-<!-- Node71 -->
-<g id="node69" class="node">
-<title>Node71</title>
-<g id="a_node69"><a xlink:href="classutil_1_1_yaml_buf.html#a4048c4dbacc178a6483bd8b894b78f18" target="_top" xlink:title="要素列を中かっこで囲んだオブジェクト表現の文字列を返す．">
-<polygon fill="white" stroke="black" points="467,-221.5 467,-240.5 601,-240.5 601,-221.5 467,-221.5"/>
-<text text-anchor="middle" x="534" y="-228.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.toObjectString</text>
-</a>
-</g>
-</g>
-<!-- Node56&#45;&gt;Node71 -->
-<g id="edge73" class="edge">
-<title>Node56&#45;&gt;Node71</title>
-<path fill="none" stroke="midnightblue" d="M682.13,-407.68C674.7,-404.65 667.77,-400.53 662,-395 614.35,-349.38 673.31,-296.97 626,-251 619.04,-244.24 610.34,-239.54 601.11,-236.32"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="681.18,-411.06 691.77,-410.98 683.45,-404.43 681.18,-411.06"/>
+<!-- Node56&#45;&gt;Node28 -->
+<g id="edge58" class="edge">
+<title>Node56&#45;&gt;Node28</title>
+<path fill="none" stroke="midnightblue" d="M456.45,-1208.44C431.08,-1211.9 403.09,-1215.71 378.62,-1219.05"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="456.96,-1211.9 466.4,-1207.08 456.01,-1204.97 456.96,-1211.9"/>
 </g>
 <!-- Node58 -->
 <g id="node57" class="node">
 <title>Node58</title>
-<g id="a_node57"><a xlink:href="classutil_1_1_util.html#a4581c93b5836ca546d74ed8e57228386" target="_top" xlink:title="要素の型パラメータTをもつ配列と、YamlBufの初期化関数と要素の変換関数を受け取り、清書文字列を返す。">
-<polygon fill="white" stroke="black" points="275,-404.5 275,-423.5 349,-423.5 349,-404.5 275,-404.5"/>
-<text text-anchor="middle" x="312" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">arrayToString</text>
+<g id="a_node57"><a xlink:href="classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c" target="_top" xlink:title="配列のモードを終了する.">
+<polygon fill="white" stroke="black" points="474.5,-398.5 474.5,-417.5 593.5,-417.5 593.5,-398.5 474.5,-398.5"/>
+<text text-anchor="middle" x="534" y="-405.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.closeArray</text>
 </a>
 </g>
 </g>
 <!-- Node57&#45;&gt;Node58 -->
 <g id="edge60" class="edge">
 <title>Node57&#45;&gt;Node58</title>
-<path fill="none" stroke="midnightblue" d="M467.62,-387.29C428.92,-393.98 381.34,-402.2 349.27,-407.74"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="468.51,-390.69 477.77,-385.54 467.32,-383.79 468.51,-390.69"/>
-</g>
-<!-- Node59 -->
-<g id="node58" class="node">
-<title>Node59</title>
-<g id="a_node58"><a xlink:href="classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" target="_top" xlink:title="フレームポインタfpからフレームの文字列表現を返す">
-<polygon fill="white" stroke="black" points="242,-443 242,-473 382,-473 382,-443 242,-443"/>
-<text text-anchor="start" x="250" y="-461" font-family="Helvetica,sans-Serif" font-size="10.00">frame.FrameStackUni.frame</text>
-<text text-anchor="middle" x="312" y="-450" font-family="Helvetica,sans-Serif" font-size="10.00">ToString</text>
-</a>
-</g>
-</g>
-<!-- Node57&#45;&gt;Node59 -->
-<g id="edge61" class="edge">
-<title>Node57&#45;&gt;Node59</title>
-<path fill="none" stroke="midnightblue" d="M464.63,-385.5C456.74,-387.97 449.01,-391.09 442,-395 421.69,-406.34 425.98,-421.09 406,-433 398.68,-437.37 390.58,-440.98 382.31,-443.98"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="465.63,-388.86 474.31,-382.79 463.74,-382.12 465.63,-388.86"/>
-</g>
-<!-- Node60 -->
-<g id="node59" class="node">
-<title>Node60</title>
-<g id="a_node59"><a xlink:href="classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263" target="_top" xlink:title="内部仕様のYamlBufの初期化器yamlInitializerと要素の清書器elemWriterをもつ清書出力文字列を返す実装手続き。">
-<polygon fill="white" stroke="red" points="252,-366.5 252,-385.5 372,-385.5 372,-366.5 252,-366.5"/>
-<text text-anchor="middle" x="312" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.AutoStack.toString_</text>
-</a>
-</g>
-</g>
-<!-- Node57&#45;&gt;Node60 -->
-<g id="edge62" class="edge">
-<title>Node57&#45;&gt;Node60</title>
-<path fill="none" stroke="midnightblue" d="M464.12,-376C434.65,-376 400.59,-376 372.27,-376"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="464.33,-379.5 474.33,-376 464.33,-372.5 464.33,-379.5"/>
-</g>
-<!-- Node61 -->
-<g id="node60" class="node">
-<title>Node61</title>
-<g id="a_node60"><a xlink:href="classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" target="_top" xlink:title="フレームスタックの文字列表現を返す.">
-<polygon fill="white" stroke="black" points="16.5,-366.5 16.5,-385.5 165.5,-385.5 165.5,-366.5 16.5,-366.5"/>
-<text text-anchor="middle" x="91" y="-373.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame.FrameStackUni.toString</text>
-</a>
-</g>
-</g>
-<!-- Node60&#45;&gt;Node61 -->
-<g id="edge63" class="edge">
-<title>Node60&#45;&gt;Node61</title>
-<path fill="none" stroke="midnightblue" d="M241.59,-376C217.45,-376 190.28,-376 165.8,-376"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="241.74,-379.5 251.74,-376 241.74,-372.5 241.74,-379.5"/>
-</g>
-<!-- Node63&#45;&gt;Node61 -->
-<g id="edge67" class="edge">
-<title>Node63&#45;&gt;Node61</title>
-<path fill="none" stroke="midnightblue" d="M468.7,-312.37C459.22,-309.51 449.97,-305.53 442,-300 417.38,-282.92 432.24,-257.46 406,-243 332.82,-202.67 294.76,-209.98 218,-243 157.23,-269.14 112.03,-340.6 97.22,-366.48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="468.06,-315.82 478.62,-314.95 469.83,-309.04 468.06,-315.82"/>
+<path fill="none" stroke="midnightblue" d="M681.59,-412C652.94,-411.22 620.56,-410.33 593.53,-409.6"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="681.87,-415.51 691.96,-412.28 682.06,-408.51 681.87,-415.51"/>
 </g>
 <!-- Node64 -->
 <g id="node62" class="node">
 <title>Node64</title>
-<g id="a_node62"><a xlink:href="classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" target="_top" xlink:title="ノード名文字列を返す。">
-<polygon fill="white" stroke="black" points="254.5,-252.5 254.5,-271.5 369.5,-271.5 369.5,-252.5 254.5,-252.5"/>
-<text text-anchor="middle" x="312" y="-259.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstScanFrom.data</text>
+<g id="a_node62"><a xlink:href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" target="_top" xlink:title="オブジェクトのモードを終了する.">
+<polygon fill="white" stroke="black" points="479,-208.5 479,-227.5 589,-227.5 589,-208.5 479,-208.5"/>
+<text text-anchor="middle" x="534" y="-215.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.closeObj</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node64 -->
+<!-- Node57&#45;&gt;Node64 -->
 <g id="edge65" class="edge">
-<title>Node63&#45;&gt;Node64</title>
-<path fill="none" stroke="midnightblue" d="M468.99,-308C459.82,-305.75 450.59,-303.09 442,-300 424.98,-293.87 423.03,-287.09 406,-281 394.52,-276.89 381.9,-273.57 369.77,-270.93"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="468.36,-311.45 478.89,-310.3 469.94,-304.63 468.36,-311.45"/>
+<title>Node57&#45;&gt;Node64</title>
+<path fill="none" stroke="midnightblue" d="M726.28,-399.67C706.99,-389.29 681.62,-374.12 662,-357 642.96,-340.39 642.75,-331.92 626,-313 597.53,-280.86 561.8,-244.69 544.83,-227.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="724.73,-402.81 735.21,-404.37 727.99,-396.61 724.73,-402.81"/>
 </g>
-<!-- Node65 -->
-<g id="node63" class="node">
-<title>Node65</title>
-<g id="a_node63"><a xlink:href="classutil_1_1_util.html#ac22c9249f3cd4656475c2f5ebefa4d0c" target="_top" xlink:title="オブジェクトのすべてのpublicフィールドを表すyaml文字列を返す．">
-<polygon fill="white" stroke="black" points="258.5,-176.5 258.5,-195.5 365.5,-195.5 365.5,-176.5 258.5,-176.5"/>
-<text text-anchor="middle" x="312" y="-183.5" font-family="Helvetica,sans-Serif" font-size="10.00">getClassFieldsString</text>
+<!-- Node69 -->
+<g id="node67" class="node">
+<title>Node69</title>
+<g id="a_node67"><a xlink:href="classutil_1_1_yaml_buf.html#a0999a5efa6b597e3e8509171958f15bc" target="_top" xlink:title="入れ子を浅くする">
+<polygon fill="white" stroke="black" points="490,-360.5 490,-379.5 578,-379.5 578,-360.5 490,-360.5"/>
+<text text-anchor="middle" x="534" y="-367.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.pop</text>
 </a>
 </g>
 </g>
-<!-- Node63&#45;&gt;Node65 -->
-<g id="edge66" class="edge">
-<title>Node63&#45;&gt;Node65</title>
-<path fill="none" stroke="midnightblue" d="M468.75,-313.92C459.03,-310.9 449.7,-306.46 442,-300 409,-272.31 438.35,-238.45 406,-210 394.86,-200.2 380.22,-194.31 365.87,-190.8"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="467.99,-317.34 478.55,-316.49 469.77,-310.57 467.99,-317.34"/>
-</g>
-<!-- Node66 -->
-<g id="node64" class="node">
-<title>Node66</title>
-<g id="a_node64"><a xlink:href="classutil_1_1_stack_base_1_1_stat.html#ad146fa8579a5f8a876c4688cc5a68520" target="_top" xlink:title="文字列表現を返す。">
-<polygon fill="white" stroke="black" points="243,-328.5 243,-347.5 381,-347.5 381,-328.5 243,-328.5"/>
-<text text-anchor="middle" x="312" y="-335.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.Stat.toString</text>
-</a>
-</g>
-</g>
-<!-- Node63&#45;&gt;Node66 -->
-<g id="edge68" class="edge">
-<title>Node63&#45;&gt;Node66</title>
-<path fill="none" stroke="midnightblue" d="M468.61,-324.56C441.11,-326.94 408.99,-329.71 381.1,-332.12"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="469.24,-328.02 478.9,-323.67 468.64,-321.05 469.24,-328.02"/>
-</g>
-<!-- Node67 -->
-<g id="node65" class="node">
-<title>Node67</title>
-<g id="a_node65"><a xlink:href="classframe_1_1_mem_cell.html#ab5737202b3944479ae53931222a29ac3" target="_top" xlink:title="メモリセルの内容を表す文字列を返す。">
-<polygon fill="white" stroke="black" points="252,-290.5 252,-309.5 372,-309.5 372,-290.5 252,-290.5"/>
-<text text-anchor="middle" x="312" y="-297.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame.MemCell.toString</text>
-</a>
-</g>
-</g>
-<!-- Node63&#45;&gt;Node67 -->
-<g id="edge69" class="edge">
-<title>Node63&#45;&gt;Node67</title>
-<path fill="none" stroke="midnightblue" d="M468.8,-313.46C438.32,-310.82 402.13,-307.7 372.31,-305.12"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="468.64,-316.95 478.9,-314.33 469.24,-309.98 468.64,-316.95"/>
+<!-- Node57&#45;&gt;Node69 -->
+<g id="edge71" class="edge">
+<title>Node57&#45;&gt;Node69</title>
+<path fill="none" stroke="midnightblue" d="M697.04,-402.41C659.77,-394.95 612.13,-385.43 578.17,-378.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="696.77,-405.92 707.26,-404.45 698.14,-399.06 696.77,-405.92"/>
 </g>
 <!-- Node70 -->
 <g id="node68" class="node">
 <title>Node70</title>
-<g id="a_node68"><a xlink:href="classformat_1_1_node_formatter_simple.html#a46d5211e25bcc126f592fb7630291d12" target="_top" xlink:title="項表現の出力">
-<polygon fill="white" stroke="black" points="230,-127 230,-157 394,-157 394,-127 230,-127"/>
-<text text-anchor="start" x="238" y="-145" font-family="Helvetica,sans-Serif" font-size="10.00">format.NodeFormatterSimple.emit</text>
-<text text-anchor="middle" x="312" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">String</text>
+<g id="a_node68"><a xlink:href="classformat_1_1_node_formatter_simple.html#aac82597a42c45dabd61899050038d1d4" target="_top" xlink:title="項表現を出力する再帰ルーチン">
+<polygon fill="white" stroke="black" points="454.5,-159 454.5,-189 613.5,-189 613.5,-159 454.5,-159"/>
+<text text-anchor="start" x="462.5" y="-177" font-family="Helvetica,sans-Serif" font-size="10.00">format.NodeFormatterSimple.rec</text>
+<text text-anchor="middle" x="534" y="-166" font-family="Helvetica,sans-Serif" font-size="10.00">EmitString</text>
 </a>
 </g>
 </g>
-<!-- Node69&#45;&gt;Node70 -->
+<!-- Node57&#45;&gt;Node70 -->
 <g id="edge72" class="edge">
-<title>Node69&#45;&gt;Node70</title>
-<path fill="none" stroke="midnightblue" d="M448.14,-254.74C446,-253.27 443.95,-251.69 442,-250 411.63,-223.64 436.44,-193.27 406,-167 401.57,-163.18 396.61,-159.93 391.36,-157.18"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="446.39,-257.77 456.76,-259.91 449.98,-251.77 446.39,-257.77"/>
+<title>Node57&#45;&gt;Node70</title>
+<path fill="none" stroke="midnightblue" d="M719.12,-400.28C699.4,-390.95 676.14,-376.7 662,-357 620.01,-298.49 675.79,-251.04 626,-199 622.38,-195.21 618.23,-191.98 613.76,-189.23"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="717.91,-403.57 728.46,-404.47 720.77,-397.18 717.91,-403.57"/>
+</g>
+<!-- Node59 -->
+<g id="node58" class="node">
+<title>Node59</title>
+<g id="a_node58"><a xlink:href="classutil_1_1_util.html#a4581c93b5836ca546d74ed8e57228386" target="_top" xlink:title="要素の型パラメータTをもつ配列と、YamlBufの初期化関数と要素の変換関数を受け取り、清書文字列を返す。">
+<polygon fill="white" stroke="black" points="275,-535.5 275,-554.5 349,-554.5 349,-535.5 275,-535.5"/>
+<text text-anchor="middle" x="312" y="-542.5" font-family="Helvetica,sans-Serif" font-size="10.00">arrayToString</text>
+</a>
+</g>
+</g>
+<!-- Node58&#45;&gt;Node59 -->
+<g id="edge61" class="edge">
+<title>Node58&#45;&gt;Node59</title>
+<path fill="none" stroke="midnightblue" d="M464.36,-415.12C456.2,-418.17 448.48,-422.34 442,-428 407.04,-458.51 441.18,-495.75 406,-526 390.51,-539.32 368.2,-544.2 349.32,-545.68"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="465.62,-418.39 474.09,-412.02 463.5,-411.72 465.62,-418.39"/>
+</g>
+<!-- Node60 -->
+<g id="node59" class="node">
+<title>Node60</title>
+<g id="a_node59"><a xlink:href="classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" target="_top" xlink:title="フレームポインタfpからフレームの文字列表現を返す">
+<polygon fill="white" stroke="black" points="242,-574 242,-604 382,-604 382,-574 242,-574"/>
+<text text-anchor="start" x="250" y="-592" font-family="Helvetica,sans-Serif" font-size="10.00">frame.FrameStackUni.frame</text>
+<text text-anchor="middle" x="312" y="-581" font-family="Helvetica,sans-Serif" font-size="10.00">ToString</text>
+</a>
+</g>
+</g>
+<!-- Node58&#45;&gt;Node60 -->
+<g id="edge62" class="edge">
+<title>Node58&#45;&gt;Node60</title>
+<path fill="none" stroke="midnightblue" d="M464.77,-414.2C456.35,-417.37 448.45,-421.82 442,-428 396.86,-471.26 450.13,-519.7 406,-564 399.27,-570.75 390.93,-575.74 382.03,-579.41"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="465.98,-417.49 474.46,-411.14 463.87,-410.82 465.98,-417.49"/>
+</g>
+<!-- Node61 -->
+<g id="node60" class="node">
+<title>Node61</title>
+<g id="a_node60"><a xlink:href="classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263" target="_top" xlink:title="内部仕様のYamlBufの初期化器yamlInitializerと要素の清書器elemWriterをもつ清書出力文字列を返す実装手続き。">
+<polygon fill="white" stroke="red" points="252,-322.5 252,-341.5 372,-341.5 372,-322.5 252,-322.5"/>
+<text text-anchor="middle" x="312" y="-329.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.AutoStack.toString_</text>
+</a>
+</g>
+</g>
+<!-- Node58&#45;&gt;Node61 -->
+<g id="edge63" class="edge">
+<title>Node58&#45;&gt;Node61</title>
+<path fill="none" stroke="midnightblue" d="M468.18,-396.22C459.3,-394.1 450.37,-391.69 442,-389 401.21,-375.89 355.9,-354.07 331.32,-341.57"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="467.61,-399.68 478.14,-398.49 469.17,-392.85 467.61,-399.68"/>
+</g>
+<!-- Node62 -->
+<g id="node61" class="node">
+<title>Node62</title>
+<g id="a_node61"><a xlink:href="classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" target="_top" xlink:title="フレームスタックの文字列表現を返す.">
+<polygon fill="white" stroke="black" points="16.5,-284.5 16.5,-303.5 165.5,-303.5 165.5,-284.5 16.5,-284.5"/>
+<text text-anchor="middle" x="91" y="-291.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame.FrameStackUni.toString</text>
+</a>
+</g>
+</g>
+<!-- Node61&#45;&gt;Node62 -->
+<g id="edge64" class="edge">
+<title>Node61&#45;&gt;Node62</title>
+<path fill="none" stroke="midnightblue" d="M246.02,-320.72C214.51,-315.26 177.08,-308.76 147,-303.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="245.57,-324.2 256.02,-322.46 246.77,-317.3 245.57,-324.2"/>
+</g>
+<!-- Node64&#45;&gt;Node62 -->
+<g id="edge68" class="edge">
+<title>Node64&#45;&gt;Node62</title>
+<path fill="none" stroke="midnightblue" d="M468.87,-209.76C459.51,-207.11 450.26,-203.61 442,-199 421.69,-187.66 427.37,-170.19 406,-161 329.24,-127.98 294.76,-127.98 218,-161 157.23,-187.14 112.03,-258.6 97.22,-284.48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="468.06,-213.16 478.62,-212.22 469.78,-206.38 468.06,-213.16"/>
+</g>
+<!-- Node65 -->
+<g id="node63" class="node">
+<title>Node65</title>
+<g id="a_node63"><a xlink:href="classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" target="_top" xlink:title="ノード名文字列を返す。">
+<polygon fill="white" stroke="black" points="254.5,-170.5 254.5,-189.5 369.5,-189.5 369.5,-170.5 254.5,-170.5"/>
+<text text-anchor="middle" x="312" y="-177.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstScanFrom.data</text>
+</a>
+</g>
+</g>
+<!-- Node64&#45;&gt;Node65 -->
+<g id="edge66" class="edge">
+<title>Node64&#45;&gt;Node65</title>
+<path fill="none" stroke="midnightblue" d="M468.77,-206.91C436.83,-201.39 398.62,-194.79 368.04,-189.51"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="468.45,-210.4 478.9,-208.66 469.64,-203.5 468.45,-210.4"/>
+</g>
+<!-- Node66 -->
+<g id="node64" class="node">
+<title>Node66</title>
+<g id="a_node64"><a xlink:href="classutil_1_1_util.html#ac22c9249f3cd4656475c2f5ebefa4d0c" target="_top" xlink:title="オブジェクトのすべてのpublicフィールドを表すyaml文字列を返す．">
+<polygon fill="white" stroke="black" points="258.5,-94.5 258.5,-113.5 365.5,-113.5 365.5,-94.5 258.5,-94.5"/>
+<text text-anchor="middle" x="312" y="-101.5" font-family="Helvetica,sans-Serif" font-size="10.00">getClassFieldsString</text>
+</a>
+</g>
+</g>
+<!-- Node64&#45;&gt;Node66 -->
+<g id="edge67" class="edge">
+<title>Node64&#45;&gt;Node66</title>
+<path fill="none" stroke="midnightblue" d="M468.88,-212.22C459.22,-209.27 449.88,-205.04 442,-199 413.91,-177.48 433.58,-150.17 406,-128 394.56,-118.81 380,-113.1 365.81,-109.56"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="468.03,-215.61 478.59,-214.75 469.8,-208.84 468.03,-215.61"/>
+</g>
+<!-- Node67 -->
+<g id="node65" class="node">
+<title>Node67</title>
+<g id="a_node65"><a xlink:href="classutil_1_1_stack_base_1_1_stat.html#ad146fa8579a5f8a876c4688cc5a68520" target="_top" xlink:title="文字列表現を返す。">
+<polygon fill="white" stroke="black" points="243,-246.5 243,-265.5 381,-265.5 381,-246.5 243,-246.5"/>
+<text text-anchor="middle" x="312" y="-253.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.Stat.toString</text>
+</a>
+</g>
+</g>
+<!-- Node64&#45;&gt;Node67 -->
+<g id="edge69" class="edge">
+<title>Node64&#45;&gt;Node67</title>
+<path fill="none" stroke="midnightblue" d="M468.77,-229.09C436.83,-234.61 398.62,-241.21 368.04,-246.49"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="469.64,-232.5 478.9,-227.34 468.45,-225.6 469.64,-232.5"/>
+</g>
+<!-- Node68 -->
+<g id="node66" class="node">
+<title>Node68</title>
+<g id="a_node66"><a xlink:href="classframe_1_1_mem_cell.html#ab5737202b3944479ae53931222a29ac3" target="_top" xlink:title="メモリセルの内容を表す文字列を返す。">
+<polygon fill="white" stroke="black" points="252,-208.5 252,-227.5 372,-227.5 372,-208.5 252,-208.5"/>
+<text text-anchor="middle" x="312" y="-215.5" font-family="Helvetica,sans-Serif" font-size="10.00">frame.MemCell.toString</text>
+</a>
+</g>
+</g>
+<!-- Node64&#45;&gt;Node68 -->
+<g id="edge70" class="edge">
+<title>Node64&#45;&gt;Node68</title>
+<path fill="none" stroke="midnightblue" d="M468.8,-218C438.32,-218 402.13,-218 372.31,-218"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="468.9,-221.5 478.9,-218 468.9,-214.5 468.9,-221.5"/>
+</g>
+<!-- Node71 -->
+<g id="node69" class="node">
+<title>Node71</title>
+<g id="a_node69"><a xlink:href="classformat_1_1_node_formatter_simple.html#a46d5211e25bcc126f592fb7630291d12" target="_top" xlink:title="項表現の出力">
+<polygon fill="white" stroke="black" points="230,-45 230,-75 394,-75 394,-45 230,-45"/>
+<text text-anchor="start" x="238" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">format.NodeFormatterSimple.emit</text>
+<text text-anchor="middle" x="312" y="-52" font-family="Helvetica,sans-Serif" font-size="10.00">String</text>
+</a>
+</g>
+</g>
+<!-- Node70&#45;&gt;Node71 -->
+<g id="edge73" class="edge">
+<title>Node70&#45;&gt;Node71</title>
+<path fill="none" stroke="midnightblue" d="M449.23,-154.01C446.72,-152.46 444.3,-150.8 442,-149 416.28,-128.91 431.77,-105.02 406,-85 400.98,-81.1 395.41,-77.81 389.55,-75.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="447.64,-157.13 458.09,-158.83 450.98,-150.98 447.64,-157.13"/>
 </g>
 <!-- Node73 -->
 <g id="node71" class="node">
 <title>Node73</title>
 <g id="a_node71"><a xlink:href="classutil_1_1_report.html#af0022e20c64f9d3646a91a82b49c0ea8" target="_top" xlink:title="現在の入れ子深さで段差げして，関数の戻りと文字列msgを出力する。">
-<polygon fill="white" stroke="black" points="494,-183.5 494,-202.5 574,-202.5 574,-183.5 494,-183.5"/>
-<text text-anchor="middle" x="534" y="-190.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.exit</text>
+<polygon fill="white" stroke="black" points="494,-120.5 494,-139.5 574,-139.5 574,-120.5 494,-120.5"/>
+<text text-anchor="middle" x="534" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.Report.exit</text>
 </a>
 </g>
 </g>
 <!-- Node72&#45;&gt;Node73 -->
 <g id="edge75" class="edge">
 <title>Node72&#45;&gt;Node73</title>
-<path fill="none" stroke="midnightblue" d="M705.59,-375.97C689.89,-373.54 673.61,-368.13 662,-357 614.08,-311.04 673.83,-258.06 626,-212 612.4,-198.9 592.22,-193.81 574.32,-192.14"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="705.42,-379.47 715.76,-377.16 706.24,-372.52 705.42,-379.47"/>
+<path fill="none" stroke="midnightblue" d="M705.36,-338.2C689.65,-335.79 673.42,-330.33 662,-319 607.19,-264.59 680.69,-203.53 626,-149 612.51,-135.55 592.13,-130.47 574.06,-128.89"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="705.23,-341.7 715.56,-339.37 706.03,-334.75 705.23,-341.7"/>
 </g>
-<!-- Node74&#45;&gt;Node28 -->
+<!-- Node74&#45;&gt;Node29 -->
 <g id="edge77" class="edge">
-<title>Node74&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M460.13,-1034.61C392.4,-1038.39 291.24,-1052.49 218,-1100 151.66,-1143.03 108.79,-1234.12 96.01,-1264.16"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="460.47,-1038.1 470.29,-1034.11 460.13,-1031.11 460.47,-1038.1"/>
+<title>Node74&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M460.21,-1077.1C394.53,-1083.82 296.46,-1099.18 218,-1134 169.36,-1155.59 121.71,-1198.83 101.77,-1218.21"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="460.85,-1080.56 470.46,-1076.1 460.17,-1073.59 460.85,-1080.56"/>
 </g>
 <!-- Node76 -->
 <g id="node74" class="node">
 <title>Node76</title>
 <g id="a_node74"><a xlink:href="classcompile_1_1_x_c_flat.html#ac7e5b6769d875e1767039c9844e71f3c" target="_top" xlink:title="与えられた抽象構文木（AST）を正規形の抽象構文木に変換する.">
-<polygon fill="white" stroke="black" points="477,-1378.5 477,-1397.5 591,-1397.5 591,-1378.5 477,-1378.5"/>
-<text text-anchor="middle" x="534" y="-1385.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCFlat.flatten</text>
+<polygon fill="white" stroke="black" points="477,-990.5 477,-1009.5 591,-1009.5 591,-990.5 477,-990.5"/>
+<text text-anchor="middle" x="534" y="-997.5" font-family="Helvetica,sans-Serif" font-size="10.00">compile.XCFlat.flatten</text>
 </a>
 </g>
 </g>
 <!-- Node75&#45;&gt;Node76 -->
 <g id="edge80" class="edge">
 <title>Node75&#45;&gt;Node76</title>
-<path fill="none" stroke="midnightblue" d="M687.24,-1388C656.4,-1388 620.33,-1388 591.04,-1388"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="687.48,-1391.5 697.48,-1388 687.48,-1384.5 687.48,-1391.5"/>
+<path fill="none" stroke="midnightblue" d="M687.24,-997.23C656.4,-997.79 620.33,-998.45 591.04,-998.98"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="687.55,-1000.73 697.48,-997.05 687.42,-993.73 687.55,-1000.73"/>
 </g>
-<!-- Node76&#45;&gt;Node28 -->
+<!-- Node76&#45;&gt;Node29 -->
 <g id="edge81" class="edge">
-<title>Node76&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M466.83,-1383.15C402.13,-1377.05 301.45,-1363.92 218,-1337 175.87,-1323.41 130.33,-1297.54 107.26,-1283.55"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="466.62,-1386.64 476.89,-1384.07 467.25,-1379.67 466.62,-1386.64"/>
+<title>Node76&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M466.9,-1005.03C399.8,-1012.71 295.1,-1031.97 218,-1080 158.42,-1117.11 112.48,-1191.62 97.34,-1218.26"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="467.36,-1008.5 476.92,-1003.94 466.6,-1001.54 467.36,-1008.5"/>
 </g>
 <!-- Node78 -->
 <g id="node76" class="node">
@@ -1412,163 +1397,148 @@
 <path fill="none" stroke="midnightblue" d="M685.46,-1350C660.95,-1350 633.33,-1350 608.51,-1350"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="685.75,-1353.5 695.75,-1350 685.75,-1346.5 685.75,-1353.5"/>
 </g>
-<!-- Node78&#45;&gt;Node28 -->
+<!-- Node78&#45;&gt;Node29 -->
 <g id="edge84" class="edge">
-<title>Node78&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M449.31,-1342.37C385.53,-1335.76 295.72,-1324.77 218,-1309 184.63,-1302.23 147.1,-1291.38 121.75,-1283.55"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="449.01,-1345.85 459.32,-1343.39 449.73,-1338.89 449.01,-1345.85"/>
+<title>Node78&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M449.19,-1351.28C384.21,-1349.72 292.92,-1341.89 218,-1314 169.85,-1296.08 122.32,-1255.93 102.12,-1237.54"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="449.32,-1354.78 459.39,-1351.47 449.46,-1347.78 449.32,-1354.78"/>
 </g>
-<!-- Node80&#45;&gt;Node74 -->
-<g id="edge87" class="edge">
-<title>Node80&#45;&gt;Node74</title>
-<path fill="none" stroke="midnightblue" d="M689.72,-1060.72C658.07,-1055.26 620.46,-1048.76 590.25,-1043.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="689.32,-1064.21 699.77,-1062.46 690.51,-1057.31 689.32,-1064.21"/>
+<!-- Node79&#45;&gt;Node74 -->
+<g id="edge86" class="edge">
+<title>Node79&#45;&gt;Node74</title>
+<path fill="none" stroke="midnightblue" d="M689.72,-1045.28C658.07,-1050.74 620.46,-1057.24 590.25,-1062.46"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="690.51,-1048.69 699.77,-1043.54 689.32,-1041.79 690.51,-1048.69"/>
 </g>
-<!-- Node82&#45;&gt;Node28 -->
-<g id="edge90" class="edge">
-<title>Node82&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M465.43,-1307.53C401.6,-1303.15 303.22,-1295.98 218,-1288 198.72,-1286.19 177.8,-1283.98 158.65,-1281.84"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="465.54,-1311.05 475.76,-1308.24 466.02,-1304.06 465.54,-1311.05"/>
+<!-- Node81&#45;&gt;Node29 -->
+<g id="edge89" class="edge">
+<title>Node81&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M465.85,-1313.95C401.26,-1314.18 301.39,-1310.2 218,-1288 175.62,-1276.72 130.18,-1251.39 107.2,-1237.53"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="465.93,-1317.45 475.91,-1313.88 465.88,-1310.45 465.93,-1317.45"/>
 </g>
-<!-- Node90&#45;&gt;Node58 -->
-<g id="edge99" class="edge">
-<title>Node90&#45;&gt;Node58</title>
-<path fill="none" stroke="midnightblue" d="M479.3,-442.72C438.81,-435.73 384.39,-426.33 349.01,-420.22"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="478.82,-446.19 489.27,-444.45 480.01,-439.3 478.82,-446.19"/>
+<!-- Node89&#45;&gt;Node59 -->
+<g id="edge98" class="edge">
+<title>Node89&#45;&gt;Node59</title>
+<path fill="none" stroke="midnightblue" d="M479.3,-332.92C465.57,-335.69 451.9,-341.07 442,-351 385.93,-407.23 462.19,-469.89 406,-526 391.31,-540.67 368.55,-545.5 349.22,-546.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="479.94,-336.36 489.26,-331.33 478.84,-329.45 479.94,-336.36"/>
 </g>
-<!-- Node90&#45;&gt;Node59 -->
-<g id="edge101" class="edge">
-<title>Node90&#45;&gt;Node59</title>
-<path fill="none" stroke="midnightblue" d="M479.25,-453.47C450.02,-454.26 413.53,-455.26 382.2,-456.11"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="479.37,-456.96 489.27,-453.19 479.18,-449.97 479.37,-456.96"/>
-</g>
-<!-- Node90&#45;&gt;Node60 -->
-<g id="edge112" class="edge">
-<title>Node90&#45;&gt;Node60</title>
-<path fill="none" stroke="midnightblue" d="M479.32,-446.38C466.55,-443.56 453.34,-439.33 442,-433 421.69,-421.66 426.34,-406.3 406,-395 395.77,-389.32 384.06,-385.33 372.48,-382.53"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="478.95,-449.87 489.43,-448.36 480.29,-443 478.95,-449.87"/>
-</g>
-<!-- Node90&#45;&gt;Node61 -->
-<g id="edge107" class="edge">
-<title>Node90&#45;&gt;Node61</title>
-<path fill="none" stroke="midnightblue" d="M479.04,-454.11C465.7,-456.95 452.29,-462.06 442,-471 406.35,-501.99 444.65,-543.84 406,-571 337.64,-619.05 291.38,-610.95 218,-571 141.54,-529.37 104.4,-419.17 94.67,-385.75"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="479.92,-457.51 489.18,-452.37 478.73,-450.62 479.92,-457.51"/>
-</g>
-<!-- Node90&#45;&gt;Node64 -->
+<!-- Node89&#45;&gt;Node60 -->
 <g id="edge100" class="edge">
-<title>Node90&#45;&gt;Node64</title>
-<path fill="none" stroke="midnightblue" d="M479.5,-450.89C465.76,-448.12 452.05,-442.78 442,-433 392.26,-384.57 455.85,-329.32 406,-281 396.18,-271.48 382.95,-266.14 369.56,-263.26"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="479.02,-454.36 489.45,-452.48 480.12,-447.45 479.02,-454.36"/>
+<title>Node89&#45;&gt;Node60</title>
+<path fill="none" stroke="midnightblue" d="M479.07,-332.69C465.34,-335.46 451.73,-340.89 442,-351 375.43,-420.18 470.58,-492.96 406,-564 399.48,-571.18 391.14,-576.38 382.14,-580.15"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="479.71,-336.13 489.04,-331.12 478.62,-329.22 479.71,-336.13"/>
 </g>
-<!-- Node90&#45;&gt;Node66 -->
+<!-- Node89&#45;&gt;Node61 -->
+<g id="edge110" class="edge">
+<title>Node89&#45;&gt;Node61</title>
+<path fill="none" stroke="midnightblue" d="M479.08,-332C446.66,-332 405.36,-332 372.06,-332"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="479.27,-335.5 489.27,-332 479.27,-328.5 479.27,-335.5"/>
+</g>
+<!-- Node89&#45;&gt;Node62 -->
+<g id="edge105" class="edge">
+<title>Node89&#45;&gt;Node62</title>
+<path fill="none" stroke="midnightblue" d="M479.27,-322.89C456.7,-319.34 430.13,-315.53 406,-313 323.98,-304.4 229.47,-299.34 165.75,-296.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="478.91,-326.38 489.33,-324.5 480.01,-319.46 478.91,-326.38"/>
+</g>
+<!-- Node89&#45;&gt;Node65 -->
+<g id="edge99" class="edge">
+<title>Node89&#45;&gt;Node65</title>
+<path fill="none" stroke="midnightblue" d="M516.66,-314.99C498.42,-296.01 468.05,-264.35 442,-237 425.95,-220.16 426.34,-210.3 406,-199 394.91,-192.84 382.07,-188.67 369.55,-185.84"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="514.23,-317.52 523.68,-322.31 519.28,-312.67 514.23,-317.52"/>
+</g>
+<!-- Node89&#45;&gt;Node67 -->
+<g id="edge107" class="edge">
+<title>Node89&#45;&gt;Node67</title>
+<path fill="none" stroke="midnightblue" d="M502.74,-318.25C477.28,-307.01 439.74,-291.2 406,-280 389.54,-274.54 371.11,-269.55 355.02,-265.56"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="501.65,-321.59 512.21,-322.46 504.49,-315.2 501.65,-321.59"/>
+</g>
+<!-- Node89&#45;&gt;Node68 -->
 <g id="edge109" class="edge">
-<title>Node90&#45;&gt;Node66</title>
-<path fill="none" stroke="midnightblue" d="M479.23,-449.12C466,-446.28 452.61,-441.36 442,-433 412.64,-409.87 435.41,-380.06 406,-357 398.74,-351.31 390.2,-347.19 381.3,-344.24"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="478.8,-452.6 489.26,-450.91 480.03,-445.71 478.8,-452.6"/>
+<title>Node89&#45;&gt;Node68</title>
+<path fill="none" stroke="midnightblue" d="M515.93,-315.25C492.95,-293.69 449.85,-256.68 406,-237 395.48,-232.28 383.75,-228.72 372.28,-226.03"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="513.81,-318.06 523.46,-322.43 518.64,-313 513.81,-318.06"/>
 </g>
-<!-- Node90&#45;&gt;Node67 -->
-<g id="edge111" class="edge">
-<title>Node90&#45;&gt;Node67</title>
-<path fill="none" stroke="midnightblue" d="M479.18,-450.24C465.71,-447.42 452.21,-442.23 442,-433 402.6,-397.35 445.48,-354.56 406,-319 396.69,-310.62 384.72,-305.54 372.48,-302.54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="478.98,-453.75 489.42,-451.96 480.14,-446.85 478.98,-453.75"/>
+<!-- Node90 -->
+<g id="node88" class="node">
+<title>Node90</title>
+<g id="a_node88"><a xlink:href="classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" target="_top" xlink:title="オプション引数の可変長文字列を受け取る．">
+<polygon fill="white" stroke="black" points="249,-448 249,-478 375,-478 375,-448 249,-448"/>
+<text text-anchor="start" x="257" y="-466" font-family="Helvetica,sans-Serif" font-size="10.00">util.MultiWordsOption.get</text>
+<text text-anchor="middle" x="312" y="-455" font-family="Helvetica,sans-Serif" font-size="10.00">OptionValue</text>
+</a>
+</g>
+</g>
+<!-- Node89&#45;&gt;Node90 -->
+<g id="edge101" class="edge">
+<title>Node89&#45;&gt;Node90</title>
+<path fill="none" stroke="midnightblue" d="M479.3,-334.41C465.95,-337.24 452.48,-342.28 442,-351 409.52,-378.03 437.84,-411.22 406,-439 397.21,-446.67 386.27,-451.95 375.01,-455.56"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="480.17,-337.81 489.43,-332.65 478.98,-330.92 480.17,-337.81"/>
 </g>
 <!-- Node91 -->
 <g id="node89" class="node">
 <title>Node91</title>
-<g id="a_node89"><a xlink:href="classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" target="_top" xlink:title="オプション引数の可変長文字列を受け取る．">
-<polygon fill="white" stroke="black" points="249,-531 249,-561 375,-561 375,-531 249,-531"/>
-<text text-anchor="start" x="257" y="-549" font-family="Helvetica,sans-Serif" font-size="10.00">util.MultiWordsOption.get</text>
-<text text-anchor="middle" x="312" y="-538" font-family="Helvetica,sans-Serif" font-size="10.00">OptionValue</text>
+<g id="a_node89"><a xlink:href="classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" target="_top" xlink:title="文字列表現を返す">
+<polygon fill="white" stroke="black" points="236,-399 236,-429 388,-429 388,-399 236,-399"/>
+<text text-anchor="start" x="244" y="-417" font-family="Helvetica,sans-Serif" font-size="10.00">machine.OVMachine.opStacks</text>
+<text text-anchor="middle" x="312" y="-406" font-family="Helvetica,sans-Serif" font-size="10.00">ToString</text>
 </a>
 </g>
 </g>
-<!-- Node90&#45;&gt;Node91 -->
+<!-- Node89&#45;&gt;Node91 -->
 <g id="edge102" class="edge">
-<title>Node90&#45;&gt;Node91</title>
-<path fill="none" stroke="midnightblue" d="M479.44,-456.4C466.45,-459.24 453.11,-463.78 442,-471 419.04,-485.92 428.53,-505.43 406,-521 396.78,-527.37 386.02,-532.12 375.15,-535.65"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="480.1,-459.84 489.28,-454.54 478.8,-452.96 480.1,-459.84"/>
+<title>Node89&#45;&gt;Node91</title>
+<path fill="none" stroke="midnightblue" d="M479.25,-338.27C466.58,-341.07 453.44,-345.13 442,-351 422.69,-360.91 424.76,-373.08 406,-384 395.74,-389.97 384.13,-394.92 372.69,-398.96"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="480.14,-341.66 489.27,-336.28 478.78,-334.8 480.14,-341.66"/>
 </g>
-<!-- Node92 -->
-<g id="node90" class="node">
-<title>Node92</title>
-<g id="a_node90"><a xlink:href="classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" target="_top" xlink:title="文字列表現を返す">
-<polygon fill="white" stroke="black" points="236,-695 236,-725 388,-725 388,-695 236,-695"/>
-<text text-anchor="start" x="244" y="-713" font-family="Helvetica,sans-Serif" font-size="10.00">machine.OVMachine.opStacks</text>
-<text text-anchor="middle" x="312" y="-702" font-family="Helvetica,sans-Serif" font-size="10.00">ToString</text>
+<!-- Node94 -->
+<g id="node91" class="node">
+<title>Node94</title>
+<g id="a_node91"><a xlink:href="classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" target="_top" xlink:title="文字列表現を返す">
+<polygon fill="white" stroke="black" points="19,-363.5 19,-382.5 163,-382.5 163,-363.5 19,-363.5"/>
+<text text-anchor="middle" x="91" y="-370.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.OVMachine.toString</text>
 </a>
 </g>
 </g>
-<!-- Node90&#45;&gt;Node92 -->
-<g id="edge103" class="edge">
-<title>Node90&#45;&gt;Node92</title>
-<path fill="none" stroke="midnightblue" d="M479.09,-452.71C465.36,-455.48 451.74,-460.91 442,-471 376.54,-538.81 467.77,-608.81 406,-680 400.66,-686.15 394.06,-691.05 386.85,-694.95"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="479.73,-456.15 489.06,-451.13 478.64,-449.24 479.73,-456.15"/>
+<!-- Node89&#45;&gt;Node94 -->
+<g id="edge106" class="edge">
+<title>Node89&#45;&gt;Node94</title>
+<path fill="none" stroke="midnightblue" d="M479.25,-341C456.68,-344.53 430.12,-348.36 406,-351 322.89,-360.11 226.96,-366.19 163.23,-369.61"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="479.99,-344.42 489.32,-339.4 478.9,-337.51 479.99,-344.42"/>
 </g>
 <!-- Node95 -->
 <g id="node92" class="node">
 <title>Node95</title>
-<g id="a_node92"><a xlink:href="classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" target="_top" xlink:title="文字列表現を返す">
-<polygon fill="white" stroke="black" points="19,-659.5 19,-678.5 163,-678.5 163,-659.5 19,-659.5"/>
-<text text-anchor="middle" x="91" y="-666.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.OVMachine.toString</text>
+<g id="a_node92"><a xlink:href="classutil_1_1_stack_base.html#a1ff4d6db5a609d810cedf042860ce447" target="_top" xlink:title="スタックの文字列表現を返す。">
+<polygon fill="white" stroke="black" points="253.5,-497.5 253.5,-516.5 370.5,-516.5 370.5,-497.5 253.5,-497.5"/>
+<text text-anchor="middle" x="312" y="-504.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.toString</text>
 </a>
 </g>
 </g>
-<!-- Node90&#45;&gt;Node95 -->
+<!-- Node89&#45;&gt;Node95 -->
 <g id="edge108" class="edge">
-<title>Node90&#45;&gt;Node95</title>
-<path fill="none" stroke="midnightblue" d="M479.3,-452.91C465.56,-455.68 451.9,-461.06 442,-471 385.66,-527.57 466.05,-594.38 406,-647 371.11,-677.57 244.43,-677.27 163.03,-673.6"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="479.93,-456.35 489.26,-451.33 478.83,-449.44 479.93,-456.35"/>
+<title>Node89&#45;&gt;Node95</title>
+<path fill="none" stroke="midnightblue" d="M478.87,-333.43C465.4,-336.25 451.98,-341.52 442,-351 396.36,-394.36 451.73,-444.73 406,-488 396.42,-497.06 383.75,-502.31 370.85,-505.25"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="479.84,-336.82 489.13,-331.73 478.69,-329.92 479.84,-336.82"/>
 </g>
-<!-- Node96 -->
-<g id="node93" class="node">
-<title>Node96</title>
-<g id="a_node93"><a xlink:href="classparse_1_1_ast_parser.html#afff1925b794dd2638467ee800fa549d7" target="_top" xlink:title="文字列からバックスラッシュ文字\を除去した文字列を返す。">
-<polygon fill="white" stroke="black" points="235,-492.5 235,-511.5 389,-511.5 389,-492.5 235,-492.5"/>
-<text text-anchor="middle" x="312" y="-499.5" font-family="Helvetica,sans-Serif" font-size="10.00">parse.AstParser.sqeezeEscape</text>
+<!-- Node92 -->
+<g id="node90" class="node">
+<title>Node92</title>
+<g id="a_node90"><a xlink:href="classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" target="_top" xlink:title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。">
+<polygon fill="white" stroke="red" points="0,-404.5 0,-423.5 182,-423.5 182,-404.5 0,-404.5"/>
+<text text-anchor="middle" x="91" y="-411.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.OVMachine.execCommands</text>
 </a>
 </g>
 </g>
-<!-- Node90&#45;&gt;Node96 -->
-<g id="edge106" class="edge">
-<title>Node90&#45;&gt;Node96</title>
-<path fill="none" stroke="midnightblue" d="M479.13,-462.17C466.86,-464.78 453.93,-467.78 442,-471 425.72,-475.4 422.29,-478.64 406,-483 392.95,-486.5 378.71,-489.7 365.4,-492.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="480.17,-465.53 489.25,-460.07 478.74,-458.68 480.17,-465.53"/>
+<!-- Node91&#45;&gt;Node92 -->
+<g id="edge103" class="edge">
+<title>Node91&#45;&gt;Node92</title>
+<path fill="none" stroke="midnightblue" d="M225.65,-414C211.36,-414 196.49,-414 182.09,-414"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="225.94,-417.5 235.94,-414 225.94,-410.5 225.94,-417.5"/>
 </g>
-<!-- Node97 -->
-<g id="node94" class="node">
-<title>Node97</title>
-<g id="a_node94"><a xlink:href="classutil_1_1_stack_base.html#a1ff4d6db5a609d810cedf042860ce447" target="_top" xlink:title="スタックの文字列表現を返す。">
-<polygon fill="white" stroke="black" points="253.5,-618.5 253.5,-637.5 370.5,-637.5 370.5,-618.5 253.5,-618.5"/>
-<text text-anchor="middle" x="312" y="-625.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.StackBase.toString</text>
-</a>
-</g>
-</g>
-<!-- Node90&#45;&gt;Node97 -->
-<g id="edge110" class="edge">
-<title>Node90&#45;&gt;Node97</title>
-<path fill="none" stroke="midnightblue" d="M478.92,-453.48C465.45,-456.3 452.01,-461.56 442,-471 397.45,-513.02 449.56,-560.95 406,-604 396.51,-613.38 383.87,-619.24 370.98,-622.86"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="479.88,-456.87 489.17,-451.78 478.73,-449.96 479.88,-456.87"/>
-</g>
-<!-- Node93 -->
-<g id="node91" class="node">
-<title>Node93</title>
-<g id="a_node91"><a xlink:href="classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" target="_top" xlink:title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。">
-<polygon fill="white" stroke="red" points="0,-700.5 0,-719.5 182,-719.5 182,-700.5 0,-700.5"/>
-<text text-anchor="middle" x="91" y="-707.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.OVMachine.execCommands</text>
-</a>
-</g>
-</g>
-<!-- Node92&#45;&gt;Node93 -->
+<!-- Node91&#45;&gt;Node94 -->
 <g id="edge104" class="edge">
-<title>Node92&#45;&gt;Node93</title>
-<path fill="none" stroke="midnightblue" d="M225.65,-710C211.36,-710 196.49,-710 182.09,-710"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="225.94,-713.5 235.94,-710 225.94,-706.5 225.94,-713.5"/>
-</g>
-<!-- Node92&#45;&gt;Node95 -->
-<g id="edge105" class="edge">
-<title>Node92&#45;&gt;Node95</title>
-<path fill="none" stroke="midnightblue" d="M226.1,-694.11C197.98,-688.84 167.58,-683.15 142.85,-678.52"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="225.47,-697.55 235.94,-695.95 226.75,-690.67 225.47,-697.55"/>
+<title>Node91&#45;&gt;Node94</title>
+<path fill="none" stroke="midnightblue" d="M226.1,-398.11C197.98,-392.84 167.58,-387.15 142.85,-382.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="225.47,-401.55 235.94,-399.95 226.75,-394.67 225.47,-401.55"/>
 </g>
 </g>
 </svg>

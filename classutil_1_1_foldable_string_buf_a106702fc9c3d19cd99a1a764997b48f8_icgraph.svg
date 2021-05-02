@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e" target="_top" xlink:title="空のバッファを生成する *‍/">
+<g id="a_node2"><a xlink:href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e" target="_top" xlink:title="空のバッファを生成する">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 109,-19.5 109,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="54.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">util.YamlBuf.YamlBuf</text>
 </a>

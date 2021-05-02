@@ -95,7 +95,132 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
-<h1>210419 Thu, 昭和の日, 17:00-26:30 コード, 26:30-28:00 報告, 11h: 中間言語のための再設計の実装とリファクタリング</h1>
+<h1>210502 Sun, 20:00-: コード</h1>
+<p>分岐して，マージした．</p>
+<h2>パス式の構文の変更</h2>
+<p>パス式のAxis区切りを，スラッシュ系（'/'）からドット系（'.'）へ変更した．さらに，トップのタグにも子軸か子孫軸の記号を付与することとして，任意のパスはドット'.'で始まるようにして，名前や文字列と区別が付くようにした．</p>
+<p>通常のXPath式との違い</p>
+<ul>
+<li>子供軸は&lsquo;&rsquo;.'`．現在のノードの直下の要素を表す</li>
+<li>子孫軸は&lsquo;&rsquo;.*'`．現在のノードの下方の要素を表す．</li>
+<li>パスの先頭には，必ず子供軸または子孫軸のどちらかの軸が付く．</li>
+</ul>
+<p>正しいパス式の例</p>
+<ul>
+<li><code>.dblp.article</code></li>
+<li><code>.dblp.(article|inproceedings)</code></li>
+<li><code>.*article</code></li>
+<li><code>.dblp.*(article|inproceedings)</code></li>
+</ul>
+<h2>文字列式の構文の変更</h2>
+<p>引用符として，スラッシュ（'/'）と二重引用符（'"'）の両方を使えるようにした． 一般に，項を1個以上含む文字列テンプレート式 <code>/xxx{{}}yyy...zzz{{}}www/</code>の内部では，安全のため，両方の引用符と，項出力のための中かっこの使用を禁止し，必要な場合は，これらの文字をバックスラッシュ'\'でエスケープして用いることとした．</p>
+<div class="fragment"><div class="line">文字列テンプレート式の内部で許される文字</div>
+<div class="line">## 禁止文字</div>
+<div class="line">&#39;/&#39;（スラッシュ）, &#39;&quot;&#39;（二重引用符）, &#39;\&#39;&#39;（単一引用符）, &#39;{&#39;（左中かっこ）, &#39;}&#39;（右中かっこ）</div>
+<div class="line"> </div>
+<div class="line">## エスケープ文字</div>
+<div class="line">&#39;\/&#39; | &#39;\&quot;&#39; | &#39;\{&#39; | &#39;\}&#39; | &#39;\\&#39; | &#39;\n&#39;  | &#39;\r&#39; | &#39;\t&#39;  | &#39;\b&#39;| &#39;\f&#39; </div>
+</div><!-- fragment --><p>項を含まない通常の定数文字列については，スラッシュ（'/'）囲みの文字列の内部では二重引用符を，二重引用符（'"'）囲みの文字列の内部ではスラッシュを使用して良いとした．</p>
+<p>正しい文字列の例</p><ul>
+<li><code>"../dblp/article"</code>：正しい文字列</li>
+<li><code>/..\/dblp\/article/</code>: 上と同じ文字列を表す．</li>
+</ul>
+<h2>その他</h2>
+<ul>
+<li>parse/query.g4: 非終端記号<code>strExpr</code>の見直し．シェルコマンド引数での引用符の変換事故を避けるために，引用符として，単一引用符（&lsquo;&rsquo;<code>）系と二重引用符（</code>"<code>）系の他に，スラッシュ系（</code>/`）を使えるようにする．</li>
+<li>machine/XMachine.java: バグ解消．空テキストでnullが返り，CmdGetTextでOVMが停止するエラーを解決した．<code>String getText()</code>において，<code>this.event().getText()</code>の返り値がnullならば，長さ0の空語""を返すように修正した．本来は，イベント走査器がnullでなく，空語を返すようにすべきだが，ここで吸収するのが，走査器に依存せずバグを回避できて，安全である．</li>
+</ul>
+<h2>バグ，未解決</h2>
+<p>各種のテストコードを，新しい構文に修正して走らせていたら，バグを見つけた． フレームスタックのメモリエラーである．フレームポインタが，フレームスタックの上端を1つはみ出ている． これは，結構深刻かもしれない．</p>
+<div class="fragment"><div class="line">$ make all &amp;&amp; echo &#39;from open(&quot;../data/dblp1K.xml&quot;) go .*% [ .@key ] return &quot;{{ $label }} {{ .@key }} {{ .title }}&quot; ;&#39; | time  javaexec app.Match -t1</div>
+<div class="line">@query from [stdin]: &#39;from open(&quot;../data/dblp1K.xml&quot;) go .*% [ .@key ] return &quot;{{ $label }} {{ .@key }} {{ .title }}&quot; ;&#39;</div>
+<div class="line">@XC.compile and @XM.create...</div>
+<div class="line">Exception in thread &quot;main&quot; java.lang.AssertionError: fp is out of bound: fp=14 REC.size=14</div>
+<div class="line">    at frame.FrameStackUni._lookupMemCell(FrameStackUni.java:274)</div>
+<div class="line">    at frame.FrameStackUni.fetchMemCell(FrameStackUni.java:254)</div>
+<div class="line">    at frame.FrameStackUni.fetchBooleanHolder(FrameStackUni.java:303)</div>
+<div class="line">    at cmd.CommandBoolean$CmdBoolLoad.exec(CommandBoolean.java:60)</div>
+<div class="line">    at machine.OVMachine.execCommands(OVMachine.java:159)</div>
+<div class="line">    at machine.XMachine.execPostCall(XMachine.java:703)</div>
+<div class="line">    at machine.XMachine.execETAG(XMachine.java:684)</div>
+<div class="line">    at machine.XMachine.exec(XMachine.java:475)</div>
+<div class="line">    at machine.XMachine.scanFromSourceWithTagMaskMap(XMachine.java:443)</div>
+<div class="line">    at machine.XMachine.scanFromSource(XMachine.java:420)</div>
+<div class="line">    at cmd.CommandBase$CmdScanLoop.exec(CommandBase.java:479)</div>
+<div class="line">    at machine.OVMachine.execCommands(OVMachine.java:159)</div>
+<div class="line">    at machine.XMachine.execBLOCK(XMachine.java:567)</div>
+<div class="line">    at app.Match.main(Match.java:647)</div>
+<div class="line">        0.45 real         0.77 user         0.09 sys</div>
+<div class="line">arim@java$</div>
+</div><!-- fragment --><p>解決の糸口がわかった．次はmakefileのソースである．</p>
+<div class="fragment"><div class="line">##バグあり</div>
+<div class="line">HOG_DBLP_BUG1=&#39;from open(&quot;../data/dblp1K.xml&quot;) go .*% [ .@key ] return &quot;{{ $label }} {{ .@key }} {{ .title }}&quot; ;&#39;</div>
+<div class="line">test.dblp.bug1:</div>
+<div class="line">    make all &amp;&amp; echo $(HOG_DBLP_BUG1) | time  javaexec app.Match -t1</div>
+</div><!-- fragment --><h2>推理1</h2>
+<p>上記のmake本体で，<code>$label</code>のために，シェルから実行すると先頭文字が削れて<code>abel</code>という変数が出現しているので，そのためかと思った．しかし，この場合は，「コンパイル時に宣言されてない変数」というエラーが出るようだ．</p>
+<h2>推理2</h2>
+<p>下記は，エラーが生じる最小構成のクエリである．データは上記と同じである． 上記のバグは，子孫軸とワイルドカードを組み合わせると起きるようだ．</p>
+<ul>
+<li><code>.*%.% [ .@key ] return "{{ .@key }}"</code> =&gt; メモリエラー</li>
+<li><code>.dblp.% [ .@key ] return "{{ .@key }}"</code> =&gt; 正常</li>
+<li><code>.%.% [ .@key ] return "{{ .@key }}"</code> =&gt; 正常</li>
+<li><code>.*%.% [ .@key ] return "{{ .@key }}"</code> =&gt; メモリエラー</li>
+<li><code>.*dblp.% [ .@key ] return "{{ .@key }}"</code> =&gt; 正常</li>
+</ul>
+<p>子孫軸とワイルドカードがあるために，同じブロック（クエリ）のフレームが複数箇所できているのかもしれない．面倒だが，フレーム割り付けの詳細なログをみるのが早そうだ．</p>
+<p>この種の子孫軸とワイルドカードの組合せは，禁止すべきかもしれない．</p>
+<h1>210502 Sun, 13:30-16:30: 文書作成 Design of Query Syntax</h1>
+<p>文書210502 Design of Query Syntaxを作成．ブロック呼び出しの実装のために，フレームスタックと変数機構を棚卸しした．</p>
+<h1>210501 Sat, 16:30-18:00:</h1>
+<ul>
+<li>Match.java: パッケージappへ移動．関連のjavaexec, jarexec, xscan コマンドの修正．</li>
+<li>util/YamlBuf.java: APIの整理．</li>
+</ul>
+<h2>TODO</h2>
+<ul>
+<li>app/Match.java: オプション-iの復活．そのために，ScanFromを，input stream quantifierと, blockに分解する． <div class="fragment"><div class="line">from open(infile) do query </div>
+<div class="line">=&gt; </div>
+<div class="line">def exec(query, es, os): </div>
+<div class="line">  for ev in is.events() do </div>
+<div class="line">    query.exec(ev, os)</div>
+<div class="line">    </div>
+<div class="line">var es = sys.stdin   #入力の割り当て</div>
+<div class="line">var os = sys.stdout  #出力の割り当て</div>
+<div class="line">do  #ブロックの開始</div>
+<div class="line">  var es = fopen(infile)    #同じ名前の変数で隠蔽</div>
+<div class="line">  exec(query)</div>
+<div class="line">end #ブロックの終了</div>
+</div><!-- fragment --></li>
+<li><a class="el" href="_ast_scan_from_8java.html">ast/AstScanFrom.java</a>: 関連して<code>ScanFrom</code>から，ソースを切り離す．astとcmdの両方で．</li>
+</ul>
+<h1>210429 Thu, 昭和の日, 28:00-28:50 報告: 現在のコードの性能</h1>
+<p>データとしてdblp.xml, 2.9GBを用いて，現在のコードの性能を測定してみた．計算機環境は，Intel Core i7, 3GHz, dual cores, 16GB memoryを用いた．wcコマンドでの走査は約9secであった．</p>
+<div class="fragment"><div class="line">$ time wc ../../data/dblp/dblp.xml</div>
+<div class="line">70440480 167339864 2910993386 ../../data/dblp/dblp.xml</div>
+<div class="line"> </div>
+<div class="line">real    0m8.995s</div>
+<div class="line">user    0m8.548s</div>
+<div class="line">sys 0m0.421s</div>
+</div><!-- fragment --><p>使用したクエリは，タイトルが<code>XML</code>を部分文字列として含み，出版年が2000年以降の articleまたはinproceedingsエントリを全て出力するものである．このクエリに対して上記のPC上で，xscanの実行は約220secであった．回として8871個のレコードに照合している．スループットは約15MB/secである．まあまあではないかと思う．メモリはたいしたことない．何より，メモリに貯めず，バグを出さずに，ストリーム的に動くことが素晴らしい．</p>
+<div class="fragment"><div class="line">$ date; echo &#39;from open(&quot;../../data/dblp/dblp.xml&quot;) go </div>
+<div class="line">  dblp/(article|inproceedings) [ title =~ &quot;XML&quot; and year &gt;= 2000 ] </div>
+<div class="line">  return </div>
+<div class="line">    &quot;{{$nm}}:{{$nr}}: TY[{{ $label }}] PY[{{year}}] </div>
+<div class="line">    AU[{{author return &quot;{{ text() }}; &quot; }}] TI[{{title}}]&quot; &#39; </div>
+<div class="line">  | time  javaexec Match -t1  &gt; log.dblp; date</div>
+<div class="line"> </div>
+<div class="line">2021年 4月30日 金曜日 04時34分58秒 JST</div>
+<div class="line">@XC.compile and @XM.create...</div>
+<div class="line">{</div>
+<div class="line">  @processing time (sec): { total: 219.315, compile: 0.302, running: 219.014 },</div>
+<div class="line">  @processing time (min): { total: 3.655, compile: 0.005, running: 3.650 },</div>
+<div class="line">  @matches: { numEventsRead:315674321, numVisits:39866492, numMatches:8871, numSkipped:0 }</div>
+<div class="line">}</div>
+<div class="line">      219.60 real       214.65 user         2.72 sys</div>
+<div class="line">2021年 4月30日 金曜日 04時38分37秒 JST</div>
+<div class="line">arim@java$</div>
+</div><!-- fragment --> <h1>210419 Thu, 昭和の日, 17:00-26:30 コード, 26:30-28:00 報告, 11h: 中間言語のための再設計の実装とリファクタリング</h1>
 <p>コンパイルと清書出力の両方を簡素化するために，AstNode階層の再構築と，関連の作業を行った．対応するコンパイラのパイプラインも手直しした．実行系は，全体に動的な機構を導入することで，実装の簡素化と表現力の向上を図った．</p>
 <p>Gitで，masterブランチから，asax03monostackブランチを分岐し，最後にffで1本にマージし，主幹に戻している．</p>
 <p>まとめると，今日の作業で，第3期の中間言語作成のfeasibility studyとして，だいたい一区切りついたと思う．全体としては，これから行うXscanの実行系の上に乗る中間言語を実現するための準備のフェーズといえる．</p>
@@ -152,7 +277,14 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <li>当初の目標であるプロセスと関数の呼び出し方式を，実装する．現在の<code>Step</code>のコンパイル方式の拡張人なるはずである．EagerとLazyの2種の呼び出し方式も実装したい． それにより，現在の<code>Step</code>の呼び出し方式は，呼び出しグラフ中の関数呼び出しが一意であるときのみ可能なものであり，呼び出し時の返値のフレーム渡しが必要ない，効率良いLazyであることが言えると思う．</li>
 <li>関数呼び出しにおいては，単一値の他，多値の返却も可能にする．また，一般的な呼び出し手順を確立することで，従来のパス言語のステップ呼び出しを，中間言語を経由して，仮想機械コードにコンパイルできるようにしたい．見通しがよくなるはずである．</li>
 <li>また，手続き的な中間言語自体も公開したい．Java scriptのような構文と実装方法をもつ言語である．オブジェクトは持たず，モジュール機構として，関数閉包を利用できると思う．</li>
+</ul>
+<p>動的実行関係</p>
+<ul>
 <li>ast/StringRel.java, <a class="el" href="_command_string_8java.html">cmd/CommandString.java</a>: テキストの正規表現照合のパターンの組み立てに，項を含む任意の文字列式を用いられるようにする．最終的な目標として，文字列を引数にとる仮想機械命令は，全て文字列引数をスタックから取るようにする．動的な機構を使うことで，性能にオーバーヘッドが出るが，表現力が大きく，実装は簡潔にしたい．</li>
+<li>machine/XMachine.java, <a class="el" href="_ast_scan_from_8java.html">ast/AstScanFrom.java</a>: 入力ストリームを動的化したい．この入力源の動的化により，<code>ScanFrom</code>節は，プログラム式全体でただ一つしかない入力ストリームを表す変数<code>Instream $_</code>を，入力ソースに束縛する限量子の構文として，再構成できると思う．線形性を構文で表す訳である．2変数の場合は，joinが実現できる．</li>
+</ul>
+<p>スタック関係</p>
+<ul>
 <li><a class="el" href="_o_v_machine_8java.html">machine/OVMachine.java</a>: ．OVMのオペレーションスタックは，1本のObjectスタックと，型条件によるキャストを組み合わせて，簡単な実装にする． 動的型チェックもする．仮想機械命令の実行エラーの清書が容易になると期待できる．これは，すぐにでも実装できて，影響が少ないので，すぐやりたい．</li>
 <li><a class="el" href="_frame_stack_uni_8java.html">frame/FrameStackUni.java</a>: フレームスタックも，型がわからない変数の動的な割り付けができるようにしたい．簡素化もできるのではないか．こちらは要検討である．</li>
 </ul>
@@ -881,7 +1013,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Fri Apr 30 2021 04:12:18 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 3 2021 08:04:57 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

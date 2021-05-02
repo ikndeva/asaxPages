@@ -9,14 +9,7 @@ var namespaceast =
     [ "AstFuncCall", "classast_1_1_ast_func_call.html", "classast_1_1_ast_func_call" ],
     [ "AstIf", "classast_1_1_ast_if.html", "classast_1_1_ast_if" ],
     [ "AstLet", "classast_1_1_ast_let.html", "classast_1_1_ast_let" ],
-    [ "AstLiteral", "classast_1_1_ast_literal.html", [
-      [ "BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", "classast_1_1_ast_literal_1_1_boolean_literal" ],
-      [ "DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", "classast_1_1_ast_literal_1_1_double_literal" ],
-      [ "IntegerLiteral", "classast_1_1_ast_literal_1_1_integer_literal.html", "classast_1_1_ast_literal_1_1_integer_literal" ],
-      [ "RegexLiteral", "classast_1_1_ast_literal_1_1_regex_literal.html", "classast_1_1_ast_literal_1_1_regex_literal" ],
-      [ "StringExpr", "classast_1_1_ast_literal_1_1_string_expr.html", "classast_1_1_ast_literal_1_1_string_expr" ],
-      [ "StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", "classast_1_1_ast_literal_1_1_string_literal" ]
-    ] ],
+    [ "AstLiteral", "classast_1_1_ast_literal.html", "classast_1_1_ast_literal" ],
     [ "AstMathOper", "classast_1_1_ast_math_oper.html", "classast_1_1_ast_math_oper" ],
     [ "AstNode", "classast_1_1_ast_node.html", "classast_1_1_ast_node" ],
     [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
