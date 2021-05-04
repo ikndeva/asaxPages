@@ -2,7 +2,6 @@ var namespaces_dup =
 [
     [ "app", "namespaceapp.html", "namespaceapp" ],
     [ "ast", "namespaceast.html", "namespaceast" ],
-    [ "AstVar", "namespace_ast_var.html", null ],
     [ "cmd", "namespacecmd.html", "namespacecmd" ],
     [ "compile", "namespacecompile.html", "namespacecompile" ],
     [ "event", "namespaceevent.html", "namespaceevent" ],
