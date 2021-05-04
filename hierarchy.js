@@ -9,7 +9,9 @@ var hierarchy =
     [ "ArgTest", "classutil_1_1_arg_test.html", null ],
     [ "Assignable", "interfacemachine_1_1_assignable.html", [
       [ "OSRef", "classmachine_1_1_o_s_ref.html", null ],
-      [ "Ref", "classmachine_1_1_ref.html", null ]
+      [ "Ref", "classmachine_1_1_ref.html", null ],
+      [ "Ref", "classmachine_1_1_ref.html", null ],
+      [ "VarKey", "classmachine_1_1_var_key.html", null ]
     ] ],
     [ "AstConverter.AstConv< Integer, Boolean >", "classast_1_1_ast_converter_1_1_ast_conv.html", [
       [ "AstConverter.IntegerToBoolean", "classast_1_1_ast_converter_1_1_integer_to_boolean.html", null ]
@@ -33,29 +35,19 @@ var hierarchy =
     [ "AstNodeBase", "classast_1_1_ast_node_base.html", [
       [ "AstNode", "classast_1_1_ast_node.html", [
         [ "AstAssign", "classast_1_1_ast_assign.html", null ],
-        [ "AstConverter", "classast_1_1_ast_converter.html", [
-          [ "AstConverter.AstConv< S, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", null ]
-        ] ],
+        [ "AstBreak", "classast_1_1_ast_break.html", null ],
         [ "AstDataReader", "classast_1_1_ast_data_reader.html", [
-          [ "AstDataReader.GetRef", "classast_1_1_ast_data_reader_1_1_get_ref.html", [
-            [ "AstDataReader.AstVarUse", "classast_1_1_ast_data_reader_1_1_ast_var_use.html", null ],
+          [ "AstDataReader.ReaderType", "classast_1_1_ast_data_reader_1_1_reader_type.html", [
             [ "AstDataReader.ReaderBoolean", "classast_1_1_ast_data_reader_1_1_reader_boolean.html", null ],
             [ "AstDataReader.ReaderDouble", "classast_1_1_ast_data_reader_1_1_reader_double.html", null ],
-            [ "AstDataReader.ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", null ],
             [ "AstDataReader.ReaderInteger", "classast_1_1_ast_data_reader_1_1_reader_integer.html", null ],
             [ "AstDataReader.ReaderString", "classast_1_1_ast_data_reader_1_1_reader_string.html", null ]
-          ] ],
-          [ "AstDataReader.GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", null ],
-          [ "AstDataReader.GetText", "classast_1_1_ast_data_reader_1_1_get_text.html", null ]
+          ] ]
         ] ],
+        [ "AstDataReader.AstGetText", "classast_1_1_ast_data_reader_1_1_ast_get_text.html", null ],
+        [ "AstDataReader.GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", null ],
+        [ "AstDataReader.ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", null ],
         [ "AstDataWrapper< T >", "classast_1_1_ast_data_wrapper.html", null ],
-        [ "AstDataWriter", "classast_1_1_ast_data_writer.html", [
-          [ "AstDataWriter.WriterBoolean", "classast_1_1_ast_data_writer_1_1_writer_boolean.html", null ],
-          [ "AstDataWriter.WriterDouble", "classast_1_1_ast_data_writer_1_1_writer_double.html", null ],
-          [ "AstDataWriter.WriterInteger", "classast_1_1_ast_data_writer_1_1_writer_integer.html", null ],
-          [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
-          [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ]
-        ] ],
         [ "AstLiteral", "classast_1_1_ast_literal.html", [
           [ "AstLiteral.BooleanLiteral", "classast_1_1_ast_literal_1_1_boolean_literal.html", null ],
           [ "AstLiteral.DoubleLiteral", "classast_1_1_ast_literal_1_1_double_literal.html", null ],
@@ -82,6 +74,20 @@ var hierarchy =
           ] ],
           [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ]
         ] ],
+        [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", [
+          [ "AstConverter", "classast_1_1_ast_converter.html", [
+            [ "AstConverter.AstConv< S, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", null ]
+          ] ],
+          [ "AstDataReader.AstVarReaderNew", "classast_1_1_ast_data_reader_1_1_ast_var_reader_new.html", null ],
+          [ "AstDataWriter", "classast_1_1_ast_data_writer.html", [
+            [ "AstDataWriter.WriterBoolean", "classast_1_1_ast_data_writer_1_1_writer_boolean.html", null ],
+            [ "AstDataWriter.WriterDouble", "classast_1_1_ast_data_writer_1_1_writer_double.html", null ],
+            [ "AstDataWriter.WriterInteger", "classast_1_1_ast_data_writer_1_1_writer_integer.html", null ],
+            [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
+            [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ]
+          ] ],
+          [ "AstSource.AstInFileOpen", "classast_1_1_ast_source_1_1_ast_in_file_open.html", null ]
+        ] ],
         [ "AstOper", "classast_1_1_ast_oper.html", [
           [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
           [ "AstMathOper", "classast_1_1_ast_math_oper.html", [
@@ -107,21 +113,22 @@ var hierarchy =
           [ "AstReturn", "classast_1_1_ast_return.html", null ],
           [ "AstTemplate", "classast_1_1_ast_template.html", null ]
         ] ],
-        [ "AstSource", "classast_1_1_ast_source.html", [
-          [ "AstSource.AstInFileOpen", "classast_1_1_ast_source_1_1_ast_in_file_open.html", null ],
-          [ "AstSource.AstInstreamConst", "classast_1_1_ast_source_1_1_ast_instream_const.html", null ]
-        ] ],
+        [ "AstSource.AstInstreamConst", "classast_1_1_ast_source_1_1_ast_instream_const.html", null ],
         [ "AstTag", "classast_1_1_ast_tag.html", null ],
+        [ "AstVar", "classast_1_1_ast_var.html", null ],
         [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
         [ "Path", "classast_1_1_path.html", null ],
         [ "Path", "classast_1_1_path.html", null ],
         [ "SentList", "classast_1_1_sent_list.html", [
           [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ]
         ] ],
-        [ "Ref", "classmachine_1_1_ref.html", null ]
+        [ "Ref", "classmachine_1_1_ref.html", null ],
+        [ "Ref", "classmachine_1_1_ref.html", null ],
+        [ "VarKey", "classmachine_1_1_var_key.html", null ]
       ] ]
     ] ],
     [ "AstNodeFactory", "classparse_1_1_ast_node_factory.html", null ],
+    [ "AstSource", "classast_1_1_ast_source.html", null ],
     [ "AutoStack< frame.BooleanHolder >", "classutil_1_1_auto_stack.html", null ],
     [ "AutoStack< frame.DoubleHolder >", "classutil_1_1_auto_stack.html", null ],
     [ "AutoStack< frame.IntegerHolder >", "classutil_1_1_auto_stack.html", null ],
@@ -139,6 +146,7 @@ var hierarchy =
     ] ],
     [ "Cmd", "interfacemachine_1_1_cmd.html", [
       [ "CommandBase", "classcmd_1_1_command_base.html", [
+        [ "CommandBase.CmdBreak", "classcmd_1_1_command_base_1_1_cmd_break.html", null ],
         [ "CommandBase.CmdGetText", "classcmd_1_1_command_base_1_1_cmd_get_text.html", null ],
         [ "CommandBase.CmdHALT", "classcmd_1_1_command_base_1_1_cmd_h_a_l_t.html", null ],
         [ "CommandBase.CmdInFileOpen", "classcmd_1_1_command_base_1_1_cmd_in_file_open.html", null ],
@@ -239,7 +247,6 @@ var hierarchy =
       [ "RefList", "classmachine_1_1_ref_list.html", null ]
     ] ],
     [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", [
-      [ "AstDataReader.GetRef", "classast_1_1_ast_data_reader_1_1_get_ref.html", null ],
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
       [ "CommandBase.CommandRef", "classcmd_1_1_command_base_1_1_command_ref.html", null ]
     ] ],
@@ -251,6 +258,12 @@ var hierarchy =
       [ "StringHolder", "classframe_1_1_string_holder.html", null ]
     ] ],
     [ "DataHolder< T, S extends DataHolder", "interfaceframe_1_1_data_holder_3_01_t_00_01_s_01extends_01_data_holder.html", null ],
+    [ "DataReader", "class_data_reader.html", [
+      [ "AstDataReader.AstGetText", "classast_1_1_ast_data_reader_1_1_ast_get_text.html", null ],
+      [ "AstDataReader.GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", null ],
+      [ "AstDataReader.ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", null ],
+      [ "AstDataReader.ReaderType", "classast_1_1_ast_data_reader_1_1_reader_type.html", null ]
+    ] ],
     [ "Env", "classevent_1_1_env.html", null ],
     [ "EventManager", "classevent_1_1_event_manager.html", null ],
     [ "Event.EventType", "enumevent_1_1_event_1_1_event_type.html", null ],
@@ -273,6 +286,7 @@ var hierarchy =
     ] ],
     [ "Generatable", "interfacecmd_1_1_generatable.html", [
       [ "AstAssign", "classast_1_1_ast_assign.html", null ],
+      [ "AstBreak", "classast_1_1_ast_break.html", null ],
       [ "AstConverter.AstConv< S, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", null ],
       [ "AstConverter.IntegerToBoolean", "classast_1_1_ast_converter_1_1_integer_to_boolean.html", null ],
       [ "AstDataWriter.WriterBoolean", "classast_1_1_ast_data_writer_1_1_writer_boolean.html", null ],
@@ -288,7 +302,8 @@ var hierarchy =
       [ "AstMathOper.IntegerRel", "classast_1_1_ast_math_oper_1_1_integer_rel.html", null ],
       [ "AstMathOper.StringAddOper", "classast_1_1_ast_math_oper_1_1_string_add_oper.html", null ],
       [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ],
-      [ "AstSource", "classast_1_1_ast_source.html", null ],
+      [ "AstSource.AstInFileOpen", "classast_1_1_ast_source_1_1_ast_in_file_open.html", null ],
+      [ "AstSource.AstInstreamConst", "classast_1_1_ast_source_1_1_ast_instream_const.html", null ],
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
       [ "BlockBase", "classast_1_1_block_base.html", null ],
       [ "SentList", "classast_1_1_sent_list.html", null ],
@@ -298,7 +313,8 @@ var hierarchy =
         [ "AstDataReader", "classast_1_1_ast_data_reader.html", null ],
         [ "AstLiteral", "classast_1_1_ast_literal.html", null ],
         [ "AstOper", "classast_1_1_ast_oper.html", null ],
-        [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", null ]
+        [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", null ],
+        [ "Node.DataReader", "interfaceast_1_1_node_1_1_data_reader.html", null ]
       ] ]
     ] ],
     [ "Resettable.Generator< S >", "interfaceutil_1_1_resettable_1_1_generator.html", null ],
@@ -437,8 +453,11 @@ var hierarchy =
     [ "XFormattable", "interfaceformat_1_1_x_formattable.html", [
       [ "Node", "interfaceast_1_1_node.html", [
         [ "AstNode", "classast_1_1_ast_node.html", null ],
+        [ "Node.DataReader", "interfaceast_1_1_node_1_1_data_reader.html", null ],
+        [ "Node.DataWriter", "interfaceast_1_1_node_1_1_data_writer.html", null ],
         [ "Node.NodeUnary", "interfaceast_1_1_node_1_1_node_unary.html", [
-          [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ]
+          [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
+          [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", null ]
         ] ]
       ] ],
       [ "XFormattable.CustomFormattable", "interfaceformat_1_1_x_formattable_1_1_custom_formattable.html", null ],
@@ -486,6 +505,7 @@ var hierarchy =
       [ "queryParser.BoolConstExpContext", "classparse_1_1query_parser_1_1_bool_const_exp_context.html", null ],
       [ "queryParser.BoolExprContext", "classparse_1_1query_parser_1_1_bool_expr_context.html", null ],
       [ "queryParser.BoolTermContext", "classparse_1_1query_parser_1_1_bool_term_context.html", null ],
+      [ "queryParser.BreakoperContext", "classparse_1_1query_parser_1_1_breakoper_context.html", null ],
       [ "queryParser.DeclContext", "classparse_1_1query_parser_1_1_decl_context.html", null ],
       [ "queryParser.DqMatchExprContext", "classparse_1_1query_parser_1_1_dq_match_expr_context.html", null ],
       [ "queryParser.ElemoperContext", "classparse_1_1query_parser_1_1_elemoper_context.html", null ],

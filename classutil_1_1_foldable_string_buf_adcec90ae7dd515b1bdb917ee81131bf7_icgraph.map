@@ -11,5 +11,5 @@
 <area shape="rect" id="node4" href="$classutil_1_1_util.html#a5ca1fa6debc2726baddad4eeef28cb0e" title="型パラメータTの要素をもつ配列と、YamlBufの初期化関数を受け取り、清書文字列を返す。" alt="" coords="313,5,457,32"/>
 <area shape="rect" id="node5" href="$classutil_1_1_trace_level.html#a665fc9bf4c1ce79578733ce069eb5f11" title="与えられた文字列を名前にもつ列挙型Levelの定数を返す。" alt="" coords="308,57,463,98"/>
 <area shape="rect" id="node10" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="264,275,507,301"/>
-<area shape="rect" id="node11" href="$classmachine_1_1_x_machine.html#ac169dbfecac7ac9c9ccb572752cd1ffe" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,275,216,301"/>
+<area shape="rect" id="node11" href="$classmachine_1_1_x_machine.html#ac680ef65f7b25e9bb34f27f0d2f4ef33" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,275,216,301"/>
 </map>

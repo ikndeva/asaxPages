@@ -12,9 +12,7 @@ var classast_1_1_ast_node =
     [ "numChildrenNav", "classast_1_1_ast_node.html#ac381bf6512e98592a141222515994176", null ],
     [ "getChildNav", "classast_1_1_ast_node.html#ad2e3a885d9dc86de242760deee9bc119", null ],
     [ "getFieldNav", "classast_1_1_ast_node.html#aba3f875d3ffe003840447ea435b705d3", null ],
-    [ "hasUniChild", "classast_1_1_ast_node.html#a83e51d002ca74a662c26a1c5a1368873", null ],
-    [ "getTheChild", "classast_1_1_ast_node.html#a411528882b240122bbdfae5647192139", null ],
-    [ "setTheChild", "classast_1_1_ast_node.html#a6d676428c1ffdc98a93167537203bea2", null ],
     [ "putPref", "classast_1_1_ast_node.html#aec7cb01daf171f70f15c432cab5fe29c", null ],
-    [ "qstring", "classast_1_1_ast_node.html#aa9331171af3343310531cd0bfae168f9", null ]
+    [ "qstring", "classast_1_1_ast_node.html#aa9331171af3343310531cd0bfae168f9", null ],
+    [ "children", "classast_1_1_ast_node.html#ac8dea5e583a02f05027ec5d6b6a459c0", null ]
 ];

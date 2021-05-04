@@ -1,7 +1,7 @@
 <map id="getLeastUpperBound" name="getLeastUpperBound">
-<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="471,56,615,83"/>
-<area shape="rect" id="node2" href="$classtype_1_1_x_type_item.html#a3057d3707a7f0e95cbc88e49f41e8a4c" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="276,56,423,83"/>
-<area shape="rect" id="node3" href="$classtype_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="15,5,218,32"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_data_reader_1_1_get_ref.html#acd2fd83a0adb6f44674827d7f05ddf7d" title="局所変数を設定する." alt="" coords="5,56,228,83"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_var_decl.html#a01af0743509a33df0dfbfa0c0b46690e" title="@breif" alt="" coords="40,107,193,133"/>
+<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="451,64,595,91"/>
+<area shape="rect" id="node2" href="$classtype_1_1_x_type_item.html#a3057d3707a7f0e95cbc88e49f41e8a4c" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="256,64,403,91"/>
+<area shape="rect" id="node3" href="$classtype_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_data_reader_1_1_reader_type.html#a47ef26a9cd99db204331fdb756b71909" title="局所変数を設定する." alt="" coords="17,57,196,98"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_var_decl.html#a01af0743509a33df0dfbfa0c0b46690e" title="@breif" alt="" coords="30,123,183,149"/>
 </map>

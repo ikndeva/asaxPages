@@ -1,5 +1,6 @@
 var classcmd_1_1_command_base =
 [
+    [ "CmdBreak", "classcmd_1_1_command_base_1_1_cmd_break.html", "classcmd_1_1_command_base_1_1_cmd_break" ],
     [ "CmdGetElemEnd", "classcmd_1_1_command_base_1_1_cmd_get_elem_end.html", "classcmd_1_1_command_base_1_1_cmd_get_elem_end" ],
     [ "CmdGetText", "classcmd_1_1_command_base_1_1_cmd_get_text.html", "classcmd_1_1_command_base_1_1_cmd_get_text" ],
     [ "CmdHALT", "classcmd_1_1_command_base_1_1_cmd_h_a_l_t.html", "classcmd_1_1_command_base_1_1_cmd_h_a_l_t" ],

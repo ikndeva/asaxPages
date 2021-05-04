@@ -26,5 +26,8 @@ var dir_2028bc93e8b133ca7de398659b7d185f =
     ] ],
     [ "StringHolder.java", "_string_holder_8java.html", [
       [ "StringHolder", "classframe_1_1_string_holder.html", "classframe_1_1_string_holder" ]
+    ] ],
+    [ "VarKey.java", "_var_key_8java.html", [
+      [ "VarKey", "classmachine_1_1_var_key.html", "classmachine_1_1_var_key" ]
     ] ]
 ];

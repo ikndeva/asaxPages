@@ -7,6 +7,7 @@ var annotated_dup =
     ] ],
     [ "ast", "namespaceast.html", [
       [ "AstAssign", "classast_1_1_ast_assign.html", "classast_1_1_ast_assign" ],
+      [ "AstBreak", "classast_1_1_ast_break.html", "classast_1_1_ast_break" ],
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
       [ "AstDataWrapper", "classast_1_1_ast_data_wrapper.html", "classast_1_1_ast_data_wrapper" ],
@@ -21,13 +22,18 @@ var annotated_dup =
       [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
       [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ],
       [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", "classast_1_1_ast_node_tagged_settable" ],
+      [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", "classast_1_1_ast_node_unary" ],
       [ "AstOper", "classast_1_1_ast_oper.html", "classast_1_1_ast_oper" ],
       [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", "classast_1_1_ast_oper_tagged" ],
       [ "AstReturn", "classast_1_1_ast_return.html", "classast_1_1_ast_return" ],
       [ "AstScanFrom", "classast_1_1_ast_scan_from.html", "classast_1_1_ast_scan_from" ],
-      [ "AstSource", "classast_1_1_ast_source.html", "classast_1_1_ast_source" ],
+      [ "AstSource", "classast_1_1_ast_source.html", [
+        [ "AstInFileOpen", "classast_1_1_ast_source_1_1_ast_in_file_open.html", "classast_1_1_ast_source_1_1_ast_in_file_open" ],
+        [ "AstInstreamConst", "classast_1_1_ast_source_1_1_ast_instream_const.html", "classast_1_1_ast_source_1_1_ast_instream_const" ]
+      ] ],
       [ "AstTag", "classast_1_1_ast_tag.html", "classast_1_1_ast_tag" ],
       [ "AstTemplate", "classast_1_1_ast_template.html", "classast_1_1_ast_template" ],
+      [ "AstVar", "classast_1_1_ast_var.html", "classast_1_1_ast_var" ],
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ],
       [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
       [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
@@ -135,6 +141,7 @@ var annotated_dup =
       [ "PooledOutputStream", "classio_1_1_pooled_output_stream.html", "classio_1_1_pooled_output_stream" ]
     ] ],
     [ "machine", "namespacemachine.html", [
+      [ "VarKey", "classmachine_1_1_var_key.html", "classmachine_1_1_var_key" ],
       [ "Assignable", "interfacemachine_1_1_assignable.html", "interfacemachine_1_1_assignable" ],
       [ "Blockable", "interfacemachine_1_1_blockable.html", "interfacemachine_1_1_blockable" ],
       [ "Call", "classmachine_1_1_call.html", "classmachine_1_1_call" ],
@@ -226,6 +233,7 @@ var annotated_dup =
     [ "CmdTypeConst", "class_cmd_type_const.html", null ],
     [ "CustomFormattable", "class_custom_formattable.html", null ],
     [ "DataHolder", "class_data_holder.html", null ],
+    [ "DataReader", "class_data_reader.html", null ],
     [ "Exception", "class_exception.html", null ],
     [ "FilterOutputStream", "class_filter_output_stream.html", null ],
     [ "Iterable", "class_iterable.html", null ],

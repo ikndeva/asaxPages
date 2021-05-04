@@ -1,5 +1,6 @@
 var namespacemachine =
 [
+    [ "VarKey", "classmachine_1_1_var_key.html", "classmachine_1_1_var_key" ],
     [ "Assignable", "interfacemachine_1_1_assignable.html", "interfacemachine_1_1_assignable" ],
     [ "Blockable", "interfacemachine_1_1_blockable.html", "interfacemachine_1_1_blockable" ],
     [ "Call", "classmachine_1_1_call.html", "classmachine_1_1_call" ],

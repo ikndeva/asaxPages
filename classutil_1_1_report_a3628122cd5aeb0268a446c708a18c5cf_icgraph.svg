@@ -97,7 +97,7 @@ var sectionId = 'dynsection-2';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classframe_1_1_frame_stack_uni.html#a5a1fe313ead14b2efa55f0b78f6cd729" target="_top" xlink:title="スタックのトップにフレームを追加し、そのフレームポインタfpを返す。">
+<g id="a_node4"><a xlink:href="classframe_1_1_frame_stack_uni.html#a9a8412e62e70cb093fb49657471df607" target="_top" xlink:title="スタックのトップにフレームを追加し、そのフレームポインタfpを返す。">
 <polygon fill="white" stroke="black" points="609.5,-1043 609.5,-1073 745.5,-1073 745.5,-1043 609.5,-1043"/>
 <text text-anchor="start" x="617.5" y="-1061" font-family="Helvetica,sans-Serif" font-size="10.00">frame.FrameStackUni.alloc</text>
 <text text-anchor="middle" x="677.5" y="-1050" font-family="Helvetica,sans-Serif" font-size="10.00">Frame</text>

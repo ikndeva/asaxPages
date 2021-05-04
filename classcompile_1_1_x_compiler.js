@@ -10,8 +10,9 @@ var classcompile_1_1_x_compiler =
     [ "compile", "classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21", null ],
     [ "repo", "classcompile_1_1_x_compiler.html#a710b2cd1c0643751f4316461e58c1eef", null ],
     [ "MASK_QUERY_PRINT", "classcompile_1_1_x_compiler.html#af90dca272f801b767698ef9328464f9e", null ],
-    [ "REF_HEAD_LEN", "classcompile_1_1_x_compiler.html#afd2b5bd62df028863bb5f6152c21fa3b", null ],
-    [ "REF_HEAD_LAST", "classcompile_1_1_x_compiler.html#a1b8852190349e64be41959e34a91c054", null ],
+    [ "VAR_FLEN", "classcompile_1_1_x_compiler.html#a69f8c291d470f633cc281992b78bec25", null ],
+    [ "VAR_FPAR", "classcompile_1_1_x_compiler.html#a2465f5aa88eb99ee11f7165471431673", null ],
+    [ "VAR_FUNC", "classcompile_1_1_x_compiler.html#a8a1ac0ac5e7dfad298fde2275b5dd095", null ],
     [ "LOG", "classcompile_1_1_x_compiler.html#abd2c27be350958d3dc103ce4255901fa", null ],
     [ "MOD_COMPILE", "classcompile_1_1_x_compiler.html#a0ffed6088f1f9535c6b78a407c4ac3d9", null ],
     [ "NF", "classcompile_1_1_x_compiler.html#a28547f94a89f0147639263f164b48e48", null ]

@@ -1,31 +1,32 @@
 <map id="BlockBase" name="BlockBase">
-<area shape="rect" id="node1" title="抽象構文木のステップ式のクラス." alt="" coords="1245,673,1331,700"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="1021,393,1136,420"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="783,421,857,448"/>
-<area shape="rect" id="node23" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="1043,521,1114,548"/>
-<area shape="rect" id="node28" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1057,897,1100,924"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="407,392,510,419"/>
-<area shape="rect" id="node5" title=" " alt="" coords="46,245,102,272"/>
-<area shape="rect" id="node16" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="433,443,485,469"/>
-<area shape="rect" id="node6" title=" " alt="" coords="31,128,117,155"/>
-<area shape="rect" id="node7" title=" " alt="" coords="25,416,123,443"/>
-<area shape="rect" id="node27" href="$classmachine_1_1_ref_list.html" title="@整数の表" alt="" coords="427,724,491,751"/>
-<area shape="rect" id="node8" title=" " alt="" coords="55,792,93,819"/>
-<area shape="rect" id="node9" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="41,77,107,104"/>
-<area shape="rect" id="node10" title=" " alt="" coords="41,528,107,555"/>
-<area shape="rect" id="node11" href="$interfaceast_1_1_node.html" title=" " alt="" coords="432,83,485,109"/>
-<area shape="rect" id="node12" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="24,12,124,39"/>
-<area shape="rect" id="node13" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="372,185,545,212"/>
+<area shape="rect" id="node1" title="抽象構文木のステップ式のクラス." alt="" coords="1245,649,1331,676"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="1021,401,1136,428"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="783,480,857,507"/>
+<area shape="rect" id="node24" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="1043,548,1114,575"/>
+<area shape="rect" id="node29" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1057,753,1100,780"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="407,584,510,611"/>
+<area shape="rect" id="node5" title=" " alt="" coords="46,504,102,531"/>
+<area shape="rect" id="node17" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="433,431,485,457"/>
+<area shape="rect" id="node6" title=" " alt="" coords="31,581,117,608"/>
+<area shape="rect" id="node7" title=" " alt="" coords="25,915,123,941"/>
+<area shape="rect" id="node28" href="$classmachine_1_1_ref_list.html" title="@整数の表" alt="" coords="427,901,491,928"/>
+<area shape="rect" id="node8" title=" " alt="" coords="55,779,93,805"/>
+<area shape="rect" id="node9" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="41,632,107,659"/>
+<area shape="rect" id="node10" title=" " alt="" coords="41,240,107,267"/>
+<area shape="rect" id="node11" href="$interfaceast_1_1_node.html" title=" " alt="" coords="432,56,485,83"/>
+<area shape="rect" id="node12" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="24,56,124,83"/>
+<area shape="rect" id="node13" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="372,107,545,133"/>
 <area shape="rect" id="node14" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="355,5,563,32"/>
-<area shape="rect" id="node15" title=" " alt="" coords="424,341,493,368"/>
-<area shape="rect" id="node17" title=" " alt="" coords="761,320,879,347"/>
-<area shape="rect" id="node18" title=" " alt="" coords="769,371,871,397"/>
-<area shape="rect" id="node19" title=" " alt="" coords="755,219,885,245"/>
-<area shape="rect" id="node20" title=" " alt="" coords="712,269,928,296"/>
-<area shape="rect" id="node21" href="$interfacemachine_1_1_rule.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="1054,623,1103,649"/>
-<area shape="rect" id="node22" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="774,555,866,581"/>
-<area shape="rect" id="node24" href="$classcmd_1_1_cmd_list.html" title="仮想命令のリスト．" alt="" coords="423,995,494,1021"/>
-<area shape="rect" id="node25" title=" " alt="" coords="5,881,143,908"/>
-<area shape="rect" id="node26" title=" " alt="" coords="27,995,121,1021"/>
-<area shape="rect" id="node29" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="777,953,863,980"/>
+<area shape="rect" id="node15" title=" " alt="" coords="399,481,519,508"/>
+<area shape="rect" id="node16" title=" " alt="" coords="424,532,493,559"/>
+<area shape="rect" id="node18" title=" " alt="" coords="761,277,879,304"/>
+<area shape="rect" id="node19" title=" " alt="" coords="769,328,871,355"/>
+<area shape="rect" id="node20" title=" " alt="" coords="755,379,885,405"/>
+<area shape="rect" id="node21" title=" " alt="" coords="712,429,928,456"/>
+<area shape="rect" id="node22" href="$interfacemachine_1_1_rule.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="1054,599,1103,625"/>
+<area shape="rect" id="node23" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="774,632,866,659"/>
+<area shape="rect" id="node25" href="$classcmd_1_1_cmd_list.html" title="仮想命令のリスト．" alt="" coords="423,1015,494,1041"/>
+<area shape="rect" id="node26" title=" " alt="" coords="5,989,143,1016"/>
+<area shape="rect" id="node27" title=" " alt="" coords="27,1049,121,1076"/>
+<area shape="rect" id="node30" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="777,761,863,788"/>
 </map>

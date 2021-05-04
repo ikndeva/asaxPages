@@ -12,6 +12,6 @@
 <area shape="rect" id="node13" href="$classframe_1_1_mem_cell.html#ab5737202b3944479ae53931222a29ac3" title="メモリセルの内容を表す文字列を返す。" alt="" coords="576,507,736,533"/>
 <area shape="rect" id="node14" href="$classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263" title="内部仕様のYamlBufの初期化器yamlInitializerと要素の清書器elemWriterをもつ清書出力文字列を返す実装手続き。" alt="" coords="576,557,736,584"/>
 <area shape="rect" id="node7" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="264,245,507,272"/>
-<area shape="rect" id="node8" href="$classmachine_1_1_x_machine.html#ac169dbfecac7ac9c9ccb572752cd1ffe" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,245,216,272"/>
+<area shape="rect" id="node8" href="$classmachine_1_1_x_machine.html#ac680ef65f7b25e9bb34f27f0d2f4ef33" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,245,216,272"/>
 <area shape="rect" id="node15" href="$classutil_1_1_auto_stack.html#ad146fa8579a5f8a876c4688cc5a68520" title="清書出力文字列を返す．" alt="" coords="309,557,462,584"/>
 </map>

@@ -146,6 +146,8 @@ var classparse_1_1query_base_listener =
     [ "exitTextoper", "classparse_1_1query_base_listener.html#a80a6799443d3194364539ae6274785cd", null ],
     [ "enterElemoper", "classparse_1_1query_base_listener.html#a8301210d8689d2cca2483b31f58696f0", null ],
     [ "exitElemoper", "classparse_1_1query_base_listener.html#a47cfec91c0a967d603c06a355bacfdf2", null ],
+    [ "enterBreakoper", "classparse_1_1query_base_listener.html#a70ec508eaad0bc58773f9953bf81b411", null ],
+    [ "exitBreakoper", "classparse_1_1query_base_listener.html#a88ce8bc1ad8ec2db96c68e2034cf9f2c", null ],
     [ "enterEveryRule", "classparse_1_1query_base_listener.html#a090a743e8f9226450f1f1403d4afb155", null ],
     [ "exitEveryRule", "classparse_1_1query_base_listener.html#a5663c5313f7468bc25a2d7802bea3b8d", null ],
     [ "visitTerminal", "classparse_1_1query_base_listener.html#ad03a9fabf717b735feeb505f12524d7a", null ],

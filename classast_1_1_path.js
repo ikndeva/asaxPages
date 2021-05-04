@@ -19,5 +19,8 @@ var classast_1_1_path =
     [ "getCustomObjectString", "classast_1_1_path.html#a54d57ec79cee3ac4683b86ee2dcddd49", null ],
     [ "data", "classast_1_1_path.html#a3137357d0abb2bd75321d6e19024956a", null ],
     [ "notToEmit", "classast_1_1_path.html#a9bdb4531eee4ea10fafba49383ab366f", null ],
-    [ "toString", "classast_1_1_path.html#ad146fa8579a5f8a876c4688cc5a68520", null ]
+    [ "toString", "classast_1_1_path.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "NONE_DELIM", "classast_1_1_path.html#a407ae409cd7c58ee9c95604510cc6ff0", null ],
+    [ "CHLD_DELIM", "classast_1_1_path.html#a1493518edbcf2eee64827b622edb97be", null ],
+    [ "DESC_DELIM", "classast_1_1_path.html#a06de274780ea3c758efb202ef20fb843", null ]
 ];

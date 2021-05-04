@@ -110,7 +110,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classast_1_1_ast_scan_from.html#a383612fb2c1d291f6f3f9c352a5cb262">AstScanFrom</a>
 , <a class="el" href="classast_1_1_ast_source_1_1_ast_in_file_open.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstSource.AstInFileOpen</a>
 , <a class="el" href="classast_1_1_ast_source_1_1_ast_instream_const.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstSource.AstInstreamConst</a>
-, <a class="el" href="classast_1_1_ast_source.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstSource</a>
 , <a class="el" href="classast_1_1_ast_var_decl.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstVarDecl</a>
 , <a class="el" href="classast_1_1_block.html#a383612fb2c1d291f6f3f9c352a5cb262">Block</a>
 , <a class="el" href="classast_1_1_block_base.html#a383612fb2c1d291f6f3f9c352a5cb262">BlockBase</a>
@@ -178,6 +177,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>getChild()
 : <a class="el" href="classast_1_1_ast_node.html#a35d53cdd86285e56b69cfedc5ef28580">AstNode</a>
 , <a class="el" href="classast_1_1_ast_node_tagged_settable.html#a35d53cdd86285e56b69cfedc5ef28580">AstNodeTaggedSettable</a>
+, <a class="el" href="classast_1_1_ast_node_unary.html#a35d53cdd86285e56b69cfedc5ef28580">AstNodeUnary</a>
 , <a class="el" href="classast_1_1_block.html#a35d53cdd86285e56b69cfedc5ef28580">Block</a>
 , <a class="el" href="interfaceast_1_1_node.html#a35d53cdd86285e56b69cfedc5ef28580">Node</a>
 </li>
@@ -202,6 +202,11 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classmachine_1_1_call.html#a54d57ec79cee3ac4683b86ee2dcddd49">Call</a>
 , <a class="el" href="classmachine_1_1_global_ref_list.html#a54d57ec79cee3ac4683b86ee2dcddd49">GlobalRefList</a>
 , <a class="el" href="classmachine_1_1_ref_list.html#a54d57ec79cee3ac4683b86ee2dcddd49">RefList</a>
+</li>
+<li>getFID()
+: <a class="el" href="classast_1_1_block_base.html#a0558c04802851d163e6a4a0385840464">BlockBase</a>
+, <a class="el" href="interfacemachine_1_1_blockable.html#a0558c04802851d163e6a4a0385840464">Blockable</a>
+, <a class="el" href="interfacemachine_1_1_rule.html#a0558c04802851d163e6a4a0385840464">Rule</a>
 </li>
 <li>getField()
 : <a class="el" href="classutil_1_1_foldable_string_buf.html#af4e04c3e94acb04364b2b2a089685d8d">FoldableStringBuf</a>
@@ -255,6 +260,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="classevent_1_1_event_base.html#a78ee178b6a73658d65ca60da4d1e6683">EventBase</a>
 , <a class="el" href="classevent_1_1_event_reader_base.html#a78ee178b6a73658d65ca60da4d1e6683">EventReaderBase</a>
 , <a class="el" href="classmachine_1_1_ref.html#a78ee178b6a73658d65ca60da4d1e6683">Ref</a>
+, <a class="el" href="classmachine_1_1_var_key.html#a78ee178b6a73658d65ca60da4d1e6683">VarKey</a>
 </li>
 <li>getNewEvent()
 : <a class="el" href="classevent_1_1_event_manager.html#a314dd65176b0debdc3318b7e9c655e0e">EventManager</a>
@@ -310,7 +316,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classutil_1_1_yaml_buf.html#ab4730ff0267a3295e9ceb779e2ba50c0">YamlBuf</a>
 </li>
 <li>getRef()
-: <a class="el" href="classast_1_1_ast_data_reader_1_1_get_ref.html#a020a12aa6d63545149eb2ba4ffc07df5">AstDataReader.GetRef</a>
+: <a class="el" href="classast_1_1_ast_data_reader_1_1_reader_type.html#a020a12aa6d63545149eb2ba4ffc07df5">AstDataReader.ReaderType</a>
 , <a class="el" href="classast_1_1_ast_data_writer.html#a020a12aa6d63545149eb2ba4ffc07df5">AstDataWriter</a>
 , <a class="el" href="classcmd_1_1_command_base_1_1_command_ref.html#a020a12aa6d63545149eb2ba4ffc07df5">CommandBase.CommandRef</a>
 , <a class="el" href="interfacemachine_1_1_data_accessor.html#a020a12aa6d63545149eb2ba4ffc07df5">DataAccessor</a>
@@ -319,11 +325,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classast_1_1_block_base.html#ab567969ca79b4c59c68e9de672b3df31">BlockBase</a>
 , <a class="el" href="interfacemachine_1_1_blockable.html#ab567969ca79b4c59c68e9de672b3df31">Blockable</a>
 , <a class="el" href="interfacemachine_1_1_rule.html#ab567969ca79b4c59c68e9de672b3df31">Rule</a>
-</li>
-<li>getRid()
-: <a class="el" href="classast_1_1_block_base.html#a20884ccaa252ae9288070c409652f427">BlockBase</a>
-, <a class="el" href="interfacemachine_1_1_blockable.html#a20884ccaa252ae9288070c409652f427">Blockable</a>
-, <a class="el" href="interfacemachine_1_1_rule.html#a20884ccaa252ae9288070c409652f427">Rule</a>
 </li>
 <li>getRidSet()
 : <a class="el" href="classast_1_1_program.html#abfacf5db35236a85287fbb4ab4e72c12">Program</a>
@@ -374,7 +375,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="classevent_1_1_event_reader_base.html#a7e773e0012680226fafcbba6ac49b9e9">EventReaderBase</a>
 </li>
 <li>getTheChild()
-: <a class="el" href="classast_1_1_ast_node.html#a411528882b240122bbdfae5647192139">AstNode</a>
+: <a class="el" href="classast_1_1_ast_node_unary.html#a411528882b240122bbdfae5647192139">AstNodeUnary</a>
 , <a class="el" href="interfaceast_1_1_node_1_1_node_unary.html#a411528882b240122bbdfae5647192139">Node.NodeUnary</a>
 </li>
 <li>getToCompact()
@@ -392,7 +393,6 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 </li>
 <li>getTypeItem()
 : <a class="el" href="classast_1_1_ast_node_tagged.html#afc7d1953fd3677ccd28c36df9a430a96">AstNodeTagged</a>
-, <a class="el" href="classmachine_1_1_ref.html#ab594e85d9e3e578e12b3f3deeff5a006">Ref</a>
 </li>
 <li>getTyping()
 : <a class="el" href="classast_1_1_ast_node_base.html#adfc6b93e5d1b92cba301a9a917fe372c">AstNodeBase</a>
@@ -418,7 +418,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue May 4 2021 13:27:40 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed May 5 2021 05:54:15 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

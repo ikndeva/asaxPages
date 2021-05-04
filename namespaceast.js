@@ -1,6 +1,7 @@
 var namespaceast =
 [
     [ "AstAssign", "classast_1_1_ast_assign.html", "classast_1_1_ast_assign" ],
+    [ "AstBreak", "classast_1_1_ast_break.html", "classast_1_1_ast_break" ],
     [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
     [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
     [ "AstDataWrapper", "classast_1_1_ast_data_wrapper.html", "classast_1_1_ast_data_wrapper" ],
@@ -15,13 +16,18 @@ var namespaceast =
     [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
     [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ],
     [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", "classast_1_1_ast_node_tagged_settable" ],
+    [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", "classast_1_1_ast_node_unary" ],
     [ "AstOper", "classast_1_1_ast_oper.html", "classast_1_1_ast_oper" ],
     [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", "classast_1_1_ast_oper_tagged" ],
     [ "AstReturn", "classast_1_1_ast_return.html", "classast_1_1_ast_return" ],
     [ "AstScanFrom", "classast_1_1_ast_scan_from.html", "classast_1_1_ast_scan_from" ],
-    [ "AstSource", "classast_1_1_ast_source.html", "classast_1_1_ast_source" ],
+    [ "AstSource", "classast_1_1_ast_source.html", [
+      [ "AstInFileOpen", "classast_1_1_ast_source_1_1_ast_in_file_open.html", "classast_1_1_ast_source_1_1_ast_in_file_open" ],
+      [ "AstInstreamConst", "classast_1_1_ast_source_1_1_ast_instream_const.html", "classast_1_1_ast_source_1_1_ast_instream_const" ]
+    ] ],
     [ "AstTag", "classast_1_1_ast_tag.html", "classast_1_1_ast_tag" ],
     [ "AstTemplate", "classast_1_1_ast_template.html", "classast_1_1_ast_template" ],
+    [ "AstVar", "classast_1_1_ast_var.html", "classast_1_1_ast_var" ],
     [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ],
     [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
     [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],

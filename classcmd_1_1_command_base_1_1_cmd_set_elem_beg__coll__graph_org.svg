@@ -13,8 +13,8 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="テキスト読み出し命令の一つ:任意のノードの要素テキストの開始位置を取得して，整数型の変数に格納する．">
-<polygon fill="#bfbfbf" stroke="black" points="267.5,-0.5 267.5,-19.5 430.5,-19.5 430.5,-0.5 267.5,-0.5"/>
-<text text-anchor="middle" x="349" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdSetElemBeg</text>
+<polygon fill="#bfbfbf" stroke="black" points="259.5,-0.5 259.5,-19.5 422.5,-19.5 422.5,-0.5 259.5,-0.5"/>
+<text text-anchor="middle" x="341" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdSetElemBeg</text>
 </a>
 </g>
 </g>
@@ -22,31 +22,31 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="classcmd_1_1_command_base_1_1_cmd_store.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="283.5,-57.5 283.5,-76.5 414.5,-76.5 414.5,-57.5 283.5,-57.5"/>
-<text text-anchor="middle" x="349" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdStore</text>
+<polygon fill="white" stroke="black" points="275.5,-57.5 275.5,-76.5 406.5,-76.5 406.5,-57.5 275.5,-57.5"/>
+<text text-anchor="middle" x="341" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CmdStore</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge">
 <title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M349,-47.12C349,-37.82 349,-27.06 349,-19.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="345.5,-47.41 349,-57.41 352.5,-47.41 345.5,-47.41"/>
+<path fill="none" stroke="midnightblue" d="M341,-47.12C341,-37.82 341,-27.06 341,-19.71"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="337.5,-47.41 341,-57.41 344.5,-47.41 337.5,-47.41"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:href="classcmd_1_1_command_base_1_1_command_ref.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="275,-114.5 275,-133.5 423,-133.5 423,-114.5 275,-114.5"/>
-<text text-anchor="middle" x="349" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandRef</text>
+<polygon fill="white" stroke="black" points="267,-114.5 267,-133.5 415,-133.5 415,-114.5 267,-114.5"/>
+<text text-anchor="middle" x="341" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandRef</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge">
 <title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M349,-104.12C349,-94.82 349,-84.06 349,-76.71"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="345.5,-104.41 349,-114.41 352.5,-104.41 345.5,-104.41"/>
+<path fill="none" stroke="midnightblue" d="M341,-104.12C341,-94.82 341,-84.06 341,-76.71"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="337.5,-104.41 341,-114.41 344.5,-104.41 337.5,-104.41"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -60,8 +60,8 @@
 <!-- Node4&#45;&gt;Node3 -->
 <g id="edge3" class="edge">
 <title>Node4&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M225.54,-177.45C255.84,-164.58 302.15,-144.9 328.6,-133.67"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="224.15,-174.24 216.32,-181.37 226.89,-180.68 224.15,-174.24"/>
+<path fill="none" stroke="midnightblue" d="M224.75,-177.11C253.47,-164.24 296.82,-144.81 321.67,-133.67"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="222.95,-174.08 215.25,-181.37 225.81,-180.47 222.95,-174.08"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node">
@@ -137,32 +137,32 @@
 <g id="node9" class="node">
 <title>Node11</title>
 <g id="a_node9"><a xlink:href="interfacemachine_1_1_data_accessor.html" target="_top" xlink:title="参照をもつデータ読み書きオブジェクトのインタフェース.">
-<polygon fill="white" stroke="black" points="309.5,-181.5 309.5,-200.5 388.5,-200.5 388.5,-181.5 309.5,-181.5"/>
-<text text-anchor="middle" x="349" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">DataAccessor</text>
+<polygon fill="white" stroke="black" points="301.5,-181.5 301.5,-200.5 380.5,-200.5 380.5,-181.5 301.5,-181.5"/>
+<text text-anchor="middle" x="341" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">DataAccessor</text>
 </a>
 </g>
 </g>
 <!-- Node11&#45;&gt;Node3 -->
 <g id="edge9" class="edge">
 <title>Node11&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M349,-171.04C349,-158.67 349,-143.12 349,-133.63"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="345.5,-171.23 349,-181.23 352.5,-171.23 345.5,-171.23"/>
+<path fill="none" stroke="midnightblue" d="M341,-171.04C341,-158.67 341,-143.12 341,-133.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="337.5,-171.23 341,-181.23 344.5,-171.23 337.5,-171.23"/>
 </g>
 <!-- Node12 -->
 <g id="node10" class="node">
 <title>Node12</title>
 <g id="a_node10"><a xlink:href="classmachine_1_1_ref.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
-<polygon fill="white" stroke="black" points="437,-181.5 437,-200.5 469,-200.5 469,-181.5 437,-181.5"/>
-<text text-anchor="middle" x="453" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ref</text>
+<polygon fill="white" stroke="black" points="423,-181.5 423,-200.5 455,-200.5 455,-181.5 423,-181.5"/>
+<text text-anchor="middle" x="439" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ref</text>
 </a>
 </g>
 </g>
 <!-- Node12&#45;&gt;Node3 -->
 <g id="edge10" class="edge">
 <title>Node12&#45;&gt;Node3</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M430.23,-175.77C409.64,-162.9 380.01,-144.38 362.8,-133.63"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="428.64,-178.9 438.97,-181.23 432.35,-172.97 428.64,-178.9"/>
-<text text-anchor="middle" x="415.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00"> ref</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M417.28,-175.59C397.89,-162.74 370.14,-144.33 354.01,-133.63"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="415.52,-178.62 425.78,-181.23 419.38,-172.79 415.52,-178.62"/>
+<text text-anchor="middle" x="403.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00"> ref</text>
 </g>
 <!-- Node13 -->
 <g id="node11" class="node">
@@ -176,23 +176,35 @@
 <!-- Node13&#45;&gt;Node12 -->
 <g id="edge11" class="edge">
 <title>Node13&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M412.9,-240.27C423.43,-227.6 437.46,-210.7 445.83,-200.63"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="409.98,-238.31 406.28,-248.23 415.37,-242.78 409.98,-238.31"/>
+<path fill="none" stroke="midnightblue" d="M403.88,-239.16C410.4,-226.63 420.82,-210.41 428.93,-200.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="400.7,-237.7 399.61,-248.23 407.03,-240.68 400.7,-237.7"/>
 </g>
-<!-- Node25 -->
+<!-- Node13&#45;&gt;Node12 -->
+<g id="edge13" class="edge">
+<title>Node13&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M415.28,-240.27C424.41,-227.6 434.4,-210.7 438.45,-200.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="412.49,-238.17 409.18,-248.23 418.04,-242.42 412.49,-238.17"/>
+</g>
+<!-- Node26 -->
 <g id="node12" class="node">
-<title>Node25</title>
+<title>Node26</title>
 <g id="a_node12"><a xlink:href="interfacemachine_1_1_assignable.html" target="_top" xlink:title="変数（チャネルとコンテナの名前）の抽象化">
 <polygon fill="white" stroke="black" points="444.5,-248.5 444.5,-267.5 509.5,-267.5 509.5,-248.5 444.5,-248.5"/>
 <text text-anchor="middle" x="477" y="-255.5" font-family="Helvetica,sans-Serif" font-size="10.00">Assignable</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node12 -->
+<!-- Node26&#45;&gt;Node12 -->
 <g id="edge12" class="edge">
-<title>Node25&#45;&gt;Node12</title>
-<path fill="none" stroke="midnightblue" d="M470.28,-238.79C465.67,-226.31 459.76,-210.31 456.19,-200.63"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="467.02,-240.07 473.76,-248.23 473.58,-237.64 467.02,-240.07"/>
+<title>Node26&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M460.98,-239.9C452.31,-227.27 442.99,-210.6 439.28,-200.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="458.35,-242.24 467.09,-248.23 464,-238.1 458.35,-242.24"/>
+</g>
+<!-- Node26&#45;&gt;Node12 -->
+<g id="edge14" class="edge">
+<title>Node26&#45;&gt;Node12</title>
+<path fill="none" stroke="midnightblue" d="M472.49,-238.79C466.34,-226.31 456.53,-210.31 448.8,-200.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="469.42,-240.5 476.66,-248.23 475.82,-237.67 469.42,-240.5"/>
 </g>
 <!-- Node17 -->
 <g id="node13" class="node">
@@ -204,11 +216,11 @@
 </g>
 </g>
 <!-- Node17&#45;&gt;Node12 -->
-<g id="edge13" class="edge">
+<g id="edge15" class="edge">
 <title>Node17&#45;&gt;Node12</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M521.55,-242.07C503.99,-229.24 479.27,-211.19 464.81,-200.63"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="519.86,-245.16 530,-248.23 523.99,-239.51 519.86,-245.16"/>
-<text text-anchor="middle" x="522.5" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00"> UNDEF</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M519.45,-242.77C499.06,-229.9 469.71,-211.38 452.67,-200.63"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="517.78,-245.86 528.11,-248.23 521.52,-239.94 517.78,-245.86"/>
+<text text-anchor="middle" x="516.5" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00"> UNDEF</text>
 </g>
 </g>
 </svg>

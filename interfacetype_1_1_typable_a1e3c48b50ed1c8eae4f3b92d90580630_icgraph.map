@@ -1,9 +1,9 @@
 <map id="self" name="self">
-<area shape="rect" id="node1" title=" " alt="" coords="569,157,612,184"/>
-<area shape="rect" id="node2" href="$classtype_1_1_basic_typing.html#a4e5cb3528205dfd40d187cd82a02ee27" title="コンストラクタ" alt="" coords="311,81,509,108"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_assign.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="331,132,489,159"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c" title="二つの非演算子である子供のコードを生成す" alt="" coords="307,183,513,209"/>
-<area shape="rect" id="node13" href="$classast_1_1_ast_data_reader_1_1_get_ref.html#acd2fd83a0adb6f44674827d7f05ddf7d" title="局所変数を設定する." alt="" coords="299,233,521,260"/>
+<area shape="rect" id="node1" title=" " alt="" coords="553,157,596,184"/>
+<area shape="rect" id="node2" href="$classtype_1_1_basic_typing.html#a4e5cb3528205dfd40d187cd82a02ee27" title="コンストラクタ" alt="" coords="303,81,501,108"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_assign.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="323,132,481,159"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c" title="二つの非演算子である子供のコードを生成す" alt="" coords="299,183,505,209"/>
+<area shape="rect" id="node13" href="$classast_1_1_ast_data_reader_1_1_reader_type.html#a47ef26a9cd99db204331fdb756b71909" title="局所変数を設定する." alt="" coords="313,234,491,275"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="6,5,250,32"/>
 <area shape="rect" id="node6" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="9,56,247,83"/>
 <area shape="rect" id="node7" href="$classast_1_1_ast_math_oper_1_1_double_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="5,107,251,133"/>

@@ -145,5 +145,7 @@ var interfaceparse_1_1query_listener =
     [ "enterTextoper", "interfaceparse_1_1query_listener.html#a015f805e0ebc9b0a65b25cf38aad566a", null ],
     [ "exitTextoper", "interfaceparse_1_1query_listener.html#a80a6799443d3194364539ae6274785cd", null ],
     [ "enterElemoper", "interfaceparse_1_1query_listener.html#a8301210d8689d2cca2483b31f58696f0", null ],
-    [ "exitElemoper", "interfaceparse_1_1query_listener.html#a47cfec91c0a967d603c06a355bacfdf2", null ]
+    [ "exitElemoper", "interfaceparse_1_1query_listener.html#a47cfec91c0a967d603c06a355bacfdf2", null ],
+    [ "enterBreakoper", "interfaceparse_1_1query_listener.html#a70ec508eaad0bc58773f9953bf81b411", null ],
+    [ "exitBreakoper", "interfaceparse_1_1query_listener.html#a88ce8bc1ad8ec2db96c68e2034cf9f2c", null ]
 ];

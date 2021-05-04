@@ -7,6 +7,7 @@ var classframe_1_1_frame_stack_uni =
     [ "pushLevel", "classframe_1_1_frame_stack_uni.html#aa913875bbd7c0cd052f26b3186054634", null ],
     [ "popLevel", "classframe_1_1_frame_stack_uni.html#a40466db01c1660fc5a481683f327ae01", null ],
     [ "allocFrame", "classframe_1_1_frame_stack_uni.html#a5a1fe313ead14b2efa55f0b78f6cd729", null ],
+    [ "allocFrame", "classframe_1_1_frame_stack_uni.html#a9a8412e62e70cb093fb49657471df607", null ],
     [ "allocImmediateMemCell", "classframe_1_1_frame_stack_uni.html#aeb29f0f270d0119114283b9ad6f1f67d", null ],
     [ "allocVariableMemCell", "classframe_1_1_frame_stack_uni.html#aea03ccf87c476f9fe5f5570d0baaa9df", null ],
     [ "fetchMemCell", "classframe_1_1_frame_stack_uni.html#a6e9a602d54eb7fb9e281cd4905f4b9bf", null ],

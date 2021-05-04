@@ -2,7 +2,7 @@ var classast_1_1_block_base =
 [
     [ "BlockBase", "classast_1_1_block_base.html#af2ac03279a14f4ebeb31e1b2e345e63c", null ],
     [ "BlockBase", "classast_1_1_block_base.html#a8c9e7ac15be936adaabbf137bb0f1b14", null ],
-    [ "getRid", "classast_1_1_block_base.html#a20884ccaa252ae9288070c409652f427", null ],
+    [ "getFID", "classast_1_1_block_base.html#a0558c04802851d163e6a4a0385840464", null ],
     [ "setRid", "classast_1_1_block_base.html#a9e6ebe5bad1129ab078892610239508e", null ],
     [ "setRetTo", "classast_1_1_block_base.html#a1fd1254ad07567a3c65745b678c75093", null ],
     [ "getRetTo", "classast_1_1_block_base.html#af1e7ab898a3a1fa452032d73a5edca6d", null ],
@@ -17,7 +17,7 @@ var classast_1_1_block_base =
     [ "data", "classast_1_1_block_base.html#a3137357d0abb2bd75321d6e19024956a", null ],
     [ "gencode_safe", "classast_1_1_block_base.html#aad9fb15c4624ebbbbb1d4a9c9897e19b", null ],
     [ "gencode", "classast_1_1_block_base.html#a383612fb2c1d291f6f3f9c352a5cb262", null ],
-    [ "rid_", "classast_1_1_block_base.html#a8e5997399be42f2e072fb2100babe6d0", null ],
+    [ "funcid_", "classast_1_1_block_base.html#ae9d1a904aecd1c98c097ece399d07faa", null ],
     [ "retRef_", "classast_1_1_block_base.html#a4991e607b85bf04377e7b69541861e03", null ],
     [ "vars_", "classast_1_1_block_base.html#a25fdfd9bcae95332a4809b8908d9a79f", null ],
     [ "code_", "classast_1_1_block_base.html#a50526c351c519243be224934cc92ad7d", null ]

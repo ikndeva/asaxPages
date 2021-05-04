@@ -3,6 +3,7 @@ var interfacemachine_1_1_frame_stackable =
     [ "pushLevel", "interfacemachine_1_1_frame_stackable.html#aa913875bbd7c0cd052f26b3186054634", null ],
     [ "popLevel", "interfacemachine_1_1_frame_stackable.html#a40466db01c1660fc5a481683f327ae01", null ],
     [ "allocFrame", "interfacemachine_1_1_frame_stackable.html#a5a1fe313ead14b2efa55f0b78f6cd729", null ],
+    [ "allocFrame", "interfacemachine_1_1_frame_stackable.html#a9a8412e62e70cb093fb49657471df607", null ],
     [ "allocVariableMemCell", "interfacemachine_1_1_frame_stackable.html#aaef042eff18d7e4f326ff700b823b9e7", null ],
     [ "fetchMemCell", "interfacemachine_1_1_frame_stackable.html#a2a7bf3f027afe691b14515dae111ff03", null ],
     [ "fetchBooleanHolder", "interfacemachine_1_1_frame_stackable.html#abd6ff1fbc4fcef480f09670c223495b2", null ],

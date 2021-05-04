@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="現在の入れ子深さで段差げして，関数の戻りを出力する。" alt="" coords="1105,752,1148,779"/>
 <area shape="rect" id="node2" href="$classcompile_1_1_x_c_adapt.html#adb6c78cdd870364329efbacd0451f5d4" title="クエリのコード生成を行う．" alt="" coords="254,1280,431,1307"/>
 <area shape="rect" id="node3" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="5,1280,185,1307"/>
-<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#a5a1fe313ead14b2efa55f0b78f6cd729" title="スタックのトップにフレームを追加し、そのフレームポインタfpを返す。" alt="" coords="818,107,999,149"/>
+<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#a9a8412e62e70cb093fb49657471df607" title="スタックのトップにフレームを追加し、そのフレームポインタfpを返す。" alt="" coords="818,107,999,149"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_let.html#a4fe468cd31c91b7d0c2ab59495dbf2a9" title="コンストラクタ" alt="" coords="847,173,971,200"/>
 <area shape="rect" id="node6" href="$classformat_1_1_node_formatter_simple.html#aae2c443699b8e0376bb9fa16e05459e3" title="項のラベルを出力する" alt="" coords="799,225,1018,266"/>
 <area shape="rect" id="node7" href="$classformat_1_1_node_formatter_simple.html#aac82597a42c45dabd61899050038d1d4" title="項表現を出力する再帰ルーチン" alt="" coords="500,141,712,182"/>

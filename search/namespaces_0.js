@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['app_1594',['app',['../namespaceapp.html',1,'']]],
-  ['ast_1595',['ast',['../namespaceast.html',1,'']]]
+  ['app_1610',['app',['../namespaceapp.html',1,'']]],
+  ['ast_1611',['ast',['../namespaceast.html',1,'']]],
+  ['astvar_1612',['AstVar',['../namespace_ast_var.html',1,'']]]
 ];
