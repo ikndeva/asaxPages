@@ -11,7 +11,6 @@ var namespaces_dup =
     [ "machine", "namespacemachine.html", "namespacemachine" ],
     [ "parse", "namespaceparse.html", "namespaceparse" ],
     [ "pretty", "namespacepretty.html", "namespacepretty" ],
-    [ "tag", "namespacetag.html", null ],
     [ "tmpl", "namespacetmpl.html", "namespacetmpl" ],
     [ "type", "namespacetype.html", "namespacetype" ],
     [ "util", "namespaceutil.html", "namespaceutil" ]

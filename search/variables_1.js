@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['blksize_2385',['BLKSIZE',['../classio_1_1_pooled_input_stream.html#ad4966505c5a4a95128e0a0900c5834f4',1,'io::PooledInputStream']]],
-  ['bufsize_2386',['BUFSIZE',['../class_buffered_text_writer.html#ad03024abbff3abc1e6769259422f8f5d',1,'BufferedTextWriter']]]
+  ['blksize_2383',['BLKSIZE',['../classio_1_1_pooled_input_stream.html#ad4966505c5a4a95128e0a0900c5834f4',1,'io::PooledInputStream']]],
+  ['bufsize_2384',['BUFSIZE',['../class_buffered_text_writer.html#ad03024abbff3abc1e6769259422f8f5d',1,'BufferedTextWriter']]]
 ];
