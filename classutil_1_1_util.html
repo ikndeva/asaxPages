@@ -103,8 +103,7 @@ $(document).ready(function(){initNavTree('classutil_1_1_util.html',''); initResi
 <div class="dynheader">
 Collaboration diagram for Util:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -115,6 +114,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ae411a90dd0a4a15776ea6eb5f0cbae13"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13">errorExit</a> (String str)</td></tr>
 <tr class="memdesc:ae411a90dd0a4a15776ea6eb5f0cbae13"><td class="mdescLeft">&#160;</td><td class="mdescRight">与えられた文字列を標準出力に印刷して、プログラムを強制停止する。  <a href="classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13">More...</a><br /></td></tr>
 <tr class="separator:ae411a90dd0a4a15776ea6eb5f0cbae13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826431acded29b4eb611898173d66214"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#a826431acded29b4eb611898173d66214">errorExitRuntime</a> (String msg)</td></tr>
+<tr class="memdesc:a826431acded29b4eb611898173d66214"><td class="mdescLeft">&#160;</td><td class="mdescRight">与えられた文字列を標準出力に印刷して、プログラムを強制停止するpanic関数。  <a href="classutil_1_1_util.html#a826431acded29b4eb611898173d66214">More...</a><br /></td></tr>
+<tr class="separator:a826431acded29b4eb611898173d66214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3c5ad9aa6794f2d4525a3ed3a3a53e8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classutil_1_1_util.html#ae3c5ad9aa6794f2d4525a3ed3a3a53e8">errorExitAt</a> (String str, Object obj)</td></tr>
 <tr class="memdesc:ae3c5ad9aa6794f2d4525a3ed3a3a53e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">与えられた文字列とオブジェクトを標準出力に印刷して、プログラムを強制停止する。  <a href="classutil_1_1_util.html#ae3c5ad9aa6794f2d4525a3ed3a3a53e8">More...</a><br /></td></tr>
 <tr class="separator:ae3c5ad9aa6794f2d4525a3ed3a3a53e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -375,8 +377,7 @@ String <a class="el" href="classutil_1_1_util.html#a2fda1db09e4ca322c95602c6e747
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae411a90dd0a4a15776ea6eb5f0cbae13_cgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae411a90dd0a4a15776ea6eb5f0cbae13_cgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -384,6 +385,36 @@ Here is the caller graph for this function:</div>
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae411a90dd0a4a15776ea6eb5f0cbae13_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
+
+</div>
+</div>
+<a id="a826431acded29b4eb611898173d66214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826431acded29b4eb611898173d66214">&#9670;&nbsp;</a></span>errorExitRuntime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void errorExitRuntime </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>与えられた文字列を標準出力に印刷して、プログラムを強制停止するpanic関数。 </p>
+<dl class="section note"><dt>Note</dt><dd><br  />
+ </dd></dl>
 
 </div>
 </div>
@@ -426,8 +457,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae3c5ad9aa6794f2d4525a3ed3a3a53e8_cgraph.svg" width="266" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_ae3c5ad9aa6794f2d4525a3ed3a3a53e8_cgraph.svg" width="266" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -524,8 +554,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a293b0ae795cb95c9e8e9575473a9efed_cgraph.svg" width="399" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a293b0ae795cb95c9e8e9575473a9efed_cgraph.svg" width="399" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -559,8 +588,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_aa34dabb5413b3dfb4eae5f38118b091b_icgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_aa34dabb5413b3dfb4eae5f38118b091b_icgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -672,8 +700,7 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_af68c39de02f3f532129c21c01e6c8d3c_cgraph.svg" width="454" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_af68c39de02f3f532129c21c01e6c8d3c_cgraph.svg" width="454" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 
 </div>
@@ -717,8 +744,7 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a5ca1fa6debc2726baddad4eeef28cb0e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_util_a5ca1fa6debc2726baddad4eeef28cb0e_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
 </div>
 
 </div>
@@ -762,7 +788,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceutil.html">util</a></li><li class="navelem"><a class="el" href="classutil_1_1_util.html">Util</a></li>
-    <li class="footer">Generated on Mon May 3 2021 08:05:01 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 4 2021 13:27:39 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

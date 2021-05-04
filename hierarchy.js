@@ -375,11 +375,13 @@ var hierarchy =
       [ "Program", "classast_1_1_program.html", null ]
     ] ],
     [ "RuntimeException", "class_runtime_exception.html", [
-      [ "XException", "classmachine_1_1_x_exception.html", [
-        [ "XException.XExceptionSkippable", "classmachine_1_1_x_exception_1_1_x_exception_skippable.html", [
-          [ "XException.XExceptionReadValue", "classmachine_1_1_x_exception_1_1_x_exception_read_value.html", null ],
-          [ "XException.XExceptionStorage", "classmachine_1_1_x_exception_1_1_x_exception_storage.html", null ]
-        ] ]
+      [ "XRuntimeException", "classmachine_1_1_x_runtime_exception.html", [
+        [ "XRuntimeException.XAntlrRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_antlr_runtime_exception.html", null ],
+        [ "XRuntimeException.XEventRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_event_runtime_exception.html", null ],
+        [ "XRuntimeException.XMemoryRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_memory_runtime_exception.html", null ],
+        [ "XRuntimeException.XOVMRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_o_v_m_runtime_exception.html", null ],
+        [ "XRuntimeException.XParseRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_parse_runtime_exception.html", null ],
+        [ "XRuntimeException.XRuleRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_rule_runtime_exception.html", null ]
       ] ]
     ] ],
     [ "FoldableStringBuf.SiblingStack", "classutil_1_1_foldable_string_buf_1_1_sibling_stack.html", [

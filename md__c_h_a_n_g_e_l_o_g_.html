@@ -95,10 +95,23 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
-<h1>210502 Sun, 20:00-: コード</h1>
-<p>分岐して，マージした．</p>
+<h1>210503 Mon, 15:30-: エラー対応</h1>
+<p>走行機構は，落ち着いているので，そろそろ実行時のエラー対応を行う必要がある．</p>
+<ul>
+<li>構文解析エラー</li>
+<li>イベント走査エラー</li>
+<li>メモリエラー</li>
+</ul>
+<p>それぞれ異なるが，基本的には，エラーが</p>
+<ul>
+<li>エラーが起きた時点と場所の同定</li>
+</ul>
+<p>ができる情報を記録し，表示する必要がある．</p>
+<h1>210502 Sun, 20:00-29:00：コードまとめ，0503 Mon 05:00-07:00: バグ対応</h1>
+<p>昨日分岐したブランチで，パス式と文字列式の構文改訂作業を完了し，masterブランチに合併し，作業を一旦終えた．</p>
+<p>パス式の子孫軸の復活に関して，テストをしていたところ，targetプロセスが子孫軸をもつ（フレキシブルな）ときに，フレームスタックのアクセス時の番地逸脱のバグを発見した．対応は次回．</p>
 <h2>パス式の構文の変更</h2>
-<p>パス式のAxis区切りを，スラッシュ系（'/'）からドット系（'.'）へ変更した．さらに，トップのタグにも子軸か子孫軸の記号を付与することとして，任意のパスはドット'.'で始まるようにして，名前や文字列と区別が付くようにした．</p>
+<p>パス式のAxis区切りを，スラッシュ系（'/'）からドット系（'.'）へ変更した． さらに，トップのタグにも子軸か子孫軸の記号を付与することとして，任意のパスはドット'.'で始まるようにして，名前や文字列と区別が付くようにした．パス式の子孫軸も復活させた．</p>
 <p>通常のXPath式との違い</p>
 <ul>
 <li>子供軸は&lsquo;&rsquo;.'`．現在のノードの直下の要素を表す</li>
@@ -1013,7 +1026,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon May 3 2021 08:04:57 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue May 4 2021 13:27:35 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

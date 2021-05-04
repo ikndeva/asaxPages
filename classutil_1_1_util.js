@@ -2,6 +2,7 @@ var classutil_1_1_util =
 [
     [ "exit", "classutil_1_1_util.html#a98a9fd114ee065ff149a7d4fb4de8de8", null ],
     [ "errorExit", "classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13", null ],
+    [ "errorExitRuntime", "classutil_1_1_util.html#a826431acded29b4eb611898173d66214", null ],
     [ "errorExitAt", "classutil_1_1_util.html#ae3c5ad9aa6794f2d4525a3ed3a3a53e8", null ],
     [ "reportStackTrace", "classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8", null ],
     [ "setIndentStr", "classutil_1_1_util.html#ac7ee1ce1420e303886e3ef314c7702cb", null ],

@@ -24,6 +24,6 @@ var namespacemachine =
     [ "SystemReadable", "interfacemachine_1_1_system_readable.html", "interfacemachine_1_1_system_readable" ],
     [ "SystemScope", "classmachine_1_1_system_scope.html", "classmachine_1_1_system_scope" ],
     [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", "classmachine_1_1_tag_mask_map" ],
-    [ "XException", "classmachine_1_1_x_exception.html", "classmachine_1_1_x_exception" ],
-    [ "XMachine", "classmachine_1_1_x_machine.html", "classmachine_1_1_x_machine" ]
+    [ "XMachine", "classmachine_1_1_x_machine.html", "classmachine_1_1_x_machine" ],
+    [ "XRuntimeException", "classmachine_1_1_x_runtime_exception.html", "classmachine_1_1_x_runtime_exception" ]
 ];

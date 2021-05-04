@@ -69,10 +69,13 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "TagMaskMap.java", "_tag_mask_map_8java.html", [
       [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", "classmachine_1_1_tag_mask_map" ]
     ] ],
-    [ "XException.java", "_x_exception_8java.html", [
-      [ "XException", "classmachine_1_1_x_exception.html", "classmachine_1_1_x_exception" ],
-      [ "XExceptionSkippable", "classmachine_1_1_x_exception_1_1_x_exception_skippable.html", "classmachine_1_1_x_exception_1_1_x_exception_skippable" ],
-      [ "XExceptionStorage", "classmachine_1_1_x_exception_1_1_x_exception_storage.html", "classmachine_1_1_x_exception_1_1_x_exception_storage" ],
-      [ "XExceptionReadValue", "classmachine_1_1_x_exception_1_1_x_exception_read_value.html", "classmachine_1_1_x_exception_1_1_x_exception_read_value" ]
+    [ "XRuntimeException.java", "_x_runtime_exception_8java.html", [
+      [ "XRuntimeException", "classmachine_1_1_x_runtime_exception.html", "classmachine_1_1_x_runtime_exception" ],
+      [ "XParseRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_parse_runtime_exception.html", "classmachine_1_1_x_runtime_exception_1_1_x_parse_runtime_exception" ],
+      [ "XEventRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_event_runtime_exception.html", "classmachine_1_1_x_runtime_exception_1_1_x_event_runtime_exception" ],
+      [ "XMemoryRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_memory_runtime_exception.html", "classmachine_1_1_x_runtime_exception_1_1_x_memory_runtime_exception" ],
+      [ "XOVMRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_o_v_m_runtime_exception.html", "classmachine_1_1_x_runtime_exception_1_1_x_o_v_m_runtime_exception" ],
+      [ "XRuleRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_rule_runtime_exception.html", "classmachine_1_1_x_runtime_exception_1_1_x_rule_runtime_exception" ],
+      [ "XAntlrRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_antlr_runtime_exception.html", "classmachine_1_1_x_runtime_exception_1_1_x_antlr_runtime_exception" ]
     ] ]
 ];

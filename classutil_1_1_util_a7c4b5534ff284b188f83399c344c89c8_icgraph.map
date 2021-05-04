@@ -1,7 +1,7 @@
 <map id="reportStackTrace" name="reportStackTrace">
-<area shape="rect" id="node1" title="スタックトレースを出力する。" alt="" coords="1319,2227,1441,2253"/>
-<area shape="rect" id="node2" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="1193,2201,1264,2228"/>
-<area shape="rect" id="node93" href="$classutil_1_1_util.html#ae3c5ad9aa6794f2d4525a3ed3a3a53e8" title="与えられた文字列とオブジェクトを標準出力に印刷して、プログラムを強制停止する。" alt="" coords="1187,2252,1271,2279"/>
+<area shape="rect" id="node1" title="スタックトレースを出力する。" alt="" coords="1319,2197,1441,2224"/>
+<area shape="rect" id="node2" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="1193,2172,1264,2199"/>
+<area shape="rect" id="node92" href="$classutil_1_1_util.html#ae3c5ad9aa6794f2d4525a3ed3a3a53e8" title="与えられた文字列とオブジェクトを標準出力に印刷して、プログラムを強制停止する。" alt="" coords="1187,2223,1271,2249"/>
 <area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#a43e79abd6dbad7bc60422a3043912493" title="スタックにエントリをプッシュし、その番地を返す。" alt="" coords="940,951,1087,993"/>
 <area shape="rect" id="node20" href="$classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップにシステム変数値をおく．" alt="" coords="324,1293,519,1334"/>
 <area shape="rect" id="node27" href="$classcompile_1_1_x_c_adapt.html#adb6c78cdd870364329efbacd0451f5d4" title="クエリのコード生成を行う．" alt="" coords="333,1521,510,1548"/>
@@ -23,22 +23,21 @@
 <area shape="rect" id="node53" href="$classframe_1_1_o_stream_holder.html#ac5f5202af3bb4156a22175cb76becb91" title="内容の文字列を返す。@カスケードAPIではない。" alt="" coords="928,2556,1099,2583"/>
 <area shape="rect" id="node54" href="$classcompile_1_1_x_c_adapt.html#a67168fb139604f65ae3fab7d9022932c" title="推論された型にしたがって，多相型のノードを具体型のノードに変換する．" alt="" coords="918,1613,1109,1654"/>
 <area shape="rect" id="node55" href="$classcompile_1_1_x_c_adapt.html#ae1b1751d636b911f0a9ee870587cf991" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="627,1561,807,1588"/>
-<area shape="rect" id="node56" href="$classutil_1_1_foldable_string_buf.html#a8a8abe37bfbae078b20ff72050fd2751" title="入れ子を一つ浅く、ポップする" alt="" coords="928,2607,1099,2633"/>
+<area shape="rect" id="node56" href="$classutil_1_1_foldable_string_buf.html#a8a8abe37bfbae078b20ff72050fd2751" title="入れ子を一つ浅く、ポップする" alt="" coords="928,2657,1099,2684"/>
 <area shape="rect" id="node70" href="$classutil_1_1_report.html#a03135aa774dc9eea1dd6229cb2586de4" title="現在の入れ子深さを一つ浅くする．" alt="" coords="960,2708,1067,2735"/>
 <area shape="rect" id="node72" href="$classcompile_1_1_x_c_push.html#a186d57e8aae3c0ea575f2b54f982f508" title="クエリのコード生成を行う．" alt="" coords="633,1729,802,1756"/>
 <area shape="rect" id="node73" href="$classcompile_1_1_x_c_flat.html#a029cff3eb4de07cc0123c3490f1190dd" title="正規形への変換の再起手続き" alt="" coords="935,1831,1091,1857"/>
 <area shape="rect" id="node75" href="$classcompile_1_1_x_c_gen.html#a1eeb728ff52edee4946ab175126699b8" title="コード生成を行う再帰手続き．" alt="" coords="933,1359,1093,1385"/>
 <area shape="rect" id="node77" href="$classcompile_1_1_x_c_push.html#a7714f05e08bb949fcf8d9b0526d50ce2" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="927,1780,1099,1807"/>
-<area shape="rect" id="node78" href="$classcompile_1_1_x_c_typing.html#a5cb8672d9165fed5af2dbb8cf0158e63" title="与えられたノードの出力型が上限itemUpperを持つよう部分式を型付けする." alt="" coords="924,2759,1103,2785"/>
-<area shape="rect" id="node79" href="$classformat_1_1_n_f_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" title="リサイクラーオブジェクトを回収する。" alt="" coords="640,1409,795,1436"/>
-<area shape="rect" id="node80" href="$classutil_1_1_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" title="リサイクラーオブジェクトを回収する。" alt="" coords="955,2809,1071,2836"/>
-<area shape="rect" id="node81" href="$classutil_1_1_trace_level.html#a665fc9bf4c1ce79578733ce069eb5f11" title="与えられた文字列を名前にもつ列挙型Levelの定数を返す。" alt="" coords="936,2861,1091,2902"/>
-<area shape="rect" id="node82" href="$classutil_1_1_stack_base.html#ab8ead535198d700082bc45c8a8e48050" title="class StackBaseでは実装されない." alt="" coords="943,2927,1083,2953"/>
-<area shape="rect" id="node83" href="$classast_1_1_ast_scan_from.html#ad575d7d6c3a5a5994eaf580a1ee18bcc" title="子として、根ステップを設定する。" alt="" coords="927,2977,1100,3004"/>
-<area shape="rect" id="node84" href="$classutil_1_1_util.html#af68c39de02f3f532129c21c01e6c8d3c" title="文字列から両端の引用符を除く。" alt="" coords="955,3028,1071,3055"/>
-<area shape="rect" id="node85" href="$classformat_1_1_node_formatter_base.html#ad2ed4947c266a995d1a0fb4b766bc824" title="クエリの項表現の文字列（qsring）を返す." alt="" coords="916,3079,1111,3121"/>
-<area shape="rect" id="node86" href="$classformat_1_1_n_f_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。" alt="" coords="935,3145,1092,3172"/>
-<area shape="rect" id="node87" href="$classutil_1_1_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。" alt="" coords="658,2716,777,2743"/>
+<area shape="rect" id="node78" href="$classformat_1_1_n_f_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" title="リサイクラーオブジェクトを回収する。" alt="" coords="640,1409,795,1436"/>
+<area shape="rect" id="node79" href="$classutil_1_1_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" title="リサイクラーオブジェクトを回収する。" alt="" coords="955,2759,1071,2785"/>
+<area shape="rect" id="node80" href="$classutil_1_1_trace_level.html#a665fc9bf4c1ce79578733ce069eb5f11" title="与えられた文字列を名前にもつ列挙型Levelの定数を返す。" alt="" coords="936,2810,1091,2851"/>
+<area shape="rect" id="node81" href="$classutil_1_1_stack_base.html#ab8ead535198d700082bc45c8a8e48050" title="class StackBaseでは実装されない." alt="" coords="943,2876,1083,2903"/>
+<area shape="rect" id="node82" href="$classast_1_1_ast_scan_from.html#ad575d7d6c3a5a5994eaf580a1ee18bcc" title="子として、根ステップを設定する。" alt="" coords="927,2927,1100,2953"/>
+<area shape="rect" id="node83" href="$classutil_1_1_util.html#af68c39de02f3f532129c21c01e6c8d3c" title="文字列から両端の引用符を除く。" alt="" coords="955,2977,1071,3004"/>
+<area shape="rect" id="node84" href="$classformat_1_1_node_formatter_base.html#ad2ed4947c266a995d1a0fb4b766bc824" title="クエリの項表現の文字列（qsring）を返す." alt="" coords="916,3029,1111,3070"/>
+<area shape="rect" id="node85" href="$classformat_1_1_n_f_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。" alt="" coords="935,3095,1092,3121"/>
+<area shape="rect" id="node86" href="$classutil_1_1_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。" alt="" coords="658,2615,777,2641"/>
 <area shape="rect" id="node4" href="$classutil_1_1_stack_base.html#a95cd624d209c6e05e342b8f5f85ed28a" title="スタックに値 val をプッシュし、その番地を返す。" alt="" coords="648,673,787,700"/>
 <area shape="rect" id="node5" href="$classutil_1_1_panic.html#a8ae511d13228b346b493970111efbf64" title="現在の入れ子深さで段差げして，関数名nameの呼び出しを出力する。" alt="" coords="367,107,476,133"/>
 <area shape="rect" id="node6" href="$classcmd_1_1_command_base_1_1_cmd_get_text.html#aed930e84d9417830c38fbb0917e1c58a" title="テキスト文字列を読み出す．" alt="" coords="296,157,547,184"/>
@@ -71,25 +70,25 @@
 <area shape="rect" id="node50" href="$classast_1_1_string_rel_1_1_string_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="631,2549,803,2590"/>
 <area shape="rect" id="node51" href="$classast_1_1_string_rel_1_1_regex_match_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="629,2178,805,2219"/>
 <area shape="rect" id="node52" href="$classast_1_1_ast_func_call.html#a383612fb2c1d291f6f3f9c352a5cb262" title="コードを生成する．" alt="" coords="633,2244,802,2271"/>
-<area shape="rect" id="node57" href="$classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c" title="配列のモードを終了する." alt="" coords="638,2615,797,2641"/>
-<area shape="rect" id="node62" href="$classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" title="オブジェクトのモードを終了する." alt="" coords="644,2868,791,2895"/>
+<area shape="rect" id="node57" href="$classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c" title="配列のモードを終了する." alt="" coords="638,2716,797,2743"/>
+<area shape="rect" id="node62" href="$classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" title="オブジェクトのモードを終了する." alt="" coords="644,2825,791,2852"/>
 <area shape="rect" id="node67" href="$classutil_1_1_yaml_buf.html#a0999a5efa6b597e3e8509171958f15bc" title="入れ子を浅くする" alt="" coords="659,2665,776,2692"/>
-<area shape="rect" id="node68" href="$classformat_1_1_node_formatter_simple.html#aac82597a42c45dabd61899050038d1d4" title="項表現を出力する再帰ルーチン" alt="" coords="611,2919,823,2961"/>
-<area shape="rect" id="node58" href="$classutil_1_1_util.html#a4581c93b5836ca546d74ed8e57228386" title="要素の型パラメータTをもつ配列と、YamlBufの初期化関数と要素の変換関数を受け取り、清書文字列を返す。" alt="" coords="372,2432,471,2459"/>
-<area shape="rect" id="node59" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="328,2366,515,2407"/>
-<area shape="rect" id="node60" href="$classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263" title="内部仕様のYamlBufの初期化器yamlInitializerと要素の清書器elemWriterをもつ清書出力文字列を返す実装手続き。" alt="" coords="341,2716,501,2743"/>
-<area shape="rect" id="node61" href="$classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" title="フレームスタックの文字列表現を返す." alt="" coords="27,2767,226,2793"/>
-<area shape="rect" id="node63" href="$classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" title="ノード名文字列を返す。" alt="" coords="345,2919,498,2945"/>
-<area shape="rect" id="node64" href="$classutil_1_1_util.html#ac22c9249f3cd4656475c2f5ebefa4d0c" title="オブジェクトのすべてのpublicフィールドを表すyaml文字列を返す．" alt="" coords="350,3020,493,3047"/>
-<area shape="rect" id="node65" href="$classutil_1_1_stack_base_1_1_stat.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す。" alt="" coords="329,2817,513,2844"/>
-<area shape="rect" id="node66" href="$classframe_1_1_mem_cell.html#ab5737202b3944479ae53931222a29ac3" title="メモリセルの内容を表す文字列を返す。" alt="" coords="341,2868,501,2895"/>
-<area shape="rect" id="node69" href="$classformat_1_1_node_formatter_simple.html#a46d5211e25bcc126f592fb7630291d12" title="項表現の出力" alt="" coords="312,3071,531,3113"/>
-<area shape="rect" id="node71" href="$classutil_1_1_report.html#af0022e20c64f9d3646a91a82b49c0ea8" title="現在の入れ子深さで段差げして，関数の戻りと文字列msgを出力する。" alt="" coords="664,2985,771,3012"/>
+<area shape="rect" id="node68" href="$classformat_1_1_node_formatter_simple.html#aac82597a42c45dabd61899050038d1d4" title="項表現を出力する再帰ルーチン" alt="" coords="611,2877,823,2918"/>
+<area shape="rect" id="node58" href="$classutil_1_1_util.html#a4581c93b5836ca546d74ed8e57228386" title="要素の型パラメータTをもつ配列と、YamlBufの初期化関数と要素の変換関数を受け取り、清書文字列を返す。" alt="" coords="372,2607,471,2633"/>
+<area shape="rect" id="node59" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="328,2709,515,2750"/>
+<area shape="rect" id="node60" href="$classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263" title="内部仕様のYamlBufの初期化器yamlInitializerと要素の清書器elemWriterをもつ清書出力文字列を返す実装手続き。" alt="" coords="341,2657,501,2684"/>
+<area shape="rect" id="node61" href="$classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" title="フレームスタックの文字列表現を返す." alt="" coords="27,2657,226,2684"/>
+<area shape="rect" id="node63" href="$classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" title="ノード名文字列を返す。" alt="" coords="345,2876,498,2903"/>
+<area shape="rect" id="node64" href="$classutil_1_1_util.html#ac22c9249f3cd4656475c2f5ebefa4d0c" title="オブジェクトのすべてのpublicフィールドを表すyaml文字列を返す．" alt="" coords="350,2977,493,3004"/>
+<area shape="rect" id="node65" href="$classutil_1_1_stack_base_1_1_stat.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す。" alt="" coords="329,2775,513,2801"/>
+<area shape="rect" id="node66" href="$classframe_1_1_mem_cell.html#ab5737202b3944479ae53931222a29ac3" title="メモリセルの内容を表す文字列を返す。" alt="" coords="341,2825,501,2852"/>
+<area shape="rect" id="node69" href="$classformat_1_1_node_formatter_simple.html#a46d5211e25bcc126f592fb7630291d12" title="項表現の出力" alt="" coords="312,3029,531,3070"/>
+<area shape="rect" id="node71" href="$classutil_1_1_report.html#af0022e20c64f9d3646a91a82b49c0ea8" title="現在の入れ子深さで段差げして，関数の戻りと文字列msgを出力する。" alt="" coords="664,2943,771,2969"/>
 <area shape="rect" id="node74" href="$classcompile_1_1_x_c_flat.html#ac7e5b6769d875e1767039c9844e71f3c" title="与えられた抽象構文木（AST）を正規形の抽象構文木に変換する." alt="" coords="641,1825,793,1852"/>
 <area shape="rect" id="node76" href="$classcompile_1_1_x_c_gen.html#a587cd4000bde35e8f7427da80fb65d8b" title="コード生成を行う．" alt="" coords="618,1359,817,1385"/>
-<area shape="rect" id="node88" href="$classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" title="オプション引数の可変長文字列を受け取る．" alt="" coords="337,2534,505,2575"/>
-<area shape="rect" id="node89" href="$classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" title="文字列表現を返す" alt="" coords="320,2599,523,2641"/>
-<area shape="rect" id="node91" href="$classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す" alt="" coords="31,2661,223,2688"/>
-<area shape="rect" id="node92" href="$classutil_1_1_stack_base.html#a1ff4d6db5a609d810cedf042860ce447" title="スタックの文字列表現を返す。" alt="" coords="343,2483,499,2509"/>
-<area shape="rect" id="node90" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="5,2607,248,2633"/>
+<area shape="rect" id="node87" href="$classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" title="オプション引数の可変長文字列を受け取る．" alt="" coords="337,2374,505,2415"/>
+<area shape="rect" id="node88" href="$classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" title="文字列表現を返す" alt="" coords="320,2439,523,2481"/>
+<area shape="rect" id="node90" href="$classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す" alt="" coords="31,2501,223,2528"/>
+<area shape="rect" id="node91" href="$classutil_1_1_stack_base.html#a1ff4d6db5a609d810cedf042860ce447" title="スタックの文字列表現を返す。" alt="" coords="343,2323,499,2349"/>
+<area shape="rect" id="node89" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="5,2447,248,2473"/>
 </map>
