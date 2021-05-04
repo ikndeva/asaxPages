@@ -1,7 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"":[17,0,4,0],
-"":[17,0,4,1],
 "_action_code_8java.html":[19,0,4,2],
 "_asax_event_reader_8java.html":[19,0,4,0,0],
 "_asax_event_reader_factory_8java.html":[19,0,4,0,1],
@@ -45,6 +43,7 @@ var NAVTREEINDEX0 =
 "_bufs_8java.html":[19,0,12,3],
 "_call_8java.html":[19,0,8,2],
 "_call_list_8java.html":[19,0,8,3],
+"_child_hom_typing_8java.html":[19,0,11,1],
 "_cmd_8java.html":[19,0,8,4],
 "_cmd_list_8java.html":[19,0,2,0],
 "_code_8java.html":[19,0,12,4],
@@ -76,7 +75,7 @@ var NAVTREEINDEX0 =
 "_level_stack_8java.html":[19,0,6,5],
 "_lock_8java.html":[19,0,12,8],
 "_long_mask_8java.html":[19,0,8,11],
-"_lower_joinable_8java.html":[19,0,11,1],
+"_lower_joinable_8java.html":[19,0,11,2],
 "_mask_map_8java.html":[19,0,8,12],
 "_mask_map_8java.html#a14b846a62e2ff0ef766a4044a40c248d":[19,0,8,12,5],
 "_mask_map_8java.html#a1ec55164b7b34a68b6e690f839679b37":[19,0,8,12,4],
@@ -122,10 +121,10 @@ var NAVTREEINDEX0 =
 "_system_readable_8java.html":[19,0,8,20],
 "_system_scope_8java.html":[19,0,8,21],
 "_tag_mask_map_8java.html":[19,0,8,22],
-"_test_is_instance_8java.html":[19,0,11,2],
+"_test_is_instance_8java.html":[19,0,11,3],
 "_trace_level_8java.html":[19,0,12,17],
-"_typable_8java.html":[19,0,11,3],
-"_union_find_item_8java.html":[19,0,11,4],
+"_typable_8java.html":[19,0,11,4],
+"_union_find_item_8java.html":[19,0,11,5],
 "_util_8java.html":[19,0,12,18],
 "_var_key_8java.html":[19,0,6,9],
 "_x_c_adapt_8java.html":[19,0,3,0],
@@ -137,7 +136,7 @@ var NAVTREEINDEX0 =
 "_x_compiler_8java.html":[19,0,3,4],
 "_x_formattable_8java.html":[19,0,5,4],
 "_x_runtime_exception_8java.html":[19,0,8,23],
-"_x_type_8java.html":[19,0,11,5],
+"_x_type_8java.html":[19,0,11,6],
 "_xpp_event_reader_8java.html":[19,0,4,1,0],
 "_xpp_event_reader_factory_8java.html":[19,0,4,1,1],
 "annotated.html":[18,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "classast_1_1_ast_data_reader_1_1_reader_type.html#a3137357d0abb2bd75321d6e19024956a":[18,0,1,3,8,4],
 "classast_1_1_ast_data_reader_1_1_reader_type.html#a47ef26a9cd99db204331fdb756b71909":[18,0,1,3,8,3],
 "classast_1_1_ast_data_reader_1_1_reader_type.html#ad69361b4857af361bb760022547a9a84":[18,0,1,3,8,0],
-"classast_1_1_ast_data_reader_1_1_reader_type.html#af21075bbde6d0bfad0294871d1e7f44f":[18,0,1,3,8,1]
+"classast_1_1_ast_data_reader_1_1_reader_type.html#af21075bbde6d0bfad0294871d1e7f44f":[18,0,1,3,8,1],
+"classast_1_1_ast_data_reader_1_1_reader_type.html#afa088bbec52753ec3df39381f6b45cbf":[18,0,1,3,8,5]
 };

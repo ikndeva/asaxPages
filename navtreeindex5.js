@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"classframe_1_1_mem_cell.html#ae14d2a19b5011af22fa5bef66927d888":[18,0,6,6,2],
 "classframe_1_1_mem_cell.html#af1cae64e47ec410dab67cb572e4acd36":[18,0,6,6,9],
 "classframe_1_1_o_stream_holder.html":[18,0,6,7],
 "classframe_1_1_o_stream_holder.html#a2db60a9f6b573056fa35c6f5ba1d519f":[18,0,6,7,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "classmachine_1_1_x_machine.html#abd2c27be350958d3dc103ce4255901fa":[18,0,8,25,31],
 "classmachine_1_1_x_machine.html#ac680ef65f7b25e9bb34f27f0d2f4ef33":[18,0,8,25,28],
 "classmachine_1_1_x_machine.html#ac7da9f586b42249b9dc990e28e3348f3":[18,0,8,25,35],
-"classmachine_1_1_x_machine.html#ac89b32c1412207a26d9cafd9fdee9167":[18,0,8,25,9]
+"classmachine_1_1_x_machine.html#ac89b32c1412207a26d9cafd9fdee9167":[18,0,8,25,9],
+"classmachine_1_1_x_machine.html#ac8ee4f45b903c9c3318eccda9a1a38b4":[18,0,8,25,5]
 };

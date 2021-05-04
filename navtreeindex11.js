@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"classutil_1_1_stack_base.html#a05ced8588525c77b3f881dab34169aae":[18,0,13,18,22],
 "classutil_1_1_stack_base.html#a172edd214411c2cdf0b0b234daaf0ef4":[18,0,13,18,3],
 "classutil_1_1_stack_base.html#a1ff4d6db5a609d810cedf042860ce447":[18,0,13,18,26],
 "classutil_1_1_stack_base.html#a41bec7d09bb7ea2eacb467495d66cbf0":[18,0,13,18,30],
@@ -247,7 +246,8 @@ var NAVTREEINDEX11 =
 "enumutil_1_1_yaml_buf_1_1_mode.html#a1f9b51f648372a425785eae89c6df432":[18,0,13,22,0,1],
 "enumutil_1_1_yaml_buf_1_1_mode.html#a5e8ede2d8e9bbd40b3389b5188eeed9f":[18,0,13,22,0,0],
 "files.html":[19,0],
-"functions.html":[18,3,0,0],
 "functions.html":[18,3,0],
-"functions_a.html":[18,3,0,1]
+"functions.html":[18,3,0,0],
+"functions_a.html":[18,3,0,1],
+"functions_b.html":[18,3,0,2]
 };

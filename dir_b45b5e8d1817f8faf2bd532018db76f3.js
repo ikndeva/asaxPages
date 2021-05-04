@@ -3,6 +3,10 @@ var dir_b45b5e8d1817f8faf2bd532018db76f3 =
     [ "BasicTyping.java", "_basic_typing_8java.html", [
       [ "BasicTyping", "classtype_1_1_basic_typing.html", "classtype_1_1_basic_typing" ]
     ] ],
+    [ "ChildHomTyping.java", "_child_hom_typing_8java.html", [
+      [ "ChildHomTyping", "classtype_1_1_child_hom_typing.html", "classtype_1_1_child_hom_typing" ],
+      [ "HomTyping", "classtype_1_1_child_hom_typing_1_1_hom_typing.html", "classtype_1_1_child_hom_typing_1_1_hom_typing" ]
+    ] ],
     [ "LowerJoinable.java", "_lower_joinable_8java.html", [
       [ "LowerJoinable", "interfacetype_1_1_lower_joinable.html", "interfacetype_1_1_lower_joinable" ]
     ] ],

@@ -7,7 +7,6 @@ var namespaces_dup =
     [ "event", "namespaceevent.html", "namespaceevent" ],
     [ "format", "namespaceformat.html", "namespaceformat" ],
     [ "frame", "namespaceframe.html", "namespaceframe" ],
-    [ "homTyping", "namespacehom_typing.html", null ],
     [ "io", "namespaceio.html", "namespaceio" ],
     [ "machine", "namespacemachine.html", "namespacemachine" ],
     [ "parse", "namespaceparse.html", "namespaceparse" ],

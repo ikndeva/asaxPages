@@ -294,7 +294,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <li><a class="el" href="_ast_node_tagged_8java.html">ast/AstNodeTagged.java</a>: 明示的にタイプ配列<code>List&lt;XTypeItem&gt; types</code>を持たせて，タグと，タイプ，子のアクセッサ（getter）を一様に扱うようにした．</li>
 <li><a class="el" href="_x_formattable_8java.html">format/XFormattable.java</a>: インタフェース<code>Navigatable</code>に表示の昨日を集約し，<code>LabeledFormattable</code>と<code>Terminatable</code>を廃止した．</li>
 <li><a class="el" href="_node_formatter_simple_8java.html">format/NodeFormatterSimple.java</a>: インタフェースの簡略化に伴い，タグと型情報の表示方法を簡略にした．</li>
-<li><a class="el" href="_basic_typing_8java.html">type/BasicTyping.java</a>, ChildHomTyping.java: <code>ChildHomTyping</code>を中心に，子型のアクセスと表示を再設計した．</li>
+<li><a class="el" href="_basic_typing_8java.html">type/BasicTyping.java</a>, <a class="el" href="_child_hom_typing_8java.html">ChildHomTyping.java</a>: <code>ChildHomTyping</code>を中心に，子型のアクセスと表示を再設計した．</li>
 <li><a class="el" href="_sent_list_8java.html">ast/SentList.java</a>: ast/AstList.javaを，SentListに集約した. BlockとStepに関する式列は，SentListで扱うこととした．DataWrapperもAstlistの内部クラスとした．</li>
 <li><a class="el" href="_block_base_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">ast/BlockBase.java</a>, <a class="el" href="_block_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">Block.java</a>, <a class="el" href="_step_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">Step.java</a>: BlockBaseを実質的な仮想クラスとして，BlockとStepのgetterを整備した．タグ名称も整理している．</li>
 <li>ast/*.java: AstNode（旧AstBranch）の子リストの型を<code>List&lt;Node&gt; children_</code>としたのに合わせて，パッケージastとcompile中に現れる大多数の<code>AstNode</code>型を，インタフェース<code>Node</code>型に置き換えた．パッケージparse中のノードの生成部分では，AstNodeの部分クラスの型スイッチを用いて扱うこととした．</li>
@@ -552,7 +552,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="line">&lt;<a class="code" href="namespacetype.html">type</a> T&gt; AstLet : T { }     <span class="comment">//SentListに同じ</span></div>
 <div class="line">&lt;<a class="code" href="namespacetype.html">type</a> T&gt; AstAtom : T { }    <span class="comment">//Const </span></div>
 <div class="line">&lt;<a class="code" href="namespacetype.html">type</a> T&gt; AstNodeBranch : T { }  <span class="comment">//SentListの斉次版</span></div>
-<div class="ttc" id="anamespacetype_html"><div class="ttname"><a href="namespacetype.html">type</a></div><div class="ttdoc">値型のパッケージ</div><div class="ttdef"><b>Definition:</b> BasicTyping.java:4</div></div>
+<div class="ttc" id="anamespacetype_html"><div class="ttname"><a href="namespacetype.html">type</a></div><div class="ttdoc">ソースファイルのテンプレート</div><div class="ttdef"><b>Definition:</b> BasicTyping.java:4</div></div>
 </div><!-- fragment --><h1>200817 Mon, 22:00-28:00, 6h: 抽象構文木の変換のノード自動割り当て</h1>
 <p>パッケージparseでは、次のパーザーノードのTASKタイプ</p>
 <ul>
@@ -1043,7 +1043,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 5 2021 06:32:38 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed May 5 2021 06:34:09 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
