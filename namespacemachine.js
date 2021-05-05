@@ -8,6 +8,7 @@ var namespacemachine =
     [ "Cmd", "interfacemachine_1_1_cmd.html", "interfacemachine_1_1_cmd" ],
     [ "Context", "interfacemachine_1_1_context.html", "interfacemachine_1_1_context" ],
     [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", "interfacemachine_1_1_data_accessor" ],
+    [ "Dispatchable", "interfacemachine_1_1_dispatchable.html", "interfacemachine_1_1_dispatchable" ],
     [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ],
     [ "GlobalRefList", "classmachine_1_1_global_ref_list.html", "classmachine_1_1_global_ref_list" ],
     [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ],

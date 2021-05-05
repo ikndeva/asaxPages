@@ -264,6 +264,9 @@ var hierarchy =
       [ "AstDataReader.ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", null ],
       [ "AstDataReader.ReaderType", "classast_1_1_ast_data_reader_1_1_reader_type.html", null ]
     ] ],
+    [ "Dispatchable", "interfacemachine_1_1_dispatchable.html", [
+      [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", null ]
+    ] ],
     [ "Env", "classevent_1_1_env.html", null ],
     [ "EventManager", "classevent_1_1_event_manager.html", null ],
     [ "Event.EventType", "enumevent_1_1_event_1_1_event_type.html", null ],
@@ -427,7 +430,6 @@ var hierarchy =
     [ "SystemReadable", "interfacemachine_1_1_system_readable.html", [
       [ "XMachine", "classmachine_1_1_x_machine.html", null ]
     ] ],
-    [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", null ],
     [ "TestIsInstance", "classtype_1_1_test_is_instance.html", null ],
     [ "Tmpl", "classtmpl_1_1_tmpl.html", null ],
     [ "TraceLevel", "classutil_1_1_trace_level.html", null ],

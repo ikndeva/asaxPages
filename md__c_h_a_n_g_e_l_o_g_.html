@@ -95,9 +95,37 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
-<h1>210504 Tue, 17:00-29.30, 12h: メモリ機構の再実装</h1>
-<p>結局，XMachineのDescendant axisに関するCall機構の修正で，メモリがらみのバグが発生し，バグ取りに4時間近く費やした．結局は，Callクラスのメンバーの未整備など．</p>
+<h1>210505 Wed, 14:00-14:30 Algo, 19:30-20:00: 小手直し</h1>
+<p>すきま時間に，前日の作業の小さな手直しをした．</p>
 <ul>
+<li>考察：パス式の正規表現．</li>
+<li>実装：関数呼び出しの抽象化</li>
+</ul>
+<h2>考察：パス式の正規表現．</h2>
+<p>ワイルドカードのみのtargetパスを与えた時に，メモリ参照問題が起きる問題の解決に向けて，パス式の正規表現照合について考察した．文字列および木オートマトンにおける線形正規表現（いわゆるNavarro and Raffinotのflexible patternsの族）のNFA照合アルゴリズムを復習した．</p>
+<p>結果として，これはクエリの照合問題の計算量に関わる問題であり，単なるプログラミングの正当性の問題ではないことを再認識した．忘れていた．少なくとも，パス正規表現＋部分木論理式からなるクエリの族に対して，全ての照合結果に対して，無制限にプロセス呼び出しをすることで，照合結果をすべて検出しようとするのは，無理があるようだ．（ある意味で，無謀である）．</p>
+<p>とくに，後続関係<code>succ</code>と半順序関係$\leq$を軸としてもつ部分木論理式のクラスとして考えた時に，次のクラスを分けて考える必要がある．</p>
+<ul>
+<li>0-1クエリのみを許すBooleanの部分木論理式: $Q_{tree}^{bool}$</li>
+<li>任意の係数を許すCountingの部分木論理式: $Q_{tree}^{count}$</li>
+<li>述語として単調と反単調の連言のみを許すような両者の中間の部分木論理式: $Q_{tree}^{count,unite}$</li>
+</ul>
+<p>観察したことは次の通り． 一般のCountingの部分木論理式は，上昇木オートマトンでは評価が難しい．</p>
+<p>その一方で，部分クエリ$q$の計数に関する単調な数値制約をもつクエリ$t$は効率よく評価できる． 実際，パス式 $s$がワイルドカードを含んでいて，パス上に非限定回数照合するクエリ $$p := (s : count(q) \ge const) $$ は，集約値 $count(q)$ を動的計画法をもちいた木上の準同型的な値集約 $$count[q(n)] := I[ t, n \models q(n) ] + \sum_{m &gt; n} count[q(n)](m) $$ によって，テキスト木 $t$ のサイズの線形時間で評価できる． この構成は，計数値を一般の集約値に拡張しても，成立する．</p>
+<p>同様の議論で，反単調な述語 $$p := (s : count(q) \le const) $$ についても，集約値 $count(q)$ を帰納的に保持すれば良い．</p>
+<p>したがって，定数個の単調（monotonically increasing）または反単調（monotonically decreasing）な計数述語（すなわちunite述語）のブール式として表される制約は，木の走査を通じて，これらの計数を帰納的に計算することで，効率的に扱える．</p>
+<p>おそらく，これを再帰的に拡張した述語は，もはやuniteではなく，効率的に扱うのは難しいだろう．</p>
+<p>プログラミングとしても，これはいわゆる準同型写像にもとづく，木上の comprehensionの一種と理解できるので，プログラマーの理解の負担は少ないと期待できる．</p>
+<p>参考</p>
+<ul>
+<li>Neven and Schventick: Diving (Sub)trees</li>
+</ul>
+<h2>関数呼び出しの抽象化</h2>
+<ul>
+<li><a class="el" href="_tag_mask_map_8java.html">machine/TagMaskMap.java</a>: 抽象化して，インタフェース<code>Dispatchable</code>を導入した．関数呼び出し機構の整備のため．</li>
+</ul>
+<h1>210504 Tue, 17:00-29.30, 12h: メモリ機構の再実装</h1>
+<p>結局，XMachineのDescendant axisに関するCall機構の修正で，メモリがらみのバグが発生し，バグ取りに4時間近く費やした．結局は，Callクラスのメンバーの未整備など． d</p><ul>
 <li><a class="el" href="_ast_data_reader_8java.html">ast/AstDataReader.java</a>, <a class="el" href="_ast_data_writer_8java.html">AstDataWriter.java</a>: この二つの式の変数を用いた値の読み書きクラスの書き換えに，大半の時間がかかってしまった．</li>
 <li><a class="el" href="_ast_assign_8java.html">ast/AstAssign.java</a>: DataWriterの代わりに，代入式を用いることとしｔ．コンパイルの見通しはよくなったのではないか．</li>
 <li><a class="el" href="_x_c_adapt_8java.html">compile/XCAdapt.java</a>, <a class="el" href="_x_c_push_8java.html">XCPush.java</a>: 上記に関連して，コンパイラのクエリ変換文の描き直しも必要だった．</li>
@@ -1043,7 +1071,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 5 2021 06:36:27 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed May 5 2021 22:58:40 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -27,6 +27,7 @@ var NAVTREE =
   [ "asax02.neo", "index.html", [
     [ "210502 Design of Query Syntax", "md_210502design_query_syntax.html", null ],
     [ "210503 Design: error handling", "md_210503design_errorhandling.html", null ],
+    [ "210505bug2", "md_210505bug2.html", null ],
     [ "200828 Ast Typeの使用例調査", "md_ast_200828asttype.html", null ],
     [ "memostyle", "md_ast_memostyle.html", null ],
     [ "CHANGELOG.md: XML parser, ver2", "md__c_h_a_n_g_e_l_o_g_.html", null ],
@@ -67,20 +68,20 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_action_code_8java.html",
-"classast_1_1_ast_data_wrapper.html",
-"classast_1_1_ast_oper.html#a383612fb2c1d291f6f3f9c352a5cb262",
-"classcmd_1_1_command_base.html#ab46ff293003e89d87382e0f4a43c235c",
-"classevent_1_1_event_base.html#a6e2d9d727d518d17fe5eb05957a67a53",
-"classframe_1_1_mem_cell.html#af1cae64e47ec410dab67cb572e4acd36",
-"classmachine_1_1_x_machine.html#ad52451bf55cee0ba58bb6f36c5a0937b",
-"classparse_1_1query_parser.html#a37d706d30d1e957c9fb19f2fa0f235f0",
-"classparse_1_1query_parser_1_1_child_tag_expr_top_context.html#a86ccab6c835465e611749cf9396a6184",
-"classparse_1_1query_parser_1_1_statement__or__decl__or__scan_context.html#acc2fdcb0ffa0fdea0d45169ae7cff99b",
-"classpretty_1_1_par.html#a78fe4ed474dba8e4caa741cbd2a8e7e8",
-"classutil_1_1_stack_base.html#a172edd214411c2cdf0b0b234daaf0ef4",
-"functions_c.html",
-"interfaceparse_1_1query_listener.html#a49c275dd10595ee5ac439a3d0ce3760d"
+"",
+"classast_1_1_ast_data_reader_1_1_reader_type.html#ad69361b4857af361bb760022547a9a84",
+"classast_1_1_ast_node_unary.html#aeff6f6b21091fc59d55b59aa4e422587",
+"classcmd_1_1_command_base.html#a74fe7fa1402ccf5c3cc1a1901994ad86",
+"classevent_1_1_event_base.html#a11681bb7d3e54855bad344fde5ee2347",
+"classframe_1_1_mem_cell.html#accf7b7536c8a9d77edea804e5c629804",
+"classmachine_1_1_x_machine.html#ac680ef65f7b25e9bb34f27f0d2f4ef33",
+"classparse_1_1query_parser.html#a3372fb2b0e8a7b05978ed373d1f6c1d2",
+"classparse_1_1query_parser_1_1_child_tag_expr_top_context.html",
+"classparse_1_1query_parser_1_1_statement__or__decl__or__scan_context.html#a359b204141d711bdbf3a518b0c2da86d",
+"classpretty_1_1_par.html",
+"classutil_1_1_report_enter.html#ab83d81c9c279755e41daaca84bca5558",
+"functions.html",
+"interfaceparse_1_1query_listener.html#a3ba7466a646386ce531ccb045a9a7772"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

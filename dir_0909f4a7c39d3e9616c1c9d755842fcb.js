@@ -23,6 +23,9 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "DataAccessor.java", "_data_accessor_8java.html", [
       [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", "interfacemachine_1_1_data_accessor" ]
     ] ],
+    [ "Dispatchable.java", "_dispatchable_8java.html", [
+      [ "Dispatchable", "interfacemachine_1_1_dispatchable.html", "interfacemachine_1_1_dispatchable" ]
+    ] ],
     [ "FrameStackable.java", "_frame_stackable_8java.html", [
       [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ]
     ] ],
