@@ -69,6 +69,9 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "VarTable.java", "_var_table_8java.html", [
       [ "VarTable", "classmachine_1_1_var_table.html", "classmachine_1_1_var_table" ]
     ] ],
+    [ "XMachine.java", "_x_machine_8java.html", [
+      [ "XMachine", "classmachine_1_1_x_machine.html", "classmachine_1_1_x_machine" ]
+    ] ],
     [ "XRuntimeException.java", "_x_runtime_exception_8java.html", [
       [ "XRuntimeException", "classmachine_1_1_x_runtime_exception.html", "classmachine_1_1_x_runtime_exception" ],
       [ "XParseRuntimeException", "classmachine_1_1_x_runtime_exception_1_1_x_parse_runtime_exception.html", "classmachine_1_1_x_runtime_exception_1_1_x_parse_runtime_exception" ],

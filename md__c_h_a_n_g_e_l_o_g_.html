@@ -186,7 +186,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <h2>その他</h2>
 <ul>
 <li>parse/query.g4: 非終端記号<code>strExpr</code>の見直し．シェルコマンド引数での引用符の変換事故を避けるために，引用符として，単一引用符（&lsquo;&rsquo;<code>）系と二重引用符（</code>"<code>）系の他に，スラッシュ系（</code>/`）を使えるようにする．</li>
-<li>machine/XMachine.java: バグ解消．空テキストでnullが返り，CmdGetTextでOVMが停止するエラーを解決した．<code>String getText()</code>において，<code>this.event().getText()</code>の返り値がnullならば，長さ0の空語""を返すように修正した．本来は，イベント走査器がnullでなく，空語を返すようにすべきだが，ここで吸収するのが，走査器に依存せずバグを回避できて，安全である．</li>
+<li><a class="el" href="_x_machine_8java.html" title="XScan: A simple XML scanner 210501 modified by arim@ist.hokudai.ac.jp 2016.07.31: created by arim@ist...">machine/XMachine.java</a>: バグ解消．空テキストでnullが返り，CmdGetTextでOVMが停止するエラーを解決した．<code>String getText()</code>において，<code>this.event().getText()</code>の返り値がnullならば，長さ0の空語""を返すように修正した．本来は，イベント走査器がnullでなく，空語を返すようにすべきだが，ここで吸収するのが，走査器に依存せずバグを回避できて，安全である．</li>
 </ul>
 <h2>バグ，未解決</h2>
 <p>各種のテストコードを，新しい構文に修正して走らせていたら，バグを見つけた． フレームスタックのメモリエラーである．フレームポインタが，フレームスタックの上端を1つはみ出ている． これは，結構深刻かもしれない．</p>
@@ -339,7 +339,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <p>動的実行関係</p>
 <ul>
 <li>ast/StringRel.java, <a class="el" href="_command_string_8java.html">cmd/CommandString.java</a>: テキストの正規表現照合のパターンの組み立てに，項を含む任意の文字列式を用いられるようにする．最終的な目標として，文字列を引数にとる仮想機械命令は，全て文字列引数をスタックから取るようにする．動的な機構を使うことで，性能にオーバーヘッドが出るが，表現力が大きく，実装は簡潔にしたい．</li>
-<li>machine/XMachine.java, <a class="el" href="_ast_scan_from_8java.html">ast/AstScanFrom.java</a>: 入力ストリームを動的化したい．この入力源の動的化により，<code>ScanFrom</code>節は，プログラム式全体でただ一つしかない入力ストリームを表す変数<code>Instream $_</code>を，入力ソースに束縛する限量子の構文として，再構成できると思う．線形性を構文で表す訳である．2変数の場合は，joinが実現できる．</li>
+<li><a class="el" href="_x_machine_8java.html" title="XScan: A simple XML scanner 210501 modified by arim@ist.hokudai.ac.jp 2016.07.31: created by arim@ist...">machine/XMachine.java</a>, <a class="el" href="_ast_scan_from_8java.html">ast/AstScanFrom.java</a>: 入力ストリームを動的化したい．この入力源の動的化により，<code>ScanFrom</code>節は，プログラム式全体でただ一つしかない入力ストリームを表す変数<code>Instream $_</code>を，入力ソースに束縛する限量子の構文として，再構成できると思う．線形性を構文で表す訳である．2変数の場合は，joinが実現できる．</li>
 </ul>
 <p>スタック関係</p>
 <ul>
@@ -1071,7 +1071,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 6 2021 01:28:39 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu May 6 2021 01:30:56 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
