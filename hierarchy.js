@@ -244,7 +244,7 @@ var hierarchy =
       [ "Call", "classmachine_1_1_call.html", null ],
       [ "CallList", "classmachine_1_1_call_list.html", null ],
       [ "IdMask", "classmachine_1_1_id_mask.html", null ],
-      [ "RefList", "classmachine_1_1_ref_list.html", null ]
+      [ "VarTable", "classmachine_1_1_var_table.html", null ]
     ] ],
     [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", [
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
@@ -321,7 +321,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "Resettable.Generator< S >", "interfaceutil_1_1_resettable_1_1_generator.html", null ],
-    [ "GlobalRefList", "classmachine_1_1_global_ref_list.html", null ],
+    [ "GlobalVarTable", "classmachine_1_1_global_var_table.html", null ],
     [ "IncCounter", "classutil_1_1_inc_counter.html", null ],
     [ "InputScannable", "interfaceio_1_1_input_scannable.html", [
       [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", null ]

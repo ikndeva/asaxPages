@@ -7,8 +7,8 @@ var classast_1_1_block_base =
     [ "setRetTo", "classast_1_1_block_base.html#a1fd1254ad07567a3c65745b678c75093", null ],
     [ "getRetTo", "classast_1_1_block_base.html#af1e7ab898a3a1fa452032d73a5edca6d", null ],
     [ "hasRefs", "classast_1_1_block_base.html#abdc974395a838dec1446b588316380e5", null ],
-    [ "getRefList", "classast_1_1_block_base.html#ab567969ca79b4c59c68e9de672b3df31", null ],
-    [ "setRefList", "classast_1_1_block_base.html#a9d6f6a37345caf42127fcf2cf8874c98", null ],
+    [ "getVarTable", "classast_1_1_block_base.html#aaf42e9d468fbca6e31b6620cf1c68ea2", null ],
+    [ "setVarTable", "classast_1_1_block_base.html#a19a9323f91cd974c745d8c5439b4c810", null ],
     [ "getPreSent", "classast_1_1_block_base.html#acbaa59a6766021c60bcfd22f20d65d38", null ],
     [ "setPreSent", "classast_1_1_block_base.html#a7e734b22a4484c01fb1480cce765fe9e", null ],
     [ "getCode", "classast_1_1_block_base.html#afacff3686e7836aaf769880cb9a515fd", null ],
@@ -19,6 +19,6 @@ var classast_1_1_block_base =
     [ "gencode", "classast_1_1_block_base.html#a383612fb2c1d291f6f3f9c352a5cb262", null ],
     [ "funcid_", "classast_1_1_block_base.html#ae9d1a904aecd1c98c097ece399d07faa", null ],
     [ "retRef_", "classast_1_1_block_base.html#a4991e607b85bf04377e7b69541861e03", null ],
-    [ "vars_", "classast_1_1_block_base.html#a25fdfd9bcae95332a4809b8908d9a79f", null ],
+    [ "vars_", "classast_1_1_block_base.html#a805fde1963e7e9a6ceae20b382272897", null ],
     [ "code_", "classast_1_1_block_base.html#a50526c351c519243be224934cc92ad7d", null ]
 ];

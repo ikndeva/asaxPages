@@ -1,0 +1,8 @@
+<map id="fetch" name="fetch">
+<area shape="rect" id="node1" title="変数の名前から参照オブジェクトを得る．" alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_ref.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す。" alt="" coords="104,31,249,57"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_ref.html#a3137357d0abb2bd75321d6e19024956a" title="ノードが保持するデータの文字列表現を返す. interface XFormattableで必要。" alt="" coords="297,31,423,57"/>
+<area shape="rect" id="node4" href="$classmachine_1_1_ref.html#a78ee178b6a73658d65ca60da4d1e6683" title="変数名文字列を返す." alt="" coords="471,5,624,32"/>
+<area shape="rect" id="node5" href="$classmachine_1_1_ref.html#aac66012db63fd274931e6690afa76212" title="データ型を返す." alt="" coords="485,56,610,83"/>
+<area shape="rect" id="node6" href="$classtype_1_1_x_type_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="672,56,801,83"/>
+</map>

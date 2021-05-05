@@ -904,7 +904,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <ul>
 <li>machine/RefImpl.java: 単一化可能な型アイテム<code>TypeItem type</code>と，大域的な変数番号<code>int vid</code>，名前文字列<code>String name</code>の三つのフィールドをもつ参照オブジェクトである．以前は値型<code>XType type</code>だったが，これを型アイテムに変えた．</li>
 <li>machine/StepProgram.java: 内部クラスとして，プログラム中のすべての変数を保持するリストである<code>GlobalRefList</code>を作成した．これをStepProgramのメンバー<code>gRefList</code>として，プログラム全体で一つだけ保持する．大域的な新しい変数番号は，これを通してのみ生成する．</li>
-<li><a class="el" href="_ref_list_8java.html">machine/RefList.java</a>: 各ステップまたはブロックは，変数参照の記号表<code>RefList</code>を保持する．次のメソッドをもつ：<ul>
+<li>machine/RefList.java: 各ステップまたはブロックは，変数参照の記号表<code>RefList</code>を保持する．次のメソッドをもつ：<ul>
 <li>コンストラクタは，大域変数リストを保持するプログラムと親となる記号表を保持する親ブロックを引数として受け取り，ブロックチェーンを実現する．</li>
 <li>大域変数リストから得た変数番号からRefを作成し，それをブロックの記号表へ登録する<code>Ref register(XType type, String name)</code>．</li>
 <li>ブロック内に出現する変数名文字列<code>String name</code>から，構文的なブロックチェーンをさかのぼって変数参照の宣言ブロックをみつける<code>Ref fetch(String name)</code>の二つの手続きをもつ．</li>
@@ -1071,7 +1071,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 6 2021 01:09:04 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu May 6 2021 01:20:04 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

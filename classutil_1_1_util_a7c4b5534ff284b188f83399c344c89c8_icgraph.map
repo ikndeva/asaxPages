@@ -55,7 +55,7 @@
 <area shape="rect" id="node24" href="$classutil_1_1_report.html#a18c2ea265e8622e114f6b037e69aa09a" title="現在の入れ子深さを一つ深くする．" alt="" coords="364,1140,479,1167"/>
 <area shape="rect" id="node25" href="$classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．" alt="" coords="328,1191,515,1217"/>
 <area shape="rect" id="node26" href="$classutil_1_1_report.html#a62bc0d20ce17d1ee1289cfccd4c0ce68" title="name stack" alt="" coords="359,1241,484,1268"/>
-<area shape="rect" id="node32" href="$classmachine_1_1_global_ref_list.html#a7021cf7b5ebe466bd3fa5eddde303d9d" title="与えられた型と名前をもつ変数参照を生成する．" alt="" coords="610,1511,825,1537"/>
+<area shape="rect" id="node32" href="$classmachine_1_1_global_var_table.html#a7021cf7b5ebe466bd3fa5eddde303d9d" title="与えられた型と名前をもつ変数参照を生成する．" alt="" coords="606,1511,829,1537"/>
 <area shape="rect" id="node33" href="$classast_1_1_ast_var_decl.html#a5b4b6ffe4c04719694eaf8dd12feba4b" title="@breif" alt="" coords="641,1561,794,1588"/>
 <area shape="rect" id="node44" href="$classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="595,1956,839,1983"/>
 <area shape="rect" id="node45" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="599,2007,836,2033"/>
@@ -77,7 +77,7 @@
 <area shape="rect" id="node62" href="$classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" title="ノード名文字列を返す。" alt="" coords="345,2389,498,2416"/>
 <area shape="rect" id="node63" href="$classutil_1_1_util.html#ac22c9249f3cd4656475c2f5ebefa4d0c" title="オブジェクトのすべてのpublicフィールドを表すyaml文字列を返す．" alt="" coords="350,2557,493,2584"/>
 <area shape="rect" id="node64" href="$classutil_1_1_stack_base_1_1_stat.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す。" alt="" coords="329,2440,513,2467"/>
-<area shape="rect" id="node65" href="$classframe_1_1_mem_cell.html#ab5737202b3944479ae53931222a29ac3" title="メモリセルの内容を表す文字列を返す。" alt="" coords="341,2339,501,2365"/>
+<area shape="rect" id="node65" href="$classframe_1_1_mem_cell.html#aff833ee79d1c50ca3a722aa4bdec5235" title="メモリセルの内容を表す文字列を返す。" alt="" coords="341,2339,501,2365"/>
 <area shape="rect" id="node68" href="$classformat_1_1_node_formatter_simple.html#a46d5211e25bcc126f592fb7630291d12" title="項表現の出力" alt="" coords="312,2761,531,2802"/>
 <area shape="rect" id="node70" href="$classutil_1_1_report.html#af0022e20c64f9d3646a91a82b49c0ea8" title="現在の入れ子深さで段差げして，関数の戻りと文字列msgを出力する。" alt="" coords="664,2665,771,2692"/>
 <area shape="rect" id="node73" href="$classcompile_1_1_x_c_gen.html#a587cd4000bde35e8f7427da80fb65d8b" title="コード生成を行う．" alt="" coords="618,1663,817,1689"/>

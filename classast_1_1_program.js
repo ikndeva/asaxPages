@@ -3,7 +3,7 @@ var classast_1_1_program =
     [ "Program", "classast_1_1_program.html#aca2394e70ebf654e7efa33098d804a28", null ],
     [ "getNewRid", "classast_1_1_program.html#a5788cfd9f521da781e600b8a94bae589", null ],
     [ "getLoopMask", "classast_1_1_program.html#a0e384b38e39187c39616b9a8d8ee8422", null ],
-    [ "globalRefList", "classast_1_1_program.html#a4d6fcf035236a4cf57d53135e1576d16", null ],
+    [ "globalVarTable", "classast_1_1_program.html#a04a393232a452e986ea6920f742388bf", null ],
     [ "getRootRID", "classast_1_1_program.html#ad9343ff479dd17ff3bdf5c812d537694", null ],
     [ "getRootCall", "classast_1_1_program.html#a17a98678ff4e137f0782b9182e28c153", null ],
     [ "setRootID", "classast_1_1_program.html#a37a5abd7d3ba5bd5637c9520b41593c4", null ],

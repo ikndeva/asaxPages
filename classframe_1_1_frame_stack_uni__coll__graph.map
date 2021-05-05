@@ -1,9 +1,9 @@
 <map id="FrameStackUni" name="FrameStackUni">
 <area shape="rect" id="node1" title="フレームスタックのクラス。新実装。" alt="" coords="716,316,829,342"/>
 <area shape="rect" id="node2" href="$interfacemachine_1_1_frame_stackable.html" title=" " alt="" coords="370,9,487,36"/>
-<area shape="rect" id="node3" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="317,60,540,86"/>
-<area shape="rect" id="node4" href="$classmachine_1_1_global_ref_list.html" title=" " alt="" coords="378,110,479,137"/>
-<area shape="rect" id="node5" title=" " alt="" coords="10,110,151,137"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_global_var_table.html" title=" " alt="" coords="374,60,483,86"/>
+<area shape="rect" id="node4" title=" " alt="" coords="10,60,151,86"/>
+<area shape="rect" id="node5" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="317,110,540,137"/>
 <area shape="rect" id="node6" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="339,162,518,203"/>
 <area shape="rect" id="node7" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="321,228,537,254"/>
 <area shape="rect" id="node8" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="343,279,515,320"/>

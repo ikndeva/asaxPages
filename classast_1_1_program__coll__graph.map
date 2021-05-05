@@ -1,5 +1,5 @@
 <map id="Program" name="Program">
-<area shape="rect" id="node1" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="1353,820,1424,847"/>
+<area shape="rect" id="node1" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="1361,820,1432,847"/>
 <area shape="rect" id="node2" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="1091,511,1205,537"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="791,251,865,277"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="415,251,518,277"/>
@@ -23,7 +23,7 @@
 <area shape="rect" id="node20" title=" " alt="" coords="763,536,893,563"/>
 <area shape="rect" id="node21" title=" " alt="" coords="720,637,936,664"/>
 <area shape="rect" id="node22" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="1109,803,1187,829"/>
-<area shape="rect" id="node23" href="$classmachine_1_1_global_ref_list.html" title=" " alt="" coords="1097,853,1199,880"/>
+<area shape="rect" id="node23" href="$classmachine_1_1_global_var_table.html" title=" " alt="" coords="1093,853,1203,880"/>
 <area shape="rect" id="node24" title=" " alt="" coords="757,853,899,880"/>
 <area shape="rect" id="node26" title=" " alt="" coords="5,913,143,940"/>
 <area shape="rect" id="node27" title=" " alt="" coords="1052,955,1244,997"/>

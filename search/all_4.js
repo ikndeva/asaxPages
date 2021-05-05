@@ -127,7 +127,7 @@ var searchData=
   ['createmask_291',['createMask',['../classpretty_1_1_char_set.html#a2b610fce0b46645e854843a3bc0ca987',1,'pretty.CharSet.createMask(String CHARS)'],['../classpretty_1_1_char_set.html#a5192f797a8f5c84a2694d94949bd80fd',1,'pretty.CharSet.createMask(String CHARS, boolean FLAG)']]],
   ['createoption_292',['createOption',['../classutil_1_1_multi_words_option.html#a4fd682ce701962743f4b5f1650c3da7d',1,'util::MultiWordsOption']]],
   ['createquerystream_293',['createQueryStream',['../classapp_1_1_stream_builder.html#af85935c9178b6786f89067809f55f4aa',1,'app::StreamBuilder']]],
-  ['createref_294',['createRef',['../classmachine_1_1_global_ref_list.html#a7021cf7b5ebe466bd3fa5eddde303d9d',1,'machine::GlobalRefList']]],
+  ['createref_294',['createRef',['../classmachine_1_1_global_var_table.html#a7021cf7b5ebe466bd3fa5eddde303d9d',1,'machine::GlobalVarTable']]],
   ['createrootstep_295',['createRootStep',['../classast_1_1_step_rule.html#a881801e0c85bb547e57683a904ef92a9',1,'ast::StepRule']]],
   ['cs_296',['CS',['../classevent_1_1_event_reader_base.html#a5373841e29c6287dc5e01c67b3f67f0d',1,'event::EventReaderBase']]],
   ['ctoc_297',['CTOC',['../md__c_t_o_c.html',1,'']]],

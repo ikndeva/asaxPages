@@ -29,8 +29,8 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "FrameStackable.java", "_frame_stackable_8java.html", [
       [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ]
     ] ],
-    [ "GlobalRefList.java", "_global_ref_list_8java.html", [
-      [ "GlobalRefList", "classmachine_1_1_global_ref_list.html", "classmachine_1_1_global_ref_list" ]
+    [ "GlobalVarTable.java", "_global_var_table_8java.html", [
+      [ "GlobalVarTable", "classmachine_1_1_global_var_table.html", "classmachine_1_1_global_var_table" ]
     ] ],
     [ "IdMask.java", "_id_mask_8java.html", [
       [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ]
@@ -54,9 +54,6 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "Ref.java", "_ref_8java.html", [
       [ "Ref", "classmachine_1_1_ref.html", "classmachine_1_1_ref" ]
     ] ],
-    [ "RefList.java", "_ref_list_8java.html", [
-      [ "RefList", "classmachine_1_1_ref_list.html", "classmachine_1_1_ref_list" ]
-    ] ],
     [ "Rule.java", "_rule_8java.html", [
       [ "Rule", "interfacemachine_1_1_rule.html", "interfacemachine_1_1_rule" ]
     ] ],
@@ -71,6 +68,9 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     ] ],
     [ "TagMaskMap.java", "_tag_mask_map_8java.html", [
       [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", "classmachine_1_1_tag_mask_map" ]
+    ] ],
+    [ "VarTable.java", "_var_table_8java.html", [
+      [ "VarTable", "classmachine_1_1_var_table.html", "classmachine_1_1_var_table" ]
     ] ],
     [ "XRuntimeException.java", "_x_runtime_exception_8java.html", [
       [ "XRuntimeException", "classmachine_1_1_x_runtime_exception.html", "classmachine_1_1_x_runtime_exception" ],

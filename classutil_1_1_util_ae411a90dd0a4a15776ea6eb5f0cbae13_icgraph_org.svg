@@ -878,16 +878,16 @@
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="classmachine_1_1_global_ref_list.html#a7021cf7b5ebe466bd3fa5eddde303d9d" target="_top" xlink:title="与えられた型と名前をもつ変数参照を生成する．">
-<polygon fill="white" stroke="black" points="647.5,-1047 647.5,-1066 808.5,-1066 808.5,-1047 647.5,-1047"/>
-<text text-anchor="middle" x="728" y="-1054" font-family="Helvetica,sans-Serif" font-size="10.00">machine.GlobalRefList.createRef</text>
+<g id="a_node32"><a xlink:href="classmachine_1_1_global_var_table.html#a7021cf7b5ebe466bd3fa5eddde303d9d" target="_top" xlink:title="与えられた型と名前をもつ変数参照を生成する．">
+<polygon fill="white" stroke="black" points="644.5,-1047 644.5,-1066 811.5,-1066 811.5,-1047 644.5,-1047"/>
+<text text-anchor="middle" x="728" y="-1054" font-family="Helvetica,sans-Serif" font-size="10.00">machine.GlobalVarTable.createRef</text>
 </a>
 </g>
 </g>
 <!-- Node31&#45;&gt;Node32 -->
 <g id="edge32" class="edge">
 <title>Node31&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M888.52,-1047.8C863.88,-1049.14 835.06,-1050.71 808.74,-1052.15"/>
+<path fill="none" stroke="midnightblue" d="M888.55,-1047.8C864.85,-1049.09 837.26,-1050.59 811.76,-1051.99"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="889.01,-1051.28 898.8,-1047.24 888.63,-1044.29 889.01,-1051.28"/>
 </g>
 <!-- Node33 -->
@@ -908,8 +908,8 @@
 <!-- Node32&#45;&gt;Node28 -->
 <g id="edge33" class="edge">
 <title>Node32&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M637.31,-1051.62C552.98,-1047.03 428.65,-1040.26 352.74,-1036.13"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="637.22,-1055.12 647.39,-1052.17 637.6,-1048.13 637.22,-1055.12"/>
+<path fill="none" stroke="midnightblue" d="M634.23,-1051.45C550,-1046.87 427.81,-1040.22 352.81,-1036.14"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="634.13,-1054.95 644.31,-1052 634.52,-1047.96 634.13,-1054.95"/>
 </g>
 <!-- Node44 -->
 <g id="node44" class="node">
@@ -1251,7 +1251,7 @@
 <!-- Node66 -->
 <g id="node66" class="node">
 <title>Node66</title>
-<g id="a_node66"><a xlink:href="classframe_1_1_mem_cell.html#ab5737202b3944479ae53931222a29ac3" target="_top" xlink:title="メモリセルの内容を表す文字列を返す。">
+<g id="a_node66"><a xlink:href="classframe_1_1_mem_cell.html#aff833ee79d1c50ca3a722aa4bdec5235" target="_top" xlink:title="メモリセルの内容を表す文字列を返す。">
 <polygon fill="white" stroke="black" points="446,-465 446,-484 566,-484 566,-465 446,-465"/>
 <text text-anchor="middle" x="506" y="-472" font-family="Helvetica,sans-Serif" font-size="10.00">frame.MemCell.toString</text>
 </a>

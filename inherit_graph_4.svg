@@ -1753,16 +1753,16 @@
 <!-- Node186 -->
 <g id="node116" class="node">
 <title>Node186</title>
-<g id="a_node116"><a xlink:href="classmachine_1_1_ref_list.html" target="_top" xlink:title="@整数の表">
-<polygon fill="white" stroke="black" points="516,-815 516,-834 564,-834 564,-815 516,-815"/>
-<text text-anchor="middle" x="540" y="-822" font-family="Helvetica,sans-Serif" font-size="10.00">RefList</text>
+<g id="a_node116"><a xlink:href="classmachine_1_1_var_table.html" target="_top" xlink:title="@整数の表">
+<polygon fill="white" stroke="black" points="513,-815 513,-834 567,-834 567,-815 513,-815"/>
+<text text-anchor="middle" x="540" y="-822" font-family="Helvetica,sans-Serif" font-size="10.00">VarTable</text>
 </a>
 </g>
 </g>
 <!-- Node181&#45;&gt;Node186 -->
 <g id="edge117" class="edge">
 <title>Node181&#45;&gt;Node186</title>
-<path fill="none" stroke="midnightblue" d="M430.64,-824.5C460.29,-824.5 494.13,-824.5 515.99,-824.5"/>
+<path fill="none" stroke="midnightblue" d="M430.56,-824.5C458.81,-824.5 490.87,-824.5 512.76,-824.5"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="430.36,-821 420.36,-824.5 430.36,-828 430.36,-821"/>
 </g>
 <!-- Node187 -->

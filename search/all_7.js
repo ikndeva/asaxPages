@@ -1,7 +1,7 @@
 var searchData=
 [
   ['factory_529',['Factory',['../interfaceevent_1_1_event_readable_1_1_factory.html',1,'event::EventReadable']]],
-  ['fetch_530',['fetch',['../classmachine_1_1_ref_list.html#a61a1316af87e4a6656beb03056a26f12',1,'machine::RefList']]],
+  ['fetch_530',['fetch',['../classmachine_1_1_var_table.html#a61a1316af87e4a6656beb03056a26f12',1,'machine::VarTable']]],
   ['fetchbooleanholder_531',['fetchBooleanHolder',['../interfacemachine_1_1_frame_stackable.html#abd6ff1fbc4fcef480f09670c223495b2',1,'machine.FrameStackable.fetchBooleanHolder()'],['../classframe_1_1_frame_stack_uni.html#a58d3670e9ecf7f57e481d0b0afb165e0',1,'frame.FrameStackUni.fetchBooleanHolder()']]],
   ['fetchdoubleholder_532',['fetchDoubleHolder',['../interfacemachine_1_1_frame_stackable.html#a2a035ec2d5a2b8cee9e6885c998c481c',1,'machine.FrameStackable.fetchDoubleHolder()'],['../classframe_1_1_frame_stack_uni.html#a9731c380262fd5e18db63a136a509815',1,'frame.FrameStackUni.fetchDoubleHolder()']]],
   ['fetchinputstream_533',['fetchInputStream',['../interfacemachine_1_1_context.html#ac7e8e4933b2f1c62af5bf79d2f199cbd',1,'machine.Context.fetchInputStream()'],['../classmachine_1_1_x_machine.html#a189ca4a6f1b871b5b22aedb325350d18',1,'machine.XMachine.fetchInputStream()']]],
