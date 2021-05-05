@@ -128,16 +128,16 @@
 <!-- Node32 -->
 <g id="node31" class="node">
 <title>Node32</title>
-<g id="a_node31"><a xlink:href="classmachine_1_1_ref.html#ab788c909dc6f3580059add4ad31e57e3" target="_top" xlink:title="与えられた型のRefのサブクラスのオブジェクトを返すファクトリ手続き．">
-<polygon fill="white" stroke="black" points="705,-1012.5 705,-1031.5 807,-1031.5 807,-1012.5 705,-1012.5"/>
-<text text-anchor="middle" x="756" y="-1019.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.Ref.create</text>
+<g id="a_node31"><a xlink:href="classmachine_1_1_var.html#a67842af23e4d88285781901c867f3388" target="_top" xlink:title="与えられた型のVarのサブクラスのオブジェクトを返すファクトリ手続き．">
+<polygon fill="white" stroke="black" points="706,-1012.5 706,-1031.5 806,-1031.5 806,-1012.5 706,-1012.5"/>
+<text text-anchor="middle" x="756" y="-1019.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.Var.create</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node32 -->
 <g id="edge31" class="edge">
 <title>Node2&#45;&gt;Node32</title>
-<path fill="none" stroke="midnightblue" d="M911.01,-642.85C908.89,-712.62 898.27,-945.18 850,-998 839.09,-1009.94 823.09,-1016.28 807.44,-1019.54"/>
+<path fill="none" stroke="midnightblue" d="M911.01,-642.85C908.89,-712.62 898.27,-945.18 850,-998 838.86,-1010.19 822.43,-1016.54 806.47,-1019.74"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="914.51,-642.87 911.29,-632.77 907.52,-642.67 914.51,-642.87"/>
 </g>
 <!-- Node35 -->
@@ -878,38 +878,38 @@
 <!-- Node33 -->
 <g id="node32" class="node">
 <title>Node33</title>
-<g id="a_node32"><a xlink:href="classmachine_1_1_global_var_table.html#a7021cf7b5ebe466bd3fa5eddde303d9d" target="_top" xlink:title="与えられた型と名前をもつ変数参照を生成する．">
-<polygon fill="white" stroke="black" points="450.5,-1024.5 450.5,-1043.5 617.5,-1043.5 617.5,-1024.5 450.5,-1024.5"/>
-<text text-anchor="middle" x="534" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.GlobalVarTable.createRef</text>
+<g id="a_node32"><a xlink:href="classmachine_1_1_global_var_table.html#a46a8052683e76620e7d4c1d0191083a3" target="_top" xlink:title="与えられた型と名前をもつ変数参照を生成する．">
+<polygon fill="white" stroke="black" points="451,-1024.5 451,-1043.5 617,-1043.5 617,-1024.5 451,-1024.5"/>
+<text text-anchor="middle" x="534" y="-1031.5" font-family="Helvetica,sans-Serif" font-size="10.00">machine.GlobalVarTable.createVar</text>
 </a>
 </g>
 </g>
 <!-- Node32&#45;&gt;Node33 -->
 <g id="edge32" class="edge">
 <title>Node32&#45;&gt;Node33</title>
-<path fill="none" stroke="midnightblue" d="M694.55,-1025.3C670.85,-1026.59 643.26,-1028.09 617.76,-1029.49"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="695.01,-1028.78 704.8,-1024.74 694.63,-1021.79 695.01,-1028.78"/>
+<path fill="none" stroke="midnightblue" d="M695.82,-1025.23C671.67,-1026.55 643.32,-1028.09 617.21,-1029.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="696.11,-1028.72 705.9,-1024.68 695.73,-1021.73 696.11,-1028.72"/>
 </g>
 <!-- Node34 -->
 <g id="node33" class="node">
 <title>Node34</title>
-<g id="a_node33"><a xlink:href="classast_1_1_ast_var_decl.html#a5b4b6ffe4c04719694eaf8dd12feba4b" target="_top" xlink:title="@breif">
-<polygon fill="white" stroke="black" points="476.5,-986.5 476.5,-1005.5 591.5,-1005.5 591.5,-986.5 476.5,-986.5"/>
-<text text-anchor="middle" x="534" y="-993.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.setRef</text>
+<g id="a_node33"><a xlink:href="classast_1_1_ast_var_decl.html#ae9ced46764245143af9e010654f801b7" target="_top" xlink:title="@breif">
+<polygon fill="white" stroke="black" points="477.5,-986.5 477.5,-1005.5 590.5,-1005.5 590.5,-986.5 477.5,-986.5"/>
+<text text-anchor="middle" x="534" y="-993.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.setVar</text>
 </a>
 </g>
 </g>
 <!-- Node32&#45;&gt;Node34 -->
 <g id="edge34" class="edge">
 <title>Node32&#45;&gt;Node34</title>
-<path fill="none" stroke="midnightblue" d="M694.63,-1014.87C662.47,-1011.06 623.14,-1006.42 591.57,-1002.69"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="694.46,-1018.37 704.8,-1016.07 695.28,-1011.42 694.46,-1018.37"/>
+<path fill="none" stroke="midnightblue" d="M695.58,-1014.98C662.89,-1011.11 622.58,-1006.35 590.53,-1002.56"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="695.56,-1018.5 705.9,-1016.2 696.38,-1011.55 695.56,-1018.5"/>
 </g>
 <!-- Node33&#45;&gt;Node29 -->
 <g id="edge33" class="edge">
 <title>Node33&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M440.23,-1028.53C356,-1023.56 233.81,-1016.36 158.81,-1011.94"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="440.12,-1032.03 450.31,-1029.12 440.53,-1025.04 440.12,-1032.03"/>
+<path fill="none" stroke="midnightblue" d="M440.74,-1028.56C356.42,-1023.59 233.76,-1016.36 158.63,-1011.93"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="440.64,-1032.06 450.83,-1029.16 441.05,-1025.07 440.64,-1032.06"/>
 </g>
 <!-- Node45 -->
 <g id="node44" class="node">

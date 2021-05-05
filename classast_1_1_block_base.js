@@ -4,9 +4,9 @@ var classast_1_1_block_base =
     [ "BlockBase", "classast_1_1_block_base.html#a8c9e7ac15be936adaabbf137bb0f1b14", null ],
     [ "getFID", "classast_1_1_block_base.html#a0558c04802851d163e6a4a0385840464", null ],
     [ "setRid", "classast_1_1_block_base.html#a9e6ebe5bad1129ab078892610239508e", null ],
-    [ "setRetTo", "classast_1_1_block_base.html#a1fd1254ad07567a3c65745b678c75093", null ],
-    [ "getRetTo", "classast_1_1_block_base.html#af1e7ab898a3a1fa452032d73a5edca6d", null ],
-    [ "hasRefs", "classast_1_1_block_base.html#abdc974395a838dec1446b588316380e5", null ],
+    [ "setRetTo", "classast_1_1_block_base.html#a53e7f2c057bb27fbe8a78ab1bdc229ca", null ],
+    [ "getRetTo", "classast_1_1_block_base.html#a696ded4b05149e2d0507f9b7331a17ee", null ],
+    [ "hasVars", "classast_1_1_block_base.html#a418503b7d152bcd37447ce941c9f0def", null ],
     [ "getVarTable", "classast_1_1_block_base.html#aaf42e9d468fbca6e31b6620cf1c68ea2", null ],
     [ "setVarTable", "classast_1_1_block_base.html#a19a9323f91cd974c745d8c5439b4c810", null ],
     [ "getPreSent", "classast_1_1_block_base.html#acbaa59a6766021c60bcfd22f20d65d38", null ],
@@ -18,7 +18,7 @@ var classast_1_1_block_base =
     [ "gencode_safe", "classast_1_1_block_base.html#aad9fb15c4624ebbbbb1d4a9c9897e19b", null ],
     [ "gencode", "classast_1_1_block_base.html#a383612fb2c1d291f6f3f9c352a5cb262", null ],
     [ "funcid_", "classast_1_1_block_base.html#ae9d1a904aecd1c98c097ece399d07faa", null ],
-    [ "retRef_", "classast_1_1_block_base.html#a4991e607b85bf04377e7b69541861e03", null ],
+    [ "retVar_", "classast_1_1_block_base.html#a58e2bb37c4c97d7c4bab8e427576c7bd", null ],
     [ "vars_", "classast_1_1_block_base.html#a805fde1963e7e9a6ceae20b382272897", null ],
     [ "code_", "classast_1_1_block_base.html#a50526c351c519243be224934cc92ad7d", null ]
 ];

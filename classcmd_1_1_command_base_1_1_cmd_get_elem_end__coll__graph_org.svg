@@ -36,9 +36,9 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classcmd_1_1_command_base_1_1_command_ref.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="267,-114.5 267,-133.5 415,-133.5 415,-114.5 267,-114.5"/>
-<text text-anchor="middle" x="341" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandRef</text>
+<g id="a_node3"><a xlink:href="classcmd_1_1_command_base_1_1_command_var.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="268,-114.5 268,-133.5 414,-133.5 414,-114.5 268,-114.5"/>
+<text text-anchor="middle" x="341" y="-121.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandVar</text>
 </a>
 </g>
 </g>
@@ -151,9 +151,9 @@
 <!-- Node12 -->
 <g id="node10" class="node">
 <title>Node12</title>
-<g id="a_node10"><a xlink:href="classmachine_1_1_ref.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
-<polygon fill="white" stroke="black" points="423,-181.5 423,-200.5 455,-200.5 455,-181.5 423,-181.5"/>
-<text text-anchor="middle" x="439" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ref</text>
+<g id="a_node10"><a xlink:href="classmachine_1_1_var.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
+<polygon fill="white" stroke="black" points="423.5,-181.5 423.5,-200.5 454.5,-200.5 454.5,-181.5 423.5,-181.5"/>
+<text text-anchor="middle" x="439" y="-188.5" font-family="Helvetica,sans-Serif" font-size="10.00">Var</text>
 </a>
 </g>
 </g>

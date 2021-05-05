@@ -20,7 +20,7 @@ var classcmd_1_1_command_base =
     [ "CmdStore", "classcmd_1_1_command_base_1_1_cmd_store.html", "classcmd_1_1_command_base_1_1_cmd_store" ],
     [ "CmdUNDEF", "classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html", "classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f" ],
     [ "CommandJumpBase", "classcmd_1_1_command_base_1_1_command_jump_base.html", "classcmd_1_1_command_base_1_1_command_jump_base" ],
-    [ "CommandRef", "classcmd_1_1_command_base_1_1_command_ref.html", "classcmd_1_1_command_base_1_1_command_ref" ],
+    [ "CommandVar", "classcmd_1_1_command_base_1_1_command_var.html", "classcmd_1_1_command_base_1_1_command_var" ],
     [ "CommandBase", "classcmd_1_1_command_base.html#ab743d053c43c0ae5f00ec5a3ed41d74e", null ],
     [ "setReporter", "classcmd_1_1_command_base.html#a5d3ec868d7f73cc70303e27dad733f84", null ],
     [ "parseBooleanToString", "classcmd_1_1_command_base.html#a8f125a8b1c66fcc9d255b3538544aaba", null ],

@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 714;
+var viewWidth = 804;
 var viewHeight = 364;
 var sectionId = 'dynsection-1';
 </script>
@@ -54,7 +54,7 @@ var sectionId = 'dynsection-1';
 <svg id="graph" class="graph">
 <g id="viewport">
 <title>AstDataWriter.WriterOStream</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-360 710.12,-360 710.12,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-360 800.18,-360 800.18,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
@@ -112,17 +112,17 @@ var sectionId = 'dynsection-1';
 <!-- Node21 -->
 <g id="node15" class="node">
 <title>Node21</title>
-<g id="a_node15"><a xlink:href="classmachine_1_1_ref.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
-<polygon fill="white" stroke="black" points="381,-134.5 381,-153.5 413,-153.5 413,-134.5 381,-134.5"/>
-<text text-anchor="middle" x="397" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ref</text>
+<g id="a_node15"><a xlink:href="classmachine_1_1_var.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
+<polygon fill="white" stroke="black" points="381.5,-134.5 381.5,-153.5 412.5,-153.5 412.5,-134.5 381.5,-134.5"/>
+<text text-anchor="middle" x="397" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">Var</text>
 </a>
 </g>
 </g>
 <!-- Node4&#45;&gt;Node21 -->
 <g id="edge19" class="edge">
 <title>Node4&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M336.52,-184.88C349.33,-174.64 367.61,-161.51 380.88,-153.17"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="334.11,-182.33 328.66,-191.41 338.59,-187.71 334.11,-182.33"/>
+<path fill="none" stroke="midnightblue" d="M336.63,-184.79C349.61,-174.42 368.17,-161.12 381.45,-152.82"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="334.12,-182.33 328.66,-191.41 338.59,-187.71 334.12,-182.33"/>
 </g>
 <!-- Node4&#45;&gt;Node21 -->
 <g id="edge21" class="edge">
@@ -181,9 +181,9 @@ var sectionId = 'dynsection-1';
 <!-- Node9&#45;&gt;Node21 -->
 <g id="edge23" class="edge">
 <title>Node9&#45;&gt;Node21</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M356.98,-344.45C432.77,-342.22 657.62,-331.14 702,-278 707.7,-271.18 707.08,-265.3 702,-258 699.78,-254.81 476.13,-173.65 413.27,-150.89"/>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M356.98,-344.45C432.77,-342.22 657.62,-331.14 702,-278 752.93,-217.02 992.44,-366.89 421,-154 418.33,-153.01 415.5,-151.95 412.75,-150.92"/>
 <polygon fill="#9a32cd" stroke="#9a32cd" points="356.44,-340.97 346.53,-344.73 356.62,-347.96 356.44,-340.97"/>
-<text text-anchor="middle" x="674.5" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00"> UNDEF</text>
+<text text-anchor="middle" x="679.5" y="-232" font-family="Helvetica,sans-Serif" font-size="10.00"> UNDEF</text>
 </g>
 <!-- Node12 -->
 <g id="node7" class="node">
@@ -227,8 +227,8 @@ var sectionId = 'dynsection-1';
 <!-- Node14&#45;&gt;Node2 -->
 <g id="edge15" class="edge">
 <title>Node14&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M617.63,-249.85C600.24,-222.27 562.76,-167.77 519,-134 490.03,-111.64 450.71,-95.65 424.63,-86.62"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="614.69,-251.73 622.93,-258.4 620.64,-248.05 614.69,-251.73"/>
+<path fill="none" stroke="midnightblue" d="M617.49,-249.87C599.87,-222.33 561.95,-167.87 518,-134 489.03,-111.67 449.73,-95.58 423.88,-86.52"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="614.57,-251.8 622.85,-258.41 620.5,-248.08 614.57,-251.8"/>
 </g>
 <!-- Node14&#45;&gt;Node4 -->
 <g id="edge7" class="edge">
@@ -306,16 +306,16 @@ var sectionId = 'dynsection-1';
 <g id="node14" class="node">
 <title>Node20</title>
 <g id="a_node14"><a xlink:href="interfacemachine_1_1_data_accessor.html" target="_top" xlink:title="参照をもつデータ読み書きオブジェクトのインタフェース.">
-<polygon fill="white" stroke="black" points="431.5,-134.5 431.5,-153.5 510.5,-153.5 510.5,-134.5 431.5,-134.5"/>
-<text text-anchor="middle" x="471" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">DataAccessor</text>
+<polygon fill="white" stroke="black" points="430.5,-134.5 430.5,-153.5 509.5,-153.5 509.5,-134.5 430.5,-134.5"/>
+<text text-anchor="middle" x="470" y="-141.5" font-family="Helvetica,sans-Serif" font-size="10.00">DataAccessor</text>
 </a>
 </g>
 </g>
 <!-- Node20&#45;&gt;Node2 -->
 <g id="edge17" class="edge">
 <title>Node20&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M453.19,-127.36C438.64,-114.58 418.62,-96.99 406.82,-86.63"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="451.2,-130.26 461.02,-134.23 455.82,-125 451.2,-130.26"/>
+<path fill="none" stroke="midnightblue" d="M452.43,-127.36C438.08,-114.58 418.33,-96.99 406.69,-86.63"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="450.36,-130.2 460.15,-134.23 455.01,-124.97 450.36,-130.2"/>
 </g>
 <!-- Node21&#45;&gt;Node2 -->
 <g id="edge18" class="edge">

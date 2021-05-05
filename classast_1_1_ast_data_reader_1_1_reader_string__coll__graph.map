@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" href="$classast_1_1_ast_data_reader_1_1_reader_type.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="1035,392,1220,418"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="855,236,967,262"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="687,260,760,286"/>
-<area shape="rect" id="node17" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="889,392,932,418"/>
+<area shape="rect" id="node17" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="890,392,931,418"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="337,82,439,109"/>
 <area shape="rect" id="node6" title=" " alt="" coords="19,209,58,236"/>
 <area shape="rect" id="node13" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="362,133,414,160"/>

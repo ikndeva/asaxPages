@@ -4,10 +4,10 @@
 <area shape="rect" id="node3" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="1105,473,1220,500"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="791,541,865,568"/>
 <area shape="rect" id="node21" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="1127,375,1198,401"/>
-<area shape="rect" id="node26" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1141,651,1184,677"/>
+<area shape="rect" id="node25" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1142,651,1183,677"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="415,491,518,517"/>
 <area shape="rect" id="node6" title=" " alt="" coords="25,525,123,552"/>
-<area shape="rect" id="node25" href="$classmachine_1_1_var_table.html" title="@整数の表" alt="" coords="431,732,503,759"/>
+<area shape="rect" id="node27" href="$classmachine_1_1_var_table.html" title="@整数の表" alt="" coords="431,732,503,759"/>
 <area shape="rect" id="node7" title=" " alt="" coords="55,760,93,787"/>
 <area shape="rect" id="node14" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="441,592,493,619"/>
 <area shape="rect" id="node29" href="$classmachine_1_1_call_list.html" title=" " alt="" coords="795,997,861,1024"/>
@@ -28,7 +28,7 @@
 <area shape="rect" id="node22" href="$classcmd_1_1_cmd_list.html" title="仮想命令のリスト．" alt="" coords="1127,844,1198,871"/>
 <area shape="rect" id="node23" title=" " alt="" coords="5,963,143,989"/>
 <area shape="rect" id="node24" title=" " alt="" coords="781,844,875,871"/>
-<area shape="rect" id="node27" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="785,629,871,656"/>
+<area shape="rect" id="node26" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="785,629,871,656"/>
 <area shape="rect" id="node31" title=" " alt="" coords="21,1123,127,1149"/>
 <area shape="rect" id="node32" title=" " alt="" coords="51,1173,97,1200"/>
 <area shape="rect" id="node33" title=" " alt="" coords="395,1119,538,1145"/>

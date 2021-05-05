@@ -8,9 +8,9 @@ var hierarchy =
     ] ],
     [ "ArgTest", "classutil_1_1_arg_test.html", null ],
     [ "Assignable", "interfacemachine_1_1_assignable.html", [
-      [ "OSRef", "classmachine_1_1_o_s_ref.html", null ],
-      [ "Ref", "classmachine_1_1_ref.html", null ],
-      [ "Ref", "classmachine_1_1_ref.html", null ],
+      [ "OSVar", "classmachine_1_1_o_s_var.html", null ],
+      [ "Var", "classmachine_1_1_var.html", null ],
+      [ "Var", "classmachine_1_1_var.html", null ],
       [ "VarKey", "classmachine_1_1_var_key.html", null ]
     ] ],
     [ "AstConverter.AstConv< Integer, Boolean >", "classast_1_1_ast_converter_1_1_ast_conv.html", [
@@ -122,8 +122,8 @@ var hierarchy =
         [ "SentList", "classast_1_1_sent_list.html", [
           [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ]
         ] ],
-        [ "Ref", "classmachine_1_1_ref.html", null ],
-        [ "Ref", "classmachine_1_1_ref.html", null ],
+        [ "Var", "classmachine_1_1_var.html", null ],
+        [ "Var", "classmachine_1_1_var.html", null ],
         [ "VarKey", "classmachine_1_1_var_key.html", null ]
       ] ]
     ] ],
@@ -164,7 +164,7 @@ var hierarchy =
           [ "CommandBase.CmdJmpTRUE", "classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html", null ],
           [ "CommandBase.CmdJmpZERO", "classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html", null ]
         ] ],
-        [ "CommandBase.CommandRef", "classcmd_1_1_command_base_1_1_command_ref.html", [
+        [ "CommandBase.CommandVar", "classcmd_1_1_command_base_1_1_command_var.html", [
           [ "CommandBase.CmdLoad", "classcmd_1_1_command_base_1_1_cmd_load.html", [
             [ "CommandBase.CmdGetElemEnd", "classcmd_1_1_command_base_1_1_cmd_get_elem_end.html", null ]
           ] ],
@@ -248,7 +248,7 @@ var hierarchy =
     ] ],
     [ "DataAccessor", "interfacemachine_1_1_data_accessor.html", [
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", null ],
-      [ "CommandBase.CommandRef", "classcmd_1_1_command_base_1_1_command_ref.html", null ]
+      [ "CommandBase.CommandVar", "classcmd_1_1_command_base_1_1_command_var.html", null ]
     ] ],
     [ "DataHolder", "class_data_holder.html", [
       [ "BooleanHolder", "classframe_1_1_boolean_holder.html", null ],

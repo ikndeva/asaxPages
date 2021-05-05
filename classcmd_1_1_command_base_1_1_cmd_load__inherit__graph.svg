@@ -36,9 +36,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classcmd_1_1_command_base_1_1_command_ref.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="39,-112.5 39,-131.5 187,-131.5 187,-112.5 39,-112.5"/>
-<text text-anchor="middle" x="113" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandRef</text>
+<g id="a_node2"><a xlink:href="classcmd_1_1_command_base_1_1_command_var.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="40,-112.5 40,-131.5 186,-131.5 186,-112.5 40,-112.5"/>
+<text text-anchor="middle" x="113" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandVar</text>
 </a>
 </g>
 </g>

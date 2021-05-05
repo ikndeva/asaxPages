@@ -379,22 +379,22 @@ var sectionId = 'dynsection-0';
 <!-- Node77 -->
 <g id="node62" class="node">
 <title>Node77</title>
-<g id="a_node62"><a xlink:href="classmachine_1_1_ref.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
-<polygon fill="white" stroke="black" points="456,-50.5 456,-69.5 488,-69.5 488,-50.5 456,-50.5"/>
-<text text-anchor="middle" x="472" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ref</text>
+<g id="a_node62"><a xlink:href="classmachine_1_1_var.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
+<polygon fill="white" stroke="black" points="456.5,-50.5 456.5,-69.5 487.5,-69.5 487.5,-50.5 456.5,-50.5"/>
+<text text-anchor="middle" x="472" y="-57.5" font-family="Helvetica,sans-Serif" font-size="10.00">Var</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node77 -->
 <g id="edge63" class="edge">
 <title>Node3&#45;&gt;Node77</title>
-<path fill="none" stroke="midnightblue" d="M332.83,-344.25C337.64,-284.5 355.89,-109.11 394,-70 410.24,-53.33 438.59,-50.39 455.99,-52.91"/>
+<path fill="none" stroke="midnightblue" d="M332.83,-344.25C337.64,-284.5 355.89,-109.11 394,-70 410.33,-53.23 438.93,-50.36 456.3,-52.95"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="329.34,-344.06 332.07,-354.29 336.32,-344.59 329.34,-344.06"/>
 </g>
 <!-- Node3&#45;&gt;Node77 -->
 <g id="edge64" class="edge">
 <title>Node3&#45;&gt;Node77</title>
-<path fill="none" stroke="midnightblue" d="M333.57,-344.07C339.34,-286.86 357.62,-125.34 394,-88 410.24,-71.33 438.59,-68.39 455.99,-65.73"/>
+<path fill="none" stroke="midnightblue" d="M333.57,-344.07C339.34,-286.86 357.62,-125.34 394,-88 410.33,-71.23 438.93,-68.36 456.3,-65.68"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="330.06,-344.04 332.55,-354.33 337.02,-344.73 330.06,-344.04"/>
 </g>
 <!-- Node78 -->

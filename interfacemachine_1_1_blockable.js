@@ -2,7 +2,7 @@ var interfacemachine_1_1_blockable =
 [
     [ "getFID", "interfacemachine_1_1_blockable.html#a0558c04802851d163e6a4a0385840464", null ],
     [ "getCallMask", "interfacemachine_1_1_blockable.html#a47cf57ec96efe77123f112236a16bd25", null ],
-    [ "hasRefs", "interfacemachine_1_1_blockable.html#abdc974395a838dec1446b588316380e5", null ],
+    [ "hasVars", "interfacemachine_1_1_blockable.html#a418503b7d152bcd37447ce941c9f0def", null ],
     [ "getVarTable", "interfacemachine_1_1_blockable.html#aaf42e9d468fbca6e31b6620cf1c68ea2", null ],
     [ "hasCalls", "interfacemachine_1_1_blockable.html#af5bd4862c608b58acd2487d6d22b55cb", null ],
     [ "getCalls", "interfacemachine_1_1_blockable.html#a37238a58bc6e053aeb2d537488901584", null ],

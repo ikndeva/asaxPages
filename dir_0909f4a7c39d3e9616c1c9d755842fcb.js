@@ -45,14 +45,8 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "MultiHashMap.java", "_multi_hash_map_8java.html", [
       [ "MultiHashMap", "classmachine_1_1_multi_hash_map.html", "classmachine_1_1_multi_hash_map" ]
     ] ],
-    [ "OSRef.java", "_o_s_ref_8java.html", [
-      [ "OSRef", "classmachine_1_1_o_s_ref.html", "classmachine_1_1_o_s_ref" ]
-    ] ],
     [ "OVMachine.java", "_o_v_machine_8java.html", [
       [ "OVMachine", "classmachine_1_1_o_v_machine.html", "classmachine_1_1_o_v_machine" ]
-    ] ],
-    [ "Ref.java", "_ref_8java.html", [
-      [ "Ref", "classmachine_1_1_ref.html", "classmachine_1_1_ref" ]
     ] ],
     [ "Rule.java", "_rule_8java.html", [
       [ "Rule", "interfacemachine_1_1_rule.html", "interfacemachine_1_1_rule" ]
@@ -68,6 +62,9 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     ] ],
     [ "TagMaskMap.java", "_tag_mask_map_8java.html", [
       [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", "classmachine_1_1_tag_mask_map" ]
+    ] ],
+    [ "Var.java", "_var_8java.html", [
+      [ "Var", "classmachine_1_1_var.html", "classmachine_1_1_var" ]
     ] ],
     [ "VarTable.java", "_var_table_8java.html", [
       [ "VarTable", "classmachine_1_1_var_table.html", "classmachine_1_1_var_table" ]

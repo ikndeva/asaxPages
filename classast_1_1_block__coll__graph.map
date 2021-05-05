@@ -4,10 +4,10 @@
 <area shape="rect" id="node3" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="1060,617,1175,644"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="783,525,857,552"/>
 <area shape="rect" id="node21" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="1082,445,1153,472"/>
-<area shape="rect" id="node26" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1096,367,1139,393"/>
+<area shape="rect" id="node25" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1097,367,1138,393"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="407,332,510,359"/>
 <area shape="rect" id="node6" title=" " alt="" coords="25,163,123,189"/>
-<area shape="rect" id="node25" href="$classmachine_1_1_var_table.html" title="@整数の表" alt="" coords="423,163,495,189"/>
+<area shape="rect" id="node27" href="$classmachine_1_1_var_table.html" title="@整数の表" alt="" coords="423,163,495,189"/>
 <area shape="rect" id="node7" title=" " alt="" coords="55,561,93,588"/>
 <area shape="rect" id="node14" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="433,687,485,713"/>
 <area shape="rect" id="node8" title=" " alt="" coords="41,332,107,359"/>
@@ -25,5 +25,5 @@
 <area shape="rect" id="node22" href="$classcmd_1_1_cmd_list.html" title="仮想命令のリスト．" alt="" coords="423,49,494,76"/>
 <area shape="rect" id="node23" title=" " alt="" coords="5,69,143,96"/>
 <area shape="rect" id="node24" title=" " alt="" coords="27,5,121,32"/>
-<area shape="rect" id="node27" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="777,313,863,340"/>
+<area shape="rect" id="node26" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="777,313,863,340"/>
 </map>

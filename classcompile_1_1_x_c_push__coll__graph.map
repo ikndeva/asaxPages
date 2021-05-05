@@ -3,7 +3,7 @@
 <area shape="rect" id="node2" href="$classcompile_1_1_x_compiler.html" title="クエリのコンパイル系モジュール。" alt="" coords="1549,297,1632,324"/>
 <area shape="rect" id="node3" href="$classutil_1_1_inc_counter.html" title="非負整数値を保持するカウンタ." alt="" coords="746,264,833,291"/>
 <area shape="rect" id="node4" title=" " alt="" coords="405,313,444,340"/>
-<area shape="rect" id="node13" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1347,507,1389,533"/>
+<area shape="rect" id="node13" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="1347,507,1389,533"/>
 <area shape="rect" id="node15" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="738,568,841,595"/>
 <area shape="rect" id="node21" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="763,467,815,493"/>
 <area shape="rect" id="node5" title=" " alt="" coords="67,239,134,265"/>

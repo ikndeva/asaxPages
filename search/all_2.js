@@ -48,7 +48,7 @@ var searchData=
   ['assignable_52',['Assignable',['../interfacemachine_1_1_assignable.html',1,'machine']]],
   ['assignable_2ejava_53',['Assignable.java',['../_assignable_8java.html',1,'']]],
   ['ast_54',['ast',['../namespaceast.html',1,'']]],
-  ['astassign_55',['AstAssign',['../classast_1_1_ast_assign.html',1,'AstAssign'],['../classast_1_1_ast_assign.html#af056955033b82bde9cc090ecff40bfe2',1,'ast.AstAssign.AstAssign()'],['../classast_1_1_ast_assign.html#ae1200243e54a5809d17e10bd3870212a',1,'ast.AstAssign.AstAssign(Ref ref, Node child)']]],
+  ['astassign_55',['AstAssign',['../classast_1_1_ast_assign.html',1,'AstAssign'],['../classast_1_1_ast_assign.html#af056955033b82bde9cc090ecff40bfe2',1,'ast.AstAssign.AstAssign()'],['../classast_1_1_ast_assign.html#a3c2e9803c2adca6e5d4ba331872692eb',1,'ast.AstAssign.AstAssign(Var ref, Node child)']]],
   ['astassign_2ejava_56',['AstAssign.java',['../_ast_assign_8java.html',1,'']]],
   ['astbreak_57',['AstBreak',['../classast_1_1_ast_break.html',1,'ast']]],
   ['astconv_58',['AstConv',['../classast_1_1_ast_converter_1_1_ast_conv.html',1,'AstConverter.AstConv&lt; S, T &gt;'],['../classast_1_1_ast_converter_1_1_ast_conv.html#a9495d8eea092e888bd1366149f38f102',1,'ast.AstConverter.AstConv.AstConv()']]],

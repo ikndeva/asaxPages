@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="局所変数環境からの値を書き込むクラス" alt="" coords="966,452,1070,479"/>
 <area shape="rect" id="node2" href="$classast_1_1_ast_node_unary.html" title="ただ一つの子をもつノードのクラス。" alt="" coords="1056,363,1164,389"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="949,287,1022,313"/>
-<area shape="rect" id="node20" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="890,363,932,389"/>
+<area shape="rect" id="node20" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="890,363,932,389"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="576,197,678,224"/>
 <area shape="rect" id="node5" title=" " alt="" coords="322,5,378,32"/>
 <area shape="rect" id="node17" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="374,197,426,224"/>

@@ -26,7 +26,7 @@
 <area shape="rect" id="node37" href="$classast_1_1_ast_var_decl.html" title="値の読み出しオブジェクト．" alt="" coords="655,56,743,83"/>
 <area shape="rect" id="node38" href="$classast_1_1_path.html" title=" " alt="" coords="674,107,723,133"/>
 <area shape="rect" id="node39" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="663,5,734,32"/>
-<area shape="rect" id="node41" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="677,259,720,285"/>
+<area shape="rect" id="node41" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="678,259,719,285"/>
 <area shape="rect" id="node42" href="$classmachine_1_1_var_key.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="667,765,731,792"/>
 <area shape="rect" id="node7" href="$classast_1_1_ast_data_reader_1_1_reader_type.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="869,107,1055,133"/>
 <area shape="rect" id="node13" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="881,208,1043,235"/>

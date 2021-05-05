@@ -10,7 +10,7 @@
 <area shape="rect" id="node11" href="$classcmd_1_1_command_base_1_1_cmd_n_o_p.html" title="何もしない命令．" alt="" coords="383,376,557,403"/>
 <area shape="rect" id="node13" href="$classcmd_1_1_command_base_1_1_cmd_scan_loop.html" title="スタックからファイル記述子をとり、その入力ストリームを走査する。" alt="" coords="369,427,571,453"/>
 <area shape="rect" id="node14" href="$classcmd_1_1_command_base_1_1_command_jump_base.html" title="無条件ジャンプの命令" alt="" coords="351,477,589,504"/>
-<area shape="rect" id="node20" href="$classcmd_1_1_command_base_1_1_command_ref.html" title=" " alt="" coords="371,528,569,555"/>
+<area shape="rect" id="node20" href="$classcmd_1_1_command_base_1_1_command_var.html" title=" " alt="" coords="373,528,567,555"/>
 <area shape="rect" id="node25" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_and.html" title="論理積命令" alt="" coords="365,579,575,605"/>
 <area shape="rect" id="node26" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_not.html" title="論理否定命令" alt="" coords="366,629,574,656"/>
 <area shape="rect" id="node27" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html" title="論理二項演算命令" alt="" coords="366,680,574,707"/>

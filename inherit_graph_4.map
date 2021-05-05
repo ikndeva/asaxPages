@@ -1,7 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
 <area shape="rect" id="node1" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="453,107,540,133"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_o_s_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="694,5,757,32"/>
-<area shape="rect" id="node3" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="704,157,747,184"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_o_s_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="695,5,755,32"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="705,157,746,184"/>
 <area shape="rect" id="node4" href="$classmachine_1_1_var_key.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="693,107,757,133"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_converter_1_1_ast_conv.html" title=" " alt="" coords="420,1011,573,1053"/>
 <area shape="rect" id="node6" href="$classast_1_1_ast_converter_1_1_integer_to_boolean.html" title="Integer型の値をBoolean型の値に変換するアダプタ" alt="" coords="624,1019,827,1045"/>
@@ -85,7 +85,7 @@
 <area shape="rect" id="node84" href="$classcmd_1_1_command_base_1_1_cmd_n_o_p.html" title="何もしない命令．" alt="" coords="910,2955,1083,2981"/>
 <area shape="rect" id="node86" href="$classcmd_1_1_command_base_1_1_cmd_scan_loop.html" title="スタックからファイル記述子をとり、その入力ストリームを走査する。" alt="" coords="895,3005,1098,3032"/>
 <area shape="rect" id="node87" href="$classcmd_1_1_command_base_1_1_command_jump_base.html" title="無条件ジャンプの命令" alt="" coords="877,3056,1116,3083"/>
-<area shape="rect" id="node93" href="$classcmd_1_1_command_base_1_1_command_ref.html" title=" " alt="" coords="898,2336,1095,2363"/>
+<area shape="rect" id="node93" href="$classcmd_1_1_command_base_1_1_command_var.html" title=" " alt="" coords="899,2336,1094,2363"/>
 <area shape="rect" id="node98" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_and.html" title="論理積命令" alt="" coords="891,3107,1102,3133"/>
 <area shape="rect" id="node99" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_not.html" title="論理否定命令" alt="" coords="893,3157,1101,3184"/>
 <area shape="rect" id="node100" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html" title="論理二項演算命令" alt="" coords="893,3208,1101,3235"/>

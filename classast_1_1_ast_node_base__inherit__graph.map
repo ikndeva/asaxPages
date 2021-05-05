@@ -19,7 +19,7 @@
 <area shape="rect" id="node57" href="$classast_1_1_ast_var_decl.html" title="値の読み出しオブジェクト．" alt="" coords="337,816,425,843"/>
 <area shape="rect" id="node58" href="$classast_1_1_path.html" title=" " alt="" coords="357,867,406,893"/>
 <area shape="rect" id="node59" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="346,917,417,944"/>
-<area shape="rect" id="node61" href="$classmachine_1_1_ref.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="360,968,403,995"/>
+<area shape="rect" id="node61" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="361,968,402,995"/>
 <area shape="rect" id="node62" href="$classmachine_1_1_var_key.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="349,1019,413,1045"/>
 <area shape="rect" id="node6" href="$classast_1_1_ast_data_reader_1_1_reader_type.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="552,107,737,133"/>
 <area shape="rect" id="node7" href="$classast_1_1_ast_data_reader_1_1_reader_boolean.html" title="ブール型の値をもつ参照読み出し" alt="" coords="804,5,1008,32"/>

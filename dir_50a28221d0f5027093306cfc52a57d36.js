@@ -6,7 +6,7 @@ var dir_50a28221d0f5027093306cfc52a57d36 =
     ] ],
     [ "CommandBase.java", "_command_base_8java.html", [
       [ "CommandBase", "classcmd_1_1_command_base.html", "classcmd_1_1_command_base" ],
-      [ "CommandRef", "classcmd_1_1_command_base_1_1_command_ref.html", "classcmd_1_1_command_base_1_1_command_ref" ],
+      [ "CommandVar", "classcmd_1_1_command_base_1_1_command_var.html", "classcmd_1_1_command_base_1_1_command_var" ],
       [ "CmdStore", "classcmd_1_1_command_base_1_1_cmd_store.html", "classcmd_1_1_command_base_1_1_cmd_store" ],
       [ "CmdLoad", "classcmd_1_1_command_base_1_1_cmd_load.html", "classcmd_1_1_command_base_1_1_cmd_load" ],
       [ "CmdNOP", "classcmd_1_1_command_base_1_1_cmd_n_o_p.html", "classcmd_1_1_command_base_1_1_cmd_n_o_p" ],

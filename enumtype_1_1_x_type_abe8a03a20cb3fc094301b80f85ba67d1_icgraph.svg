@@ -51,10 +51,10 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classast_1_1_ast_data_reader_1_1_reader_type.html#a47ef26a9cd99db204331fdb756b71909" target="_top" xlink:title="局所変数を設定する.">
+<g id="a_node4"><a xlink:href="classast_1_1_ast_data_reader_1_1_reader_type.html#a5bd7371112ac4f681b98d88f23b16f95" target="_top" xlink:title="局所変数を設定する.">
 <polygon fill="white" stroke="black" points="9,-39 9,-69 143,-69 143,-39 9,-39"/>
 <text text-anchor="start" x="17" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstDataReader.Reader</text>
-<text text-anchor="middle" x="76" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Type.setRef</text>
+<text text-anchor="middle" x="76" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Type.setVar</text>
 </a>
 </g>
 </g>
@@ -67,9 +67,9 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classast_1_1_ast_var_decl.html#a01af0743509a33df0dfbfa0c0b46690e" target="_top" xlink:title="@breif">
-<polygon fill="white" stroke="black" points="18.5,-0.5 18.5,-19.5 133.5,-19.5 133.5,-0.5 18.5,-0.5"/>
-<text text-anchor="middle" x="76" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.setRef</text>
+<g id="a_node5"><a xlink:href="classast_1_1_ast_var_decl.html#a04f4f26c93cddb6d734a1b7d9fb9d1fa" target="_top" xlink:title="@breif">
+<polygon fill="white" stroke="black" points="19.5,-0.5 19.5,-19.5 132.5,-19.5 132.5,-0.5 19.5,-0.5"/>
+<text text-anchor="middle" x="76" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarDecl.setVar</text>
 </a>
 </g>
 </g>

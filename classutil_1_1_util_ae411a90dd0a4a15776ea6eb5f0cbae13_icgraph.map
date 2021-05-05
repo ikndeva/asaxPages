@@ -6,7 +6,7 @@
 <area shape="rect" id="node28" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="295,1543,475,1569"/>
 <area shape="rect" id="node29" href="$classast_1_1_ast_var_decl.html#a6fbaf19ac15ec00270602c3ed816a39f" title="コンストラクタ" alt="" coords="1182,1729,1362,1756"/>
 <area shape="rect" id="node30" href="$classmachine_1_1_var_key.html#ad85fba563a7e38f9420fc68bffd54b31" title="与えられた型のVarKeyのサブクラスのオブジェクトを返すファクトリ手続き．" alt="" coords="1195,1780,1349,1807"/>
-<area shape="rect" id="node31" href="$classmachine_1_1_ref.html#ab788c909dc6f3580059add4ad31e57e3" title="与えられた型のRefのサブクラスのオブジェクトを返すファクトリ手続き．" alt="" coords="1204,1527,1340,1553"/>
+<area shape="rect" id="node31" href="$classmachine_1_1_var.html#a67842af23e4d88285781901c867f3388" title="与えられた型のVarのサブクラスのオブジェクトを返すファクトリ手続き．" alt="" coords="1205,1527,1339,1553"/>
 <area shape="rect" id="node34" href="$classcmd_1_1_command_base.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="1185,1831,1359,1857"/>
 <area shape="rect" id="node35" href="$classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html#aed930e84d9417830c38fbb0917e1c58a" title="メッセージとエラーを出して停止する．" alt="" coords="1147,1881,1397,1908"/>
 <area shape="rect" id="node36" href="$classevent_1_1_action_code.html#a7aa586655162fdd844a467f7d5eafe1f" title="Code を，現在の環境中で実行する．" alt="" coords="1193,1932,1351,1959"/>
@@ -55,8 +55,8 @@
 <area shape="rect" id="node25" href="$classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．" alt="" coords="587,1191,773,1217"/>
 <area shape="rect" id="node26" href="$classutil_1_1_report.html#a62bc0d20ce17d1ee1289cfccd4c0ce68" title="name stack" alt="" coords="617,1241,743,1268"/>
 <area shape="rect" id="node24" href="$classutil_1_1_report.html#af99c57037baac94c5837a696ba33f50b" title="現在の入れ子深さで段差げして，関数名nameの呼び出しと文字列msgを出力する。" alt="" coords="328,1140,443,1167"/>
-<area shape="rect" id="node32" href="$classmachine_1_1_global_var_table.html#a7021cf7b5ebe466bd3fa5eddde303d9d" title="与えられた型と名前をもつ変数参照を生成する．" alt="" coords="865,1511,1087,1537"/>
-<area shape="rect" id="node33" href="$classast_1_1_ast_var_decl.html#a5b4b6ffe4c04719694eaf8dd12feba4b" title="@breif" alt="" coords="899,1561,1053,1588"/>
+<area shape="rect" id="node32" href="$classmachine_1_1_global_var_table.html#a46a8052683e76620e7d4c1d0191083a3" title="与えられた型と名前をもつ変数参照を生成する．" alt="" coords="865,1511,1087,1537"/>
+<area shape="rect" id="node33" href="$classast_1_1_ast_var_decl.html#ae9ced46764245143af9e010654f801b7" title="@breif" alt="" coords="901,1561,1051,1588"/>
 <area shape="rect" id="node44" href="$classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="854,1981,1098,2008"/>
 <area shape="rect" id="node45" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="857,2032,1095,2059"/>
 <area shape="rect" id="node46" href="$classast_1_1_ast_math_oper_1_1_double_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="853,2083,1099,2109"/>

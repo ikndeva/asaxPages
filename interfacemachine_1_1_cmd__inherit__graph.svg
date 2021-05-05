@@ -233,9 +233,9 @@ var sectionId = 'dynsection-0';
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="classcmd_1_1_command_base_1_1_command_ref.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="209.5,-574 209.5,-593 357.5,-593 357.5,-574 209.5,-574"/>
-<text text-anchor="middle" x="283.5" y="-581" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandRef</text>
+<g id="a_node19"><a xlink:href="classcmd_1_1_command_base_1_1_command_var.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="210.5,-574 210.5,-593 356.5,-593 356.5,-574 210.5,-574"/>
+<text text-anchor="middle" x="283.5" y="-581" font-family="Helvetica,sans-Serif" font-size="10.00">CommandBase.CommandVar</text>
 </a>
 </g>
 </g>

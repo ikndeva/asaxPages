@@ -1,0 +1,10 @@
+<map id="createVar" name="createVar">
+<area shape="rect" id="node1" title="与えられた型と名前をもつ変数参照を生成する．" alt="" coords="5,81,83,108"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_var.html#a67842af23e4d88285781901c867f3388" title="与えられた型のVarのサブクラスのオブジェクトを返すファクトリ手続き．" alt="" coords="131,56,264,83"/>
+<area shape="rect" id="node7" href="$classmachine_1_1_global_var_table.html#ac9abff0861e7d5201000c5750e7b8b66" title="変数IDからその名前を返す．なければ，nullを返す．" alt="" coords="170,107,225,133"/>
+<area shape="rect" id="node3" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="329,5,445,32"/>
+<area shape="rect" id="node5" href="$classmachine_1_1_var.html#a69a87332fa314128243b289ac96e436e" title="指定されたフレームIDと変数IDをもつVarを生成する." alt="" coords="329,56,445,83"/>
+<area shape="rect" id="node4" href="$classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8" title="スタックトレースを出力する。" alt="" coords="511,5,677,32"/>
+<area shape="rect" id="node6" href="$classmachine_1_1_var.html#aac66012db63fd274931e6690afa76212" title="データ型を返す." alt="" coords="533,56,655,83"/>
+<area shape="rect" id="node8" href="$classmachine_1_1_var.html#a78ee178b6a73658d65ca60da4d1e6683" title="変数名文字列を返す." alt="" coords="312,107,463,133"/>
+</map>

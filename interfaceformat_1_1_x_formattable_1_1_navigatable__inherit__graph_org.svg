@@ -423,22 +423,22 @@
 <!-- Node77 -->
 <g id="node62" class="node">
 <title>Node77</title>
-<g id="a_node62"><a xlink:href="classmachine_1_1_ref.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
-<polygon fill="white" stroke="black" points="430,-38.5 430,-57.5 462,-57.5 462,-38.5 430,-38.5"/>
-<text text-anchor="middle" x="446" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Ref</text>
+<g id="a_node62"><a xlink:href="classmachine_1_1_var.html" target="_top" xlink:title="フレーム中の変数参照オブジェクトref = (XType type, int vid)">
+<polygon fill="white" stroke="black" points="430.5,-38.5 430.5,-57.5 461.5,-57.5 461.5,-38.5 430.5,-38.5"/>
+<text text-anchor="middle" x="446" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Var</text>
 </a>
 </g>
 </g>
 <!-- Node9&#45;&gt;Node77 -->
 <g id="edge64" class="edge">
 <title>Node9&#45;&gt;Node77</title>
-<path fill="none" stroke="midnightblue" d="M306.59,-351.39C310.75,-289.26 327.48,-100.14 368,-58 384.13,-41.23 412.52,-38.32 429.95,-40.87"/>
+<path fill="none" stroke="midnightblue" d="M306.59,-351.39C310.75,-289.26 327.48,-100.14 368,-58 384.22,-41.13 412.86,-38.29 430.26,-40.92"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="303.09,-351.25 305.96,-361.45 310.08,-351.69 303.09,-351.25"/>
 </g>
 <!-- Node9&#45;&gt;Node77 -->
 <g id="edge65" class="edge">
 <title>Node9&#45;&gt;Node77</title>
-<path fill="none" stroke="midnightblue" d="M307.16,-351.45C312.16,-291.98 329.14,-116.41 368,-76 384.13,-59.23 412.52,-56.32 429.95,-53.69"/>
+<path fill="none" stroke="midnightblue" d="M307.16,-351.45C312.16,-291.98 329.14,-116.41 368,-76 384.22,-59.13 412.86,-56.29 430.26,-53.64"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="303.68,-351.19 306.35,-361.44 310.65,-351.76 303.68,-351.19"/>
 </g>
 <!-- Node78 -->
