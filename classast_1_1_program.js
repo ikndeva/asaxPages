@@ -7,7 +7,7 @@ var classast_1_1_program =
     [ "getRootRID", "classast_1_1_program.html#ad9343ff479dd17ff3bdf5c812d537694", null ],
     [ "getRootCall", "classast_1_1_program.html#a17a98678ff4e137f0782b9182e28c153", null ],
     [ "setRootID", "classast_1_1_program.html#a37a5abd7d3ba5bd5637c9520b41593c4", null ],
-    [ "getTagMaskMap", "classast_1_1_program.html#a4f4352c77f2dcb2a58d62dccaee143bc", null ],
+    [ "getDispatcher", "classast_1_1_program.html#ae3d33830452f769f60ad0e6e93068f26", null ],
     [ "getRidSet", "classast_1_1_program.html#abfacf5db35236a85287fbb4ab4e72c12", null ],
     [ "getRules", "classast_1_1_program.html#a56f6e76cdf53628cafeb8e044c0024f1", null ],
     [ "addRule", "classast_1_1_program.html#a777a7588b8a521dc4d1730f4b3db71dd", null ],

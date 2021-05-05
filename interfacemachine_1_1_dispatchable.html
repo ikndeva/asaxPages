@@ -117,10 +117,10 @@ Public Member Functions</h2></td></tr>
 long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_dispatchable.html#a820841ba5e1cadc889e155dc8f858571">getMask</a> (String tag)</td></tr>
 <tr class="memdesc:a820841ba5e1cadc889e155dc8f858571"><td class="mdescLeft">&#160;</td><td class="mdescRight">辞書の基本演算．タグ名をキーとして受け取り、対応する値集合のマスクを返す． <br /></td></tr>
 <tr class="separator:a820841ba5e1cadc889e155dc8f858571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cb85ca775b9bbb65bf320c1df2f8e11"><td class="memItemLeft" align="right" valign="top"><a id="a8cb85ca775b9bbb65bf320c1df2f8e11"></a>
-List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_dispatchable.html#a8cb85ca775b9bbb65bf320c1df2f8e11">getValues</a> (long mask, String tag)</td></tr>
-<tr class="memdesc:a8cb85ca775b9bbb65bf320c1df2f8e11"><td class="mdescLeft">&#160;</td><td class="mdescRight">効率化のためのラッパー関数．タグ名に対応付られた値集合と、ビットマスク<code>mask</code>が表す値集合の共通集合をList&lt;Integer&gt;として返す。 <br /></td></tr>
-<tr class="separator:a8cb85ca775b9bbb65bf320c1df2f8e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae911ddd79625c485a29b228aa9ae4e56"><td class="memItemLeft" align="right" valign="top"><a id="ae911ddd79625c485a29b228aa9ae4e56"></a>
+List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_dispatchable.html#ae911ddd79625c485a29b228aa9ae4e56">maskToIntList</a> (long mask)</td></tr>
+<tr class="memdesc:ae911ddd79625c485a29b228aa9ae4e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">値集合のビットマスク表現を，昇順整列された整数リストに変換する．関数番号の集合のイタレータとして用いる． <br /></td></tr>
+<tr class="separator:ae911ddd79625c485a29b228aa9ae4e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -132,7 +132,7 @@ Static Public Attributes</h2></td></tr>
 <div class="textblock"><p>イベントディスパッチャーを表すインタフェース． </p>
 <ul>
 <li>タグ名文字列によって指定されたイベントに対して，関数IDの集合を割り当てる．</li>
-<li>関数ID集合は，整数リスト<code>List&lt;Integer&gt;</code>と，<code>long</code>値のビットマスクの二通りに表される． </li>
+<li>関数ID集合は，範囲 <code>[0..MAX_BITS)</code> の<code>long</code>値のビットマスクで表される． </li>
 </ul>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="af5d41813010600120df50393cc6267f8"></a>
@@ -169,7 +169,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemachine.html">machine</a></li><li class="navelem"><a class="el" href="interfacemachine_1_1_dispatchable.html">Dispatchable</a></li>
-    <li class="footer">Generated on Wed May 5 2021 22:58:43 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu May 6 2021 01:09:06 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
