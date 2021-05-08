@@ -1,7 +1,8 @@
 <map id="getLeastUpperBound" name="getLeastUpperBound">
-<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="451,64,595,91"/>
-<area shape="rect" id="node2" href="$classtype_1_1_x_type_item.html#a3057d3707a7f0e95cbc88e49f41e8a4c" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="256,64,403,91"/>
-<area shape="rect" id="node3" href="$classtype_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="5,5,208,32"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_data_reader_1_1_reader_type.html#ac0ca6c71c4f94d5ff0234b32be2bb88b" title="局所変数を設定する." alt="" coords="17,57,196,98"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_var_decl.html#aac5a6aca6e9901b9d87d6e19dda5e2ee" title="@breif" alt="" coords="31,123,182,149"/>
+<area shape="rect" id="node1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="461,93,605,120"/>
+<area shape="rect" id="node2" href="$classtype_1_1_x_type_item.html#a3057d3707a7f0e95cbc88e49f41e8a4c" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="267,93,413,120"/>
+<area shape="rect" id="node3" href="$classtype_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="11,5,213,32"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_data_reader_1_1_ast_var_reader.html#a80cf572a464f084f2f6f24ad5873a147" title="指定された変数参照をもつ読み出し変数オブジェクトを生成する．" alt="" coords="24,57,200,98"/>
+<area shape="rect" id="node5" href="$classmachine_1_1_var_table.html#a48c387cd3361c4f21e65cb65029ec21a" title="与えられた名前をもつ変数を記号表で見つけて返し， もし見つからなければ，Universe.createVariable(name)で， 最汎型をもつ新しい変数を生成して返す．" alt="" coords="5,123,219,149"/>
+<area shape="rect" id="node6" href="$classast_1_1_ast_var_decl.html#aac5a6aca6e9901b9d87d6e19dda5e2ee" title="@breif" alt="" coords="37,173,187,200"/>
 </map>

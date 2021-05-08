@@ -93,48 +93,48 @@
 <path fill="none" stroke="midnightblue" d="M356.54,-105C365.03,-105 373.7,-105 381.95,-105"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="356.3,-101.5 346.3,-105 356.3,-108.5 356.3,-101.5"/>
 </g>
-<!-- Node284 -->
+<!-- Node277 -->
 <g id="node7" class="node">
-<title>Node284</title>
+<title>Node277</title>
 <g id="a_node7"><a xlink:href="interfaceutil_1_1_stackable.html" target="_top" xlink:title="レベル付きスタックを実装するための最小限のインタフェース">
 <polygon fill="white" stroke="black" points="14.5,-38.5 14.5,-57.5 74.5,-57.5 74.5,-38.5 14.5,-38.5"/>
 <text text-anchor="middle" x="44.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">Stackable</text>
 </a>
 </g>
 </g>
-<!-- Node284&#45;&gt;Node5 -->
+<!-- Node277&#45;&gt;Node5 -->
 <g id="edge7" class="edge">
-<title>Node284&#45;&gt;Node5</title>
+<title>Node277&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M84.89,-48C97.56,-48 111.67,-48 124.63,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="84.65,-44.5 74.65,-48 84.65,-51.5 84.65,-44.5"/>
 </g>
-<!-- Node285 -->
+<!-- Node278 -->
 <g id="node8" class="node">
-<title>Node285</title>
+<title>Node278</title>
 <g id="a_node8"><a xlink:href="classutil_1_1_auto_stack.html" target="_top" xlink:title="再利用可能な型Sのオブジェクトを要素に持つスタックの実装.">
 <polygon fill="white" stroke="black" points="126,-0.5 126,-19.5 213,-19.5 213,-0.5 126,-0.5"/>
 <text text-anchor="middle" x="169.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">AutoStack&lt; S &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node284&#45;&gt;Node285 -->
+<!-- Node277&#45;&gt;Node278 -->
 <g id="edge6" class="edge">
-<title>Node284&#45;&gt;Node285</title>
+<title>Node277&#45;&gt;Node278</title>
 <path fill="none" stroke="midnightblue" d="M84.36,-35.99C101.47,-30.71 121.3,-24.58 137.41,-19.61"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="83.17,-32.7 74.65,-38.99 85.24,-39.39 83.17,-32.7"/>
 </g>
-<!-- Node289 -->
+<!-- Node282 -->
 <g id="node9" class="node">
-<title>Node289</title>
+<title>Node282</title>
 <g id="a_node9"><a xlink:href="classutil_1_1_stack_base.html" target="_top" xlink:title=" ">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 89,-19.5 89,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="44.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">StackBase&lt; S &gt;</text>
 </a>
 </g>
 </g>
-<!-- Node289&#45;&gt;Node285 -->
+<!-- Node282&#45;&gt;Node278 -->
 <g id="edge8" class="edge">
-<title>Node289&#45;&gt;Node285</title>
+<title>Node282&#45;&gt;Node278</title>
 <path fill="none" stroke="midnightblue" d="M99.42,-10C108.23,-10 117.26,-10 125.76,-10"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="99.21,-6.5 89.21,-10 99.21,-13.5 99.21,-6.5"/>
 </g>
