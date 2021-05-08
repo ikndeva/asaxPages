@@ -1,15 +1,16 @@
 <map id="setToFold" name="setToFold">
-<area shape="rect" id="node1" title="行の折りたたみの状態を報告する." alt="" coords="1007,209,1085,236"/>
-<area shape="rect" id="node2" href="$classutil_1_1_yaml_buf.html#a54eab65a2f17efaadbc230c3f9cc3451" title="引用符付き出力書式のフラグをセットする" alt="" coords="805,209,959,236"/>
-<area shape="rect" id="node3" href="$classutil_1_1_util.html#aefbe4290c061279d7d60565658385bde" title="型パラメータTの要素をもつ配列を受け取り、清書文字列を返す。" alt="" coords="584,35,728,61"/>
-<area shape="rect" id="node6" href="$classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" title="ノード名文字列を返す。" alt="" coords="579,85,733,112"/>
-<area shape="rect" id="node7" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="563,137,749,178"/>
-<area shape="rect" id="node8" href="$classutil_1_1_util.html#ac22c9249f3cd4656475c2f5ebefa4d0c" title="オブジェクトのすべてのpublicフィールドを表すyaml文字列を返す．" alt="" coords="579,202,733,243"/>
-<area shape="rect" id="node9" href="$classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" title="文字列表現を返す" alt="" coords="555,267,757,309"/>
-<area shape="rect" id="node12" href="$classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す" alt="" coords="289,329,481,356"/>
-<area shape="rect" id="node13" href="$classframe_1_1_mem_cell.html#aff833ee79d1c50ca3a722aa4bdec5235" title="メモリセルの内容を表す文字列を返す。" alt="" coords="576,384,736,411"/>
+<area shape="rect" id="node1" title="行の折りたたみの状態を報告する." alt="" coords="1007,203,1085,229"/>
+<area shape="rect" id="node2" href="$classutil_1_1_yaml_buf.html#a54eab65a2f17efaadbc230c3f9cc3451" title="引用符付き出力書式のフラグをセットする" alt="" coords="805,203,959,229"/>
+<area shape="rect" id="node3" href="$classutil_1_1_util.html#aefbe4290c061279d7d60565658385bde" title="型パラメータTの要素をもつ配列を受け取り、清書文字列を返す。" alt="" coords="584,43,728,69"/>
+<area shape="rect" id="node6" href="$classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" title="ノード名文字列を返す。" alt="" coords="579,93,733,120"/>
+<area shape="rect" id="node7" href="$classframe_1_1_entry.html#a3137357d0abb2bd75321d6e19024956a" title="メモリセルを表す文字列を返す。" alt="" coords="597,144,715,171"/>
+<area shape="rect" id="node9" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="563,195,749,237"/>
+<area shape="rect" id="node10" href="$classutil_1_1_util.html#ac22c9249f3cd4656475c2f5ebefa4d0c" title="オブジェクトのすべてのpublicフィールドを表すyaml文字列を返す．" alt="" coords="579,261,733,302"/>
+<area shape="rect" id="node11" href="$classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" title="文字列表現を返す" alt="" coords="555,326,757,367"/>
+<area shape="rect" id="node14" href="$classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す" alt="" coords="289,388,481,415"/>
 <area shape="rect" id="node4" href="$classutil_1_1_util.html#a5ca1fa6debc2726baddad4eeef28cb0e" title="型パラメータTの要素をもつ配列と、YamlBufの初期化関数を受け取り、清書文字列を返す。" alt="" coords="313,5,457,32"/>
 <area shape="rect" id="node5" href="$classutil_1_1_trace_level.html#a665fc9bf4c1ce79578733ce069eb5f11" title="与えられた文字列を名前にもつ列挙型Levelの定数を返す。" alt="" coords="308,57,463,98"/>
-<area shape="rect" id="node10" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="264,275,507,301"/>
-<area shape="rect" id="node11" href="$classmachine_1_1_x_machine.html#ac680ef65f7b25e9bb34f27f0d2f4ef33" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,275,216,301"/>
+<area shape="rect" id="node8" href="$classframe_1_1_entry.html#ad146fa8579a5f8a876c4688cc5a68520" title="メモリセルの内容を表す文字列を返す。" alt="" coords="317,144,454,171"/>
+<area shape="rect" id="node12" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="264,333,507,360"/>
+<area shape="rect" id="node13" href="$classmachine_1_1_x_machine.html#a9775fe1388ad800fb595915ddbee7f95" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,333,216,360"/>
 </map>

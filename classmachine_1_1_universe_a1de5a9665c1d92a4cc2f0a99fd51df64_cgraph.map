@@ -1,0 +1,9 @@
+<map id="createVariable" name="createVariable">
+<area shape="rect" id="node1" title="与えられた名前文字列に対して一意な新しい変数を生成する．" alt="" coords="5,81,109,108"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_var.html#a67842af23e4d88285781901c867f3388" title="与えられた型のVarのサブクラスのオブジェクトを返すファクトリ手続き．" alt="" coords="190,31,323,57"/>
+<area shape="rect" id="node6" href="$classmachine_1_1_name_table.html#a7ce78eaf62a8367163e8d43654704405" title="id から名前文字列を返す．" alt="" coords="157,81,356,108"/>
+<area shape="rect" id="node7" href="$classmachine_1_1_name_table.html#a37a86e5a03f225a4a36fcbf36fe989f4" title="名前文字列から一意なIDを返す" alt="" coords="168,132,345,159"/>
+<area shape="rect" id="node3" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="404,5,520,32"/>
+<area shape="rect" id="node5" href="$classmachine_1_1_var.html#a69a87332fa314128243b289ac96e436e" title="Varを生成する." alt="" coords="404,56,520,83"/>
+<area shape="rect" id="node4" href="$classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8" title="スタックトレースを出力する。" alt="" coords="568,5,735,32"/>
+</map>

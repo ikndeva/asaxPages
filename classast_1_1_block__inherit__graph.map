@@ -1,6 +1,6 @@
 <map id="Block" name="Block">
-<area shape="rect" id="node1" title="抽象構文木のステップ式のクラス." alt="" coords="307,304,361,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="291,229,377,256"/>
+<area shape="rect" id="node1" title="抽象構文木のステップ式のクラス." alt="" coords="328,304,383,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="313,229,398,256"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="170,155,285,181"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="191,80,264,107"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,5,108,32"/>
@@ -8,6 +8,6 @@
 <area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="210,5,383,32"/>
 <area shape="rect" id="node8" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="407,5,615,32"/>
 <area shape="rect" id="node9" title=" " alt="" coords="288,80,407,107"/>
-<area shape="rect" id="node10" href="$interfacemachine_1_1_rule.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="309,155,359,181"/>
-<area shape="rect" id="node11" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="383,155,475,181"/>
+<area shape="rect" id="node10" href="$interfacemachine_1_1_var_holdable.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="309,155,401,181"/>
+<area shape="rect" id="node11" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="425,155,517,181"/>
 </map>

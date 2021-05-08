@@ -1,7 +1,7 @@
 var classast_1_1_ast_data_reader =
 [
     [ "AstGetText", "classast_1_1_ast_data_reader_1_1_ast_get_text.html", "classast_1_1_ast_data_reader_1_1_ast_get_text" ],
-    [ "AstVarReaderNew", "classast_1_1_ast_data_reader_1_1_ast_var_reader_new.html", "classast_1_1_ast_data_reader_1_1_ast_var_reader_new" ],
+    [ "AstVarReader", "classast_1_1_ast_data_reader_1_1_ast_var_reader.html", "classast_1_1_ast_data_reader_1_1_ast_var_reader" ],
     [ "GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", "classast_1_1_ast_data_reader_1_1_get_system_var" ],
     [ "ReaderBoolean", "classast_1_1_ast_data_reader_1_1_reader_boolean.html", "classast_1_1_ast_data_reader_1_1_reader_boolean" ],
     [ "ReaderDouble", "classast_1_1_ast_data_reader_1_1_reader_double.html", "classast_1_1_ast_data_reader_1_1_reader_double" ],

@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="現在の入れ子深さで段差げして，関数の戻りを出力する。" alt="" coords="1105,752,1148,779"/>
 <area shape="rect" id="node2" href="$classcompile_1_1_x_c_adapt.html#adb6c78cdd870364329efbacd0451f5d4" title="クエリのコード生成を行う．" alt="" coords="254,1280,431,1307"/>
 <area shape="rect" id="node3" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="5,1280,185,1307"/>
-<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#a9a8412e62e70cb093fb49657471df607" title="スタックのトップにフレームを追加し、そのフレームポインタfpを返す。" alt="" coords="818,107,999,149"/>
+<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#af37832a0142019b361f3b75649cd9ed2" title="スタックのトップにフレームを追加し、そのフレームポインタfpを返す。" alt="" coords="818,107,999,149"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_let.html#a4fe468cd31c91b7d0c2ab59495dbf2a9" title="コンストラクタ" alt="" coords="847,173,971,200"/>
 <area shape="rect" id="node6" href="$classformat_1_1_node_formatter_simple.html#aae2c443699b8e0376bb9fa16e05459e3" title="項のラベルを出力する" alt="" coords="799,225,1018,266"/>
 <area shape="rect" id="node7" href="$classformat_1_1_node_formatter_simple.html#aac82597a42c45dabd61899050038d1d4" title="項表現を出力する再帰ルーチン" alt="" coords="500,141,712,182"/>
@@ -16,8 +16,8 @@
 <area shape="rect" id="node16" href="$classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="775,727,1042,753"/>
 <area shape="rect" id="node17" href="$classcmd_1_1_command_base_1_1_cmd_jmp_n_o_n_z_e_r_o.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="760,777,1057,804"/>
 <area shape="rect" id="node18" href="$classcmd_1_1_command_string_1_1_cmd_str_store.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="811,829,1006,870"/>
-<area shape="rect" id="node19" href="$classframe_1_1_frame_stack_uni.html#a6e9a602d54eb7fb9e281cd4905f4b9bf" title="フレームfidを起点として、変数vidのメモリセルを返す。" alt="" coords="817,894,1000,935"/>
-<area shape="rect" id="node24" href="$classframe_1_1_frame_stack_uni.html#ae6eaac2f39aa5ae1c7724dc2453c57c1" title=" " alt="" coords="813,959,1004,1001"/>
+<area shape="rect" id="node19" href="$classframe_1_1_frame_stack_uni.html#a05cc81c7b4ccfda2a536f0c9b7af4e8b" title="フレームfpから、変数のメモリセルを返す。" alt="" coords="817,894,1000,935"/>
+<area shape="rect" id="node24" href="$classframe_1_1_frame_stack_uni.html#ab11e9cacef4dadfb8c18d672ae8bc6f8" title=" " alt="" coords="813,959,1004,1001"/>
 <area shape="rect" id="node26" href="$classast_1_1_ast_data_reader_1_1_reader_integer.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="819,1025,998,1066"/>
 <area shape="rect" id="node27" href="$classast_1_1_ast_var_decl.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="827,1091,990,1117"/>
 <area shape="rect" id="node28" href="$classast_1_1_ast_scan_from.html#a383612fb2c1d291f6f3f9c352a5cb262" title="コードを生成する．" alt="" coords="820,1141,997,1168"/>
@@ -27,13 +27,13 @@
 <area shape="rect" id="node32" href="$classcompile_1_1_x_c_flat.html#a029cff3eb4de07cc0123c3490f1190dd" title="正規形への変換の再起手続き" alt="" coords="831,1461,987,1488"/>
 <area shape="rect" id="node34" href="$classcompile_1_1_x_c_gen.html#a1eeb728ff52edee4946ab175126699b8" title="コード生成を行う再帰手続き．" alt="" coords="829,5,989,32"/>
 <area shape="rect" id="node36" href="$classcompile_1_1_x_c_push.html#a7714f05e08bb949fcf8d9b0526d50ce2" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="823,1360,995,1387"/>
-<area shape="rect" id="node37" href="$classcompile_1_1_x_compiler.html#a4cbd057c22095a80ec44c19887ecacb2" title="コンパイラオブジェクトを生成する。" alt="" coords="811,1512,1007,1539"/>
+<area shape="rect" id="node37" href="$classcompile_1_1_x_compiler.html#a2253562af7b719451102a59eab84eb65" title="コンパイラオブジェクトを生成する。" alt="" coords="811,1512,1007,1539"/>
 <area shape="rect" id="node8" href="$classformat_1_1_node_formatter_simple.html#a46d5211e25bcc126f592fb7630291d12" title="項表現の出力" alt="" coords="233,141,452,182"/>
-<area shape="rect" id="node20" href="$classframe_1_1_frame_stack_uni.html#a58d3670e9ecf7f57e481d0b0afb165e0" title="フレームfpで変数IDがさすBooleanHolder型のコンテナを取得する. exp." alt="" coords="515,763,697,805"/>
-<area shape="rect" id="node21" href="$classframe_1_1_frame_stack_uni.html#a9731c380262fd5e18db63a136a509815" title="フレームfpで変数IDがさすDoubleHolder型のコンテナを取得する. exp." alt="" coords="515,829,697,870"/>
-<area shape="rect" id="node22" href="$classframe_1_1_frame_stack_uni.html#acbdb035a8d6b8d5221d645aadd815476" title="フレームfpで変数IDがさすIntegerHolder型のコンテナを取得する." alt="" coords="515,894,697,935"/>
-<area shape="rect" id="node23" href="$classframe_1_1_frame_stack_uni.html#add6cfcd182226467643bb7d2fc1275a0" title="フレームfpで変数IDがさすStringHolder型のコンテナを取得する." alt="" coords="515,959,697,1001"/>
-<area shape="rect" id="node25" href="$classframe_1_1_frame_stack_uni.html#ac267d53cce93cb73a44fce46d41cec11" title="ファクトリ手続き" alt="" coords="511,1025,701,1052"/>
+<area shape="rect" id="node20" href="$classframe_1_1_frame_stack_uni.html#ad115983756ebf37cb4541323bb500f58" title="フレームfpで変数IDがさすBooleanHolder型のコンテナを取得する. exp." alt="" coords="515,763,697,805"/>
+<area shape="rect" id="node21" href="$classframe_1_1_frame_stack_uni.html#a044e14a4aace8751c934473c9f3f3c0b" title="フレームfpで変数IDがさすDoubleHolder型のコンテナを取得する. exp." alt="" coords="515,829,697,870"/>
+<area shape="rect" id="node22" href="$classframe_1_1_frame_stack_uni.html#a0d179bee2c2a63bd7f49f8f2494f9c97" title="フレームfpで変数IDがさすIntegerHolder型のコンテナを取得する." alt="" coords="515,894,697,935"/>
+<area shape="rect" id="node23" href="$classframe_1_1_frame_stack_uni.html#a23824a7fbc3f712377edcf8c3ab252c1" title="フレームfpで変数IDがさすStringHolder型のコンテナを取得する." alt="" coords="515,959,697,1001"/>
+<area shape="rect" id="node25" href="$classframe_1_1_frame_stack_uni.html#a59565b22ea927a74c856855e77969f89" title="ファクトリ手続き" alt="" coords="511,1025,701,1052"/>
 <area shape="rect" id="node33" href="$classcompile_1_1_x_c_flat.html#ac7e5b6769d875e1767039c9844e71f3c" title="与えられた抽象構文木（AST）を正規形の抽象構文木に変換する." alt="" coords="267,1421,419,1448"/>
 <area shape="rect" id="node35" href="$classcompile_1_1_x_c_gen.html#a587cd4000bde35e8f7427da80fb65d8b" title="コード生成を行う．" alt="" coords="243,68,442,95"/>
 </map>

@@ -37,8 +37,8 @@ var classutil_1_1_yaml_buf =
     [ "add", "classutil_1_1_yaml_buf.html#a5274d3b19552167eff7750cfb80fee90", null ],
     [ "addif", "classutil_1_1_yaml_buf.html#a2611c1d12239be09263c7a92ef7c7776", null ],
     [ "includeStrIndent", "classutil_1_1_yaml_buf.html#af9b731bd7e5760374c78d4aef4140df0", null ],
-    [ "includeStrIndentArray", "classutil_1_1_yaml_buf.html#ac7bbf751cbb1c71e697315495afcc788", null ],
-    [ "includeStrIndentObj", "classutil_1_1_yaml_buf.html#a909471b62c0b5944feb3af85e40ca9f5", null ],
+    [ "addString", "classutil_1_1_yaml_buf.html#a5b7c2018c9764851bb89cd76b4e1a7b1", null ],
+    [ "addString", "classutil_1_1_yaml_buf.html#a922f6e03a7777554853b58e5601e7d11", null ],
     [ "SINGLE_QUOTE", "classutil_1_1_yaml_buf.html#a6cfe868959fe0522962d5fe6ffb20ed4", null ],
     [ "DOUBLE_QUOTE", "classutil_1_1_yaml_buf.html#a61f8244daedd476595fa70a2c0c18804", null ],
     [ "DEFAULT_INDENT_STR", "classutil_1_1_yaml_buf.html#a3485f5ab5468c9283bab864f20e0c734", null ]

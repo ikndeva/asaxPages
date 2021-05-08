@@ -95,6 +95,8 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
+<h1>210506 Thu, 25:30-</h1>
+<p>授業ビデオ作成が終わったので，すきま時間に，小さな手直しをした．</p>
 <h1>210505 Wed, 14:00-14:30 Algo, 19:30-20:00: 小手直し</h1>
 <p>すきま時間に，前日の作業の小さな手直しをした．</p>
 <ul>
@@ -489,7 +491,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <ul>
 <li>parse/query.g4: Antlr4とAstParserによる構文解析では、加法的演算子<code>+</code>と<code>-</code>をもつ式を、前者をカテゴリarithAddTermPlusの式、後者をカテゴリarithAddTermMinusとして扱う。前者のノードの子供は、数値積項と文字列積項を区別せずに、カテゴリ arithOrStrMulTerm をもつ部分式として扱う。後者のノードの子供は、arithMulTermをもつ。</li>
 <li>ast/AstOper.java: クラス<code>NumberOper</code>を分割して、カテゴリarithAddTermMinusとカテゴリarithAddTermPlusを、それぞれ保持するクラス<code>NumberOper</code>とサブクラス<code>NumberOrStrOper</code>を導入した。ここに、<code>NumberOrStrOper</code>を<code>NumberOper</code>のサブクラスとする。</li>
-<li><a class="el" href="_ast_node_factory_8java.html">parse/AstNodeFactory.java</a>, <a class="el" href="_ast_parser_8java.html">AstParser.java</a>: 加法的演算子'+'と<code>-</code>をもつ式を、クラス<code>NumberOrStrOper</code>、および、クラス<code>NumberOper</code>のノードを根にもつ式として構文木を構築する。</li>
+<li><a class="el" href="_ast_node_factory_8java.html">parse/AstNodeFactory.java</a>, AstParser.java: 加法的演算子'+'と<code>-</code>をもつ式を、クラス<code>NumberOrStrOper</code>、および、クラス<code>NumberOper</code>のノードを根にもつ式として構文木を構築する。</li>
 <li><a class="el" href="_x_c_adapt_8java.html">compile/XCAdapt.java</a>: コンパイル時にXCTypingの型推論によって割り当てられる、数値型<code>Integer</code>または、<code>Double</code>型、文字列型の<code>String</code>型のそれぞれに対して、対応する演算子型のクラスである<code>IntegerOper</code>、<code>DoubleOper</code>、<code>StringAddOper</code>のノードに置き換える処理を行う。ここに、<code>StringAddOper</code>のノードに変換する処理を新しく追加した。</li>
 </ul>
 <p>数値式と比較すると、文字列の結合式<code>S1+S2</code>が和項<code>s1+s2</code>に相当し、文字列のテンプレート式<code>"aa{{ e1 }}bbb{{ e2 }}ccc"</code>が積項<code>t1 * t2</code>に相当する。</p>
@@ -1071,7 +1073,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 6 2021 01:30:56 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun May 9 2021 03:13:03 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

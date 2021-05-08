@@ -17,7 +17,7 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     [ "AstDataReader.java", "_ast_data_reader_8java.html", [
       [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
       [ "ReaderType", "classast_1_1_ast_data_reader_1_1_reader_type.html", "classast_1_1_ast_data_reader_1_1_reader_type" ],
-      [ "AstVarReaderNew", "classast_1_1_ast_data_reader_1_1_ast_var_reader_new.html", "classast_1_1_ast_data_reader_1_1_ast_var_reader_new" ],
+      [ "AstVarReader", "classast_1_1_ast_data_reader_1_1_ast_var_reader.html", "classast_1_1_ast_data_reader_1_1_ast_var_reader" ],
       [ "ReaderBoolean", "classast_1_1_ast_data_reader_1_1_reader_boolean.html", "classast_1_1_ast_data_reader_1_1_reader_boolean" ],
       [ "ReaderInteger", "classast_1_1_ast_data_reader_1_1_reader_integer.html", "classast_1_1_ast_data_reader_1_1_reader_integer" ],
       [ "ReaderDouble", "classast_1_1_ast_data_reader_1_1_reader_double.html", "classast_1_1_ast_data_reader_1_1_reader_double" ],
@@ -125,6 +125,9 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     ] ],
     [ "BlockBase.java", "_block_base_8java.html", [
       [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ]
+    ] ],
+    [ "BlockFactory.java", "_block_factory_8java.html", [
+      [ "BlockFactory", "classast_1_1_block_factory.html", "classast_1_1_block_factory" ]
     ] ],
     [ "Path.java", "_path_8java.html", [
       [ "Path", "classast_1_1_path.html", "classast_1_1_path" ]

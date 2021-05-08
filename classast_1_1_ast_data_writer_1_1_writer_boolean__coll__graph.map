@@ -1,19 +1,18 @@
 <map id="AstDataWriter.WriterBoolean" name="AstDataWriter.WriterBoolean">
-<area shape="rect" id="node1" title="ブール型の値をもつ局所変数" alt="" coords="502,440,690,467"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="483,364,587,391"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node_unary.html" title="ただ一つの子をもつノードのクラス。" alt="" coords="381,275,489,301"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="398,199,471,225"/>
-<area shape="rect" id="node15" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="514,275,555,301"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="397,109,499,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="429,5,467,32"/>
-<area shape="rect" id="node12" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="321,109,373,136"/>
-<area shape="rect" id="node7" href="$interfaceast_1_1_node.html" title=" " alt="" coords="149,109,203,136"/>
-<area shape="rect" id="node13" href="$interfaceast_1_1_node_1_1_node_unary.html" title="子供を一つだけもつノードのインタフェース" alt="" coords="251,199,373,225"/>
+<area shape="rect" id="node1" title="ブール型の値をもつ局所変数" alt="" coords="562,440,750,467"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="543,364,647,391"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node_unary.html" title="ただ一つの子をもつノードのクラス。" alt="" coords="442,275,550,301"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="478,199,551,225"/>
+<area shape="rect" id="node15" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="574,275,615,301"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="629,109,731,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="661,5,699,32"/>
+<area shape="rect" id="node12" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="553,109,605,136"/>
+<area shape="rect" id="node7" href="$interfaceast_1_1_node.html" title=" " alt="" coords="5,109,59,136"/>
+<area shape="rect" id="node13" href="$interfaceast_1_1_node_1_1_node_unary.html" title="子供を一つだけもつノードのインタフェース" alt="" coords="331,199,453,225"/>
 <area shape="rect" id="node8" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="756,109,929,136"/>
-<area shape="rect" id="node9" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="524,109,732,136"/>
-<area shape="rect" id="node10" title=" " alt="" coords="5,109,125,136"/>
-<area shape="rect" id="node11" title=" " alt="" coords="227,109,296,136"/>
-<area shape="rect" id="node14" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="579,275,685,301"/>
-<area shape="rect" id="node16" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="495,199,582,225"/>
-<area shape="rect" id="node17" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="611,364,703,391"/>
+<area shape="rect" id="node9" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="83,109,291,136"/>
+<area shape="rect" id="node10" title=" " alt="" coords="315,109,435,136"/>
+<area shape="rect" id="node11" title=" " alt="" coords="459,109,528,136"/>
+<area shape="rect" id="node14" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="639,275,745,301"/>
+<area shape="rect" id="node16" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="671,364,763,391"/>
 </map>

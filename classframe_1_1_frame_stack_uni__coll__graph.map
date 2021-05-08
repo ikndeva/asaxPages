@@ -1,20 +1,20 @@
 <map id="FrameStackUni" name="FrameStackUni">
-<area shape="rect" id="node1" title="フレームスタックのクラス。新実装。" alt="" coords="716,316,829,342"/>
+<area shape="rect" id="node1" title="フレームスタックのクラス。新実装。" alt="" coords="716,309,829,336"/>
 <area shape="rect" id="node2" href="$interfacemachine_1_1_frame_stackable.html" title=" " alt="" coords="370,9,487,36"/>
-<area shape="rect" id="node3" href="$classmachine_1_1_global_var_table.html" title=" " alt="" coords="374,60,483,86"/>
-<area shape="rect" id="node4" title=" " alt="" coords="11,60,150,86"/>
-<area shape="rect" id="node5" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="317,110,540,137"/>
-<area shape="rect" id="node6" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="339,162,518,203"/>
-<area shape="rect" id="node7" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="321,228,537,254"/>
-<area shape="rect" id="node8" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="343,279,515,320"/>
-<area shape="rect" id="node9" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="331,345,527,372"/>
-<area shape="rect" id="node10" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="381,396,476,422"/>
-<area shape="rect" id="node11" title=" " alt="" coords="53,308,109,334"/>
-<area shape="rect" id="node12" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="9,358,153,385"/>
-<area shape="rect" id="node13" title=" " alt="" coords="47,462,114,489"/>
-<area shape="rect" id="node16" href="$classframe_1_1_level_stack.html" title="レベル付きスタックのクラス。" alt="" coords="385,624,472,650"/>
-<area shape="rect" id="node14" title=" " alt="" coords="409,569,448,596"/>
-<area shape="rect" id="node15" href="$interfaceutil_1_1_stackable.html" title="レベル付きスタックを実装するための最小限のインタフェース" alt="" coords="41,694,121,721"/>
-<area shape="rect" id="node17" title=" " alt="" coords="32,556,129,582"/>
-<area shape="rect" id="node18" title=" " alt="" coords="5,606,156,633"/>
+<area shape="rect" id="node3" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="317,60,540,86"/>
+<area shape="rect" id="node4" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="341,110,516,137"/>
+<area shape="rect" id="node5" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="339,162,518,203"/>
+<area shape="rect" id="node6" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="321,228,537,254"/>
+<area shape="rect" id="node7" href="$classutil_1_1_auto_stack.html" title=" " alt="" coords="343,279,515,320"/>
+<area shape="rect" id="node8" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="381,396,476,422"/>
+<area shape="rect" id="node9" title=" " alt="" coords="53,302,109,329"/>
+<area shape="rect" id="node13" href="$classmachine_1_1_universe.html" title=" " alt="" coords="391,345,466,372"/>
+<area shape="rect" id="node10" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="9,373,153,400"/>
+<area shape="rect" id="node11" title=" " alt="" coords="47,477,114,504"/>
+<area shape="rect" id="node16" href="$classframe_1_1_level_stack.html" title="レベル付きスタックのクラス。" alt="" coords="385,594,472,621"/>
+<area shape="rect" id="node12" title=" " alt="" coords="409,862,448,889"/>
+<area shape="rect" id="node14" href="$classmachine_1_1_name_table.html" title=" " alt="" coords="37,208,125,234"/>
+<area shape="rect" id="node15" href="$interfaceutil_1_1_stackable.html" title="レベル付きスタックを実装するための最小限のインタフェース" alt="" coords="41,696,121,722"/>
+<area shape="rect" id="node17" title=" " alt="" coords="32,569,129,596"/>
+<area shape="rect" id="node18" title=" " alt="" coords="5,620,156,646"/>
 </map>

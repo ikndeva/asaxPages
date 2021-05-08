@@ -107,6 +107,8 @@ $(document).ready(function(){initNavTree('classutil_1_1_yaml_buf.html',''); init
   <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a5274d3b19552167eff7750cfb80fee90">add</a>(String value)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#ad53cd7a10238ce08a4f6b30b3460e3fa">addAttrName</a>(String name)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a2611c1d12239be09263c7a92ef7c7776">addif</a>(String name, Object value, boolean condition)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a5b7c2018c9764851bb89cd76b4e1a7b1">addString</a>(String objStr)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a922f6e03a7777554853b58e5601e7d11">addString</a>(String name, String objStr)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>clear</b>() (defined in <a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a>)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#aa2dbf5580c67426222a69dd024b3789c">closeArray</a>()</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad">closeObj</a>()</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
@@ -119,8 +121,6 @@ $(document).ready(function(){initNavTree('classutil_1_1_yaml_buf.html',''); init
   <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#adee1b221d99dd96ce0f2d797c340d411">getToFold</a>()</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a34450246d85ea41241f46f4dde1133d1">getToQuote</a>()</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#af9b731bd7e5760374c78d4aef4140df0">includeStrIndent</a>(String S)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#ac7bbf751cbb1c71e697315495afcc788">includeStrIndentArray</a>(String objStr)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a909471b62c0b5944feb3af85e40ca9f5">includeStrIndentObj</a>(String name, String objStr)</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#abb9a0f5723e48d12790f370d16ec068a">nl</a>()</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#aa8fb4f22ed8e1e2a94d65d4dc70bdb50">nop</a>()</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html#a0cdc3f00b2d8dc03acf755b2e205bd55">openArray</a>()</td><td class="entry"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></td><td class="entry"></td></tr>
@@ -142,7 +142,7 @@ $(document).ready(function(){initNavTree('classutil_1_1_yaml_buf.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 6 2021 01:30:59 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun May 9 2021 03:13:04 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

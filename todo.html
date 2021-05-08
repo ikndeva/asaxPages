@@ -101,16 +101,18 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Member <a class="el" href="classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstMathOper.IntegerOper.gencode</a>  (<a class="el" href="classcmd_1_1_cmd_list.html" title="仮想命令のリスト．">cmd.CmdList</a> code, <a class="el" href="classcmd_1_1_cmd_list.html" title="仮想命令のリスト．">cmd.CmdList</a> precode)</dt>
 <dd><a class="anchor" id="_todo000002"></a>実装すること  </dd>
 <dt>Member <a class="el" href="classtype_1_1_basic_typing.html#a4e5cb3528205dfd40d187cd82a02ee27">BasicTyping.BasicTyping</a>  (<a class="el" href="interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース">Typable</a> that)</dt>
-<dd><a class="anchor" id="_todo000010"></a>フィールド<code>children</code>を同値関係を含めたdeep copyにすべきか？  </dd>
+<dd><a class="anchor" id="_todo000011"></a>フィールド<code>children</code>を同値関係を含めたdeep copyにすべきか？  </dd>
 <dt>Class <a class="el" href="classcmd_1_1_command_factory.html">CommandFactory</a>  </dt>
 <dd><a class="anchor" id="_todo000005"></a>コマンド関係の生成はここにカプセル化すること。  </dd>
 <dt>Class <a class="el" href="classevent_1_1_event_reader_base_1_1_var.html">EventReaderBase.Var</a>  </dt>
 <dd><a class="anchor" id="_todo000006"></a>将来は <code>enum</code> クラスへ置き換えることを検討. <br  />
   </dd>
 <dt>Class <a class="el" href="classutil_1_1_foldable_string_buf_1_1_lockable.html">FoldableStringBuf.Lockable</a>  </dt>
-<dd><a class="anchor" id="_todo000011"></a>初期化のみがロックにより排他制御される．書き込みはロックされず，誰でも書き込める．  </dd>
+<dd><a class="anchor" id="_todo000012"></a>初期化のみがロックにより排他制御される．書き込みはロックされず，誰でも書き込める．  </dd>
 <dt>Member <a class="el" href="interfaceio_1_1_input_scannable.html#ae3ad8e1616a0bbb11134afed93c9c46c">InputScannable.curPos</a>  ()</dt>
 <dd><a class="anchor" id="_todo000007"></a>今後の課題として、値のオーバーフロー時のエラーハンドリングが必要. getSubstring/2のためのバッファーサイズを超えるごとに適時、切り下げると良い。  </dd>
+<dt>Member <a class="el" href="classmachine_1_1_name_table.html#a37a86e5a03f225a4a36fcbf36fe989f4">NameTable.intern</a>  (String name)</dt>
+<dd><a class="anchor" id="_todo000010"></a>名前は，prefixで始まってはいけない制約を除去すること．  </dd>
 <dt>Member <a class="el" href="classio_1_1_pooled_input_stream.html#ae3ad8e1616a0bbb11134afed93c9c46c">PooledInputStream.curPos</a>  ()</dt>
 <dd><a class="anchor" id="_todo000008"></a>今後の課題として、値のオーバーフロー時のエラーハンドリングが必要. getSubstring/2のためのバッファーサイズを超えるごとに適時、切り下げると良い。  </dd>
 <dt>Class <a class="el" href="classio_1_1_pooled_output_stream.html">PooledOutputStream</a>  </dt>
@@ -124,7 +126,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 6 2021 01:30:56 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun May 9 2021 03:13:03 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

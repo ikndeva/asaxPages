@@ -7,11 +7,9 @@ var hierarchy =
       ] ]
     ] ],
     [ "ArgTest", "classutil_1_1_arg_test.html", null ],
-    [ "Assignable", "interfacemachine_1_1_assignable.html", [
-      [ "OSVar", "classmachine_1_1_o_s_var.html", null ],
-      [ "Var", "classmachine_1_1_var.html", null ],
-      [ "Var", "classmachine_1_1_var.html", null ],
-      [ "VarKey", "classmachine_1_1_var_key.html", null ]
+    [ "ArrayList", "class_array_list.html", null ],
+    [ "Assignable", "class_assignable.html", [
+      [ "OSVar", "classmachine_1_1_o_s_var.html", null ]
     ] ],
     [ "AstConverter.AstConv< Integer, Boolean >", "classast_1_1_ast_converter_1_1_ast_conv.html", [
       [ "AstConverter.IntegerToBoolean", "classast_1_1_ast_converter_1_1_integer_to_boolean.html", null ]
@@ -31,6 +29,7 @@ var hierarchy =
     [ "AstConverter.AstConv< T, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", [
       [ "AstConverter.TypeToSelf< T >", "classast_1_1_ast_converter_1_1_type_to_self.html", null ]
     ] ],
+    [ "AstDataWrapper< String >", "classast_1_1_ast_data_wrapper.html", null ],
     [ "AstFactory", "classast_1_1_ast_factory.html", null ],
     [ "AstNodeBase", "classast_1_1_ast_node_base.html", [
       [ "AstNode", "classast_1_1_ast_node.html", [
@@ -78,7 +77,7 @@ var hierarchy =
           [ "AstConverter", "classast_1_1_ast_converter.html", [
             [ "AstConverter.AstConv< S, T >", "classast_1_1_ast_converter_1_1_ast_conv.html", null ]
           ] ],
-          [ "AstDataReader.AstVarReaderNew", "classast_1_1_ast_data_reader_1_1_ast_var_reader_new.html", null ],
+          [ "AstDataReader.AstVarReader", "classast_1_1_ast_data_reader_1_1_ast_var_reader.html", null ],
           [ "AstDataWriter", "classast_1_1_ast_data_writer.html", [
             [ "AstDataWriter.WriterBoolean", "classast_1_1_ast_data_writer_1_1_writer_boolean.html", null ],
             [ "AstDataWriter.WriterDouble", "classast_1_1_ast_data_writer_1_1_writer_double.html", null ],
@@ -122,21 +121,20 @@ var hierarchy =
         [ "SentList", "classast_1_1_sent_list.html", [
           [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ]
         ] ],
-        [ "Var", "classmachine_1_1_var.html", null ],
-        [ "Var", "classmachine_1_1_var.html", null ],
-        [ "VarKey", "classmachine_1_1_var_key.html", null ]
+        [ "Var", "classmachine_1_1_var.html", null ]
       ] ]
     ] ],
     [ "AstNodeFactory", "classparse_1_1_ast_node_factory.html", null ],
     [ "AstSource", "classast_1_1_ast_source.html", null ],
     [ "AutoStack< frame.BooleanHolder >", "classutil_1_1_auto_stack.html", null ],
     [ "AutoStack< frame.DoubleHolder >", "classutil_1_1_auto_stack.html", null ],
+    [ "AutoStack< frame.Entry >", "classutil_1_1_auto_stack.html", null ],
     [ "AutoStack< frame.IntegerHolder >", "classutil_1_1_auto_stack.html", null ],
-    [ "AutoStack< frame.MemCell >", "classutil_1_1_auto_stack.html", null ],
     [ "AutoStack< frame.StringHolder >", "classutil_1_1_auto_stack.html", null ],
     [ "CmdList.BackPatcher", "classcmd_1_1_cmd_list_1_1_back_patcher.html", null ],
     [ "BitsBuf", "classutil_1_1_bits_buf.html", null ],
     [ "BitsBufLong", "classutil_1_1_bits_buf_long.html", null ],
+    [ "BlockFactory", "classast_1_1_block_factory.html", null ],
     [ "BufferedTextWriter", "class_buffered_text_writer.html", null ],
     [ "Bufs", "classutil_1_1_bufs.html", null ],
     [ "CharSet", "classio_1_1_char_set.html", null ],
@@ -267,6 +265,7 @@ var hierarchy =
     [ "Dispatchable", "interfacemachine_1_1_dispatchable.html", [
       [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", null ]
     ] ],
+    [ "Entry", "classframe_1_1_entry.html", null ],
     [ "Env", "classevent_1_1_env.html", null ],
     [ "EventManager", "classevent_1_1_event_manager.html", null ],
     [ "Event.EventType", "enumevent_1_1_event_1_1_event_type.html", null ],
@@ -321,7 +320,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "Resettable.Generator< S >", "interfaceutil_1_1_resettable_1_1_generator.html", null ],
-    [ "GlobalVarTable", "classmachine_1_1_global_var_table.html", null ],
     [ "IncCounter", "classutil_1_1_inc_counter.html", null ],
     [ "InputScannable", "interfaceio_1_1_input_scannable.html", [
       [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", null ]
@@ -339,16 +337,20 @@ var hierarchy =
       ] ],
       [ "StackBase< T >", "classutil_1_1_stack_base.html", null ]
     ] ],
+    [ "Iterator", "class_iterator.html", [
+      [ "AsaxEventReader.AsaxEventIterator", "classevent_1_1asax_1_1_asax_event_reader_1_1_asax_event_iterator.html", null ],
+      [ "XppEventReader.XppEventIterator", "classevent_1_1xpp_1_1_xpp_event_reader_1_1_xpp_event_iterator.html", null ]
+    ] ],
     [ "TraceLevel.Level", "enumutil_1_1_trace_level_1_1_level.html", null ],
     [ "Lock", "classutil_1_1_lock.html", null ],
     [ "LongMask", "classmachine_1_1_long_mask.html", null ],
     [ "LowerJoinable", "interfacetype_1_1_lower_joinable.html", null ],
     [ "MaskMap< K extends Comparable", "classmachine_1_1_mask_map_3_01_k_01extends_01_comparable.html", null ],
-    [ "MemCell", "classframe_1_1_mem_cell.html", null ],
     [ "YamlBuf.Mode", "enumutil_1_1_yaml_buf_1_1_mode.html", null ],
     [ "MultiBytesQueryTest", "classutil_1_1_multi_bytes_query_test.html", null ],
     [ "MultiHashMap< T >", "classmachine_1_1_multi_hash_map.html", null ],
     [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", null ],
+    [ "NameTable", "classmachine_1_1_name_table.html", null ],
     [ "NFBufs", "classformat_1_1_n_f_bufs.html", null ],
     [ "NodeFormattable", "interfaceformat_1_1_node_formattable.html", [
       [ "NodeFormatterBase", "classformat_1_1_node_formatter_base.html", [
@@ -359,10 +361,8 @@ var hierarchy =
     [ "Panic", "classutil_1_1_panic.html", null ],
     [ "Par", "classpretty_1_1_par.html", null ],
     [ "Parsable", "interfaceparse_1_1_parsable.html", [
+      [ "AstParser", "classparse_1_1_ast_parser.html", null ],
       [ "AstParser", "classparse_1_1_ast_parser.html", null ]
-    ] ],
-    [ "Parser", "class_parser.html", [
-      [ "queryParser", "classparse_1_1query_parser.html", null ]
     ] ],
     [ "ParseTable", "classparse_1_1_parse_table.html", null ],
     [ "ParStream", "classpretty_1_1_par_stream.html", null ],
@@ -382,14 +382,6 @@ var hierarchy =
     ] ],
     [ "Resettable", "interfaceutil_1_1_resettable.html", null ],
     [ "Resettable.Resetter< S >", "interfaceutil_1_1_resettable_1_1_resetter.html", null ],
-    [ "Rule", "interfacemachine_1_1_rule.html", [
-      [ "BlockBase", "classast_1_1_block_base.html", null ],
-      [ "Blockable", "interfacemachine_1_1_blockable.html", null ],
-      [ "Steppable", "interfacemachine_1_1_steppable.html", [
-        [ "Step", "classast_1_1_step.html", null ],
-        [ "StepRule", "classast_1_1_step_rule.html", null ]
-      ] ]
-    ] ],
     [ "Runnable", "interfacemachine_1_1_runnable.html", [
       [ "Program", "classast_1_1_program.html", null ]
     ] ],
@@ -442,8 +434,16 @@ var hierarchy =
     ] ],
     [ "UnionFindItem< T >", "classtype_1_1_union_find_item.html", null ],
     [ "UnionFindItem< type.XType >", "classtype_1_1_union_find_item.html", null ],
+    [ "Universe", "classmachine_1_1_universe.html", null ],
     [ "Util", "classutil_1_1_util.html", null ],
     [ "EventReaderBase.Var", "classevent_1_1_event_reader_base_1_1_var.html", null ],
+    [ "VarHoldable", "interfacemachine_1_1_var_holdable.html", [
+      [ "BlockBase", "classast_1_1_block_base.html", null ],
+      [ "Callable", "interfacemachine_1_1_callable.html", [
+        [ "Step", "classast_1_1_step.html", null ],
+        [ "StepRule", "classast_1_1_step_rule.html", null ]
+      ] ]
+    ] ],
     [ "XCompiler", "classcompile_1_1_x_compiler.html", [
       [ "XCAdapt", "classcompile_1_1_x_c_adapt.html", null ],
       [ "XCFlat", "classcompile_1_1_x_c_flat.html", null ],
@@ -479,105 +479,7 @@ var hierarchy =
     [ "CharSet", null, [
       [ "EventReaderBase.UTFCharSet", "classevent_1_1_event_reader_base_1_1_u_t_f_char_set.html", null ]
     ] ],
-    [ "Iterator", null, [
-      [ "AsaxEventReader.AsaxEventIterator", "classevent_1_1asax_1_1_asax_event_reader_1_1_asax_event_iterator.html", null ],
-      [ "XppEventReader.XppEventIterator", "classevent_1_1xpp_1_1_xpp_event_reader_1_1_xpp_event_iterator.html", null ]
-    ] ],
-    [ "Lexer", null, [
-      [ "queryLexer", "classparse_1_1query_lexer.html", null ]
-    ] ],
-    [ "ParserRuleContext", null, [
-      [ "queryParser.AndExprContext", "classparse_1_1query_parser_1_1_and_expr_context.html", null ],
-      [ "queryParser.ArgContext", "classparse_1_1query_parser_1_1_arg_context.html", null ],
-      [ "queryParser.ArithAddTermMinusContext", "classparse_1_1query_parser_1_1_arith_add_term_minus_context.html", null ],
-      [ "queryParser.ArithAddTermPlusContext", "classparse_1_1query_parser_1_1_arith_add_term_plus_context.html", null ],
-      [ "queryParser.ArithExprContext", "classparse_1_1query_parser_1_1_arith_expr_context.html", null ],
-      [ "queryParser.ArithMulTermContext", "classparse_1_1query_parser_1_1_arith_mul_term_context.html", null ],
-      [ "queryParser.ArithOrStrMulTermContext", "classparse_1_1query_parser_1_1_arith_or_str_mul_term_context.html", null ],
-      [ "queryParser.ArithRelContext", "classparse_1_1query_parser_1_1_arith_rel_context.html", [
-        [ "queryParser.ArithRelCompContext", "classparse_1_1query_parser_1_1_arith_rel_comp_context.html", null ]
-      ] ],
-      [ "queryParser.ArithTermContext", "classparse_1_1query_parser_1_1_arith_term_context.html", null ],
-      [ "queryParser.Assign_statContext", "classparse_1_1query_parser_1_1_assign__stat_context.html", null ],
-      [ "queryParser.Axis_chldContext", "classparse_1_1query_parser_1_1_axis__chld_context.html", null ],
-      [ "queryParser.Axis_descContext", "classparse_1_1query_parser_1_1_axis__desc_context.html", null ],
-      [ "queryParser.BlockArgListContext", "classparse_1_1query_parser_1_1_block_arg_list_context.html", null ],
-      [ "queryParser.Block_bodyContext", "classparse_1_1query_parser_1_1_block__body_context.html", null ],
-      [ "queryParser.Block_endContext", "classparse_1_1query_parser_1_1_block__end_context.html", null ],
-      [ "queryParser.BoolConstExpContext", "classparse_1_1query_parser_1_1_bool_const_exp_context.html", null ],
-      [ "queryParser.BoolExprContext", "classparse_1_1query_parser_1_1_bool_expr_context.html", null ],
-      [ "queryParser.BoolTermContext", "classparse_1_1query_parser_1_1_bool_term_context.html", null ],
-      [ "queryParser.BreakoperContext", "classparse_1_1query_parser_1_1_breakoper_context.html", null ],
-      [ "queryParser.DeclContext", "classparse_1_1query_parser_1_1_decl_context.html", null ],
-      [ "queryParser.DqMatchExprContext", "classparse_1_1query_parser_1_1_dq_match_expr_context.html", null ],
-      [ "queryParser.ElemoperContext", "classparse_1_1query_parser_1_1_elemoper_context.html", null ],
-      [ "queryParser.ExprContext", "classparse_1_1query_parser_1_1_expr_context.html", null ],
-      [ "queryParser.FileOpenContext", "classparse_1_1query_parser_1_1_file_open_context.html", null ],
-      [ "queryParser.FuncArgListContext", "classparse_1_1query_parser_1_1_func_arg_list_context.html", null ],
-      [ "queryParser.FuncCallContext", "classparse_1_1query_parser_1_1_func_call_context.html", null ],
-      [ "queryParser.FunctionDeclContext", "classparse_1_1query_parser_1_1_function_decl_context.html", null ],
-      [ "queryParser.If_condContext", "classparse_1_1query_parser_1_1_if__cond_context.html", null ],
-      [ "queryParser.If_continueContext", "classparse_1_1query_parser_1_1_if__continue_context.html", null ],
-      [ "queryParser.If_thenContext", "classparse_1_1query_parser_1_1_if__then_context.html", null ],
-      [ "queryParser.If_then_else_statContext", "classparse_1_1query_parser_1_1_if__then__else__stat_context.html", null ],
-      [ "queryParser.MulbopContext", "classparse_1_1query_parser_1_1_mulbop_context.html", null ],
-      [ "queryParser.NotExprContext", "classparse_1_1query_parser_1_1_not_expr_context.html", null ],
-      [ "queryParser.NotExprOneContext", "classparse_1_1query_parser_1_1_not_expr_one_context.html", null ],
-      [ "queryParser.NumberContext", "classparse_1_1query_parser_1_1_number_context.html", [
-        [ "queryParser.FloatNumberContext", "classparse_1_1query_parser_1_1_float_number_context.html", null ],
-        [ "queryParser.IntNumberContext", "classparse_1_1query_parser_1_1_int_number_context.html", null ]
-      ] ],
-      [ "queryParser.OrExprContext", "classparse_1_1query_parser_1_1_or_expr_context.html", null ],
-      [ "queryParser.PathContext", "classparse_1_1query_parser_1_1_path_context.html", null ],
-      [ "queryParser.PathExprContext", "classparse_1_1query_parser_1_1_path_expr_context.html", null ],
-      [ "queryParser.QueryContext", "classparse_1_1query_parser_1_1_query_context.html", null ],
-      [ "queryParser.ReMatchExprContext", "classparse_1_1query_parser_1_1_re_match_expr_context.html", null ],
-      [ "queryParser.RetBlockContext", "classparse_1_1query_parser_1_1_ret_block_context.html", null ],
-      [ "queryParser.Return_statContext", "classparse_1_1query_parser_1_1_return__stat_context.html", null ],
-      [ "queryParser.ScanContext", "classparse_1_1query_parser_1_1_scan_context.html", null ],
-      [ "queryParser.SourceContext", "classparse_1_1query_parser_1_1_source_context.html", null ],
-      [ "queryParser.StatementContext", "classparse_1_1query_parser_1_1_statement_context.html", null ],
-      [ "queryParser.Statement_or_declContext", "classparse_1_1query_parser_1_1_statement__or__decl_context.html", null ],
-      [ "queryParser.Statement_or_decl_or_scanContext", "classparse_1_1query_parser_1_1_statement__or__decl__or__scan_context.html", null ],
-      [ "queryParser.Statement_or_exprContext", "classparse_1_1query_parser_1_1_statement__or__expr_context.html", null ],
-      [ "queryParser.StdinContext", "classparse_1_1query_parser_1_1_stdin_context.html", null ],
-      [ "queryParser.StepContext", "classparse_1_1query_parser_1_1_step_context.html", null ],
-      [ "queryParser.StrExprContext", "classparse_1_1query_parser_1_1_str_expr_context.html", null ],
-      [ "queryParser.StrMulExprContext", "classparse_1_1query_parser_1_1_str_mul_expr_context.html", null ],
-      [ "queryParser.StrTermContext", "classparse_1_1query_parser_1_1_str_term_context.html", null ],
-      [ "queryParser.StringRelContext", "classparse_1_1query_parser_1_1_string_rel_context.html", [
-        [ "queryParser.StrRelRegexContext", "classparse_1_1query_parser_1_1_str_rel_regex_context.html", null ],
-        [ "queryParser.StrRelStrExprContext", "classparse_1_1query_parser_1_1_str_rel_str_expr_context.html", null ]
-      ] ],
-      [ "queryParser.StringTermDQContext", "classparse_1_1query_parser_1_1_string_term_d_q_context.html", null ],
-      [ "queryParser.StringTermSLContext", "classparse_1_1query_parser_1_1_string_term_s_l_context.html", null ],
-      [ "queryParser.SysVarUseContext", "classparse_1_1query_parser_1_1_sys_var_use_context.html", null ],
-      [ "queryParser.TagExprContext", "classparse_1_1query_parser_1_1_tag_expr_context.html", null ],
-      [ "queryParser.TagExprMidContext", "classparse_1_1query_parser_1_1_tag_expr_mid_context.html", [
-        [ "queryParser.ChildTagExprMidContext", "classparse_1_1query_parser_1_1_child_tag_expr_mid_context.html", null ],
-        [ "queryParser.DescTagExprMidContext", "classparse_1_1query_parser_1_1_desc_tag_expr_mid_context.html", null ]
-      ] ],
-      [ "queryParser.TagExprTopContext", "classparse_1_1query_parser_1_1_tag_expr_top_context.html", [
-        [ "queryParser.ChildTagExprTopContext", "classparse_1_1query_parser_1_1_child_tag_expr_top_context.html", null ],
-        [ "queryParser.DescTagExprTopContext", "classparse_1_1query_parser_1_1_desc_tag_expr_top_context.html", null ]
-      ] ],
-      [ "queryParser.TagNameContext", "classparse_1_1query_parser_1_1_tag_name_context.html", null ],
-      [ "queryParser.TemplateTermContext", "classparse_1_1query_parser_1_1_template_term_context.html", null ],
-      [ "queryParser.TemplateTermDQContext", "classparse_1_1query_parser_1_1_template_term_d_q_context.html", null ],
-      [ "queryParser.TemplateTermSLContext", "classparse_1_1query_parser_1_1_template_term_s_l_context.html", null ],
-      [ "queryParser.TextoperContext", "classparse_1_1query_parser_1_1_textoper_context.html", null ],
-      [ "queryParser.Top_statsContext", "classparse_1_1query_parser_1_1_top__stats_context.html", null ],
-      [ "queryParser.VarDeclsContext", "classparse_1_1query_parser_1_1_var_decls_context.html", null ],
-      [ "queryParser.VarUseContext", "classparse_1_1query_parser_1_1_var_use_context.html", null ],
-      [ "queryParser.VariableDeclContext", "classparse_1_1query_parser_1_1_variable_decl_context.html", null ],
-      [ "queryParser.WhereBlockContext", "classparse_1_1query_parser_1_1_where_block_context.html", null ]
-    ] ],
     [ "ParseTree", "class_parse_tree.html", null ],
-    [ "ParseTreeListener", null, [
-      [ "queryListener", "interfaceparse_1_1query_listener.html", [
-        [ "queryBaseListener", "classparse_1_1query_base_listener.html", null ]
-      ] ]
-    ] ],
     [ "Stackable", null, [
       [ "LevelStack", "classframe_1_1_level_stack.html", null ]
     ] ]

@@ -120,33 +120,31 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="inter
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a9a8412e62e70cb093fb49657471df607">allocFrame</a> (int fpLast, int funcid)</td></tr>
 <tr class="memdesc:a9a8412e62e70cb093fb49657471df607"><td class="mdescLeft">&#160;</td><td class="mdescRight">スタックのトップにフレームを追加し、そのフレームポインタfpを返す。 <br /></td></tr>
 <tr class="separator:a9a8412e62e70cb093fb49657471df607"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaef042eff18d7e4f326ff700b823b9e7"><td class="memItemLeft" align="right" valign="top"><a id="aaef042eff18d7e4f326ff700b823b9e7"></a>
-<a class="el" href="classframe_1_1_mem_cell.html">frame.MemCell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#aaef042eff18d7e4f326ff700b823b9e7">allocVariableMemCell</a> (int fp, int vid, <a class="el" href="enumtype_1_1_x_type.html">XType</a> typ)</td></tr>
-<tr class="memdesc:aaef042eff18d7e4f326ff700b823b9e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">フレームfpに、指定された内容と対応する値型の初期値をもつ新しいメモリセルを追加する。 <br /></td></tr>
-<tr class="separator:aaef042eff18d7e4f326ff700b823b9e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a7bf3f027afe691b14515dae111ff03"><td class="memItemLeft" align="right" valign="top"><a id="a2a7bf3f027afe691b14515dae111ff03"></a>
-<a class="el" href="classframe_1_1_mem_cell.html">frame.MemCell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a2a7bf3f027afe691b14515dae111ff03">fetchMemCell</a> (int fid, int vid)</td></tr>
-<tr class="memdesc:a2a7bf3f027afe691b14515dae111ff03"><td class="mdescLeft">&#160;</td><td class="mdescRight">フレーム<code>fid</code>を起点として、変数<code>vid</code>のメモリセルを返す。 <br /></td></tr>
-<tr class="separator:a2a7bf3f027afe691b14515dae111ff03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd6ff1fbc4fcef480f09670c223495b2"><td class="memItemLeft" align="right" valign="top"><a id="abd6ff1fbc4fcef480f09670c223495b2"></a>
-<a class="el" href="classframe_1_1_boolean_holder.html">BooleanHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#abd6ff1fbc4fcef480f09670c223495b2">fetchBooleanHolder</a> (int fid, int vid)</td></tr>
-<tr class="memdesc:abd6ff1fbc4fcef480f09670c223495b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>BooleanHolder</code>型のコンテナを取得する. <br /></td></tr>
-<tr class="separator:abd6ff1fbc4fcef480f09670c223495b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab55373c657c02becbcc3dfb503c25015"><td class="memItemLeft" align="right" valign="top"><a id="ab55373c657c02becbcc3dfb503c25015"></a>
-<a class="el" href="classframe_1_1_integer_holder.html">IntegerHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#ab55373c657c02becbcc3dfb503c25015">fetchIntegerHolder</a> (int fid, int vid)</td></tr>
-<tr class="memdesc:ab55373c657c02becbcc3dfb503c25015"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>IntegerHolder</code>型のコンテナを取得する. <br /></td></tr>
-<tr class="separator:ab55373c657c02becbcc3dfb503c25015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a035ec2d5a2b8cee9e6885c998c481c"><td class="memItemLeft" align="right" valign="top"><a id="a2a035ec2d5a2b8cee9e6885c998c481c"></a>
-<a class="el" href="classframe_1_1_double_holder.html">DoubleHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a2a035ec2d5a2b8cee9e6885c998c481c">fetchDoubleHolder</a> (int fid, int vid)</td></tr>
-<tr class="memdesc:a2a035ec2d5a2b8cee9e6885c998c481c"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>DoubleHolder</code>型のコンテナを取得する. <br /></td></tr>
-<tr class="separator:a2a035ec2d5a2b8cee9e6885c998c481c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e3e06d271ca539e24ca1e0ce5bf908a"><td class="memItemLeft" align="right" valign="top"><a id="a3e3e06d271ca539e24ca1e0ce5bf908a"></a>
-<a class="el" href="classframe_1_1_string_holder.html">StringHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a3e3e06d271ca539e24ca1e0ce5bf908a">fetchStringHolder</a> (int fid, int vid)</td></tr>
-<tr class="memdesc:a3e3e06d271ca539e24ca1e0ce5bf908a"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>StringHolder</code>型のコンテナを取得する. <br /></td></tr>
-<tr class="separator:a3e3e06d271ca539e24ca1e0ce5bf908a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa42a02b9d245a8dd4e8d0e4b4639daa8"><td class="memItemLeft" align="right" valign="top"><a id="aa42a02b9d245a8dd4e8d0e4b4639daa8"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setGlobalVarTable</b> (<a class="el" href="classmachine_1_1_global_var_table.html">GlobalVarTable</a> vidManager)</td></tr>
-<tr class="separator:aa42a02b9d245a8dd4e8d0e4b4639daa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa5606ad3baa7526b404ad5609a65d7f"><td class="memItemLeft" align="right" valign="top"><a id="aaa5606ad3baa7526b404ad5609a65d7f"></a>
+<a class="el" href="classframe_1_1_entry.html">Entry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#aaa5606ad3baa7526b404ad5609a65d7f">allocVariableEntry</a> (int fp, <a class="el" href="classmachine_1_1_var.html">Var</a> var)</td></tr>
+<tr class="memdesc:aaa5606ad3baa7526b404ad5609a65d7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">フレームfpに、指定された内容と対応する値型の初期値をもつ新しいメモリセルを追加する。 <br /></td></tr>
+<tr class="separator:aaa5606ad3baa7526b404ad5609a65d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05cc81c7b4ccfda2a536f0c9b7af4e8b"><td class="memItemLeft" align="right" valign="top"><a id="a05cc81c7b4ccfda2a536f0c9b7af4e8b"></a>
+<a class="el" href="classframe_1_1_entry.html">Entry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a05cc81c7b4ccfda2a536f0c9b7af4e8b">fetchEntry</a> (int fp, <a class="el" href="classmachine_1_1_var.html">Var</a> var)</td></tr>
+<tr class="memdesc:a05cc81c7b4ccfda2a536f0c9b7af4e8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">フレーム<code>fp</code>から、変数のメモリセルを返す。 <br  />
+ <br /></td></tr>
+<tr class="separator:a05cc81c7b4ccfda2a536f0c9b7af4e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad115983756ebf37cb4541323bb500f58"><td class="memItemLeft" align="right" valign="top"><a id="ad115983756ebf37cb4541323bb500f58"></a>
+<a class="el" href="classframe_1_1_boolean_holder.html">BooleanHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#ad115983756ebf37cb4541323bb500f58">fetchBooleanHolder</a> (int fp, <a class="el" href="classmachine_1_1_var.html">Var</a> var)</td></tr>
+<tr class="memdesc:ad115983756ebf37cb4541323bb500f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>BooleanHolder</code>型のコンテナを取得する. <br /></td></tr>
+<tr class="separator:ad115983756ebf37cb4541323bb500f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d179bee2c2a63bd7f49f8f2494f9c97"><td class="memItemLeft" align="right" valign="top"><a id="a0d179bee2c2a63bd7f49f8f2494f9c97"></a>
+<a class="el" href="classframe_1_1_integer_holder.html">IntegerHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a0d179bee2c2a63bd7f49f8f2494f9c97">fetchIntegerHolder</a> (int fp, <a class="el" href="classmachine_1_1_var.html">Var</a> var)</td></tr>
+<tr class="memdesc:a0d179bee2c2a63bd7f49f8f2494f9c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>IntegerHolder</code>型のコンテナを取得する. <br /></td></tr>
+<tr class="separator:a0d179bee2c2a63bd7f49f8f2494f9c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044e14a4aace8751c934473c9f3f3c0b"><td class="memItemLeft" align="right" valign="top"><a id="a044e14a4aace8751c934473c9f3f3c0b"></a>
+<a class="el" href="classframe_1_1_double_holder.html">DoubleHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a044e14a4aace8751c934473c9f3f3c0b">fetchDoubleHolder</a> (int fp, <a class="el" href="classmachine_1_1_var.html">Var</a> var)</td></tr>
+<tr class="memdesc:a044e14a4aace8751c934473c9f3f3c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>DoubleHolder</code>型のコンテナを取得する. <br /></td></tr>
+<tr class="separator:a044e14a4aace8751c934473c9f3f3c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23824a7fbc3f712377edcf8c3ab252c1"><td class="memItemLeft" align="right" valign="top"><a id="a23824a7fbc3f712377edcf8c3ab252c1"></a>
+<a class="el" href="classframe_1_1_string_holder.html">StringHolder</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a23824a7fbc3f712377edcf8c3ab252c1">fetchStringHolder</a> (int fp, <a class="el" href="classmachine_1_1_var.html">Var</a> var)</td></tr>
+<tr class="memdesc:a23824a7fbc3f712377edcf8c3ab252c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">参照が指す<code>StringHolder</code>型のコンテナを取得する. <br /></td></tr>
+<tr class="separator:a23824a7fbc3f712377edcf8c3ab252c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2642133c8586f59378e1bc16c614af68"><td class="memItemLeft" align="right" valign="top"><a id="a2642133c8586f59378e1bc16c614af68"></a>
 String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemachine_1_1_frame_stackable.html#a2642133c8586f59378e1bc16c614af68">frameToString</a> (int fp)</td></tr>
 <tr class="memdesc:a2642133c8586f59378e1bc16c614af68"><td class="mdescLeft">&#160;</td><td class="mdescRight">フレームポインタfpからフレームの文字列表現を返す <br /></td></tr>
@@ -165,7 +163,7 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="in
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemachine.html">machine</a></li><li class="navelem"><a class="el" href="interfacemachine_1_1_frame_stackable.html">FrameStackable</a></li>
-    <li class="footer">Generated on Thu May 6 2021 01:30:58 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun May 9 2021 03:13:04 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

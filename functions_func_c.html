@@ -124,6 +124,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 : <a class="el" href="classtype_1_1_basic_typing.html#ac773e3c20a29c208fea84c33d8b35cd2">BasicTyping</a>
 , <a class="el" href="classtype_1_1_child_hom_typing.html#ac773e3c20a29c208fea84c33d8b35cd2">ChildHomTyping</a>
 </li>
+<li>childHom()
+: <a class="el" href="classtype_1_1_child_hom_typing.html#a3feda0aa727b222e0627dd41646ff824">ChildHomTyping</a>
+</li>
 <li>classId()
 : <a class="el" href="classtype_1_1_x_type_item.html#a7656efed3690400c36d2290d07d69f4a">XTypeItem</a>
 </li>
@@ -136,9 +139,9 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 , <a class="el" href="classformat_1_1_node_formatter_base.html#ac8bb3912a3ce86b15842e79d0b421204">NodeFormatterBase</a>
 , <a class="el" href="classframe_1_1_boolean_holder.html#a9eb8aff48f2b0942d40ec298f30bf01d">BooleanHolder</a>
 , <a class="el" href="classframe_1_1_double_holder.html#a5bd924ddf68f40b6341ffe73da2008dd">DoubleHolder</a>
+, <a class="el" href="classframe_1_1_entry.html#acc74593493b6684403a74e75409e9ea4">Entry</a>
 , <a class="el" href="classframe_1_1_integer_holder.html#ae124250848ce7256e04b4977df9e3e6f">IntegerHolder</a>
 , <a class="el" href="classframe_1_1_level_stack.html#ac8bb3912a3ce86b15842e79d0b421204">LevelStack</a>
-, <a class="el" href="classframe_1_1_mem_cell.html#aaa8cba11f1292e7b945d69918614f13b">MemCell</a>
 , <a class="el" href="classframe_1_1_o_stream_holder.html#a8ec297f21fbc0c92dd0c340fb2eb2341">OStreamHolder</a>
 , <a class="el" href="classframe_1_1_string_holder.html#a392d8a8f0531b475c29f5a52d780f2b2">StringHolder</a>
 , <a class="el" href="classmachine_1_1_multi_hash_map.html#ac8bb3912a3ce86b15842e79d0b421204">MultiHashMap&lt; T &gt;</a>
@@ -194,28 +197,32 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 <li>copy()
 : <a class="el" href="classmachine_1_1_o_s_var.html#a39daf8890fc92a5885a1b2bcce174e18">OSVar</a>
 , <a class="el" href="classmachine_1_1_var.html#af9fc66b2b74062851c8f850f58d76333">Var</a>
-, <a class="el" href="classmachine_1_1_var_key.html#ad2c80cb54bbb72a6f74158fd2487997a">VarKey</a>
 </li>
 <li>create()
 : <a class="el" href="classcmd_1_1_cmd_list.html#a2c5eca2de28705c059673838fd71c8c5">CmdList</a>
-, <a class="el" href="classframe_1_1_frame_stack_uni.html#ac267d53cce93cb73a44fce46d41cec11">FrameStackUni</a>
+, <a class="el" href="classframe_1_1_frame_stack_uni.html#a59565b22ea927a74c856855e77969f89">FrameStackUni</a>
 , <a class="el" href="classmachine_1_1_var.html#a67842af23e4d88285781901c867f3388">Var</a>
-, <a class="el" href="classmachine_1_1_var_key.html#ad85fba563a7e38f9420fc68bffd54b31">VarKey</a>
+</li>
+<li>createBlock()
+: <a class="el" href="classast_1_1_block_factory.html#ab26a0c639b5e42dcc080067c540a502a">BlockFactory</a>
+</li>
+<li>createBlockBase()
+: <a class="el" href="classast_1_1_block_factory.html#aee47a0977e45b208bdcc7153c284c563">BlockFactory</a>
 </li>
 <li>createCmdLoad()
-: <a class="el" href="classcmd_1_1_command_factory.html#a3d1082cef09fa9ce2ee28dd0c3d960ae">CommandFactory</a>
+: <a class="el" href="classcmd_1_1_command_factory.html#a86f892ccd0ac694da35dd13dd56f8cbd">CommandFactory</a>
 </li>
 <li>createCmdStore()
-: <a class="el" href="classcmd_1_1_command_factory.html#af8a3a25317337141c442b60cc2d00fad">CommandFactory</a>
+: <a class="el" href="classcmd_1_1_command_factory.html#af7c39735d3fc1647c72061c97e8debfd">CommandFactory</a>
 </li>
 <li>createDataConverterByType()
 : <a class="el" href="classast_1_1_ast_factory.html#a466a8c748e1ffdbe0d6ed968c0469a35">AstFactory</a>
 </li>
-<li>createDataReaderByType()
-: <a class="el" href="classast_1_1_ast_factory.html#aa59963a09a2a7427c98328cc392a940b">AstFactory</a>
-</li>
 <li>createDataWriterByType()
 : <a class="el" href="classast_1_1_ast_factory.html#a2a64c763b9cf08a49cb5be773172b121">AstFactory</a>
+</li>
+<li>createFunction()
+: <a class="el" href="classmachine_1_1_universe.html#a7f77e7198833215928d407dcd6922744">Universe</a>
 </li>
 <li>createMask()
 : <a class="el" href="classpretty_1_1_char_set.html#a2b610fce0b46645e854843a3bc0ca987">CharSet</a>
@@ -226,11 +233,23 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 <li>createQueryStream()
 : <a class="el" href="classapp_1_1_stream_builder.html#af85935c9178b6786f89067809f55f4aa">StreamBuilder</a>
 </li>
-<li>createRootStep()
-: <a class="el" href="classast_1_1_step_rule.html#a881801e0c85bb547e57683a904ef92a9">StepRule</a>
+<li>createRootVarTable()
+: <a class="el" href="classmachine_1_1_var_table.html#a78593fb4997ed5b4fcd78df9f62e72e7">VarTable</a>
 </li>
-<li>createVar()
-: <a class="el" href="classmachine_1_1_global_var_table.html#a46a8052683e76620e7d4c1d0191083a3">GlobalVarTable</a>
+<li>createStep()
+: <a class="el" href="classast_1_1_block_factory.html#aaf3da4020b20f2aab92eaa12f654a61e">BlockFactory</a>
+</li>
+<li>createStepRule()
+: <a class="el" href="classast_1_1_block_factory.html#ab66cb5ba793f0176d5489d020f76d30c">BlockFactory</a>
+</li>
+<li>createSymbolTableID()
+: <a class="el" href="classmachine_1_1_universe.html#af1144d17fd429a30a7fd884271ccfb66">Universe</a>
+</li>
+<li>createVariable()
+: <a class="el" href="classmachine_1_1_universe.html#ab247c11adad5acbb912057bdf84e1a98">Universe</a>
+</li>
+<li>createVarTable()
+: <a class="el" href="classmachine_1_1_var_table.html#aee3bc6da72e407440bd20db0fbaa6ba2">VarTable</a>
 </li>
 <li>curFP()
 : <a class="el" href="classmachine_1_1_o_v_machine.html#a137c72605c505ede9bc468d521c2454f">OVMachine</a>
@@ -253,7 +272,7 @@ $(document).ready(function(){initNavTree('functions_func_c.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu May 6 2021 01:30:59 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun May 9 2021 03:13:05 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

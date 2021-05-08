@@ -1,13 +1,10 @@
 var dir_0909f4a7c39d3e9616c1c9d755842fcb =
 [
-    [ "Assignable.java", "_assignable_8java.html", [
-      [ "Assignable", "interfacemachine_1_1_assignable.html", "interfacemachine_1_1_assignable" ]
-    ] ],
-    [ "Blockable.java", "_blockable_8java.html", [
-      [ "Blockable", "interfacemachine_1_1_blockable.html", "interfacemachine_1_1_blockable" ]
-    ] ],
     [ "Call.java", "_call_8java.html", [
       [ "Call", "classmachine_1_1_call.html", "classmachine_1_1_call" ]
+    ] ],
+    [ "Callable.java", "_callable_8java.html", [
+      [ "Callable", "interfacemachine_1_1_callable.html", "interfacemachine_1_1_callable" ]
     ] ],
     [ "CallList.java", "_call_list_8java.html", [
       [ "CallList", "classmachine_1_1_call_list.html", "classmachine_1_1_call_list" ]
@@ -29,9 +26,6 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "FrameStackable.java", "_frame_stackable_8java.html", [
       [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ]
     ] ],
-    [ "GlobalVarTable.java", "_global_var_table_8java.html", [
-      [ "GlobalVarTable", "classmachine_1_1_global_var_table.html", "classmachine_1_1_global_var_table" ]
-    ] ],
     [ "IdMask.java", "_id_mask_8java.html", [
       [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ]
     ] ],
@@ -48,12 +42,6 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "OVMachine.java", "_o_v_machine_8java.html", [
       [ "OVMachine", "classmachine_1_1_o_v_machine.html", "classmachine_1_1_o_v_machine" ]
     ] ],
-    [ "Rule.java", "_rule_8java.html", [
-      [ "Rule", "interfacemachine_1_1_rule.html", "interfacemachine_1_1_rule" ]
-    ] ],
-    [ "Steppable.java", "_steppable_8java.html", [
-      [ "Steppable", "interfacemachine_1_1_steppable.html", "interfacemachine_1_1_steppable" ]
-    ] ],
     [ "SystemReadable.java", "_system_readable_8java.html", [
       [ "SystemReadable", "interfacemachine_1_1_system_readable.html", "interfacemachine_1_1_system_readable" ]
     ] ],
@@ -63,8 +51,14 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "TagMaskMap.java", "_tag_mask_map_8java.html", [
       [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", "classmachine_1_1_tag_mask_map" ]
     ] ],
+    [ "Universe.java", "_universe_8java.html", [
+      [ "Universe", "classmachine_1_1_universe.html", "classmachine_1_1_universe" ]
+    ] ],
     [ "Var.java", "_var_8java.html", [
       [ "Var", "classmachine_1_1_var.html", "classmachine_1_1_var" ]
+    ] ],
+    [ "VarHoldable.java", "_var_holdable_8java.html", [
+      [ "VarHoldable", "interfacemachine_1_1_var_holdable.html", "interfacemachine_1_1_var_holdable" ]
     ] ],
     [ "VarTable.java", "_var_table_8java.html", [
       [ "VarTable", "classmachine_1_1_var_table.html", "classmachine_1_1_var_table" ]

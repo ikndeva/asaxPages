@@ -31,6 +31,7 @@ var namespaceast =
     [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ],
     [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
     [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
+    [ "BlockFactory", "classast_1_1_block_factory.html", "classast_1_1_block_factory" ],
     [ "Path", "classast_1_1_path.html", "classast_1_1_path" ],
     [ "Node", "interfaceast_1_1_node.html", "interfaceast_1_1_node" ],
     [ "Program", "classast_1_1_program.html", "classast_1_1_program" ],

@@ -2,7 +2,7 @@ var classmachine_1_1_call =
 [
     [ "Call", "classmachine_1_1_call.html#a453c7c6df05d9719e8d5b3cc6fabc528", null ],
     [ "getFP", "classmachine_1_1_call.html#a2e78a448497ec8409a58d9f95ffe5750", null ],
-    [ "getFID", "classmachine_1_1_call.html#a0558c04802851d163e6a4a0385840464", null ],
+    [ "getFun", "classmachine_1_1_call.html#a165cb47299116844523fe137fc019930", null ],
     [ "getFPAR", "classmachine_1_1_call.html#a5fd0399722049e64c1bd8a2450257c84", null ],
     [ "setFP", "classmachine_1_1_call.html#a45a6c7b64f83e73a44ace5a9e82b6a9f", null ],
     [ "setFID", "classmachine_1_1_call.html#a8f28b240da9c41afc4c6c18f4834092b", null ],

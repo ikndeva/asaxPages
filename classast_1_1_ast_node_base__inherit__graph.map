@@ -1,6 +1,6 @@
 <map id="AstNodeBase" name="AstNodeBase">
-<area shape="rect" id="node1" title=" " alt="" coords="5,563,108,589"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="156,563,229,589"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,512,108,539"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="156,512,229,539"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_assign.html" title="値の読み出しオブジェクト．" alt="" coords="340,56,423,83"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_break.html" title="実行を強制中断させる演算．デバッグのブレークポイント設定に用いる．" alt="" coords="343,107,419,133"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="325,157,437,184"/>
@@ -20,45 +20,44 @@
 <area shape="rect" id="node58" href="$classast_1_1_path.html" title=" " alt="" coords="357,867,406,893"/>
 <area shape="rect" id="node59" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="346,917,417,944"/>
 <area shape="rect" id="node61" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="361,968,402,995"/>
-<area shape="rect" id="node62" href="$classmachine_1_1_var_key.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="349,1019,413,1045"/>
-<area shape="rect" id="node6" href="$classast_1_1_ast_data_reader_1_1_reader_type.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="552,107,737,133"/>
-<area shape="rect" id="node7" href="$classast_1_1_ast_data_reader_1_1_reader_boolean.html" title="ブール型の値をもつ参照読み出し" alt="" coords="804,5,1008,32"/>
-<area shape="rect" id="node8" href="$classast_1_1_ast_data_reader_1_1_reader_double.html" title="倍精度実数型の値をもつ参照読み出しの呼び出し" alt="" coords="807,56,1005,83"/>
-<area shape="rect" id="node9" href="$classast_1_1_ast_data_reader_1_1_reader_integer.html" title="整数型の値をもつ参照読み出しの呼び出し" alt="" coords="807,107,1005,133"/>
-<area shape="rect" id="node10" href="$classast_1_1_ast_data_reader_1_1_reader_string.html" title="文字列型の値をもつ参照読み出し" alt="" coords="811,157,1001,184"/>
-<area shape="rect" id="node16" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="563,157,726,184"/>
-<area shape="rect" id="node17" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="566,208,723,235"/>
-<area shape="rect" id="node18" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="567,259,723,285"/>
-<area shape="rect" id="node19" href="$classast_1_1_ast_literal_1_1_string_expr.html" title="String値アトム" alt="" coords="573,309,716,336"/>
-<area shape="rect" id="node20" href="$classast_1_1_ast_literal_1_1_regex_literal.html" title=" " alt="" coords="829,208,983,235"/>
-<area shape="rect" id="node21" href="$classast_1_1_ast_literal_1_1_string_literal.html" title=" " alt="" coords="831,259,981,285"/>
-<area shape="rect" id="node23" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="602,360,687,387"/>
-<area shape="rect" id="node26" href="$classast_1_1_program.html" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="609,411,680,437"/>
-<area shape="rect" id="node24" href="$classast_1_1_block.html" title="抽象構文木のステップ式のクラス." alt="" coords="879,309,933,336"/>
-<area shape="rect" id="node25" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="881,360,931,387"/>
-<area shape="rect" id="node28" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="589,461,701,488"/>
-<area shape="rect" id="node31" href="$classast_1_1_ast_scan_from.html" title=" " alt="" coords="593,512,696,539"/>
-<area shape="rect" id="node29" href="$classast_1_1_ast_if.html" title="抽象構文木のステップ式のクラス." alt="" coords="881,411,931,437"/>
-<area shape="rect" id="node30" href="$classast_1_1_ast_let.html" title="とりあえず任意の文をラップして，ブール値を与えるためのノード" alt="" coords="876,461,936,488"/>
-<area shape="rect" id="node33" href="$classast_1_1_ast_converter.html" title="値の変換のクラス。AstConv&lt;S,T&gt;の単なるラッパー" alt="" coords="595,563,694,589"/>
-<area shape="rect" id="node35" href="$classast_1_1_ast_data_reader_1_1_ast_var_reader_new.html" title="ブール型の値をもつ参照読み出し" alt="" coords="533,613,756,640"/>
-<area shape="rect" id="node36" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="593,664,697,691"/>
-<area shape="rect" id="node42" href="$classast_1_1_ast_source_1_1_ast_in_file_open.html" title="入力ストリームを表すノードのクラス" alt="" coords="559,715,730,741"/>
-<area shape="rect" id="node34" href="$classast_1_1_ast_converter_1_1_ast_conv.html" title="S型の値をT型の値に変換するアダプタ" alt="" coords="829,513,983,554"/>
-<area shape="rect" id="node37" href="$classast_1_1_ast_data_writer_1_1_writer_boolean.html" title="ブール型の値をもつ局所変数" alt="" coords="812,579,1000,605"/>
-<area shape="rect" id="node38" href="$classast_1_1_ast_data_writer_1_1_writer_double.html" title="Double型の値をもつ局所変数" alt="" coords="815,629,997,656"/>
-<area shape="rect" id="node39" href="$classast_1_1_ast_data_writer_1_1_writer_integer.html" title="Integer型の値をもつ局所変数" alt="" coords="815,680,997,707"/>
-<area shape="rect" id="node40" href="$classast_1_1_ast_data_writer_1_1_writer_o_stream.html" title="String型の値をもつ局所変数" alt="" coords="809,731,1003,757"/>
-<area shape="rect" id="node41" href="$classast_1_1_ast_data_writer_1_1_writer_string.html" title="String型の値をもつ局所変数" alt="" coords="819,781,993,808"/>
-<area shape="rect" id="node44" href="$classast_1_1_ast_func_call.html" title=" " alt="" coords="597,765,692,792"/>
-<area shape="rect" id="node45" href="$classast_1_1_ast_math_oper.html" title="値を返すことができるノードのクラス．一般に1個以上の子をもつ演算子である．" alt="" coords="595,824,694,851"/>
-<area shape="rect" id="node47" title=" " alt="" coords="599,879,690,905"/>
-<area shape="rect" id="node52" href="$classast_1_1_ast_return.html" title="リターン式のクラス．値を返すことができる．" alt="" coords="604,929,685,956"/>
-<area shape="rect" id="node53" href="$classast_1_1_ast_template.html" title=" " alt="" coords="597,980,692,1007"/>
-<area shape="rect" id="node46" href="$classast_1_1_ast_math_oper_1_1_binary_oper.html" title="end of class AstMathOper" alt="" coords="823,832,989,859"/>
-<area shape="rect" id="node48" href="$classast_1_1_ast_math_oper_1_1_double_rel.html" title=" " alt="" coords="825,883,987,909"/>
-<area shape="rect" id="node49" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html" title=" " alt="" coords="825,933,987,960"/>
-<area shape="rect" id="node50" href="$classast_1_1_ast_math_oper_1_1_number_rel.html" title=" " alt="" coords="822,984,990,1011"/>
-<area shape="rect" id="node51" href="$classast_1_1_string_rel.html" title=" " alt="" coords="868,1035,944,1061"/>
-<area shape="rect" id="node60" href="$classast_1_1_sent_list_1_1_list_wrapper.html" title="Javaの基本型データの清書用の包み込みアトム" alt="" coords="557,1031,732,1057"/>
+<area shape="rect" id="node6" href="$classast_1_1_ast_data_reader_1_1_reader_type.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="539,107,724,133"/>
+<area shape="rect" id="node7" href="$classast_1_1_ast_data_reader_1_1_reader_boolean.html" title="ブール型の値をもつ参照読み出し" alt="" coords="777,5,981,32"/>
+<area shape="rect" id="node8" href="$classast_1_1_ast_data_reader_1_1_reader_double.html" title="倍精度実数型の値をもつ参照読み出しの呼び出し" alt="" coords="780,56,979,83"/>
+<area shape="rect" id="node9" href="$classast_1_1_ast_data_reader_1_1_reader_integer.html" title="整数型の値をもつ参照読み出しの呼び出し" alt="" coords="781,107,978,133"/>
+<area shape="rect" id="node10" href="$classast_1_1_ast_data_reader_1_1_reader_string.html" title="文字列型の値をもつ参照読み出し" alt="" coords="784,157,975,184"/>
+<area shape="rect" id="node16" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="550,157,713,184"/>
+<area shape="rect" id="node17" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="553,208,710,235"/>
+<area shape="rect" id="node18" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="553,259,709,285"/>
+<area shape="rect" id="node19" href="$classast_1_1_ast_literal_1_1_string_expr.html" title="String値アトム" alt="" coords="560,309,703,336"/>
+<area shape="rect" id="node20" href="$classast_1_1_ast_literal_1_1_regex_literal.html" title=" " alt="" coords="802,208,957,235"/>
+<area shape="rect" id="node21" href="$classast_1_1_ast_literal_1_1_string_literal.html" title=" " alt="" coords="804,259,955,285"/>
+<area shape="rect" id="node23" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="589,360,674,387"/>
+<area shape="rect" id="node26" href="$classast_1_1_program.html" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="596,411,667,437"/>
+<area shape="rect" id="node24" href="$classast_1_1_block.html" title="抽象構文木のステップ式のクラス." alt="" coords="852,309,907,336"/>
+<area shape="rect" id="node25" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="855,360,904,387"/>
+<area shape="rect" id="node28" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="575,461,687,488"/>
+<area shape="rect" id="node31" href="$classast_1_1_ast_scan_from.html" title=" " alt="" coords="580,512,683,539"/>
+<area shape="rect" id="node29" href="$classast_1_1_ast_if.html" title="抽象構文木のステップ式のクラス." alt="" coords="854,411,905,437"/>
+<area shape="rect" id="node30" href="$classast_1_1_ast_let.html" title="とりあえず任意の文をラップして，ブール値を与えるためのノード" alt="" coords="849,461,909,488"/>
+<area shape="rect" id="node33" href="$classast_1_1_ast_converter.html" title="値の変換のクラス。AstConv&lt;S,T&gt;の単なるラッパー" alt="" coords="582,563,681,589"/>
+<area shape="rect" id="node35" href="$classast_1_1_ast_data_reader_1_1_ast_var_reader.html" title="ブール型の値をもつ参照読み出し" alt="" coords="533,613,729,640"/>
+<area shape="rect" id="node36" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="579,664,683,691"/>
+<area shape="rect" id="node42" href="$classast_1_1_ast_source_1_1_ast_in_file_open.html" title="入力ストリームを表すノードのクラス" alt="" coords="546,715,717,741"/>
+<area shape="rect" id="node34" href="$classast_1_1_ast_converter_1_1_ast_conv.html" title="S型の値をT型の値に変換するアダプタ" alt="" coords="803,513,956,554"/>
+<area shape="rect" id="node37" href="$classast_1_1_ast_data_writer_1_1_writer_boolean.html" title="ブール型の値をもつ局所変数" alt="" coords="785,579,973,605"/>
+<area shape="rect" id="node38" href="$classast_1_1_ast_data_writer_1_1_writer_double.html" title="Double型の値をもつ局所変数" alt="" coords="788,629,971,656"/>
+<area shape="rect" id="node39" href="$classast_1_1_ast_data_writer_1_1_writer_integer.html" title="Integer型の値をもつ局所変数" alt="" coords="789,680,970,707"/>
+<area shape="rect" id="node40" href="$classast_1_1_ast_data_writer_1_1_writer_o_stream.html" title="String型の値をもつ局所変数" alt="" coords="783,731,976,757"/>
+<area shape="rect" id="node41" href="$classast_1_1_ast_data_writer_1_1_writer_string.html" title="String型の値をもつ局所変数" alt="" coords="792,781,967,808"/>
+<area shape="rect" id="node44" href="$classast_1_1_ast_func_call.html" title=" " alt="" coords="584,765,679,792"/>
+<area shape="rect" id="node45" href="$classast_1_1_ast_math_oper.html" title="値を返すことができるノードのクラス．一般に1個以上の子をもつ演算子である．" alt="" coords="582,820,681,847"/>
+<area shape="rect" id="node47" title=" " alt="" coords="586,879,677,905"/>
+<area shape="rect" id="node52" href="$classast_1_1_ast_return.html" title="リターン式のクラス．値を返すことができる．" alt="" coords="591,929,672,956"/>
+<area shape="rect" id="node53" href="$classast_1_1_ast_template.html" title=" " alt="" coords="584,980,679,1007"/>
+<area shape="rect" id="node46" href="$classast_1_1_ast_math_oper_1_1_binary_oper.html" title="end of class AstMathOper" alt="" coords="796,832,963,859"/>
+<area shape="rect" id="node48" href="$classast_1_1_ast_math_oper_1_1_double_rel.html" title=" " alt="" coords="798,883,961,909"/>
+<area shape="rect" id="node49" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html" title=" " alt="" coords="798,933,961,960"/>
+<area shape="rect" id="node50" href="$classast_1_1_ast_math_oper_1_1_number_rel.html" title=" " alt="" coords="795,984,963,1011"/>
+<area shape="rect" id="node51" href="$classast_1_1_string_rel.html" title=" " alt="" coords="841,1035,917,1061"/>
+<area shape="rect" id="node60" href="$classast_1_1_sent_list_1_1_list_wrapper.html" title="Javaの基本型データの清書用の包み込みアトム" alt="" coords="544,1031,719,1057"/>
 </map>

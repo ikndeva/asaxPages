@@ -1,5 +1,5 @@
 <map id="Match" name="Match">
-<area shape="rect" id="node1" title="AsaxEventReaderを用いた簡単な構造テキストの操作器の実装例." alt="" coords="1092,802,1151,829"/>
+<area shape="rect" id="node1" title="AsaxEventReaderを用いた簡単な構造テキストの操作器の実装例." alt="" coords="1092,777,1151,803"/>
 <area shape="rect" id="node2" href="$interfaceapp_1_1_query_holder.html" title=" " alt="" coords="733,14,827,41"/>
 <area shape="rect" id="node3" title=" " alt="" coords="727,65,833,91"/>
 <area shape="rect" id="node4" title=" " alt="" coords="717,115,843,142"/>
@@ -18,8 +18,8 @@
 <area shape="rect" id="node14" title=" " alt="" coords="708,1106,852,1133"/>
 <area shape="rect" id="node15" title=" " alt="" coords="374,506,425,533"/>
 <area shape="rect" id="node16" title=" " alt="" coords="65,638,103,665"/>
-<area shape="rect" id="node17" title=" " alt="" coords="715,1179,845,1206"/>
-<area shape="rect" id="node18" title=" " alt="" coords="714,1230,846,1257"/>
+<area shape="rect" id="node17" title=" " alt="" coords="715,1187,845,1214"/>
+<area shape="rect" id="node18" title=" " alt="" coords="714,1238,846,1265"/>
 <area shape="rect" id="node20" href="$interfacemachine_1_1_context.html" title="実行系の記憶機構（環境）を抽象化したインタフェース." alt="" coords="365,1015,433,1042"/>
 <area shape="rect" id="node21" href="$interfacemachine_1_1_system_readable.html" title="システム変数の辞書を抽象化したインタフェース." alt="" coords="23,1391,145,1418"/>
 <area shape="rect" id="node38" href="$classmachine_1_1_system_scope.html" title="システム変数にアクセスするための読み出し専用スコープ．" alt="" coords="347,1303,451,1330"/>
@@ -38,5 +38,4 @@
 <area shape="rect" id="node36" title=" " alt="" coords="51,1219,117,1246"/>
 <area shape="rect" id="node37" title=" " alt="" coords="341,914,458,941"/>
 <area shape="rect" id="node39" href="$interfacemachine_1_1_inspectable.html" title=" " alt="" coords="15,1296,153,1337"/>
-<area shape="rect" id="node40" title=" " alt="" coords="727,1281,833,1307"/>
 </map>

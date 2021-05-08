@@ -1,11 +1,11 @@
 <map id="StepRule" name="StepRule">
-<area shape="rect" id="node1" title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト." alt="" coords="223,304,299,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="206,229,255,256"/>
-<area shape="rect" id="node3" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="144,155,229,181"/>
+<area shape="rect" id="node1" title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト." alt="" coords="233,304,309,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="215,229,265,256"/>
+<area shape="rect" id="node3" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="155,155,240,181"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="5,80,120,107"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="26,5,99,32"/>
 <area shape="rect" id="node6" title=" " alt="" coords="123,5,242,32"/>
-<area shape="rect" id="node7" href="$interfacemachine_1_1_rule.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="266,80,315,107"/>
-<area shape="rect" id="node9" href="$interfacemachine_1_1_steppable.html" title="実行可能ルールのインタフェース." alt="" coords="253,155,333,181"/>
+<area shape="rect" id="node7" href="$interfacemachine_1_1_var_holdable.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="261,80,353,107"/>
+<area shape="rect" id="node9" href="$interfacemachine_1_1_callable.html" title="実行可能ルールのインタフェース." alt="" coords="268,155,337,181"/>
 <area shape="rect" id="node8" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="145,80,237,107"/>
 </map>

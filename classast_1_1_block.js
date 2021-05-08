@@ -1,10 +1,8 @@
 var classast_1_1_block =
 [
-    [ "Block", "classast_1_1_block.html#a3f76bf5e22586241dc1583ad3045f68e", null ],
+    [ "Block", "classast_1_1_block.html#a2984b94d5f2257fce95dfc75fbcfdd90", null ],
     [ "Block", "classast_1_1_block.html#ab8d1a4956ec477ab475bff9518d8e84d", null ],
     [ "getSents", "classast_1_1_block.html#a0d8844794ffd144ecc2c5534b3a68caf", null ],
-    [ "setSents", "classast_1_1_block.html#a57bae87375ad303260a8547e235480cb", null ],
-    [ "getTypeSents", "classast_1_1_block.html#a5fb53a08ca7e1fe47e7c809800caa1ab", null ],
     [ "numChildren", "classast_1_1_block.html#a43b257b2ab32fc064fad0355c7dc327d", null ],
     [ "getChild", "classast_1_1_block.html#a35d53cdd86285e56b69cfedc5ef28580", null ],
     [ "setChild", "classast_1_1_block.html#a939cbd33686a4be3089db4c921579407", null ],
