@@ -1,7 +1,0 @@
-<map id="getNativeType" name="getNativeType">
-<area shape="rect" id="node1" title="ノードのもつ元のデータ値型を返す。" alt="" coords="887,5,993,31"/>
-<area shape="rect" id="node2" href="$classcompile_1_1_x_c_adapt.html#aaf7cbbcf8e05830556c8c2640a472359" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="657,5,839,31"/>
-<area shape="rect" id="node3" href="$classcompile_1_1_x_c_adapt.html#a7008ca6da6e82508a93bc2d77e72d968" title="クエリのコード生成を行う．" alt="" coords="430,5,609,31"/>
-<area shape="rect" id="node4" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="200,5,382,31"/>
-<area shape="rect" id="node5" href="$classcompile_1_1_x_c_test.html#a8b260eecbaabcef8473fd87ada040682" title="テスト用のサンプルプログラム。" alt="" coords="5,5,152,31"/>
-</map>

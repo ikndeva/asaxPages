@@ -1,4 +1,0 @@
-<map id="setLevel" name="setLevel">
-<area shape="rect" id="node1" title="現在のプログラムでのトレースレベル（出力の活性化レベル）を設定する." alt="" coords="135,5,206,31"/>
-<area shape="rect" id="node2" href="$classutil_1_1_trace_level.html#a77765073d41b8629447d0752482538e0" title="トレースレベルをコピーする." alt="" coords="5,5,87,31"/>
-</map>

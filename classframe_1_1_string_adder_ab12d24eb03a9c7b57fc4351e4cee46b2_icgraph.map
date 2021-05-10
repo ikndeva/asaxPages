@@ -1,6 +1,0 @@
-<map id="StringAdder" name="StringAdder">
-<area shape="rect" id="node1" title="空のStringBufをもつホルダを生成する。" alt="" coords="608,12,700,37"/>
-<area shape="rect" id="node2" href="$classframe_1_1_string_adder.html#a74cbf449e9d398f172d95c1231700a6a" title="新しいStringAdderを生成して返す。" alt="" coords="486,12,560,37"/>
-<area shape="rect" id="node3" href="$classframe_1_1_frame_stack_uni.html#ae6eaac2f39aa5ae1c7724dc2453c57c1" title=" " alt="" coords="245,5,438,44"/>
-<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#ac267d53cce93cb73a44fce46d41cec11" title="ファクトリ手続き" alt="" coords="5,12,197,37"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="getName" name="getName">
-<area shape="rect" id="node1" title="保持するイベント名の文字列を返す。" alt="" coords="470,26,545,52"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_x_machine.html#ae6f252a506b1cbafd253781a2b717a01" title="開始・テキスト・終了の３種類の入力イベントを受け取り、実行系を動作させる。" alt="" coords="5,26,172,52"/>
-<area shape="rect" id="node3" href="$classmachine_1_1_x_machine.html#a5d1670debc473ca7a5c0977b1e7b1097" title="終了イベントに対して、実行系を動作させる。" alt="" coords="220,26,422,52"/>
-<area shape="rect" id="node4" href="$classmachine_1_1_x_machine.html#a47ca083dca1c8959e0a03a777d9564e8" title="開始イベントに対して、実行系を動作させる。" alt="" coords="220,76,422,101"/>
-</map>

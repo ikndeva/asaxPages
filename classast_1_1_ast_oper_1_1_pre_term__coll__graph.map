@@ -1,9 +1,0 @@
-<map id="AstOper.PreTerm" name="AstOper.PreTerm">
-<area shape="rect" id="node1" title=" " alt="" coords="51,509,175,535"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_oper_1_1_add_term.html" title=" " alt="" coords="50,435,176,460"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_oper_1_1_integer_oper.html" title=" " alt="" coords="41,360,185,385"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_oper_1_1_binary_oper.html" title=" " alt="" coords="43,285,183,311"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_oper.html" title="演算子をもつノードのクラス" alt="" coords="51,199,121,224"/>
-<area shape="rect" id="node6" title=" " alt="" coords="16,5,55,31"/>
-<area shape="rect" id="node7" href="$class_evaluable_integer.html" title=" " alt="" coords="207,285,328,311"/>
-</map>

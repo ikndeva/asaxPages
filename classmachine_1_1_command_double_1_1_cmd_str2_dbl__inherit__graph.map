@@ -1,4 +1,0 @@
-<map id="CommandDouble.CmdStr2Dbl" name="CommandDouble.CmdStr2Dbl">
-<area shape="rect" id="node1" title="OVMachine上のString値をDouble値に変換する命令．" alt="" coords="5,79,207,104"/>
-<area shape="rect" id="node2" href="$class_cmd_str2_type.html" title=" " alt="" coords="22,5,190,31"/>
-</map>

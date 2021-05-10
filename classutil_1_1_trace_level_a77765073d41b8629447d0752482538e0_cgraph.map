@@ -1,5 +1,0 @@
-<map id="copyLevel" name="copyLevel">
-<area shape="rect" id="node1" title="トレースレベルをコピーする." alt="" coords="5,31,87,56"/>
-<area shape="rect" id="node2" href="$classutil_1_1_trace_level.html#ac3ccfd677fa662c8af08cebe99eafebf" title="現在のプログラムでのトレースレベル（出力の活性化レベル）を返す." alt="" coords="135,5,206,31"/>
-<area shape="rect" id="node3" href="$classutil_1_1_trace_level.html#a5b7e46300708fda2e3528d9744444027" title="現在のプログラムでのトレースレベル（出力の活性化レベル）を設定する." alt="" coords="135,55,206,80"/>
-</map>

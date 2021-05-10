@@ -1,5 +1,0 @@
-<map id="NodeFormatter.PrintState" name="NodeFormatter.PrintState">
-<area shape="rect" id="node1" title="木を印刷する際に，オプション指定と現在の状態保持を行う構造体．" alt="" coords="5,153,176,180"/>
-<area shape="rect" id="node2" title=" " alt="" coords="11,5,80,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="104,5,171,32"/>
-</map>

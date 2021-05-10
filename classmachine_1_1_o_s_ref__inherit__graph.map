@@ -1,4 +1,0 @@
-<map id="OSRef" name="OSRef">
-<area shape="rect" id="node1" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="17,80,80,107"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_assignable.html" title="変数（チャネルとコンテナの名前）の抽象化" alt="" coords="5,5,92,32"/>
-</map>

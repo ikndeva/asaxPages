@@ -1,4 +1,0 @@
-<map id="reset" name="reset">
-<area shape="rect" id="node1" title="doubleBufを空に初期化する。" alt="" coords="152,5,203,31"/>
-<area shape="rect" id="node2" href="$classframe_1_1_double_adder.html#a4b8065b44b74094f0ab3b78ce79586b5" title="空のdoubleBufをもつホルダを生成する。" alt="" coords="5,5,104,31"/>
-</map>

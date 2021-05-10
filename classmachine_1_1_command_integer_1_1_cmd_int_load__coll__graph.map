@@ -1,4 +1,0 @@
-<map id="CommandInteger.CmdIntLoad" name="CommandInteger.CmdIntLoad">
-<area shape="rect" id="node1" title="整数変数値を取り出す．" alt="" coords="5,79,205,104"/>
-<area shape="rect" id="node2" href="$class_command_storage.html" title=" " alt="" coords="41,5,170,31"/>
-</map>

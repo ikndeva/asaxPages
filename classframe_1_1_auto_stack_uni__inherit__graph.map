@@ -1,5 +1,0 @@
-<map id="AutoStackUni&lt; S extends Container &gt;" name="AutoStackUni&lt; S extends Container &gt;">
-<area shape="rect" id="node1" title="セルのオブジェクトを再利用可能なスタックの実装." alt="" coords="39,79,212,117"/>
-<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="5,5,122,31"/>
-<area shape="rect" id="node3" href="$interfaceframe_1_1_stackable.html" title="レベル付きスタックを実装するための最小限のインタフェース" alt="" coords="147,5,226,31"/>
-</map>

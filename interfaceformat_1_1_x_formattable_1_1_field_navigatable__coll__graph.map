@@ -1,5 +1,0 @@
-<map id="XFormattable.FieldNavigatable" name="XFormattable.FieldNavigatable">
-<area shape="rect" id="node1" title="タグ付きノードに対応する清書対象のクラス。" alt="" coords="5,155,207,181"/>
-<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="19,80,193,107"/>
-<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="56,5,156,32"/>
-</map>

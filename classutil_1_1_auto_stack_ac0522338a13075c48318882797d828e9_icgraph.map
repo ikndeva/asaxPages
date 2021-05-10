@@ -1,8 +1,0 @@
-<map id="push_" name="push_">
-<area shape="rect" id="node1" title="スタックにプッシュする." alt="" coords="467,107,525,132"/>
-<area shape="rect" id="node2" href="$classframe_1_1_frame_stack_uni.html#a35e47054870bbed27d7344ccc22f486a" title="新しいレコードを追加し、局所変数IDを返す。" alt="" coords="235,5,419,44"/>
-<area shape="rect" id="node4" href="$classframe_1_1_frame_stack_uni.html#a48a0a46cf7e14dfe9af0fe846bb52ef5" title="新しいレコードを追加し、局所変数IDを返す。" alt="" coords="235,68,419,107"/>
-<area shape="rect" id="node5" href="$classframe_1_1_frame_stack_uni.html#a54903f924146c74394338bb9534922b3" title="新しいレコードを追加し、局所変数IDを返す。" alt="" coords="235,131,419,169"/>
-<area shape="rect" id="node6" href="$classframe_1_1_frame_stack_uni.html#ad941701ab014aa0ffe0366a01f94de7c" title="新しいレコードを追加し、局所変数IDを返す。" alt="" coords="235,193,419,232"/>
-<area shape="rect" id="node3" href="$classframe_1_1_frame_stack_uni.html#acdad7e2ff3c9fca40f7bd6c669941f11" title="新しいコンテナを頂上フレームに挿入する。" alt="" coords="5,100,187,139"/>
-</map>

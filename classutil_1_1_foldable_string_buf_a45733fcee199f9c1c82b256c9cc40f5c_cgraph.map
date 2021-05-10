@@ -1,5 +1,0 @@
-<map id="raw_nl" name="raw_nl">
-<area shape="rect" id="node1" title="改行を出力する." alt="" coords="5,29,66,55"/>
-<area shape="rect" id="node2" href="$classutil_1_1_string_buf.html#a2dc9e4579aee8516f9402d5ab3eac5eb" title="バッファの末尾に文字列{str} を連結する." alt="" coords="114,29,259,55"/>
-<area shape="rect" id="node3" href="$classutil_1_1_string_buf.html#a9ea51ad122f068c0e30e6a7a17f57685" title="バッファの末尾に文字列{val} を追加する. メソッド {append} に同じ." alt="" coords="307,29,423,55"/>
-</map>

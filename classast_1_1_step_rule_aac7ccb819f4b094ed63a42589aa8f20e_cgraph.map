@@ -1,5 +1,0 @@
-<map id="createRootStep" name="createRootStep">
-<area shape="rect" id="node1" title="与えられたブロックを子にもつ、走査の根ステップのクラスを返すファクトリ手続き。" alt="" coords="5,31,119,57"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_program.html#a5788cfd9f521da781e600b8a94bae589" title="global container for RIDs" alt="" coords="167,5,360,32"/>
-<area shape="rect" id="node3" href="$classast_1_1_step_rule.html#af73d34a3b985a0cac0734fa957fbd03a" title="空なルールを生成する." alt="" coords="225,56,301,83"/>
-</map>

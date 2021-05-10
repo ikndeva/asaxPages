@@ -1,5 +1,0 @@
-<map id="getTypeItemChild" name="getTypeItemChild">
-<area shape="rect" id="node1" title="ノードのもつ子の型変数を返す" alt="" coords="175,31,301,56"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_let.html#a78bb6c3aaeff7361ae94a4539d1b064c" title="コンストラクタ" alt="" coords="5,5,127,31"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node.html#a4d304c8dfe045b0f7032504ae6be7b2d" title="ノードのもつ値型を返す。" alt="" coords="17,55,116,80"/>
-</map>

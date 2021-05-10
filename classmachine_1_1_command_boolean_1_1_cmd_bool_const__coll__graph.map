@@ -1,4 +1,0 @@
-<map id="CommandBoolean.CmdBoolConst" name="CommandBoolean.CmdBoolConst">
-<area shape="rect" id="node1" title="スタックトップにBoolean定数値をおく命令" alt="" coords="5,79,230,104"/>
-<area shape="rect" id="node2" href="$class_cmd_type_const.html" title=" " alt="" coords="25,5,210,31"/>
-</map>

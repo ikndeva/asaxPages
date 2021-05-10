@@ -1,5 +1,0 @@
-<map id="get" name="get">
-<area shape="rect" id="node1" title="型Sの新しいインスタンスを初期化して返す．" alt="" coords="383,5,423,31"/>
-<area shape="rect" id="node2" href="$classutil_1_1_bufs.html#a419738a2d52901df7a6c608a886388e4" title="リサイクル可能なNodeFormatterを返す。" alt="" coords="252,5,335,31"/>
-<area shape="rect" id="node3" href="$classcompile_1_1_x_compiler.html#a4cbd057c22095a80ec44c19887ecacb2" title="コンパイラオブジェクトを生成する。" alt="" coords="5,5,204,31"/>
-</map>

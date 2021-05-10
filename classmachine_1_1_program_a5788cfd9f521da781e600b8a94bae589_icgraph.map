@@ -1,4 +1,0 @@
-<map id="getNewRid" name="getNewRid">
-<area shape="rect" id="node1" title="global container for RIDs" alt="" coords="247,5,333,32"/>
-<area shape="rect" id="node2" href="$classast_1_1_step_rule.html#a881801e0c85bb547e57683a904ef92a9" title="与えられたブロックを子にもつ、走査の根ステップのクラスを返すファクトリ手続き。" alt="" coords="5,5,199,32"/>
-</map>

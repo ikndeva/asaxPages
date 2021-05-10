@@ -1,4 +1,0 @@
-<map id="CommandInteger.CmdIntAllocContainer" name="CommandInteger.CmdIntAllocContainer">
-<area shape="rect" id="node1" title="Integer変数を割り当てる" alt="" coords="5,92,205,131"/>
-<area shape="rect" id="node2" href="$class_cmd_type_alloc_container.html" title=" " alt="" coords="22,5,187,44"/>
-</map>

@@ -1,6 +1,0 @@
-<map id="qstring" name="qstring">
-<area shape="rect" id="node1" title="部分木の高さ." alt="" coords="5,35,67,61"/>
-<area shape="rect" id="node2" href="$classformat_1_1_n_f_bufs.html#ae4598be907065d04c80e927dfff29279" title="リサイクル可能なNodeFormattableを返す。" alt="" coords="143,5,265,32"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_node_formattable.html#ad2ed4947c266a995d1a0fb4b766bc824" title="項表現の文字列を返す." alt="" coords="115,57,293,98"/>
-<area shape="rect" id="node3" href="$classformat_1_1_n_f_bufs.html#ab7b1b40077e11f70904395d4ed15df59" title="theNodeFormatterRecyclerを返す。" alt="" coords="341,5,472,32"/>
-</map>

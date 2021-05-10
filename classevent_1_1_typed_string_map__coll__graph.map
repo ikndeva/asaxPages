@@ -1,5 +1,0 @@
-<map id="TypedStringMap&lt; T &gt;" name="TypedStringMap&lt; T &gt;">
-<area shape="rect" id="node1" title="文字列キーのマップMを，型付きキーを扱えるように変換する汎用のラッパークラス． ベースになるマップMは複数のTypedStringMapで共用できる． オブジェクトの型情報を取り出すために，javaのリ..." alt="" coords="34,92,183,117"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,61,31"/>
-<area shape="rect" id="node3" title=" " alt="" coords="148,5,217,31"/>
-</map>

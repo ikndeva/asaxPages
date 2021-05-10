@@ -1,5 +1,0 @@
-<map id="XException.XExceptionSkippable" name="XException.XExceptionSkippable">
-<area shape="rect" id="node1" title="スキップ可能例外であり、そのサブクエリのみをスキップすれば良い．" alt="" coords="5,155,223,181"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_x_exception.html" title="実行系に関する実行時エラーのクラス" alt="" coords="69,80,159,107"/>
-<area shape="rect" id="node3" href="$class_runtime_exception.html" title=" " alt="" coords="49,5,179,32"/>
-</map>

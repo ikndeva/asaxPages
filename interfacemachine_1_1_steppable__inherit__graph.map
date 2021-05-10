@@ -1,6 +1,0 @@
-<map id="Steppable" name="Steppable">
-<area shape="rect" id="node1" title="実行可能ルールのインタフェース." alt="" coords="21,80,101,107"/>
-<area shape="rect" id="node3" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="5,155,55,181"/>
-<area shape="rect" id="node4" href="$classast_1_1_step_rule.html" title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト." alt="" coords="23,229,99,256"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_rule.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="36,5,85,32"/>
-</map>

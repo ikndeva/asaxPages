@@ -1,9 +1,0 @@
-<map id="Rule" name="Rule">
-<area shape="rect" id="node1" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="130,5,179,32"/>
-<area shape="rect" id="node2" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="5,80,91,107"/>
-<area shape="rect" id="node6" href="$interfacemachine_1_1_blockable.html" title="実行可能ルールのインタフェース." alt="" coords="115,80,194,107"/>
-<area shape="rect" id="node7" href="$interfacemachine_1_1_steppable.html" title="実行可能ルールのインタフェース." alt="" coords="219,80,299,107"/>
-<area shape="rect" id="node3" href="$classast_1_1_block.html" title="抽象構文木のステップ式のクラス." alt="" coords="21,155,75,181"/>
-<area shape="rect" id="node4" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="171,155,221,181"/>
-<area shape="rect" id="node5" href="$classast_1_1_step_rule.html" title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト." alt="" coords="189,229,265,256"/>
-</map>

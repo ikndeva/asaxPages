@@ -1,4 +1,0 @@
-<map id="Evaluable.EvaluableInteger" name="Evaluable.EvaluableInteger">
-<area shape="rect" id="node1" title="評価結果が整数値になるステップのインタフェース" alt="" coords="5,79,189,104"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_evaluable_1_1_generatable.html" title="仮装命令生成のインタフェース." alt="" coords="19,5,176,31"/>
-</map>

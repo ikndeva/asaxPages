@@ -1,7 +1,0 @@
-<map id="setWhere" name="setWhere">
-<area shape="rect" id="node1" title="ノードをセットする．" alt="" coords="657,31,736,56"/>
-<area shape="rect" id="node2" href="$classcompile_1_1_x_c_adapt.html#a7008ca6da6e82508a93bc2d77e72d968" title="クエリのコード生成を行う．" alt="" coords="430,5,609,31"/>
-<area shape="rect" id="node5" href="$classcompile_1_1_x_c_push.html#a7a045592df469c21f04b4c67297255b5" title="クエリのコード生成を行う．" alt="" coords="434,55,605,80"/>
-<area shape="rect" id="node3" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="200,31,382,56"/>
-<area shape="rect" id="node4" href="$classcompile_1_1_x_c_test.html#a8b260eecbaabcef8473fd87ada040682" title="テスト用のサンプルプログラム。" alt="" coords="5,31,152,56"/>
-</map>

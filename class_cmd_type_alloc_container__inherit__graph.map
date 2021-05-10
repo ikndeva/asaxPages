@@ -1,7 +1,0 @@
-<map id="CmdTypeAllocContainer" name="CmdTypeAllocContainer">
-<area shape="rect" id="node1" title=" " alt="" coords="5,107,170,132"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_alloc_container.html" title="整数変数を割り当てる" alt="" coords="218,5,381,44"/>
-<area shape="rect" id="node3" href="$classmachine_1_1_command_double_1_1_cmd_dbl_alloc_container.html" title="Double変数を割り当てる" alt="" coords="222,68,378,107"/>
-<area shape="rect" id="node4" href="$classmachine_1_1_command_integer_1_1_cmd_int_alloc_container.html" title="Integer変数を割り当てる" alt="" coords="224,131,375,169"/>
-<area shape="rect" id="node5" href="$classmachine_1_1_command_string_1_1_cmd_str_alloc_container.html" title="String変数を割り当てる" alt="" coords="223,193,377,232"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="CommandString.CmdStrStore" name="CommandString.CmdStrStore">
-<area shape="rect" id="node1" title="文字列変数にスタックトップの文字列を代入する．" alt="" coords="5,79,204,104"/>
-<area shape="rect" id="node2" href="$class_command_storage.html" title=" " alt="" coords="40,5,169,31"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="getType" name="getType">
-<area shape="rect" id="node1" title="ノードのもつ値型を返す。" alt="" coords="5,55,74,80"/>
-<area shape="rect" id="node2" href="$classtype_1_1_x_type_item.html#ac99eb0a4e6234efeba848fb56f92137c" title="この型変数thisがもつ値型を返す。" alt="" coords="122,29,258,55"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_node.html#af11df854dd226e42ba15e29bae395a67" title="ノードのもつ自己の型変数を返す。" alt="" coords="131,79,249,104"/>
-<area shape="rect" id="node3" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="306,5,468,31"/>
-<area shape="rect" id="node4" href="$classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b" title="この元の同値類がもつT型の値を返す。" alt="" coords="308,55,467,80"/>
-</map>

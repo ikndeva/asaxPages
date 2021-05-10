@@ -1,8 +1,0 @@
-<map id="nl" name="nl">
-<area shape="rect" id="node1" title="改行を出力する." alt="" coords="5,80,44,105"/>
-<area shape="rect" id="node2" href="$classutil_1_1_string_buf.html#a2dc9e4579aee8516f9402d5ab3eac5eb" title="バッファの末尾に文字列{str} を連結する." alt="" coords="268,29,413,55"/>
-<area shape="rect" id="node4" href="$classutil_1_1_trace_level.html#a62205b80cb936cb8f13f6a31afd2c9e0" title="現在のトレースレベルが{level}以上ならば真になる." alt="" coords="264,104,417,129"/>
-<area shape="rect" id="node5" href="$classutil_1_1_string_buf.html#af4b57d21919c42d55af03391f91a1c08" title="バッファの長さを返す。 java.lang.StringBuilderのint length()に相当するメソッド。" alt="" coords="92,104,216,129"/>
-<area shape="rect" id="node6" href="$classutil_1_1_foldable_string_buf.html#a186579e7cd763dada34bcdc6c8f8f209" title="空白を出力する." alt="" coords="126,55,183,80"/>
-<area shape="rect" id="node3" href="$classutil_1_1_string_buf.html#a9ea51ad122f068c0e30e6a7a17f57685" title="バッファの末尾に文字列{val} を追加する. メソッド {append} に同じ." alt="" coords="465,29,581,55"/>
-</map>

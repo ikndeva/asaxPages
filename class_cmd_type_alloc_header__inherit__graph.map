@@ -1,7 +1,0 @@
-<map id="CmdTypeAllocHeader" name="CmdTypeAllocHeader">
-<area shape="rect" id="node1" title=" " alt="" coords="5,107,156,132"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_command_boolean_1_1_cmd_bool_alloc_header.html" title="Boolean変数のフレームを割り当てる" alt="" coords="205,5,354,44"/>
-<area shape="rect" id="node3" href="$classmachine_1_1_command_double_1_1_cmd_dbl_alloc_header.html" title="Double変数のフレームを割り当てる" alt="" coords="204,68,354,107"/>
-<area shape="rect" id="node4" href="$classmachine_1_1_command_integer_1_1_cmd_int_alloc_header.html" title="Integer変数のフレームを割り当てる" alt="" coords="207,131,352,169"/>
-<area shape="rect" id="node5" href="$classmachine_1_1_command_string_1_1_cmd_str_alloc_header.html" title="String変数のフレームを割り当てる" alt="" coords="206,193,353,232"/>
-</map>

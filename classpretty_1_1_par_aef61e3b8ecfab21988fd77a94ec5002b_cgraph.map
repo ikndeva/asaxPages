@@ -1,4 +1,0 @@
-<map id="run" name="run">
-<area shape="rect" id="node1" title="入力ストリームから与えられた文字列を清書して、出力ストリームへ書き込む." alt="" coords="5,29,46,55"/>
-<area shape="rect" id="node2" href="$classpretty_1_1_par.html#a92f40843a2e5557ba0b823c2b1077f8a" title="入力ストリームから与えられた文字列を清書して、出力ストリームへ書き込む." alt="" coords="94,29,135,55"/>
-</map>

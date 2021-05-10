@@ -1,6 +1,0 @@
-<map id="strip" name="strip">
-<area shape="rect" id="node1" title="空の子供を取り除く." alt="" coords="5,79,52,104"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node_branch.html#ae9cce06b34cb100ef1aa425387d265fd" title="子供のリストを返す." alt="" coords="114,29,301,55"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node_branch.html#ae67707ee54f4c5d72844844470940d77" title="i番目の子供を返す." alt="" coords="113,79,302,104"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node_branch.html#a43b257b2ab32fc064fad0355c7dc327d" title="子供の数を返す." alt="" coords="100,128,315,153"/>
-</map>

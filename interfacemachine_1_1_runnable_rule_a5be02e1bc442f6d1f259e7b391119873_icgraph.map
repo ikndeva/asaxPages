@@ -1,5 +1,0 @@
-<map id="getSelfMask" name="getSelfMask">
-<area shape="rect" id="node1" title="自分の状態を表すビットベクトル。" alt="" coords="470,5,565,31"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_x_machine.html#a5d1670debc473ca7a5c0977b1e7b1097" title="終了イベントに対して、実行系を動作させる。" alt="" coords="220,5,422,31"/>
-<area shape="rect" id="node3" href="$classmachine_1_1_x_machine.html#ae6f252a506b1cbafd253781a2b717a01" title="開始・テキスト・終了の３種類の入力イベントを受け取り、実行系を動作させる。" alt="" coords="5,5,172,31"/>
-</map>

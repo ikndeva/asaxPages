@@ -1,6 +1,0 @@
-<map id="UtilBufs" name="UtilBufs">
-<area shape="rect" id="node1" title="各種の清書バッファの管理オブジェクトを提供するオブジェクトプール。" alt="" coords="433,75,500,100"/>
-<area shape="rect" id="node2" href="$classutil_1_1_recycle_manager.html" title=" " alt="" coords="28,5,217,44"/>
-<area shape="rect" id="node3" href="$classutil_1_1_recycle_manager.html" title=" " alt="" coords="31,68,214,107"/>
-<area shape="rect" id="node4" href="$classutil_1_1_recycle_manager.html" title=" " alt="" coords="5,131,239,156"/>
-</map>

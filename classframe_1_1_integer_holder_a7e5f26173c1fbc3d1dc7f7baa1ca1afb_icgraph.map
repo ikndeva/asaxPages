@@ -1,5 +1,0 @@
-<map id="put" name="put">
-<area shape="rect" id="node1" title="与えられた値を内容に設定する。" alt="" coords="304,40,344,65"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_command_integer_1_1_cmd_int_store.html#a547d3c8fbd985076fa76c007a645afea" title="イベントevから要素テキストを読み出す．" alt="" coords="26,5,236,44"/>
-<area shape="rect" id="node3" href="$classmachine_1_1_command_1_1_cmd_set_elem.html#a547d3c8fbd985076fa76c007a645afea" title="テキスト文字列を読み出す．" alt="" coords="5,68,256,93"/>
-</map>

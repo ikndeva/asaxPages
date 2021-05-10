@@ -1,5 +1,0 @@
-<map id="StringAdder" name="StringAdder">
-<area shape="rect" id="node1" title="空のStringBufをもつホルダを生成する。" alt="" coords="5,5,97,31"/>
-<area shape="rect" id="node2" href="$classframe_1_1_string_adder.html#a6fa7b993e21d79f300a232bab37c2bc5" title="StringBufを空に初期化する。" alt="" coords="145,5,196,31"/>
-<area shape="rect" id="node3" href="$classutil_1_1_string_buf.html#a754e8e0b737041f9fe2a65102bc3d4eb" title="バッファの内容を空文字列に初期化する." alt="" coords="244,5,374,31"/>
-</map>
