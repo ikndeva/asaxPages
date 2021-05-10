@@ -1,0 +1,7 @@
+<map id="child" name="child">
+<area shape="rect" id="node1" title=" " alt="" coords="252,97,301,124"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node_tagged.html#a7868eab9522d9035b82fde8289212f50" title="次の子のField名と，Getter，型を設定し，子の添字idxを返す．" alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_data_reader_1_1_ast_var_reader.html#a80cf572a464f084f2f6f24ad5873a147" title="指定された変数参照をもつ読み出し変数オブジェクトを生成する．" alt="" coords="17,57,193,98"/>
+<area shape="rect" id="node4" href="$classtype_1_1_x_typing_1_1_basic_typing.html#a4e5cb3528205dfd40d187cd82a02ee27" title="コンストラクタ" alt="" coords="16,122,193,163"/>
+<area shape="rect" id="node5" href="$classcompile_1_1_x_c_typing.html#a583b9bca860315dda8bcfb18f63df01d" title="与えられたノードの出力型が上限itemUpperを持つよう部分式を型付けする." alt="" coords="15,188,194,215"/>
+</map>

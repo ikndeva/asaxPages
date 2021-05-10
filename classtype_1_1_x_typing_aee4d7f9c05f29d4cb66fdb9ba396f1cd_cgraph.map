@@ -1,0 +1,12 @@
+<map id="unifyMe" name="unifyMe">
+<area shape="rect" id="node1" title="自分がもつ返値の型アイテムを与えられた型アイテムと単一化する．" alt="" coords="5,195,73,221"/>
+<area shape="rect" id="node2" href="$classtype_1_1_x_item.html#a08a9409232d7782a928f2fb8d1a79598" title="この型変数thisと指定された型変数が単一化可能ならばtrueを返し、そうでなければfalseを返す。" alt="" coords="121,224,260,251"/>
+<area shape="rect" id="node7" href="$classtype_1_1_x_item.html#a1c69cd4da10ab8ef099bb4789b254540" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="131,136,250,163"/>
+<area shape="rect" id="node3" href="$enumtype_1_1_x_type.html#a299033fd07237d997de10296fa5283ab" title="型thisが型thatと同じか小さな半順序をもつ（less than or equal to）ならばtrueを返し、そうでなければ false を返す。" alt="" coords="558,165,667,192"/>
+<area shape="rect" id="node4" href="$classtype_1_1_x_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="346,275,447,301"/>
+<area shape="rect" id="node5" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="740,152,901,179"/>
+<area shape="rect" id="node6" href="$classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b" title="この元の同値類がもつT型の値を返す。" alt="" coords="533,217,692,244"/>
+<area shape="rect" id="node8" href="$enumtype_1_1_x_type.html#abe8a03a20cb3fc094301b80f85ba67d1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="308,158,485,199"/>
+<area shape="rect" id="node9" href="$classtype_1_1_union_find_item.html#a253d934a597030faf6849c7461d33b77" title="この元の同値類がもつT型の値を、指定した値に設定する。" alt="" coords="533,85,692,112"/>
+<area shape="rect" id="node10" href="$classtype_1_1_union_find_item.html#a5d2f3e9121ceab808329981e2daed56d" title="自身の同値類と与えられた元の同値類を併合して、代表元を返す。" alt="" coords="311,5,482,32"/>
+</map>

@@ -16,8 +16,6 @@ var classast_1_1_step =
     [ "hasCalls", "classast_1_1_step.html#af5bd4862c608b58acd2487d6d22b55cb", null ],
     [ "getCalls", "classast_1_1_step.html#a37238a58bc6e053aeb2d537488901584", null ],
     [ "getCallMask", "classast_1_1_step.html#a47cf57ec96efe77123f112236a16bd25", null ],
-    [ "getPreSent", "classast_1_1_step.html#acbaa59a6766021c60bcfd22f20d65d38", null ],
-    [ "setPreSent", "classast_1_1_step.html#a7e734b22a4484c01fb1480cce765fe9e", null ],
     [ "getSents", "classast_1_1_step.html#a0d8844794ffd144ecc2c5534b3a68caf", null ],
     [ "setSents", "classast_1_1_step.html#a207aae9f2d81a1e32b268a226d801c44", null ],
     [ "addSents", "classast_1_1_step.html#a8a29896fa48f9a4b6eddbbf31a7b6c8e", null ],

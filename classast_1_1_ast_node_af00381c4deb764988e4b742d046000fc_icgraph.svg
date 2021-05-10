@@ -5,49 +5,49 @@
  -->
 <!-- Title: addChild Pages: 1 -->
 <svg width="269pt" height="116pt"
- viewBox="0.00 0.00 269.00 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112)">
+ viewBox="0.00 0.00 269.00 115.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 111.5)">
 <title>addChild</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-112 265,-112 265,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-111.5 265,-111.5 265,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="新しい子供を追加する">
-<polygon fill="#bfbfbf" stroke="black" points="206,-44.5 206,-63.5 261,-63.5 261,-44.5 206,-44.5"/>
-<text text-anchor="middle" x="233.5" y="-51.5" font-family="Helvetica,sans-Serif" font-size="10.00">addChild</text>
+<polygon fill="#bfbfbf" stroke="black" points="206,-38.5 206,-57.5 261,-57.5 261,-38.5 206,-38.5"/>
+<text text-anchor="middle" x="233.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">addChild</text>
 </a>
 </g>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classast_1_1_ast_assign.html#a3c2e9803c2adca6e5d4ba331872692eb" target="_top" xlink:title="コンストラクタ">
-<polygon fill="white" stroke="black" points="22,-88.5 22,-107.5 148,-107.5 148,-88.5 22,-88.5"/>
-<text text-anchor="middle" x="85" y="-95.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstAssign.AstAssign</text>
+<g id="a_node2"><a xlink:href="classast_1_1_ast_node_unary.html#a705aa745ef641cefe75cd931f7801582" target="_top" xlink:title="生成子. 空の子供リストをもつノードを生成する.">
+<polygon fill="white" stroke="black" points="16.5,-77 16.5,-107 153.5,-107 153.5,-77 16.5,-77"/>
+<text text-anchor="start" x="24.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstNodeUnary.AstNode</text>
+<text text-anchor="middle" x="85" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">Unary</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M201.61,-67.48C191.64,-71.52 180.46,-75.75 170,-79 158.58,-82.55 146.09,-85.74 134.32,-88.44"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="203.22,-70.6 211.11,-63.53 200.53,-64.14 203.22,-70.6"/>
+<path fill="none" stroke="midnightblue" d="M196.03,-59.13C187.49,-61.72 178.43,-64.46 170,-67 159.22,-70.24 147.65,-73.7 136.65,-76.98"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="197.2,-62.43 205.75,-56.17 195.16,-55.73 197.2,-62.43"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classast_1_1_ast_node_unary.html#a705aa745ef641cefe75cd931f7801582" target="_top" xlink:title="生成子. 空の子供リストをもつノードを生成する.">
-<polygon fill="white" stroke="black" points="16.5,-39 16.5,-69 153.5,-69 153.5,-39 16.5,-39"/>
-<text text-anchor="start" x="24.5" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstNodeUnary.AstNode</text>
-<text text-anchor="middle" x="85" y="-46" font-family="Helvetica,sans-Serif" font-size="10.00">Unary</text>
+<g id="a_node3"><a xlink:href="classast_1_1_ast_var_assign.html#a0854a8577e71fd771488e1e8fbe8ae89" target="_top" xlink:title="コンストラクタ">
+<polygon fill="white" stroke="black" points="7.5,-38.5 7.5,-57.5 162.5,-57.5 162.5,-38.5 7.5,-38.5"/>
+<text text-anchor="middle" x="85" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstVarAssign.AstVarAssign</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node1&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M195.71,-54C182.88,-54 168.04,-54 153.5,-54"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="195.97,-57.5 205.97,-54 195.97,-50.5 195.97,-57.5"/>
+<path fill="none" stroke="midnightblue" d="M195.84,-48C185.64,-48 174.16,-48 162.56,-48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="195.97,-51.5 205.97,-48 195.97,-44.5 195.97,-51.5"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
@@ -61,8 +61,8 @@
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M200.59,-40.81C190.86,-37.04 180.08,-33.12 170,-30 157.54,-26.14 143.85,-22.6 131.2,-19.6"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="199.31,-44.07 209.9,-44.49 201.88,-37.56 199.31,-44.07"/>
+<path fill="none" stroke="midnightblue" d="M196.15,-36.46C187.61,-33.89 178.51,-31.25 170,-29 157.43,-25.67 143.7,-22.41 131.05,-19.56"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="195.27,-39.85 205.86,-39.43 197.32,-33.16 195.27,-39.85"/>
 </g>
 </g>
 </svg>

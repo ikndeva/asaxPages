@@ -1,30 +1,30 @@
 <map id="StepRule" name="StepRule">
-<area shape="rect" id="node1" title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト." alt="" coords="1265,465,1341,492"/>
-<area shape="rect" id="node2" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="1167,465,1216,492"/>
-<area shape="rect" id="node3" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="972,587,1057,613"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="674,857,789,884"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="295,1003,369,1029"/>
-<area shape="rect" id="node21" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="979,908,1050,935"/>
-<area shape="rect" id="node27" href="$classast_1_1_ast_tag.html" title=" " alt="" coords="700,1088,763,1115"/>
-<area shape="rect" id="node6" title=" " alt="" coords="5,548,75,575"/>
-<area shape="rect" id="node7" title=" " alt="" coords="273,901,391,928"/>
-<area shape="rect" id="node8" title=" " alt="" coords="281,952,383,979"/>
-<area shape="rect" id="node9" title=" " alt="" coords="267,800,397,827"/>
-<area shape="rect" id="node10" title=" " alt="" coords="224,851,440,877"/>
-<area shape="rect" id="node11" title=" " alt="" coords="299,715,365,741"/>
-<area shape="rect" id="node18" href="$classmachine_1_1_var_table.html" title="@整数の表" alt="" coords="695,648,767,675"/>
-<area shape="rect" id="node12" href="$interfacemachine_1_1_var_holdable.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="685,445,777,472"/>
-<area shape="rect" id="node20" href="$interfacemachine_1_1_callable.html" title="実行可能ルールのインタフェース." alt="" coords="980,435,1049,461"/>
-<area shape="rect" id="node13" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="685,908,777,935"/>
-<area shape="rect" id="node14" href="$classcmd_1_1_cmd_list.html" title="仮想命令のリスト．" alt="" coords="696,496,767,523"/>
-<area shape="rect" id="node15" title=" " alt="" coords="263,239,401,265"/>
-<area shape="rect" id="node22" href="$classmachine_1_1_call_list.html" title=" " alt="" coords="981,204,1048,231"/>
-<area shape="rect" id="node23" href="$classmachine_1_1_id_mask.html" title="@IDのマスク" alt="" coords="699,100,764,127"/>
-<area shape="rect" id="node16" title=" " alt="" coords="285,485,379,512"/>
-<area shape="rect" id="node17" title=" " alt="" coords="313,323,351,349"/>
-<area shape="rect" id="node19" title=" " alt="" coords="283,609,381,636"/>
-<area shape="rect" id="node24" title=" " alt="" coords="279,5,385,32"/>
-<area shape="rect" id="node25" title=" " alt="" coords="309,56,355,83"/>
-<area shape="rect" id="node26" title=" " alt="" coords="660,153,803,180"/>
-<area shape="rect" id="node28" title=" " alt="" coords="263,1104,401,1131"/>
+<area shape="rect" id="node1" title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト." alt="" coords="1243,56,1319,83"/>
+<area shape="rect" id="node2" href="$classast_1_1_step.html" title="抽象構文木のステップ式のクラス." alt="" coords="1144,309,1193,336"/>
+<area shape="rect" id="node3" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="972,309,1057,336"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="674,349,789,376"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="295,259,369,285"/>
+<area shape="rect" id="node14" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="696,56,767,83"/>
+<area shape="rect" id="node27" href="$classast_1_1_ast_tag.html" title=" " alt="" coords="700,5,763,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,1095,75,1121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="273,360,391,387"/>
+<area shape="rect" id="node8" title=" " alt="" coords="281,432,383,459"/>
+<area shape="rect" id="node9" title=" " alt="" coords="281,483,383,509"/>
+<area shape="rect" id="node10" title=" " alt="" coords="224,533,440,560"/>
+<area shape="rect" id="node11" title=" " alt="" coords="299,309,365,336"/>
+<area shape="rect" id="node19" href="$classmachine_1_1_var_table.html" title="@整数の表" alt="" coords="695,576,767,603"/>
+<area shape="rect" id="node12" href="$interfacemachine_1_1_var_holdable.html" title="実行可能コードのインタフェース. ブロックとステップの二種がある。" alt="" coords="685,107,777,133"/>
+<area shape="rect" id="node21" href="$interfacemachine_1_1_callable.html" title="実行可能ルールのインタフェース." alt="" coords="980,123,1049,149"/>
+<area shape="rect" id="node13" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="286,121,378,148"/>
+<area shape="rect" id="node15" href="$classcmd_1_1_cmd_list.html" title="仮想命令のリスト．" alt="" coords="696,827,767,853"/>
+<area shape="rect" id="node16" title=" " alt="" coords="263,864,401,891"/>
+<area shape="rect" id="node22" href="$classmachine_1_1_call_list.html" title=" " alt="" coords="981,877,1048,904"/>
+<area shape="rect" id="node23" href="$classmachine_1_1_id_mask.html" title="@IDのマスク" alt="" coords="699,985,764,1012"/>
+<area shape="rect" id="node17" title=" " alt="" coords="285,800,379,827"/>
+<area shape="rect" id="node18" title=" " alt="" coords="313,699,351,725"/>
+<area shape="rect" id="node20" title=" " alt="" coords="283,584,381,611"/>
+<area shape="rect" id="node24" title=" " alt="" coords="279,1065,385,1092"/>
+<area shape="rect" id="node25" title=" " alt="" coords="309,1015,355,1041"/>
+<area shape="rect" id="node26" title=" " alt="" coords="660,928,803,955"/>
+<area shape="rect" id="node28" title=" " alt="" coords="263,5,401,32"/>
 </map>

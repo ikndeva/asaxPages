@@ -1,5 +1,5 @@
 <map id="addChild" name="addChild">
 <area shape="rect" id="node1" title="新しい子供を追加する" alt="" coords="5,31,79,57"/>
-<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#aa7232c3fd7a09d8287be32ad607556b6" title="子として，型をもつ型項を追加する．" alt="" coords="127,5,277,32"/>
+<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#a85320b99175a1d605089eba8c470047f" title="子として，型をもつ型項を追加する．" alt="" coords="127,5,277,32"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node.html#a43b257b2ab32fc064fad0355c7dc327d" title="子供の数を返す." alt="" coords="155,56,249,83"/>
 </map>

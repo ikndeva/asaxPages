@@ -43,6 +43,7 @@ var NAVTREE =
     [ "Pretty: A pretty printer for Antlr4 parse tree and more.", "md_pretty__r_e_a_d_m_e.html", null ],
     [ "TOC: ./md", "md_toc.html", null ],
     [ "Todo List", "todo.html", null ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -69,15 +70,19 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_action_code_8java.html",
-"classast_1_1_ast_data_writer_1_1_writer_double.html",
-"classast_1_1_program.html#a31235693f479ea4df2da3ff442a9fe6b",
-"classevent_1_1_event_base.html#a6e2d9d727d518d17fe5eb05957a67a53",
-"classio_1_1_pooled_input_stream.html#a51f7f88a3f069512e66f4fdb2366ca8f",
-"classpretty_1_1_par.html",
-"classcmd_1_1_command_string_1_1_cmd_str_string_match.html#a3137357d0abb2bd75321d6e19024956a",
-"classutil_1_1_util.html#a9da6b41ff7ac866c1a208da33602fc7a",
-"functions_j.html",
-"classast_1_1_ast_data_reader_1_1_reader_get_elem.html"
+"classast_1_1_ast_data_writer_1_1_writer_string.html#ae1ba45bad2d2854e7378d5322c0c2c57",
+"classast_1_1_ast_scan_from.html#ad575d7d6c3a5a5994eaf580a1ee18bcc",
+"classcmd_1_1_command_base_1_1_cmd_jmp.html",
+"classevent_1_1_event_reader_base.html#a5b1b43ada87c7c0b16ef76866190b6b5",
+"classio_1_1_char_set.html#a8b260eecbaabcef8473fd87ada040682",
+"classparse_1_1_parse_table.html#a2e240bdecccf281d6e188d621165d1c8",
+"classparse_1_1query_parser.html#ada6afb97b9694127116b77ff6b9bbce7",
+"classparse_1_1query_parser_1_1_expr_context.html#abc1e85b405d1aa03fe54b0ced8ff8826",
+"classparse_1_1query_parser_1_1_str_mul_expr_context.html",
+"classtype_1_1_x_typing.html#a3137357d0abb2bd75321d6e19024956a",
+"classutil_1_1_string_buf.html#a6717c412a0340ea82783bba630b78937",
+"functions_p.html",
+"interfaceparse_1_1query_listener.html#aa382823ef677243e3726449803050324"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

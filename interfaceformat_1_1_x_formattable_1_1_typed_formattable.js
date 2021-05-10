@@ -1,4 +1,4 @@
 var interfaceformat_1_1_x_formattable_1_1_typed_formattable =
 [
-    [ "getTyping", "interfaceformat_1_1_x_formattable_1_1_typed_formattable.html#adfc6b93e5d1b92cba301a9a917fe372c", null ]
+    [ "typing", "interfaceformat_1_1_x_formattable_1_1_typed_formattable.html#a2ef381509e2e7abf437394ba4c53686c", null ]
 ];

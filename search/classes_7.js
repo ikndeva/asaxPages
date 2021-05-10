@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['homtyping_1144',['HomTyping',['../classtype_1_1_child_hom_typing_1_1_hom_typing.html',1,'type::ChildHomTyping']]]
+  ['homtyping_1409',['HomTyping',['../classtype_1_1_x_typing_1_1_hom_typing.html',1,'type::XTyping']]]
 ];

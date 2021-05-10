@@ -95,6 +95,11 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
+<h1>210509, Sun, 02:30-07:00, 4:30: 変数機構</h1>
+<p>変数機構の手直しをした．新しいVarとVarTableを，BlockBaseに組み込み，BlockとStepステップの呼び出し機構であるAstScanをこれに合わせて修正した．次に，変数関係のAstノードであるAstVar, AstVarDecl, AstAssignを再作成した．最終的にこれらを使うように，前処理のAstParserとAstNoceFactoryを修正した．</p>
+<ul>
+<li>machine: VarとVarTableを</li>
+</ul>
 <h1>210506 Thu, 25:30-</h1>
 <p>授業ビデオ作成が終わったので，すきま時間に，小さな手直しをした．</p>
 <h1>210505 Wed, 14:00-14:30 Algo, 19:30-20:00: 小手直し</h1>
@@ -129,7 +134,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <h1>210504 Tue, 17:00-29.30, 12h: メモリ機構の再実装</h1>
 <p>結局，XMachineのDescendant axisに関するCall機構の修正で，メモリがらみのバグが発生し，バグ取りに4時間近く費やした．結局は，Callクラスのメンバーの未整備など． d</p><ul>
 <li><a class="el" href="_ast_data_reader_8java.html">ast/AstDataReader.java</a>, <a class="el" href="_ast_data_writer_8java.html">AstDataWriter.java</a>: この二つの式の変数を用いた値の読み書きクラスの書き換えに，大半の時間がかかってしまった．</li>
-<li><a class="el" href="_ast_assign_8java.html">ast/AstAssign.java</a>: DataWriterの代わりに，代入式を用いることとしｔ．コンパイルの見通しはよくなったのではないか．</li>
+<li>ast/AstAssign.java: DataWriterの代わりに，代入式を用いることとしｔ．コンパイルの見通しはよくなったのではないか．</li>
 <li><a class="el" href="_x_c_adapt_8java.html">compile/XCAdapt.java</a>, <a class="el" href="_x_c_push_8java.html">XCPush.java</a>: 上記に関連して，コンパイラのクエリ変換文の描き直しも必要だった．</li>
 </ul>
 <p>変数をast.AstVarとframe.VarKeyに分離する．単一化情報&lt;tt&gt;XTypeItemは，<code>VarKey</code>には含めずに，ast.AstVarに保持させる．</p>
@@ -324,7 +329,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <li><a class="el" href="_ast_node_tagged_8java.html">ast/AstNodeTagged.java</a>: 明示的にタイプ配列<code>List&lt;XTypeItem&gt; types</code>を持たせて，タグと，タイプ，子のアクセッサ（getter）を一様に扱うようにした．</li>
 <li><a class="el" href="_x_formattable_8java.html">format/XFormattable.java</a>: インタフェース<code>Navigatable</code>に表示の昨日を集約し，<code>LabeledFormattable</code>と<code>Terminatable</code>を廃止した．</li>
 <li><a class="el" href="_node_formatter_simple_8java.html">format/NodeFormatterSimple.java</a>: インタフェースの簡略化に伴い，タグと型情報の表示方法を簡略にした．</li>
-<li><a class="el" href="_basic_typing_8java.html">type/BasicTyping.java</a>, <a class="el" href="_child_hom_typing_8java.html">ChildHomTyping.java</a>: <code>ChildHomTyping</code>を中心に，子型のアクセスと表示を再設計した．</li>
+<li>type/BasicTyping.java, ChildHomTyping.java: <code>ChildHomTyping</code>を中心に，子型のアクセスと表示を再設計した．</li>
 <li><a class="el" href="_sent_list_8java.html">ast/SentList.java</a>: ast/AstList.javaを，SentListに集約した. BlockとStepに関する式列は，SentListで扱うこととした．DataWrapperもAstlistの内部クラスとした．</li>
 <li><a class="el" href="_block_base_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">ast/BlockBase.java</a>, <a class="el" href="_block_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">Block.java</a>, <a class="el" href="_step_8java.html" title="190113: Renamed from StepExpr.java 180722: Separated from AstNode.java 180228: Modified by arim@ist....">Step.java</a>: BlockBaseを実質的な仮想クラスとして，BlockとStepのgetterを整備した．タグ名称も整理している．</li>
 <li>ast/*.java: AstNode（旧AstBranch）の子リストの型を<code>List&lt;Node&gt; children_</code>としたのに合わせて，パッケージastとcompile中に現れる大多数の<code>AstNode</code>型を，インタフェース<code>Node</code>型に置き換えた．パッケージparse中のノードの生成部分では，AstNodeの部分クラスの型スイッチを用いて扱うこととした．</li>
@@ -464,7 +469,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="line">  void addChildType(): 登録した型`xt1`を子の型として追加する．</div>
 <div class="line">}</div>
 </div><!-- fragment --><ul>
-<li>* type/XTyping.java: 型項を実装する．</li>
+<li>* <a class="el" href="_x_typing_8java.html">type/XTyping.java</a>: 型項を実装する．</li>
 </ul>
 <h1>210319 Fri, 18:00-20:00, 21:00-23:30, 4.5h: ScanFrom節の動的化．</h1>
 <p>ScanFrom節を，入力ストリーム指定の節に，任意の文字列項を許すようにリファクタリングした．実装中． 各種の構文要素を汎化して実装する試みとして行なった．</p>
@@ -582,7 +587,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="line">&lt;<a class="code" href="namespacetype.html">type</a> T&gt; AstLet : T { }     <span class="comment">//SentListに同じ</span></div>
 <div class="line">&lt;<a class="code" href="namespacetype.html">type</a> T&gt; AstAtom : T { }    <span class="comment">//Const </span></div>
 <div class="line">&lt;<a class="code" href="namespacetype.html">type</a> T&gt; AstNodeBranch : T { }  <span class="comment">//SentListの斉次版</span></div>
-<div class="ttc" id="anamespacetype_html"><div class="ttname"><a href="namespacetype.html">type</a></div><div class="ttdoc">値型のパッケージ</div><div class="ttdef"><b>Definition:</b> BasicTyping.java:4</div></div>
+<div class="ttc" id="anamespacetype_html"><div class="ttname"><a href="namespacetype.html">type</a></div><div class="ttdoc">値型のパッケージ</div><div class="ttdef"><b>Definition:</b> LowerJoinable.java:3</div></div>
 </div><!-- fragment --><h1>200817 Mon, 22:00-28:00, 6h: 抽象構文木の変換のノード自動割り当て</h1>
 <p>パッケージparseでは、次のパーザーノードのTASKタイプ</p>
 <ul>
@@ -800,7 +805,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="line">FROM : &#39;from&#39; ;  TO   : &#39;to&#39; ;  OPEN : &#39;open&#39; ;</div>
 <div class="line">DO_OR_GO  : DO | &#39;go&#39; ; DO  : &#39;do&#39; ; END  : &#39;end&#39; ; </div>
 </div><!-- fragment --></li>
-<li>ast.ScanFrom.java: クラス<code>ast.ScanFrom</code>を導入し、その子要素として用いる<code><a class="el" href="classast_1_1_ast_source.html" title="入力ストリームを表すノードのクラス">ast.AstSource</a></code>と部分クラス<code>AstInsConst</code>と<code>AstInsOpen</code>を導入した。それぞれ、stdinおよびファイルオープンに対応する。</li>
+<li>ast.ScanFrom.java: クラス<code>ast.ScanFrom</code>を導入し、その子要素として用いる<code><a class="el" href="classast_1_1_ast_source.html" title="入力ストリームを表すノードのクラス．">ast.AstSource</a></code>と部分クラス<code>AstInsConst</code>と<code>AstInsOpen</code>を導入した。それぞれ、stdinおよびファイルオープンに対応する。</li>
 <li>machine.XMachine.java: 手続き<code>void scanFromSource(InputStream ins, int rootID)</code>を追加した。これは、根クエリ<code>rootID</code>のもとで、与えられた入力ストリームを走査する。</li>
 <li>compile.XCompiler.java: コンパイル副手続きに上記の構文要素を追加した。また、<code>Step</code>に加えて、<code>BlockRule</code>も構文要素として受け付けるようにした。</li>
 <li>Match.java: 上記の更新した部品を組み込んだ。</li>
@@ -1073,7 +1078,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun May 9 2021 03:13:03 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 10 2021 12:23:16 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

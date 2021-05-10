@@ -327,33 +327,33 @@
 <g id="node18" class="node">
 <title>Node18</title>
 <g id="a_node18"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="545,-76.5 545,-95.5 621,-95.5 621,-76.5 545,-76.5"/>
-<text text-anchor="middle" x="583" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">List&lt; String &gt;</text>
+<polygon fill="white" stroke="#bfbfbf" points="544.5,-76.5 544.5,-95.5 621.5,-95.5 621.5,-76.5 544.5,-76.5"/>
+<text text-anchor="middle" x="583" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">List&lt; XItem &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node18&#45;&gt;Node1 -->
 <g id="edge23" class="edge">
 <title>Node18&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M631.17,-93.37C656.42,-97.53 688,-103.07 716,-109 723.67,-110.62 731.84,-112.54 739.61,-114.45"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="631.55,-89.88 621.12,-91.73 630.43,-96.79 631.55,-89.88"/>
-<text text-anchor="middle" x="699" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00"> fields</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M631.71,-93.46C656.87,-97.6 688.2,-103.11 716,-109 723.67,-110.62 731.84,-112.54 739.61,-114.45"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="632.12,-89.98 621.69,-91.82 631,-96.89 632.12,-89.98"/>
+<text text-anchor="middle" x="699" y="-112" font-family="Helvetica,sans-Serif" font-size="10.00"> types</text>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
 <g id="a_node19"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="534,-38.5 534,-57.5 632,-57.5 632,-38.5 534,-38.5"/>
-<text text-anchor="middle" x="583" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">List&lt; XTypeItem &gt;</text>
+<polygon fill="white" stroke="#bfbfbf" points="545,-38.5 545,-57.5 621,-57.5 621,-38.5 545,-38.5"/>
+<text text-anchor="middle" x="583" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">List&lt; String &gt;</text>
 </a>
 </g>
 </g>
 <!-- Node19&#45;&gt;Node1 -->
 <g id="edge24" class="edge">
 <title>Node19&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M640.08,-60C664.17,-66.3 692.19,-75.21 716,-87 732.45,-95.15 750.22,-106.45 762.12,-114.41"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="640.92,-56.6 630.37,-57.54 639.2,-63.39 640.92,-56.6"/>
-<text text-anchor="middle" x="699" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> types</text>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M631.07,-57.72C656.95,-64.08 689.16,-73.7 716,-87 732.45,-95.15 750.22,-106.45 762.12,-114.41"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="631.66,-54.26 621.13,-55.35 630.05,-61.07 631.66,-54.26"/>
+<text text-anchor="middle" x="699" y="-90" font-family="Helvetica,sans-Serif" font-size="10.00"> fields</text>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">

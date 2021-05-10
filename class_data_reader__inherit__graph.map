@@ -1,11 +1,6 @@
 <map id="DataReader" name="DataReader">
-<area shape="rect" id="node1" title=" " alt="" coords="5,81,97,108"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_data_reader_1_1_ast_get_text.html" title=" " alt="" coords="159,5,340,32"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_data_reader_1_1_get_system_var.html" title=" " alt="" coords="149,56,349,83"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_data_reader_1_1_reader_get_elem.html" title=" " alt="" coords="145,107,353,133"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_data_reader_1_1_reader_type.html" title="フレームスタックから参照が示す値を読み出すクラス" alt="" coords="157,157,342,184"/>
-<area shape="rect" id="node6" href="$classast_1_1_ast_data_reader_1_1_reader_boolean.html" title="ブール型の値をもつ参照読み出し" alt="" coords="401,81,605,108"/>
-<area shape="rect" id="node7" href="$classast_1_1_ast_data_reader_1_1_reader_double.html" title="倍精度実数型の値をもつ参照読み出しの呼び出し" alt="" coords="404,132,603,159"/>
-<area shape="rect" id="node8" href="$classast_1_1_ast_data_reader_1_1_reader_integer.html" title="整数型の値をもつ参照読み出しの呼び出し" alt="" coords="405,183,602,209"/>
-<area shape="rect" id="node9" href="$classast_1_1_ast_data_reader_1_1_reader_string.html" title="文字列型の値をもつ参照読み出し" alt="" coords="408,233,599,260"/>
+<area shape="rect" id="node1" title=" " alt="" coords="270,5,362,32"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_data_reader_1_1_ast_get_elem.html" title=" " alt="" coords="5,80,192,107"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_data_reader_1_1_ast_get_sys_var.html" title=" " alt="" coords="217,80,415,107"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_data_reader_1_1_ast_get_text.html" title=" " alt="" coords="440,80,621,107"/>
 </map>

@@ -1,6 +1,5 @@
 var namespaceast =
 [
-    [ "AstAssign", "classast_1_1_ast_assign.html", "classast_1_1_ast_assign" ],
     [ "AstBreak", "classast_1_1_ast_break.html", "classast_1_1_ast_break" ],
     [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
     [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
@@ -28,6 +27,7 @@ var namespaceast =
     [ "AstTag", "classast_1_1_ast_tag.html", "classast_1_1_ast_tag" ],
     [ "AstTemplate", "classast_1_1_ast_template.html", "classast_1_1_ast_template" ],
     [ "AstVar", "classast_1_1_ast_var.html", "classast_1_1_ast_var" ],
+    [ "AstVarAssign", "classast_1_1_ast_var_assign.html", "classast_1_1_ast_var_assign" ],
     [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ],
     [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
     [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],

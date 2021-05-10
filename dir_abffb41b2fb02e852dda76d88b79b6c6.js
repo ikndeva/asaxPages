@@ -1,9 +1,6 @@
 var dir_abffb41b2fb02e852dda76d88b79b6c6 =
 [
     [ "hide", "dir_d987028995888962cce6864581e3c653.html", "dir_d987028995888962cce6864581e3c653" ],
-    [ "AstAssign.java", "_ast_assign_8java.html", [
-      [ "AstAssign", "classast_1_1_ast_assign.html", "classast_1_1_ast_assign" ]
-    ] ],
     [ "AstConverter.java", "_ast_converter_8java.html", [
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstConv", "classast_1_1_ast_converter_1_1_ast_conv.html", "classast_1_1_ast_converter_1_1_ast_conv" ],
@@ -16,15 +13,10 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     ] ],
     [ "AstDataReader.java", "_ast_data_reader_8java.html", [
       [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
-      [ "ReaderType", "classast_1_1_ast_data_reader_1_1_reader_type.html", "classast_1_1_ast_data_reader_1_1_reader_type" ],
       [ "AstVarReader", "classast_1_1_ast_data_reader_1_1_ast_var_reader.html", "classast_1_1_ast_data_reader_1_1_ast_var_reader" ],
-      [ "ReaderBoolean", "classast_1_1_ast_data_reader_1_1_reader_boolean.html", "classast_1_1_ast_data_reader_1_1_reader_boolean" ],
-      [ "ReaderInteger", "classast_1_1_ast_data_reader_1_1_reader_integer.html", "classast_1_1_ast_data_reader_1_1_reader_integer" ],
-      [ "ReaderDouble", "classast_1_1_ast_data_reader_1_1_reader_double.html", "classast_1_1_ast_data_reader_1_1_reader_double" ],
-      [ "ReaderString", "classast_1_1_ast_data_reader_1_1_reader_string.html", "classast_1_1_ast_data_reader_1_1_reader_string" ],
       [ "AstGetText", "classast_1_1_ast_data_reader_1_1_ast_get_text.html", "classast_1_1_ast_data_reader_1_1_ast_get_text" ],
-      [ "ReaderGetElem", "classast_1_1_ast_data_reader_1_1_reader_get_elem.html", "classast_1_1_ast_data_reader_1_1_reader_get_elem" ],
-      [ "GetSystemVar", "classast_1_1_ast_data_reader_1_1_get_system_var.html", "classast_1_1_ast_data_reader_1_1_get_system_var" ]
+      [ "AstGetElem", "classast_1_1_ast_data_reader_1_1_ast_get_elem.html", "classast_1_1_ast_data_reader_1_1_ast_get_elem" ],
+      [ "AstGetSysVar", "classast_1_1_ast_data_reader_1_1_ast_get_sys_var.html", "classast_1_1_ast_data_reader_1_1_ast_get_sys_var" ]
     ] ],
     [ "AstDataWrapper.java", "_ast_data_wrapper_8java.html", [
       [ "AstDataWrapper", "classast_1_1_ast_data_wrapper.html", "classast_1_1_ast_data_wrapper" ]
@@ -116,6 +108,9 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     ] ],
     [ "AstVar.java", "_ast_var_8java.html", [
       [ "AstVar", "classast_1_1_ast_var.html", "classast_1_1_ast_var" ]
+    ] ],
+    [ "AstVarAssign.java", "_ast_var_assign_8java.html", [
+      [ "AstVarAssign", "classast_1_1_ast_var_assign.html", "classast_1_1_ast_var_assign" ]
     ] ],
     [ "AstVarDecl.java", "_ast_var_decl_8java.html", [
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ]

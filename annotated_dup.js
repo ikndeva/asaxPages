@@ -6,7 +6,6 @@ var annotated_dup =
       [ "StreamBuilder", "classapp_1_1_stream_builder.html", "classapp_1_1_stream_builder" ]
     ] ],
     [ "ast", "namespaceast.html", [
-      [ "AstAssign", "classast_1_1_ast_assign.html", "classast_1_1_ast_assign" ],
       [ "AstBreak", "classast_1_1_ast_break.html", "classast_1_1_ast_break" ],
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
@@ -34,6 +33,7 @@ var annotated_dup =
       [ "AstTag", "classast_1_1_ast_tag.html", "classast_1_1_ast_tag" ],
       [ "AstTemplate", "classast_1_1_ast_template.html", "classast_1_1_ast_template" ],
       [ "AstVar", "classast_1_1_ast_var.html", "classast_1_1_ast_var" ],
+      [ "AstVarAssign", "classast_1_1_ast_var_assign.html", "classast_1_1_ast_var_assign" ],
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", "classast_1_1_ast_var_decl" ],
       [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
       [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
@@ -174,7 +174,11 @@ var annotated_dup =
       [ "AstParser", "classparse_1_1_ast_parser.html", "classparse_1_1_ast_parser" ],
       [ "Parsable", "interfaceparse_1_1_parsable.html", "interfaceparse_1_1_parsable" ],
       [ "ParseTable", "classparse_1_1_parse_table.html", "classparse_1_1_parse_table" ],
-      [ "PNodePrinter", "classparse_1_1_p_node_printer.html", "classparse_1_1_p_node_printer" ]
+      [ "PNodePrinter", "classparse_1_1_p_node_printer.html", "classparse_1_1_p_node_printer" ],
+      [ "queryBaseListener", "classparse_1_1query_base_listener.html", "classparse_1_1query_base_listener" ],
+      [ "queryLexer", "classparse_1_1query_lexer.html", "classparse_1_1query_lexer" ],
+      [ "queryListener", "interfaceparse_1_1query_listener.html", "interfaceparse_1_1query_listener" ],
+      [ "queryParser", "classparse_1_1query_parser.html", "classparse_1_1query_parser" ]
     ] ],
     [ "pretty", "namespacepretty.html", [
       [ "CharSet", "classpretty_1_1_char_set.html", "classpretty_1_1_char_set" ],
@@ -185,14 +189,13 @@ var annotated_dup =
       [ "Tmpl", "classtmpl_1_1_tmpl.html", null ]
     ] ],
     [ "type", "namespacetype.html", [
-      [ "BasicTyping", "classtype_1_1_basic_typing.html", "classtype_1_1_basic_typing" ],
-      [ "ChildHomTyping", "classtype_1_1_child_hom_typing.html", "classtype_1_1_child_hom_typing" ],
       [ "LowerJoinable", "interfacetype_1_1_lower_joinable.html", "interfacetype_1_1_lower_joinable" ],
       [ "TestIsInstance", "classtype_1_1_test_is_instance.html", "classtype_1_1_test_is_instance" ],
       [ "Typable", "interfacetype_1_1_typable.html", "interfacetype_1_1_typable" ],
       [ "UnionFindItem", "classtype_1_1_union_find_item.html", "classtype_1_1_union_find_item" ],
+      [ "XItem", "classtype_1_1_x_item.html", "classtype_1_1_x_item" ],
       [ "XType", "enumtype_1_1_x_type.html", "enumtype_1_1_x_type" ],
-      [ "XTypeItem", "classtype_1_1_x_type_item.html", "classtype_1_1_x_type_item" ]
+      [ "XTyping", "classtype_1_1_x_typing.html", "classtype_1_1_x_typing" ]
     ] ],
     [ "util", "namespaceutil.html", [
       [ "ArgTest", "classutil_1_1_arg_test.html", "classutil_1_1_arg_test" ],
@@ -222,7 +225,6 @@ var annotated_dup =
       [ "Util", "classutil_1_1_util.html", "classutil_1_1_util" ],
       [ "YamlBuf", "classutil_1_1_yaml_buf.html", "classutil_1_1_yaml_buf" ]
     ] ],
-    [ "ArrayList", "class_array_list.html", null ],
     [ "Assignable", "class_assignable.html", null ],
     [ "BufferedTextWriter", "class_buffered_text_writer.html", "class_buffered_text_writer" ],
     [ "CmdLoad", "class_cmd_load.html", null ],
@@ -235,7 +237,7 @@ var annotated_dup =
     [ "Exception", "class_exception.html", null ],
     [ "FilterOutputStream", "class_filter_output_stream.html", null ],
     [ "Iterable", "class_iterable.html", null ],
-    [ "Iterator", "class_iterator.html", null ],
+    [ "Parser", "class_parser.html", null ],
     [ "RuntimeException", "class_runtime_exception.html", null ],
     [ "XFormList", "class_x_form_list.html", null ]
 ];

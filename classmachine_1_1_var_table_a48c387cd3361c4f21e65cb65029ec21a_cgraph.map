@@ -1,8 +1,12 @@
 <map id="lookupVariable" name="lookupVariable">
-<area shape="rect" id="node1" title="与えられた名前をもつ変数を記号表で見つけて返し， もし見つからなければ，Universe.createVariable(name)で， 最汎型をもつ新しい変数を生成して返す．" alt="" coords="5,55,112,81"/>
-<area shape="rect" id="node2" href="$classmachine_1_1_var.html#a8823a0c472dfe4cda24d22d9c15fed96" title="データ型を返す．" alt="" coords="160,29,275,56"/>
-<area shape="rect" id="node6" href="$classast_1_1_program.html#a31235693f479ea4df2da3ff442a9fe6b" title="名前のカタログを返す．" alt="" coords="160,80,275,107"/>
-<area shape="rect" id="node3" href="$classtype_1_1_x_type_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="323,29,452,56"/>
-<area shape="rect" id="node4" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="707,29,868,56"/>
-<area shape="rect" id="node5" href="$classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b" title="この元の同値類がもつT型の値を返す。" alt="" coords="500,55,659,81"/>
+<area shape="rect" id="node1" title="与えられた名前をもつ変数を記号表で見つけて返し， もし見つからなければ，Universe.createVariable(name)で， 最汎型をもつ新しい変数を生成して返す．" alt="" coords="5,97,112,123"/>
+<area shape="rect" id="node2" href="$classast_1_1_program.html#a31235693f479ea4df2da3ff442a9fe6b" title="名前のカタログを返す．" alt="" coords="162,71,277,98"/>
+<area shape="rect" id="node3" href="$classtype_1_1_x_item.html#a1c69cd4da10ab8ef099bb4789b254540" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="160,122,279,149"/>
+<area shape="rect" id="node4" href="$enumtype_1_1_x_type.html#abe8a03a20cb3fc094301b80f85ba67d1" title="値型xt0と値型xt1の最小上界xtを返す。" alt="" coords="327,5,504,47"/>
+<area shape="rect" id="node5" href="$enumtype_1_1_x_type.html#a299033fd07237d997de10296fa5283ab" title="型thisが型thatと同じか小さな半順序をもつ（less than or equal to）ならばtrueを返し、そうでなければ false を返す。" alt="" coords="583,35,692,62"/>
+<area shape="rect" id="node6" href="$classtype_1_1_union_find_item.html#a253d934a597030faf6849c7461d33b77" title="この元の同値類がもつT型の値を、指定した値に設定する。" alt="" coords="336,122,495,149"/>
+<area shape="rect" id="node8" href="$classtype_1_1_x_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="365,173,466,199"/>
+<area shape="rect" id="node10" href="$classtype_1_1_union_find_item.html#a5d2f3e9121ceab808329981e2daed56d" title="自身の同値類と与えられた元の同値類を併合して、代表元を返す。" alt="" coords="552,261,723,287"/>
+<area shape="rect" id="node7" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="771,185,932,211"/>
+<area shape="rect" id="node9" href="$classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b" title="この元の同値類がもつT型の値を返す。" alt="" coords="558,210,717,237"/>
 </map>

@@ -7,7 +7,6 @@ var classast_1_1_ast_node_base =
     [ "setTraceLevel", "classast_1_1_ast_node_base.html#a5ee76fa7838c812586b164533a3fe538", null ],
     [ "errorInstanceof", "classast_1_1_ast_node_base.html#acd8f00c573eed0a9573d251c42ed77b5", null ],
     [ "errorInstanceof", "classast_1_1_ast_node_base.html#a6866dd5dd77eeee5137cb7940a6bfb42", null ],
-    [ "getTyping", "classast_1_1_ast_node_base.html#adfc6b93e5d1b92cba301a9a917fe372c", null ],
     [ "typing", "classast_1_1_ast_node_base.html#a2ef381509e2e7abf437394ba4c53686c", null ],
     [ "setTyping", "classast_1_1_ast_node_base.html#aed6db9b1a090bf62aabaddc10337f242", null ],
     [ "setTyping", "classast_1_1_ast_node_base.html#a77dbbc9766a1eaeb4425249179f5bc1e", null ],
