@@ -13,15 +13,8 @@ var classast_1_1_step =
     [ "setPath", "classast_1_1_step.html#a3777ce75633431ce97e8371b861cf559", null ],
     [ "getTag", "classast_1_1_step.html#ae12384104de0528e519bbb9c5643ec6b", null ],
     [ "hasDescendantAxis", "classast_1_1_step.html#abcc3b86251e2f3bd15d36c021ecfa40a", null ],
-    [ "hasCalls", "classast_1_1_step.html#af5bd4862c608b58acd2487d6d22b55cb", null ],
-    [ "getCalls", "classast_1_1_step.html#a37238a58bc6e053aeb2d537488901584", null ],
-    [ "getCallMask", "classast_1_1_step.html#a47cf57ec96efe77123f112236a16bd25", null ],
-    [ "getSents", "classast_1_1_step.html#a0d8844794ffd144ecc2c5534b3a68caf", null ],
-    [ "setSents", "classast_1_1_step.html#a207aae9f2d81a1e32b268a226d801c44", null ],
-    [ "addSents", "classast_1_1_step.html#a8a29896fa48f9a4b6eddbbf31a7b6c8e", null ],
-    [ "getPreCode", "classast_1_1_step.html#a16280aaf8f7a41caa066b0f1d287dd71", null ],
     [ "gencode", "classast_1_1_step.html#a383612fb2c1d291f6f3f9c352a5cb262", null ],
-    [ "DEBUG_REPO", "classast_1_1_step.html#a6076d0e7976affa52a7df59f19db45c1", null ],
-    [ "sents_", "classast_1_1_step.html#a630fd8aa4a1fe7cf418cc6f3bb8465e9", null ],
-    [ "pre_code_", "classast_1_1_step.html#aeb53d025e9757881bfe87a82c2508385", null ]
+    [ "toStr", "classast_1_1_step.html#a76f0e577c1ccab0026ada08ac4256887", null ],
+    [ "toString", "classast_1_1_step.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "DEBUG_REPO", "classast_1_1_step.html#a6076d0e7976affa52a7df59f19db45c1", null ]
 ];

@@ -1,8 +1,8 @@
 var searchData=
 [
   ['leq_2144',['leq',['../interfacetype_1_1_lower_joinable.html#ab6526a33cc50aa64c3aee41d34fbe9a3',1,'type.LowerJoinable.leq()'],['../enumtype_1_1_x_type.html#a299033fd07237d997de10296fa5283ab',1,'type.XType.leq()']]],
-  ['level_2145',['LEVEL',['../classutil_1_1_trace_level.html#a163bdc94e3e530c147c8fcd59f9f01f4',1,'util.TraceLevel.LEVEL(String mod_name, Level lv)'],['../classutil_1_1_trace_level.html#a62205b80cb936cb8f13f6a31afd2c9e0',1,'util.TraceLevel.LEVEL(Level lv)'],['../classutil_1_1_trace_level.html#a4f0794f4090cc81a130944d5cd01707a',1,'util.TraceLevel.LEVEL()']]],
-  ['level_2146',['level',['../classframe_1_1_level_stack.html#a7664c6468fca1d781ab860789f333634',1,'frame::LevelStack']]],
+  ['level_2145',['level',['../classframe_1_1_level_stack.html#a7664c6468fca1d781ab860789f333634',1,'frame::LevelStack']]],
+  ['level_2146',['LEVEL',['../classutil_1_1_trace_level.html#a163bdc94e3e530c147c8fcd59f9f01f4',1,'util.TraceLevel.LEVEL(String mod_name, Level lv)'],['../classutil_1_1_trace_level.html#a62205b80cb936cb8f13f6a31afd2c9e0',1,'util.TraceLevel.LEVEL(Level lv)'],['../classutil_1_1_trace_level.html#a4f0794f4090cc81a130944d5cd01707a',1,'util.TraceLevel.LEVEL()']]],
   ['lift_2147',['lift',['../classtype_1_1_x_item.html#a8f3ab9d29a49a3c79ee1d258d2d0b613',1,'type::XItem']]],
   ['liftable_2148',['liftable',['../classtype_1_1_x_item.html#a14d03fd612a033d16306576e10febe7a',1,'type::XItem']]],
   ['line_2149',['line',['../classutil_1_1_foldable_string_buf.html#ac0544cb00ffba355dfe72d6a4044e78c',1,'util::FoldableStringBuf']]],

@@ -13,7 +13,7 @@ var searchData=
   ['debug3_321',['DEBUG3',['../enumutil_1_1_trace_level_1_1_level.html#af1a1099a5badda1d91ad47321f3b4a4e',1,'util::TraceLevel::Level']]],
   ['declcontext_322',['DeclContext',['../classparse_1_1query_parser_1_1_decl_context.html',1,'parse::queryParser']]],
   ['default_5fbufsize_323',['DEFAULT_BUFSIZE',['../class_buffered_text_writer.html#a5edc6c0bbec88476d26f30db561308dd',1,'BufferedTextWriter']]],
-  ['deletepresent_324',['deletePreSent',['../classcompile_1_1_x_compiler.html#a8d598c7e1cb5bc2b36f210cfcc70fe9a',1,'compile::XCompiler']]],
+  ['deletepresents_324',['deletePreSents',['../classcompile_1_1_x_compiler.html#add5d6ced4b23ab1bcbfa53bcd813ebc3',1,'compile::XCompiler']]],
   ['deprecated_20list_325',['Deprecated List',['../deprecated.html',1,'']]],
   ['depth_326',['DEPTH',['../classevent_1_1_env.html#a866914c347eb15d0913ada73b9e8c99b',1,'event.Env.DEPTH()'],['../classevent_1_1_event_reader_base_1_1_var.html#a36a0a02a464550239f1b46c6fda6c681',1,'event.EventReaderBase.Var.DEPTH()']]],
   ['desctagexprmidcontext_327',['DescTagExprMidContext',['../classparse_1_1query_parser_1_1_desc_tag_expr_mid_context.html',1,'parse::queryParser']]],

@@ -111,6 +111,7 @@ var NAVTREEINDEX0 =
 "_string_buf_8java.html":[21,0,12,16],
 "_string_holder_8java.html":[21,0,6,8],
 "_style_8java.html":[21,0,5,3],
+"":[19,0,4,1],
 "_system_readable_8java.html":[21,0,8,14],
 "_system_scope_8java.html":[21,0,8,15],
 "_tag_mask_map_8java.html":[21,0,8,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "classast_1_1_ast_data_writer_1_1_writer_o_stream.html#a3137357d0abb2bd75321d6e19024956a":[20,0,1,4,3,1],
 "classast_1_1_ast_data_writer_1_1_writer_o_stream.html#abc667713cbfd5a8d723d9124222f0928":[20,0,1,4,3,0],
 "classast_1_1_ast_data_writer_1_1_writer_o_stream.html#ae1ba45bad2d2854e7378d5322c0c2c57":[20,0,1,4,3,2],
-"classast_1_1_ast_data_writer_1_1_writer_string.html":[20,0,1,4,4],
-"classast_1_1_ast_data_writer_1_1_writer_string.html#a390cb262f2660c2c9fb1fedb9f86a4f3":[20,0,1,4,4,0]
+"classast_1_1_ast_data_writer_1_1_writer_string.html":[20,0,1,4,4]
 };

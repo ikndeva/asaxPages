@@ -3,6 +3,7 @@ var interfaceast_1_1_node =
     [ "DataReader", "interfaceast_1_1_node_1_1_data_reader.html", null ],
     [ "DataWriter", "interfaceast_1_1_node_1_1_data_writer.html", null ],
     [ "NodeUnary", "interfaceast_1_1_node_1_1_node_unary.html", "interfaceast_1_1_node_1_1_node_unary" ],
+    [ "getType", "interfaceast_1_1_node.html#a4c4a1e79240584e1a79286583c9e14db", null ],
     [ "typing", "interfaceast_1_1_node.html#a2ef381509e2e7abf437394ba4c53686c", null ],
     [ "data", "interfaceast_1_1_node.html#a3137357d0abb2bd75321d6e19024956a", null ],
     [ "notToEmit", "interfaceast_1_1_node.html#a9bdb4531eee4ea10fafba49383ab366f", null ],

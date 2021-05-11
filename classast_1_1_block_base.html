@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('classast_1_1_block_base.html',''); ini
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classast_1_1_block_base-members.html">List of all members</a>  </div>
@@ -115,6 +116,20 @@ Collaboration diagram for BlockBase:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a43b257b2ab32fc064fad0355c7dc327d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a43b257b2ab32fc064fad0355c7dc327d">numChildren</a> ()</td></tr>
+<tr class="memdesc:a43b257b2ab32fc064fad0355c7dc327d"><td class="mdescLeft">&#160;</td><td class="mdescRight">子供の数を返す.  <a href="classast_1_1_block_base.html#a43b257b2ab32fc064fad0355c7dc327d">More...</a><br /></td></tr>
+<tr class="separator:a43b257b2ab32fc064fad0355c7dc327d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d53cdd86285e56b69cfedc5ef28580"><td class="memItemLeft" align="right" valign="top"><a id="a35d53cdd86285e56b69cfedc5ef28580"></a>
+<a class="el" href="interfaceast_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a35d53cdd86285e56b69cfedc5ef28580">getChild</a> (int i)</td></tr>
+<tr class="memdesc:a35d53cdd86285e56b69cfedc5ef28580"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>i</code>番目の子供を返す. <br /></td></tr>
+<tr class="separator:a35d53cdd86285e56b69cfedc5ef28580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63feddcf43f258e86f5634e42cc57bb7"><td class="memItemLeft" align="right" valign="top"><a id="a63feddcf43f258e86f5634e42cc57bb7"></a>
+<a class="el" href="classast_1_1_ast_node.html">AstNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a63feddcf43f258e86f5634e42cc57bb7">setChild</a> (int i, <a class="el" href="interfaceast_1_1_node.html">Node</a> child)</td></tr>
+<tr class="memdesc:a63feddcf43f258e86f5634e42cc57bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>i</code>番目の子供をセットする. <br /></td></tr>
+<tr class="separator:a63feddcf43f258e86f5634e42cc57bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00381c4deb764988e4b742d046000fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classast_1_1_ast_node.html">AstNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#af00381c4deb764988e4b742d046000fc">addChild</a> (<a class="el" href="interfaceast_1_1_node.html">Node</a> child)</td></tr>
+<tr class="memdesc:af00381c4deb764988e4b742d046000fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">新しい子供を追加する  <a href="classast_1_1_block_base.html#af00381c4deb764988e4b742d046000fc">More...</a><br /></td></tr>
+<tr class="separator:af00381c4deb764988e4b742d046000fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a165cb47299116844523fe137fc019930"><td class="memItemLeft" align="right" valign="top"><a id="a165cb47299116844523fe137fc019930"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a165cb47299116844523fe137fc019930">getFun</a> ()</td></tr>
 <tr class="memdesc:a165cb47299116844523fe137fc019930"><td class="mdescLeft">&#160;</td><td class="mdescRight">ブロックIDを返す． <br /></td></tr>
@@ -122,13 +137,32 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memitem:aaf42e9d468fbca6e31b6620cf1c68ea2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmachine_1_1_var_table.html">VarTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#aaf42e9d468fbca6e31b6620cf1c68ea2">getVarTable</a> ()</td></tr>
 <tr class="memdesc:aaf42e9d468fbca6e31b6620cf1c68ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">変数リストを返す．  <a href="classast_1_1_block_base.html#aaf42e9d468fbca6e31b6620cf1c68ea2">More...</a><br /></td></tr>
 <tr class="separator:aaf42e9d468fbca6e31b6620cf1c68ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbaa59a6766021c60bcfd22f20d65d38"><td class="memItemLeft" align="right" valign="top"><a id="acbaa59a6766021c60bcfd22f20d65d38"></a>
-<a class="el" href="classast_1_1_sent_list.html">SentList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getPreSent</b> ()</td></tr>
-<tr class="separator:acbaa59a6766021c60bcfd22f20d65d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e734b22a4484c01fb1480cce765fe9e"><td class="memItemLeft" align="right" valign="top"><a id="a7e734b22a4484c01fb1480cce765fe9e"></a>
-<a class="el" href="classast_1_1_block_base.html">BlockBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a7e734b22a4484c01fb1480cce765fe9e">setPreSent</a> (<a class="el" href="interfaceast_1_1_node.html">Node</a> steps)</td></tr>
-<tr class="memdesc:a7e734b22a4484c01fb1480cce765fe9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ノードを<code>sub</code>にセットする． <br /></td></tr>
-<tr class="separator:a7e734b22a4484c01fb1480cce765fe9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5bd4862c608b58acd2487d6d22b55cb"><td class="memItemLeft" align="right" valign="top"><a id="af5bd4862c608b58acd2487d6d22b55cb"></a>
+boolean&#160;</td><td class="memItemRight" valign="bottom"><b>hasCalls</b> ()</td></tr>
+<tr class="separator:af5bd4862c608b58acd2487d6d22b55cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37238a58bc6e053aeb2d537488901584"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmachine_1_1_call_list.html">CallList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a37238a58bc6e053aeb2d537488901584">getCalls</a> ()</td></tr>
+<tr class="memdesc:a37238a58bc6e053aeb2d537488901584"><td class="mdescLeft">&#160;</td><td class="mdescRight">呼び出しリストを返す．  <a href="classast_1_1_block_base.html#a37238a58bc6e053aeb2d537488901584">More...</a><br /></td></tr>
+<tr class="separator:a37238a58bc6e053aeb2d537488901584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47cf57ec96efe77123f112236a16bd25"><td class="memItemLeft" align="right" valign="top"><a id="a47cf57ec96efe77123f112236a16bd25"></a>
+long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a47cf57ec96efe77123f112236a16bd25">getCallMask</a> ()</td></tr>
+<tr class="memdesc:a47cf57ec96efe77123f112236a16bd25"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビットマスクchildbitsを返す. <br /></td></tr>
+<tr class="separator:a47cf57ec96efe77123f112236a16bd25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd7c51e662fb36524eeb4fa7bf77febe"><td class="memItemLeft" align="right" valign="top"><a id="acd7c51e662fb36524eeb4fa7bf77febe"></a>
+<a class="el" href="classast_1_1_sent_list.html">SentList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getPreSents</b> ()</td></tr>
+<tr class="separator:acd7c51e662fb36524eeb4fa7bf77febe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481be8be5527d5856f39df73bceb5eae"><td class="memItemLeft" align="right" valign="top"><a id="a481be8be5527d5856f39df73bceb5eae"></a>
+<a class="el" href="classast_1_1_block_base.html">BlockBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a481be8be5527d5856f39df73bceb5eae">setPreSents</a> (<a class="el" href="interfaceast_1_1_node.html">Node</a> steps)</td></tr>
+<tr class="memdesc:a481be8be5527d5856f39df73bceb5eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">ノードを<code>sub</code>にセットする． <br /></td></tr>
+<tr class="separator:a481be8be5527d5856f39df73bceb5eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d8844794ffd144ecc2c5534b3a68caf"><td class="memItemLeft" align="right" valign="top"><a id="a0d8844794ffd144ecc2c5534b3a68caf"></a>
+<a class="el" href="classast_1_1_sent_list.html">SentList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getSents</b> ()</td></tr>
+<tr class="separator:a0d8844794ffd144ecc2c5534b3a68caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdbe13a78a45e6d89c489ab7b5f02c44"><td class="memItemLeft" align="right" valign="top"><a id="acdbe13a78a45e6d89c489ab7b5f02c44"></a>
+<a class="el" href="classast_1_1_block_base.html">BlockBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>setSents</b> (<a class="el" href="interfaceast_1_1_node.html">Node</a> node)</td></tr>
+<tr class="separator:acdbe13a78a45e6d89c489ab7b5f02c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16280aaf8f7a41caa066b0f1d287dd71"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a16280aaf8f7a41caa066b0f1d287dd71">getPreCode</a> ()</td></tr>
+<tr class="memdesc:a16280aaf8f7a41caa066b0f1d287dd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">ステップのpreコードを返す．  <a href="classast_1_1_block_base.html#a16280aaf8f7a41caa066b0f1d287dd71">More...</a><br /></td></tr>
+<tr class="separator:a16280aaf8f7a41caa066b0f1d287dd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afacff3686e7836aaf769880cb9a515fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#afacff3686e7836aaf769880cb9a515fd">getCode</a> ()</td></tr>
 <tr class="memdesc:afacff3686e7836aaf769880cb9a515fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">ステップのpostコードを返す．  <a href="classast_1_1_block_base.html#afacff3686e7836aaf769880cb9a515fd">More...</a><br /></td></tr>
 <tr class="separator:afacff3686e7836aaf769880cb9a515fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,21 +249,6 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_ast_node.html#a9bdb4531eee4ea10fafba49383ab366f">notToEmit</a> ()</td></tr>
 <tr class="memdesc:a9bdb4531eee4ea10fafba49383ab366f inherit pub_methods_classast_1_1_ast_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">表示しなくて良い空ノードかを返す述語。interface XFormattableで必要。 <br /></td></tr>
 <tr class="separator:a9bdb4531eee4ea10fafba49383ab366f inherit pub_methods_classast_1_1_ast_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b257b2ab32fc064fad0355c7dc327d inherit pub_methods_classast_1_1_ast_node"><td class="memItemLeft" align="right" valign="top"><a id="a43b257b2ab32fc064fad0355c7dc327d"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_ast_node.html#a43b257b2ab32fc064fad0355c7dc327d">numChildren</a> ()</td></tr>
-<tr class="memdesc:a43b257b2ab32fc064fad0355c7dc327d inherit pub_methods_classast_1_1_ast_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">子供の数を返す. <br /></td></tr>
-<tr class="separator:a43b257b2ab32fc064fad0355c7dc327d inherit pub_methods_classast_1_1_ast_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35d53cdd86285e56b69cfedc5ef28580 inherit pub_methods_classast_1_1_ast_node"><td class="memItemLeft" align="right" valign="top"><a id="a35d53cdd86285e56b69cfedc5ef28580"></a>
-<a class="el" href="interfaceast_1_1_node.html">Node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_ast_node.html#a35d53cdd86285e56b69cfedc5ef28580">getChild</a> (int i)</td></tr>
-<tr class="memdesc:a35d53cdd86285e56b69cfedc5ef28580 inherit pub_methods_classast_1_1_ast_node"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>i</code>番目の子供を返す. <br /></td></tr>
-<tr class="separator:a35d53cdd86285e56b69cfedc5ef28580 inherit pub_methods_classast_1_1_ast_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63feddcf43f258e86f5634e42cc57bb7 inherit pub_methods_classast_1_1_ast_node"><td class="memItemLeft" align="right" valign="top"><a id="a63feddcf43f258e86f5634e42cc57bb7"></a>
-<a class="el" href="classast_1_1_ast_node.html">AstNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_ast_node.html#a63feddcf43f258e86f5634e42cc57bb7">setChild</a> (int i, <a class="el" href="interfaceast_1_1_node.html">Node</a> child)</td></tr>
-<tr class="memdesc:a63feddcf43f258e86f5634e42cc57bb7 inherit pub_methods_classast_1_1_ast_node"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>i</code>番目の子供をセットする. <br /></td></tr>
-<tr class="separator:a63feddcf43f258e86f5634e42cc57bb7 inherit pub_methods_classast_1_1_ast_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af00381c4deb764988e4b742d046000fc inherit pub_methods_classast_1_1_ast_node"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classast_1_1_ast_node.html">AstNode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_ast_node.html#af00381c4deb764988e4b742d046000fc">addChild</a> (<a class="el" href="interfaceast_1_1_node.html">Node</a> child)</td></tr>
-<tr class="memdesc:af00381c4deb764988e4b742d046000fc inherit pub_methods_classast_1_1_ast_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">新しい子供を追加する  <a href="classast_1_1_ast_node.html#af00381c4deb764988e4b742d046000fc">More...</a><br /></td></tr>
-<tr class="separator:af00381c4deb764988e4b742d046000fc inherit pub_methods_classast_1_1_ast_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9331171af3343310531cd0bfae168f9 inherit pub_methods_classast_1_1_ast_node"><td class="memItemLeft" align="right" valign="top"><a id="aa9331171af3343310531cd0bfae168f9"></a>
 String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_ast_node.html#aa9331171af3343310531cd0bfae168f9">qstring</a> ()</td></tr>
 <tr class="memdesc:aa9331171af3343310531cd0bfae168f9 inherit pub_methods_classast_1_1_ast_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">クエリ表現の文字列（psring）を返す. 入り口. <br /></td></tr>
@@ -273,6 +292,12 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="in
 <tr class="memdesc:a76f0e577c1ccab0026ada08ac4256887 inherit pub_methods_interfacemachine_1_1_var_holdable"><td class="mdescLeft">&#160;</td><td class="mdescRight">文字列表現を返す。 <br /></td></tr>
 <tr class="separator:a76f0e577c1ccab0026ada08ac4256887 inherit pub_methods_interfacemachine_1_1_var_holdable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a630fd8aa4a1fe7cf418cc6f3bb8465e9"><td class="memItemLeft" align="right" valign="top"><a id="a630fd8aa4a1fe7cf418cc6f3bb8465e9"></a>
+<a class="el" href="classast_1_1_sent_list.html">SentList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>sents_</b> = null</td></tr>
+<tr class="separator:a630fd8aa4a1fe7cf418cc6f3bb8465e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aad9fb15c4624ebbbbb1d4a9c9897e19b"><td class="memItemLeft" align="right" valign="top"><a id="aad9fb15c4624ebbbbb1d4a9c9897e19b"></a>
@@ -310,8 +335,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 <tr class="memdesc:a2ad36227cd41f809f487e5c2fd99ba0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">ルールID。固定。 <br /></td></tr>
 <tr class="separator:a2ad36227cd41f809f487e5c2fd99ba0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a805fde1963e7e9a6ceae20b382272897"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmachine_1_1_var_table.html">VarTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classast_1_1_block_base.html#a805fde1963e7e9a6ceae20b382272897">vars_</a> = null</td></tr>
-<tr class="memdesc:a805fde1963e7e9a6ceae20b382272897"><td class="mdescLeft">&#160;</td><td class="mdescRight">変数リストを返す．  <a href="classast_1_1_block_base.html#a805fde1963e7e9a6ceae20b382272897">More...</a><br /></td></tr>
+<tr class="memdesc:a805fde1963e7e9a6ceae20b382272897"><td class="mdescLeft">&#160;</td><td class="mdescRight">vars  <a href="classast_1_1_block_base.html#a805fde1963e7e9a6ceae20b382272897">More...</a><br /></td></tr>
 <tr class="separator:a805fde1963e7e9a6ceae20b382272897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb53d025e9757881bfe87a82c2508385"><td class="memItemLeft" align="right" valign="top"><a id="aeb53d025e9757881bfe87a82c2508385"></a>
+<a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>pre_code_</b> = null</td></tr>
+<tr class="separator:aeb53d025e9757881bfe87a82c2508385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50526c351c519243be224934cc92ad7d"><td class="memItemLeft" align="right" valign="top"><a id="a50526c351c519243be224934cc92ad7d"></a>
 <a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a>&#160;</td><td class="memItemRight" valign="bottom"><b>code_</b> = null</td></tr>
 <tr class="separator:a50526c351c519243be224934cc92ad7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -354,6 +382,11 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><b>errorInstanceo
 <tr class="memitem:a6866dd5dd77eeee5137cb7940a6bfb42 inherit pub_static_methods_classast_1_1_ast_node_base"><td class="memItemLeft" align="right" valign="top"><a id="a6866dd5dd77eeee5137cb7940a6bfb42"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>errorInstanceof</b> (Object obj, <a class="el" href="enumtype_1_1_x_type.html">XType</a> xt, String msg)</td></tr>
 <tr class="separator:a6866dd5dd77eeee5137cb7940a6bfb42 inherit pub_static_methods_classast_1_1_ast_node_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_interfaceast_1_1_node"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_interfaceast_1_1_node')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="interfaceast_1_1_node.html">Node</a></td></tr>
+<tr class="memitem:a4c4a1e79240584e1a79286583c9e14db inherit pub_static_methods_interfaceast_1_1_node"><td class="memItemLeft" align="right" valign="top"><a id="a4c4a1e79240584e1a79286583c9e14db"></a>
+static <a class="el" href="enumtype_1_1_x_type.html">XType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceast_1_1_node.html#a4c4a1e79240584e1a79286583c9e14db">getType</a> (<a class="el" href="interfaceast_1_1_node.html">Node</a> node)</td></tr>
+<tr class="memdesc:a4c4a1e79240584e1a79286583c9e14db inherit pub_static_methods_interfaceast_1_1_node"><td class="mdescLeft">&#160;</td><td class="mdescRight">ノードのもつ値型を返す。 <br /></td></tr>
+<tr class="separator:a4c4a1e79240584e1a79286583c9e14db inherit pub_static_methods_interfaceast_1_1_node"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_attribs_classast_1_1_ast_node_base"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classast_1_1_ast_node_base')"><img src="closed.png" alt="-"/>&#160;Static Public Attributes inherited from <a class="el" href="classast_1_1_ast_node_base.html">AstNodeBase</a></td></tr>
 <tr class="memitem:a6076d0e7976affa52a7df59f19db45c1 inherit pub_static_attribs_classast_1_1_ast_node_base"><td class="memItemLeft" align="right" valign="top"><a id="a6076d0e7976affa52a7df59f19db45c1"></a>
 static boolean&#160;</td><td class="memItemRight" valign="bottom"><b>DEBUG_REPO</b> = false</td></tr>
@@ -417,6 +450,56 @@ static Report&#160;</td><td class="memItemRight" valign="bottom"><b>repo</b> = n
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a43b257b2ab32fc064fad0355c7dc327d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b257b2ab32fc064fad0355c7dc327d">&#9670;&nbsp;</a></span>numChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int numChildren </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>子供の数を返す. </p>
+<ul>
+<li>sents_</li>
+<li>pre_sents_ </li>
+</ul>
+
+<p>Reimplemented from <a class="el" href="classast_1_1_ast_node.html#a43b257b2ab32fc064fad0355c7dc327d">AstNode</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classast_1_1_block.html#a43b257b2ab32fc064fad0355c7dc327d">Block</a>.</p>
+
+</div>
+</div>
+<a id="af00381c4deb764988e4b742d046000fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af00381c4deb764988e4b742d046000fc">&#9670;&nbsp;</a></span>addChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classast_1_1_ast_node.html">AstNode</a> addChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceast_1_1_node.html">Node</a>&#160;</td>
+          <td class="paramname"><em>child</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>新しい子供を追加する </p>
+<dl class="section note"><dt>Note</dt><dd>関数型情報を同時に管理する． </dd></dl>
+
+<p>Reimplemented from <a class="el" href="classast_1_1_ast_node.html#af00381c4deb764988e4b742d046000fc">AstNode</a>.</p>
+
+</div>
+</div>
 <a id="aaf42e9d468fbca6e31b6620cf1c68ea2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaf42e9d468fbca6e31b6620cf1c68ea2">&#9670;&nbsp;</a></span>getVarTable()</h2>
 
@@ -436,6 +519,62 @@ static Report&#160;</td><td class="memItemRight" valign="bottom"><b>repo</b> = n
 <dl class="section note"><dt>Note</dt><dd>空でないことを保証する． </dd></dl>
 
 <p>Implements <a class="el" href="interfacemachine_1_1_var_holdable.html#aaf42e9d468fbca6e31b6620cf1c68ea2">VarHoldable</a>.</p>
+
+</div>
+</div>
+<a id="a37238a58bc6e053aeb2d537488901584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37238a58bc6e053aeb2d537488901584">&#9670;&nbsp;</a></span>getCalls()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmachine_1_1_call_list.html">CallList</a> getCalls </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>呼び出しリストを返す． </p>
+<dl class="section note"><dt>Note</dt><dd>返り値はnullでないことを保証する． </dd></dl>
+
+<p>Implements <a class="el" href="interfacemachine_1_1_var_holdable.html#a37238a58bc6e053aeb2d537488901584">VarHoldable</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classast_1_1_block_base_a37238a58bc6e053aeb2d537488901584_icgraph.svg" width="428" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
+<a id="a16280aaf8f7a41caa066b0f1d287dd71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16280aaf8f7a41caa066b0f1d287dd71">&#9670;&nbsp;</a></span>getPreCode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classcmd_1_1_cmd_list.html">CmdList</a> getPreCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>ステップのpreコードを返す． </p>
+<dl class="section post"><dt>Postcondition</dt><dd>preコードがnullのときは，空リストを生成する． </dd></dl>
+
+<p>Implements <a class="el" href="interfacemachine_1_1_var_holdable.html#a16280aaf8f7a41caa066b0f1d287dd71">VarHoldable</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classast_1_1_block_base_a16280aaf8f7a41caa066b0f1d287dd71_icgraph.svg" width="274" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 
 </div>
 </div>
@@ -539,8 +678,8 @@ Here is the call graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>変数リストを返す． </p>
-<dl class="section note"><dt>Note</dt><dd>空でないことを保証する． </dd></dl>
+<p>vars </p>
+<p>変数リストを返す．</p><dl class="section note"><dt>Note</dt><dd>空でないことを保証する． </dd></dl>
 
 </div>
 </div>
@@ -553,7 +692,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceast.html">ast</a></li><li class="navelem"><a class="el" href="classast_1_1_block_base.html">BlockBase</a></li>
-    <li class="footer">Generated on Mon May 10 2021 12:23:16 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed May 12 2021 04:21:02 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
