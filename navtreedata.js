@@ -43,7 +43,6 @@ var NAVTREE =
     [ "Pretty: A pretty printer for Antlr4 parse tree and more.", "md_pretty__r_e_a_d_m_e.html", null ],
     [ "TOC: ./md", "md_toc.html", null ],
     [ "Todo List", "todo.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -72,17 +71,13 @@ var NAVTREEINDEX =
 "_action_code_8java.html",
 "classast_1_1_ast_data_writer_1_1_writer_string.html#a390cb262f2660c2c9fb1fedb9f86a4f3",
 "classast_1_1_ast_scan_from.html#a9bdb4531eee4ea10fafba49383ab366f",
-"classcmd_1_1_command_base_1_1_cmd_inc_m_a_t_c_h.html#a3137357d0abb2bd75321d6e19024956a",
-"classevent_1_1_event_reader_base.html#a4339fdee56bdfe4adf79201d25cc8d76",
-"classio_1_1_char_set.html#a2157f41ce3bc3a2b52f5bc1039a225da",
-"classparse_1_1_p_node_printer.html#a32693ea27396b3575ae5d07d0f69b056",
-"classparse_1_1query_parser.html#ac817227127bef24c05f38d89459c17cc",
-"classparse_1_1query_parser_1_1_expr_context.html#a77765732f5bc4d5453c37e33c589d355",
-"classparse_1_1query_parser_1_1_str_expr_context.html#a210ca7b48d1fca63cb055a90fb3d219f",
-"classtype_1_1_x_item.html#af47dde873172c3fdb519bb91982f5be7",
-"classutil_1_1_string_buf.html#a3cbd4c8a27b0d224a5cb928b1ae7ccea",
-"functions_l.html",
-"interfaceparse_1_1query_listener.html#a988910048f8e730c788d4ca006b68445"
+"classcmd_1_1_command_base_1_1_cmd_inc_m_a_t_c_h.html#a4a91138157430b8b4fbaba86bc0124a5",
+"classevent_1_1_event_reader_base.html#a44b1c7147a84d8bc7827d6e018ccc6de",
+"classio_1_1_char_set.html#a3842112f10e98279b305e91503d77647",
+"classparse_1_1_p_node_printer.html#a95133fc0689723a377d75fec7b0d0f66",
+"classutil_1_1_report.html#a62bc0d20ce17d1ee1289cfccd4c0ce68",
+"enumtype_1_1_x_type.html#ad24c621762d51f2ff4029a67f5254d45",
+"interfaceutil_1_1_stackable.html#af4b57d21919c42d55af03391f91a1c08"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

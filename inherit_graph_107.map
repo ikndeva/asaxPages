@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classutil_1_1_stack_base_1_1_stat.html" title="統計用クラス." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node1" href="$classutil_1_1_string_buf.html" title="文字列バッファのクラス." alt="" coords="5,5,81,32"/>
+<area shape="rect" id="node2" href="$classutil_1_1_foldable_string_buf.html" title="入れ子深さに応じた段下げ表示を行うよう拡張された文字列バッファのクラス." alt="" coords="129,5,255,32"/>
+<area shape="rect" id="node3" href="$classutil_1_1_foldable_string_buf_1_1_lockable.html" title="初期化のロック機構をもつFoldableStringBufクラス" alt="" coords="303,5,484,32"/>
 </map>
