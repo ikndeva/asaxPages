@@ -1,6 +1,5 @@
 var dir_abffb41b2fb02e852dda76d88b79b6c6 =
 [
-    [ "hide", "dir_d987028995888962cce6864581e3c653.html", "dir_d987028995888962cce6864581e3c653" ],
     [ "AstConverter.java", "_ast_converter_8java.html", [
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstConv", "classast_1_1_ast_converter_1_1_ast_conv.html", "classast_1_1_ast_converter_1_1_ast_conv" ],

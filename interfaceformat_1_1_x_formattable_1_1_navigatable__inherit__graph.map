@@ -1,8 +1,8 @@
 <map id="XFormattable.Navigatable" name="XFormattable.Navigatable">
-<area shape="rect" id="node1" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="153,385,327,412"/>
+<area shape="rect" id="node1" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="153,360,327,387"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_data_writer.html" title="局所変数環境からの値を書き込むクラス" alt="" coords="789,132,893,159"/>
-<area shape="rect" id="node9" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="375,613,448,640"/>
-<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,385,105,412"/>
+<area shape="rect" id="node9" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="375,588,448,615"/>
+<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,360,105,387"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_data_writer_1_1_writer_boolean.html" title="ブール型の値をもつ局所変数" alt="" coords="989,5,1177,32"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_data_writer_1_1_writer_double.html" title="Double型の値をもつ局所変数" alt="" coords="992,56,1175,83"/>
 <area shape="rect" id="node6" href="$classast_1_1_ast_data_writer_1_1_writer_integer.html" title="Integer型の値をもつ局所変数" alt="" coords="993,107,1174,133"/>

@@ -1,13 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"classparse_1_1query_parser_1_1_file_open_context.html#abda3030a67ba7a5649f955392d9d0eae":[21,0,9,8,28,0],
-"classparse_1_1query_parser_1_1_float_number_context.html":[21,0,9,8,29],
-"classparse_1_1query_parser_1_1_float_number_context.html#a1a550b50b2544a53c6b76e06e79b6d69":[21,0,9,8,29,4],
-"classparse_1_1query_parser_1_1_float_number_context.html#a210ca7b48d1fca63cb055a90fb3d219f":[21,0,9,8,29,3],
-"classparse_1_1query_parser_1_1_float_number_context.html#a7d6949ce5676f2260f887456c9a423fa":[21,0,9,8,29,2],
-"classparse_1_1query_parser_1_1_float_number_context.html#a9ea33be49cc32162c275731e1cad09f1":[21,0,9,8,29,0],
-"classparse_1_1query_parser_1_1_float_number_context.html#adc3f0e3b2046a22766a9ba408d244e5e":[21,0,9,8,29,1],
-"classparse_1_1query_parser_1_1_func_arg_list_context.html":[21,0,9,8,30],
 "classparse_1_1query_parser_1_1_func_arg_list_context.html#a0592733e1ae15b8fb66befe6bd66e36e":[21,0,9,8,30,2],
 "classparse_1_1query_parser_1_1_func_arg_list_context.html#a210ca7b48d1fca63cb055a90fb3d219f":[21,0,9,8,30,7],
 "classparse_1_1query_parser_1_1_func_arg_list_context.html#a69c41174d23ea155f97b4cb6215e9579":[21,0,9,8,30,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX8 =
 "classparse_1_1query_parser_1_1_str_mul_expr_context.html#aad035f811d69fd824de51e7b3b90c6a3":[21,0,9,8,61,6],
 "classparse_1_1query_parser_1_1_str_rel_regex_context.html":[21,0,9,8,62],
 "classparse_1_1query_parser_1_1_str_rel_regex_context.html#a0aac738d06a6956a3a89b9a534e996a8":[21,0,9,8,62,0],
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a1a550b50b2544a53c6b76e06e79b6d69":[21,0,9,8,62,7]
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a1a550b50b2544a53c6b76e06e79b6d69":[21,0,9,8,62,7],
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a210ca7b48d1fca63cb055a90fb3d219f":[21,0,9,8,62,5],
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a6f8edebf186dbb7fac0ea99cc2c27d2e":[21,0,9,8,62,2],
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a7d6949ce5676f2260f887456c9a423fa":[21,0,9,8,62,4],
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a87ad4f016da1e2939c5b97da733d00e9":[21,0,9,8,62,1],
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#ac2922c3c36066f5637e7923d681e6e64":[21,0,9,8,62,3],
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#acc1eb16d3ea8abc1aff538f0315c57aa":[21,0,9,8,62,6],
+"classparse_1_1query_parser_1_1_str_rel_regex_context.html#aebdf65d2b0d742100ec8ffdca02eebc3":[21,0,9,8,62,8],
+"classparse_1_1query_parser_1_1_str_rel_str_expr_context.html":[21,0,9,8,63]
 };

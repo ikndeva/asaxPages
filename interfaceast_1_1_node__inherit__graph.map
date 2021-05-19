@@ -1,10 +1,10 @@
 <map id="Node" name="Node">
-<area shape="rect" id="node1" title=" " alt="" coords="153,717,207,744"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="281,487,355,513"/>
-<area shape="rect" id="node58" href="$interfaceast_1_1_node_1_1_data_reader.html" title="データをメモリから読み込むノードのインタフェース．" alt="" coords="255,692,381,719"/>
-<area shape="rect" id="node59" href="$interfaceast_1_1_node_1_1_data_writer.html" title="データをメモリに書き出すノードのインタフェース．単なるマーカー．" alt="" coords="259,743,377,769"/>
+<area shape="rect" id="node1" title=" " alt="" coords="153,692,207,719"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="281,461,355,488"/>
+<area shape="rect" id="node58" href="$interfaceast_1_1_node_1_1_data_reader.html" title="データをメモリから読み込むノードのインタフェース．" alt="" coords="255,667,381,693"/>
+<area shape="rect" id="node59" href="$interfaceast_1_1_node_1_1_data_writer.html" title="データをメモリに書き出すノードのインタフェース．単なるマーカー．" alt="" coords="259,717,377,744"/>
 <area shape="rect" id="node60" href="$interfaceast_1_1_node_1_1_node_unary.html" title="子供を一つだけもつノードのインタフェース" alt="" coords="257,921,379,948"/>
-<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,717,105,744"/>
+<area shape="rect" id="node2" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,692,105,719"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_break.html" title="実行を強制中断させる演算．デバッグのブレークポイント設定に用いる．" alt="" coords="491,107,567,133"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="473,157,585,184"/>
 <area shape="rect" id="node6" href="$classast_1_1_ast_data_reader_1_1_ast_get_elem.html" title=" " alt="" coords="435,208,622,235"/>

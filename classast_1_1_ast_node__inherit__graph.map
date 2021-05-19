@@ -1,5 +1,5 @@
 <map id="AstNode" name="AstNode">
-<area shape="rect" id="node1" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="409,461,483,488"/>
+<area shape="rect" id="node1" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="409,436,483,463"/>
 <area shape="rect" id="node7" href="$classast_1_1_ast_break.html" title="実行を強制中断させる演算．デバッグのブレークポイント設定に用いる．" alt="" coords="592,5,668,32"/>
 <area shape="rect" id="node8" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="574,56,686,83"/>
 <area shape="rect" id="node9" href="$classast_1_1_ast_data_reader_1_1_ast_get_elem.html" title=" " alt="" coords="537,107,723,133"/>
@@ -19,11 +19,11 @@
 <area shape="rect" id="node65" href="$classast_1_1_path.html" title=" " alt="" coords="605,816,655,843"/>
 <area shape="rect" id="node66" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="595,867,665,893"/>
 <area shape="rect" id="node68" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="609,917,651,944"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="206,385,309,412"/>
-<area shape="rect" id="node3" href="$interfaceast_1_1_node.html" title=" " alt="" coords="231,436,284,463"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,487,105,513"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="171,487,344,513"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="153,537,361,564"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="206,360,309,387"/>
+<area shape="rect" id="node3" href="$interfaceast_1_1_node.html" title=" " alt="" coords="231,411,284,437"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,461,105,488"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="171,461,344,488"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="153,512,361,539"/>
 <area shape="rect" id="node14" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="Boolean値アトム" alt="" coords="794,31,957,57"/>
 <area shape="rect" id="node15" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="797,81,954,108"/>
 <area shape="rect" id="node16" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="797,132,953,159"/>

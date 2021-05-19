@@ -106,7 +106,6 @@ var hierarchy =
         [ "AstVarAssign", "classast_1_1_ast_var_assign.html", null ],
         [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
         [ "Path", "classast_1_1_path.html", null ],
-        [ "Path", "classast_1_1_path.html", null ],
         [ "SentList", "classast_1_1_sent_list.html", [
           [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ]
         ] ],
@@ -223,7 +222,6 @@ var hierarchy =
     [ "CustomFormattable", "class_custom_formattable.html", null ],
     [ "CustomFormattable", null, [
       [ "AstTag", "classast_1_1_ast_tag.html", null ],
-      [ "Path", "classast_1_1_path.html", null ],
       [ "Path", "classast_1_1_path.html", null ],
       [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ],
       [ "CmdList", "classcmd_1_1_cmd_list.html", null ],

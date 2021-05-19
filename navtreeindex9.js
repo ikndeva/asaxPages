@@ -1,13 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a210ca7b48d1fca63cb055a90fb3d219f":[21,0,9,8,62,5],
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a6f8edebf186dbb7fac0ea99cc2c27d2e":[21,0,9,8,62,2],
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a7d6949ce5676f2260f887456c9a423fa":[21,0,9,8,62,4],
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#a87ad4f016da1e2939c5b97da733d00e9":[21,0,9,8,62,1],
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#ac2922c3c36066f5637e7923d681e6e64":[21,0,9,8,62,3],
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#acc1eb16d3ea8abc1aff538f0315c57aa":[21,0,9,8,62,6],
-"classparse_1_1query_parser_1_1_str_rel_regex_context.html#aebdf65d2b0d742100ec8ffdca02eebc3":[21,0,9,8,62,8],
-"classparse_1_1query_parser_1_1_str_rel_str_expr_context.html":[21,0,9,8,63],
 "classparse_1_1query_parser_1_1_str_rel_str_expr_context.html#a1a550b50b2544a53c6b76e06e79b6d69":[21,0,9,8,63,7],
 "classparse_1_1query_parser_1_1_str_rel_str_expr_context.html#a210ca7b48d1fca63cb055a90fb3d219f":[21,0,9,8,63,5],
 "classparse_1_1query_parser_1_1_str_rel_str_expr_context.html#a6f8edebf186dbb7fac0ea99cc2c27d2e":[21,0,9,8,63,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX9 =
 "classtype_1_1_x_typing.html#abcd711b709d52806e817ddb836274348":[21,0,12,6,8],
 "classtype_1_1_x_typing.html#abff59510f7e424a8115883019b63fadc":[21,0,12,6,18],
 "classtype_1_1_x_typing.html#ac48a0f44826b2e056e15cea8de437f78":[21,0,12,6,5],
-"classtype_1_1_x_typing.html#ac773e3c20a29c208fea84c33d8b35cd2":[21,0,12,6,13]
+"classtype_1_1_x_typing.html#ac773e3c20a29c208fea84c33d8b35cd2":[21,0,12,6,13],
+"classtype_1_1_x_typing.html#ad146fa8579a5f8a876c4688cc5a68520":[21,0,12,6,16],
+"classtype_1_1_x_typing.html#aee4d7f9c05f29d4cb66fdb9ba396f1cd":[21,0,12,6,12],
+"classtype_1_1_x_typing.html#af0578be4d0830410f85d9c0bfc70cb2d":[21,0,12,6,3],
+"classtype_1_1_x_typing.html#aff3208021493441bda02e44e82de3e34":[21,0,12,6,6],
+"classtype_1_1_x_typing_1_1_basic_typing.html":[21,0,12,6,0],
+"classtype_1_1_x_typing_1_1_basic_typing.html#a4e5cb3528205dfd40d187cd82a02ee27":[21,0,12,6,0,1],
+"classtype_1_1_x_typing_1_1_basic_typing.html#a61d58ff9f15ca93f9e3bd8eed8d94724":[21,0,12,6,0,0],
+"classtype_1_1_x_typing_1_1_hom_child_typing.html":[21,0,12,6,1]
 };

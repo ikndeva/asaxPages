@@ -1,6 +1,6 @@
 <map id="AstNodeBase" name="AstNodeBase">
-<area shape="rect" id="node1" title=" " alt="" coords="5,461,108,488"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="156,461,229,488"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,436,108,463"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="156,436,229,463"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_break.html" title="実行を強制中断させる演算．デバッグのブレークポイント設定に用いる．" alt="" coords="339,5,415,32"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="321,56,433,83"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_data_reader_1_1_ast_get_elem.html" title=" " alt="" coords="283,107,470,133"/>

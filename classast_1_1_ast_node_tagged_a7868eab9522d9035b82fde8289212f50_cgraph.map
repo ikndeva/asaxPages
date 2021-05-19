@@ -1,6 +1,4 @@
 <map id="addGetter" name="addGetter">
-<area shape="rect" id="node1" title="次の子のField名と，Getter，型を設定し，子の添字idxを返す．" alt="" coords="5,56,84,83"/>
-<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#a85320b99175a1d605089eba8c470047f" title="子として，型をもつ型項を追加する．" alt="" coords="143,5,293,32"/>
-<area shape="rect" id="node3" href="$interfacetype_1_1_typable.html#a99aac1cd96652c2794f72b86350386c0" title=" " alt="" coords="155,56,281,83"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_node.html#a43b257b2ab32fc064fad0355c7dc327d" title="子供の数を返す." alt="" coords="132,107,304,133"/>
+<area shape="rect" id="node1" title="次の子のField名と，Getter，型を設定し，子の添字idxを返す．" alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#a85320b99175a1d605089eba8c470047f" title="子として，型をもつ型項を追加する．" alt="" coords="132,5,283,32"/>
 </map>
