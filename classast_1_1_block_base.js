@@ -21,7 +21,6 @@ var classast_1_1_block_base =
     [ "addCode", "classast_1_1_block_base.html#a44d5afc55dc7e352b9d056de5da6af7e", null ],
     [ "setGlobalInfo", "classast_1_1_block_base.html#a8134e5d78d8659840718f990d3d55654", null ],
     [ "data", "classast_1_1_block_base.html#a3137357d0abb2bd75321d6e19024956a", null ],
-    [ "gencode_safe", "classast_1_1_block_base.html#aad9fb15c4624ebbbbb1d4a9c9897e19b", null ],
     [ "gencode", "classast_1_1_block_base.html#a383612fb2c1d291f6f3f9c352a5cb262", null ],
     [ "funid_", "classast_1_1_block_base.html#a2ad36227cd41f809f487e5c2fd99ba0d", null ],
     [ "vars_", "classast_1_1_block_base.html#a805fde1963e7e9a6ceae20b382272897", null ],

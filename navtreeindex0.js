@@ -1,7 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"":[20,0,4,0],
-"":[20,0,4,1],
 "_action_code_8java.html":[22,0,4,2],
 "_asax_event_reader_8java.html":[22,0,4,0,0],
 "_asax_event_reader_factory_8java.html":[22,0,4,0,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "classast_1_1_ast_data_writer_1_1_writer_o_stream.html#abc667713cbfd5a8d723d9124222f0928":[21,0,1,4,3,0],
 "classast_1_1_ast_data_writer_1_1_writer_o_stream.html#ae1ba45bad2d2854e7378d5322c0c2c57":[21,0,1,4,3,2],
 "classast_1_1_ast_data_writer_1_1_writer_string.html":[21,0,1,4,4],
-"classast_1_1_ast_data_writer_1_1_writer_string.html#a390cb262f2660c2c9fb1fedb9f86a4f3":[21,0,1,4,4,0]
+"classast_1_1_ast_data_writer_1_1_writer_string.html#a390cb262f2660c2c9fb1fedb9f86a4f3":[21,0,1,4,4,0],
+"classast_1_1_ast_data_writer_1_1_writer_string.html#ae1ba45bad2d2854e7378d5322c0c2c57":[21,0,1,4,4,1],
+"classast_1_1_ast_factory.html":[21,0,1,5]
 };
