@@ -39,6 +39,9 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "MultiHashMap.java", "_multi_hash_map_8java.html", [
       [ "MultiHashMap", "classmachine_1_1_multi_hash_map.html", "classmachine_1_1_multi_hash_map" ]
     ] ],
+    [ "OSVar.java", "_o_s_var_8java.html", [
+      [ "OSVar", "classmachine_1_1_o_s_var.html", "classmachine_1_1_o_s_var" ]
+    ] ],
     [ "OVMachine.java", "_o_v_machine_8java.html", [
       [ "OVMachine", "classmachine_1_1_o_v_machine.html", "classmachine_1_1_o_v_machine" ]
     ] ],

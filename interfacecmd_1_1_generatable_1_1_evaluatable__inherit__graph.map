@@ -6,7 +6,7 @@
 <area shape="rect" id="node29" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="365,411,477,437"/>
 <area shape="rect" id="node32" href="$interfaceast_1_1_node_1_1_data_reader.html" title="データをメモリから読み込むノードのインタフェース．" alt="" coords="357,461,484,488"/>
 <area shape="rect" id="node2" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="5,309,97,336"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="532,5,695,32"/>
+<area shape="rect" id="node5" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="Boolean値アトム" alt="" coords="532,5,695,32"/>
 <area shape="rect" id="node6" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="535,56,692,83"/>
 <area shape="rect" id="node7" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="535,107,691,133"/>
 <area shape="rect" id="node8" href="$classast_1_1_ast_literal_1_1_string_expr.html" title="String値アトム" alt="" coords="542,157,685,184"/>

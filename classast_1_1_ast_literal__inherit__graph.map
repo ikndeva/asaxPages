@@ -1,6 +1,6 @@
 <map id="AstLiteral" name="AstLiteral">
 <area shape="rect" id="node1" title="値を返すことができる終端オブジェクトのクラス" alt="" coords="621,145,699,172"/>
-<area shape="rect" id="node10" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="747,69,909,96"/>
+<area shape="rect" id="node10" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="Boolean値アトム" alt="" coords="747,69,909,96"/>
 <area shape="rect" id="node11" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="749,120,907,147"/>
 <area shape="rect" id="node12" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="750,171,906,197"/>
 <area shape="rect" id="node13" href="$classast_1_1_ast_literal_1_1_string_expr.html" title="String値アトム" alt="" coords="757,221,899,248"/>

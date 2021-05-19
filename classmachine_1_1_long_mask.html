@@ -91,6 +91,7 @@ $(document).ready(function(){initNavTree('classmachine_1_1_long_mask.html',''); 
 <div class="header">
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classmachine_1_1_long_mask-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">LongMask Class Reference</div>  </div>
@@ -102,7 +103,7 @@ $(document).ready(function(){initNavTree('classmachine_1_1_long_mask.html',''); 
 <div class="dynheader">
 Collaboration diagram for LongMask:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_long_mask__coll__graph.svg" width="227" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_long_mask__coll__graph.svg" width="484" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -125,6 +126,16 @@ static long&#160;</td><td class="memItemRight" valign="bottom"><b>getMaskFromRID
 static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_long_mask.html#a9cfbb4f3d8d5a32c022ea278f0aacde7">maskToString</a> (long mask)</td></tr>
 <tr class="memdesc:a9cfbb4f3d8d5a32c022ea278f0aacde7"><td class="mdescLeft">&#160;</td><td class="mdescRight">マスクの文字列表現を返す。 <br /></td></tr>
 <tr class="separator:a9cfbb4f3d8d5a32c022ea278f0aacde7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae39b2c3bad4ea22386d4e33c323affa9"><td class="memItemLeft" align="right" valign="top">static List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_long_mask.html#ae39b2c3bad4ea22386d4e33c323affa9">maskToIntList</a> (long mask)</td></tr>
+<tr class="memdesc:ae39b2c3bad4ea22386d4e33c323affa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">ビットマスクを昇順で整列したLongのリストに変換する。  <a href="classmachine_1_1_long_mask.html#ae39b2c3bad4ea22386d4e33c323affa9">More...</a><br /></td></tr>
+<tr class="separator:ae39b2c3bad4ea22386d4e33c323affa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a604e98b29dfaa113932e1ef241ee5376"><td class="memItemLeft" align="right" valign="top"><a id="a604e98b29dfaa113932e1ef241ee5376"></a>
+static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_long_mask.html#a604e98b29dfaa113932e1ef241ee5376">MASK_WIDTH</a> = 64</td></tr>
+<tr class="memdesc:a604e98b29dfaa113932e1ef241ee5376"><td class="mdescLeft">&#160;</td><td class="mdescRight">マスクが格納できるIDの数。現在は<code>Long.SIZE=64</code>。 <br /></td></tr>
+<tr class="separator:a604e98b29dfaa113932e1ef241ee5376"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Long型のビットマスクの補助者クラス </p>
@@ -247,6 +258,41 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 
 </div>
 </div>
+<a id="ae39b2c3bad4ea22386d4e33c323affa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39b2c3bad4ea22386d4e33c323affa9">&#9670;&nbsp;</a></span>maskToIntList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt;Integer&gt; maskToIntList </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>mask</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>ビットマスクを昇順で整列したLongのリストに変換する。 </p>
+<p>入力ビットマスク中の1ビット位置を下位から順に取り出して， 詰め込んだLong型リストを返す． </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_long_mask_ae39b2c3bad4ea22386d4e33c323affa9_icgraph.svg" width="628" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>machine/<a class="el" href="_long_mask_8java.html">LongMask.java</a></li>
 </ul>
@@ -256,7 +302,7 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemachine.html">machine</a></li><li class="navelem"><a class="el" href="classmachine_1_1_long_mask.html">LongMask</a></li>
-    <li class="footer">Generated on Sat May 15 2021 11:42:14 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu May 20 2021 02:23:33 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -24,7 +24,7 @@
 <area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,487,105,513"/>
 <area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="171,487,344,513"/>
 <area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="153,537,361,564"/>
-<area shape="rect" id="node14" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="794,31,957,57"/>
+<area shape="rect" id="node14" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="Boolean値アトム" alt="" coords="794,31,957,57"/>
 <area shape="rect" id="node15" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="797,81,954,108"/>
 <area shape="rect" id="node16" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="797,132,953,159"/>
 <area shape="rect" id="node17" href="$classast_1_1_ast_literal_1_1_string_expr.html" title="String値アトム" alt="" coords="804,183,947,209"/>

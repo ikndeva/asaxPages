@@ -18,7 +18,7 @@ var dir_b45b5e8d1817f8faf2bd532018db76f3 =
     [ "XTyping.java", "_x_typing_8java.html", [
       [ "XTyping", "classtype_1_1_x_typing.html", "classtype_1_1_x_typing" ],
       [ "BasicTyping", "classtype_1_1_x_typing_1_1_basic_typing.html", "classtype_1_1_x_typing_1_1_basic_typing" ],
-      [ "ChildHomTyping", "classtype_1_1_x_typing_1_1_child_hom_typing.html", "classtype_1_1_x_typing_1_1_child_hom_typing" ],
+      [ "HomChildTyping", "classtype_1_1_x_typing_1_1_hom_child_typing.html", "classtype_1_1_x_typing_1_1_hom_child_typing" ],
       [ "HomTyping", "classtype_1_1_x_typing_1_1_hom_typing.html", "classtype_1_1_x_typing_1_1_hom_typing" ]
     ] ]
 ];

@@ -668,7 +668,7 @@ var sectionId = 'dynsection-0';
 <!-- Node39 -->
 <g id="node39" class="node">
 <title>Node39</title>
-<g id="a_node39"><a xlink:href="classast_1_1_ast_literal_1_1_boolean_literal.html" target="_top" xlink:title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される">
+<g id="a_node39"><a xlink:href="classast_1_1_ast_literal_1_1_boolean_literal.html" target="_top" xlink:title="Boolean値アトム">
 <polygon fill="white" stroke="black" points="460,-418.5 460,-437.5 582,-437.5 582,-418.5 460,-418.5"/>
 <text text-anchor="middle" x="521" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLiteral.BooleanLiteral</text>
 </a>

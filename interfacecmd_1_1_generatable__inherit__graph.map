@@ -40,7 +40,7 @@
 <area shape="rect" id="node45" href="$classast_1_1_ast_oper.html" title=" " alt="" coords="448,908,519,935"/>
 <area shape="rect" id="node53" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="427,731,539,757"/>
 <area shape="rect" id="node56" href="$interfaceast_1_1_node_1_1_data_reader.html" title="データをメモリから読み込むノードのインタフェース．" alt="" coords="420,1085,547,1112"/>
-<area shape="rect" id="node39" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="619,1136,781,1163"/>
+<area shape="rect" id="node39" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="Boolean値アトム" alt="" coords="619,1136,781,1163"/>
 <area shape="rect" id="node40" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="621,1035,779,1061"/>
 <area shape="rect" id="node41" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="622,1085,778,1112"/>
 <area shape="rect" id="node42" href="$classast_1_1_ast_literal_1_1_string_expr.html" title="String値アトム" alt="" coords="629,1187,771,1213"/>

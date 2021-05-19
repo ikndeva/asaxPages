@@ -10,7 +10,7 @@
 <area shape="rect" id="node33" href="$classtype_1_1_x_item.html#a1c69cd4da10ab8ef099bb4789b254540" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="906,1247,957,1273"/>
 <area shape="rect" id="node3" href="$classtype_1_1_x_typing.html#a3137357d0abb2bd75321d6e19024956a" title="演算子型の文字列表現を返す。" alt="" coords="594,5,721,32"/>
 <area shape="rect" id="node4" href="$classtype_1_1_x_typing.html#ad146fa8579a5f8a876c4688cc5a68520" title="演算子型の文字列表現を返す。" alt="" coords="325,5,472,32"/>
-<area shape="rect" id="node5" href="$classtype_1_1_x_typing_1_1_child_hom_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" title="子型の文字列表現を返す。" alt="" coords="5,5,263,32"/>
+<area shape="rect" id="node5" href="$classtype_1_1_x_typing_1_1_hom_child_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" title="子型の文字列表現を返す。" alt="" coords="5,5,263,32"/>
 <area shape="rect" id="node7" href="$classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="535,56,779,83"/>
 <area shape="rect" id="node8" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="539,107,776,133"/>
 <area shape="rect" id="node9" href="$classast_1_1_ast_math_oper_1_1_double_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="535,157,780,184"/>
@@ -32,7 +32,7 @@
 <area shape="rect" id="node23" href="$classast_1_1_ast_var_assign.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="311,733,487,760"/>
 <area shape="rect" id="node25" href="$classframe_1_1_entry.html#ad146fa8579a5f8a876c4688cc5a68520" title="メモリセルの内容を表す文字列を返す。" alt="" coords="330,792,467,819"/>
 <area shape="rect" id="node32" href="$classtype_1_1_x_typing.html#aee4d7f9c05f29d4cb66fdb9ba396f1cd" title="自分がもつ返値の型アイテムを与えられた型アイテムと単一化する．" alt="" coords="583,1156,731,1183"/>
-<area shape="rect" id="node34" href="$classtype_1_1_x_typing_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="546,1207,769,1249"/>
+<area shape="rect" id="node34" href="$classtype_1_1_x_typing_1_1_hom_child_typing.html#a63c4b84e072ab3ea55255ba2d1259643" title="子として，型をもつ型項を追加する．" alt="" coords="546,1207,769,1249"/>
 <area shape="rect" id="node35" href="$classast_1_1_ast_data_reader_1_1_ast_var_reader.html#a80cf572a464f084f2f6f24ad5873a147" title="指定された変数参照をもつ読み出し変数オブジェクトを生成する．" alt="" coords="569,1273,745,1314"/>
 <area shape="rect" id="node36" href="$classmachine_1_1_var_table.html#a48c387cd3361c4f21e65cb65029ec21a" title="与えられた名前をもつ変数を記号表で見つけて返し， もし見つからなければ，Universe.createVariable(name)で， 最汎型をもつ新しい変数を生成して返す．" alt="" coords="551,1339,764,1365"/>
 <area shape="rect" id="node37" href="$classast_1_1_ast_var_decl.html#aac5a6aca6e9901b9d87d6e19dda5e2ee" title="@breif" alt="" coords="582,1389,733,1416"/>

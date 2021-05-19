@@ -438,7 +438,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="classast_1_1_ast_literal_1_1_boolean_literal.html" target="_top" xlink:title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される">
+<g id="a_node11"><a xlink:href="classast_1_1_ast_literal_1_1_boolean_literal.html" target="_top" xlink:title="Boolean値アトム">
 <polygon fill="white" stroke="black" points="639.5,-755.5 639.5,-774.5 761.5,-774.5 761.5,-755.5 639.5,-755.5"/>
 <text text-anchor="middle" x="700.5" y="-762.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLiteral.BooleanLiteral</text>
 </a>

@@ -27,7 +27,7 @@
 <area shape="rect" id="node54" href="$classast_1_1_path.html" title=" " alt="" coords="571,993,620,1020"/>
 <area shape="rect" id="node55" href="$classast_1_1_sent_list.html" title="文Sentenceのリスト." alt="" coords="560,1044,631,1071"/>
 <area shape="rect" id="node57" href="$classmachine_1_1_var.html" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="575,1095,616,1121"/>
-<area shape="rect" id="node17" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="ダミーの生成子．このクラス自身は直接生成されない．部分クラスからのみ生成される" alt="" coords="759,335,922,361"/>
+<area shape="rect" id="node17" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="Boolean値アトム" alt="" coords="759,335,922,361"/>
 <area shape="rect" id="node18" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="762,385,919,412"/>
 <area shape="rect" id="node19" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="763,436,919,463"/>
 <area shape="rect" id="node20" href="$classast_1_1_ast_literal_1_1_string_expr.html" title="String値アトム" alt="" coords="769,487,912,513"/>

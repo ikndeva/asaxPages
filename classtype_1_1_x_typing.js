@@ -1,7 +1,7 @@
 var classtype_1_1_x_typing =
 [
     [ "BasicTyping", "classtype_1_1_x_typing_1_1_basic_typing.html", "classtype_1_1_x_typing_1_1_basic_typing" ],
-    [ "ChildHomTyping", "classtype_1_1_x_typing_1_1_child_hom_typing.html", "classtype_1_1_x_typing_1_1_child_hom_typing" ],
+    [ "HomChildTyping", "classtype_1_1_x_typing_1_1_hom_child_typing.html", "classtype_1_1_x_typing_1_1_hom_child_typing" ],
     [ "HomTyping", "classtype_1_1_x_typing_1_1_hom_typing.html", "classtype_1_1_x_typing_1_1_hom_typing" ],
     [ "nativeType", "classtype_1_1_x_typing.html#af0578be4d0830410f85d9c0bfc70cb2d", null ],
     [ "forcedType", "classtype_1_1_x_typing.html#ab862f7effbf5c86357ff884ff51f1208", null ],

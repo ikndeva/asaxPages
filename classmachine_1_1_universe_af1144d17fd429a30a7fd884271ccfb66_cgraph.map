@@ -1,4 +1,4 @@
 <map id="createSymbolTableID" name="createSymbolTableID">
-<area shape="rect" id="node1" title="与えられた名前文字列に対して一意な新しい関数IDを返す．" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node1" title="与えられた名前文字列に対して一意な新しいSymbolTableIDを返す．" alt="" coords="5,5,152,32"/>
 <area shape="rect" id="node2" href="$classmachine_1_1_name_table.html#a37a86e5a03f225a4a36fcbf36fe989f4" title="名前文字列から一意なIDを返す" alt="" coords="200,5,377,32"/>
 </map>

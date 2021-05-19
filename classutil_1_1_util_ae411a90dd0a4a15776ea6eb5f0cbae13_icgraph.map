@@ -50,7 +50,7 @@
 <area shape="rect" id="node23" href="$classutil_1_1_report.html#a18c2ea265e8622e114f6b037e69aa09a" title="現在の入れ子深さを一つ深くする．" alt="" coords="623,515,737,542"/>
 <area shape="rect" id="node25" href="$classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．" alt="" coords="587,566,773,593"/>
 <area shape="rect" id="node26" href="$classutil_1_1_report.html#a62bc0d20ce17d1ee1289cfccd4c0ce68" title="name stack" alt="" coords="617,617,743,643"/>
-<area shape="rect" id="node24" href="$classutil_1_1_report.html#af99c57037baac94c5837a696ba33f50b" title="現在の入れ子深さで段差げして，関数名nameの呼び出しと文字列msgを出力する。" alt="" coords="328,515,443,542"/>
+<area shape="rect" id="node24" href="$classutil_1_1_report.html#a8b7ba1130ac86f5e971a8dc02466eede" title="現在の入れ子深さで段差げして，関数名nameの呼び出しと文字列msgを出力する。" alt="" coords="328,515,443,542"/>
 <area shape="rect" id="node30" href="$classmachine_1_1_universe.html#a1de5a9665c1d92a4cc2f0a99fd51df64" title="与えられた名前文字列に対して一意な新しい変数を生成する．" alt="" coords="869,1529,1083,1555"/>
 <area shape="rect" id="node41" href="$classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="854,1825,1098,1851"/>
 <area shape="rect" id="node42" href="$classast_1_1_ast_math_oper_1_1_integer_rel.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="857,1875,1095,1902"/>

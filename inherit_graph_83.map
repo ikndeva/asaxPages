@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceparse_1_1_parsable.html" title=" " alt="" coords="5,5,79,32"/>
-<area shape="rect" id="node2" href="$classparse_1_1_ast_parser.html" title=" " alt="" coords="127,5,207,32"/>
+<area shape="rect" id="node1" href="$class_parser.html" title=" " alt="" coords="5,5,65,32"/>
+<area shape="rect" id="node2" href="$classparse_1_1query_parser.html" title=" " alt="" coords="113,5,205,32"/>
 </map>

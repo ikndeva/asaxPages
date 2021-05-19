@@ -21,9 +21,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classtype_1_1_x_typing_1_1_child_hom_typing.html" target="_top" xlink:title="すべての子が同値な関数型．親は異なる型を持値ち得る．">
+<g id="a_node2"><a xlink:href="classtype_1_1_x_typing_1_1_hom_child_typing.html" target="_top" xlink:title="すべての子が同値な関数型．親は異なる型を持値ち得る．">
 <polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 127,-75.5 127,-56.5 0,-56.5"/>
-<text text-anchor="middle" x="63.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">XTyping.ChildHomTyping</text>
+<text text-anchor="middle" x="63.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">XTyping.HomChildTyping</text>
 </a>
 </g>
 </g>

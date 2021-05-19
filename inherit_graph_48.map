@@ -1,8 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_data_holder.html" title=" " alt="" coords="5,107,93,133"/>
-<area shape="rect" id="node2" href="$classframe_1_1_boolean_holder.html" title="整数を保持するオブジェクト。" alt="" coords="144,5,251,32"/>
-<area shape="rect" id="node3" href="$classframe_1_1_double_holder.html" title="倍精度浮動小数点数を保持するオブジェクト。" alt="" coords="147,56,248,83"/>
-<area shape="rect" id="node4" href="$classframe_1_1_integer_holder.html" title="整数を保持するオブジェクト。" alt="" coords="147,107,247,133"/>
-<area shape="rect" id="node5" href="$classframe_1_1_o_stream_holder.html" title="書き込み限定（write only）の文字列出力ストリームオブジェクト．標準出力へ書き出す．" alt="" coords="141,157,253,184"/>
-<area shape="rect" id="node6" href="$classframe_1_1_string_holder.html" title="追記可能な文字列バッファ型値を格納するオブジェクト。" alt="" coords="150,208,245,235"/>
+<area shape="rect" id="node1" href="$interfaceframe_1_1_data_holder_3_01_t_00_01_s_01extends_01_data_holder.html" title="値を保持するオブジェクトのインタフェース。返り値の型 T をもつオブジェクト再帰型 S を定義する。" alt="" coords="5,5,179,47"/>
 </map>

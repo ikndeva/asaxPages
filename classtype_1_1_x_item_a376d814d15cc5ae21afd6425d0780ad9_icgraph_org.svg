@@ -177,9 +177,9 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classtype_1_1_x_typing_1_1_child_hom_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" target="_top" xlink:title="子型の文字列表現を返す。">
+<g id="a_node5"><a xlink:href="classtype_1_1_x_typing_1_1_hom_child_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" target="_top" xlink:title="子型の文字列表現を返す。">
 <polygon fill="white" stroke="black" points="0,-1038.5 0,-1057.5 193,-1057.5 193,-1038.5 0,-1038.5"/>
-<text text-anchor="middle" x="96.5" y="-1045.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTyping.ChildHomTyping.childData</text>
+<text text-anchor="middle" x="96.5" y="-1045.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTyping.HomChildTyping.childData</text>
 </a>
 </g>
 </g>
@@ -528,9 +528,9 @@
 <!-- Node34 -->
 <g id="node34" class="node">
 <title>Node34</title>
-<g id="a_node34"><a xlink:href="classtype_1_1_x_typing_1_1_child_hom_typing.html#a63c4b84e072ab3ea55255ba2d1259643" target="_top" xlink:title="子として，型をもつ型項を追加する．">
+<g id="a_node34"><a xlink:href="classtype_1_1_x_typing_1_1_hom_child_typing.html#a63c4b84e072ab3ea55255ba2d1259643" target="_top" xlink:title="子として，型をもつ型項を追加する．">
 <polygon fill="white" stroke="black" points="405.5,-126 405.5,-156 572.5,-156 572.5,-126 405.5,-126"/>
-<text text-anchor="start" x="413.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTyping.ChildHomTyping.add</text>
+<text text-anchor="start" x="413.5" y="-144" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTyping.HomChildTyping.add</text>
 <text text-anchor="middle" x="489" y="-133" font-family="Helvetica,sans-Serif" font-size="10.00">Child</text>
 </a>
 </g>

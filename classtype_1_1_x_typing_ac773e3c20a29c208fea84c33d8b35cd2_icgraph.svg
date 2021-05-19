@@ -57,9 +57,9 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classtype_1_1_x_typing_1_1_child_hom_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" target="_top" xlink:title="子型の文字列表現を返す。">
+<g id="a_node4"><a xlink:href="classtype_1_1_x_typing_1_1_hom_child_typing.html#ac773e3c20a29c208fea84c33d8b35cd2" target="_top" xlink:title="子型の文字列表現を返す。">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 193,-19.5 193,-0.5 0,-0.5"/>
-<text text-anchor="middle" x="96.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTyping.ChildHomTyping.childData</text>
+<text text-anchor="middle" x="96.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">type.XTyping.HomChildTyping.childData</text>
 </a>
 </g>
 </g>

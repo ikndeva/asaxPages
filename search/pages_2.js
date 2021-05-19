@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['github_2007',['github',['../md_github.html',1,'']]]
+  ['deprecated_20list_2470',['Deprecated List',['../deprecated.html',1,'']]]
 ];

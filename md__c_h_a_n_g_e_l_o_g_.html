@@ -95,6 +95,13 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <div class="contents">
 <div class="textblock"><p>$% \def\id#1{{\mathit{#1}}} \let\idit=\id \def\idbf#1{{\mathbf{#1}}} \def\idrm#1{{\mathrm{#1}}} \def\idtt#1{{\mathtt{#1}}} \def\idsf#1{{\mathsf{#1}}} \def\idcal#1{{\mathcal{#1}}} \newcommand{\sig}[1]{{\cal #1}} \newcommand{\op}[1]{{\tt #1}} $</p>
 <p>Created by Hiroki Arimura (<a href="#" onclick="location.href='mai'+'lto:'+'ari'+'m@'+'ist'+'.h'+'oku'+'da'+'i.a'+'c.'+'jp'; return false;">arim@<span style="display: none;">.nosp@m.</span>ist.<span style="display: none;">.nosp@m.</span>hokud<span style="display: none;">.nosp@m.</span>ai.a<span style="display: none;">.nosp@m.</span>c.jp</a>) on 2016.08.01. <code>/Users/arim/Dropbox/tmp/xscan16all/asax02.neo/asax02.neo</code></p>
+<h1>210519, Wed, 23:00-26:00: リファクタリング</h1>
+<p>コードの見通しをよくするためのリファクタリングを行った．</p>
+<ul>
+<li><a class="el" href="_mask_map_8java.html">machine/MaskMap.java</a>: 不要な依存性を除去するため，本来 static method であるinstance method<code>maskToIntList(Long mask)</code>を，static methodに変えて，関連する呼び出しをstatic に合わせた．</li>
+<li><a class="el" href="_util_8java.html" title="A utility class.">util/Util.java</a>: メソッドerrorExitに，第2引数にオブジェクトをとり<code>toCName(obj)</code>で印刷する版を追加して，関連する呼び出しをこれに合わせた．</li>
+<li><a class="el" href="_long_mask_8java.html">machine/LongMask.java</a>: <code>machine.MaskMap</code>の<code>maskToIntList(Long mask)</code>をstatic methodとして移動した．</li>
+</ul>
 <h1>210511, Tue, 25:00-4:00</h1>
 <p>パッケージcompileのコンパイルルーチン全てのコード読み．その後，リファクタリングをはじめた．まだバグが解決していない．</p>
 <ul>
@@ -1092,7 +1099,7 @@ $(document).ready(function(){initNavTree('md__c_h_a_n_g_e_l_o_g_.html',''); init
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat May 15 2021 11:42:11 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Thu May 20 2021 02:23:31 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
