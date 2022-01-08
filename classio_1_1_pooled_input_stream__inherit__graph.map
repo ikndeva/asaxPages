@@ -1,0 +1,4 @@
+<map id="PooledInputStream" name="PooledInputStream">
+<area shape="rect" id="node1" title="論理位置アクセスによる再読み出しが可能なバッファつき入力ストリーム." alt="" coords="5,80,139,107"/>
+<area shape="rect" id="node2" href="$interfaceio_1_1_input_scannable.html" title="部分文字列の抽出が可能な入力文字ストリームのインタフェース." alt="" coords="16,5,128,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="setToTop" name="setToTop">
+<area shape="rect" id="node1" title="スタックのトップに値をセットする." alt="" coords="5,31,80,57"/>
+<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#a7f499fc58f1f22c67d703eed9be40a06" title="スタックに値をセットする." alt="" coords="151,5,191,32"/>
+<area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#aaef620ba588ba79ae09ca5d664147b4c" title="スタックのトップの添え字を返す." alt="" coords="128,56,215,83"/>
+</map>

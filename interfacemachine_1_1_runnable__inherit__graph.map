@@ -1,0 +1,4 @@
+<map id="Runnable" name="Runnable">
+<area shape="rect" id="node1" title="実行可能なプログラムのインタフェース." alt="" coords="5,5,83,32"/>
+<area shape="rect" id="node2" href="$classast_1_1_program.html" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="9,80,79,107"/>
+</map>

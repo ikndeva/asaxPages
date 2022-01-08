@@ -1,0 +1,4 @@
+<map id="getName" name="getName">
+<area shape="rect" id="node1" title="現在の要素の名前の文字列を返す." alt="" coords="169,5,244,32"/>
+<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#adf006da7d180f7dd7e7159ab3d540453" title="ETAGイベントを送出する．構造文書における要素（ノード）の終了を表す." alt="" coords="5,5,121,32"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="OVMachine" name="OVMachine">
+<area shape="rect" id="node1" title="仮想機械のクラス" alt="" coords="651,292,741,319"/>
+<area shape="rect" id="node2" title=" " alt="" coords="73,21,129,48"/>
+<area shape="rect" id="node4" href="$classutil_1_1_trace_level.html" title="ログ出力用のトレースレベルを扱うクラス。" alt="" coords="411,124,498,151"/>
+<area shape="rect" id="node3" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="376,271,533,297"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,113,196,154"/>
+<area shape="rect" id="node6" title=" " alt="" coords="67,193,134,220"/>
+<area shape="rect" id="node7" title=" " alt="" coords="379,321,530,348"/>
+<area shape="rect" id="node8" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="383,372,527,399"/>
+<area shape="rect" id="node9" title=" " alt="" coords="435,441,474,468"/>
+<area shape="rect" id="node10" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="379,492,530,519"/>
+</map>

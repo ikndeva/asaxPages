@@ -1,0 +1,8 @@
+<map id="Var" name="Var">
+<area shape="rect" id="node1" title="フレーム中の変数参照オブジェクトref = (XType type, int vid)" alt="" coords="139,229,180,256"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="123,155,196,181"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
+<area shape="rect" id="node4" href="$interfaceast_1_1_node.html" title=" " alt="" coords="133,80,186,107"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="177,5,277,32"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="210,80,383,107"/>
+</map>

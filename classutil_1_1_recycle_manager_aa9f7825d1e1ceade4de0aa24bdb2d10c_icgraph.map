@@ -1,0 +1,18 @@
+<map id="recycle" name="recycle">
+<area shape="rect" id="node1" title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．" alt="" coords="972,220,1036,247"/>
+<area shape="rect" id="node2" href="$classutil_1_1_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" title="リサイクラーオブジェクトを回収する。" alt="" coords="807,195,923,221"/>
+<area shape="rect" id="node3" href="$classutil_1_1_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。" alt="" coords="805,245,924,272"/>
+<area shape="rect" id="node4" href="$classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" title="ノード名文字列を返す。" alt="" coords="579,5,733,32"/>
+<area shape="rect" id="node5" href="$classframe_1_1_entry.html#a3137357d0abb2bd75321d6e19024956a" title="メモリセルを表す文字列を返す。" alt="" coords="597,56,715,83"/>
+<area shape="rect" id="node7" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="563,107,749,149"/>
+<area shape="rect" id="node8" href="$classast_1_1_sent_list_1_1_list_wrapper.html#a54d57ec79cee3ac4683b86ee2dcddd49" title="ノードの清書出力を返す。" alt="" coords="563,173,749,214"/>
+<area shape="rect" id="node9" href="$classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" title="オプション引数の可変長文字列を受け取る．" alt="" coords="572,238,740,279"/>
+<area shape="rect" id="node10" href="$classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" title="文字列表現を返す" alt="" coords="555,303,757,345"/>
+<area shape="rect" id="node13" href="$classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す" alt="" coords="289,365,481,392"/>
+<area shape="rect" id="node14" href="$classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" title="フレームスタックの文字列表現を返す." alt="" coords="11,471,210,497"/>
+<area shape="rect" id="node15" href="$classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263" title="内部仕様のYamlBufの初期化器yamlInitializerと要素の清書器elemWriterをもつ清書出力文字列を返す実装手続き。" alt="" coords="576,471,736,497"/>
+<area shape="rect" id="node6" href="$classframe_1_1_entry.html#ad146fa8579a5f8a876c4688cc5a68520" title="メモリセルの内容を表す文字列を返す。" alt="" coords="317,56,454,83"/>
+<area shape="rect" id="node11" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="264,311,507,337"/>
+<area shape="rect" id="node12" href="$classmachine_1_1_x_machine.html#a9775fe1388ad800fb595915ddbee7f95" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,311,216,337"/>
+<area shape="rect" id="node16" href="$classutil_1_1_auto_stack.html#ad146fa8579a5f8a876c4688cc5a68520" title="清書出力文字列を返す．" alt="" coords="309,521,462,548"/>
+</map>

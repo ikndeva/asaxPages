@@ -1,0 +1,5 @@
+<map id="read" name="read">
+<area shape="rect" id="node1" title="入出力ストリームから一つの文字を読み出す." alt="" coords="5,31,52,57"/>
+<area shape="rect" id="node2" href="$classpretty_1_1_buffered_text_writer.html#a27242f064d99d53cfe4a235e03d69bfc" title="ストリームを空に初期化する。" alt="" coords="100,5,159,32"/>
+<area shape="rect" id="node3" href="$classpretty_1_1_buffered_text_writer.html#ac38570a2949e0ff3d522e8d35c9e4402" title="入力ストリームの読み出し準備が出来ているかどうかをテストする." alt="" coords="102,56,157,83"/>
+</map>

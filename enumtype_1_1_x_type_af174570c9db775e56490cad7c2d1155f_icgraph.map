@@ -1,0 +1,6 @@
+<map id="isConcreteType" name="isConcreteType">
+<area shape="rect" id="node1" title="具体型かどうかを返す述語．" alt="" coords="496,42,609,69"/>
+<area shape="rect" id="node2" href="$classframe_1_1_frame_stack_uni.html#aaa5606ad3baa7526b404ad5609a65d7f" title="フレームfpに、指定された内容と対応する値型の新しいメモリセルを追加する。型ごとに定められた初期値が代入される。" alt="" coords="267,5,448,47"/>
+<area shape="rect" id="node3" href="$classmachine_1_1_var.html#a67842af23e4d88285781901c867f3388" title="与えられた型のVarのサブクラスのオブジェクトを返すファクトリ手続き．" alt="" coords="291,71,424,98"/>
+<area shape="rect" id="node4" href="$classmachine_1_1_universe.html#a1de5a9665c1d92a4cc2f0a99fd51df64" title="与えられた名前文字列に対して一意な新しい変数を生成する．" alt="" coords="5,71,219,98"/>
+</map>

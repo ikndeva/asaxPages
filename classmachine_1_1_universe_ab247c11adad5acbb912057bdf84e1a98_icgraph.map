@@ -1,0 +1,4 @@
+<map id="createVariable" name="createVariable">
+<area shape="rect" id="node1" title="与えられた名前文字列に対して，最汎型をもつ一意な新しい変数を生成する．" alt="" coords="233,5,337,32"/>
+<area shape="rect" id="node2" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="5,5,185,32"/>
+</map>

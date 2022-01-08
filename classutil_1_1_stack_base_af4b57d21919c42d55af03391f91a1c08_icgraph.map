@@ -1,0 +1,12 @@
+<map id="size" name="size">
+<area shape="rect" id="node1" title="スタックのサイズを返す." alt="" coords="1040,42,1087,69"/>
+<area shape="rect" id="node2" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="805,5,992,47"/>
+<area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#aa71d41fd3d95c354d4d5e922c6c21210" title="空スタックか？" alt="" coords="863,71,934,98"/>
+<area shape="rect" id="node4" href="$classutil_1_1_recycle_manager.html#ad6541e97c584aca806e22274f261b0c7" title="型Sの新しいインスタンスを初期化して返す．" alt="" coords="575,42,737,69"/>
+<area shape="rect" id="node7" href="$classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" title="文字列表現を返す" alt="" coords="555,93,757,135"/>
+<area shape="rect" id="node5" href="$classutil_1_1_bufs.html#a10a5c2c7b7b4b356bf7d45cfbf664a1a" title="リサイクル可能なStringBufKtを返す。" alt="" coords="341,42,429,69"/>
+<area shape="rect" id="node6" href="$classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" title="オプション引数の可変長文字列を受け取る．" alt="" coords="27,35,195,76"/>
+<area shape="rect" id="node8" href="$classmachine_1_1_o_v_machine.html#a4171d94cd3db7876e92db22ba965dab7" title="与えられた環境と呼び出し情報のもとで、仮想機械プログラムを実行する。" alt="" coords="264,101,507,127"/>
+<area shape="rect" id="node10" href="$classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す" alt="" coords="289,151,481,178"/>
+<area shape="rect" id="node9" href="$classmachine_1_1_x_machine.html#a9775fe1388ad800fb595915ddbee7f95" title="終了イベントに対して、指定されたタグマップを用いて、実行系を動作させる。" alt="" coords="5,101,216,127"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="recycle" name="recycle">
+<area shape="rect" id="node1" title="リサイクラーオブジェクトを回収する。" alt="" coords="5,93,69,119"/>
+<area shape="rect" id="node2" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="777,18,893,45"/>
+<area shape="rect" id="node4" href="$classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．" alt="" coords="117,67,304,94"/>
+<area shape="rect" id="node8" href="$classutil_1_1_bufs.html#ad6a2020c0e224a8e0f7360d7b2b72729" title="theStringBufKtRecyclerを返す。" alt="" coords="191,118,231,145"/>
+<area shape="rect" id="node9" href="$classutil_1_1_bufs.html#a7063cf87d49fdfd77ff9863eecbf0172" title="theYamlBufRecyclerを返す。" alt="" coords="191,169,231,195"/>
+<area shape="rect" id="node3" href="$classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8" title="スタックトレースを出力する。" alt="" coords="984,18,1151,45"/>
+<area shape="rect" id="node5" href="$classutil_1_1_stack_base.html#a95cd624d209c6e05e342b8f5f85ed28a" title="スタックに値 val をプッシュし、その番地を返す。 定数時間で実行可能である." alt="" coords="352,69,491,95"/>
+<area shape="rect" id="node6" href="$classutil_1_1_stack_base.html#a43e79abd6dbad7bc60422a3043912493" title="スタックにエントリをプッシュし、その番地を返す。" alt="" coords="539,65,685,107"/>
+<area shape="rect" id="node7" href="$classutil_1_1_stack_base.html#afc83463b28590258e734220f6cafdbfb" title="メモリ割り当てルーチン" alt="" coords="733,73,936,99"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="LEVEL" name="LEVEL">
+<area shape="rect" id="node1" title="一時的に設定したモジュールのトレースレベルが，与えられたレベル以上かを返す．" alt="" coords="5,5,68,32"/>
+<area shape="rect" id="node2" href="$classutil_1_1_trace_level.html#a4f0794f4090cc81a130944d5cd01707a" title="一時的に設定したモジュールのトレースレベルが，設定したレベル以上かを返す．" alt="" coords="116,5,179,32"/>
+</map>

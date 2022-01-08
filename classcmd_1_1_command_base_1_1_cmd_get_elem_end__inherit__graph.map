@@ -1,0 +1,9 @@
+<map id="CommandBase.CmdGetElemEnd" name="CommandBase.CmdGetElemEnd">
+<area shape="rect" id="node1" title="テキスト読み出し命令の一つ:任意のノードの要素テキストを取得して，文字列型の変数に格納する．" alt="" coords="67,304,285,331"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base_1_1_cmd_load.html" title=" " alt="" coords="90,229,262,256"/>
+<area shape="rect" id="node3" href="$classcmd_1_1_command_base_1_1_command_var.html" title=" " alt="" coords="79,155,273,181"/>
+<area shape="rect" id="node4" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="53,80,165,107"/>
+<area shape="rect" id="node5" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="80,5,299,32"/>
+<area shape="rect" id="node7" href="$interfacemachine_1_1_data_accessor.html" title="参照をもつデータ読み書きオブジェクトのインタフェース." alt="" coords="190,80,295,107"/>
+</map>

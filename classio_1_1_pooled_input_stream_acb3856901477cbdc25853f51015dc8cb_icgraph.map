@@ -1,0 +1,5 @@
+<map id="resetCursor" name="resetCursor">
+<area shape="rect" id="node1" title="Reset the active cursor to the specified position." alt="" coords="148,31,239,57"/>
+<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#aad558f34661546bfe6c35cb33fb498bf" title="位置区間 [beg, end)に対応する入力テキストの部分文字列の複製を返す." alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node3" href="$classio_1_1_pooled_input_stream.html#aaab5dab5b969a87f538242e524431637" title="Read a byte or letter from an PooledInputStream." alt="" coords="29,56,76,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="addGetterAndSetter" name="addGetterAndSetter">
+<area shape="rect" id="node1" title="次の子のField名と，Getter，Setter，型を設定し，子の添字idxを返す．" alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#ada53ea7ef4453310cd8ca0033532d544" title="子として，型をもつ型項を追加する．" alt="" coords="191,5,341,32"/>
+</map>
