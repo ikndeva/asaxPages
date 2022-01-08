@@ -1,6 +1,5 @@
 <map id="put" name="put">
-<area shape="rect" id="node1" title="スタックに値をセットする." alt="" coords="291,31,331,57"/>
-<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#af9113196ddc4984063ab5c6d6c447f18" title="指定した値を与えられた関数を適用した値で置き換える." alt="" coords="179,5,232,32"/>
-<area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#ad9a3b7688dc740b5a9199ca66db2d1a3" title="スタックのトップに値をセットする." alt="" coords="168,56,243,83"/>
-<area shape="rect" id="node4" href="$classutil_1_1_report.html#af99c57037baac94c5837a696ba33f50b" title="現在の入れ子深さで段差げして，関数名nameの呼び出しと文字列msgを出力する。" alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node1" title="スタックに値をセットする." alt="" coords="128,31,168,57"/>
+<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#af9113196ddc4984063ab5c6d6c447f18" title="指定した値を与えられた関数を適用した値で置き換える." alt="" coords="16,5,69,32"/>
+<area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#ad9a3b7688dc740b5a9199ca66db2d1a3" title="スタックのトップに値をセットする." alt="" coords="5,56,80,83"/>
 </map>

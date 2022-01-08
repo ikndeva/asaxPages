@@ -1,6 +1,7 @@
 <map id="CommandBase.CmdInFileOpen" name="CommandBase.CmdInFileOpen">
-<area shape="rect" id="node1" title="入力ファイルを開き、そのファイル記述子をスタックへ積む。" alt="" coords="5,155,212,181"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="53,80,165,107"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="25,5,75,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="100,5,237,32"/>
+<area shape="rect" id="node1" title="入力ファイルを開き、そのファイル記述子をスタックへ積む。" alt="" coords="6,229,213,256"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="53,155,165,181"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,80,56,107"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="80,80,299,107"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="139,5,239,32"/>
 </map>

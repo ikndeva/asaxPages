@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['xcompiler_2369',['XCompiler',['../classcompile_1_1_x_compiler.html#a2253562af7b719451102a59eab84eb65',1,'compile::XCompiler']]],
-  ['xmachine_2370',['XMachine',['../classmachine_1_1_x_machine.html#ad684d8e55989d57b87ee36652fbaaed3',1,'machine::XMachine']]]
+  ['var_1789',['Var',['../classmachine_1_1_var.html#a69a87332fa314128243b289ac96e436e',1,'machine.Var.Var(XType type, int vid, String name)'],['../classmachine_1_1_var.html#a1357a8b21b7626c4ece238c4c8607dfd',1,'machine.Var.Var(XType type, int vid)'],['../classmachine_1_1_var.html#ab88d1dfec14acefae528323bb972d940',1,'machine.Var.Var(Var var)']]],
+  ['vid_1790',['vid',['../classmachine_1_1_var.html#accbc4b62b0abd3c45dd970514b87a38c',1,'machine::Var']]]
 ];

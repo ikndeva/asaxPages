@@ -51,7 +51,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classast_1_1_ast_node_tagged.html" target="_top" xlink:title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．">
+<g id="a_node4"><a xlink:href="classast_1_1_ast_node_tagged.html" target="_top" xlink:title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．">
 <polygon fill="white" stroke="black" points="0,-168.5 0,-187.5 86,-187.5 86,-168.5 0,-168.5"/>
 <text text-anchor="middle" x="43" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstNodeTagged</text>
 </a>
@@ -75,84 +75,63 @@
 <!-- Node5&#45;&gt;Node4 -->
 <g id="edge4" class="edge">
 <title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M36.53,-214.1C35.9,-205.14 36.34,-194.86 37.87,-187.75"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="33.07,-214.62 37.83,-224.08 40.01,-213.71 33.07,-214.62"/>
+<path fill="none" stroke="midnightblue" d="M43,-213.8C43,-204.91 43,-194.78 43,-187.75"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="39.5,-214.08 43,-224.08 46.5,-214.08 39.5,-214.08"/>
 </g>
-<!-- Node5&#45;&gt;Node4 -->
-<g id="edge6" class="edge">
-<title>Node5&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M49.47,-214.1C50.1,-205.14 49.66,-194.86 48.13,-187.75"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="45.99,-213.71 48.17,-224.08 52.93,-214.62 45.99,-213.71"/>
-</g>
-<!-- Node11 -->
+<!-- Node10 -->
 <g id="node6" class="node">
-<title>Node11</title>
-<g id="a_node6"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="88.5,-224.5 88.5,-243.5 177.5,-243.5 177.5,-224.5 88.5,-224.5"/>
-<text text-anchor="middle" x="133" y="-231.5" font-family="Helvetica,sans-Serif" font-size="10.00">FieldNavigatable</text>
-</a>
-</g>
-</g>
-<!-- Node11&#45;&gt;Node4 -->
-<g id="edge5" class="edge">
-<title>Node11&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M109.96,-219.18C93.4,-209.24 71.58,-196.15 57.42,-187.65"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="108.16,-222.18 118.54,-224.32 111.77,-216.18 108.16,-222.18"/>
-</g>
-<!-- Node12 -->
-<g id="node7" class="node">
-<title>Node12</title>
-<g id="a_node7"><a xlink:href="interfacemachine_1_1_var_holdable.html" target="_top" xlink:title="実行可能コードのインタフェース. ブロックとステップの二種がある。">
+<title>Node10</title>
+<g id="a_node6"><a xlink:href="interfacemachine_1_1_var_holdable.html" target="_top" xlink:title="実行可能コードのインタフェース. ブロックとステップの二種がある。">
 <polygon fill="white" stroke="black" points="191.5,-168.5 191.5,-187.5 260.5,-187.5 260.5,-168.5 191.5,-168.5"/>
 <text text-anchor="middle" x="226" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">VarHoldable</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node3 -->
-<g id="edge7" class="edge">
-<title>Node12&#45;&gt;Node3</title>
+<!-- Node10&#45;&gt;Node3 -->
+<g id="edge5" class="edge">
+<title>Node10&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M204.17,-162.62C189.19,-152.76 169.8,-139.99 157.14,-131.65"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="202.55,-165.75 212.83,-168.32 206.4,-159.9 202.55,-165.75"/>
 </g>
-<!-- Node14 -->
-<g id="node9" class="node">
-<title>Node14</title>
-<g id="a_node9"><a xlink:href="interfacemachine_1_1_callable.html" target="_top" xlink:title="実行可能ルールのインタフェース.">
+<!-- Node12 -->
+<g id="node8" class="node">
+<title>Node12</title>
+<g id="a_node8"><a xlink:href="interfacemachine_1_1_callable.html" target="_top" xlink:title="実行可能ルールのインタフェース.">
 <polygon fill="white" stroke="black" points="197,-112.5 197,-131.5 249,-131.5 249,-112.5 197,-112.5"/>
 <text text-anchor="middle" x="223" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">Callable</text>
 </a>
 </g>
 </g>
-<!-- Node12&#45;&gt;Node14 -->
-<g id="edge10" class="edge">
-<title>Node12&#45;&gt;Node14</title>
+<!-- Node10&#45;&gt;Node12 -->
+<g id="edge8" class="edge">
+<title>Node10&#45;&gt;Node12</title>
 <path fill="none" stroke="midnightblue" d="M224.93,-157.8C224.44,-148.91 223.88,-138.78 223.49,-131.75"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="221.46,-158.29 225.5,-168.08 228.44,-157.9 221.46,-158.29"/>
 </g>
-<!-- Node13 -->
-<g id="node8" class="node">
-<title>Node13</title>
-<g id="a_node8"><a xlink:href="interfacecmd_1_1_generatable.html" target="_top" xlink:title="変換してコードを生成できるノードのインタフェース.">
+<!-- Node11 -->
+<g id="node7" class="node">
+<title>Node11</title>
+<g id="a_node7"><a xlink:href="interfacecmd_1_1_generatable.html" target="_top" xlink:title="変換してコードを生成できるノードのインタフェース.">
 <polygon fill="white" stroke="black" points="104.5,-168.5 104.5,-187.5 173.5,-187.5 173.5,-168.5 104.5,-168.5"/>
 <text text-anchor="middle" x="139" y="-175.5" font-family="Helvetica,sans-Serif" font-size="10.00">Generatable</text>
 </a>
 </g>
 </g>
-<!-- Node13&#45;&gt;Node3 -->
-<g id="edge8" class="edge">
-<title>Node13&#45;&gt;Node3</title>
+<!-- Node11&#45;&gt;Node3 -->
+<g id="edge6" class="edge">
+<title>Node11&#45;&gt;Node3</title>
 <path fill="none" stroke="midnightblue" d="M140.75,-158.1C141.58,-149.14 142.53,-138.86 143.19,-131.75"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="137.26,-157.8 139.83,-168.08 144.23,-158.45 137.26,-157.8"/>
 </g>
-<!-- Node14&#45;&gt;Node1 -->
-<g id="edge11" class="edge">
-<title>Node14&#45;&gt;Node1</title>
+<!-- Node12&#45;&gt;Node1 -->
+<g id="edge9" class="edge">
+<title>Node12&#45;&gt;Node1</title>
 <path fill="none" stroke="midnightblue" d="M218.93,-102.35C213.67,-78.25 204.74,-37.31 200.87,-19.59"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="215.57,-103.34 221.12,-112.37 222.4,-101.85 215.57,-103.34"/>
 </g>
-<!-- Node14&#45;&gt;Node2 -->
-<g id="edge9" class="edge">
-<title>Node14&#45;&gt;Node2</title>
+<!-- Node12&#45;&gt;Node2 -->
+<g id="edge7" class="edge">
+<title>Node12&#45;&gt;Node2</title>
 <path fill="none" stroke="midnightblue" d="M208.58,-104.43C200.34,-94.97 190.35,-83.48 183.62,-75.75"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="206.03,-106.84 215.24,-112.08 211.31,-102.24 206.03,-106.84"/>
 </g>

@@ -105,7 +105,8 @@ $(document).ready(function(){initNavTree('classutil_1_1_yaml_buf.html',''); init
 <div class="dynheader">
 Collaboration diagram for YamlBuf:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf__coll__graph.svg" width="402" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf__coll__graph.svg" width="402" height="288"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
@@ -285,7 +286,7 @@ Protected Member Functions</h2></td></tr>
 <li>メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a0ac66c68634f271c4e64c2fac7c39ae5" title="オブジェクトのモードを開始する.">openObj()</a></code>で，バッファを開き，オブジェクトの記述を開始する．</li>
 <li>メソッド<code>add(属性名，属性値)</code>で属性値対をくりかえし追加する．</li>
 <li>メソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#a74d796e1e4a0dfe981f1cd331ca2a8ad" title="オブジェクトのモードを終了する.">closeObj()</a></code>でオブジェクトの記述を終了する．</li>
-<li>最後にメソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520" title="バッファの内容を表す文字列を返す．">toString()</a></code>でバッファを閉じて，内容の文字列を返す． <dl class="section note"><dt>Note</dt><dd>複数の<code><a class="el" href="classutil_1_1_foldable_string_buf.html" title="入れ子深さに応じた段下げ表示を行うよう拡張された文字列バッファのクラス.">FoldableStringBuf</a></code>を用いて実装されている．</dd></dl>
+<li>最後にメソッド<code><a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520" title="バッファの内容を表す文字列を返す．">toString()</a></code>でバッファを閉じて，内容の文字列を返す． <dl class="section note"><dt>Note</dt><dd>複数の<code>FoldableStringBufKt</code>を用いて実装されている．</dd></dl>
 例： <div class="fragment"><div class="line"><a class="code" href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e">YamlBuf</a> yaml = <span class="keyword">new</span> <a class="code" href="classutil_1_1_yaml_buf.html#a3768957ea7e84470ee5f0d2522259d0e">YamlBuf</a>();</div>
 <div class="line">System.out.println(yaml.openArray()</div>
 <div class="line">       .add(1).add(2).closeArray().toString()); </div>
@@ -322,14 +323,10 @@ Protected Member Functions</h2></td></tr>
 <p>バッファの内容を表す文字列を返す． </p>
 <p>YamlBufを用いてYaml文字列を作成したら，最後にこの演算を用いて，文字列を生成して用いる． </p>
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad146fa8579a5f8a876c4688cc5a68520_cgraph.svg" width="272" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad146fa8579a5f8a876c4688cc5a68520_icgraph.svg" width="280" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad146fa8579a5f8a876c4688cc5a68520_icgraph.svg" width="168" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -352,11 +349,6 @@ Here is the caller graph for this function:</div>
 
 <p>属性名を追加する。 </p>
 <p>続けて、値、オブジェクト、配列を追加するのに使う。入れ子出力に有用。 </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_ad53cd7a10238ce08a4f6b30b3460e3fa_cgraph.svg" width="100%" height="402"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
 
 </div>
 </div>
@@ -470,12 +462,14 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_af9b731bd7e5760374c78d4aef4140df0_cgraph.svg" width="100%" height="431"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_af9b731bd7e5760374c78d4aef4140df0_cgraph.svg" width="219" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_af9b731bd7e5760374c78d4aef4140df0_icgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_af9b731bd7e5760374c78d4aef4140df0_icgraph.svg" width="252" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -499,14 +493,10 @@ Here is the caller graph for this function:</div>
 <p>配列モードで、文字列<code>value</code>を正しい段下げで，区切り記号を挿入しながら，バッファに追加する。 </p>
 <p>文字列<code>value</code>はYamlBufで作成された段下げ付き文字列である。 </p>
 <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a5b7c2018c9764851bb89cd76b4e1a7b1_cgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
-</div>
-<div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a5b7c2018c9764851bb89cd76b4e1a7b1_icgraph.svg" width="335" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a5b7c2018c9764851bb89cd76b4e1a7b1_icgraph.svg" width="335" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -542,7 +532,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a922f6e03a7777554853b58e5601e7d11_cgraph.svg" width="100%" height="417"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_yaml_buf_a922f6e03a7777554853b58e5601e7d11_cgraph.svg" width="344" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -556,7 +547,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceutil.html">util</a></li><li class="navelem"><a class="el" href="classutil_1_1_yaml_buf.html">YamlBuf</a></li>
-    <li class="footer">Generated on Wed May 12 2021 04:21:04 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

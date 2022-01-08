@@ -25,25 +25,19 @@
 var NAVTREE =
 [
   [ "asax02.neo", "index.html", [
-    [ "210502 Design of Query Syntax", "md_210502design_query_syntax.html", null ],
-    [ "210503 Design: error handling", "md_210503design_errorhandling.html", null ],
-    [ "210505bug2", "md_210505bug2.html", null ],
-    [ "210507 Design of Syntactic Objects", "md_210507design_symbols.html", null ],
     [ "200828 Ast Typeの使用例調査", "md_ast_200828asttype.html", null ],
     [ "memostyle", "md_ast_memostyle.html", null ],
-    [ "CHANGELOG.md: XML parser, ver2", "md__c_h_a_n_g_e_l_o_g_.html", null ],
-    [ "CTOC", "md__c_t_o_c.html", null ],
+    [ "CTOC", "md_etc__c_t_o_c.html", null ],
+    [ "TOC: ./md", "md_etc_toc.html", null ],
+    [ "211230 memo_style.md", "md_format_memo_sty.html", null ],
     [ "READMEFrameStack.md", "md_frame__r_e_a_d_m_e_frame_stack.html", null ],
-    [ "github", "md_github.html", null ],
     [ "StringOutStream.java", "md_md_frame__string_out_stream.html", null ],
     [ "Match.java", "md_md__match.html", null ],
     [ "200824 Ast Node Classification", "md_parse_200824astnode_classification.html", null ],
     [ "CHANGELOG.md: asax02neo.query.g4", "md_parse__c_h_a_n_g_e_l_o_g_.html", null ],
     [ "README_VM.md: JVM", "md_parse__r_e_a_d_m_e__v_m.html", null ],
     [ "Pretty: A pretty printer for Antlr4 parse tree and more.", "md_pretty__r_e_a_d_m_e.html", null ],
-    [ "TOC: ./md", "md_toc.html", null ],
     [ "Todo List", "todo.html", null ],
-    [ "Deprecated List", "deprecated.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -58,11 +52,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Variables", "globals_vars.html", null ]
-      ] ]
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -70,19 +60,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_action_code_8java.html",
-"classast_1_1_ast_data_writer_1_1_writer_string.html#a390cb262f2660c2c9fb1fedb9f86a4f3",
-"classast_1_1_ast_scan_from.html#a9bdb4531eee4ea10fafba49383ab366f",
-"classcmd_1_1_command_base_1_1_cmd_inc_m_a_t_c_h.html#a3137357d0abb2bd75321d6e19024956a",
-"classevent_1_1_event_reader_base.html#a4339fdee56bdfe4adf79201d25cc8d76",
-"classio_1_1_char_set.html#a2157f41ce3bc3a2b52f5bc1039a225da",
-"classparse_1_1_p_node_printer.html#a32693ea27396b3575ae5d07d0f69b056",
-"classparse_1_1query_parser.html#ac817227127bef24c05f38d89459c17cc",
-"classparse_1_1query_parser_1_1_expr_context.html#a77765732f5bc4d5453c37e33c589d355",
-"classparse_1_1query_parser_1_1_str_expr_context.html#a210ca7b48d1fca63cb055a90fb3d219f",
-"classtype_1_1_x_item.html#af47dde873172c3fdb519bb91982f5be7",
-"classutil_1_1_string_buf.html#a3cbd4c8a27b0d224a5cb928b1ae7ccea",
-"functions_l.html",
-"interfaceparse_1_1query_listener.html#a988910048f8e730c788d4ca006b68445"
+"classast_1_1_ast_literal_1_1_boolean_literal.html#a38b33616169d2cc0716799e956ac0dd6",
+"classast_1_1_block_base.html#a8134e5d78d8659840718f990d3d55654",
+"classcmd_1_1_command_string_1_1_cmd_str_regex_match.html#a3137357d0abb2bd75321d6e19024956a",
+"classframe_1_1_boolean_holder.html#ae070620f0272fed427c386773875c1c7",
+"classmachine_1_1_x_machine.html#a422a787c9cf8cfb63f1f8a3f5528c421",
+"classutil_1_1_bufs.html#a10a5c2c7b7b4b356bf7d45cfbf664a1a",
+"classast_1_1_ast_return.html",
+"interfacemachine_1_1_frame_stackable.html#aa913875bbd7c0cd052f26b3186054634"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

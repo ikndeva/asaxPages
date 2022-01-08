@@ -9,7 +9,6 @@ var annotated_dup =
       [ "AstBreak", "classast_1_1_ast_break.html", "classast_1_1_ast_break" ],
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstDataReader", "classast_1_1_ast_data_reader.html", "classast_1_1_ast_data_reader" ],
-      [ "AstDataWrapper", "classast_1_1_ast_data_wrapper.html", "classast_1_1_ast_data_wrapper" ],
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", "classast_1_1_ast_data_writer" ],
       [ "AstFactory", "classast_1_1_ast_factory.html", "classast_1_1_ast_factory" ],
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", "classast_1_1_ast_func_call" ],
@@ -19,6 +18,7 @@ var annotated_dup =
       [ "AstMathOper", "classast_1_1_ast_math_oper.html", "classast_1_1_ast_math_oper" ],
       [ "AstNode", "classast_1_1_ast_node.html", "classast_1_1_ast_node" ],
       [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
+      [ "AstNodeNew", "classast_1_1_ast_node_new.html", "classast_1_1_ast_node_new" ],
       [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ],
       [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", "classast_1_1_ast_node_tagged_settable" ],
       [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", "classast_1_1_ast_node_unary" ],
@@ -38,14 +38,14 @@ var annotated_dup =
       [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
       [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
       [ "BlockFactory", "classast_1_1_block_factory.html", "classast_1_1_block_factory" ],
-      [ "Path", "classast_1_1_path.html", "classast_1_1_path" ],
       [ "Node", "interfaceast_1_1_node.html", "interfaceast_1_1_node" ],
+      [ "Path", "classast_1_1_path.html", "classast_1_1_path" ],
       [ "Program", "classast_1_1_program.html", "classast_1_1_program" ],
       [ "SentList", "classast_1_1_sent_list.html", "classast_1_1_sent_list" ],
       [ "Step", "classast_1_1_step.html", "classast_1_1_step" ],
       [ "StepRule", "classast_1_1_step_rule.html", "classast_1_1_step_rule" ],
       [ "StringRel", "classast_1_1_string_rel.html", "classast_1_1_string_rel" ],
-      [ "XFormList< T extends XFormattable, S extends XFormList", "classast_1_1_x_form_list_3_01_t_01extends_01_x_formattable_00_01_s_01extends_01_x_form_list.html", null ]
+      [ "TypingFunc", "classast_1_1_typing_func.html", "classast_1_1_typing_func" ]
     ] ],
     [ "cmd", "namespacecmd.html", [
       [ "CmdList", "classcmd_1_1_cmd_list.html", "classcmd_1_1_cmd_list" ],
@@ -116,8 +116,7 @@ var annotated_dup =
     [ "format", "namespaceformat.html", [
       [ "NFBufs", "classformat_1_1_n_f_bufs.html", "classformat_1_1_n_f_bufs" ],
       [ "NodeFormattable", "interfaceformat_1_1_node_formattable.html", "interfaceformat_1_1_node_formattable" ],
-      [ "NodeFormatterBase", "classformat_1_1_node_formatter_base.html", "classformat_1_1_node_formatter_base" ],
-      [ "NodeFormatterSimple", "classformat_1_1_node_formatter_simple.html", "classformat_1_1_node_formatter_simple" ],
+      [ "NodeFormatter", "classformat_1_1_node_formatter.html", "classformat_1_1_node_formatter" ],
       [ "PrintState", "classformat_1_1_print_state.html", "classformat_1_1_print_state" ],
       [ "Style", "classformat_1_1_style.html", "classformat_1_1_style" ],
       [ "XFormattable", "interfaceformat_1_1_x_formattable.html", "interfaceformat_1_1_x_formattable" ]
@@ -138,8 +137,7 @@ var annotated_dup =
       [ "CharSet", "classio_1_1_char_set.html", "classio_1_1_char_set" ],
       [ "CharTestable", "interfaceio_1_1_char_testable.html", "interfaceio_1_1_char_testable" ],
       [ "InputScannable", "interfaceio_1_1_input_scannable.html", "interfaceio_1_1_input_scannable" ],
-      [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", "classio_1_1_pooled_input_stream" ],
-      [ "PooledOutputStream", "classio_1_1_pooled_output_stream.html", "classio_1_1_pooled_output_stream" ]
+      [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", "classio_1_1_pooled_input_stream" ]
     ] ],
     [ "machine", "namespacemachine.html", [
       [ "Call", "classmachine_1_1_call.html", "classmachine_1_1_call" ],
@@ -156,7 +154,6 @@ var annotated_dup =
       [ "MaskMap< K extends Comparable", "classmachine_1_1_mask_map_3_01_k_01extends_01_comparable.html", null ],
       [ "MultiHashMap", "classmachine_1_1_multi_hash_map.html", "classmachine_1_1_multi_hash_map" ],
       [ "NameTable", "classmachine_1_1_name_table.html", "classmachine_1_1_name_table" ],
-      [ "OSVar", "classmachine_1_1_o_s_var.html", "classmachine_1_1_o_s_var" ],
       [ "OVMachine", "classmachine_1_1_o_v_machine.html", "classmachine_1_1_o_v_machine" ],
       [ "Runnable", "interfacemachine_1_1_runnable.html", "interfacemachine_1_1_runnable" ],
       [ "SystemReadable", "interfacemachine_1_1_system_readable.html", "interfacemachine_1_1_system_readable" ],
@@ -174,13 +171,11 @@ var annotated_dup =
       [ "AstParser", "classparse_1_1_ast_parser.html", "classparse_1_1_ast_parser" ],
       [ "Parsable", "interfaceparse_1_1_parsable.html", "interfaceparse_1_1_parsable" ],
       [ "ParseTable", "classparse_1_1_parse_table.html", "classparse_1_1_parse_table" ],
-      [ "PNodePrinter", "classparse_1_1_p_node_printer.html", "classparse_1_1_p_node_printer" ],
-      [ "queryBaseListener", "classparse_1_1query_base_listener.html", "classparse_1_1query_base_listener" ],
-      [ "queryLexer", "classparse_1_1query_lexer.html", "classparse_1_1query_lexer" ],
-      [ "queryListener", "interfaceparse_1_1query_listener.html", "interfaceparse_1_1query_listener" ],
-      [ "queryParser", "classparse_1_1query_parser.html", "classparse_1_1query_parser" ]
+      [ "ParseTask", "interfaceparse_1_1_parse_task.html", "interfaceparse_1_1_parse_task" ],
+      [ "PNodePrinter", "classparse_1_1_p_node_printer.html", "classparse_1_1_p_node_printer" ]
     ] ],
     [ "pretty", "namespacepretty.html", [
+      [ "BufferedTextWriter", "classpretty_1_1_buffered_text_writer.html", "classpretty_1_1_buffered_text_writer" ],
       [ "CharSet", "classpretty_1_1_char_set.html", "classpretty_1_1_char_set" ],
       [ "Par", "classpretty_1_1_par.html", "classpretty_1_1_par" ],
       [ "ParStream", "classpretty_1_1_par_stream.html", "classpretty_1_1_par_stream" ]
@@ -189,13 +184,12 @@ var annotated_dup =
       [ "Tmpl", "classtmpl_1_1_tmpl.html", null ]
     ] ],
     [ "type", "namespacetype.html", [
-      [ "LowerJoinable", "interfacetype_1_1_lower_joinable.html", "interfacetype_1_1_lower_joinable" ],
+      [ "ArrowType", "classtype_1_1_arrow_type.html", "classtype_1_1_arrow_type" ],
       [ "TestIsInstance", "classtype_1_1_test_is_instance.html", "classtype_1_1_test_is_instance" ],
       [ "Typable", "interfacetype_1_1_typable.html", "interfacetype_1_1_typable" ],
+      [ "TypeItem", "classtype_1_1_type_item.html", "classtype_1_1_type_item" ],
       [ "UnionFindItem", "classtype_1_1_union_find_item.html", "classtype_1_1_union_find_item" ],
-      [ "XItem", "classtype_1_1_x_item.html", "classtype_1_1_x_item" ],
-      [ "XType", "enumtype_1_1_x_type.html", "enumtype_1_1_x_type" ],
-      [ "XTyping", "classtype_1_1_x_typing.html", "classtype_1_1_x_typing" ]
+      [ "XType", "enumtype_1_1_x_type.html", "enumtype_1_1_x_type" ]
     ] ],
     [ "util", "namespaceutil.html", [
       [ "ArgTest", "classutil_1_1_arg_test.html", "classutil_1_1_arg_test" ],
@@ -205,28 +199,23 @@ var annotated_dup =
       [ "Bufs", "classutil_1_1_bufs.html", "classutil_1_1_bufs" ],
       [ "Code", "classutil_1_1_code.html", "classutil_1_1_code" ],
       [ "FieldInspectable", "interfaceutil_1_1_field_inspectable.html", "interfaceutil_1_1_field_inspectable" ],
-      [ "FoldableStringBuf", "classutil_1_1_foldable_string_buf.html", "classutil_1_1_foldable_string_buf" ],
       [ "IncCounter", "classutil_1_1_inc_counter.html", "classutil_1_1_inc_counter" ],
       [ "Lock", "classutil_1_1_lock.html", "classutil_1_1_lock" ],
       [ "MultiBytesQueryTest", "classutil_1_1_multi_bytes_query_test.html", "classutil_1_1_multi_bytes_query_test" ],
       [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", "classutil_1_1_multi_words_option" ],
       [ "Panic", "classutil_1_1_panic.html", "classutil_1_1_panic" ],
       [ "RecycleManager", "classutil_1_1_recycle_manager.html", "classutil_1_1_recycle_manager" ],
-      [ "Report", "classutil_1_1_report.html", "classutil_1_1_report" ],
-      [ "ReportEnter", "classutil_1_1_report_enter.html", "classutil_1_1_report_enter" ],
       [ "Resettable", "interfaceutil_1_1_resettable.html", [
         [ "Generator", "interfaceutil_1_1_resettable_1_1_generator.html", "interfaceutil_1_1_resettable_1_1_generator" ],
         [ "Resetter", "interfaceutil_1_1_resettable_1_1_resetter.html", "interfaceutil_1_1_resettable_1_1_resetter" ]
       ] ],
       [ "Stackable", "interfaceutil_1_1_stackable.html", "interfaceutil_1_1_stackable" ],
       [ "StackBase", "classutil_1_1_stack_base.html", "classutil_1_1_stack_base" ],
-      [ "StringBuf", "classutil_1_1_string_buf.html", "classutil_1_1_string_buf" ],
       [ "TraceLevel", "classutil_1_1_trace_level.html", "classutil_1_1_trace_level" ],
       [ "Util", "classutil_1_1_util.html", "classutil_1_1_util" ],
       [ "YamlBuf", "classutil_1_1_yaml_buf.html", "classutil_1_1_yaml_buf" ]
     ] ],
-    [ "Assignable", "class_assignable.html", null ],
-    [ "BufferedTextWriter", "class_buffered_text_writer.html", "class_buffered_text_writer" ],
+    [ "ArrayList", "class_array_list.html", null ],
     [ "CmdLoad", "class_cmd_load.html", null ],
     [ "CmdStore", "class_cmd_store.html", null ],
     [ "CmdStr2Type", "class_cmd_str2_type.html", null ],
@@ -235,9 +224,8 @@ var annotated_dup =
     [ "DataHolder", "class_data_holder.html", null ],
     [ "DataReader", "class_data_reader.html", null ],
     [ "Exception", "class_exception.html", null ],
-    [ "FilterOutputStream", "class_filter_output_stream.html", null ],
     [ "Iterable", "class_iterable.html", null ],
-    [ "Parser", "class_parser.html", null ],
+    [ "Iterator", "class_iterator.html", null ],
     [ "RuntimeException", "class_runtime_exception.html", null ],
-    [ "XFormList", "class_x_form_list.html", null ]
+    [ "Tmpl", "class_tmpl.html", null ]
 ];

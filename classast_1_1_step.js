@@ -8,6 +8,7 @@ var classast_1_1_step =
     [ "setDynamic", "classast_1_1_step.html#a1b90bfc1d20876dbd23f5ff1573f774d", null ],
     [ "dynamicVarCount", "classast_1_1_step.html#afba2c8ec4dbe7ca6409e3f2fa72aa249", null ],
     [ "incDynamicVarCount", "classast_1_1_step.html#a29696a08b1ffdebeb98fa22542b4b8c5", null ],
+    [ "copy", "classast_1_1_step.html#ac3aa186a89274c2264bd691cf739f6f4", null ],
     [ "data", "classast_1_1_step.html#a3137357d0abb2bd75321d6e19024956a", null ],
     [ "getPath", "classast_1_1_step.html#a594ec874d5250e63eb0e6c03095e95e0", null ],
     [ "setPath", "classast_1_1_step.html#a3777ce75633431ce97e8371b861cf559", null ],

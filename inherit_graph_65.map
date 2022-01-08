@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfacemachine_1_1_inspectable.html" title="読み出し専用の値を保持する記憶領域を抽象化したインタフェース." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,85,32"/>
+<area shape="rect" id="node2" href="$classframe_1_1_level_stack.html" title="レベル付きスタックのクラス。" alt="" coords="133,5,220,32"/>
 </map>

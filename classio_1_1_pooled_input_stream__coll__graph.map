@@ -1,10 +1,10 @@
 <map id="PooledInputStream" name="PooledInputStream">
-<area shape="rect" id="node1" title="論理位置アクセスによる再読み出しが可能なバッファつき入力ストリーム." alt="" coords="299,421,433,448"/>
+<area shape="rect" id="node1" title="論理位置アクセスによる再読み出しが可能なバッファつき入力ストリーム." alt="" coords="303,421,437,448"/>
 <area shape="rect" id="node2" href="$interfaceio_1_1_input_scannable.html" title="部分文字列の抽出が可能な入力文字ストリームのインタフェース." alt="" coords="118,265,230,291"/>
 <area shape="rect" id="node3" title=" " alt="" coords="32,5,71,32"/>
 <area shape="rect" id="node4" title=" " alt="" coords="254,265,318,291"/>
-<area shape="rect" id="node5" title=" " alt="" coords="343,265,389,291"/>
-<area shape="rect" id="node6" href="$classio_1_1_char_set.html" title="EventReadableが用いる典型的な文字クラスを準備する．" alt="" coords="413,265,484,291"/>
+<area shape="rect" id="node5" title=" " alt="" coords="343,265,397,291"/>
+<area shape="rect" id="node6" href="$classio_1_1_char_set.html" title="EventReadableが用いる典型的な文字クラスを準備する．" alt="" coords="421,265,492,291"/>
 <area shape="rect" id="node7" title=" " alt="" coords="113,5,169,32"/>
 <area shape="rect" id="node8" href="$interfaceio_1_1_char_testable.html" title=" " alt="" coords="255,5,354,32"/>
 <area shape="rect" id="node9" title=" " alt="" coords="515,5,582,32"/>

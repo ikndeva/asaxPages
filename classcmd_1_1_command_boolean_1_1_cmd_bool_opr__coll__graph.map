@@ -1,10 +1,10 @@
 <map id="CommandBoolean.CmdBoolOpr" name="CommandBoolean.CmdBoolOpr">
-<area shape="rect" id="node1" title="論理二項演算命令" alt="" coords="285,275,493,301"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="211,199,323,225"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,109,56,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="338,109,475,136"/>
-<area shape="rect" id="node5" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="219,109,314,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="401,5,457,32"/>
-<area shape="rect" id="node7" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="195,5,339,32"/>
-<area shape="rect" id="node8" title=" " alt="" coords="88,5,155,32"/>
+<area shape="rect" id="node1" title="論理二項演算命令" alt="" coords="280,260,488,287"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="275,171,387,197"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,81,56,108"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="80,81,299,108"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="139,5,239,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="323,81,434,108"/>
+<area shape="rect" id="node7" title=" " alt="" coords="459,81,525,108"/>
+<area shape="rect" id="node8" title=" " alt="" coords="411,171,467,197"/>
 </map>

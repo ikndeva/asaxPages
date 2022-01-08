@@ -102,7 +102,8 @@ $(document).ready(function(){initNavTree('classutil_1_1_recycle_manager.html',''
 <div class="dynheader">
 Collaboration diagram for RecycleManager&lt; S &gt;:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager__coll__graph.svg" width="278" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager__coll__graph.svg" width="278" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -119,12 +120,12 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>インタフェースResettableをもつ型Tのオブジェクトのリサイクル可能なオブジェクトプール 次のように使用する． </p>
-<div class="fragment"><div class="line">RecycleManager&lt;StringBuf&gt; man =</div>
+<div class="fragment"><div class="line">RecycleManager&lt;StringBufKt&gt; man =</div>
 <div class="line">    <span class="keyword">new</span> RecycleManager&lt;&gt;(</div>
-<div class="line">            ()-&gt;<span class="keyword">new</span> StringBuf(),        <span class="comment">//generator</span></div>
-<div class="line">          (StringBuf obj)-&gt;obj.clear() <span class="comment">//resetter</span></div>
+<div class="line">            ()-&gt;<span class="keyword">new</span> StringBufKt(),        <span class="comment">//generator</span></div>
+<div class="line">          (StringBufKt obj)-&gt;obj.clear() <span class="comment">//resetter</span></div>
 <div class="line">    ); </div>
-<div class="line">StringBuf buf = man.get();</div>
+<div class="line">StringBufKt buf = man.get();</div>
 <div class="line">String str = buf.clear().add(...)...add(...).toString(); </div>
 <div class="line">man.recycle(buf); </div>
 </div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -155,10 +156,10 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>型Tのオブジェクトプールを生成する． </p>
-<p>二つの引数には，インタフェースGenerator<s>とResetter<s>をもつラムダ式を与える．使用例は次の通り： </p><div class="fragment"><div class="line">RecycleManager&lt;StringBuf&gt; man =</div>
+<p>二つの引数には，インタフェースGenerator<s>とResetter<s>をもつラムダ式を与える．使用例は次の通り： </p><div class="fragment"><div class="line">RecycleManager&lt;StringBufKt&gt; man =</div>
 <div class="line">    <span class="keyword">new</span> RecycleManager&lt;&gt;(</div>
-<div class="line">            ()-&gt;<span class="keyword">new</span> StringBuf(),         <span class="comment">//generator</span></div>
-<div class="line">       (StringBuf obj)-&gt;obj.clear() <span class="comment">//resetter</span></div>
+<div class="line">            ()-&gt;<span class="keyword">new</span> StringBufKt(),         <span class="comment">//generator</span></div>
+<div class="line">       (StringBufKt obj)-&gt;obj.clear() <span class="comment">//resetter</span></div>
 <div class="line">    ); </div>
 </div><!-- fragment --><p> </s></s></p>
 
@@ -185,7 +186,14 @@ Public Member Functions</h2></td></tr>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager_ad6541e97c584aca806e22274f261b0c7_cgraph.svg" width="440" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager_ad6541e97c584aca806e22274f261b0c7_cgraph.svg" width="440" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager_ad6541e97c584aca806e22274f261b0c7_icgraph.svg" width="403" height="52"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -211,7 +219,14 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager_aa9f7825d1e1ceade4de0aa24bdb2d10c_cgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager_aa9f7825d1e1ceade4de0aa24bdb2d10c_cgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classutil_1_1_recycle_manager_aa9f7825d1e1ceade4de0aa24bdb2d10c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -225,7 +240,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceutil.html">util</a></li><li class="navelem"><a class="el" href="classutil_1_1_recycle_manager.html">RecycleManager</a></li>
-    <li class="footer">Generated on Wed May 12 2021 04:21:04 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

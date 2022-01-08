@@ -1,12 +1,11 @@
 <map id="gencode" name="gencode">
 <area shape="rect" id="node1" title="コードを生成する．" alt="" coords="5,107,76,133"/>
 <area shape="rect" id="node2" href="$classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c" title="二つの非演算子である子供のコードを生成す" alt="" coords="124,81,331,108"/>
-<area shape="rect" id="node10" href="$classast_1_1_ast_node.html#a35d53cdd86285e56b69cfedc5ef28580" title="i番目の子供を返す." alt="" coords="154,132,301,159"/>
-<area shape="rect" id="node3" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="381,5,497,32"/>
-<area shape="rect" id="node5" href="$interfacetype_1_1_typable.html#abcd711b709d52806e817ddb836274348" title=" " alt="" coords="379,56,500,83"/>
-<area shape="rect" id="node6" href="$classtype_1_1_x_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="389,107,490,133"/>
-<area shape="rect" id="node9" href="$interfaceast_1_1_node.html#a2ef381509e2e7abf437394ba4c53686c" title="ノードの演算型を返す。" alt="" coords="382,157,497,184"/>
-<area shape="rect" id="node4" href="$classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8" title="スタックトレースを出力する。" alt="" coords="548,5,715,32"/>
-<area shape="rect" id="node7" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="763,107,924,133"/>
-<area shape="rect" id="node8" href="$classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b" title="この元の同値類がもつT型の値を返す。" alt="" coords="552,132,711,159"/>
+<area shape="rect" id="node9" href="$classast_1_1_ast_node.html#a35d53cdd86285e56b69cfedc5ef28580" title="i番目の子供を返す." alt="" coords="154,132,301,159"/>
+<area shape="rect" id="node3" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="391,5,507,32"/>
+<area shape="rect" id="node5" href="$interfacetype_1_1_typable.html#a4c2935dc9d53d922e91f2a8fb3141ddb" title=" " alt="" coords="389,56,510,83"/>
+<area shape="rect" id="node6" href="$interfaceast_1_1_node.html#a2ef381509e2e7abf437394ba4c53686c" title="ノードの演算型を返す。" alt="" coords="392,107,507,133"/>
+<area shape="rect" id="node7" href="$classtype_1_1_type_item.html#ab2779590ca497b3e0b72a642b69a4c9a" title="この型アイテムthisがもつ値型XTypeを返す。" alt="" coords="379,157,520,184"/>
+<area shape="rect" id="node4" href="$classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8" title="スタックトレースを出力する。" alt="" coords="568,5,735,32"/>
+<area shape="rect" id="node8" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="571,157,732,184"/>
 </map>

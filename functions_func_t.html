@@ -111,14 +111,13 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 <li>toCName()
 : <a class="el" href="classutil_1_1_util.html#a7ce29b607a8e9fd7ff55a606c0120b64">Util</a>
 </li>
-<li>toEmitString()
-: <a class="el" href="interfaceformat_1_1_node_formattable.html#ad2ed4947c266a995d1a0fb4b766bc824">NodeFormattable</a>
-, <a class="el" href="classformat_1_1_node_formatter_base.html#ad2ed4947c266a995d1a0fb4b766bc824">NodeFormatterBase</a>
-</li>
 <li>toHALT()
 : <a class="el" href="classcmd_1_1_command_base_1_1_cmd_h_a_l_t.html#af6d1b7a6b8bf701a01b1686107f22ecf">CommandBase.CmdHALT</a>
 , <a class="el" href="classcmd_1_1_command_base.html#af6d1b7a6b8bf701a01b1686107f22ecf">CommandBase</a>
 , <a class="el" href="interfacemachine_1_1_cmd.html#af6d1b7a6b8bf701a01b1686107f22ecf">Cmd</a>
+</li>
+<li>toNodeString()
+: <a class="el" href="interfaceast_1_1_node.html#a9e00fd20fa020cbd53354a2c7024dc62">Node</a>
 </li>
 <li>topIndexOf()
 : <a class="el" href="classutil_1_1_stack_base.html#aaef620ba588ba79ae09ca5d664147b4c">StackBase&lt; T &gt;</a>
@@ -148,7 +147,6 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 , <a class="el" href="classframe_1_1_integer_holder.html#ad146fa8579a5f8a876c4688cc5a68520">IntegerHolder</a>
 , <a class="el" href="classframe_1_1_level_stack.html#ad146fa8579a5f8a876c4688cc5a68520">LevelStack</a>
 , <a class="el" href="classio_1_1_pooled_input_stream.html#ad146fa8579a5f8a876c4688cc5a68520">PooledInputStream</a>
-, <a class="el" href="classio_1_1_pooled_output_stream.html#ad146fa8579a5f8a876c4688cc5a68520">PooledOutputStream</a>
 , <a class="el" href="interfacemachine_1_1_frame_stackable.html#ad146fa8579a5f8a876c4688cc5a68520">FrameStackable</a>
 , <a class="el" href="classmachine_1_1_id_mask.html#ad146fa8579a5f8a876c4688cc5a68520">IdMask</a>
 , <a class="el" href="interfacemachine_1_1_inspectable.html#ad146fa8579a5f8a876c4688cc5a68520">Inspectable&lt; S, T &gt;</a>
@@ -160,19 +158,21 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 , <a class="el" href="classmachine_1_1_universe.html#ad146fa8579a5f8a876c4688cc5a68520">Universe</a>
 , <a class="el" href="interfacemachine_1_1_var_holdable.html#ad146fa8579a5f8a876c4688cc5a68520">VarHoldable</a>
 , <a class="el" href="classmachine_1_1_var_table.html#ad146fa8579a5f8a876c4688cc5a68520">VarTable</a>
+, <a class="el" href="classtype_1_1_arrow_type.html#ad146fa8579a5f8a876c4688cc5a68520">ArrowType</a>
 , <a class="el" href="classtype_1_1_union_find_item.html#ad146fa8579a5f8a876c4688cc5a68520">UnionFindItem&lt; T &gt;</a>
-, <a class="el" href="classtype_1_1_x_typing.html#ad146fa8579a5f8a876c4688cc5a68520">XTyping</a>
 , <a class="el" href="classutil_1_1_auto_stack.html#ad146fa8579a5f8a876c4688cc5a68520">AutoStack&lt; S &gt;</a>
 , <a class="el" href="classutil_1_1_bits_buf.html#a4efba764c83bd687e353c049c2b75d1e">BitsBuf</a>
 , <a class="el" href="classutil_1_1_bits_buf_long.html#a8de8fd55269484dea59ab401140434c7">BitsBufLong</a>
 , <a class="el" href="classutil_1_1_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00">Bufs</a>
-, <a class="el" href="classutil_1_1_stack_base_1_1_stat.html#ad146fa8579a5f8a876c4688cc5a68520">StackBase&lt; T &gt;.Stat</a>
 , <a class="el" href="classutil_1_1_stack_base.html#ad146fa8579a5f8a876c4688cc5a68520">StackBase&lt; T &gt;</a>
-, <a class="el" href="classutil_1_1_string_buf.html#ad146fa8579a5f8a876c4688cc5a68520">StringBuf</a>
 , <a class="el" href="classutil_1_1_yaml_buf.html#ad146fa8579a5f8a876c4688cc5a68520">YamlBuf</a>
 </li>
 <li>toString_()
 : <a class="el" href="classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263">AutoStack&lt; S &gt;</a>
+</li>
+<li>toStringFormatted()
+: <a class="el" href="interfaceformat_1_1_node_formattable.html#a0fb6c1a76095053b7b8f4a620f29e9a8">NodeFormattable</a>
+, <a class="el" href="classformat_1_1_node_formatter.html#a0fb6c1a76095053b7b8f4a620f29e9a8">NodeFormatter</a>
 </li>
 <li>TraceLevel()
 : <a class="el" href="classutil_1_1_trace_level.html#a7f1aadd2c2658307a97b7032eda1d08b">TraceLevel</a>
@@ -189,16 +189,19 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 <li>trimStrStart()
 : <a class="el" href="classutil_1_1_util.html#ac9e8cb711e806bbabc5c01fb89edd2d3">Util</a>
 </li>
-<li>ty()
-: <a class="el" href="classtype_1_1_x_item.html#a376d814d15cc5ae21afd6425d0780ad9">XItem</a>
-</li>
 <li>typ()
 : <a class="el" href="classmachine_1_1_var.html#a8823a0c472dfe4cda24d22d9c15fed96">Var</a>
 </li>
 <li>type()
 : <a class="el" href="interfaceevent_1_1_event.html#a924f80dc9f50bcdeea9e2d11afb8e04e">Event</a>
 , <a class="el" href="classevent_1_1_event_base.html#a924f80dc9f50bcdeea9e2d11afb8e04e">EventBase</a>
-, <a class="el" href="classmachine_1_1_o_s_var.html#aac66012db63fd274931e6690afa76212">OSVar</a>
+</li>
+<li>TypeItem()
+: <a class="el" href="classtype_1_1_type_item.html#a7e5460b6d79d0372cb825ace9a5cc639">TypeItem</a>
+</li>
+<li>typer()
+: <a class="el" href="classast_1_1_ast_node.html#a15d7eb6de4b7fed2669946b447094c2e">AstNode</a>
+, <a class="el" href="interfaceast_1_1_node.html#a15d7eb6de4b7fed2669946b447094c2e">Node</a>
 </li>
 <li>TypeToSelf()
 : <a class="el" href="classast_1_1_ast_converter_1_1_type_to_self.html#a8dc4677129dd192d0dec2fd52e655af0">AstConverter.TypeToSelf&lt; T &gt;</a>
@@ -206,7 +209,6 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 <li>typing()
 : <a class="el" href="classast_1_1_ast_node_base.html#a2ef381509e2e7abf437394ba4c53686c">AstNodeBase</a>
 , <a class="el" href="interfaceast_1_1_node.html#a2ef381509e2e7abf437394ba4c53686c">Node</a>
-, <a class="el" href="interfaceformat_1_1_x_formattable_1_1_typed_formattable.html#a2ef381509e2e7abf437394ba4c53686c">XFormattable.TypedFormattable</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -214,7 +216,7 @@ $(document).ready(function(){initNavTree('functions_func_t.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 12 2021 04:21:04 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

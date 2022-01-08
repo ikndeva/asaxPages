@@ -1,39 +1,40 @@
 <map id="CommandBase" name="CommandBase">
-<area shape="rect" id="node1" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="191,604,303,631"/>
-<area shape="rect" id="node4" href="$classcmd_1_1_command_base_1_1_cmd_break.html" title="実行を強制中断させる命令．デバッグのブレークポイント設定に用いる．" alt="" coords="381,5,559,32"/>
-<area shape="rect" id="node5" href="$classcmd_1_1_command_base_1_1_cmd_get_text.html" title="テキスト読み出し命令: 終端ノードのテキスト値を返す．" alt="" coords="375,56,565,83"/>
-<area shape="rect" id="node6" href="$classcmd_1_1_command_base_1_1_cmd_h_a_l_t.html" title="停止のマーカーになる命令" alt="" coords="381,107,559,133"/>
-<area shape="rect" id="node7" href="$classcmd_1_1_command_base_1_1_cmd_in_file_open.html" title="入力ファイルを開き、そのファイル記述子をスタックへ積む。" alt="" coords="367,157,573,184"/>
-<area shape="rect" id="node8" href="$classcmd_1_1_command_base_1_1_cmd_inc_m_a_t_c_h.html" title="何もしない命令．" alt="" coords="365,208,575,235"/>
-<area shape="rect" id="node9" href="$classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html" title="ファイル記述子をスタックへ積む。" alt="" coords="364,259,576,301"/>
-<area shape="rect" id="node10" href="$classcmd_1_1_command_base_1_1_cmd_l_a_b_e_l.html" title="何もしない命令．" alt="" coords="377,325,563,352"/>
-<area shape="rect" id="node11" href="$classcmd_1_1_command_base_1_1_cmd_n_o_p.html" title="何もしない命令．" alt="" coords="383,376,557,403"/>
-<area shape="rect" id="node13" href="$classcmd_1_1_command_base_1_1_cmd_scan_loop.html" title="スタックからファイル記述子をとり、その入力ストリームを走査する。" alt="" coords="369,427,571,453"/>
-<area shape="rect" id="node14" href="$classcmd_1_1_command_base_1_1_command_jump_base.html" title="無条件ジャンプの命令" alt="" coords="351,477,589,504"/>
-<area shape="rect" id="node20" href="$classcmd_1_1_command_base_1_1_command_var.html" title=" " alt="" coords="373,528,567,555"/>
-<area shape="rect" id="node25" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_and.html" title="論理積命令" alt="" coords="365,579,575,605"/>
-<area shape="rect" id="node26" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_not.html" title="論理否定命令" alt="" coords="366,629,574,656"/>
-<area shape="rect" id="node27" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html" title="論理二項演算命令" alt="" coords="366,680,574,707"/>
-<area shape="rect" id="node28" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_or.html" title="論理和命令" alt="" coords="369,731,571,757"/>
-<area shape="rect" id="node29" href="$classcmd_1_1_command_string_1_1_cmd_o_stream_store.html" title="文字列変数にスタックトップの文字列を代入する．" alt="" coords="370,782,570,823"/>
-<area shape="rect" id="node30" href="$classcmd_1_1_command_string_1_1_cmd_str_add.html" title="文字列加算命令" alt="" coords="376,848,564,875"/>
-<area shape="rect" id="node31" href="$classcmd_1_1_command_string_1_1_cmd_str_regex_match.html" title="正規表現照合命令" alt="" coords="369,899,571,941"/>
-<area shape="rect" id="node32" href="$classcmd_1_1_command_string_1_1_cmd_str_string_match.html" title="部分文字列照合命令" alt="" coords="371,965,569,1006"/>
-<area shape="rect" id="node33" href="$classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html" title="スタックトップにシステム変数値を取り出す．" alt="" coords="353,1031,587,1057"/>
-<area shape="rect" id="node34" href="$classcmd_1_1_command_typed_1_1_cmd_conv.html" title="OVMachine上のS型の値をT型の値に変換する命令．" alt="" coords="364,1082,576,1123"/>
-<area shape="rect" id="node35" href="$classcmd_1_1_command_typed_1_1_cmd_str2_type.html" title="OVMachine上の文字列値をInteger値に変換する命令．" alt="" coords="367,1147,573,1189"/>
-<area shape="rect" id="node36" href="$classcmd_1_1_command_typed_1_1_cmd_type_const.html" title="スタックトップに整数定数値をおく命令" alt="" coords="365,1213,575,1254"/>
-<area shape="rect" id="node37" href="$classcmd_1_1_command_typed_1_1_cmd_type_opr.html" title="二つの型Tの値をもらい、型Rの値を返す二項演算演算命令。" alt="" coords="365,1278,575,1319"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="49,579,99,605"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,629,143,656"/>
-<area shape="rect" id="node12" href="$classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html" title="何もしない命令．" alt="" coords="660,300,851,327"/>
-<area shape="rect" id="node15" href="$classcmd_1_1_command_base_1_1_cmd_jmp.html" title="無条件ジャンプの命令" alt="" coords="671,351,840,377"/>
-<area shape="rect" id="node16" href="$classcmd_1_1_command_base_1_1_cmd_jmp_f_a_l_s_e.html" title="偽ならばジャンプの命令" alt="" coords="650,401,861,428"/>
-<area shape="rect" id="node17" href="$classcmd_1_1_command_base_1_1_cmd_jmp_n_o_n_z_e_r_o.html" title="スタックの値が非0ならばジャンプの命令" alt="" coords="637,452,873,479"/>
-<area shape="rect" id="node18" href="$classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html" title="真ならばジャンプの命令" alt="" coords="652,503,859,529"/>
-<area shape="rect" id="node19" href="$classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html" title="スタックの値が0ならばジャンプの命令" alt="" coords="652,553,859,580"/>
-<area shape="rect" id="node21" href="$classcmd_1_1_command_base_1_1_cmd_load.html" title=" " alt="" coords="669,604,841,631"/>
-<area shape="rect" id="node23" href="$classcmd_1_1_command_base_1_1_cmd_store.html" title=" " alt="" coords="668,655,843,681"/>
-<area shape="rect" id="node22" href="$classcmd_1_1_command_base_1_1_cmd_get_elem_end.html" title="テキスト読み出し命令の一つ:任意のノードの要素テキストを取得して，文字列型の変数に格納する．" alt="" coords="921,604,1140,631"/>
-<area shape="rect" id="node24" href="$classcmd_1_1_command_base_1_1_cmd_set_elem_beg.html" title="テキスト読み出し命令の一つ:任意のノードの要素テキストの開始位置を取得して，整数型の変数に格納する．" alt="" coords="922,655,1139,681"/>
+<area shape="rect" id="node1" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="420,604,532,631"/>
+<area shape="rect" id="node5" href="$classcmd_1_1_command_base_1_1_cmd_break.html" title="実行を強制中断させる命令．デバッグのブレークポイント設定に用いる．" alt="" coords="610,5,789,32"/>
+<area shape="rect" id="node6" href="$classcmd_1_1_command_base_1_1_cmd_get_text.html" title="テキスト読み出し命令: 終端ノードのテキスト値を返す．" alt="" coords="604,56,795,83"/>
+<area shape="rect" id="node7" href="$classcmd_1_1_command_base_1_1_cmd_h_a_l_t.html" title="停止のマーカーになる命令" alt="" coords="610,107,789,133"/>
+<area shape="rect" id="node8" href="$classcmd_1_1_command_base_1_1_cmd_in_file_open.html" title="入力ファイルを開き、そのファイル記述子をスタックへ積む。" alt="" coords="596,157,803,184"/>
+<area shape="rect" id="node9" href="$classcmd_1_1_command_base_1_1_cmd_inc_m_a_t_c_h.html" title="何もしない命令．" alt="" coords="595,208,804,235"/>
+<area shape="rect" id="node10" href="$classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html" title="ファイル記述子をスタックへ積む。" alt="" coords="593,259,805,301"/>
+<area shape="rect" id="node11" href="$classcmd_1_1_command_base_1_1_cmd_l_a_b_e_l.html" title="何もしない命令．" alt="" coords="607,325,792,352"/>
+<area shape="rect" id="node12" href="$classcmd_1_1_command_base_1_1_cmd_n_o_p.html" title="何もしない命令．" alt="" coords="613,376,786,403"/>
+<area shape="rect" id="node14" href="$classcmd_1_1_command_base_1_1_cmd_scan_loop.html" title="スタックからファイル記述子をとり、その入力ストリームを走査する。" alt="" coords="598,427,801,453"/>
+<area shape="rect" id="node15" href="$classcmd_1_1_command_base_1_1_command_jump_base.html" title="無条件ジャンプの命令" alt="" coords="580,477,819,504"/>
+<area shape="rect" id="node21" href="$classcmd_1_1_command_base_1_1_command_var.html" title=" " alt="" coords="602,528,797,555"/>
+<area shape="rect" id="node26" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_and.html" title="論理積命令" alt="" coords="594,579,805,605"/>
+<area shape="rect" id="node27" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_not.html" title="論理否定命令" alt="" coords="595,629,803,656"/>
+<area shape="rect" id="node28" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html" title="論理二項演算命令" alt="" coords="595,680,803,707"/>
+<area shape="rect" id="node29" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_or.html" title="論理和命令" alt="" coords="599,731,800,757"/>
+<area shape="rect" id="node30" href="$classcmd_1_1_command_string_1_1_cmd_o_stream_store.html" title="文字列変数にスタックトップの文字列を代入する．" alt="" coords="599,782,799,823"/>
+<area shape="rect" id="node31" href="$classcmd_1_1_command_string_1_1_cmd_str_add.html" title="文字列加算命令" alt="" coords="605,848,793,875"/>
+<area shape="rect" id="node32" href="$classcmd_1_1_command_string_1_1_cmd_str_regex_match.html" title="正規表現照合命令" alt="" coords="598,899,801,941"/>
+<area shape="rect" id="node33" href="$classcmd_1_1_command_string_1_1_cmd_str_string_match.html" title="部分文字列照合命令" alt="" coords="600,965,799,1006"/>
+<area shape="rect" id="node34" href="$classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html" title="スタックトップにシステム変数値を取り出す．" alt="" coords="582,1031,817,1057"/>
+<area shape="rect" id="node35" href="$classcmd_1_1_command_typed_1_1_cmd_conv.html" title="OVMachine上のS型の値をT型の値に変換する命令．" alt="" coords="593,1082,805,1123"/>
+<area shape="rect" id="node36" href="$classcmd_1_1_command_typed_1_1_cmd_str2_type.html" title="OVMachine上の文字列値をInteger値に変換する命令．" alt="" coords="597,1147,802,1189"/>
+<area shape="rect" id="node37" href="$classcmd_1_1_command_typed_1_1_cmd_type_const.html" title="スタックトップに整数定数値をおく命令" alt="" coords="595,1213,804,1254"/>
+<area shape="rect" id="node38" href="$classcmd_1_1_command_typed_1_1_cmd_type_opr.html" title="二つの型Tの値をもらい、型Rの値を返す二項演算演算命令。" alt="" coords="595,1278,804,1319"/>
+<area shape="rect" id="node2" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="237,579,288,605"/>
+<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="153,629,372,656"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="5,629,105,656"/>
+<area shape="rect" id="node13" href="$classcmd_1_1_command_base_1_1_cmd_u_n_d_e_f.html" title="何もしない命令．" alt="" coords="889,300,1080,327"/>
+<area shape="rect" id="node16" href="$classcmd_1_1_command_base_1_1_cmd_jmp.html" title="無条件ジャンプの命令" alt="" coords="900,351,1069,377"/>
+<area shape="rect" id="node17" href="$classcmd_1_1_command_base_1_1_cmd_jmp_f_a_l_s_e.html" title="偽ならばジャンプの命令" alt="" coords="879,401,1090,428"/>
+<area shape="rect" id="node18" href="$classcmd_1_1_command_base_1_1_cmd_jmp_n_o_n_z_e_r_o.html" title="スタックの値が非0ならばジャンプの命令" alt="" coords="867,452,1103,479"/>
+<area shape="rect" id="node19" href="$classcmd_1_1_command_base_1_1_cmd_jmp_t_r_u_e.html" title="真ならばジャンプの命令" alt="" coords="881,503,1088,529"/>
+<area shape="rect" id="node20" href="$classcmd_1_1_command_base_1_1_cmd_jmp_z_e_r_o.html" title="スタックの値が0ならばジャンプの命令" alt="" coords="881,553,1088,580"/>
+<area shape="rect" id="node22" href="$classcmd_1_1_command_base_1_1_cmd_load.html" title=" " alt="" coords="899,604,1071,631"/>
+<area shape="rect" id="node24" href="$classcmd_1_1_command_base_1_1_cmd_store.html" title=" " alt="" coords="897,655,1072,681"/>
+<area shape="rect" id="node23" href="$classcmd_1_1_command_base_1_1_cmd_get_elem_end.html" title="テキスト読み出し命令の一つ:任意のノードの要素テキストを取得して，文字列型の変数に格納する．" alt="" coords="1151,604,1369,631"/>
+<area shape="rect" id="node25" href="$classcmd_1_1_command_base_1_1_cmd_set_elem_beg.html" title="テキスト読み出し命令の一つ:任意のノードの要素テキストの開始位置を取得して，整数型の変数に格納する．" alt="" coords="1151,655,1369,681"/>
 </map>

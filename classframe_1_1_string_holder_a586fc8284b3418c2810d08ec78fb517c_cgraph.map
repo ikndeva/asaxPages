@@ -1,5 +1,4 @@
 <map id="StringHolder" name="StringHolder">
-<area shape="rect" id="node1" title="空のStringBufをもつホルダを生成する。" alt="" coords="5,5,100,32"/>
-<area shape="rect" id="node2" href="$classframe_1_1_string_holder.html#a392d8a8f0531b475c29f5a52d780f2b2" title="StringBufを空に初期化する。" alt="" coords="148,5,199,32"/>
-<area shape="rect" id="node3" href="$classutil_1_1_string_buf.html#a754e8e0b737041f9fe2a65102bc3d4eb" title="バッファの内容を空文字列に初期化する." alt="" coords="247,5,376,32"/>
+<area shape="rect" id="node1" title="空のStringBufKtをもつホルダを生成する。" alt="" coords="5,29,100,56"/>
+<area shape="rect" id="node2" href="$classframe_1_1_string_holder.html#a392d8a8f0531b475c29f5a52d780f2b2" title="StringBufKtを空に初期化する。" alt="" coords="148,29,199,56"/>
 </map>

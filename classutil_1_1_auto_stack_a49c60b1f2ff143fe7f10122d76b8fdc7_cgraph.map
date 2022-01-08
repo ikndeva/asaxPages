@@ -1,6 +1,4 @@
 <map id="pop_" name="pop_">
-<area shape="rect" id="node1" title="スタックをポップする." alt="" coords="5,42,56,69"/>
+<area shape="rect" id="node1" title="スタックをポップする." alt="" coords="5,13,56,39"/>
 <area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#ad702374ab51a03308e76cc7305f42582" title="スタックをポップする." alt="" coords="104,5,244,47"/>
-<area shape="rect" id="node3" href="$classutil_1_1_report.html#ae68320b8203db308b03de0834134ff8d" title="現在の入れ子深さで段差げして，printlnを呼ぶ．" alt="" coords="113,71,235,98"/>
-<area shape="rect" id="node4" href="$classutil_1_1_util.html#a39d709898bf5a3d817b845c00fe20704" title="入れ子清書用ルーチン．標準の段下げ文字列indentStr_をdep回連結した段下げ用の文字列を返す．" alt="" coords="292,71,395,98"/>
 </map>

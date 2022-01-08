@@ -14,7 +14,6 @@ var namespacemachine =
     [ "MaskMap< K extends Comparable", "classmachine_1_1_mask_map_3_01_k_01extends_01_comparable.html", null ],
     [ "MultiHashMap", "classmachine_1_1_multi_hash_map.html", "classmachine_1_1_multi_hash_map" ],
     [ "NameTable", "classmachine_1_1_name_table.html", "classmachine_1_1_name_table" ],
-    [ "OSVar", "classmachine_1_1_o_s_var.html", "classmachine_1_1_o_s_var" ],
     [ "OVMachine", "classmachine_1_1_o_v_machine.html", "classmachine_1_1_o_v_machine" ],
     [ "Runnable", "interfacemachine_1_1_runnable.html", "interfacemachine_1_1_runnable" ],
     [ "SystemReadable", "interfacemachine_1_1_system_readable.html", "interfacemachine_1_1_system_readable" ],

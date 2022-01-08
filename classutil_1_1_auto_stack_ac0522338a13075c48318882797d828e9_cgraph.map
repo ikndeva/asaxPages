@@ -1,8 +1,6 @@
 <map id="push_" name="push_">
-<area shape="rect" id="node1" title="スタックにプッシュする." alt="" coords="5,71,63,98"/>
-<area shape="rect" id="node2" href="$classutil_1_1_auto_stack.html#a614f20f3cfc81c55ede27b7b7cb66de9" title="スタックに空オブジェクトをプッシュし、その番地を返す。 空エントリはgeneratorで生成し、resettterで再初期化されたもの。" alt="" coords="111,71,161,98"/>
+<area shape="rect" id="node1" title="スタックにプッシュする." alt="" coords="5,42,63,69"/>
+<area shape="rect" id="node2" href="$classutil_1_1_auto_stack.html#a614f20f3cfc81c55ede27b7b7cb66de9" title="スタックに空オブジェクトをプッシュし、その番地を返す。 空エントリはgeneratorで生成し、resettterで再初期化されたもの。" alt="" coords="111,42,161,69"/>
 <area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#a43e79abd6dbad7bc60422a3043912493" title="スタックにエントリをプッシュし、その番地を返す。" alt="" coords="209,5,349,47"/>
-<area shape="rect" id="node4" href="$classutil_1_1_report.html#ae68320b8203db308b03de0834134ff8d" title="現在の入れ子深さで段差げして，printlnを呼ぶ．" alt="" coords="219,71,340,98"/>
-<area shape="rect" id="node6" href="$classutil_1_1_util.html#a7ce29b607a8e9fd7ff55a606c0120b64" title="与えられたオブジェクトがnullならば&quot;null&quot;を、それ以外はクラス名を表す文字列を返す。" alt="" coords="218,122,341,149"/>
-<area shape="rect" id="node5" href="$classutil_1_1_util.html#a39d709898bf5a3d817b845c00fe20704" title="入れ子清書用ルーチン．標準の段下げ文字列indentStr_をdep回連結した段下げ用の文字列を返す．" alt="" coords="397,71,500,98"/>
+<area shape="rect" id="node4" href="$classutil_1_1_util.html#a7ce29b607a8e9fd7ff55a606c0120b64" title="与えられたオブジェクトがnullならば&quot;null&quot;を、それ以外はクラス名を表す文字列を返す。" alt="" coords="218,71,341,98"/>
 </map>

@@ -1,0 +1,11 @@
+<map id="ArrowType" name="ArrowType">
+<area shape="rect" id="node1" title="基本的な関数型のクラス" alt="" coords="195,228,279,255"/>
+<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="5,124,72,151"/>
+<area shape="rect" id="node3" href="$classtype_1_1_type_item.html" title="XTypeの値型をもち単一化を行う型アイテムのクラス．" alt="" coords="97,124,173,151"/>
+<area shape="rect" id="node4" href="$classtype_1_1_union_find_item.html" title=" " alt="" coords="36,5,233,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="197,124,347,151"/>
+<area shape="rect" id="node6" href="$enumtype_1_1_x_type.html" title="式がもつ値の型のクラス．Kotlin言語の型システムを参考にしている． 次の型をもつ．" alt="" coords="372,124,431,151"/>
+<area shape="rect" id="node7" title=" " alt="" coords="285,5,341,32"/>
+<area shape="rect" id="node8" title=" " alt="" coords="382,5,421,32"/>
+<area shape="rect" id="node9" title=" " alt="" coords="499,5,546,32"/>
+</map>

@@ -8,11 +8,11 @@
 <area shape="rect" id="node14" href="$interfaceevent_1_1_event_readable.html" title="構造文書走査器が備えるべき機能を記述するインタフェース." alt="" coords="344,209,455,236"/>
 <area shape="rect" id="node18" href="$classmachine_1_1_o_v_machine.html" title="仮想機械のクラス" alt="" coords="354,494,445,521"/>
 <area shape="rect" id="node6" title=" " alt="" coords="304,681,495,708"/>
-<area shape="rect" id="node7" title=" " alt="" coords="41,374,127,401"/>
-<area shape="rect" id="node8" title=" " alt="" coords="304,732,495,774"/>
-<area shape="rect" id="node9" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="361,798,438,825"/>
-<area shape="rect" id="node10" href="$interfacemachine_1_1_frame_stackable.html" title=" " alt="" coords="341,849,458,876"/>
-<area shape="rect" id="node11" title=" " alt="" coords="351,900,448,926"/>
+<area shape="rect" id="node7" title=" " alt="" coords="344,732,455,758"/>
+<area shape="rect" id="node8" title=" " alt="" coords="41,374,127,401"/>
+<area shape="rect" id="node9" title=" " alt="" coords="304,783,495,824"/>
+<area shape="rect" id="node10" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="361,849,438,876"/>
+<area shape="rect" id="node11" href="$interfacemachine_1_1_frame_stackable.html" title=" " alt="" coords="341,900,458,926"/>
 <area shape="rect" id="node12" title=" " alt="" coords="374,950,425,977"/>
 <area shape="rect" id="node13" title=" " alt="" coords="65,461,103,488"/>
 <area shape="rect" id="node15" href="$class_iterable.html" title=" " alt="" coords="23,197,145,224"/>

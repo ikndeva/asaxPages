@@ -15,7 +15,6 @@ var classutil_1_1_trace_level =
     [ "setLocalLevel", "classutil_1_1_trace_level.html#a5493847f9fc8dd5971f62eb3434b7e2c", null ],
     [ "LEVEL", "classutil_1_1_trace_level.html#a62205b80cb936cb8f13f6a31afd2c9e0", null ],
     [ "LEVEL", "classutil_1_1_trace_level.html#a4f0794f4090cc81a130944d5cd01707a", null ],
-    [ "toString", "classutil_1_1_trace_level.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
     [ "registerTraceLevel", "classutil_1_1_trace_level.html#a665fc9bf4c1ce79578733ce069eb5f11", null ],
     [ "parseLevel_", "classutil_1_1_trace_level.html#a84e77c6a63a72df442ea49b38ec77d9b", null ],
     [ "mapLevel", "classutil_1_1_trace_level.html#a93a8e4521f68b6e992d2fb462a15ea48", null ]

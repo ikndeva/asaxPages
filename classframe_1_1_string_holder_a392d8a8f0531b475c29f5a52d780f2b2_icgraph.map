@@ -1,5 +1,5 @@
 <map id="clear" name="clear">
-<area shape="rect" id="node1" title="StringBufを空に初期化する。" alt="" coords="148,31,199,57"/>
+<area shape="rect" id="node1" title="StringBufKtを空に初期化する。" alt="" coords="148,31,199,57"/>
 <area shape="rect" id="node2" href="$classframe_1_1_string_holder.html#ae9097650b1fb7f44df165868dca65cc8" title="与えられた値を内容に設定し、自分自身を返す。古い値は上書きされる。" alt="" coords="33,5,73,32"/>
-<area shape="rect" id="node3" href="$classframe_1_1_string_holder.html#a586fc8284b3418c2810d08ec78fb517c" title="空のStringBufをもつホルダを生成する。" alt="" coords="5,56,100,83"/>
+<area shape="rect" id="node3" href="$classframe_1_1_string_holder.html#a586fc8284b3418c2810d08ec78fb517c" title="空のStringBufKtをもつホルダを生成する。" alt="" coords="5,56,100,83"/>
 </map>

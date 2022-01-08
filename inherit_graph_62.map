@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfacemachine_1_1_frame_stackable.html" title=" " alt="" coords="5,5,123,32"/>
-<area shape="rect" id="node2" href="$classframe_1_1_frame_stack_uni.html" title="フレームスタックのクラス。新実装。" alt="" coords="171,5,284,32"/>
+<area shape="rect" id="node1" href="$interfacemachine_1_1_inspectable.html" title=" " alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_system_scope.html" title="システム変数にアクセスするための読み出し専用スコープ．" alt="" coords="192,13,296,39"/>
 </map>

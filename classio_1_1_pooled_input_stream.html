@@ -103,12 +103,14 @@ $(document).ready(function(){initNavTree('classio_1_1_pooled_input_stream.html',
 <div class="dynheader">
 Inheritance diagram for PooledInputStream:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream__inherit__graph.svg" width="144" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream__inherit__graph.svg" width="144" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for PooledInputStream:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream__coll__graph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -185,7 +187,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="inter
 <div class="textblock"><p>論理位置アクセスによる再読み出しが可能なバッファつき入力ストリーム. </p>
 <p>入力ストリームは、過去のある時点から現在までに読み込んだ入力ストリームの内容をバッファに保持している. さらに、バッファー上に、元の入力ストリーム上の現在の読み込み位置を表す{<code>read}カーソルと、自由に移動可能な{<code>rescan}カーソルの二つのカーソルをもつ</code>.</code> バッファー中のカーソルの位置は、範囲[0..<a class="el" href="classio_1_1_pooled_input_stream.html#a51f7f88a3f069512e66f4fdb2366ca8f">MAXBUF</a>]の整数である論理位置で指定される. （ここに、論理位置は、必ずしも元のストリーム上の先頭からの文字数と一致するとは限らないので注意されたい. ） 第一に、{<code>read}カーソルに対しては、@javalink</code>  read}メソッドで読み込みが可能である. 第二に、{<code>rescan}カーソルに対しては、@javalink</code>  resetCursor}メソッドで任意の論理位置に移動した上で、<a class="el" href="classio_1_1_pooled_input_stream.html#abf6f5a1b41bdc95e7b0602fbab2219a7">rescan</a>, <a class="el" href="classio_1_1_pooled_input_stream.html#a4cb880d0d45dbf544b858a38a01baf8e">rescanForward</a>, <a class="el" href="classio_1_1_pooled_input_stream.html#a878257e13feadb90b7515c13a515c10e">rescanBackward</a>などのメソッドを用いて、{<code>read}カーソルと独立に読み込みが可能である</code>. 典型的な用途として、先頭と終了の論理位置の対を適宜記録することで、バッファに格納されている範囲で、入力文字列中の部分文字列の切り出しなどが実現できる. </p><dl class="section see"><dt>See also</dt><dd>java.io.FilterInputStream </dd>
 <dd>
-<a class="el" href="classio_1_1_pooled_output_stream.html" title="チェックポイントptrの設定と、ストリームのptrから末尾までの末尾部分のキャンセルが可能なし出力文字ストリーム.">PooledOutputStream</a> </dd></dl>
+PooledOutputStream </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a63a3629e347fcea205527b9d7ddccc49"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63a3629e347fcea205527b9d7ddccc49">&#9670;&nbsp;</a></span>PooledInputStream() <span class="overload">[1/2]</span></h2>
@@ -354,7 +356,8 @@ c ストリームから読み込んだ文字． </dd></dl>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_aaab5dab5b969a87f538242e524431637_cgraph.svg" width="323" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_aaab5dab5b969a87f538242e524431637_cgraph.svg" width="323" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -386,7 +389,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_ab5632d167a39d12d408470f6116d312b_icgraph.svg" width="371" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_ab5632d167a39d12d408470f6116d312b_icgraph.svg" width="371" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -418,12 +422,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_ad17c692ebd215556e2ea511f5d5190eb_cgraph.svg" width="219" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_ad17c692ebd215556e2ea511f5d5190eb_cgraph.svg" width="219" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_ad17c692ebd215556e2ea511f5d5190eb_icgraph.svg" width="235" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_ad17c692ebd215556e2ea511f5d5190eb_icgraph.svg" width="235" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -462,12 +468,14 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_acb3856901477cbdc25853f51015dc8cb_cgraph.svg" width="228" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_acb3856901477cbdc25853f51015dc8cb_cgraph.svg" width="228" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_acb3856901477cbdc25853f51015dc8cb_icgraph.svg" width="244" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_acb3856901477cbdc25853f51015dc8cb_icgraph.svg" width="244" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -492,7 +500,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_a4cb880d0d45dbf544b858a38a01baf8e_icgraph.svg" width="228" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_a4cb880d0d45dbf544b858a38a01baf8e_icgraph.svg" width="228" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -537,7 +546,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_abf6f5a1b41bdc95e7b0602fbab2219a7_cgraph.svg" width="228" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_abf6f5a1b41bdc95e7b0602fbab2219a7_cgraph.svg" width="228" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -603,7 +613,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_aad558f34661546bfe6c35cb33fb498bf_cgraph.svg" width="371" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classio_1_1_pooled_input_stream_aad558f34661546bfe6c35cb33fb498bf_cgraph.svg" width="371" height="104"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -668,7 +679,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceio.html">io</a></li><li class="navelem"><a class="el" href="classio_1_1_pooled_input_stream.html">PooledInputStream</a></li>
-    <li class="footer">Generated on Wed May 12 2021 04:21:03 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

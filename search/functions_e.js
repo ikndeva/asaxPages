@@ -1,14 +1,10 @@
 var searchData=
 [
-  ['onemask_2177',['oneMask',['../classutil_1_1_util.html#a252abcc5c3a89fdb49bdfc4bb9bd2856',1,'util::Util']]],
-  ['openarray_2178',['openArray',['../classutil_1_1_yaml_buf.html#a0cdc3f00b2d8dc03acf755b2e205bd55',1,'util::YamlBuf']]],
-  ['openinputfile_2179',['openInputFile',['../interfacemachine_1_1_context.html#ad7dfec8468820c48f1cca7776527efcf',1,'machine.Context.openInputFile()'],['../classmachine_1_1_x_machine.html#ad7dfec8468820c48f1cca7776527efcf',1,'machine.XMachine.openInputFile()']]],
-  ['openinputstream_2180',['openInputStream',['../interfaceevent_1_1_event_readable.html#a8f74e21b3f2251d6abc0c2af3fe3e05a',1,'event.EventReadable.openInputStream()'],['../classevent_1_1_event_reader_base.html#a8f74e21b3f2251d6abc0c2af3fe3e05a',1,'event.EventReaderBase.openInputStream()'],['../classevent_1_1xpp_1_1_xpp_event_reader.html#a8f74e21b3f2251d6abc0c2af3fe3e05a',1,'event.xpp.XppEventReader.openInputStream()']]],
-  ['openobj_2181',['openObj',['../classutil_1_1_yaml_buf.html#a0ac66c68634f271c4e64c2fac7c39ae5',1,'util::YamlBuf']]],
-  ['operatorboolean_2182',['operatorBoolean',['../classast_1_1_ast_math_oper_1_1_boolean_oper.html#a5e4e555245ad808f74ba9b61da15126e',1,'ast::AstMathOper::BooleanOper']]],
-  ['operatordouble_2183',['operatorDouble',['../classast_1_1_ast_math_oper_1_1_double_oper.html#a7b20154e8447fb0d72f4c430d91ce6c9',1,'ast::AstMathOper::DoubleOper']]],
-  ['operatorinteger_2184',['operatorInteger',['../classast_1_1_ast_math_oper_1_1_integer_oper.html#a8b72dd7b51008c04e0906ca67b100237',1,'ast::AstMathOper::IntegerOper']]],
-  ['opstackstostring_2185',['opStacksToString',['../classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f',1,'machine::OVMachine']]],
-  ['ostreamholder_2186',['OStreamHolder',['../classframe_1_1_o_stream_holder.html#a7a65c647b357ce30a0c0c300d7ba7b99',1,'frame::OStreamHolder']]],
-  ['osvar_2187',['OSVar',['../classmachine_1_1_o_s_var.html#a2b53318054e3ada6b2bd58e773a6882f',1,'machine.OSVar.OSVar(java.io.PrintStream os)'],['../classmachine_1_1_o_s_var.html#a5aa0cf0ca3c484081dd630d24f912085',1,'machine.OSVar.OSVar(OSVar that)']]]
+  ['main_1595',['main',['../classutil_1_1_stack_base.html#a8b260eecbaabcef8473fd87ada040682',1,'util::StackBase']]],
+  ['makebackpatch_1596',['makeBackPatch',['../classcmd_1_1_cmd_list_1_1_back_patcher.html#a5433fb47fbe41a0aef635e9cffb2a5eb',1,'cmd::CmdList::BackPatcher']]],
+  ['masktointlist_1597',['maskToIntList',['../classmachine_1_1_long_mask.html#ae39b2c3bad4ea22386d4e33c323affa9',1,'machine::LongMask']]],
+  ['masktostring_1598',['maskToString',['../classmachine_1_1_long_mask.html#a9cfbb4f3d8d5a32c022ea278f0aacde7',1,'machine::LongMask']]],
+  ['match_1599',['Match',['../classapp_1_1_match.html#aecedd7beec4b24ddc9005049188de643',1,'app::Match']]],
+  ['matchxtype_1600',['matchXType',['../classtype_1_1_type_item.html#a48a65474712bbffae641cc67a70f8152',1,'type::TypeItem']]],
+  ['meet_1601',['meet',['../enumtype_1_1_x_type.html#a56bd5bc246f87ecc5987ec1cced2ca85',1,'type::XType']]]
 ];

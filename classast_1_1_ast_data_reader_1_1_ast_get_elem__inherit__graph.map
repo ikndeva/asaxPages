@@ -1,10 +1,9 @@
 <map id="AstDataReader.AstGetElem" name="AstDataReader.AstGetElem">
-<area shape="rect" id="node1" title=" " alt="" coords="187,229,374,256"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="191,155,264,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="119,229,306,256"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="123,155,196,181"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
 <area shape="rect" id="node4" href="$interfaceast_1_1_node.html" title=" " alt="" coords="133,80,186,107"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="247,5,347,32"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="177,5,277,32"/>
 <area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="210,80,383,107"/>
-<area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="407,80,615,107"/>
-<area shape="rect" id="node8" href="$class_data_reader.html" title=" " alt="" coords="288,155,380,181"/>
+<area shape="rect" id="node7" href="$class_data_reader.html" title=" " alt="" coords="220,155,312,181"/>
 </map>

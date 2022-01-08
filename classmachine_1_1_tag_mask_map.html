@@ -103,12 +103,14 @@ $(document).ready(function(){initNavTree('classmachine_1_1_tag_mask_map.html',''
 <div class="dynheader">
 Inheritance diagram for TagMaskMap:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_tag_mask_map__inherit__graph.svg" width="111" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_tag_mask_map__inherit__graph.svg" width="111" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for TagMaskMap:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_tag_mask_map__coll__graph.svg" width="494" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_tag_mask_map__coll__graph.svg" width="494" height="216"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -133,9 +135,6 @@ Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class=
 long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_tag_mask_map.html#a820841ba5e1cadc889e155dc8f858571">getMask</a> (String tag)</td></tr>
 <tr class="memdesc:a820841ba5e1cadc889e155dc8f858571"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ名をキーとして受け取り、対応する値集合のマスクを返す。 <br /></td></tr>
 <tr class="separator:a820841ba5e1cadc889e155dc8f858571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae911ddd79625c485a29b228aa9ae4e56"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_tag_mask_map.html#ae911ddd79625c485a29b228aa9ae4e56">maskToIntList</a> (long mask)</td></tr>
-<tr class="memdesc:ae911ddd79625c485a29b228aa9ae4e56"><td class="mdescLeft">&#160;</td><td class="mdescRight">関数ID集合のビットマスク表現<code>long</code>を，昇順整列されたIntegerのリスト<code>List&lt;Integer&gt;</code>に変換する補助関数．関数番号の集合のイタレータとして用いる．  <a href="classmachine_1_1_tag_mask_map.html#ae911ddd79625c485a29b228aa9ae4e56">More...</a><br /></td></tr>
-<tr class="separator:ae911ddd79625c485a29b228aa9ae4e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5efb5de495a54b45be5fd17f9add9c0f"><td class="memItemLeft" align="right" valign="top"><a id="a5efb5de495a54b45be5fd17f9add9c0f"></a>
 List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_tag_mask_map.html#a5efb5de495a54b45be5fd17f9add9c0f">getValues</a> (String tag)</td></tr>
 <tr class="memdesc:a5efb5de495a54b45be5fd17f9add9c0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">タグ名をキーとして受け取り、対応する値集合をList&lt;Integer&gt;として返す。 <br /></td></tr>
@@ -162,38 +161,7 @@ static final String&#160;</td><td class="memItemRight" valign="bottom"><b>WILDCA
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>タグ名文字列をキーとする値のMultiMapのクラス。 </p>
 <p>文字列キー<code>tag</code>と整数<code>rid</code>の対&lt;tt&gt;(tag, rid)の集合を 格納するデータ構造<code>S</code>である。 クエリとして、与えられたキー<code>tag</code>に対して、それをキーにもつridの集合を返す。 </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae911ddd79625c485a29b228aa9ae4e56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae911ddd79625c485a29b228aa9ae4e56">&#9670;&nbsp;</a></span>maskToIntList()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Integer&gt; maskToIntList </td>
-          <td>(</td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>mask</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>関数ID集合のビットマスク表現<code>long</code>を，昇順整列されたIntegerのリスト<code>List&lt;Integer&gt;</code>に変換する補助関数．関数番号の集合のイタレータとして用いる． </p>
-<ul>
-<li>実装は，入力ビットマスク中の1ビット位置を下位から順に取り出して，詰め込んだLong型リストを返す． </li>
-</ul>
-
-<p>Implements <a class="el" href="interfacemachine_1_1_dispatchable.html#ae911ddd79625c485a29b228aa9ae4e56">Dispatchable</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_tag_mask_map_ae911ddd79625c485a29b228aa9ae4e56_icgraph.svg" width="356" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>machine/<a class="el" href="_tag_mask_map_8java.html">TagMaskMap.java</a></li>
 </ul>
 </div><!-- contents -->
@@ -202,7 +170,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemachine.html">machine</a></li><li class="navelem"><a class="el" href="classmachine_1_1_tag_mask_map.html">TagMaskMap</a></li>
-    <li class="footer">Generated on Wed May 12 2021 04:21:03 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -1,9 +1,9 @@
 <map id="AstNodeBase" name="AstNodeBase">
-<area shape="rect" id="node1" title=" " alt="" coords="225,109,327,136"/>
+<area shape="rect" id="node1" title=" " alt="" coords="243,139,346,165"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,5,61,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="87,5,174,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="198,5,295,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="319,5,358,32"/>
-<area shape="rect" id="node6" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="468,5,535,32"/>
-<area shape="rect" id="node7" title=" " alt="" coords="559,5,625,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="86,5,197,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="221,5,307,32"/>
+<area shape="rect" id="node5" title=" " alt="" coords="331,5,370,32"/>
+<area shape="rect" id="node6" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="488,5,555,32"/>
+<area shape="rect" id="node7" title=" " alt="" coords="579,5,645,32"/>
 </map>

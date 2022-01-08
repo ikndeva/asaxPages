@@ -94,6 +94,8 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt>Member <a class="el" href="classtype_1_1_arrow_type.html#a2eae42fa62eb0ae3c0908c1873b0e926">ArrowType.ArrowType</a>  (<a class="el" href="interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース">Typable</a> that)</dt>
+<dd><a class="anchor" id="_todo000010"></a>フィールド<code>children</code>を同値関係を含めたdeep copyにすべきか？  </dd>
 <dt>Class <a class="el" href="classast_1_1_ast_factory.html">AstFactory</a>  </dt>
 <dd><a class="anchor" id="_todo000001"></a>型に依存する演算関係のASTノードの生成はここにカプセル化すること。  </dd>
 <dt>Member <a class="el" href="classast_1_1_ast_math_oper_1_1_double_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstMathOper.DoubleOper.gencode</a>  (<a class="el" href="classcmd_1_1_cmd_list.html" title="仮想命令のリスト．">cmd.CmdList</a> code, <a class="el" href="classcmd_1_1_cmd_list.html" title="仮想命令のリスト．">cmd.CmdList</a> precode)</dt>
@@ -105,20 +107,14 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dt>Class <a class="el" href="classevent_1_1_event_reader_base_1_1_var.html">EventReaderBase.Var</a>  </dt>
 <dd><a class="anchor" id="_todo000006"></a>将来は <code>enum</code> クラスへ置き換えることを検討. <br  />
   </dd>
-<dt>Class <a class="el" href="classutil_1_1_foldable_string_buf_1_1_lockable.html">FoldableStringBuf.Lockable</a>  </dt>
-<dd><a class="anchor" id="_todo000012"></a>初期化のみがロックにより排他制御される．書き込みはロックされず，誰でも書き込める．  </dd>
 <dt>Member <a class="el" href="interfaceio_1_1_input_scannable.html#ae3ad8e1616a0bbb11134afed93c9c46c">InputScannable.curPos</a>  ()</dt>
 <dd><a class="anchor" id="_todo000007"></a>今後の課題として、値のオーバーフロー時のエラーハンドリングが必要. getSubstring/2のためのバッファーサイズを超えるごとに適時、切り下げると良い。  </dd>
 <dt>Member <a class="el" href="classmachine_1_1_name_table.html#a37a86e5a03f225a4a36fcbf36fe989f4">NameTable.intern</a>  (String name)</dt>
-<dd><a class="anchor" id="_todo000010"></a>名前は，prefixで始まってはいけない制約を除去すること．  </dd>
+<dd><a class="anchor" id="_todo000009"></a>名前は，prefixで始まってはいけない制約を除去すること．  </dd>
 <dt>Member <a class="el" href="classio_1_1_pooled_input_stream.html#ae3ad8e1616a0bbb11134afed93c9c46c">PooledInputStream.curPos</a>  ()</dt>
 <dd><a class="anchor" id="_todo000008"></a>今後の課題として、値のオーバーフロー時のエラーハンドリングが必要. getSubstring/2のためのバッファーサイズを超えるごとに適時、切り下げると良い。  </dd>
-<dt>Class <a class="el" href="classio_1_1_pooled_output_stream.html">PooledOutputStream</a>  </dt>
-<dd><a class="anchor" id="_todo000009"></a>今後の課題として、多言語対応の出力にするには、内部ストリームをWriterなど多言語対応可能なものに変更する必要がある。  </dd>
 <dt>Class <a class="el" href="classast_1_1_sent_list_1_1_list_wrapper.html">SentList.ListWrapper&lt; T &gt;</a>  </dt>
-<dd><a class="anchor" id="_todo000004"></a>将来的に除去を考える．1箇所，XMachineのISリストのみで使われているので．  </dd>
-<dt>Member <a class="el" href="classtype_1_1_x_typing_1_1_basic_typing.html#a4e5cb3528205dfd40d187cd82a02ee27">XTyping.BasicTyping.BasicTyping</a>  (<a class="el" href="interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース">Typable</a> that)</dt>
-<dd><a class="anchor" id="_todo000011"></a>フィールド<code>children</code>を同値関係を含めたdeep copyにすべきか？ </dd>
+<dd><a class="anchor" id="_todo000004"></a>将来的に除去を考える．1箇所，XMachineのISリストのみで使われているので． </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
@@ -126,7 +122,7 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed May 12 2021 04:21:02 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:45 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

@@ -1,4 +1,4 @@
 <map id="OStreamHolder" name="OStreamHolder">
-<area shape="rect" id="node1" title="空のStringBufをもつホルダを生成する。" alt="" coords="5,5,117,32"/>
-<area shape="rect" id="node2" href="$classframe_1_1_o_stream_holder.html#a8ec297f21fbc0c92dd0c340fb2eb2341" title="StringBufを空に初期化する。" alt="" coords="165,5,216,32"/>
+<area shape="rect" id="node1" title="空のStringBufKtをもつホルダを生成する。" alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node2" href="$classframe_1_1_o_stream_holder.html#a8ec297f21fbc0c92dd0c340fb2eb2341" title="StringBufKtを空に初期化する。" alt="" coords="165,5,216,32"/>
 </map>

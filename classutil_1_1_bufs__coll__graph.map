@@ -1,5 +1,5 @@
 <map id="Bufs" name="Bufs">
-<area shape="rect" id="node1" title="各種の清書バッファの管理オブジェクトを提供するオブジェクトプール。" alt="" coords="178,109,227,136"/>
-<area shape="rect" id="node2" href="$classutil_1_1_recycle_manager.html" title=" " alt="" coords="5,5,192,47"/>
-<area shape="rect" id="node3" href="$classutil_1_1_recycle_manager.html" title=" " alt="" coords="217,5,399,47"/>
+<area shape="rect" id="node1" title="各種の清書バッファの管理オブジェクトを提供するオブジェクトプール。" alt="" coords="183,109,232,136"/>
+<area shape="rect" id="node2" href="$classutil_1_1_recycle_manager.html" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node3" href="$classutil_1_1_recycle_manager.html" title=" " alt="" coords="213,13,423,39"/>
 </map>

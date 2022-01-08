@@ -1,10 +1,9 @@
 <map id="CommandBase.CmdInFileOpen" name="CommandBase.CmdInFileOpen">
-<area shape="rect" id="node1" title="入力ファイルを開き、そのファイル記述子をスタックへ積む。" alt="" coords="91,275,298,301"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="139,199,251,225"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,109,56,136"/>
-<area shape="rect" id="node4" title=" " alt="" coords="81,109,218,136"/>
-<area shape="rect" id="node5" href="$classutil_1_1_report.html" title="標準出力への入れ子出力のためのレポートオブジェクトのクラス." alt="" coords="242,109,337,136"/>
-<area shape="rect" id="node6" title=" " alt="" coords="109,5,165,32"/>
-<area shape="rect" id="node7" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="189,5,333,32"/>
-<area shape="rect" id="node8" title=" " alt="" coords="373,5,440,32"/>
+<area shape="rect" id="node1" title="入力ファイルを開き、そのファイル記述子をスタックへ積む。" alt="" coords="227,247,434,273"/>
+<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="275,171,387,197"/>
+<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="5,81,56,108"/>
+<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="80,81,299,108"/>
+<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="139,5,239,32"/>
+<area shape="rect" id="node6" title=" " alt="" coords="323,81,434,108"/>
+<area shape="rect" id="node7" title=" " alt="" coords="459,81,525,108"/>
 </map>

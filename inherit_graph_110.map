@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classutil_1_1_string_buf.html" title="文字列バッファのクラス." alt="" coords="5,5,81,32"/>
-<area shape="rect" id="node2" href="$classutil_1_1_foldable_string_buf.html" title="入れ子深さに応じた段下げ表示を行うよう拡張された文字列バッファのクラス." alt="" coords="129,5,255,32"/>
-<area shape="rect" id="node3" href="$classutil_1_1_foldable_string_buf_1_1_lockable.html" title="初期化のロック機構をもつFoldableStringBufクラス" alt="" coords="303,5,484,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,68,88,95"/>
+<area shape="rect" id="node2" href="$classast_1_1_typing_func_1_1_hom_basic.html" title="親と子の間は単一化しない．すべての子は単一化する．t" alt="" coords="136,43,291,69"/>
+<area shape="rect" id="node3" href="$classast_1_1_typing_func_1_1_hom_input.html" title="親と子の間は単一化しない．すべての子は単一化する．t" alt="" coords="348,5,499,32"/>
+<area shape="rect" id="node4" href="$classast_1_1_typing_func_1_1_hom_oper.html" title="親と子を単一化し，すべての子も単一化する． 具体型A上の二項演算 op : A x A &#45;&gt; Aを想定する．" alt="" coords="349,68,498,95"/>
+<area shape="rect" id="node5" href="$classast_1_1_typing_func_1_1_hom_sent_list.html" title="末尾の子を親と単一化する．子同志は単一化しない．" alt="" coords="339,131,508,157"/>
 </map>

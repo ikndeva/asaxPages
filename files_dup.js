@@ -4,6 +4,7 @@ var files_dup =
     [ "ast", "dir_abffb41b2fb02e852dda76d88b79b6c6.html", "dir_abffb41b2fb02e852dda76d88b79b6c6" ],
     [ "cmd", "dir_50a28221d0f5027093306cfc52a57d36.html", "dir_50a28221d0f5027093306cfc52a57d36" ],
     [ "compile", "dir_386d637001b72780a59011649cebfe97.html", "dir_386d637001b72780a59011649cebfe97" ],
+    [ "etc", "dir_34c6163d67acbbcfc56107279c411fb1.html", "dir_34c6163d67acbbcfc56107279c411fb1" ],
     [ "event", "dir_c4c9d1c37db7e6303b7ab794cedc52f7.html", "dir_c4c9d1c37db7e6303b7ab794cedc52f7" ],
     [ "format", "dir_4ebe53fbe4496e9b16238525da078a5e.html", "dir_4ebe53fbe4496e9b16238525da078a5e" ],
     [ "frame", "dir_2028bc93e8b133ca7de398659b7d185f.html", "dir_2028bc93e8b133ca7de398659b7d185f" ],
@@ -13,7 +14,7 @@ var files_dup =
     [ "pretty", "dir_3c647fc05ffb4c28b80b892cbd59bd99.html", "dir_3c647fc05ffb4c28b80b892cbd59bd99" ],
     [ "type", "dir_b45b5e8d1817f8faf2bd532018db76f3.html", "dir_b45b5e8d1817f8faf2bd532018db76f3" ],
     [ "util", "dir_23ec12649285f9fabf3a6b7380226c28.html", "dir_23ec12649285f9fabf3a6b7380226c28" ],
-    [ "tmpl.java", "tmpl_8java.html", [
-      [ "Tmpl", "classtmpl_1_1_tmpl.html", null ]
+    [ "Tmpl.java", "_tmpl_8java.html", [
+      [ "Tmpl", "class_tmpl.html", null ]
     ] ]
 ];

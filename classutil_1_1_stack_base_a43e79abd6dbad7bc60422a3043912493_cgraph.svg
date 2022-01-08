@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classutil_1_1_stack_base.html#afc83463b28590258e734220f6cafdbfb" target="_top" xlink:title="少なくとも maxlen 個の要素を保持できる容量をもつことを保証するメモリ割り当てルーチン。">
+<g id="a_node2"><a xlink:href="classutil_1_1_stack_base.html#afc83463b28590258e734220f6cafdbfb" target="_top" xlink:title="メモリ割り当てルーチン">
 <polygon fill="white" stroke="black" points="107,-38.5 107,-57.5 192,-57.5 192,-38.5 107,-38.5"/>
 <text text-anchor="middle" x="149.5" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">ensureCapacity</text>
 </a>

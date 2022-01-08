@@ -4,6 +4,5 @@ var namespaceio =
     [ "CharSet", "classio_1_1_char_set.html", "classio_1_1_char_set" ],
     [ "CharTestable", "interfaceio_1_1_char_testable.html", "interfaceio_1_1_char_testable" ],
     [ "InputScannable", "interfaceio_1_1_input_scannable.html", "interfaceio_1_1_input_scannable" ],
-    [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", "classio_1_1_pooled_input_stream" ],
-    [ "PooledOutputStream", "classio_1_1_pooled_output_stream.html", "classio_1_1_pooled_output_stream" ]
+    [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", "classio_1_1_pooled_input_stream" ]
 ];

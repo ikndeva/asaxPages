@@ -1,11 +1,11 @@
 <map id="AstDataReader.AstVarReader" name="AstDataReader.AstVarReader">
-<area shape="rect" id="node1" title="ブール型の値をもつ参照読み出し" alt="" coords="397,304,593,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node_unary.html" title="ただ一つの子をもつノードのクラス。" alt="" coords="441,229,549,256"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="397,155,471,181"/>
+<area shape="rect" id="node1" title="ブール型の値をもつ参照読み出し" alt="" coords="251,304,447,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node_unary.html" title="ただ一つの子をもつノードのクラス。" alt="" coords="233,229,341,256"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="189,155,263,181"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
-<area shape="rect" id="node5" href="$interfaceast_1_1_node.html" title=" " alt="" coords="562,80,615,107"/>
-<area shape="rect" id="node9" href="$interfaceast_1_1_node_1_1_node_unary.html" title="子供を一つだけもつノードのインタフェース" alt="" coords="511,155,634,181"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="384,5,484,32"/>
+<area shape="rect" id="node5" href="$interfaceast_1_1_node.html" title=" " alt="" coords="330,80,383,107"/>
+<area shape="rect" id="node8" href="$interfaceast_1_1_node_1_1_node_unary.html" title="子供を一つだけもつノードのインタフェース" alt="" coords="291,155,414,181"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="237,5,337,32"/>
 <area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="133,80,306,107"/>
-<area shape="rect" id="node8" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="330,80,538,107"/>
+<area shape="rect" id="node9" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="365,229,457,256"/>
 </map>

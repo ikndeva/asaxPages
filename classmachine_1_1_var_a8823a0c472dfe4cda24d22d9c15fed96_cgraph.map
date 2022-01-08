@@ -1,6 +1,5 @@
 <map id="typ" name="typ">
 <area shape="rect" id="node1" title="データ型を返す．" alt="" coords="5,29,45,56"/>
-<area shape="rect" id="node2" href="$classtype_1_1_x_item.html#a376d814d15cc5ae21afd6425d0780ad9" title="この型変数thisがもつ値型を返す。" alt="" coords="93,29,195,56"/>
-<area shape="rect" id="node3" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="449,29,611,56"/>
-<area shape="rect" id="node4" href="$classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b" title="この元の同値類がもつT型の値を返す。" alt="" coords="243,55,401,81"/>
+<area shape="rect" id="node2" href="$classtype_1_1_type_item.html#ab2779590ca497b3e0b72a642b69a4c9a" title="この型アイテムthisがもつ値型XTypeを返す。" alt="" coords="93,29,235,56"/>
+<area shape="rect" id="node3" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="283,29,444,56"/>
 </map>

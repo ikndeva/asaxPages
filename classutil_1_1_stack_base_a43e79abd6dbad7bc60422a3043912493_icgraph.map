@@ -1,27 +1,35 @@
 <map id="_push_entry" name="_push_entry">
-<area shape="rect" id="node1" title="スタックにエントリをプッシュし、その番地を返す。" alt="" coords="565,671,659,697"/>
-<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#a95cd624d209c6e05e342b8f5f85ed28a" title="スタックに値 val をプッシュし、その番地を返す。" alt="" coords="467,671,517,697"/>
-<area shape="rect" id="node3" href="$classutil_1_1_panic.html#a8ae511d13228b346b493970111efbf64" title="現在の入れ子深さで段差げして，関数名nameの呼び出しを出力する。" alt="" coords="239,5,348,32"/>
-<area shape="rect" id="node4" href="$classcmd_1_1_command_base_1_1_cmd_get_text.html#aed930e84d9417830c38fbb0917e1c58a" title="テキスト文字列を読み出す．" alt="" coords="168,56,419,83"/>
-<area shape="rect" id="node5" href="$classcmd_1_1_command_base_1_1_cmd_get_elem_end.html#aed930e84d9417830c38fbb0917e1c58a" title="テキスト文字列を読み出す．" alt="" coords="181,107,405,149"/>
-<area shape="rect" id="node6" href="$classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="194,173,393,214"/>
-<area shape="rect" id="node7" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_load.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="185,238,401,279"/>
-<area shape="rect" id="node8" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．" alt="" coords="185,303,401,345"/>
-<area shape="rect" id="node9" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_and.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．" alt="" coords="185,369,401,410"/>
-<area shape="rect" id="node10" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_or.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの値を論理和演算して，結果をスタックトップにおく．" alt="" coords="185,434,401,475"/>
-<area shape="rect" id="node11" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_not.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの値を否定して，結果をスタックトップにおく．" alt="" coords="185,499,401,541"/>
-<area shape="rect" id="node12" href="$classcmd_1_1_command_double_1_1_cmd_dbl_load.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="191,565,395,606"/>
-<area shape="rect" id="node13" href="$classcmd_1_1_command_integer_1_1_cmd_int_load.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="195,630,392,671"/>
-<area shape="rect" id="node14" href="$classcmd_1_1_command_string_1_1_cmd_str_load.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップに文字列変数値をおく．" alt="" coords="196,695,391,737"/>
-<area shape="rect" id="node15" href="$classcmd_1_1_command_string_1_1_cmd_str_add.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの文字列を連結して，結果をスタックトップにおく．" alt="" coords="196,761,391,802"/>
-<area shape="rect" id="node16" href="$classcmd_1_1_command_string_1_1_cmd_str_string_match.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの文字列を，保持した文字列パターンに部分文字列照合し，その結果のブール値をスタックトップにおく．" alt="" coords="196,826,391,867"/>
-<area shape="rect" id="node17" href="$classcmd_1_1_command_string_1_1_cmd_str_regex_match.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの文字列を，保持した正規表現に照合し，その結果のブール値をスタックトップにおく．" alt="" coords="196,891,391,933"/>
-<area shape="rect" id="node18" href="$classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップにシステム変数値をおく．" alt="" coords="196,957,391,998"/>
-<area shape="rect" id="node19" href="$classcmd_1_1_command_typed_1_1_cmd_str2_type.html#aed930e84d9417830c38fbb0917e1c58a" title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする" alt="" coords="192,1022,395,1063"/>
-<area shape="rect" id="node20" href="$classcmd_1_1_command_typed_1_1_cmd_conv.html#aed930e84d9417830c38fbb0917e1c58a" title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする" alt="" coords="174,1088,413,1115"/>
-<area shape="rect" id="node21" href="$classcmd_1_1_command_typed_1_1_cmd_type_opr.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つのIntegerを演算して，結果をスタックトップにおく．" alt="" coords="190,1139,397,1181"/>
-<area shape="rect" id="node22" href="$classutil_1_1_report.html#a18c2ea265e8622e114f6b037e69aa09a" title="現在の入れ子深さを一つ深くする．" alt="" coords="236,1205,351,1232"/>
-<area shape="rect" id="node24" href="$classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．" alt="" coords="200,1256,387,1283"/>
-<area shape="rect" id="node25" href="$classutil_1_1_report.html#a62bc0d20ce17d1ee1289cfccd4c0ce68" title="name stack" alt="" coords="231,1307,356,1333"/>
-<area shape="rect" id="node23" href="$classutil_1_1_report.html#af99c57037baac94c5837a696ba33f50b" title="現在の入れ子深さで段差げして，関数名nameの呼び出しと文字列msgを出力する。" alt="" coords="5,1205,120,1232"/>
+<area shape="rect" id="node1" title="スタックにエントリをプッシュし、その番地を返す。" alt="" coords="1067,605,1160,632"/>
+<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#a95cd624d209c6e05e342b8f5f85ed28a" title="スタックに値 val をプッシュし、その番地を返す。 定数時間で実行可能である." alt="" coords="968,605,1019,632"/>
+<area shape="rect" id="node3" href="$classutil_1_1_panic.html#a8ae511d13228b346b493970111efbf64" title="現在の入れ子深さで段差げして，関数名nameの呼び出しを出力する。" alt="" coords="740,5,849,32"/>
+<area shape="rect" id="node4" href="$classcmd_1_1_command_base_1_1_cmd_get_text.html#aed930e84d9417830c38fbb0917e1c58a" title="テキスト文字列を読み出す．" alt="" coords="669,56,920,83"/>
+<area shape="rect" id="node5" href="$classcmd_1_1_command_base_1_1_cmd_get_elem_end.html#aed930e84d9417830c38fbb0917e1c58a" title="テキスト文字列を読み出す．" alt="" coords="683,107,907,149"/>
+<area shape="rect" id="node6" href="$classcmd_1_1_command_base_1_1_cmd_int_in_stream_const.html#aed930e84d9417830c38fbb0917e1c58a" title="命令を実行する" alt="" coords="695,173,894,214"/>
+<area shape="rect" id="node7" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_load.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="687,238,903,279"/>
+<area shape="rect" id="node8" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．" alt="" coords="687,303,903,345"/>
+<area shape="rect" id="node9" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_and.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．" alt="" coords="687,369,903,410"/>
+<area shape="rect" id="node10" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_or.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの値を論理和演算して，結果をスタックトップにおく．" alt="" coords="687,434,903,475"/>
+<area shape="rect" id="node11" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_not.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの値を否定して，結果をスタックトップにおく．" alt="" coords="687,499,903,541"/>
+<area shape="rect" id="node12" href="$classcmd_1_1_command_double_1_1_cmd_dbl_load.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="693,565,897,606"/>
+<area shape="rect" id="node13" href="$classcmd_1_1_command_integer_1_1_cmd_int_load.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="696,630,893,671"/>
+<area shape="rect" id="node14" href="$classcmd_1_1_command_string_1_1_cmd_str_load.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップに文字列変数値をおく．" alt="" coords="697,695,892,737"/>
+<area shape="rect" id="node15" href="$classcmd_1_1_command_string_1_1_cmd_str_add.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの文字列を連結して，結果をスタックトップにおく．" alt="" coords="697,761,892,802"/>
+<area shape="rect" id="node16" href="$classcmd_1_1_command_string_1_1_cmd_str_string_match.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの文字列を，保持した文字列パターンに部分文字列照合し，その結果のブール値をスタックトップにおく．" alt="" coords="697,826,892,867"/>
+<area shape="rect" id="node17" href="$classcmd_1_1_command_string_1_1_cmd_str_regex_match.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの文字列を，保持した正規表現に照合し，その結果のブール値をスタックトップにおく．" alt="" coords="697,891,892,933"/>
+<area shape="rect" id="node18" href="$classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップにシステム変数値をおく．" alt="" coords="697,957,892,998"/>
+<area shape="rect" id="node19" href="$classcmd_1_1_command_typed_1_1_cmd_str2_type.html#aed930e84d9417830c38fbb0917e1c58a" title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする" alt="" coords="693,1022,896,1063"/>
+<area shape="rect" id="node20" href="$classcmd_1_1_command_typed_1_1_cmd_conv.html#aed930e84d9417830c38fbb0917e1c58a" title="文字列OSのトップをIntegerに変換し，IntegerOSにプッシュする" alt="" coords="675,1088,914,1115"/>
+<area shape="rect" id="node21" href="$classcmd_1_1_command_typed_1_1_cmd_type_opr.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つのIntegerを演算して，結果をスタックトップにおく．" alt="" coords="691,1139,898,1181"/>
+<area shape="rect" id="node22" href="$classutil_1_1_recycle_manager.html#aa9f7825d1e1ceade4de0aa24bdb2d10c" title="型Sのインスタンスを，再利用可能のマークをつけて，入れ物にいれる．" alt="" coords="701,1205,888,1232"/>
+<area shape="rect" id="node23" href="$classutil_1_1_bufs.html#a8603b9b1f8954808d409f9bcda8fcda5" title="リサイクラーオブジェクトを回収する。" alt="" coords="504,1180,620,1207"/>
+<area shape="rect" id="node24" href="$classutil_1_1_bufs.html#a1527ff4e7fbe5000e2eab9f92f540d00" title="リサイクラーオブジェクトを回収しつつ、その文字列表現を返す。" alt="" coords="503,1231,621,1257"/>
+<area shape="rect" id="node25" href="$classast_1_1_ast_scan_from.html#a3137357d0abb2bd75321d6e19024956a" title="ノード名文字列を返す。" alt="" coords="277,991,430,1017"/>
+<area shape="rect" id="node26" href="$classframe_1_1_entry.html#a3137357d0abb2bd75321d6e19024956a" title="メモリセルを表す文字列を返す。" alt="" coords="295,1041,412,1068"/>
+<area shape="rect" id="node27" href="$classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68" title="フレームポインタfpからフレームの文字列表現を返す" alt="" coords="260,1093,447,1134"/>
+<area shape="rect" id="node28" href="$classast_1_1_sent_list_1_1_list_wrapper.html#a54d57ec79cee3ac4683b86ee2dcddd49" title="ノードの清書出力を返す。" alt="" coords="260,1158,447,1199"/>
+<area shape="rect" id="node29" href="$classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" title="オプション引数の可変長文字列を受け取る．" alt="" coords="269,1223,437,1265"/>
+<area shape="rect" id="node30" href="$classmachine_1_1_o_v_machine.html#afcb7bfddbaa58f232f8b97b5b1a6b74f" title="文字列表現を返す" alt="" coords="252,1289,455,1330"/>
+<area shape="rect" id="node31" href="$classmachine_1_1_o_v_machine.html#ad146fa8579a5f8a876c4688cc5a68520" title="文字列表現を返す" alt="" coords="9,1343,201,1369"/>
+<area shape="rect" id="node32" href="$classframe_1_1_frame_stack_uni.html#ad146fa8579a5f8a876c4688cc5a68520" title="フレームスタックの文字列表現を返す." alt="" coords="5,1419,204,1445"/>
+<area shape="rect" id="node33" href="$classutil_1_1_auto_stack.html#aed8f716239f4d48b8d22dc2a80c52263" title="内部仕様のYamlBufの初期化器yamlInitializerと要素の清書器elemWriterをもつ清書出力文字列を返す実装手続き。" alt="" coords="273,1456,433,1483"/>
 </map>

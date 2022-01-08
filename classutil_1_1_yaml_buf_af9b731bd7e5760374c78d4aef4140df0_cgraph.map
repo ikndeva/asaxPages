@@ -1,11 +1,5 @@
 <map id="includeStrIndent" name="includeStrIndent">
-<area shape="rect" id="node1" title="YamlBufで作成済みの入れ子文字列を、正しく段下げしながらバッファに追加する基本手続き．文字列を段下げしながらそのまま挿入し，区切り記号は挿入しない．" alt="" coords="5,92,121,119"/>
-<area shape="rect" id="node2" href="$classutil_1_1_foldable_string_buf.html#aaa1e91437222f9467827a35ccfecbdb7" title="バッファの末尾に文字c を追加する." alt="" coords="169,117,340,144"/>
-<area shape="rect" id="node8" href="$classutil_1_1_foldable_string_buf.html#ab3d4d59d8a1bb8f1cffeef544c66c052" title="改行を出力する." alt="" coords="175,55,335,81"/>
-<area shape="rect" id="node3" href="$classutil_1_1_foldable_string_buf.html#a2b018a5847ca3b5c67456ad721e23ba4" title="文字列を出力する" alt="" coords="398,143,563,169"/>
-<area shape="rect" id="node4" href="$classutil_1_1_string_buf.html#a2dc9e4579aee8516f9402d5ab3eac5eb" title="バッファの末尾に文字列{str} を連結する." alt="" coords="626,104,769,131"/>
-<area shape="rect" id="node6" href="$classutil_1_1_trace_level.html#a163bdc94e3e530c147c8fcd59f9f01f4" title="モジュールnameの現在のトレースレベルが{level}以上かを返す。モジュールのレベルが登録されていなければ、全体のトレースレベルを返す。" alt="" coords="621,29,773,56"/>
-<area shape="rect" id="node5" href="$classutil_1_1_string_buf.html#a9ea51ad122f068c0e30e6a7a17f57685" title="バッファの末尾に文字列{val} を追加する. メソッド {append} に同じ." alt="" coords="843,104,959,131"/>
-<area shape="rect" id="node7" href="$classutil_1_1_trace_level.html#ac3ccfd677fa662c8af08cebe99eafebf" title="現在のプログラムでのトレースレベル（出力の活性化レベル）を返す." alt="" coords="821,29,981,56"/>
-<area shape="rect" id="node9" href="$classutil_1_1_foldable_string_buf.html#a186579e7cd763dada34bcdc6c8f8f209" title="空白を出力する." alt="" coords="388,41,573,68"/>
+<area shape="rect" id="node1" title="YamlBufで作成済みの入れ子文字列を、正しく段下げしながらバッファに追加する基本手続き．文字列を段下げしながらそのまま挿入し，区切り記号は挿入しない．" alt="" coords="5,43,121,69"/>
+<area shape="rect" id="node2" href="$classutil_1_1_yaml_buf.html#aacd032b1cd9731ed0d608fb2ba029379" title="タグnameと整数値valueの対をバッファに追加する" alt="" coords="169,5,212,32"/>
+<area shape="rect" id="node3" href="$classutil_1_1_yaml_buf.html#abb9a0f5723e48d12790f370d16ec068a" title="改行する" alt="" coords="171,80,210,107"/>
 </map>

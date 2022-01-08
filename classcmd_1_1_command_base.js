@@ -22,7 +22,7 @@ var classcmd_1_1_command_base =
     [ "CommandJumpBase", "classcmd_1_1_command_base_1_1_command_jump_base.html", "classcmd_1_1_command_base_1_1_command_jump_base" ],
     [ "CommandVar", "classcmd_1_1_command_base_1_1_command_var.html", "classcmd_1_1_command_base_1_1_command_var" ],
     [ "CommandBase", "classcmd_1_1_command_base.html#ab743d053c43c0ae5f00ec5a3ed41d74e", null ],
-    [ "setReporter", "classcmd_1_1_command_base.html#a5d3ec868d7f73cc70303e27dad733f84", null ],
+    [ "setReporter", "classcmd_1_1_command_base.html#aae5dfe5e9217837eff8961a8b68e4b80", null ],
     [ "parseBooleanToString", "classcmd_1_1_command_base.html#a8f125a8b1c66fcc9d255b3538544aaba", null ],
     [ "parseStringToBoolean", "classcmd_1_1_command_base.html#a3f50b7a96666c6cdbdc0e447e7104679", null ],
     [ "parseStringToInteger", "classcmd_1_1_command_base.html#a4d4573c4312492c3284b487cc491a2d8", null ],

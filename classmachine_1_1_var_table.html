@@ -105,12 +105,14 @@ $(document).ready(function(){initNavTree('classmachine_1_1_var_table.html',''); 
 <div class="dynheader">
 Inheritance diagram for VarTable:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table__inherit__graph.svg" width="148" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table__inherit__graph.svg" width="230" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for VarTable:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table__coll__graph.svg" width="463" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table__coll__graph.svg" width="556" height="203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -120,7 +122,8 @@ Collection&lt; <a class="el" href="classmachine_1_1_var.html">Var</a> &gt;&#160;
 <tr class="memdesc:a0be2b7d5d99f8b0c9def363c5d0461c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">変数リストを返す。 <br /></td></tr>
 <tr class="separator:a0be2b7d5d99f8b0c9def363c5d0461c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bdb4531eee4ea10fafba49383ab366f"><td class="memItemLeft" align="right" valign="top"><a id="a9bdb4531eee4ea10fafba49383ab366f"></a>
-boolean&#160;</td><td class="memItemRight" valign="bottom"><b>notToEmit</b> ()</td></tr>
+boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_var_table.html#a9bdb4531eee4ea10fafba49383ab366f">notToEmit</a> ()</td></tr>
+<tr class="memdesc:a9bdb4531eee4ea10fafba49383ab366f"><td class="mdescLeft">&#160;</td><td class="mdescRight">brief 表示しなくて良い空ノードかを返す述語。 <br /></td></tr>
 <tr class="separator:a9bdb4531eee4ea10fafba49383ab366f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a9e0cad07b03981d8553148c99a82aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmachine_1_1_var.html">Var</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_var_table.html#a6a9e0cad07b03981d8553148c99a82aa">lookupVariable</a> (String name, <a class="el" href="classast_1_1_program.html">Program</a> prog)</td></tr>
 <tr class="memdesc:a6a9e0cad07b03981d8553148c99a82aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">与えられた名前をもつ変数を記号表で見つけて返し， もし見つからなければ，<code>Universe.createVariable(name)</code>で， 最汎型をもつ新しい変数を生成して返す．  <a href="classmachine_1_1_var_table.html#a6a9e0cad07b03981d8553148c99a82aa">More...</a><br /></td></tr>
@@ -147,9 +150,9 @@ String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cl
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5d3ec868d7f73cc70303e27dad733f84"><td class="memItemLeft" align="right" valign="top"><a id="a5d3ec868d7f73cc70303e27dad733f84"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>setReporter</b> (Report repo_)</td></tr>
-<tr class="separator:a5d3ec868d7f73cc70303e27dad733f84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5dfe5e9217837eff8961a8b68e4b80"><td class="memItemLeft" align="right" valign="top"><a id="aae5dfe5e9217837eff8961a8b68e4b80"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>setReporter</b> (ReportKt repo_)</td></tr>
+<tr class="separator:aae5dfe5e9217837eff8961a8b68e4b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484758e3eebcb4471fedfc7f5c085d75"><td class="memItemLeft" align="right" valign="top"><a id="a484758e3eebcb4471fedfc7f5c085d75"></a>
 static <a class="el" href="classmachine_1_1_var_table.html">VarTable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_var_table.html#a484758e3eebcb4471fedfc7f5c085d75">createRootVarTable</a> (<a class="el" href="classast_1_1_program.html">Program</a> prog)</td></tr>
 <tr class="memdesc:a484758e3eebcb4471fedfc7f5c085d75"><td class="mdescLeft">&#160;</td><td class="mdescRight">親をもたない空の変数表を生成して返す． <br /></td></tr>
@@ -206,7 +209,8 @@ static final int&#160;</td><td class="memItemRight" valign="bottom"><b>UNDEF</b>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table_a6a9e0cad07b03981d8553148c99a82aa_cgraph.svg" width="280" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table_a6a9e0cad07b03981d8553148c99a82aa_cgraph.svg" width="280" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -248,7 +252,8 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table_a48c387cd3361c4f21e65cb65029ec21a_cgraph.svg" width="100%" height="520"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_var_table_a48c387cd3361c4f21e65cb65029ec21a_cgraph.svg" width="100%" height="404"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
 </div>
 
 </div>
@@ -262,7 +267,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemachine.html">machine</a></li><li class="navelem"><a class="el" href="classmachine_1_1_var_table.html">VarTable</a></li>
-    <li class="footer">Generated on Wed May 12 2021 04:21:03 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

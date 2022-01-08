@@ -103,12 +103,14 @@ $(document).ready(function(){initNavTree('classmachine_1_1_system_scope.html',''
 <div class="dynheader">
 Inheritance diagram for SystemScope:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_system_scope__inherit__graph.svg" width="150" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_system_scope__inherit__graph.svg" width="150" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for SystemScope:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_system_scope__coll__graph.svg" width="296" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_system_scope__coll__graph.svg" width="296" height="142"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -117,8 +119,8 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_system_scope.html#a4bc5a9bd9a9b3d540ea294cc4625c0e1">SystemScope</a> (<a class="el" href="interfacemachine_1_1_system_readable.html">SystemReadable</a> sys)</td></tr>
 <tr class="memdesc:a4bc5a9bd9a9b3d540ea294cc4625c0e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">実行系を受け取り，新しいスコープを生成する． <br /></td></tr>
 <tr class="separator:a4bc5a9bd9a9b3d540ea294cc4625c0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a464934d0c11c283bba0807341cb8d763"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmachine_1_1_system_scope.html#a464934d0c11c283bba0807341cb8d763">get</a> (String name)</td></tr>
-<tr class="memdesc:a464934d0c11c283bba0807341cb8d763"><td class="mdescLeft">&#160;</td><td class="mdescRight">実行環境のシステム変数の値を返す関数.  <a href="classmachine_1_1_system_scope.html#a464934d0c11c283bba0807341cb8d763">More...</a><br /></td></tr>
+<tr class="memitem:a464934d0c11c283bba0807341cb8d763"><td class="memItemLeft" align="right" valign="top"><a id="a464934d0c11c283bba0807341cb8d763"></a>
+String&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> (String name)</td></tr>
 <tr class="separator:a464934d0c11c283bba0807341cb8d763"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_interfacemachine_1_1_inspectable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfacemachine_1_1_inspectable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="interfacemachine_1_1_inspectable.html">Inspectable&lt; String, String &gt;</a></td></tr>
 <tr class="memitem:a7a59484d7d4a7da40cdffbdc573e4849 inherit pub_methods_interfacemachine_1_1_inspectable"><td class="memItemLeft" align="right" valign="top"><a id="a7a59484d7d4a7da40cdffbdc573e4849"></a>
@@ -139,59 +141,7 @@ static String&#160;</td><td class="memItemRight" valign="bottom"><b>normalizeNam
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>システム変数にアクセスするための読み出し専用スコープ． </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a464934d0c11c283bba0807341cb8d763"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a464934d0c11c283bba0807341cb8d763">&#9670;&nbsp;</a></span>get()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String get </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>実行環境のシステム変数の値を返す関数. </p>
-<p>将来は、変数登録と一覧作成ができるようLambda式で実装すること. <br  />
- 現在，次のシステム変数を実装している: <br  />
- </p><div class="fragment"><div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NumEventRead&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NUM&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NE&quot;</span>:</div>
-<div class="line"><span class="keywordflow">return</span> Integer.toString(this.numEventRead); </div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NumMatches&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NUMMATCH&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NM&quot;</span>:</div>
-<div class="line"><span class="keywordflow">return</span> Integer.toString(this.numMatches); </div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NumRecords&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NR&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NumPreMatches&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NPM&quot;</span>:</div>
-<div class="line"><span class="keywordflow">return</span> Integer.toString(this.numPreMatches);</div>
-<div class="line"><span class="comment">//走査器の実行環境</span></div>
-<div class="line"><span class="comment">// case &quot;$LEVEL&quot;:</span></div>
-<div class="line"><span class="comment">//     return Integer.toString(scope.getLevel());</span></div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$TAG&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$NAME&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$LABEL&quot;</span>:</div>
-<div class="line"><span class="keywordflow">return</span> this.<a class="code" href="namespaceevent.html">event</a>().getName(); </div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$TEXT&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$VALUE&quot;</span>:</div>
-<div class="line"><span class="keywordflow">case</span> <span class="stringliteral">&quot;$VAL&quot;</span>:</div>
-<div class="ttc" id="anamespaceevent_html"><div class="ttname"><a href="namespaceevent.html">event</a></div><div class="ttdoc">イベントオブジェクトのパッケージ</div><div class="ttdef"><b>Definition:</b> Actable.java:5</div></div>
-</div><!-- fragment --> <div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classmachine_1_1_system_scope_a464934d0c11c283bba0807341cb8d763_cgraph.svg" width="310" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>machine/<a class="el" href="_system_scope_8java.html">SystemScope.java</a></li>
 </ul>
 </div><!-- contents -->
@@ -200,7 +150,7 @@ Here is the call graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemachine.html">machine</a></li><li class="navelem"><a class="el" href="classmachine_1_1_system_scope.html">SystemScope</a></li>
-    <li class="footer">Generated on Wed May 12 2021 04:21:03 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

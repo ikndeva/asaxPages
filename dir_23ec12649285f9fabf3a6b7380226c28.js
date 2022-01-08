@@ -18,12 +18,6 @@ var dir_23ec12649285f9fabf3a6b7380226c28 =
     [ "FieldInspectable.java", "_field_inspectable_8java.html", [
       [ "FieldInspectable", "interfaceutil_1_1_field_inspectable.html", "interfaceutil_1_1_field_inspectable" ]
     ] ],
-    [ "FoldableStringBuf.java", "_foldable_string_buf_8java.html", [
-      [ "FoldableStringBuf", "classutil_1_1_foldable_string_buf.html", "classutil_1_1_foldable_string_buf" ],
-      [ "SiblingStack", "classutil_1_1_foldable_string_buf_1_1_sibling_stack.html", "classutil_1_1_foldable_string_buf_1_1_sibling_stack" ],
-      [ "NullSiblingStack", "classutil_1_1_foldable_string_buf_1_1_null_sibling_stack.html", "classutil_1_1_foldable_string_buf_1_1_null_sibling_stack" ],
-      [ "Lockable", "classutil_1_1_foldable_string_buf_1_1_lockable.html", "classutil_1_1_foldable_string_buf_1_1_lockable" ]
-    ] ],
     [ "IncCounter.java", "_inc_counter_8java.html", [
       [ "IncCounter", "classutil_1_1_inc_counter.html", "classutil_1_1_inc_counter" ]
     ] ],
@@ -35,12 +29,6 @@ var dir_23ec12649285f9fabf3a6b7380226c28 =
     ] ],
     [ "RecycleManager.java", "_recycle_manager_8java.html", [
       [ "RecycleManager", "classutil_1_1_recycle_manager.html", "classutil_1_1_recycle_manager" ]
-    ] ],
-    [ "Report.java", "_report_8java.html", [
-      [ "Report", "classutil_1_1_report.html", "classutil_1_1_report" ]
-    ] ],
-    [ "ReportEnter.java", "_report_enter_8java.html", [
-      [ "ReportEnter", "classutil_1_1_report_enter.html", "classutil_1_1_report_enter" ]
     ] ],
     [ "Resettable.java", "_resettable_8java.html", [
       [ "Resettable", "interfaceutil_1_1_resettable.html", [
@@ -56,9 +44,6 @@ var dir_23ec12649285f9fabf3a6b7380226c28 =
     [ "StackBase.java", "_stack_base_8java.html", [
       [ "StackBase", "classutil_1_1_stack_base.html", "classutil_1_1_stack_base" ],
       [ "Stat", "classutil_1_1_stack_base_1_1_stat.html", "classutil_1_1_stack_base_1_1_stat" ]
-    ] ],
-    [ "StringBuf.java", "_string_buf_8java.html", [
-      [ "StringBuf", "classutil_1_1_string_buf.html", "classutil_1_1_string_buf" ]
     ] ],
     [ "TraceLevel.java", "_trace_level_8java.html", [
       [ "TraceLevel", "classutil_1_1_trace_level.html", "classutil_1_1_trace_level" ],

@@ -1,12 +1,10 @@
 <map id="Program" name="Program">
-<area shape="rect" id="node1" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="252,304,323,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_node_tagged.html" title="子それぞれにタグと型アイテムをもつ順序ノードAstNodeのサブクラス．利用者は自前で，追加する子のField名と型を設定する．読み出しは子の添字のみで行う．" alt="" coords="170,229,285,256"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="191,155,264,181"/>
+<area shape="rect" id="node1" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="184,304,255,331"/>
+<area shape="rect" id="node2" href="$classast_1_1_ast_node_tagged.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="102,229,217,256"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="123,155,196,181"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="5,80,108,107"/>
 <area shape="rect" id="node5" href="$interfaceast_1_1_node.html" title=" " alt="" coords="133,80,186,107"/>
-<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="247,5,347,32"/>
+<area shape="rect" id="node6" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="177,5,277,32"/>
 <area shape="rect" id="node7" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="210,80,383,107"/>
-<area shape="rect" id="node8" href="$interfaceformat_1_1_x_formattable_1_1_typed_formattable.html" title="ノードの型情報をもつ書式出力可能なオブジェクトのインタフェース．" alt="" coords="407,80,615,107"/>
-<area shape="rect" id="node9" title=" " alt="" coords="288,155,407,181"/>
-<area shape="rect" id="node10" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="309,229,386,256"/>
+<area shape="rect" id="node8" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="241,229,318,256"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="peek" name="peek">
-<area shape="rect" id="node1" title="オフセットi &gt;= 0に対して、スタックの頂上からi下の値を返す." alt="" coords="269,405,320,431"/>
+<area shape="rect" id="node1" title="オフセットi &gt;= 0に対して、スタックの頂上からi下の値を返す." alt="" coords="269,373,320,399"/>
 <area shape="rect" id="node2" href="$classframe_1_1_frame_stack_uni.html#aaa5606ad3baa7526b404ad5609a65d7f" title="フレームfpに、指定された内容と対応する値型の新しいメモリセルを追加する。型ごとに定められた初期値が代入される。" alt="" coords="23,5,204,47"/>
 <area shape="rect" id="node3" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_load.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="5,71,221,112"/>
 <area shape="rect" id="node4" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_opr.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つの値を論理積演算して，結果をスタックトップにおく．" alt="" coords="5,136,221,177"/>
@@ -12,5 +12,4 @@
 <area shape="rect" id="node11" href="$classcmd_1_1_command_string_1_1_cmd_str_regex_match.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの文字列を，保持した正規表現に照合し，その結果のブール値をスタックトップにおく．" alt="" coords="16,593,211,635"/>
 <area shape="rect" id="node12" href="$classcmd_1_1_command_string_1_1_cmd_str_sys_var_load.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップにシステム変数値をおく．" alt="" coords="16,659,211,700"/>
 <area shape="rect" id="node13" href="$classcmd_1_1_command_typed_1_1_cmd_type_opr.html#aed930e84d9417830c38fbb0917e1c58a" title="スタックトップの二つのIntegerを演算して，結果をスタックトップにおく．" alt="" coords="10,724,217,765"/>
-<area shape="rect" id="node14" href="$classutil_1_1_report.html#af0022e20c64f9d3646a91a82b49c0ea8" title="現在の入れ子深さで段差げして，関数の戻りと文字列msgを出力する。" alt="" coords="60,790,167,817"/>
 </map>

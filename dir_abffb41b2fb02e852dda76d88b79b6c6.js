@@ -1,6 +1,5 @@
 var dir_abffb41b2fb02e852dda76d88b79b6c6 =
 [
-    [ "hide", "dir_d987028995888962cce6864581e3c653.html", "dir_d987028995888962cce6864581e3c653" ],
     [ "AstConverter.java", "_ast_converter_8java.html", [
       [ "AstConverter", "classast_1_1_ast_converter.html", "classast_1_1_ast_converter" ],
       [ "AstConv", "classast_1_1_ast_converter_1_1_ast_conv.html", "classast_1_1_ast_converter_1_1_ast_conv" ],
@@ -17,9 +16,6 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
       [ "AstGetText", "classast_1_1_ast_data_reader_1_1_ast_get_text.html", "classast_1_1_ast_data_reader_1_1_ast_get_text" ],
       [ "AstGetElem", "classast_1_1_ast_data_reader_1_1_ast_get_elem.html", "classast_1_1_ast_data_reader_1_1_ast_get_elem" ],
       [ "AstGetSysVar", "classast_1_1_ast_data_reader_1_1_ast_get_sys_var.html", "classast_1_1_ast_data_reader_1_1_ast_get_sys_var" ]
-    ] ],
-    [ "AstDataWrapper.java", "_ast_data_wrapper_8java.html", [
-      [ "AstDataWrapper", "classast_1_1_ast_data_wrapper.html", "classast_1_1_ast_data_wrapper" ]
     ] ],
     [ "AstDataWriter.java", "_ast_data_writer_8java.html", [
       [ "AstDataWriter", "classast_1_1_ast_data_writer.html", "classast_1_1_ast_data_writer" ],

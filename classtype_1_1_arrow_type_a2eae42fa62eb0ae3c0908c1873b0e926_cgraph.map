@@ -1,0 +1,7 @@
+<map id="ArrowType" name="ArrowType">
+<area shape="rect" id="node1" title="コンストラクタ" alt="" coords="5,56,89,83"/>
+<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html#ac225d6807b8e43b3c26adfefaccbe86c" title=" " alt="" coords="145,5,271,32"/>
+<area shape="rect" id="node3" href="$interfacetype_1_1_typable.html#a4c2935dc9d53d922e91f2a8fb3141ddb" title=" " alt="" coords="147,56,269,83"/>
+<area shape="rect" id="node4" href="$classtype_1_1_type_item.html#ab2779590ca497b3e0b72a642b69a4c9a" title="この型アイテムthisがもつ値型XTypeを返す。" alt="" coords="137,107,279,133"/>
+<area shape="rect" id="node5" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="327,107,488,133"/>
+</map>
