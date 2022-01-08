@@ -1,6 +1,0 @@
-<map id="getCode" name="getCode">
-<area shape="rect" id="node1" title="ステップのpostコードを返す．" alt="" coords="184,56,255,83"/>
-<area shape="rect" id="node2" href="$classast_1_1_block_base.html#a0e7bdf5c1098c3d4272371d3fed64395" title="ステップのpostコードに，命令を追加する．" alt="" coords="33,5,108,32"/>
-<area shape="rect" id="node3" href="$classast_1_1_block.html#a383612fb2c1d291f6f3f9c352a5cb262" title="受取りコード末尾に生成したコードを追加する．" alt="" coords="5,56,136,83"/>
-<area shape="rect" id="node4" href="$classast_1_1_step.html#a383612fb2c1d291f6f3f9c352a5cb262" title="受取りコード末尾に生成したコードを追加する．exp" alt="" coords="9,107,133,133"/>
-</map>

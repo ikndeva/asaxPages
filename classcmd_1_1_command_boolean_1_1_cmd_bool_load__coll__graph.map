@@ -1,4 +1,0 @@
-<map id="CommandBoolean.CmdBoolLoad" name="CommandBoolean.CmdBoolLoad">
-<area shape="rect" id="node1" title="整数変数値を取り出す．" alt="" coords="5,80,220,107"/>
-<area shape="rect" id="node2" href="$class_cmd_load.html" title=" " alt="" coords="73,5,152,32"/>
-</map>

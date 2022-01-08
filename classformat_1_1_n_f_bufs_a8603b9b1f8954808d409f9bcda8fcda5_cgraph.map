@@ -1,6 +1,0 @@
-<map id="recycle" name="recycle">
-<area shape="rect" id="node1" title="リサイクラーオブジェクトを回収する。" alt="" coords="5,31,69,57"/>
-<area shape="rect" id="node2" href="$classutil_1_1_util.html#ae411a90dd0a4a15776ea6eb5f0cbae13" title="与えられた文字列を標準出力に印刷して、プログラムを強制停止する。" alt="" coords="117,5,233,32"/>
-<area shape="rect" id="node4" href="$classformat_1_1_n_f_bufs.html#ab7b1b40077e11f70904395d4ed15df59" title="Recyclerを返す。" alt="" coords="155,56,195,83"/>
-<area shape="rect" id="node3" href="$classutil_1_1_util.html#a7c4b5534ff284b188f83399c344c89c8" title="スタックトレースを出力する。" alt="" coords="281,5,448,32"/>
-</map>

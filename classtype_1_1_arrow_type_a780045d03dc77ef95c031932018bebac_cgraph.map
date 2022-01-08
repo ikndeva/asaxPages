@@ -1,9 +1,0 @@
-<map id="unifyMe" name="unifyMe">
-<area shape="rect" id="node1" title="自分がもつ返値の型アイテムを与えられた型アイテムと単一化する．" alt="" coords="5,31,73,57"/>
-<area shape="rect" id="node2" href="$classtype_1_1_type_item.html#afefb7cc16f9623dc5f1fc9b2a6433417" title="この型変数thisと指定された型変数が単一化可能ならばtrueを返し、そうでなければfalseを返す。" alt="" coords="121,5,279,32"/>
-<area shape="rect" id="node5" href="$classtype_1_1_type_item.html#a6ce5a50989555a633ba32656e6b3a121" title="この型変数thisと指定された型変数を単一化する（同じ同値類にする）。成功すればtrueを返し、そうでなければfalseを返す。" alt="" coords="131,56,269,83"/>
-<area shape="rect" id="node3" href="$classtype_1_1_type_item.html#ab2779590ca497b3e0b72a642b69a4c9a" title="この型アイテムthisがもつ値型XTypeを返す。" alt="" coords="341,5,483,32"/>
-<area shape="rect" id="node4" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="545,56,707,83"/>
-<area shape="rect" id="node6" href="$enumtype_1_1_x_type.html#a56bd5bc246f87ecc5987ec1cced2ca85" title="値型xt0と値型xt1の単一化（最大下界）xtを返す。 返り値がXType.Nothingは，単一化不可能を意味する．" alt="" coords="351,56,473,83"/>
-<area shape="rect" id="node7" href="$classtype_1_1_union_find_item.html#a5d2f3e9121ceab808329981e2daed56d" title="自身の同値類と与えられた元の同値類を併合して、代表元を返す。" alt="" coords="327,107,497,133"/>
-</map>

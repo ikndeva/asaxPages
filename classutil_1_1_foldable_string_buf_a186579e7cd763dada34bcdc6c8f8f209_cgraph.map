@@ -1,7 +1,0 @@
-<map id="space" name="space">
-<area shape="rect" id="node1" title="空白を出力する." alt="" coords="5,67,63,93"/>
-<area shape="rect" id="node2" href="$classutil_1_1_string_buf.html#a2dc9e4579aee8516f9402d5ab3eac5eb" title="バッファの末尾に文字列{str} を連結する." alt="" coords="115,29,258,56"/>
-<area shape="rect" id="node4" href="$classutil_1_1_trace_level.html#a163bdc94e3e530c147c8fcd59f9f01f4" title="モジュールnameの現在のトレースレベルが{level}以上かを返す。モジュールのレベルが登録されていなければ、全体のトレースレベルを返す。" alt="" coords="111,92,263,119"/>
-<area shape="rect" id="node3" href="$classutil_1_1_string_buf.html#a9ea51ad122f068c0e30e6a7a17f57685" title="バッファの末尾に文字列{val} を追加する. メソッド {append} に同じ." alt="" coords="333,29,449,56"/>
-<area shape="rect" id="node5" href="$classutil_1_1_trace_level.html#ac3ccfd677fa662c8af08cebe99eafebf" title="現在のプログラムでのトレースレベル（出力の活性化レベル）を返す." alt="" coords="311,104,471,131"/>
-</map>

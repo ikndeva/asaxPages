@@ -1,4 +1,0 @@
-<map id="put" name="put">
-<area shape="rect" id="node1" title="内容の末尾に与えられた文字列を設定し、自分自身を返す。" alt="" coords="5,5,45,32"/>
-<area shape="rect" id="node2" href="$classframe_1_1_o_stream_holder.html#a2db60a9f6b573056fa35c6f5ba1d519f" title="内容の末尾に与えられた文字列を追加し、自分自身を返す。" alt="" coords="93,5,136,32"/>
-</map>

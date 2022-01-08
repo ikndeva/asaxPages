@@ -1,9 +1,0 @@
-<map id="queryParser.ScanContext" name="queryParser.ScanContext">
-<area shape="rect" id="node1" title=" " alt="" coords="57,373,228,400"/>
-<area shape="rect" id="node2" title=" " alt="" coords="119,5,252,32"/>
-<area shape="rect" id="node3" href="$classparse_1_1query_parser_1_1_step_context.html" title=" " alt="" coords="59,284,227,311"/>
-<area shape="rect" id="node4" href="$classparse_1_1query_parser_1_1_path_context.html" title=" " alt="" coords="76,132,244,159"/>
-<area shape="rect" id="node5" href="$classparse_1_1query_parser_1_1_where_block_context.html" title=" " alt="" coords="186,183,398,209"/>
-<area shape="rect" id="node6" href="$classparse_1_1query_parser_1_1_bool_expr_context.html" title=" " alt="" coords="248,81,443,108"/>
-<area shape="rect" id="node7" href="$classparse_1_1query_parser_1_1_source_context.html" title=" " alt="" coords="334,233,517,260"/>
-</map>

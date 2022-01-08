@@ -1,5 +1,0 @@
-<map id="ensureCapacity" name="ensureCapacity">
-<area shape="rect" id="node1" title="メモリ割り当てルーチン" alt="" coords="5,5,119,32"/>
-<area shape="rect" id="node2" href="$classutil_1_1_stack_base_1_1_stat.html#ad5fe06b1a42347fd1cb12382b5739f0e" title="更新する." alt="" coords="167,5,345,32"/>
-<area shape="rect" id="node3" href="$classutil_1_1_stack_base.html#ad7becd1f37b2db660d2335aec66075c8" title="スタックの現在の容量を、保持できる要素数で返す." alt="" coords="393,5,464,32"/>
-</map>

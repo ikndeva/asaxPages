@@ -1,5 +1,0 @@
-<map id="get" name="get">
-<area shape="rect" id="node1" title="型Sの新しいインスタンスを初期化して返す．" alt="" coords="357,13,397,39"/>
-<area shape="rect" id="node2" href="$classutil_1_1_bufs.html#a10a5c2c7b7b4b356bf7d45cfbf664a1a" title="リサイクル可能なStringBufKtを返す。" alt="" coords="221,13,309,39"/>
-<area shape="rect" id="node3" href="$classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65" title="オプション引数の可変長文字列を受け取る．" alt="" coords="5,5,173,47"/>
-</map>

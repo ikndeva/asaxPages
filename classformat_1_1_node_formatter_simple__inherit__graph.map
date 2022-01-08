@@ -1,5 +1,0 @@
-<map id="NodeFormatterSimple" name="NodeFormatterSimple">
-<area shape="rect" id="node1" title="前置演算をもつ項形式のオブジェクトの清書出力器の実装．" alt="" coords="5,155,155,181"/>
-<area shape="rect" id="node2" href="$classformat_1_1_node_formatter_base.html" title="オブジェクトの清書出力器の基本実装．" alt="" coords="11,80,149,107"/>
-<area shape="rect" id="node3" href="$interfaceformat_1_1_node_formattable.html" title="XFormattableインタフェースをもつ構造オブジェクトの清書出力器．" alt="" coords="19,5,141,32"/>
-</map>

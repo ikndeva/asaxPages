@@ -1,7 +1,0 @@
-<map id="PooledOutputStream" name="PooledOutputStream">
-<area shape="rect" id="node1" title="チェックポイントptrの設定と、ストリームのptrから末尾までの末尾部分のキャンセルが可能なし出力文字ストリーム." alt="" coords="185,153,328,180"/>
-<area shape="rect" id="node2" href="$class_filter_output_stream.html" title=" " alt="" coords="5,5,137,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="161,5,264,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="288,5,327,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="357,5,423,32"/>
-</map>

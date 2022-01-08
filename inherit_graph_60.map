@@ -1,4 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceio_1_1_input_scannable.html" title="部分文字列の抽出が可能な入力文字ストリームのインタフェース." alt="" coords="5,5,117,32"/>
-<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html" title="論理位置アクセスによる再読み出しが可能なバッファつき入力ストリーム." alt="" coords="165,5,299,32"/>
-</map>

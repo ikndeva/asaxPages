@@ -1,8 +1,0 @@
-<map id="XTyping" name="XTyping">
-<area shape="rect" id="node1" title="基本的な関数型のクラス" alt="" coords="181,199,251,225"/>
-<area shape="rect" id="node2" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="5,95,72,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="96,95,227,121"/>
-<area shape="rect" id="node4" href="$enumtype_1_1_x_type.html" title="基本型を表す半順序をもつ列挙型のクラス。" alt="" coords="251,95,309,121"/>
-<area shape="rect" id="node5" href="$classtype_1_1_x_item.html" title="型変数のクラス" alt="" coords="342,95,399,121"/>
-<area shape="rect" id="node6" href="$classtype_1_1_union_find_item.html" title=" " alt="" coords="272,5,469,32"/>
-</map>

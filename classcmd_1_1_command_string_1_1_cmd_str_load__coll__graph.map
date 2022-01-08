@@ -1,4 +1,0 @@
-<map id="CommandString.CmdStrLoad" name="CommandString.CmdStrLoad">
-<area shape="rect" id="node1" title="スタックトップに文字列変数値を取り出す．" alt="" coords="5,80,199,107"/>
-<area shape="rect" id="node2" href="$class_cmd_load.html" title=" " alt="" coords="63,5,141,32"/>
-</map>

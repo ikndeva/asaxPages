@@ -1,5 +1,0 @@
-<map id="getText" name="getText">
-<area shape="rect" id="node1" title="現在の要素に対応するテキストを表す文字列を返す." alt="" coords="5,5,71,32"/>
-<area shape="rect" id="node2" href="$classevent_1_1_event_reader_base.html#a5cb8a43231570276c9f19f3eaa309bd6" title="現在の要素が空でないテキストをもつならばtrueを、それ以外はfalseを返す." alt="" coords="119,5,187,32"/>
-<area shape="rect" id="node3" href="$classevent_1_1_event_reader_base.html#a7e773e0012680226fafcbba6ac49b9e9" title="現在の要素がもつテキストの長さを返す。" alt="" coords="235,5,339,32"/>
-</map>

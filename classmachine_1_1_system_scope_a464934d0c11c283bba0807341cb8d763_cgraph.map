@@ -1,8 +1,0 @@
-<map id="get" name="get">
-<area shape="rect" id="node1" title="実行環境のシステム変数の値を返す関数." alt="" coords="5,129,45,156"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_system_readable.html#abc8c6ecc487c80ebc6027448fb64064a" title="現在のイベントevent_を返す。" alt="" coords="93,5,304,32"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_system_readable.html#a422a787c9cf8cfb63f1f8a3f5528c421" title="現在までに読んだイベント数。" alt="" coords="100,57,297,98"/>
-<area shape="rect" id="node4" href="$interfacemachine_1_1_system_readable.html#a5510074f29fa1bba7ef62a9753bc73b8" title="現在までのクエリの照合数。" alt="" coords="100,122,297,163"/>
-<area shape="rect" id="node5" href="$interfacemachine_1_1_system_readable.html#a51c28fea84fb5e07fefd1cd83aa2d9fc" title="現在までのクエリの事前照合数。" alt="" coords="100,187,297,229"/>
-<area shape="rect" id="node6" href="$interfacemachine_1_1_system_readable.html#a4a9fcede69090b93e1118a51b56e8987" title="現在までのスキップされたクエリ数。" alt="" coords="100,253,297,294"/>
-</map>

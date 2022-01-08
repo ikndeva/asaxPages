@@ -1,5 +1,0 @@
-<map id="XMachine" name="XMachine">
-<area shape="rect" id="node1" title="クエリの実行系モジュールのクラス。" alt="" coords="59,80,139,107"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_context.html" title="実行系の記憶機構（環境）を抽象化したインタフェース." alt="" coords="5,5,73,32"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_system_readable.html" title="システム変数の辞書を抽象化したインタフェース." alt="" coords="98,5,221,32"/>
-</map>

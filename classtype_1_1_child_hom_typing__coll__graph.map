@@ -1,9 +1,0 @@
-<map id="ChildHomTyping" name="ChildHomTyping">
-<area shape="rect" id="node1" title="すべての子が同値な関数型．親は異なる型を持値ち得る．" alt="" coords="207,275,326,301"/>
-<area shape="rect" id="node2" href="$classtype_1_1_basic_typing.html" title="基本的な関数型のクラス" alt="" coords="220,199,313,225"/>
-<area shape="rect" id="node3" href="$interfacetype_1_1_typable.html" title="抽象ノードがもつ関数型のインタフェース" alt="" coords="171,95,237,121"/>
-<area shape="rect" id="node4" href="$classtype_1_1_x_type_item.html" title="型変数のクラス" alt="" coords="61,95,147,121"/>
-<area shape="rect" id="node5" href="$classtype_1_1_union_find_item.html" title=" " alt="" coords="5,5,203,32"/>
-<area shape="rect" id="node6" href="$enumtype_1_1_x_type.html" title="基本型を表す半順序をもつ列挙型のクラス。" alt="" coords="445,95,504,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="262,95,421,121"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="lookupVariable" name="lookupVariable">
-<area shape="rect" id="node1" title="与えられた名前をもつ変数を記号表で見つけて返し， もし見つからなければ，Universe.createVariable(name)で， 最汎型をもつ新しい変数を生成して返す．" alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node2" href="$classast_1_1_program.html#a31235693f479ea4df2da3ff442a9fe6b" title="名前のカタログを返す．" alt="" coords="160,5,275,32"/>
-</map>

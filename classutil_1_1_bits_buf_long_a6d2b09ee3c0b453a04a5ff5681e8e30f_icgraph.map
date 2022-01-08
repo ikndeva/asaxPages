@@ -1,5 +1,0 @@
-<map id="bitWidth" name="bitWidth">
-<area shape="rect" id="node1" title="与えられた整数値{val}の最小ビット幅を返す." alt="" coords="312,5,383,32"/>
-<area shape="rect" id="node2" href="$classutil_1_1_bits_buf_long.html#a38e5104af158777c8435a5d8b9cff529" title="与えられた整数値{val}の最小ビット幅を下回らない最小の2のべきを返す." alt="" coords="157,5,264,32"/>
-<area shape="rect" id="node3" href="$classutil_1_1_bits_buf_long.html#a4e8819b98da30e1c569375f4fafaff00" title="与えられた整数値{val}を表す幅{ncol}ビットの二進文字列として文字列値を返す." alt="" coords="5,5,109,32"/>
-</map>

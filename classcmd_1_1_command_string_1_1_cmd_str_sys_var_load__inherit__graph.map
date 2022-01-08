@@ -1,7 +1,0 @@
-<map id="CommandString.CmdStrSysVarLoad" name="CommandString.CmdStrSysVarLoad">
-<area shape="rect" id="node1" title="スタックトップにシステム変数値を取り出す．" alt="" coords="5,229,240,256"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_base.html" title="局所変数環境に値を書き込む式の抽象クラス." alt="" coords="67,155,179,181"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_cmd.html" title="仮装命令のインタフェース." alt="" coords="19,80,69,107"/>
-<area shape="rect" id="node4" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="93,80,312,107"/>
-<area shape="rect" id="node5" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="153,5,253,32"/>
-</map>

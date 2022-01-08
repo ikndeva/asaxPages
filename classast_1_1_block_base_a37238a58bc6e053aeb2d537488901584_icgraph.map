@@ -1,7 +1,0 @@
-<map id="getCalls" name="getCalls">
-<area shape="rect" id="node1" title="呼び出しリストを返す．" alt="" coords="352,56,423,83"/>
-<area shape="rect" id="node2" href="$classast_1_1_block_base.html#a47cf57ec96efe77123f112236a16bd25" title="ビットマスクchildbitsを返す." alt="" coords="191,5,286,32"/>
-<area shape="rect" id="node3" href="$classast_1_1_step.html#a76f0e577c1ccab0026ada08ac4256887" title="実行ルールの文字列表現を返す．" alt="" coords="187,56,290,83"/>
-<area shape="rect" id="node5" href="$classast_1_1_step_rule.html#a76f0e577c1ccab0026ada08ac4256887" title="実行ルールの文字列表現を返す．" alt="" coords="173,107,304,133"/>
-<area shape="rect" id="node4" href="$classast_1_1_step.html#ad146fa8579a5f8a876c4688cc5a68520" title="清書表現を返す." alt="" coords="5,56,125,83"/>
-</map>

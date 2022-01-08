@@ -1,3 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interfaceevent_1_1_action_code_1_1_codelet.html" title="EventReadableの環境内部で動作する動作命令のインタフェース．構文解析時にEventReadableから唯一のメソッドrun()が呼び出される．環境へのアクセスは，このメソッドの引数で与えられ..." alt="" coords="5,5,144,32"/>
-</map>

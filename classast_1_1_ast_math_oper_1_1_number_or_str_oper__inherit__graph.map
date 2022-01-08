@@ -1,7 +1,0 @@
-<map id="AstMathOper.NumberOrStrOper" name="AstMathOper.NumberOrStrOper">
-<area shape="rect" id="node1" title=" " alt="" coords="5,304,212,331"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_math_oper_1_1_number_oper.html" title=" " alt="" coords="21,229,197,256"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_math_oper_1_1_binary_oper.html" title="end of class AstMathOper" alt="" coords="25,155,192,181"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_math_oper.html" title="値を返すことができるノードのクラス．一般に1個以上の子をもつ演算子である．" alt="" coords="59,80,158,107"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_oper.html" title=" " alt="" coords="73,5,144,32"/>
-</map>

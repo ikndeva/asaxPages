@@ -1,5 +1,0 @@
-<map id="AutoStack&lt; S &gt;" name="AutoStack&lt; S &gt;">
-<area shape="rect" id="node1" title="再利用可能な型Sのオブジェクトを要素に持つスタックの実装." alt="" coords="68,80,184,107"/>
-<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="5,5,124,32"/>
-<area shape="rect" id="node3" href="$interfaceutil_1_1_stackable.html" title="レベル付きスタックを実装するための最小限のインタフェース" alt="" coords="149,5,229,32"/>
-</map>

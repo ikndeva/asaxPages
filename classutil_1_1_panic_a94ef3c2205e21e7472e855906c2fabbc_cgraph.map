@@ -1,4 +1,0 @@
-<map id="exit" name="exit">
-<area shape="rect" id="node1" title="現在の入れ子深さで段差げして，関数の戻りを出力する。" alt="" coords="5,5,48,32"/>
-<area shape="rect" id="node2" href="$classutil_1_1_stack_base.html#ad702374ab51a03308e76cc7305f42582" title="スタックをポップする." alt="" coords="96,5,228,32"/>
-</map>
