@@ -21,9 +21,9 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classast_1_1_ast_node_tagged.html" target="_top" xlink:title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．">
+<g id="a_node2"><a xlink:href="classast_1_1_ast_node_named.html" target="_top" xlink:title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．">
 <polygon fill="white" stroke="black" points="760,-206.5 760,-225.5 846,-225.5 846,-206.5 760,-206.5"/>
-<text text-anchor="middle" x="803" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstNodeTagged</text>
+<text text-anchor="middle" x="803" y="-213.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstNodeNamed</text>
 </a>
 </g>
 </g>

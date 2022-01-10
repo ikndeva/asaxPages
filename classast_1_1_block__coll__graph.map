@@ -1,7 +1,7 @@
 <map id="Block" name="Block">
 <area shape="rect" id="node1" title="抽象構文木のステップ式のクラス." alt="" coords="1564,708,1619,735"/>
 <area shape="rect" id="node2" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="1429,708,1515,735"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node_tagged.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="1056,348,1171,375"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node_named.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="1056,348,1171,375"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="767,348,840,375"/>
 <area shape="rect" id="node25" href="$classast_1_1_ast_node_new.html" title="実装置き換え用のノードのクラス。" alt="" coords="1063,759,1163,785"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="386,140,489,167"/>

@@ -157,32 +157,32 @@ var sectionId = 'dynsection-0';
 <!-- Node18 -->
 <g id="node18" class="node">
 <title>Node18</title>
-<g id="a_node18"><a xlink:href="classast_1_1_ast_node_new.html" target="_top" xlink:title="実装置き換え用のノードのクラス。">
-<polygon fill="white" stroke="black" points="405,-456.5 405,-475.5 480,-475.5 480,-456.5 405,-456.5"/>
-<text text-anchor="middle" x="442.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstNodeNew</text>
+<g id="a_node18"><a xlink:href="classast_1_1_ast_node_named.html" target="_top" xlink:title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．">
+<polygon fill="white" stroke="black" points="399.5,-456.5 399.5,-475.5 485.5,-475.5 485.5,-456.5 399.5,-456.5"/>
+<text text-anchor="middle" x="442.5" y="-463.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstNodeNamed</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node18 -->
 <g id="edge18" class="edge">
 <title>Node1&#45;&gt;Node18</title>
-<path fill="none" stroke="midnightblue" d="M313.09,-371.28C322.63,-393 341.09,-427.75 368,-447 378.72,-454.67 392.28,-459.24 404.83,-461.97"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="316.21,-369.67 309.12,-361.8 309.75,-372.37 316.21,-369.67"/>
+<path fill="none" stroke="midnightblue" d="M317.34,-370.3C328.78,-386.93 347.38,-411.33 368,-428 382.86,-440.01 402.12,-449.8 417.19,-456.43"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="320.23,-368.32 311.75,-361.96 314.41,-372.22 320.23,-368.32"/>
 </g>
-<!-- Node21 -->
-<g id="node21" class="node">
-<title>Node21</title>
-<g id="a_node21"><a xlink:href="classast_1_1_ast_node_tagged.html" target="_top" xlink:title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．">
-<polygon fill="white" stroke="black" points="399.5,-418.5 399.5,-437.5 485.5,-437.5 485.5,-418.5 399.5,-418.5"/>
-<text text-anchor="middle" x="442.5" y="-425.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstNodeTagged</text>
+<!-- Node27 -->
+<g id="node27" class="node">
+<title>Node27</title>
+<g id="a_node27"><a xlink:href="classast_1_1_ast_node_new.html" target="_top" xlink:title="実装置き換え用のノードのクラス。">
+<polygon fill="white" stroke="black" points="405,-399.5 405,-418.5 480,-418.5 480,-399.5 405,-399.5"/>
+<text text-anchor="middle" x="442.5" y="-406.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstNodeNew</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node21 -->
-<g id="edge21" class="edge">
-<title>Node1&#45;&gt;Node21</title>
-<path fill="none" stroke="midnightblue" d="M329.14,-366.9C340.74,-374.08 354.98,-382.69 368,-390 386.04,-400.13 407.04,-410.89 421.96,-418.36"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="330.82,-363.83 320.48,-361.51 327.12,-369.77 330.82,-363.83"/>
+<!-- Node1&#45;&gt;Node27 -->
+<g id="edge27" class="edge">
+<title>Node1&#45;&gt;Node27</title>
+<path fill="none" stroke="midnightblue" d="M327.35,-367.47C338.98,-375.13 353.78,-384 368,-390 379.66,-394.92 392.91,-398.83 404.91,-401.78"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="329.02,-364.38 318.78,-361.67 325.1,-370.17 329.02,-364.38"/>
 </g>
 <!-- Node30 -->
 <g id="node30" class="node">
@@ -464,181 +464,181 @@ var sectionId = 'dynsection-0';
 <g id="node16" class="node">
 <title>Node16</title>
 <g id="a_node16"><a xlink:href="classast_1_1_ast_literal_1_1_regex_literal.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="750.5,-665.5 750.5,-684.5 866.5,-684.5 866.5,-665.5 750.5,-665.5"/>
-<text text-anchor="middle" x="808.5" y="-672.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLiteral.RegexLiteral</text>
+<polygon fill="white" stroke="black" points="750.5,-646.5 750.5,-665.5 866.5,-665.5 866.5,-646.5 750.5,-646.5"/>
+<text text-anchor="middle" x="808.5" y="-653.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLiteral.RegexLiteral</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node16 -->
 <g id="edge16" class="edge">
 <title>Node15&#45;&gt;Node16</title>
-<path fill="none" stroke="midnightblue" d="M682.83,-648.68C708.36,-654.07 738.28,-660.39 762.41,-665.48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="683.43,-645.23 672.92,-646.59 681.98,-652.08 683.43,-645.23"/>
+<path fill="none" stroke="midnightblue" d="M690.11,-643.61C709.73,-645.68 731.27,-647.95 750.48,-649.98"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="690.36,-640.12 680.05,-642.55 689.62,-647.08 690.36,-640.12"/>
 </g>
 <!-- Node17 -->
 <g id="node17" class="node">
 <title>Node17</title>
 <g id="a_node17"><a xlink:href="classast_1_1_ast_literal_1_1_string_literal.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="752,-627.5 752,-646.5 865,-646.5 865,-627.5 752,-627.5"/>
-<text text-anchor="middle" x="808.5" y="-634.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLiteral.StringLiteral</text>
+<polygon fill="white" stroke="black" points="752,-608.5 752,-627.5 865,-627.5 865,-608.5 752,-608.5"/>
+<text text-anchor="middle" x="808.5" y="-615.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLiteral.StringLiteral</text>
 </a>
 </g>
 </g>
 <!-- Node15&#45;&gt;Node17 -->
 <g id="edge17" class="edge">
 <title>Node15&#45;&gt;Node17</title>
-<path fill="none" stroke="midnightblue" d="M690.3,-637C710.3,-637 732.28,-637 751.75,-637"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="690.05,-633.5 680.05,-637 690.05,-640.5 690.05,-633.5"/>
+<path fill="none" stroke="midnightblue" d="M690.03,-630.4C710.1,-628.28 732.19,-625.95 751.75,-623.88"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="689.62,-626.92 680.05,-631.45 690.36,-633.88 689.62,-626.92"/>
 </g>
 <!-- Node19 -->
 <g id="node19" class="node">
 <title>Node19</title>
-<g id="a_node19"><a xlink:href="classast_1_1_sent_list.html" target="_top" xlink:title="文Sentenceのリスト.">
-<polygon fill="white" stroke="black" points="600,-589.5 600,-608.5 653,-608.5 653,-589.5 600,-589.5"/>
-<text text-anchor="middle" x="626.5" y="-596.5" font-family="Helvetica,sans-Serif" font-size="10.00">SentList</text>
+<g id="a_node19"><a xlink:href="classast_1_1_ast_if.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
+<polygon fill="white" stroke="black" points="607.5,-589.5 607.5,-608.5 645.5,-608.5 645.5,-589.5 607.5,-589.5"/>
+<text text-anchor="middle" x="626.5" y="-596.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstIf</text>
 </a>
 </g>
 </g>
 <!-- Node18&#45;&gt;Node19 -->
 <g id="edge19" class="edge">
 <title>Node18&#45;&gt;Node19</title>
-<path fill="none" stroke="midnightblue" d="M489.87,-470.91C499.72,-473.78 509.42,-478.2 517,-485 550.62,-515.14 519.43,-549.81 553,-580 565.77,-591.49 584.65,-596.18 599.94,-598.03"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="490.59,-467.49 480.05,-468.54 488.94,-474.29 490.59,-467.49"/>
+<path fill="none" stroke="midnightblue" d="M495.46,-472.72C503.33,-475.55 510.86,-479.5 517,-485 550.62,-515.14 519.43,-549.81 553,-580 567.9,-593.4 591.11,-597.55 607.24,-598.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="496.34,-469.33 485.76,-469.81 494.33,-476.04 496.34,-469.33"/>
 </g>
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="classast_1_1_sent_list_1_1_list_wrapper.html" target="_top" xlink:title="Javaの基本型データの清書用の包み込みアトム">
-<polygon fill="white" stroke="black" points="743,-589.5 743,-608.5 874,-608.5 874,-589.5 743,-589.5"/>
-<text text-anchor="middle" x="808.5" y="-596.5" font-family="Helvetica,sans-Serif" font-size="10.00">SentList.ListWrapper&lt; T &gt;</text>
+<g id="a_node20"><a xlink:href="classast_1_1_ast_let.html" target="_top" xlink:title="とりあえず任意の文をラップして，ブール値を与えるためのノード">
+<polygon fill="white" stroke="black" points="604,-551.5 604,-570.5 649,-570.5 649,-551.5 604,-551.5"/>
+<text text-anchor="middle" x="626.5" y="-558.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLet</text>
 </a>
 </g>
 </g>
-<!-- Node19&#45;&gt;Node20 -->
+<!-- Node18&#45;&gt;Node20 -->
 <g id="edge20" class="edge">
-<title>Node19&#45;&gt;Node20</title>
-<path fill="none" stroke="midnightblue" d="M663.49,-599C686.2,-599 716.2,-599 742.93,-599"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="663.29,-595.5 653.29,-599 663.29,-602.5 663.29,-595.5"/>
+<title>Node18&#45;&gt;Node20</title>
+<path fill="none" stroke="midnightblue" d="M495.37,-474.1C503.06,-476.77 510.56,-480.3 517,-485 541.21,-502.66 528.82,-524.3 553,-542 567.8,-552.84 588.29,-557.5 603.72,-559.5"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="496.16,-470.68 485.57,-471.17 494.15,-477.39 496.16,-470.68"/>
+</g>
+<!-- Node21 -->
+<g id="node21" class="node">
+<title>Node21</title>
+<g id="a_node21"><a xlink:href="classast_1_1_ast_scan_from.html" target="_top" xlink:title=" ">
+<polygon fill="white" stroke="black" points="588,-513.5 588,-532.5 665,-532.5 665,-513.5 588,-513.5"/>
+<text text-anchor="middle" x="626.5" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstScanFrom</text>
+</a>
+</g>
+</g>
+<!-- Node18&#45;&gt;Node21 -->
+<g id="edge21" class="edge">
+<title>Node18&#45;&gt;Node21</title>
+<path fill="none" stroke="midnightblue" d="M495.51,-477.83C502.81,-479.96 510.16,-482.35 517,-485 533.87,-491.53 536.14,-497.44 553,-504 564.04,-508.29 576.39,-511.93 587.72,-514.85"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="496.2,-474.39 485.62,-475.1 494.33,-481.13 496.2,-474.39"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="classast_1_1_ast_if.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
-<polygon fill="white" stroke="black" points="607.5,-551.5 607.5,-570.5 645.5,-570.5 645.5,-551.5 607.5,-551.5"/>
-<text text-anchor="middle" x="626.5" y="-558.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstIf</text>
+<g id="a_node22"><a xlink:href="classast_1_1_block_base.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
+<polygon fill="white" stroke="black" points="594.5,-475.5 594.5,-494.5 658.5,-494.5 658.5,-475.5 594.5,-475.5"/>
+<text text-anchor="middle" x="626.5" y="-482.5" font-family="Helvetica,sans-Serif" font-size="10.00">BlockBase</text>
 </a>
 </g>
 </g>
-<!-- Node21&#45;&gt;Node22 -->
+<!-- Node18&#45;&gt;Node22 -->
 <g id="edge22" class="edge">
-<title>Node21&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M495.46,-434.72C503.33,-437.55 510.86,-441.5 517,-447 550.62,-477.14 519.43,-511.81 553,-542 567.9,-555.4 591.11,-559.55 607.24,-560.74"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="496.34,-431.33 485.76,-431.81 494.33,-438.04 496.34,-431.33"/>
-</g>
-<!-- Node23 -->
-<g id="node23" class="node">
-<title>Node23</title>
-<g id="a_node23"><a xlink:href="classast_1_1_ast_let.html" target="_top" xlink:title="とりあえず任意の文をラップして，ブール値を与えるためのノード">
-<polygon fill="white" stroke="black" points="604,-513.5 604,-532.5 649,-532.5 649,-513.5 604,-513.5"/>
-<text text-anchor="middle" x="626.5" y="-520.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstLet</text>
-</a>
-</g>
-</g>
-<!-- Node21&#45;&gt;Node23 -->
-<g id="edge23" class="edge">
-<title>Node21&#45;&gt;Node23</title>
-<path fill="none" stroke="midnightblue" d="M495.37,-436.1C503.06,-438.77 510.56,-442.3 517,-447 541.21,-464.66 528.82,-486.3 553,-504 567.8,-514.84 588.29,-519.5 603.72,-521.5"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="496.16,-432.68 485.57,-433.17 494.15,-439.39 496.16,-432.68"/>
-</g>
-<!-- Node24 -->
-<g id="node24" class="node">
-<title>Node24</title>
-<g id="a_node24"><a xlink:href="classast_1_1_ast_scan_from.html" target="_top" xlink:title=" ">
-<polygon fill="white" stroke="black" points="588,-475.5 588,-494.5 665,-494.5 665,-475.5 588,-475.5"/>
-<text text-anchor="middle" x="626.5" y="-482.5" font-family="Helvetica,sans-Serif" font-size="10.00">AstScanFrom</text>
-</a>
-</g>
-</g>
-<!-- Node21&#45;&gt;Node24 -->
-<g id="edge24" class="edge">
-<title>Node21&#45;&gt;Node24</title>
-<path fill="none" stroke="midnightblue" d="M495.51,-439.83C502.81,-441.96 510.16,-444.35 517,-447 533.87,-453.53 536.14,-459.44 553,-466 564.04,-470.29 576.39,-473.93 587.72,-476.85"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="496.2,-436.39 485.62,-437.1 494.33,-443.13 496.2,-436.39"/>
-</g>
-<!-- Node25 -->
-<g id="node25" class="node">
-<title>Node25</title>
-<g id="a_node25"><a xlink:href="classast_1_1_block_base.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
-<polygon fill="white" stroke="black" points="594.5,-437.5 594.5,-456.5 658.5,-456.5 658.5,-437.5 594.5,-437.5"/>
-<text text-anchor="middle" x="626.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">BlockBase</text>
-</a>
-</g>
-</g>
-<!-- Node21&#45;&gt;Node25 -->
-<g id="edge25" class="edge">
-<title>Node21&#45;&gt;Node25</title>
-<path fill="none" stroke="midnightblue" d="M495.76,-433.46C527.63,-436.78 567.29,-440.92 594.32,-443.74"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="496.02,-429.96 485.71,-432.41 495.29,-436.93 496.02,-429.96"/>
-</g>
-<!-- Node29 -->
-<g id="node29" class="node">
-<title>Node29</title>
-<g id="a_node29"><a xlink:href="classast_1_1_program.html" target="_top" xlink:title="ルールの集合からなるコンパイル済みのプログラム.">
-<polygon fill="white" stroke="black" points="600,-399.5 600,-418.5 653,-418.5 653,-399.5 600,-399.5"/>
-<text text-anchor="middle" x="626.5" y="-406.5" font-family="Helvetica,sans-Serif" font-size="10.00">Program</text>
-</a>
-</g>
-</g>
-<!-- Node21&#45;&gt;Node29 -->
-<g id="edge29" class="edge">
-<title>Node21&#45;&gt;Node29</title>
-<path fill="none" stroke="midnightblue" d="M495.97,-422.52C530.04,-418.97 572.95,-414.49 599.81,-411.68"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="495.29,-419.07 485.71,-423.59 496.02,-426.04 495.29,-419.07"/>
+<title>Node18&#45;&gt;Node22</title>
+<path fill="none" stroke="midnightblue" d="M495.76,-471.46C527.63,-474.78 567.29,-478.92 594.32,-481.74"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="496.02,-467.96 485.71,-470.41 495.29,-474.93 496.02,-467.96"/>
 </g>
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="classast_1_1_block.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
-<polygon fill="white" stroke="black" points="788,-487.5 788,-506.5 829,-506.5 829,-487.5 788,-487.5"/>
-<text text-anchor="middle" x="808.5" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">Block</text>
+<g id="a_node26"><a xlink:href="classast_1_1_program.html" target="_top" xlink:title="ルールの集合からなるコンパイル済みのプログラム.">
+<polygon fill="white" stroke="black" points="600,-437.5 600,-456.5 653,-456.5 653,-437.5 600,-437.5"/>
+<text text-anchor="middle" x="626.5" y="-444.5" font-family="Helvetica,sans-Serif" font-size="10.00">Program</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node26 -->
+<!-- Node18&#45;&gt;Node26 -->
 <g id="edge26" class="edge">
-<title>Node25&#45;&gt;Node26</title>
-<path fill="none" stroke="midnightblue" d="M668.66,-457.29C678.93,-459.99 689.9,-463 700,-466 716.17,-470.81 719.84,-473.17 736,-478 753.47,-483.23 773.56,-488.5 787.99,-492.16"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="669.23,-453.82 658.67,-454.69 667.47,-460.59 669.23,-453.82"/>
+<title>Node18&#45;&gt;Node26</title>
+<path fill="none" stroke="midnightblue" d="M495.97,-460.52C530.04,-456.97 572.95,-452.49 599.81,-449.68"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="495.29,-457.07 485.71,-461.59 496.02,-464.04 495.29,-457.07"/>
 </g>
-<!-- Node27 -->
-<g id="node27" class="node">
-<title>Node27</title>
-<g id="a_node27"><a xlink:href="classast_1_1_step.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
-<polygon fill="white" stroke="black" points="790,-449.5 790,-468.5 827,-468.5 827,-449.5 790,-449.5"/>
-<text text-anchor="middle" x="808.5" y="-456.5" font-family="Helvetica,sans-Serif" font-size="10.00">Step</text>
+<!-- Node23 -->
+<g id="node23" class="node">
+<title>Node23</title>
+<g id="a_node23"><a xlink:href="classast_1_1_block.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
+<polygon fill="white" stroke="black" points="788,-525.5 788,-544.5 829,-544.5 829,-525.5 788,-525.5"/>
+<text text-anchor="middle" x="808.5" y="-532.5" font-family="Helvetica,sans-Serif" font-size="10.00">Block</text>
 </a>
 </g>
 </g>
-<!-- Node25&#45;&gt;Node27 -->
-<g id="edge27" class="edge">
-<title>Node25&#45;&gt;Node27</title>
-<path fill="none" stroke="midnightblue" d="M669.13,-449.78C707.22,-452.31 761.76,-455.95 789.62,-457.81"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="669.06,-446.26 658.85,-449.09 668.6,-453.25 669.06,-446.26"/>
+<!-- Node22&#45;&gt;Node23 -->
+<g id="edge23" class="edge">
+<title>Node22&#45;&gt;Node23</title>
+<path fill="none" stroke="midnightblue" d="M668.66,-495.29C678.93,-497.99 689.9,-501 700,-504 716.17,-508.81 719.84,-511.17 736,-516 753.47,-521.23 773.56,-526.5 787.99,-530.16"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="669.23,-491.82 658.67,-492.69 667.47,-498.59 669.23,-491.82"/>
+</g>
+<!-- Node24 -->
+<g id="node24" class="node">
+<title>Node24</title>
+<g id="a_node24"><a xlink:href="classast_1_1_step.html" target="_top" xlink:title="抽象構文木のステップ式のクラス.">
+<polygon fill="white" stroke="black" points="790,-487.5 790,-506.5 827,-506.5 827,-487.5 790,-487.5"/>
+<text text-anchor="middle" x="808.5" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">Step</text>
+</a>
+</g>
+</g>
+<!-- Node22&#45;&gt;Node24 -->
+<g id="edge24" class="edge">
+<title>Node22&#45;&gt;Node24</title>
+<path fill="none" stroke="midnightblue" d="M669.13,-487.78C707.22,-490.31 761.76,-493.95 789.62,-495.81"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="669.06,-484.26 658.85,-487.09 668.6,-491.25 669.06,-484.26"/>
+</g>
+<!-- Node25 -->
+<g id="node25" class="node">
+<title>Node25</title>
+<g id="a_node25"><a xlink:href="classast_1_1_step_rule.html" target="_top" xlink:title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト.">
+<polygon fill="white" stroke="black" points="958.5,-487.5 958.5,-506.5 1015.5,-506.5 1015.5,-487.5 958.5,-487.5"/>
+<text text-anchor="middle" x="987" y="-494.5" font-family="Helvetica,sans-Serif" font-size="10.00">StepRule</text>
+</a>
+</g>
+</g>
+<!-- Node24&#45;&gt;Node25 -->
+<g id="edge25" class="edge">
+<title>Node24&#45;&gt;Node25</title>
+<path fill="none" stroke="midnightblue" d="M837.41,-497C870.54,-497 925.46,-497 958.44,-497"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="837.07,-493.5 827.07,-497 837.07,-500.5 837.07,-493.5"/>
 </g>
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="classast_1_1_step_rule.html" target="_top" xlink:title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト.">
-<polygon fill="white" stroke="black" points="958.5,-449.5 958.5,-468.5 1015.5,-468.5 1015.5,-449.5 958.5,-449.5"/>
-<text text-anchor="middle" x="987" y="-456.5" font-family="Helvetica,sans-Serif" font-size="10.00">StepRule</text>
+<g id="a_node28"><a xlink:href="classast_1_1_sent_list.html" target="_top" xlink:title="文Sentenceのリスト.">
+<polygon fill="white" stroke="black" points="600,-399.5 600,-418.5 653,-418.5 653,-399.5 600,-399.5"/>
+<text text-anchor="middle" x="626.5" y="-406.5" font-family="Helvetica,sans-Serif" font-size="10.00">SentList</text>
 </a>
 </g>
 </g>
 <!-- Node27&#45;&gt;Node28 -->
 <g id="edge28" class="edge">
 <title>Node27&#45;&gt;Node28</title>
-<path fill="none" stroke="midnightblue" d="M837.41,-459C870.54,-459 925.46,-459 958.44,-459"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="837.07,-455.5 827.07,-459 837.07,-462.5 837.07,-455.5"/>
+<path fill="none" stroke="midnightblue" d="M490.75,-409C525.57,-409 571.61,-409 599.86,-409"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="490.33,-405.5 480.33,-409 490.33,-412.5 490.33,-405.5"/>
+</g>
+<!-- Node29 -->
+<g id="node29" class="node">
+<title>Node29</title>
+<g id="a_node29"><a xlink:href="classast_1_1_sent_list_1_1_list_wrapper.html" target="_top" xlink:title="Javaの基本型データの清書用の包み込みアトム">
+<polygon fill="white" stroke="black" points="743,-449.5 743,-468.5 874,-468.5 874,-449.5 743,-449.5"/>
+<text text-anchor="middle" x="808.5" y="-456.5" font-family="Helvetica,sans-Serif" font-size="10.00">SentList.ListWrapper&lt; T &gt;</text>
+</a>
+</g>
+</g>
+<!-- Node28&#45;&gt;Node29 -->
+<g id="edge29" class="edge">
+<title>Node28&#45;&gt;Node29</title>
+<path fill="none" stroke="midnightblue" d="M663.06,-417.83C674.86,-420.88 688.04,-424.44 700,-428 716.17,-432.81 719.84,-435.17 736,-440 746.95,-443.28 758.93,-446.57 769.9,-449.48"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="663.67,-414.37 653.11,-415.28 661.93,-421.15 663.67,-414.37"/>
 </g>
 <!-- Node31 -->
 <g id="node31" class="node">

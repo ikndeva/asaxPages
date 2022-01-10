@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="抽象構文木のステップ式のクラス." alt="" coords="141,304,191,331"/>
 <area shape="rect" id="node11" href="$classast_1_1_step_rule.html" title="XMで実行可能（Steppaoble）な計算単位であるルールを表すオブジェクト." alt="" coords="128,379,204,405"/>
 <area shape="rect" id="node2" href="$classast_1_1_block_base.html" title="抽象構文木のステップ式のクラス." alt="" coords="123,229,209,256"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_node_tagged.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="109,155,223,181"/>
+<area shape="rect" id="node3" href="$classast_1_1_ast_node_named.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="109,155,223,181"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="129,80,203,107"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="12,5,115,32"/>
 <area shape="rect" id="node6" href="$interfaceast_1_1_node.html" title=" " alt="" coords="139,5,193,32"/>

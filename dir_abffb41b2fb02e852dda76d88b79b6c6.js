@@ -71,8 +71,8 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     [ "AstNodeBase.java", "_ast_node_base_8java.html", [
       [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ]
     ] ],
-    [ "AstNodeTagged.java", "_ast_node_tagged_8java.html", [
-      [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ]
+    [ "AstNodeNamed.java", "_ast_node_named_8java.html", [
+      [ "AstNodeNamed", "classast_1_1_ast_node_named.html", "classast_1_1_ast_node_named" ]
     ] ],
     [ "AstRelOper.java", "_ast_rel_oper_8java.html", null ],
     [ "AstReturn.java", "_ast_return_8java.html", [

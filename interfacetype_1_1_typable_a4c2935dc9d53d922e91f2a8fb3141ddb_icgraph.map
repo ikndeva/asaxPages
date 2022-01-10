@@ -4,7 +4,7 @@
 <area shape="rect" id="node3" href="$classast_1_1_ast_oper.html#aade0b6f6dbcac3769520224b8b04130c" title="二つの非演算子である子供のコードを生成す" alt="" coords="752,199,959,225"/>
 <area shape="rect" id="node12" href="$interfaceast_1_1_node.html#a4c4a1e79240584e1a79286583c9e14db" title="ノードのもつ値型を返す。" alt="" coords="793,249,918,276"/>
 <area shape="rect" id="node13" href="$classast_1_1_ast_node.html#abb04140aba10bafa1c9576b90d154beb" title="ノードの型項の前処理を行う" alt="" coords="755,300,956,327"/>
-<area shape="rect" id="node14" href="$classast_1_1_ast_node_tagged.html#abb04140aba10bafa1c9576b90d154beb" title="ノードの型項の前処理を行う: 名前付き子 型項 Any:t1 x ..." alt="" coords="753,351,958,393"/>
+<area shape="rect" id="node14" href="$classast_1_1_ast_node_named.html#abb04140aba10bafa1c9576b90d154beb" title="ノードの型項の前処理を行う: 名前付き子 型項 Any:t1 x ..." alt="" coords="753,351,958,393"/>
 <area shape="rect" id="node15" href="$classcompile_1_1_x_c_adapt.html#ad1145e0fffb4e52cb0f36d3ca6ac4c92" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="491,451,671,477"/>
 <area shape="rect" id="node18" href="$classcompile_1_1_x_c_typing.html#a80651cdda8db27e9188475199327a13a" title="型付け手続き． 与えられたノードの出力型が親型typeItemParを持つよう部分式を型付けする." alt="" coords="766,468,945,495"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_math_oper_1_1_integer_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57" title="コードを生成する．" alt="" coords="459,5,703,32"/>

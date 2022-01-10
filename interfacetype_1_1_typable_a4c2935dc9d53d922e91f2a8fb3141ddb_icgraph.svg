@@ -127,9 +127,9 @@ var sectionId = 'dynsection-1';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="classast_1_1_ast_node_tagged.html#abb04140aba10bafa1c9576b90d154beb" target="_top" xlink:title="ノードの型項の前処理を行う: 名前付き子 型項 Any:t1 x ...">
+<g id="a_node14"><a xlink:href="classast_1_1_ast_node_named.html#abb04140aba10bafa1c9576b90d154beb" target="_top" xlink:title="ノードの型項の前処理を行う: 名前付き子 型項 Any:t1 x ...">
 <polygon fill="white" stroke="black" points="560.5,-77 560.5,-107 714.5,-107 714.5,-77 560.5,-77"/>
-<text text-anchor="start" x="568.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstNodeTagged.preprocess</text>
+<text text-anchor="start" x="568.5" y="-95" font-family="Helvetica,sans-Serif" font-size="10.00">ast.AstNodeNamed.preprocess</text>
 <text text-anchor="middle" x="637.5" y="-84" font-family="Helvetica,sans-Serif" font-size="10.00">Typing</text>
 </a>
 </g>

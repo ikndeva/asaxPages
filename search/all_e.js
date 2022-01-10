@@ -10,12 +10,13 @@ var searchData=
   ['listwrapper_499',['ListWrapper',['../classast_1_1_sent_list_1_1_list_wrapper.html',1,'ast::SentList']]],
   ['local_5flv_500',['local_lv',['../classutil_1_1_trace_level.html#a8d356623ee04ae9d31f3091917c401be',1,'util::TraceLevel']]],
   ['local_5fmod_5fname_501',['local_mod_name',['../classutil_1_1_trace_level.html#a5f0da6acf74580709e78f88ce7eda696',1,'util::TraceLevel']]],
-  ['lock_502',['lock',['../classutil_1_1_lock.html#a5185807ceab046991fd2d37d2466b8a2',1,'util::Lock']]],
-  ['lock_503',['Lock',['../classutil_1_1_lock.html#a8be1cf6d896d6567f9f287613d6cf934',1,'util.Lock.Lock()'],['../classutil_1_1_lock.html',1,'Lock']]],
-  ['lock_2ejava_504',['Lock.java',['../_lock_8java.html',1,'']]],
-  ['log_505',['log',['../interfaceformat_1_1_node_formattable.html#ae28019d5573b1ef6526cea456e0c77fd',1,'format.NodeFormattable.log()'],['../classformat_1_1_node_formatter.html#ae28019d5573b1ef6526cea456e0c77fd',1,'format.NodeFormatter.log()']]],
-  ['longmask_506',['LongMask',['../classmachine_1_1_long_mask.html',1,'machine']]],
-  ['longmask_2ejava_507',['LongMask.java',['../_long_mask_8java.html',1,'']]],
-  ['lookup_508',['lookup',['../classcmd_1_1_command_factory.html#a337d9c1655e242f50103c0d9de14b49d',1,'cmd.CommandFactory.lookup()'],['../enumtype_1_1_x_type.html#a337d9c1655e242f50103c0d9de14b49d',1,'type.XType.lookup()']]],
-  ['lookupvariable_509',['lookupVariable',['../classmachine_1_1_var_table.html#a6a9e0cad07b03981d8553148c99a82aa',1,'machine.VarTable.lookupVariable(String name, Program prog)'],['../classmachine_1_1_var_table.html#a48c387cd3361c4f21e65cb65029ec21a',1,'machine.VarTable.lookupVariable(String name, XType typ, Program prog)']]]
+  ['lock_502',['Lock',['../classutil_1_1_lock.html#a8be1cf6d896d6567f9f287613d6cf934',1,'util::Lock']]],
+  ['lock_503',['lock',['../classutil_1_1_lock.html#a5185807ceab046991fd2d37d2466b8a2',1,'util::Lock']]],
+  ['lock_504',['Lock',['../classutil_1_1_lock.html',1,'util']]],
+  ['lock_2ejava_505',['Lock.java',['../_lock_8java.html',1,'']]],
+  ['log_506',['log',['../interfaceformat_1_1_node_formattable.html#ae28019d5573b1ef6526cea456e0c77fd',1,'format.NodeFormattable.log()'],['../classformat_1_1_node_formatter.html#ae28019d5573b1ef6526cea456e0c77fd',1,'format.NodeFormatter.log()']]],
+  ['longmask_507',['LongMask',['../classmachine_1_1_long_mask.html',1,'machine']]],
+  ['longmask_2ejava_508',['LongMask.java',['../_long_mask_8java.html',1,'']]],
+  ['lookup_509',['lookup',['../classcmd_1_1_command_factory.html#a337d9c1655e242f50103c0d9de14b49d',1,'cmd.CommandFactory.lookup()'],['../enumtype_1_1_x_type.html#a337d9c1655e242f50103c0d9de14b49d',1,'type.XType.lookup()']]],
+  ['lookupvariable_510',['lookupVariable',['../classmachine_1_1_var_table.html#a6a9e0cad07b03981d8553148c99a82aa',1,'machine.VarTable.lookupVariable(String name, Program prog)'],['../classmachine_1_1_var_table.html#a48c387cd3361c4f21e65cb65029ec21a',1,'machine.VarTable.lookupVariable(String name, XType typ, Program prog)']]]
 ];

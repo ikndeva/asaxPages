@@ -43,12 +43,7 @@ var hierarchy =
             [ "AstLiteral.StringLiteral", "classast_1_1_ast_literal_1_1_string_literal.html", null ]
           ] ]
         ] ],
-        [ "AstNodeNew", "classast_1_1_ast_node_new.html", [
-          [ "SentList", "classast_1_1_sent_list.html", [
-            [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ]
-          ] ]
-        ] ],
-        [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", [
+        [ "AstNodeNamed", "classast_1_1_ast_node_named.html", [
           [ "AstIf", "classast_1_1_ast_if.html", null ],
           [ "AstLet", "classast_1_1_ast_let.html", null ],
           [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ],
@@ -59,6 +54,11 @@ var hierarchy =
             ] ]
           ] ],
           [ "Program", "classast_1_1_program.html", null ]
+        ] ],
+        [ "AstNodeNew", "classast_1_1_ast_node_new.html", [
+          [ "SentList", "classast_1_1_sent_list.html", [
+            [ "SentList.ListWrapper< T >", "classast_1_1_sent_list_1_1_list_wrapper.html", null ]
+          ] ]
         ] ],
         [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", [
           [ "AstConverter", "classast_1_1_ast_converter.html", [
