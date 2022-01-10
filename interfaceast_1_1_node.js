@@ -12,6 +12,7 @@ var interfaceast_1_1_node =
     [ "notToEmit", "interfaceast_1_1_node.html#a9bdb4531eee4ea10fafba49383ab366f", null ],
     [ "typer", "interfaceast_1_1_node.html#a15d7eb6de4b7fed2669946b447094c2e", null ],
     [ "printer", "interfaceast_1_1_node.html#a3b6935273372fcebe8557831dcdc3eca", null ],
+    [ "preprocessTyping", "interfaceast_1_1_node.html#abb04140aba10bafa1c9576b90d154beb", null ],
     [ "children", "interfaceast_1_1_node.html#a2584bc36cb286e37331dc21f5a4d8668", null ],
     [ "numChildren", "interfaceast_1_1_node.html#a43b257b2ab32fc064fad0355c7dc327d", null ],
     [ "getChild", "interfaceast_1_1_node.html#a35d53cdd86285e56b69cfedc5ef28580", null ],

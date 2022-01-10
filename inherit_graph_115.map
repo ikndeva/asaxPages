@@ -1,9 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classcompile_1_1_x_compiler.html" title="クエリのコンパイル系モジュール。" alt="" coords="5,132,88,159"/>
-<area shape="rect" id="node2" href="$classcompile_1_1_x_c_adapt.html" title=" " alt="" coords="138,5,213,32"/>
-<area shape="rect" id="node3" href="$classcompile_1_1_x_c_flat.html" title=" " alt="" coords="144,56,207,83"/>
-<area shape="rect" id="node4" href="$classcompile_1_1_x_c_gen.html" title=" " alt="" coords="143,107,208,133"/>
-<area shape="rect" id="node5" href="$classcompile_1_1_x_c_norm.html" title=" " alt="" coords="139,157,212,184"/>
-<area shape="rect" id="node6" href="$classcompile_1_1_x_c_push.html" title=" " alt="" coords="140,208,211,235"/>
-<area shape="rect" id="node7" href="$classcompile_1_1_x_c_typing.html" title="型付けと記号表の前処理を行うクラス" alt="" coords="136,259,215,285"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,68,88,95"/>
+<area shape="rect" id="node2" href="$classast_1_1_typing_func_1_1_hom_basic.html" title="型付け関数： 最汎関数型 親は型xtSelfを，子はxtChildをもつ． ただし，親および，すべての子は互いに単一化しない． 型項 xtChild:t1 x ....." alt="" coords="136,43,291,69"/>
+<area shape="rect" id="node3" href="$classast_1_1_typing_func_1_1_hom_input.html" title="型付け関数： 関係型 R: T x T &#45;&gt; S を想定する 親と子の間は単一化しない．すべての子は単一化する．" alt="" coords="348,5,499,32"/>
+<area shape="rect" id="node4" href="$classast_1_1_typing_func_1_1_hom_oper.html" title="親と子を単一化し，すべての子も単一化する． 具体型A上の二項演算 op : A x A &#45;&gt; Aを想定する．" alt="" coords="349,68,498,95"/>
+<area shape="rect" id="node5" href="$classast_1_1_typing_func_1_1_hom_sent_list.html" title="末尾の子を親と単一化する．子同志は単一化しない． 型項 Any:t1 x ..." alt="" coords="339,131,508,157"/>
 </map>

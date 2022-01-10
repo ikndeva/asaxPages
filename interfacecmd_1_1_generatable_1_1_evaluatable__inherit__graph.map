@@ -1,11 +1,10 @@
 <map id="Generatable.Evaluatable" name="Generatable.Evaluatable">
-<area shape="rect" id="node1" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="145,309,309,336"/>
+<area shape="rect" id="node1" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="145,208,309,235"/>
 <area shape="rect" id="node3" href="$classast_1_1_ast_data_reader.html" title="値の読み出しオブジェクト．" alt="" coords="365,81,477,108"/>
 <area shape="rect" id="node4" href="$classast_1_1_ast_literal.html" title="値を返すことができる終端オブジェクトのクラス" alt="" coords="382,132,459,159"/>
-<area shape="rect" id="node11" href="$classast_1_1_ast_oper.html" title=" " alt="" coords="385,309,456,336"/>
-<area shape="rect" id="node29" href="$classast_1_1_ast_oper_tagged.html" title=" " alt="" coords="365,411,477,437"/>
-<area shape="rect" id="node32" href="$interfaceast_1_1_node_1_1_data_reader.html" title="データをメモリから読み込むノードのインタフェース．" alt="" coords="357,461,484,488"/>
-<area shape="rect" id="node2" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="5,309,97,336"/>
+<area shape="rect" id="node11" href="$classast_1_1_ast_oper.html" title=" " alt="" coords="385,259,456,285"/>
+<area shape="rect" id="node29" href="$interfaceast_1_1_node_1_1_data_reader.html" title="データをメモリから読み込むノードのインタフェース．" alt="" coords="357,309,484,336"/>
+<area shape="rect" id="node2" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="5,208,97,235"/>
 <area shape="rect" id="node5" href="$classast_1_1_ast_literal_1_1_boolean_literal.html" title="Boolean値アトム" alt="" coords="532,5,695,32"/>
 <area shape="rect" id="node6" href="$classast_1_1_ast_literal_1_1_double_literal.html" title="Double値アトム" alt="" coords="535,56,692,83"/>
 <area shape="rect" id="node7" href="$classast_1_1_ast_literal_1_1_integer_literal.html" title="Integer値アトム" alt="" coords="535,107,691,133"/>
@@ -29,6 +28,4 @@
 <area shape="rect" id="node24" href="$classast_1_1_string_rel.html" title=" " alt="" coords="789,411,865,437"/>
 <area shape="rect" id="node25" href="$classast_1_1_string_rel_1_1_regex_match_rel.html" title=" " alt="" coords="965,385,1139,412"/>
 <area shape="rect" id="node26" href="$classast_1_1_string_rel_1_1_string_match_rel.html" title=" " alt="" coords="967,436,1137,463"/>
-<area shape="rect" id="node30" href="$classast_1_1_ast_if.html" title="抽象構文木のステップ式のクラス." alt="" coords="588,461,639,488"/>
-<area shape="rect" id="node31" href="$classast_1_1_ast_let.html" title="とりあえず任意の文をラップして，ブール値を与えるためのノード" alt="" coords="583,512,643,539"/>
 </map>

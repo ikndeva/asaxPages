@@ -1,5 +1,8 @@
 var dir_0909f4a7c39d3e9616c1c9d755842fcb =
 [
+    [ "Blockable.java", "_blockable_8java.html", [
+      [ "Blockable", "interfacemachine_1_1_blockable.html", "interfacemachine_1_1_blockable" ]
+    ] ],
     [ "Call.java", "_call_8java.html", [
       [ "Call", "classmachine_1_1_call.html", "classmachine_1_1_call" ]
     ] ],
@@ -29,6 +32,12 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     [ "IdMask.java", "_id_mask_8java.html", [
       [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ]
     ] ],
+    [ "InputManageable.java", "_input_manageable_8java.html", [
+      [ "InputManageable", "interfacemachine_1_1_input_manageable.html", "interfacemachine_1_1_input_manageable" ]
+    ] ],
+    [ "InputManager.java", "_input_manager_8java.html", [
+      [ "InputManager", "classmachine_1_1_input_manager.html", "classmachine_1_1_input_manager" ]
+    ] ],
     [ "Inspectable.java", "_inspectable_8java.html", [
       [ "Inspectable", "interfacemachine_1_1_inspectable.html", "interfacemachine_1_1_inspectable" ]
     ] ],
@@ -56,9 +65,6 @@ var dir_0909f4a7c39d3e9616c1c9d755842fcb =
     ] ],
     [ "Var.java", "_var_8java.html", [
       [ "Var", "classmachine_1_1_var.html", "classmachine_1_1_var" ]
-    ] ],
-    [ "VarHoldable.java", "_var_holdable_8java.html", [
-      [ "VarHoldable", "interfacemachine_1_1_var_holdable.html", "interfacemachine_1_1_var_holdable" ]
     ] ],
     [ "VarTable.java", "_var_table_8java.html", [
       [ "VarTable", "classmachine_1_1_var_table.html", "classmachine_1_1_var_table" ]

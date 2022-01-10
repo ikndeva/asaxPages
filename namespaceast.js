@@ -14,10 +14,8 @@ var namespaceast =
     [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
     [ "AstNodeNew", "classast_1_1_ast_node_new.html", "classast_1_1_ast_node_new" ],
     [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ],
-    [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", "classast_1_1_ast_node_tagged_settable" ],
     [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", "classast_1_1_ast_node_unary" ],
     [ "AstOper", "classast_1_1_ast_oper.html", "classast_1_1_ast_oper" ],
-    [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", "classast_1_1_ast_oper_tagged" ],
     [ "AstReturn", "classast_1_1_ast_return.html", "classast_1_1_ast_return" ],
     [ "AstScanFrom", "classast_1_1_ast_scan_from.html", "classast_1_1_ast_scan_from" ],
     [ "AstSource", "classast_1_1_ast_source.html", [
@@ -32,6 +30,7 @@ var namespaceast =
     [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
     [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
     [ "BlockFactory", "classast_1_1_block_factory.html", "classast_1_1_block_factory" ],
+    [ "NamedChildren", "classast_1_1_named_children.html", "classast_1_1_named_children" ],
     [ "Node", "interfaceast_1_1_node.html", "interfaceast_1_1_node" ],
     [ "Path", "classast_1_1_path.html", "classast_1_1_path" ],
     [ "Program", "classast_1_1_program.html", "classast_1_1_program" ],

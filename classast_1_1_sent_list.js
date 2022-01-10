@@ -3,6 +3,7 @@ var classast_1_1_sent_list =
     [ "ListWrapper", "classast_1_1_sent_list_1_1_list_wrapper.html", "classast_1_1_sent_list_1_1_list_wrapper" ],
     [ "SentList", "classast_1_1_sent_list.html#ab7b11f8fc1ea72e88408b705fa51989c", null ],
     [ "SentList", "classast_1_1_sent_list.html#a42c26b21ffdaef3fab7027e55168b053", null ],
+    [ "isEmpty", "classast_1_1_sent_list.html#a7a53708caa54d33a40abdec5d2c5e7ae", null ],
     [ "add", "classast_1_1_sent_list.html#a36d1baace3a972ab972f9027ec9d0dea", null ],
     [ "isEmpty", "classast_1_1_sent_list.html#aa71d41fd3d95c354d4d5e922c6c21210", null ],
     [ "notToEmit", "classast_1_1_sent_list.html#a9bdb4531eee4ea10fafba49383ab366f", null ],

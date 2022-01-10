@@ -74,12 +74,6 @@ var dir_abffb41b2fb02e852dda76d88b79b6c6 =
     [ "AstNodeTagged.java", "_ast_node_tagged_8java.html", [
       [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ]
     ] ],
-    [ "AstNodeTaggedSettable.java", "_ast_node_tagged_settable_8java.html", [
-      [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", "classast_1_1_ast_node_tagged_settable" ]
-    ] ],
-    [ "AstOperTagged.java", "_ast_oper_tagged_8java.html", [
-      [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", "classast_1_1_ast_oper_tagged" ]
-    ] ],
     [ "AstRelOper.java", "_ast_rel_oper_8java.html", null ],
     [ "AstReturn.java", "_ast_return_8java.html", [
       [ "AstReturn", "classast_1_1_ast_return.html", "classast_1_1_ast_return" ]

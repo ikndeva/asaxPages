@@ -1,5 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_iterator.html" title=" " alt="" coords="5,42,68,69"/>
-<area shape="rect" id="node2" href="$classevent_1_1asax_1_1_asax_event_reader_1_1_asax_event_iterator.html" title="An iterator for AXMLEvents implementing Iterable&lt;AXMLEvent&gt;" alt="" coords="130,5,325,47"/>
-<area shape="rect" id="node3" href="$classevent_1_1xpp_1_1_xpp_event_reader_1_1_xpp_event_iterator.html" title="An iterator for AXMLEvents implementing Iterable&lt;AXMLEvent&gt;" alt="" coords="116,71,339,98"/>
+<area shape="rect" id="node1" href="$class_iterable.html" title=" " alt="" coords="32,31,97,57"/>
+<area shape="rect" id="node2" href="$interfaceevent_1_1_event_readable.html" title="構造文書走査器が備えるべき機能を記述するインタフェース." alt="" coords="176,31,287,57"/>
+<area shape="rect" id="node6" href="$classutil_1_1_stack_base.html" title="型 T の要素を保持する汎用型のスタックの基本実装." alt="" coords="172,81,291,108"/>
+<area shape="rect" id="node3" href="$classevent_1_1_event_reader_base.html" title="構造文書走査器の実装に有用な基本手続きを提供するEventReadableインタフェースの実装クラス." alt="" coords="339,5,467,32"/>
+<area shape="rect" id="node5" href="$classevent_1_1xpp_1_1_xpp_event_reader.html" title=" " alt="" coords="342,56,463,83"/>
+<area shape="rect" id="node4" href="$classevent_1_1asax_1_1_asax_event_reader.html" title="EventReadableインタフェースを実現するストリーム指向のプル型XMLパーザのクラス." alt="" coords="515,5,643,32"/>
+<area shape="rect" id="node7" href="$interfaceutil_1_1_stackable.html" title="レベル付きスタックを実装するための最小限のインタフェース" alt="" coords="25,81,105,108"/>
+<area shape="rect" id="node8" href="$classutil_1_1_auto_stack.html" title="再利用可能な型Sのオブジェクトを要素に持つスタックの実装." alt="" coords="173,132,289,159"/>
+<area shape="rect" id="node9" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="5,132,124,159"/>
 </map>

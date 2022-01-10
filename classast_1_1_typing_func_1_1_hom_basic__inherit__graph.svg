@@ -12,7 +12,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title="親と子の間は単一化しない．すべての子は単一化する．t">
+<g id="a_node1"><a xlink:title="型付け関数： 最汎関数型 親は型xtSelfを，子はxtChildをもつ． ただし，親および，すべての子は互いに単一化しない． 型項 xtChild:t1 x .....">
 <polygon fill="#bfbfbf" stroke="black" points="129.5,-56.5 129.5,-75.5 245.5,-75.5 245.5,-56.5 129.5,-56.5"/>
 <text text-anchor="middle" x="187.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">TypingFunc.HomBasic</text>
 </a>
@@ -21,7 +21,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classast_1_1_typing_func_1_1_hom_input.html" target="_top" xlink:title="親と子の間は単一化しない．すべての子は単一化する．t">
+<g id="a_node3"><a xlink:href="classast_1_1_typing_func_1_1_hom_input.html" target="_top" xlink:title="型付け関数： 関係型 R: T x T &#45;&gt; S を想定する 親と子の間は単一化しない．すべての子は単一化する．">
 <polygon fill="white" stroke="black" points="0,-0.5 0,-19.5 113,-19.5 113,-0.5 0,-0.5"/>
 <text text-anchor="middle" x="56.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TypingFunc.HomInput</text>
 </a>
@@ -51,7 +51,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classast_1_1_typing_func_1_1_hom_sent_list.html" target="_top" xlink:title="末尾の子を親と単一化する．子同志は単一化しない．">
+<g id="a_node5"><a xlink:href="classast_1_1_typing_func_1_1_hom_sent_list.html" target="_top" xlink:title="末尾の子を親と単一化する．子同志は単一化しない． 型項 Any:t1 x ...">
 <polygon fill="white" stroke="black" points="262,-0.5 262,-19.5 389,-19.5 389,-0.5 262,-0.5"/>
 <text text-anchor="middle" x="325.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">TypingFunc.HomSentList</text>
 </a>

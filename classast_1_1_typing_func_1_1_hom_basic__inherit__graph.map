@@ -1,7 +1,7 @@
 <map id="TypingFunc.HomBasic" name="TypingFunc.HomBasic">
-<area shape="rect" id="node1" title="親と子の間は単一化しない．すべての子は単一化する．t" alt="" coords="178,80,333,107"/>
-<area shape="rect" id="node3" href="$classast_1_1_typing_func_1_1_hom_input.html" title="親と子の間は単一化しない．すべての子は単一化する．t" alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node1" title="型付け関数： 最汎関数型 親は型xtSelfを，子はxtChildをもつ． ただし，親および，すべての子は互いに単一化しない． 型項 xtChild:t1 x ....." alt="" coords="178,80,333,107"/>
+<area shape="rect" id="node3" href="$classast_1_1_typing_func_1_1_hom_input.html" title="型付け関数： 関係型 R: T x T &#45;&gt; S を想定する 親と子の間は単一化しない．すべての子は単一化する．" alt="" coords="5,155,156,181"/>
 <area shape="rect" id="node4" href="$classast_1_1_typing_func_1_1_hom_oper.html" title="親と子を単一化し，すべての子も単一化する． 具体型A上の二項演算 op : A x A &#45;&gt; Aを想定する．" alt="" coords="181,155,330,181"/>
-<area shape="rect" id="node5" href="$classast_1_1_typing_func_1_1_hom_sent_list.html" title="末尾の子を親と単一化する．子同志は単一化しない．" alt="" coords="355,155,524,181"/>
+<area shape="rect" id="node5" href="$classast_1_1_typing_func_1_1_hom_sent_list.html" title="末尾の子を親と単一化する．子同志は単一化しない． 型項 Any:t1 x ..." alt="" coords="355,155,524,181"/>
 <area shape="rect" id="node2" title=" " alt="" coords="187,5,324,32"/>
 </map>

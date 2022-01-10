@@ -49,6 +49,9 @@ var hierarchy =
           ] ]
         ] ],
         [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", [
+          [ "AstIf", "classast_1_1_ast_if.html", null ],
+          [ "AstLet", "classast_1_1_ast_let.html", null ],
+          [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ],
           [ "BlockBase", "classast_1_1_block_base.html", [
             [ "Block", "classast_1_1_block.html", null ],
             [ "Step", "classast_1_1_step.html", [
@@ -56,13 +59,6 @@ var hierarchy =
             ] ]
           ] ],
           [ "Program", "classast_1_1_program.html", null ]
-        ] ],
-        [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", [
-          [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", [
-            [ "AstIf", "classast_1_1_ast_if.html", null ],
-            [ "AstLet", "classast_1_1_ast_let.html", null ]
-          ] ],
-          [ "AstScanFrom", "classast_1_1_ast_scan_from.html", null ]
         ] ],
         [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", [
           [ "AstConverter", "classast_1_1_ast_converter.html", [
@@ -122,6 +118,13 @@ var hierarchy =
     [ "CmdList.BackPatcher", "classcmd_1_1_cmd_list_1_1_back_patcher.html", null ],
     [ "BitsBuf", "classutil_1_1_bits_buf.html", null ],
     [ "BitsBufLong", "classutil_1_1_bits_buf_long.html", null ],
+    [ "Blockable", "interfacemachine_1_1_blockable.html", [
+      [ "BlockBase", "classast_1_1_block_base.html", null ],
+      [ "Callable", "interfacemachine_1_1_callable.html", [
+        [ "Step", "classast_1_1_step.html", null ],
+        [ "StepRule", "classast_1_1_step_rule.html", null ]
+      ] ]
+    ] ],
     [ "BlockFactory", "classast_1_1_block_factory.html", null ],
     [ "BufferedTextWriter", "classpretty_1_1_buffered_text_writer.html", null ],
     [ "Bufs", "classutil_1_1_bufs.html", null ],
@@ -276,6 +279,8 @@ var hierarchy =
       [ "AstDataWriter.WriterOStream", "classast_1_1_ast_data_writer_1_1_writer_o_stream.html", null ],
       [ "AstDataWriter.WriterString", "classast_1_1_ast_data_writer_1_1_writer_string.html", null ],
       [ "AstFuncCall", "classast_1_1_ast_func_call.html", null ],
+      [ "AstIf", "classast_1_1_ast_if.html", null ],
+      [ "AstLet", "classast_1_1_ast_let.html", null ],
       [ "AstMathOper.BooleanOper", "classast_1_1_ast_math_oper_1_1_boolean_oper.html", null ],
       [ "AstMathOper.DoubleOper", "classast_1_1_ast_math_oper_1_1_double_oper.html", null ],
       [ "AstMathOper.DoubleRel", "classast_1_1_ast_math_oper_1_1_double_rel.html", null ],
@@ -289,18 +294,21 @@ var hierarchy =
       [ "AstVarDecl", "classast_1_1_ast_var_decl.html", null ],
       [ "BlockBase", "classast_1_1_block_base.html", null ],
       [ "SentList", "classast_1_1_sent_list.html", null ],
+      [ "Step", "classast_1_1_step.html", null ],
       [ "StringRel.RegexMatchRel", "classast_1_1_string_rel_1_1_regex_match_rel.html", null ],
       [ "StringRel.StringMatchRel", "classast_1_1_string_rel_1_1_string_match_rel.html", null ],
       [ "Generatable.Evaluatable", "interfacecmd_1_1_generatable_1_1_evaluatable.html", [
         [ "AstDataReader", "classast_1_1_ast_data_reader.html", null ],
         [ "AstLiteral", "classast_1_1_ast_literal.html", null ],
         [ "AstOper", "classast_1_1_ast_oper.html", null ],
-        [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", null ],
         [ "Node.DataReader", "interfaceast_1_1_node_1_1_data_reader.html", null ]
       ] ]
     ] ],
     [ "Resettable.Generator< S >", "interfaceutil_1_1_resettable_1_1_generator.html", null ],
     [ "IncCounter", "classutil_1_1_inc_counter.html", null ],
+    [ "InputManageable", "interfacemachine_1_1_input_manageable.html", [
+      [ "InputManager", "classmachine_1_1_input_manager.html", null ]
+    ] ],
     [ "InputScannable", "interfaceio_1_1_input_scannable.html", [
       [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", null ]
     ] ],
@@ -329,6 +337,10 @@ var hierarchy =
     [ "MultiBytesQueryTest", "classutil_1_1_multi_bytes_query_test.html", null ],
     [ "MultiHashMap< T >", "classmachine_1_1_multi_hash_map.html", null ],
     [ "MultiWordsOption", "classutil_1_1_multi_words_option.html", null ],
+    [ "NamedChildren< T >", "classast_1_1_named_children.html", null ],
+    [ "NamedChildren< ast.Node >", "classast_1_1_named_children.html", null ],
+    [ "NamedChildren< XFormattable >", "classast_1_1_named_children.html", null ],
+    [ "NamedChildren< T >.NamedRecord< T >", "classast_1_1_named_children_1_1_named_record.html", null ],
     [ "NameTable", "classmachine_1_1_name_table.html", null ],
     [ "NFBufs", "classformat_1_1_n_f_bufs.html", null ],
     [ "NodeFormattable", "interfaceformat_1_1_node_formattable.html", [
@@ -401,18 +413,12 @@ var hierarchy =
     [ "Universe", "classmachine_1_1_universe.html", null ],
     [ "Util", "classutil_1_1_util.html", null ],
     [ "EventReaderBase.Var", "classevent_1_1_event_reader_base_1_1_var.html", null ],
-    [ "VarHoldable", "interfacemachine_1_1_var_holdable.html", [
-      [ "BlockBase", "classast_1_1_block_base.html", null ],
-      [ "Callable", "interfacemachine_1_1_callable.html", [
-        [ "Step", "classast_1_1_step.html", null ],
-        [ "StepRule", "classast_1_1_step_rule.html", null ]
-      ] ]
-    ] ],
     [ "XCompiler", "classcompile_1_1_x_compiler.html", [
       [ "XCAdapt", "classcompile_1_1_x_c_adapt.html", null ],
       [ "XCFlat", "classcompile_1_1_x_c_flat.html", null ],
       [ "XCGen", "classcompile_1_1_x_c_gen.html", null ],
       [ "XCNorm", "classcompile_1_1_x_c_norm.html", null ],
+      [ "XCPrint", "classcompile_1_1_x_c_print.html", null ],
       [ "XCPush", "classcompile_1_1_x_c_push.html", null ],
       [ "XCTyping", "classcompile_1_1_x_c_typing.html", null ]
     ] ],

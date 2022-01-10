@@ -60,14 +60,14 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_action_code_8java.html",
-"classast_1_1_ast_literal_1_1_boolean_literal.html#a38b33616169d2cc0716799e956ac0dd6",
-"classast_1_1_block_base.html#a8134e5d78d8659840718f990d3d55654",
-"classcmd_1_1_command_string_1_1_cmd_str_regex_match.html#a3137357d0abb2bd75321d6e19024956a",
-"classframe_1_1_boolean_holder.html#ae070620f0272fed427c386773875c1c7",
-"classmachine_1_1_x_machine.html#a422a787c9cf8cfb63f1f8a3f5528c421",
-"classutil_1_1_bufs.html#a10a5c2c7b7b4b356bf7d45cfbf664a1a",
-"classast_1_1_ast_return.html",
-"interfacemachine_1_1_frame_stackable.html#aa913875bbd7c0cd052f26b3186054634"
+"classast_1_1_ast_literal_1_1_integer_literal.html",
+"classast_1_1_program.html#a992004913d07b9d56f279a3608f4aad3",
+"classcmd_1_1_command_typed_1_1_cmd_type_opr.html#a3137357d0abb2bd75321d6e19024956a",
+"classframe_1_1_frame_stack_uni.html#a05cc81c7b4ccfda2a536f0c9b7af4e8b",
+"classmachine_1_1_x_machine.html#a71dbfd238012be3e0bb3aa146995a432",
+"classutil_1_1_code.html",
+"classcmd_1_1_command_double_1_1_cmd_dbl_store.html#a30b9a8dff78b0fe788d95a6e97560e03",
+"interfacemachine_1_1_frame_stackable.html#a23824a7fbc3f712377edcf8c3ab252c1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

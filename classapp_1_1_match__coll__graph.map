@@ -1,41 +1,41 @@
 <map id="Match" name="Match">
-<area shape="rect" id="node1" title="AsaxEventReaderを用いた簡単な構造テキストの操作器の実装例." alt="" coords="1092,777,1151,803"/>
+<area shape="rect" id="node1" title="AsaxEventReaderを用いた簡単な構造テキストの操作器の実装例." alt="" coords="1092,810,1151,837"/>
 <area shape="rect" id="node2" href="$interfaceapp_1_1_query_holder.html" title=" " alt="" coords="733,14,827,41"/>
 <area shape="rect" id="node3" title=" " alt="" coords="727,65,833,91"/>
 <area shape="rect" id="node4" title=" " alt="" coords="717,115,843,142"/>
-<area shape="rect" id="node5" title=" " alt="" coords="56,483,112,510"/>
-<area shape="rect" id="node19" href="$classmachine_1_1_x_machine.html" title="クエリの実行系モジュールのクラス。" alt="" coords="740,751,820,778"/>
-<area shape="rect" id="node28" href="$interfaceevent_1_1_event_readable.html" title="構造文書走査器が備えるべき機能を記述するインタフェース." alt="" coords="344,863,455,890"/>
-<area shape="rect" id="node31" href="$classmachine_1_1_o_v_machine.html" title="仮想機械のクラス" alt="" coords="354,965,445,991"/>
-<area shape="rect" id="node6" title=" " alt="" coords="734,853,826,879"/>
-<area shape="rect" id="node7" title=" " alt="" coords="720,903,840,930"/>
+<area shape="rect" id="node5" title=" " alt="" coords="56,447,112,474"/>
+<area shape="rect" id="node19" href="$classmachine_1_1_x_machine.html" title="クエリの実行系モジュールのクラス。" alt="" coords="740,734,820,761"/>
+<area shape="rect" id="node27" href="$interfaceevent_1_1_event_readable.html" title="構造文書走査器が備えるべき機能を記述するインタフェース." alt="" coords="344,835,455,862"/>
+<area shape="rect" id="node30" href="$classmachine_1_1_o_v_machine.html" title="仮想機械のクラス" alt="" coords="354,886,445,913"/>
+<area shape="rect" id="node6" title=" " alt="" coords="734,835,826,862"/>
+<area shape="rect" id="node7" title=" " alt="" coords="720,886,840,913"/>
 <area shape="rect" id="node8" title=" " alt="" coords="721,339,839,366"/>
-<area shape="rect" id="node9" title=" " alt="" coords="376,311,423,338"/>
-<area shape="rect" id="node10" title=" " alt="" coords="747,954,813,981"/>
-<area shape="rect" id="node11" title=" " alt="" coords="729,1005,831,1031"/>
-<area shape="rect" id="node12" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="361,439,438,466"/>
-<area shape="rect" id="node13" title=" " alt="" coords="713,1055,847,1082"/>
-<area shape="rect" id="node14" title=" " alt="" coords="708,1106,852,1133"/>
-<area shape="rect" id="node15" title=" " alt="" coords="374,490,425,517"/>
-<area shape="rect" id="node16" title=" " alt="" coords="65,638,103,665"/>
-<area shape="rect" id="node17" title=" " alt="" coords="715,1187,845,1214"/>
-<area shape="rect" id="node18" title=" " alt="" coords="714,1238,846,1265"/>
-<area shape="rect" id="node20" href="$interfacemachine_1_1_context.html" title="実行系の記憶機構（環境）を抽象化したインタフェース." alt="" coords="365,1015,433,1042"/>
-<area shape="rect" id="node21" href="$interfacemachine_1_1_system_readable.html" title="システム変数の辞書を抽象化したインタフェース." alt="" coords="23,1383,145,1410"/>
-<area shape="rect" id="node38" href="$classmachine_1_1_system_scope.html" title="システム変数にアクセスするための読み出し専用スコープ．" alt="" coords="347,1303,451,1330"/>
-<area shape="rect" id="node22" title=" " alt="" coords="349,1202,450,1229"/>
-<area shape="rect" id="node23" title=" " alt="" coords="304,1253,495,1279"/>
-<area shape="rect" id="node24" title=" " alt="" coords="344,1354,455,1381"/>
-<area shape="rect" id="node25" title=" " alt="" coords="41,767,127,794"/>
-<area shape="rect" id="node26" title=" " alt="" coords="304,541,495,583"/>
-<area shape="rect" id="node27" href="$interfacemachine_1_1_frame_stackable.html" title=" " alt="" coords="341,699,458,726"/>
-<area shape="rect" id="node29" href="$class_iterable.html" title=" " alt="" coords="23,870,145,897"/>
-<area shape="rect" id="node30" title=" " alt="" coords="330,813,469,839"/>
-<area shape="rect" id="node32" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="5,1046,163,1073"/>
-<area shape="rect" id="node33" title=" " alt="" coords="9,1101,159,1127"/>
-<area shape="rect" id="node34" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="12,945,156,971"/>
-<area shape="rect" id="node35" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="9,995,159,1022"/>
-<area shape="rect" id="node36" title=" " alt="" coords="51,1219,117,1246"/>
-<area shape="rect" id="node37" title=" " alt="" coords="341,914,458,941"/>
-<area shape="rect" id="node39" href="$interfacemachine_1_1_inspectable.html" title=" " alt="" coords="15,1296,153,1337"/>
+<area shape="rect" id="node9" title=" " alt="" coords="376,298,423,325"/>
+<area shape="rect" id="node10" title=" " alt="" coords="747,937,813,963"/>
+<area shape="rect" id="node11" title=" " alt="" coords="729,987,831,1014"/>
+<area shape="rect" id="node12" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="361,411,438,438"/>
+<area shape="rect" id="node13" title=" " alt="" coords="713,1038,847,1065"/>
+<area shape="rect" id="node14" title=" " alt="" coords="708,1089,852,1115"/>
+<area shape="rect" id="node15" title=" " alt="" coords="755,1139,805,1166"/>
+<area shape="rect" id="node16" title=" " alt="" coords="65,559,103,586"/>
+<area shape="rect" id="node17" title=" " alt="" coords="715,1221,845,1247"/>
+<area shape="rect" id="node18" title=" " alt="" coords="714,1271,846,1298"/>
+<area shape="rect" id="node20" href="$interfacemachine_1_1_context.html" title="実行系の記憶機構（環境）を抽象化したインタフェース." alt="" coords="365,1123,433,1150"/>
+<area shape="rect" id="node21" href="$interfacemachine_1_1_system_readable.html" title="システム変数の辞書を抽象化したインタフェース." alt="" coords="23,1186,145,1213"/>
+<area shape="rect" id="node38" href="$classmachine_1_1_system_scope.html" title="システム変数にアクセスするための読み出し専用スコープ．" alt="" coords="347,1225,451,1251"/>
+<area shape="rect" id="node22" title=" " alt="" coords="349,1275,450,1302"/>
+<area shape="rect" id="node23" title=" " alt="" coords="344,1326,455,1353"/>
+<area shape="rect" id="node24" title=" " alt="" coords="41,787,127,814"/>
+<area shape="rect" id="node25" title=" " alt="" coords="304,463,495,504"/>
+<area shape="rect" id="node26" href="$interfacemachine_1_1_frame_stackable.html" title=" " alt="" coords="341,621,458,647"/>
+<area shape="rect" id="node28" href="$class_iterable.html" title=" " alt="" coords="23,737,145,763"/>
+<area shape="rect" id="node29" title=" " alt="" coords="330,734,469,761"/>
+<area shape="rect" id="node31" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="5,939,163,966"/>
+<area shape="rect" id="node32" title=" " alt="" coords="9,991,159,1018"/>
+<area shape="rect" id="node33" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="12,838,156,865"/>
+<area shape="rect" id="node34" href="$classutil_1_1_stack_base.html" title=" " alt="" coords="9,889,159,915"/>
+<area shape="rect" id="node35" title=" " alt="" coords="51,1110,117,1137"/>
+<area shape="rect" id="node36" title=" " alt="" coords="341,785,458,811"/>
+<area shape="rect" id="node37" href="$interfacemachine_1_1_input_manageable.html" title="入力ストリーム管理のインタフェース" alt="" coords="339,937,460,963"/>
+<area shape="rect" id="node39" href="$interfacemachine_1_1_inspectable.html" title=" " alt="" coords="15,1248,153,1289"/>
 </map>

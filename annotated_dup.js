@@ -20,10 +20,8 @@ var annotated_dup =
       [ "AstNodeBase", "classast_1_1_ast_node_base.html", "classast_1_1_ast_node_base" ],
       [ "AstNodeNew", "classast_1_1_ast_node_new.html", "classast_1_1_ast_node_new" ],
       [ "AstNodeTagged", "classast_1_1_ast_node_tagged.html", "classast_1_1_ast_node_tagged" ],
-      [ "AstNodeTaggedSettable", "classast_1_1_ast_node_tagged_settable.html", "classast_1_1_ast_node_tagged_settable" ],
       [ "AstNodeUnary", "classast_1_1_ast_node_unary.html", "classast_1_1_ast_node_unary" ],
       [ "AstOper", "classast_1_1_ast_oper.html", "classast_1_1_ast_oper" ],
-      [ "AstOperTagged", "classast_1_1_ast_oper_tagged.html", "classast_1_1_ast_oper_tagged" ],
       [ "AstReturn", "classast_1_1_ast_return.html", "classast_1_1_ast_return" ],
       [ "AstScanFrom", "classast_1_1_ast_scan_from.html", "classast_1_1_ast_scan_from" ],
       [ "AstSource", "classast_1_1_ast_source.html", [
@@ -38,6 +36,7 @@ var annotated_dup =
       [ "Block", "classast_1_1_block.html", "classast_1_1_block" ],
       [ "BlockBase", "classast_1_1_block_base.html", "classast_1_1_block_base" ],
       [ "BlockFactory", "classast_1_1_block_factory.html", "classast_1_1_block_factory" ],
+      [ "NamedChildren", "classast_1_1_named_children.html", "classast_1_1_named_children" ],
       [ "Node", "interfaceast_1_1_node.html", "interfaceast_1_1_node" ],
       [ "Path", "classast_1_1_path.html", "classast_1_1_path" ],
       [ "Program", "classast_1_1_program.html", "classast_1_1_program" ],
@@ -92,6 +91,7 @@ var annotated_dup =
       [ "XCGen", "classcompile_1_1_x_c_gen.html", "classcompile_1_1_x_c_gen" ],
       [ "XCNorm", "classcompile_1_1_x_c_norm.html", null ],
       [ "XCompiler", "classcompile_1_1_x_compiler.html", "classcompile_1_1_x_compiler" ],
+      [ "XCPrint", "classcompile_1_1_x_c_print.html", "classcompile_1_1_x_c_print" ],
       [ "XCPush", "classcompile_1_1_x_c_push.html", "classcompile_1_1_x_c_push" ],
       [ "XCTyping", "classcompile_1_1_x_c_typing.html", "classcompile_1_1_x_c_typing" ]
     ] ],
@@ -140,6 +140,7 @@ var annotated_dup =
       [ "PooledInputStream", "classio_1_1_pooled_input_stream.html", "classio_1_1_pooled_input_stream" ]
     ] ],
     [ "machine", "namespacemachine.html", [
+      [ "Blockable", "interfacemachine_1_1_blockable.html", "interfacemachine_1_1_blockable" ],
       [ "Call", "classmachine_1_1_call.html", "classmachine_1_1_call" ],
       [ "Callable", "interfacemachine_1_1_callable.html", "interfacemachine_1_1_callable" ],
       [ "CallList", "classmachine_1_1_call_list.html", "classmachine_1_1_call_list" ],
@@ -149,6 +150,8 @@ var annotated_dup =
       [ "Dispatchable", "interfacemachine_1_1_dispatchable.html", "interfacemachine_1_1_dispatchable" ],
       [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ],
       [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ],
+      [ "InputManageable", "interfacemachine_1_1_input_manageable.html", "interfacemachine_1_1_input_manageable" ],
+      [ "InputManager", "classmachine_1_1_input_manager.html", "classmachine_1_1_input_manager" ],
       [ "Inspectable", "interfacemachine_1_1_inspectable.html", "interfacemachine_1_1_inspectable" ],
       [ "LongMask", "classmachine_1_1_long_mask.html", "classmachine_1_1_long_mask" ],
       [ "MaskMap< K extends Comparable", "classmachine_1_1_mask_map_3_01_k_01extends_01_comparable.html", null ],
@@ -161,7 +164,6 @@ var annotated_dup =
       [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", "classmachine_1_1_tag_mask_map" ],
       [ "Universe", "classmachine_1_1_universe.html", "classmachine_1_1_universe" ],
       [ "Var", "classmachine_1_1_var.html", "classmachine_1_1_var" ],
-      [ "VarHoldable", "interfacemachine_1_1_var_holdable.html", "interfacemachine_1_1_var_holdable" ],
       [ "VarTable", "classmachine_1_1_var_table.html", "classmachine_1_1_var_table" ],
       [ "XMachine", "classmachine_1_1_x_machine.html", "classmachine_1_1_x_machine" ],
       [ "XRuntimeException", "classmachine_1_1_x_runtime_exception.html", "classmachine_1_1_x_runtime_exception" ]

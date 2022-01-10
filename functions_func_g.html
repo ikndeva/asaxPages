@@ -103,7 +103,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="classast_1_1_ast_math_oper_1_1_pre_term.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstMathOper.PreTerm</a>
 , <a class="el" href="classast_1_1_ast_math_oper_1_1_string_add_oper.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstMathOper.StringAddOper</a>
 , <a class="el" href="classast_1_1_ast_oper.html#a383612fb2c1d291f6f3f9c352a5cb262">AstOper</a>
-, <a class="el" href="classast_1_1_ast_oper_tagged.html#a383612fb2c1d291f6f3f9c352a5cb262">AstOperTagged</a>
 , <a class="el" href="classast_1_1_ast_return.html#a383612fb2c1d291f6f3f9c352a5cb262">AstReturn</a>
 , <a class="el" href="classast_1_1_ast_scan_from.html#a383612fb2c1d291f6f3f9c352a5cb262">AstScanFrom</a>
 , <a class="el" href="classast_1_1_ast_source_1_1_ast_in_file_open.html#ae1ba45bad2d2854e7378d5322c0c2c57">AstSource.AstInFileOpen</a>
@@ -132,7 +131,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>get()
 : <a class="el" href="classast_1_1_path.html#a1b97d9a07e7d6e3b4c91bad81ea85cb5">Path</a>
-, <a class="el" href="classast_1_1_program.html#a616e09177d41215480c1ff1a13db2f6d">Program</a>
+, <a class="el" href="classast_1_1_program.html#a64c7ba873dc637cfaf7d012a792114d6">Program</a>
 , <a class="el" href="classcmd_1_1_cmd_list.html#aa80bcc98215cb33d089b006124e903b3">CmdList</a>
 , <a class="el" href="classframe_1_1_boolean_holder.html#a5a9423d4c91d2b50b73a8bafe742d3fc">BooleanHolder</a>
 , <a class="el" href="classframe_1_1_double_holder.html#a6b5988e975b05ef7e9b817df698806a1">DoubleHolder</a>
@@ -141,7 +140,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="classframe_1_1_string_holder.html#ac5f5202af3bb4156a22175cb76becb91">StringHolder</a>
 , <a class="el" href="interfacemachine_1_1_inspectable.html#a7a59484d7d4a7da40cdffbdc573e4849">Inspectable&lt; S, T &gt;</a>
 , <a class="el" href="classmachine_1_1_multi_hash_map.html#a86488761692b8c065734bf0da78a3853">MultiHashMap&lt; T &gt;</a>
-, <a class="el" href="interfacemachine_1_1_runnable.html#a616e09177d41215480c1ff1a13db2f6d">Runnable</a>
+, <a class="el" href="interfacemachine_1_1_runnable.html#a375749f5ff5f0cf3474ef5da2c7d695e">Runnable</a>
 , <a class="el" href="classtype_1_1_union_find_item.html#af6ea056c8af82f08af9fd0d857967f9b">UnionFindItem&lt; T &gt;</a>
 , <a class="el" href="classutil_1_1_inc_counter.html#a84a9cd93622aa531274dd4c027f006ce">IncCounter</a>
 , <a class="el" href="classutil_1_1_recycle_manager.html#ad6541e97c584aca806e22274f261b0c7">RecycleManager&lt; S &gt;</a>
@@ -151,12 +150,12 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="classutil_1_1_stack_base.html#a172edd214411c2cdf0b0b234daaf0ef4">StackBase&lt; T &gt;</a>
 </li>
 <li>getCallMask()
-: <a class="el" href="classast_1_1_block_base.html#a47cf57ec96efe77123f112236a16bd25">BlockBase</a>
-, <a class="el" href="interfacemachine_1_1_var_holdable.html#a47cf57ec96efe77123f112236a16bd25">VarHoldable</a>
+: <a class="el" href="classast_1_1_step.html#a47cf57ec96efe77123f112236a16bd25">Step</a>
+, <a class="el" href="interfacemachine_1_1_callable.html#a47cf57ec96efe77123f112236a16bd25">Callable</a>
 </li>
 <li>getCalls()
-: <a class="el" href="classast_1_1_block_base.html#a37238a58bc6e053aeb2d537488901584">BlockBase</a>
-, <a class="el" href="interfacemachine_1_1_var_holdable.html#a37238a58bc6e053aeb2d537488901584">VarHoldable</a>
+: <a class="el" href="classast_1_1_step.html#a37238a58bc6e053aeb2d537488901584">Step</a>
+, <a class="el" href="interfacemachine_1_1_callable.html#a37238a58bc6e053aeb2d537488901584">Callable</a>
 </li>
 <li>getch()
 : <a class="el" href="classevent_1_1_event_reader_base.html#a385f5a2e2bc6628450b6280692396851">EventReaderBase</a>
@@ -166,21 +165,18 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>getChild()
 : <a class="el" href="classast_1_1_ast_node.html#a35d53cdd86285e56b69cfedc5ef28580">AstNode</a>
-, <a class="el" href="classast_1_1_ast_node_tagged_settable.html#a35d53cdd86285e56b69cfedc5ef28580">AstNodeTaggedSettable</a>
+, <a class="el" href="classast_1_1_ast_node_tagged.html#ac66f2d375b1218cdc1d4d08a58e761ac">AstNodeTagged</a>
 , <a class="el" href="classast_1_1_ast_node_unary.html#a35d53cdd86285e56b69cfedc5ef28580">AstNodeUnary</a>
-, <a class="el" href="classast_1_1_block.html#a35d53cdd86285e56b69cfedc5ef28580">Block</a>
-, <a class="el" href="classast_1_1_block_base.html#a35d53cdd86285e56b69cfedc5ef28580">BlockBase</a>
 , <a class="el" href="interfaceast_1_1_node.html#a35d53cdd86285e56b69cfedc5ef28580">Node</a>
 </li>
 <li>getChildNav()
 : <a class="el" href="classast_1_1_ast_node.html#ad2e3a885d9dc86de242760deee9bc119">AstNode</a>
-, <a class="el" href="classast_1_1_ast_node_tagged.html#ad2e3a885d9dc86de242760deee9bc119">AstNodeTagged</a>
-, <a class="el" href="classast_1_1_ast_node_tagged_settable.html#ad2e3a885d9dc86de242760deee9bc119">AstNodeTaggedSettable</a>
+, <a class="el" href="classast_1_1_ast_node_tagged.html#a4eb72c67761e2be7e2b348a6653b2c70">AstNodeTagged</a>
 , <a class="el" href="interfaceformat_1_1_x_formattable_1_1_navigatable.html#ad2e3a885d9dc86de242760deee9bc119">XFormattable.Navigatable</a>
 </li>
 <li>getCode()
 : <a class="el" href="classast_1_1_block_base.html#afacff3686e7836aaf769880cb9a515fd">BlockBase</a>
-, <a class="el" href="interfacemachine_1_1_var_holdable.html#afacff3686e7836aaf769880cb9a515fd">VarHoldable</a>
+, <a class="el" href="interfacemachine_1_1_blockable.html#afacff3686e7836aaf769880cb9a515fd">Blockable</a>
 </li>
 <li>getCustomObjectString()
 : <a class="el" href="classast_1_1_ast_tag.html#a54d57ec79cee3ac4683b86ee2dcddd49">AstTag</a>
@@ -200,8 +196,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>getFieldNav()
 : <a class="el" href="classast_1_1_ast_node.html#aba3f875d3ffe003840447ea435b705d3">AstNode</a>
-, <a class="el" href="classast_1_1_ast_node_tagged.html#aba3f875d3ffe003840447ea435b705d3">AstNodeTagged</a>
-, <a class="el" href="classast_1_1_ast_node_tagged_settable.html#aba3f875d3ffe003840447ea435b705d3">AstNodeTaggedSettable</a>
+, <a class="el" href="classast_1_1_ast_node_tagged.html#a177f9c27eb9905fd5d5aacc547893a1b">AstNodeTagged</a>
 , <a class="el" href="interfaceformat_1_1_x_formattable_1_1_navigatable.html#aba3f875d3ffe003840447ea435b705d3">XFormattable.Navigatable</a>
 </li>
 <li>getFileBody()
@@ -211,8 +206,8 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="classutil_1_1_util.html#a499dd12613c4818b631e4428fcc5addd">Util</a>
 </li>
 <li>getFun()
-: <a class="el" href="classast_1_1_block_base.html#a165cb47299116844523fe137fc019930">BlockBase</a>
-, <a class="el" href="interfacemachine_1_1_var_holdable.html#a165cb47299116844523fe137fc019930">VarHoldable</a>
+: <a class="el" href="classast_1_1_step.html#a165cb47299116844523fe137fc019930">Step</a>
+, <a class="el" href="interfacemachine_1_1_callable.html#a165cb47299116844523fe137fc019930">Callable</a>
 </li>
 <li>getKey()
 : <a class="el" href="classparse_1_1_parse_table.html#a2e240bdecccf281d6e188d621165d1c8">ParseTable</a>
@@ -285,15 +280,15 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="classutil_1_1_multi_words_option.html#ab3af84bcf0992ccc8fa7e7a21618dc65">MultiWordsOption</a>
 </li>
 <li>getPreCode()
-: <a class="el" href="classast_1_1_block_base.html#a16280aaf8f7a41caa066b0f1d287dd71">BlockBase</a>
-, <a class="el" href="interfacemachine_1_1_var_holdable.html#a16280aaf8f7a41caa066b0f1d287dd71">VarHoldable</a>
+: <a class="el" href="classast_1_1_step.html#a16280aaf8f7a41caa066b0f1d287dd71">Step</a>
+, <a class="el" href="interfacemachine_1_1_callable.html#a16280aaf8f7a41caa066b0f1d287dd71">Callable</a>
 </li>
 <li>getQuoteString()
 : <a class="el" href="classutil_1_1_yaml_buf.html#ab4730ff0267a3295e9ceb779e2ba50c0">YamlBuf</a>
 </li>
 <li>getRules()
-: <a class="el" href="classast_1_1_program.html#a56f6e76cdf53628cafeb8e044c0024f1">Program</a>
-, <a class="el" href="interfacemachine_1_1_runnable.html#a56f6e76cdf53628cafeb8e044c0024f1">Runnable</a>
+: <a class="el" href="classast_1_1_program.html#ac4050ea8dd3b33f66abef67b94b387f5">Program</a>
+, <a class="el" href="interfacemachine_1_1_runnable.html#ac4050ea8dd3b33f66abef67b94b387f5">Runnable</a>
 </li>
 <li>getStat()
 : <a class="el" href="classutil_1_1_stack_base.html#a49c73f80fff6c501212c08e4c0402c4b">StackBase&lt; T &gt;</a>
@@ -341,9 +336,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>getType()
 : <a class="el" href="interfaceast_1_1_node.html#a4c4a1e79240584e1a79286583c9e14db">Node</a>
 </li>
-<li>getTypeItem()
-: <a class="el" href="classast_1_1_ast_node_tagged.html#ad27adc94f5845e24d2adcd5bafb0d54c">AstNodeTagged</a>
-</li>
 <li>getValues()
 : <a class="el" href="classmachine_1_1_tag_mask_map.html#a5efb5de495a54b45be5fd17f9add9c0f">TagMaskMap</a>
 </li>
@@ -355,7 +347,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>getVarTable()
 : <a class="el" href="classast_1_1_block_base.html#aaf42e9d468fbca6e31b6620cf1c68ea2">BlockBase</a>
-, <a class="el" href="interfacemachine_1_1_var_holdable.html#aaf42e9d468fbca6e31b6620cf1c68ea2">VarHoldable</a>
+, <a class="el" href="interfacemachine_1_1_blockable.html#aaf42e9d468fbca6e31b6620cf1c68ea2">Blockable</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -363,7 +355,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jan 9 2022 07:55:46 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 11 2022 06:38:13 for asax02.neo by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

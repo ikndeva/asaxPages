@@ -6,5 +6,6 @@ var classtype_1_1_type_item =
     [ "unifiable", "classtype_1_1_type_item.html#afefb7cc16f9623dc5f1fc9b2a6433417", null ],
     [ "matchXType", "classtype_1_1_type_item.html#a48a65474712bbffae641cc67a70f8152", null ],
     [ "unify", "classtype_1_1_type_item.html#a6ce5a50989555a633ba32656e6b3a121", null ],
-    [ "toString", "classtype_1_1_type_item.html#ad146fa8579a5f8a876c4688cc5a68520", null ]
+    [ "toString", "classtype_1_1_type_item.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "typeConflict", "classtype_1_1_type_item.html#ab229b9f388a90afd3979e5434afdc96e", null ]
 ];

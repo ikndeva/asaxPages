@@ -1,41 +1,41 @@
 <map id="AstParser" name="AstParser">
-<area shape="rect" id="node1" title=" " alt="" coords="1681,513,1761,540"/>
-<area shape="rect" id="node2" href="$interfaceparse_1_1_parsable.html" title=" " alt="" coords="1463,61,1537,88"/>
-<area shape="rect" id="node3" title=" " alt="" coords="1447,112,1553,139"/>
-<area shape="rect" id="node4" title=" " alt="" coords="1436,163,1564,189"/>
-<area shape="rect" id="node5" href="$classparse_1_1_p_node_printer.html" title=" " alt="" coords="427,327,527,353"/>
-<area shape="rect" id="node14" href="$classparse_1_1_ast_node_factory.html" title="各TASK種のParserRuleContext型のノードに対して、対応するクラスのASTノードを生成するファクトリ手続き．" alt="" coords="785,469,903,496"/>
-<area shape="rect" id="node6" title=" " alt="" coords="53,1035,109,1061"/>
-<area shape="rect" id="node17" href="$classast_1_1_program.html" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="1465,1240,1535,1267"/>
-<area shape="rect" id="node20" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="426,885,529,912"/>
-<area shape="rect" id="node29" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="451,768,503,795"/>
-<area shape="rect" id="node7" title=" " alt="" coords="11,317,150,344"/>
-<area shape="rect" id="node8" title=" " alt="" coords="47,424,114,451"/>
-<area shape="rect" id="node15" href="$classparse_1_1_parse_table.html" title="ノードの型のクラスオブジェクトをキーとし，ノードの再帰の型を値とする表．" alt="" coords="434,268,521,295"/>
-<area shape="rect" id="node18" href="$classast_1_1_ast_node_tagged.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="1180,1036,1295,1063"/>
-<area shape="rect" id="node9" title=" " alt="" coords="1455,1291,1545,1317"/>
-<area shape="rect" id="node10" title=" " alt="" coords="25,673,136,700"/>
-<area shape="rect" id="node11" title=" " alt="" coords="1467,1341,1533,1368"/>
-<area shape="rect" id="node12" title=" " alt="" coords="37,724,124,751"/>
-<area shape="rect" id="node13" title=" " alt="" coords="1428,1392,1572,1419"/>
-<area shape="rect" id="node16" title=" " alt="" coords="5,227,156,253"/>
-<area shape="rect" id="node19" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="807,960,881,987"/>
-<area shape="rect" id="node21" title=" " alt="" coords="61,1448,100,1475"/>
-<area shape="rect" id="node34" href="$classmachine_1_1_call.html" title=" " alt="" coords="821,1351,867,1377"/>
-<area shape="rect" id="node37" href="$classmachine_1_1_id_mask.html" title="@IDのマスク" alt="" coords="811,1427,877,1453"/>
-<area shape="rect" id="node22" href="$interfaceast_1_1_node.html" title=" " alt="" coords="451,1104,504,1131"/>
-<area shape="rect" id="node23" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="31,1155,131,1181"/>
-<area shape="rect" id="node24" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="391,1155,564,1181"/>
-<area shape="rect" id="node35" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="368,1307,587,1333"/>
-<area shape="rect" id="node25" title=" " alt="" coords="392,819,563,861"/>
-<area shape="rect" id="node26" title=" " alt="" coords="387,937,568,978"/>
-<area shape="rect" id="node27" title=" " alt="" coords="417,1003,537,1029"/>
-<area shape="rect" id="node28" title=" " alt="" coords="443,1053,512,1080"/>
-<area shape="rect" id="node30" title=" " alt="" coords="793,1061,895,1088"/>
-<area shape="rect" id="node31" title=" " alt="" coords="783,1112,905,1139"/>
-<area shape="rect" id="node32" title=" " alt="" coords="736,1011,952,1037"/>
-<area shape="rect" id="node33" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="1199,1299,1276,1325"/>
-<area shape="rect" id="node36" title=" " alt="" coords="1141,1475,1333,1517"/>
-<area shape="rect" id="node38" title=" " alt="" coords="424,1563,531,1589"/>
-<area shape="rect" id="node39" title=" " alt="" coords="454,1420,501,1447"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1687,363,1767,389"/>
+<area shape="rect" id="node2" href="$interfaceparse_1_1_parsable.html" title=" " alt="" coords="1469,5,1542,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="1452,56,1559,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="1441,107,1569,133"/>
+<area shape="rect" id="node5" href="$classparse_1_1_p_node_printer.html" title=" " alt="" coords="427,273,527,300"/>
+<area shape="rect" id="node14" href="$classparse_1_1_ast_node_factory.html" title="各TASK種のParserRuleContext型のノードに対して、対応するクラスのASTノードを生成するファクトリ手続き．" alt="" coords="785,376,902,403"/>
+<area shape="rect" id="node6" title=" " alt="" coords="53,923,109,949"/>
+<area shape="rect" id="node17" href="$classast_1_1_program.html" title="ルールの集合からなるコンパイル済みのプログラム." alt="" coords="1470,1357,1541,1384"/>
+<area shape="rect" id="node20" href="$classast_1_1_ast_node_base.html" title=" " alt="" coords="426,833,529,860"/>
+<area shape="rect" id="node29" href="$classformat_1_1_style.html" title="ノードの表示スタイルに関するプロパティのクラス." alt="" coords="451,783,503,809"/>
+<area shape="rect" id="node32" href="$enumtype_1_1_x_type.html" title="式がもつ値の型のクラス．Kotlin言語の型システムを参考にしている． 次の型をもつ．" alt="" coords="448,1321,507,1348"/>
+<area shape="rect" id="node7" title=" " alt="" coords="11,191,150,217"/>
+<area shape="rect" id="node8" title=" " alt="" coords="47,325,114,352"/>
+<area shape="rect" id="node15" href="$classparse_1_1_parse_table.html" title="ノードの型のクラスオブジェクトをキーとし，ノードの再帰の型を値とする表．" alt="" coords="434,215,521,241"/>
+<area shape="rect" id="node9" title=" " alt="" coords="1460,337,1551,364"/>
+<area shape="rect" id="node10" title=" " alt="" coords="25,515,136,541"/>
+<area shape="rect" id="node11" title=" " alt="" coords="1472,439,1539,465"/>
+<area shape="rect" id="node12" title=" " alt="" coords="37,732,124,759"/>
+<area shape="rect" id="node13" title=" " alt="" coords="1433,613,1577,640"/>
+<area shape="rect" id="node16" title=" " alt="" coords="5,112,156,139"/>
+<area shape="rect" id="node18" href="$classast_1_1_ast_node_tagged.html" title="タグ付きの子をもつノードのクラス．利用者は自前で，追加する子のField名と，Getter，型を設定する．読み出しは子の添字でも行える．" alt="" coords="1182,1257,1297,1284"/>
+<area shape="rect" id="node19" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="807,1092,880,1119"/>
+<area shape="rect" id="node21" title=" " alt="" coords="61,1424,100,1451"/>
+<area shape="rect" id="node35" href="$classmachine_1_1_call.html" title=" " alt="" coords="821,1371,866,1397"/>
+<area shape="rect" id="node37" href="$classmachine_1_1_id_mask.html" title="@IDのマスク" alt="" coords="811,1567,876,1593"/>
+<area shape="rect" id="node22" href="$interfaceast_1_1_node.html" title=" " alt="" coords="451,1087,504,1113"/>
+<area shape="rect" id="node23" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="31,1204,131,1231"/>
+<area shape="rect" id="node24" href="$interfaceformat_1_1_x_formattable_1_1_navigatable.html" title="木構造の分岐ノードとして清書可能なオブジェクトのクラス" alt="" coords="391,1204,564,1231"/>
+<area shape="rect" id="node36" href="$interfaceformat_1_1_x_formattable_1_1_custom_formattable.html" title="カスタム清書出力器をもつオブジェクトのクラス．" alt="" coords="368,1372,587,1399"/>
+<area shape="rect" id="node25" title=" " alt="" coords="392,1138,563,1179"/>
+<area shape="rect" id="node26" title=" " alt="" coords="387,1255,568,1297"/>
+<area shape="rect" id="node27" title=" " alt="" coords="417,985,537,1012"/>
+<area shape="rect" id="node28" title=" " alt="" coords="443,1036,512,1063"/>
+<area shape="rect" id="node30" href="$classast_1_1_named_children.html" title=" " alt="" coords="749,1207,938,1233"/>
+<area shape="rect" id="node31" href="$classast_1_1_named_children.html" title=" " alt="" coords="736,1257,951,1284"/>
+<area shape="rect" id="node33" title=" " alt="" coords="57,1621,104,1648"/>
+<area shape="rect" id="node34" href="$interfacemachine_1_1_runnable.html" title="実行可能なプログラムのインタフェース." alt="" coords="1201,1419,1278,1445"/>
+<area shape="rect" id="node38" title=" " alt="" coords="424,1705,531,1732"/>
+<area shape="rect" id="node39" title=" " alt="" coords="1140,1599,1339,1625"/>
 </map>

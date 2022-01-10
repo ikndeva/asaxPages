@@ -1,5 +1,6 @@
 var namespacemachine =
 [
+    [ "Blockable", "interfacemachine_1_1_blockable.html", "interfacemachine_1_1_blockable" ],
     [ "Call", "classmachine_1_1_call.html", "classmachine_1_1_call" ],
     [ "Callable", "interfacemachine_1_1_callable.html", "interfacemachine_1_1_callable" ],
     [ "CallList", "classmachine_1_1_call_list.html", "classmachine_1_1_call_list" ],
@@ -9,6 +10,8 @@ var namespacemachine =
     [ "Dispatchable", "interfacemachine_1_1_dispatchable.html", "interfacemachine_1_1_dispatchable" ],
     [ "FrameStackable", "interfacemachine_1_1_frame_stackable.html", "interfacemachine_1_1_frame_stackable" ],
     [ "IdMask", "classmachine_1_1_id_mask.html", "classmachine_1_1_id_mask" ],
+    [ "InputManageable", "interfacemachine_1_1_input_manageable.html", "interfacemachine_1_1_input_manageable" ],
+    [ "InputManager", "classmachine_1_1_input_manager.html", "classmachine_1_1_input_manager" ],
     [ "Inspectable", "interfacemachine_1_1_inspectable.html", "interfacemachine_1_1_inspectable" ],
     [ "LongMask", "classmachine_1_1_long_mask.html", "classmachine_1_1_long_mask" ],
     [ "MaskMap< K extends Comparable", "classmachine_1_1_mask_map_3_01_k_01extends_01_comparable.html", null ],
@@ -21,7 +24,6 @@ var namespacemachine =
     [ "TagMaskMap", "classmachine_1_1_tag_mask_map.html", "classmachine_1_1_tag_mask_map" ],
     [ "Universe", "classmachine_1_1_universe.html", "classmachine_1_1_universe" ],
     [ "Var", "classmachine_1_1_var.html", "classmachine_1_1_var" ],
-    [ "VarHoldable", "interfacemachine_1_1_var_holdable.html", "interfacemachine_1_1_var_holdable" ],
     [ "VarTable", "classmachine_1_1_var_table.html", "classmachine_1_1_var_table" ],
     [ "XMachine", "classmachine_1_1_x_machine.html", "classmachine_1_1_x_machine" ],
     [ "XRuntimeException", "classmachine_1_1_x_runtime_exception.html", "classmachine_1_1_x_runtime_exception" ]

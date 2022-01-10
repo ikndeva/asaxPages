@@ -3,6 +3,7 @@ var classast_1_1_ast_node =
     [ "AstNode", "classast_1_1_ast_node.html#a1b76a2f3d76a488faa62e4e00d10a82f", null ],
     [ "AstNode", "classast_1_1_ast_node.html#addb9e9e7374943571e62a19d513f4efb", null ],
     [ "typer", "classast_1_1_ast_node.html#a15d7eb6de4b7fed2669946b447094c2e", null ],
+    [ "preprocessTyping", "classast_1_1_ast_node.html#abb04140aba10bafa1c9576b90d154beb", null ],
     [ "printer", "classast_1_1_ast_node.html#a3b6935273372fcebe8557831dcdc3eca", null ],
     [ "getStyle", "classast_1_1_ast_node.html#a30a310f70a73e0955ddca80783113431", null ],
     [ "notToEmit", "classast_1_1_ast_node.html#a9bdb4531eee4ea10fafba49383ab366f", null ],

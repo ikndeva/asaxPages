@@ -1,0 +1,4 @@
+<map id="InputManageable" name="InputManageable">
+<area shape="rect" id="node1" title="入力ストリーム管理のインタフェース" alt="" coords="5,5,127,32"/>
+<area shape="rect" id="node2" href="$classmachine_1_1_input_manager.html" title="入力ストリームの管理者．" alt="" coords="15,80,117,107"/>
+</map>
