@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "lstrie", "index.html", [
+  [ "LSTRIE: C++によるテキスト索引の実装", "index.html", [
     [ "Todo List", "todo.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
