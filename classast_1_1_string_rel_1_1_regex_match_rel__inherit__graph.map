@@ -1,9 +1,0 @@
-<map id="StringRel.RegexMatchRel" name="StringRel.RegexMatchRel">
-<area shape="rect" id="node1" title=" " alt="" coords="167,379,341,405"/>
-<area shape="rect" id="node2" href="$classast_1_1_string_rel.html" title=" " alt="" coords="179,304,255,331"/>
-<area shape="rect" id="node3" title=" " alt="" coords="158,229,249,256"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_oper.html" title=" " alt="" coords="149,155,220,181"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="5,80,79,107"/>
-<area shape="rect" id="node6" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="103,80,267,107"/>
-<area shape="rect" id="node7" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="199,5,291,32"/>
-</map>

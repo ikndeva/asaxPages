@@ -1,4 +1,0 @@
-<map id="bitWidthPower" name="bitWidthPower">
-<area shape="rect" id="node1" title="与えられた整数値{val}の最小ビット幅を下回らない最小の2のべきを返す." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node2" href="$classutil_1_1_bits_buf.html#a63ddfb3e222166a31c85ca3471e2d12e" title="与えられた整数値{val}の最小ビット幅を返す." alt="" coords="160,5,231,32"/>
-</map>

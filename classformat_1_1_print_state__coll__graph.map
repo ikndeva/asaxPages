@@ -1,5 +1,0 @@
-<map id="PrintState" name="PrintState">
-<area shape="rect" id="node1" title="木を印刷する際に，オプション指定と現在の状態保持を行う構造体．" alt="" coords="48,109,128,136"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,75,32"/>
-<area shape="rect" id="node3" title=" " alt="" coords="103,5,169,32"/>
-</map>

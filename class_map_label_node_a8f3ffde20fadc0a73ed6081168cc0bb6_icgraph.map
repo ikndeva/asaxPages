@@ -1,0 +1,5 @@
+<map id="get" name="get">
+<area shape="rect" id="node1" title="文字 ch に対して、このノードのc&#45;子ノードを返す。" alt="" coords="331,5,371,32"/>
+<area shape="rect" id="node2" href="$class_s_tree.html#a018b7460737db49f499ebf97c3a1fc11" title="木が点 goto((ref, i), ch) を含むかどうかのブール値を返す述語。" alt="" coords="151,5,283,32"/>
+<area shape="rect" id="node3" href="$class_s_tree.html#a19ebc75db6cbfc3809c9454c979e044f" title="索引構築の主手続き。" alt="" coords="5,5,103,32"/>
+</map>

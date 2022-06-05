@@ -1,0 +1,8 @@
+<map id="nl" name="nl">
+<area shape="rect" id="node1" title="改行を追加する. フラグto_lineが真ならば改行しない、そうでなければ空白を出力する. カスケードスタイルの呼び出し。" alt="" coords="5,56,44,83"/>
+<area shape="rect" id="node2" href="$class_string_buf_impl.html#acf8e2f791de955ccde3115b485b94dc9" title="入れ子の深さを返す。深さは、トップ環境の深さ1から始まる正整数である。 note: これは、常に、スタックの底にトップ環境が一つ必要なので。" alt="" coords="106,5,161,32"/>
+<area shape="rect" id="node4" href="$class_string_buf_impl.html#a24f3abbdc8556da3707636f349742c8b" title="現在の環境を返す。　現在の環境は、環境スタックの頂上の要素である。" alt="" coords="112,56,155,83"/>
+<area shape="rect" id="node5" href="$class_level.html#a00f58ebaa844f8b8b5c1e2f1cce0e5ed" title="現在のトレースレベルが引数以上ならば真になる述語。述語LEVELに同じ。" alt="" coords="92,107,175,133"/>
+<area shape="rect" id="node3" href="$class_reusable_stack.html#adbf833dd801c30ef7fac22486f2c4ff8" title="最上部のメモリオブジェクトを取り出す。" alt="" coords="223,31,369,57"/>
+<area shape="rect" id="node6" href="$class_level.html#aef6d042b2367206e14cb8acfc6734d16" title="現在のトレースレベルが引数以上ならば真になる述語。" alt="" coords="245,107,347,133"/>
+</map>

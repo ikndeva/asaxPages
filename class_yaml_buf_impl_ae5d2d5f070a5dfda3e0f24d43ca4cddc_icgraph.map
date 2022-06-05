@@ -1,0 +1,6 @@
+<map id="set_to_compact" name="set_to_compact">
+<area shape="rect" id="node1" title="コンパクト出力のフラグをONにセットする。" alt="" coords="331,31,445,57"/>
+<area shape="rect" id="node2" href="$class_sindex.html#a45925755b62142b466eb83d2524ee252" title="索引の文字列表現を返す。" alt="" coords="193,5,278,32"/>
+<area shape="rect" id="node4" href="$class_visitable.html#a45925755b62142b466eb83d2524ee252" title="このノードの文字列表現を返す。" alt="" coords="188,56,283,83"/>
+<area shape="rect" id="node3" href="$class_app.html#ae7492bec0ca8966dc5b5ceac6deb8242" title="標準入力を読み、各行を一つのテキストとして、索引に挿入する。" alt="" coords="5,5,140,32"/>
+</map>

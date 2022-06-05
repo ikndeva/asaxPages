@@ -1,5 +1,0 @@
-<map id="Node.DataWriter" name="Node.DataWriter">
-<area shape="rect" id="node1" title="データをメモリに書き出すノードのインタフェース．単なるマーカー．" alt="" coords="5,155,124,181"/>
-<area shape="rect" id="node2" href="$interfaceast_1_1_node.html" title=" " alt="" coords="38,80,91,107"/>
-<area shape="rect" id="node3" href="$interfaceformat_1_1_x_formattable.html" title="入れ子フォーマット出力可能なオブジェクトのインタフェース。" alt="" coords="15,5,115,32"/>
-</map>

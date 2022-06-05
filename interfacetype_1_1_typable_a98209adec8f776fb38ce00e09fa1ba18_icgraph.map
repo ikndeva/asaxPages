@@ -1,7 +1,0 @@
-<map id="children" name="children">
-<area shape="rect" id="node1" title=" " alt="" coords="913,5,980,32"/>
-<area shape="rect" id="node2" href="$classcompile_1_1_x_c_typing.html#a80651cdda8db27e9188475199327a13a" title="型付け手続き． 与えられたノードの出力型が親型typeItemParを持つよう部分式を型付けする." alt="" coords="687,5,865,32"/>
-<area shape="rect" id="node3" href="$classcompile_1_1_x_c_adapt.html#ad1145e0fffb4e52cb0f36d3ca6ac4c92" title="文脈ステップparStepのもとで与えられたクエリを変換したクエリを返す．" alt="" coords="459,5,639,32"/>
-<area shape="rect" id="node4" href="$classcompile_1_1_x_c_adapt.html#adb6c78cdd870364329efbacd0451f5d4" title="クエリのコード生成を行う．" alt="" coords="233,5,411,32"/>
-<area shape="rect" id="node5" href="$classcompile_1_1_x_compiler.html#a9a5b5de067fc28642be5e1f787527c21" title="入力ストリーム{is}から与えられたクエリをプログラムにコンパイルする." alt="" coords="5,5,185,32"/>
-</map>

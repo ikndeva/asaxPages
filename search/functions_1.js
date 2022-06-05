@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['_5fchildstring_1375',['_childString',['../classtype_1_1_arrow_type.html#ac91367eb161081d839105ecfb31994ba',1,'type::ArrowType']]],
-  ['_5fpush_5fentry_1376',['_push_entry',['../classutil_1_1_stack_base.html#a43e79abd6dbad7bc60422a3043912493',1,'util::StackBase']]],
-  ['_5freset_1377',['_reset',['../classpretty_1_1_buffered_text_writer.html#a27242f064d99d53cfe4a235e03d69bfc',1,'pretty::BufferedTextWriter']]]
+  ['beg_0',['beg',['../class_doc_set.html#add952bca210e9dcac99ca3c698064051',1,'DocSet']]],
+  ['block_5fclose_1',['block_close',['../class_yaml_buf_impl.html#a28c4fb263d84ce72960fe5ae5076ba0c',1,'YamlBufImpl']]],
+  ['block_5fopen_2',['block_open',['../class_yaml_buf_impl.html#a5da440eaf995966ba223daaba608afb8',1,'YamlBufImpl']]],
+  ['bufenv_3',['BufEnv',['../class_buf_env.html#a27f3562be92435810dbf8f06808c506e',1,'BufEnv::BufEnv()'],['../class_buf_env.html#adca6f5245ad8f1a1a1a27999ae5b8ec5',1,'BufEnv::BufEnv(BufEnv &amp;that)']]]
 ];

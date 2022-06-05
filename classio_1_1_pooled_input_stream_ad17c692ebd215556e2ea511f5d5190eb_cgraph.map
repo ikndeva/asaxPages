@@ -1,4 +1,0 @@
-<map id="getCharAt" name="getCharAt">
-<area shape="rect" id="node1" title="与えられた論理位置posに対して，バッファ中で論理位置posの文字を返す． もしバッファが論理位置posを含まないときは，EOFを返す．" alt="" coords="5,5,87,32"/>
-<area shape="rect" id="node2" href="$classio_1_1_pooled_input_stream.html#ab5632d167a39d12d408470f6116d312b" title="Check if the current input buffer contains the given position." alt="" coords="135,5,213,32"/>
-</map>

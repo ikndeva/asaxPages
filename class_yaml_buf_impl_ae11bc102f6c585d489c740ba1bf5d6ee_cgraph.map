@@ -1,0 +1,4 @@
+<map id="value" name="value">
+<area shape="rect" id="node1" title="末端要素を出力する。" alt="" coords="5,5,59,32"/>
+<area shape="rect" id="node2" href="$class_yaml_buf_impl.html#a3a1ddd36bfb42e0b539cdd2e8dc7ec77" title="末端要素を出力する。 文字列定数用。備考：C++の文字列リテラルは const char* で扱われる。" alt="" coords="107,5,149,32"/>
+</map>

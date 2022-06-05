@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['main_1613',['main',['../classutil_1_1_stack_base.html#a8b260eecbaabcef8473fd87ada040682',1,'util::StackBase']]],
-  ['makebackpatch_1614',['makeBackPatch',['../classcmd_1_1_cmd_list_1_1_back_patcher.html#a5433fb47fbe41a0aef635e9cffb2a5eb',1,'cmd::CmdList::BackPatcher']]],
-  ['masktointlist_1615',['maskToIntList',['../classmachine_1_1_long_mask.html#ae39b2c3bad4ea22386d4e33c323affa9',1,'machine::LongMask']]],
-  ['masktostring_1616',['maskToString',['../classmachine_1_1_long_mask.html#a9cfbb4f3d8d5a32c022ea278f0aacde7',1,'machine::LongMask']]],
-  ['match_1617',['Match',['../classapp_1_1_match.html#aecedd7beec4b24ddc9005049188de643',1,'app::Match']]],
-  ['matchxtype_1618',['matchXType',['../classtype_1_1_type_item.html#a48a65474712bbffae641cc67a70f8152',1,'type::TypeItem']]],
-  ['meet_1619',['meet',['../enumtype_1_1_x_type.html#a56bd5bc246f87ecc5987ec1cced2ca85',1,'type::XType']]]
+  ['tab_0',['tab',['../class_repo.html#afed273535e01505ba1f8b2afc923eba6',1,'Repo::tab()'],['../class_string_buf_impl.html#a13acc4cf6a0c3670f7c2dc98a50a11d4',1,'StringBufImpl::tab()']]],
+  ['terminal_1',['terminal',['../class_expr_buf_impl.html#ac5d5a9c6094840dfaedc7ece38e7ee69',1,'ExprBufImpl']]],
+  ['test_2',['test',['../class_level.html#a00f58ebaa844f8b8b5c1e2f1cce0e5ed',1,'Level']]],
+  ['tindex_3',['Tindex',['../class_tindex.html#a4e25fd8ae06ab6b7a9300c4034d2ee6b',1,'Tindex']]],
+  ['to_5fstring_4',['to_string',['../class_doc_set.html#aa454ec5a80b6918ee2a68181f2d14476',1,'DocSet']]],
+  ['total_5flength_5',['total_length',['../class_doc_set.html#a7ff456f4c94166c8a61dbf30ffee2472',1,'DocSet']]]
 ];

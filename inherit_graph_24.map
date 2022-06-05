@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classpretty_1_1_char_set.html" title="各種のビットマスクを用いて、文字種のテストを行うためのクラス." alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node1" href="$class_string_buf_impl.html" title=" " alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$class_string_buf.html" title="再帰的な多相型テンプレートを実現するためのStringBufImplクラスのラッパークラス．" alt="" coords="232,5,308,32"/>
 </map>

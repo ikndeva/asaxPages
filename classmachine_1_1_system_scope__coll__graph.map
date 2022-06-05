@@ -1,5 +1,0 @@
-<map id="SystemScope" name="SystemScope">
-<area shape="rect" id="node1" title="システム変数にアクセスするための読み出し専用スコープ．" alt="" coords="100,109,204,136"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_inspectable.html" title=" " alt="" coords="5,5,144,47"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_system_readable.html" title="システム変数の辞書を抽象化したインタフェース." alt="" coords="168,13,291,39"/>
-</map>

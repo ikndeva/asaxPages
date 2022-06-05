@@ -1,0 +1,8 @@
+<map id="str" name="str">
+<area shape="rect" id="node1" title="このノードの文字列表現を返す。" alt="" coords="492,81,531,108"/>
+<area shape="rect" id="node2" href="$class_s_tree.html#a716a1df2153162baa69b1758b63f3277" title=" " alt="" coords="291,5,441,32"/>
+<area shape="rect" id="node4" href="$class_s_tree.html#a548b638823b42469d76b7b91f7aa2594" title="refが指す点にある実ノードwを返す。もし点wが辺e上の仮想ノードなら、その辺eを二分割して、その場所wに実ノードを生成し、それを返す。" alt="" coords="151,56,240,83"/>
+<area shape="rect" id="node5" href="$class_s_tree.html#a0889c29da8788605202bb81bd220a229" title="ノード v の入り辺 (par =&gt; v) のラベル文字列を返す。" alt="" coords="288,107,444,133"/>
+<area shape="rect" id="node6" href="$class_s_tree.html#a100e9b6f7d5c5397e5e0b033b19d0ec1" title="現在までのテキスト" alt="" coords="316,157,416,184"/>
+<area shape="rect" id="node3" href="$class_s_tree.html#a19ebc75db6cbfc3809c9454c979e044f" title="索引構築の主手続き。" alt="" coords="5,31,103,57"/>
+</map>

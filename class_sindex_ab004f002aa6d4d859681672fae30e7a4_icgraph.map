@@ -1,0 +1,6 @@
+<map id="get_suf_label_string" name="get_suf_label_string">
+<area shape="rect" id="node1" title="ノード v のSlink (v =&gt; v&#45;&gt;suf) のラベル文字列を返す。" alt="" coords="427,35,565,61"/>
+<area shape="rect" id="node2" href="$class_dot_printer.html#ac2c4b8b805e198263030e4ebe058278e" title="dot形式で接尾辞リンクを記述する文字列を返す。" alt="" coords="228,35,379,61"/>
+<area shape="rect" id="node3" href="$class_dot_printer.html#a969310f29dd59db45a225128b64f3020" title=" " alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node4" href="$class_dot_printer_rev.html#a10f213d361cb612c82f016114464fc68" title=" " alt="" coords="23,57,162,98"/>
+</map>

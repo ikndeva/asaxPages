@@ -1,7 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_cmd_store.html" title=" " alt="" coords="5,81,87,108"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_boolean_1_1_cmd_bool_store.html" title="整数変数にスタックトップの整数を代入する．" alt="" coords="135,5,353,32"/>
-<area shape="rect" id="node3" href="$classcmd_1_1_command_double_1_1_cmd_dbl_store.html" title="倍精度実数変数にスタックトップの倍精度実数を代入する．" alt="" coords="141,56,347,83"/>
-<area shape="rect" id="node4" href="$classcmd_1_1_command_integer_1_1_cmd_int_store.html" title="整数変数にスタックトップの整数を代入する．" alt="" coords="145,107,343,133"/>
-<area shape="rect" id="node5" href="$classcmd_1_1_command_string_1_1_cmd_str_store.html" title="文字列変数にスタックトップの文字列を代入する．" alt="" coords="146,157,342,184"/>
+<area shape="rect" id="node1" href="$class_suf_printable.html" title=" " alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$class_map_edge_node.html" title="辺ベースのグラフ索引のノードの実装クラス。" alt="" coords="256,31,364,57"/>
+<area shape="rect" id="node3" href="$class_map_master_edge_node.html" title=" " alt="" coords="412,31,560,57"/>
+<area shape="rect" id="node4" href="$class_visitable.html" title=" " alt="" coords="15,56,198,83"/>
 </map>

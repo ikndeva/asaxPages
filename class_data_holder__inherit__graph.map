@@ -1,8 +1,0 @@
-<map id="DataHolder" name="DataHolder">
-<area shape="rect" id="node1" title=" " alt="" coords="5,143,93,170"/>
-<area shape="rect" id="node2" href="$classframe_1_1_boolean_holder.html" title="整数を保持するオブジェクト。" alt="" coords="141,5,312,47"/>
-<area shape="rect" id="node3" href="$classframe_1_1_double_holder.html" title="倍精度浮動小数点数を保持するオブジェクト。" alt="" coords="147,71,306,112"/>
-<area shape="rect" id="node4" href="$classframe_1_1_integer_holder.html" title="整数を保持するオブジェクト。" alt="" coords="149,136,304,177"/>
-<area shape="rect" id="node5" href="$classframe_1_1_o_stream_holder.html" title="書き込み限定（write only）の文字列出力ストリームオブジェクト．標準出力へ書き出す．" alt="" coords="145,201,308,243"/>
-<area shape="rect" id="node6" href="$classframe_1_1_string_holder.html" title="追記可能な文字列バッファ型値を格納するオブジェクト。" alt="" coords="155,267,299,308"/>
-</map>

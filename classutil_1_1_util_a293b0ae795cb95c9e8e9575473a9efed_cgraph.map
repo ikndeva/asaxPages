@@ -1,4 +1,0 @@
-<map id="trimEndsWhitespaces" name="trimEndsWhitespaces">
-<area shape="rect" id="node1" title="両端の連続した空白と改行文字を除去する．" alt="" coords="5,5,156,32"/>
-<area shape="rect" id="node2" href="$classutil_1_1_util.html#a47cf54e53fcc2e02e8f7c6c1fcd3e141" title="文字列の左端に指定した接頭辞 gomi が現れていたら、それを除去したコピーを返す。" alt="" coords="204,5,393,32"/>
-</map>

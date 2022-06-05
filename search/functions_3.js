@@ -1,14 +1,13 @@
 var searchData=
 [
-  ['bitsbuf_1414',['BitsBuf',['../classutil_1_1_bits_buf.html#a350e38a1679c7d644899f0d966cc129c',1,'util.BitsBuf.BitsBuf()'],['../classutil_1_1_bits_buf.html#af57b2b24557ddb7eef8649f4d4614582',1,'util.BitsBuf.BitsBuf(int min_width)']]],
-  ['bitsbuflong_1415',['BitsBufLong',['../classutil_1_1_bits_buf_long.html#a9581f8f5333313828d0196a48bd5d3ea',1,'util.BitsBufLong.BitsBufLong()'],['../classutil_1_1_bits_buf_long.html#a6cc32e4a84315c79130699cf8b1b494c',1,'util.BitsBufLong.BitsBufLong(int min_width)']]],
-  ['bitwidth_1416',['bitWidth',['../classutil_1_1_bits_buf.html#a63ddfb3e222166a31c85ca3471e2d12e',1,'util.BitsBuf.bitWidth()'],['../classutil_1_1_bits_buf_long.html#a6d2b09ee3c0b453a04a5ff5681e8e30f',1,'util.BitsBufLong.bitWidth()']]],
-  ['bitwidthpower_1417',['bitWidthPower',['../classutil_1_1_bits_buf.html#a4f27bcc2f6f2560532ad28a62ab07d1d',1,'util.BitsBuf.bitWidthPower()'],['../classutil_1_1_bits_buf_long.html#a38e5104af158777c8435a5d8b9cff529',1,'util.BitsBufLong.bitWidthPower()']]],
-  ['block_1418',['Block',['../classast_1_1_block.html#a2984b94d5f2257fce95dfc75fbcfdd90',1,'ast.Block.Block()'],['../classast_1_1_block.html#ab8d1a4956ec477ab475bff9518d8e84d',1,'ast.Block.Block(Block that)']]],
-  ['blockbase_1419',['BlockBase',['../classast_1_1_block_base.html#a63073381198018c549ebd77b717722af',1,'ast.BlockBase.BlockBase()'],['../classast_1_1_block_base.html#a8c9e7ac15be936adaabbf137bb0f1b14',1,'ast.BlockBase.BlockBase(BlockBase that)']]],
-  ['boolean_5fform_1420',['boolean_form',['../classutil_1_1_util.html#aa05a89af5ae849e0a88c1fa035558d9f',1,'util::Util']]],
-  ['booleanholder_1421',['BooleanHolder',['../classframe_1_1_boolean_holder.html#adedd554f2ea164e3e2c88d14010c5e51',1,'frame::BooleanHolder']]],
-  ['buf_1422',['buf',['../interfaceformat_1_1_node_formattable.html#aea5817bf5fa77af7e7cd818692bc9444',1,'format.NodeFormattable.buf()'],['../classformat_1_1_node_formatter.html#aea5817bf5fa77af7e7cd818692bc9444',1,'format.NodeFormatter.buf()']]],
-  ['bufferedtextwriter_1423',['BufferedTextWriter',['../classpretty_1_1_buffered_text_writer.html#a2d8a776772345a2a7c07560e0fc8df7e',1,'pretty.BufferedTextWriter.BufferedTextWriter()'],['../classpretty_1_1_buffered_text_writer.html#a7c5af8393dc9bcd922c650b08475f7d5',1,'pretty.BufferedTextWriter.BufferedTextWriter(int bufsize)']]],
-  ['bytepair2short_1424',['bytepair2short',['../classutil_1_1_code.html#a9ff074c73499b7e7aafe92bd2872ec35',1,'util::Code']]]
+  ['depth_0',['depth',['../class_string_buf_impl.html#acf8e2f791de955ccde3115b485b94dc9',1,'StringBufImpl']]],
+  ['doc_5fbeg_1',['doc_beg',['../class_doc_set.html#a663b38cbdc4d4afa5aa07a85895be279',1,'DocSet']]],
+  ['doc_5fend_2',['doc_end',['../class_doc_set.html#a26394991b67a6a0314873c4ca4ce1e25',1,'DocSet']]],
+  ['docset_3',['DocSet',['../class_doc_set.html#a954dee84d79f9db968a3c550b6836e2b',1,'DocSet']]],
+  ['dot_5fheader_5fall_4',['dot_header_all',['../class_dot_printer_impl.html#a31bf81f005b441e62a1c38f5b2a1712f',1,'DotPrinterImpl']]],
+  ['dot_5fheader_5fedge_5',['dot_header_edge',['../class_dot_printer_impl.html#ab3d64b7bdbefb4be8a842b180f0af78b',1,'DotPrinterImpl']]],
+  ['dot_5fheader_5fgraph_6',['dot_header_graph',['../class_dot_printer_impl.html#aa650566f8032caf9bbfc2f7f232299e1',1,'DotPrinterImpl']]],
+  ['dot_5fheader_5fnode_7',['dot_header_node',['../class_dot_printer_impl.html#aded1236839ef28fabd3d7a84d6e16dd2',1,'DotPrinterImpl']]],
+  ['dot_5ftrailer_5fall_8',['dot_trailer_all',['../class_dot_printer_impl.html#a0b9f05013f0f028c0e21e07c33259a19',1,'DotPrinterImpl']]],
+  ['dump_5fto_5fstring_9',['dump_to_string',['../class_doc_set.html#a79a60cbf162eca015dd8101df636ec99',1,'DocSet::dump_to_string()'],['../class_doc_set.html#ac1f591258b2ecc93bcda8b280629f303',1,'DocSet::dump_to_string(int gbeg, int gend)']]]
 ];

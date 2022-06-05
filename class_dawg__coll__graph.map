@@ -1,0 +1,6 @@
+<map id="Dawg" name="Dawg">
+<area shape="rect" id="node1" title="DAWG（directed acyclic word graph）によるテキスト索引のクラス。" alt="" coords="49,260,105,287"/>
+<area shape="rect" id="node2" href="$class_tindex.html" title=" " alt="" coords="75,184,246,211"/>
+<area shape="rect" id="node3" href="$class_sindex.html" title=" " alt="" coords="76,95,248,121"/>
+<area shape="rect" id="node4" href="$class_map_edge_node.html" title="辺ベースのグラフ索引のノードの実装クラス。" alt="" coords="5,5,113,32"/>
+</map>

@@ -1,29 +1,7 @@
 var searchData=
 [
-  ['factory_348',['Factory',['../interfaceevent_1_1_event_readable_1_1_factory.html',1,'event::EventReadable']]],
-  ['fetch_349',['fetch',['../classmachine_1_1_var_table.html#ad7def6dbf6114739cdc50620b3af8015',1,'machine::VarTable']]],
-  ['fetchbooleanholder_350',['fetchBooleanHolder',['../interfacemachine_1_1_frame_stackable.html#ad115983756ebf37cb4541323bb500f58',1,'machine.FrameStackable.fetchBooleanHolder()'],['../classframe_1_1_frame_stack_uni.html#ad115983756ebf37cb4541323bb500f58',1,'frame.FrameStackUni.fetchBooleanHolder()']]],
-  ['fetchdoubleholder_351',['fetchDoubleHolder',['../interfacemachine_1_1_frame_stackable.html#a044e14a4aace8751c934473c9f3f3c0b',1,'machine.FrameStackable.fetchDoubleHolder()'],['../classframe_1_1_frame_stack_uni.html#a044e14a4aace8751c934473c9f3f3c0b',1,'frame.FrameStackUni.fetchDoubleHolder()']]],
-  ['fetchentry_352',['fetchEntry',['../interfacemachine_1_1_frame_stackable.html#a05cc81c7b4ccfda2a536f0c9b7af4e8b',1,'machine.FrameStackable.fetchEntry()'],['../classframe_1_1_frame_stack_uni.html#a05cc81c7b4ccfda2a536f0c9b7af4e8b',1,'frame.FrameStackUni.fetchEntry()']]],
-  ['fetchinputstream_353',['fetchInputStream',['../classmachine_1_1_input_manager.html#a189ca4a6f1b871b5b22aedb325350d18',1,'machine.InputManager.fetchInputStream()'],['../interfacemachine_1_1_context.html#ac7e8e4933b2f1c62af5bf79d2f199cbd',1,'machine.Context.fetchInputStream()'],['../interfacemachine_1_1_input_manageable.html#a189ca4a6f1b871b5b22aedb325350d18',1,'machine.InputManageable.fetchInputStream()'],['../classmachine_1_1_x_machine.html#a189ca4a6f1b871b5b22aedb325350d18',1,'machine.XMachine.fetchInputStream()']]],
-  ['fetchintegerholder_354',['fetchIntegerHolder',['../classframe_1_1_frame_stack_uni.html#a0d179bee2c2a63bd7f49f8f2494f9c97',1,'frame.FrameStackUni.fetchIntegerHolder()'],['../interfacemachine_1_1_frame_stackable.html#a0d179bee2c2a63bd7f49f8f2494f9c97',1,'machine.FrameStackable.fetchIntegerHolder()']]],
-  ['fetchstringholder_355',['fetchStringHolder',['../classframe_1_1_frame_stack_uni.html#a23824a7fbc3f712377edcf8c3ab252c1',1,'frame.FrameStackUni.fetchStringHolder()'],['../interfacemachine_1_1_frame_stackable.html#a23824a7fbc3f712377edcf8c3ab252c1',1,'machine.FrameStackable.fetchStringHolder()']]],
-  ['fieldinspectable_356',['FieldInspectable',['../interfaceutil_1_1_field_inspectable.html',1,'util']]],
-  ['fieldinspectable_2ejava_357',['FieldInspectable.java',['../_field_inspectable_8java.html',1,'']]],
-  ['find_358',['find',['../classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985',1,'type::UnionFindItem']]],
-  ['flag_5fset_5fbg_359',['FLAG_SET_BG',['../classpretty_1_1_char_set.html#acb067142c14fab52caa74d0ce9cb2e2e',1,'pretty::CharSet']]],
-  ['flag_5fset_5ffg_360',['FLAG_SET_FG',['../classpretty_1_1_char_set.html#a11c7da6d27f8043e709aa9e8c4c7d0fd',1,'pretty::CharSet']]],
-  ['flag_5fwidth_361',['FLAG_WIDTH',['../enumtype_1_1_x_type.html#a550769d1c0d39dc0856e8ef151fa14a4',1,'type::XType']]],
-  ['flatten_362',['flatten',['../classcompile_1_1_x_c_flat.html#ac7e5b6769d875e1767039c9844e71f3c',1,'compile::XCFlat']]],
-  ['fold_363',['fold',['../classpretty_1_1_par.html#a456995a9a16a70cd40d17dfd28d3e867',1,'pretty.Par.fold()'],['../classpretty_1_1_par_stream.html#a456995a9a16a70cd40d17dfd28d3e867',1,'pretty.ParStream.fold()']]],
-  ['forcedtype_364',['forcedType',['../classtype_1_1_arrow_type.html#ab74d85cdb0f121d38f9b2de9dcc353c2',1,'type::ArrowType']]],
-  ['format_365',['format',['../namespaceformat.html',1,'']]],
-  ['fpstack_366',['fpStack',['../classmachine_1_1_o_v_machine.html#a42a65e4fc038ca90cd3fb850f4d6f842',1,'machine::OVMachine']]],
-  ['frame_367',['frame',['../namespaceframe.html',1,'']]],
-  ['framestackable_368',['FrameStackable',['../interfacemachine_1_1_frame_stackable.html',1,'machine']]],
-  ['framestackable_2ejava_369',['FrameStackable.java',['../_frame_stackable_8java.html',1,'']]],
-  ['framestackuni_370',['FrameStackUni',['../classframe_1_1_frame_stack_uni.html',1,'FrameStackUni'],['../classframe_1_1_frame_stack_uni.html#ab11e9cacef4dadfb8c18d672ae8bc6f8',1,'frame.FrameStackUni.FrameStackUni()']]],
-  ['framestackuni_2ejava_371',['FrameStackUni.java',['../_frame_stack_uni_8java.html',1,'']]],
-  ['frametostring_372',['frameToString',['../classframe_1_1_frame_stack_uni.html#a2642133c8586f59378e1bc16c614af68',1,'frame.FrameStackUni.frameToString()'],['../interfacemachine_1_1_frame_stackable.html#a2642133c8586f59378e1bc16c614af68',1,'machine.FrameStackable.frameToString()']]],
-  ['funid_5f_373',['funid_',['../classast_1_1_step.html#a2ad36227cd41f809f487e5c2fd99ba0d',1,'ast::Step']]]
+  ['h_0',['H',['../class_dot_printer_impl.html#a689f209b92e85781cc73e571c7d21518',1,'DotPrinterImpl']]],
+  ['has_5fenv_1',['has_env',['../class_reusable_stack.html#a2ddc579c5a4b153ba739b95ccd629d4d',1,'ReusableStack']]],
+  ['has_5flast_5fenv_2',['has_last_env',['../class_reusable_stack.html#a1e7081b81f84a3069b61a360e70faba5',1,'ReusableStack']]],
+  ['headerfile_3',['headerFile',['../class_dot_printer_impl.html#ab86ad55ff420587e9040f1971adb905e',1,'DotPrinterImpl']]]
 ];

@@ -1,0 +1,5 @@
+<map id="put_primary" name="put_primary">
+<area shape="rect" id="node1" title="ノードのch&#45;辺をプライマリに設定する。" alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node2" href="$class_level.html#a00f58ebaa844f8b8b5c1e2f1cce0e5ed" title="現在のトレースレベルが引数以上ならば真になる述語。述語LEVELに同じ。" alt="" coords="144,5,227,32"/>
+<area shape="rect" id="node3" href="$class_level.html#aef6d042b2367206e14cb8acfc6734d16" title="現在のトレースレベルが引数以上ならば真になる述語。" alt="" coords="275,5,377,32"/>
+</map>

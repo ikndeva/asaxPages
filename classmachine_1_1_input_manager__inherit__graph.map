@@ -1,4 +1,0 @@
-<map id="InputManager" name="InputManager">
-<area shape="rect" id="node1" title="入力ストリームの管理者．" alt="" coords="15,80,117,107"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_input_manageable.html" title="入力ストリーム管理のインタフェース" alt="" coords="5,5,127,32"/>
-</map>

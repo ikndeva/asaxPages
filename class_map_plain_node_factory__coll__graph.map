@@ -1,0 +1,5 @@
+<map id="MapPlainNodeFactory" name="MapPlainNodeFactory">
+<area shape="rect" id="node1" title=" " alt="" coords="33,171,184,197"/>
+<area shape="rect" id="node2" href="$class_node_factory.html" title=" " alt="" coords="5,95,212,121"/>
+<area shape="rect" id="node3" href="$class_yaml_buf.html" title="再帰的な多相型テンプレートを実現するためのExprBufImplクラスのラッパークラス．" alt="" coords="73,5,144,32"/>
+</map>

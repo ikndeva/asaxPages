@@ -1,8 +1,0 @@
-<map id="TypeItem" name="TypeItem">
-<area shape="rect" id="node1" title="XTypeの値型をもち単一化を行う型アイテムのクラス．" alt="" coords="159,213,235,240"/>
-<area shape="rect" id="node2" href="$enumtype_1_1_x_type.html" title="式がもつ値の型のクラス．Kotlin言語の型システムを参考にしている． 次の型をもつ．" alt="" coords="92,124,151,151"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,5,61,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="102,5,141,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="219,5,266,32"/>
-<area shape="rect" id="node6" href="$classtype_1_1_union_find_item.html" title=" " alt="" coords="175,124,372,151"/>
-</map>

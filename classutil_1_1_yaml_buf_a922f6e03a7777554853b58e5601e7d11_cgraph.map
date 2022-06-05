@@ -1,6 +1,0 @@
-<map id="addString" name="addString">
-<area shape="rect" id="node1" title="配列モードで、文字列valueを正しい段下げで，区切り記号を挿入しながら，バッファに追加する。" alt="" coords="5,43,83,69"/>
-<area shape="rect" id="node2" href="$classutil_1_1_yaml_buf.html#af9b731bd7e5760374c78d4aef4140df0" title="YamlBufで作成済みの入れ子文字列を、正しく段下げしながらバッファに追加する基本手続き．文字列を段下げしながらそのまま挿入し，区切り記号は挿入しない．" alt="" coords="131,43,247,69"/>
-<area shape="rect" id="node3" href="$classutil_1_1_yaml_buf.html#aacd032b1cd9731ed0d608fb2ba029379" title="タグnameと整数値valueの対をバッファに追加する" alt="" coords="295,5,337,32"/>
-<area shape="rect" id="node4" href="$classutil_1_1_yaml_buf.html#abb9a0f5723e48d12790f370d16ec068a" title="改行する" alt="" coords="297,80,335,107"/>
-</map>

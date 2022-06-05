@@ -1,0 +1,5 @@
+<map id="create_a_node" name="create_a_node">
+<area shape="rect" id="node1" title=" " alt="" coords="203,5,309,32"/>
+<area shape="rect" id="node2" href="$class_s_tree.html#a19ebc75db6cbfc3809c9454c979e044f" title="索引構築の主手続き。" alt="" coords="5,5,60,32"/>
+<area shape="rect" id="node3" href="$class_s_tree.html#a548b638823b42469d76b7b91f7aa2594" title="refが指す点にある実ノードwを返す。もし点wが辺e上の仮想ノードなら、その辺eを二分割して、その場所wに実ノードを生成し、それを返す。" alt="" coords="108,31,155,57"/>
+</map>

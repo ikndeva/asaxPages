@@ -1,0 +1,5 @@
+<map id="insert" name="insert">
+<area shape="rect" id="node1" title="索引に文字列を挿入する。" alt="" coords="307,5,361,32"/>
+<area shape="rect" id="node2" href="$class_app.html#ae7492bec0ca8966dc5b5ceac6deb8242" title="標準入力を読み、各行を一つのテキストとして、索引に挿入する。" alt="" coords="124,5,259,32"/>
+<area shape="rect" id="node3" href="$class_app.html#a498662fc68e812638771a38fe4856bd7" title="入力テキストから索引のグラフを構築する。" alt="" coords="5,5,76,32"/>
+</map>

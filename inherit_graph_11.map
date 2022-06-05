@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classparse_1_1_ast_node_factory.html" title="各TASK種のParserRuleContext型のノードに対して、対応するクラスのASTノードを生成するファクトリ手続き．" alt="" coords="5,5,123,32"/>
+<area shape="rect" id="node1" href="$class_node_factory.html" title=" " alt="" coords="5,5,213,32"/>
+<area shape="rect" id="node2" href="$class_map_label_node_factory.html" title=" " alt="" coords="261,5,415,32"/>
 </map>

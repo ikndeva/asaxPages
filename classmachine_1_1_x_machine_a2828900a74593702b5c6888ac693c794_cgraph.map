@@ -1,6 +1,0 @@
-<map id="scanFromSource" name="scanFromSource">
-<area shape="rect" id="node1" title="根クエリrootIDのもとで、与えられた入力ストリームを走査する。" alt="" coords="5,71,127,98"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_input_manageable.html#a60f45cbb5ec87bf072e44a7edbf88a26" title="入力ストリームからイベントストリームを生成する。" alt="" coords="175,5,389,47"/>
-<area shape="rect" id="node3" href="$interfacemachine_1_1_runnable.html#a9424838efab9e789bf3a32b11f44deac" title="文字マスク索引オブジェクトを返す。" alt="" coords="175,71,389,98"/>
-<area shape="rect" id="node4" href="$interfaceevent_1_1_event.html#a924f80dc9f50bcdeea9e2d11afb8e04e" title="イベントのタイプを返す。" alt="" coords="221,122,343,149"/>
-</map>

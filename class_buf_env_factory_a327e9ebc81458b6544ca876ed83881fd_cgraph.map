@@ -1,0 +1,4 @@
+<map id="reset" name="reset">
+<area shape="rect" id="node1" title="型変数 S のメモリオブジェクトを初期化する。初期化の際には、以前の情報が残らないようにする(memory&#45;free)。" alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node2" href="$class_buf_env.html#a25a40b6614565f755233080a384c35f1" title="初期化する。" alt="" coords="104,5,224,32"/>
+</map>

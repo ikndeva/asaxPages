@@ -1,5 +1,0 @@
-<map id="typ" name="typ">
-<area shape="rect" id="node1" title="データ型を返す．" alt="" coords="5,29,45,56"/>
-<area shape="rect" id="node2" href="$classtype_1_1_type_item.html#ab2779590ca497b3e0b72a642b69a4c9a" title="この型アイテムthisがもつ値型XTypeを返す。" alt="" coords="93,29,235,56"/>
-<area shape="rect" id="node3" href="$classtype_1_1_union_find_item.html#a9389ec55354a215f76de769c1e149985" title="与えられた元が属する同値類の代表元を返す。" alt="" coords="283,29,444,56"/>
-</map>

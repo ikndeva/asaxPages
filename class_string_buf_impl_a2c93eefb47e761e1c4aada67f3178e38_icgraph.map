@@ -1,0 +1,7 @@
+<map id="nl" name="nl">
+<area shape="rect" id="node1" title="改行を追加する. フラグto_lineが真ならば改行しない、そうでなければ空白を出力する. カスケードスタイルの呼び出し。" alt="" coords="265,56,304,83"/>
+<area shape="rect" id="node2" href="$class_string_buf_impl.html#a615ccd723733653b9e6a2d72563f1cab" title="バッファが表す文字列を返す。 カスケードスタイルではないことに注意。カスケード呼び出しの末端で用いる。" alt="" coords="179,56,217,83"/>
+<area shape="rect" id="node3" href="$class_string_buf_impl.html#a4ad53129f9e33ea9c8928cef2f578618" title="バッファの末尾にstringクラスオブジェクト val の文字列表現を追加する." alt="" coords="47,5,89,32"/>
+<area shape="rect" id="node4" href="$class_yaml_buf_impl.html#a4ad53129f9e33ea9c8928cef2f578618" title="バッファの末尾にint val の文字列表現を追加する." alt="" coords="5,56,131,83"/>
+<area shape="rect" id="node5" href="$class_string_buf_impl.html#a4e8fe675903275f22b8adab418701fe6" title="文字列を追加する。 カスケードスタイルの呼び出し。" alt="" coords="49,107,87,133"/>
+</map>

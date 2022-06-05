@@ -1,0 +1,6 @@
+<map id="generate" name="generate">
+<area shape="rect" id="node1" title="型変数 S のメモリオブジェクトを生成する。" alt="" coords="520,31,592,57"/>
+<area shape="rect" id="node2" href="$class_reusable_stack.html#afc83463b28590258e734220f6cafdbfb" title="メモリスタックが少なくとも容量 maxlen をもつように保証する。足りない場合は、追加のメモリオブジェクトを生成して、容量を確保する。" alt="" coords="261,31,472,57"/>
+<area shape="rect" id="node3" href="$class_reusable_stack.html#a98b45e0a7ed122b6710df00209b67827" title="メモリスタックの最上部に新しく初期化されたメモリオブジェクトを積み、レベルを一つ高くする。メモリオブジェクトは再利用されることに注意。" alt="" coords="36,5,183,32"/>
+<area shape="rect" id="node4" href="$class_reusable_stack.html#a299039e4f2d64e270d3ee44299c3e2c7" title="初期容量 maxlen をもつスタックを生成する。" alt="" coords="5,56,213,83"/>
+</map>

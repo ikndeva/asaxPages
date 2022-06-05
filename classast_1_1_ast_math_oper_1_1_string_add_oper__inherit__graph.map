@@ -1,9 +1,0 @@
-<map id="AstMathOper.StringAddOper" name="AstMathOper.StringAddOper">
-<area shape="rect" id="node1" title=" " alt="" coords="150,379,337,405"/>
-<area shape="rect" id="node2" href="$classast_1_1_ast_math_oper_1_1_binary_oper.html" title="end of class AstMathOper" alt="" coords="100,304,267,331"/>
-<area shape="rect" id="node3" href="$classast_1_1_ast_math_oper.html" title="値を返すことができるノードのクラス．一般に1個以上の子をもつ演算子である．" alt="" coords="134,229,233,256"/>
-<area shape="rect" id="node4" href="$classast_1_1_ast_oper.html" title=" " alt="" coords="148,155,219,181"/>
-<area shape="rect" id="node5" href="$classast_1_1_ast_node.html" title="タグなしの順アクセスの子供をもてる抽象構文木のノードのクラス。" alt="" coords="5,80,79,107"/>
-<area shape="rect" id="node6" href="$interfacecmd_1_1_generatable_1_1_evaluatable.html" title="評価して値を返すノードのインタフェース．必ずしもコードを生成しなくても良い．" alt="" coords="103,80,267,107"/>
-<area shape="rect" id="node7" href="$interfacecmd_1_1_generatable.html" title="変換してコードを生成できるノードのインタフェース." alt="" coords="199,5,291,32"/>
-</map>

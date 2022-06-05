@@ -1,5 +1,0 @@
-<map id="emitEventEOF" name="emitEventEOF">
-<area shape="rect" id="node1" title="EOFイベントを送出する．" alt="" coords="517,13,625,39"/>
-<area shape="rect" id="node2" href="$classevent_1_1asax_1_1_asax_event_reader.html#a1c3e36047f9c1f923a67d3c0b5483d0f" title="次のAsaxイベントを返す．" alt="" coords="252,5,469,47"/>
-<area shape="rect" id="node3" href="$classevent_1_1asax_1_1_asax_event_reader_1_1_asax_event_iterator.html#aface30febb89dafb3fe3ea57f1ca1e3b" title="次の要素であるイベントを返す．終端に達したときはEOS型のイベントを返す．" alt="" coords="5,5,204,47"/>
-</map>

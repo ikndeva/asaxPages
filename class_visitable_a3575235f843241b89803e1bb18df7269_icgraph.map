@@ -1,0 +1,4 @@
+<map id="get_primary" name="get_primary">
+<area shape="rect" id="node1" title="ノードのch&#45;辺がプライマリかどうかを返す述語。" alt="" coords="149,5,240,32"/>
+<area shape="rect" id="node2" href="$class_dawg.html#a19ebc75db6cbfc3809c9454c979e044f" title="索引構築の主手続き。" alt="" coords="5,5,101,32"/>
+</map>

@@ -1,5 +1,0 @@
-<map id="add" name="add">
-<area shape="rect" id="node1" title="内容の末尾に与えられた文字列を追加し，自分自身を返す。" alt="" coords="248,42,291,69"/>
-<area shape="rect" id="node2" href="$classcmd_1_1_command_string_1_1_cmd_str_store.html#aed930e84d9417830c38fbb0917e1c58a" title="イベントevから要素テキストを読み出す．" alt="" coords="5,5,200,47"/>
-<area shape="rect" id="node3" href="$classframe_1_1_string_holder.html#ae9097650b1fb7f44df165868dca65cc8" title="与えられた値を内容に設定し、自分自身を返す。古い値は上書きされる。" alt="" coords="83,71,123,98"/>
-</map>

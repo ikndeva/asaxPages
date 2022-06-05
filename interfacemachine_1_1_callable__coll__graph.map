@@ -1,4 +1,0 @@
-<map id="Callable" name="Callable">
-<area shape="rect" id="node1" title="無名関数（実行可能ルール）のインタフェース." alt="" coords="10,80,79,107"/>
-<area shape="rect" id="node2" href="$interfacemachine_1_1_blockable.html" title="局所変数をもつ実行可能コードのインタフェース." alt="" coords="5,5,84,32"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="EventBase" name="EventBase">
-<area shape="rect" id="node1" title="EventReadable が構文解析中に返す構文解析イベントを表すクラス。" alt="" coords="28,289,115,316"/>
-<area shape="rect" id="node2" href="$interfaceevent_1_1_event.html" title="構文解析イベントを表すインタフェース。" alt="" coords="43,199,99,225"/>
-<area shape="rect" id="node3" href="$interfaceevent_1_1_actable.html" title="EventReadable が構文解析中に返すオブジェクトのインタフェース" alt="" coords="41,95,107,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,5,44,32"/>
-<area shape="rect" id="node5" title=" " alt="" coords="123,199,190,225"/>
-</map>

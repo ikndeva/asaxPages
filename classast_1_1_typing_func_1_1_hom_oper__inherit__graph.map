@@ -1,6 +1,0 @@
-<map id="TypingFunc.HomOper" name="TypingFunc.HomOper">
-<area shape="rect" id="node1" title="親と子を単一化し，すべての子も単一化する． 具体型A上の二項演算 op : A x A &#45;&gt; Aを想定する．" alt="" coords="93,155,243,181"/>
-<area shape="rect" id="node2" href="$classast_1_1_typing_func_1_1_hom_basic.html" title="型付け関数： 最汎関数型 親は型xtSelfを，子はxtChildをもつ． ただし，親および，すべての子は互いに単一化しない． 型項 xtChild:t1 x ....." alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="14,5,151,32"/>
-<area shape="rect" id="node4" title=" " alt="" coords="185,80,322,107"/>
-</map>

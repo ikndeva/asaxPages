@@ -1,0 +1,5 @@
+<map id="put" name="put">
+<area shape="rect" id="node1" title="文字 ch に対して、与えられたノード vをこのノードのc&#45;子ノードとする。" alt="" coords="5,5,45,32"/>
+<area shape="rect" id="node2" href="$class_level.html#a00f58ebaa844f8b8b5c1e2f1cce0e5ed" title="現在のトレースレベルが引数以上ならば真になる述語。述語LEVELに同じ。" alt="" coords="93,5,176,32"/>
+<area shape="rect" id="node3" href="$class_level.html#aef6d042b2367206e14cb8acfc6734d16" title="現在のトレースレベルが引数以上ならば真になる述語。" alt="" coords="224,5,327,32"/>
+</map>

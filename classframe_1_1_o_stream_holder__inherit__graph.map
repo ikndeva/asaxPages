@@ -1,4 +1,0 @@
-<map id="OStreamHolder" name="OStreamHolder">
-<area shape="rect" id="node1" title="書き込み限定（write only）の文字列出力ストリームオブジェクト．標準出力へ書き出す．" alt="" coords="19,95,131,121"/>
-<area shape="rect" id="node2" href="$class_data_holder.html" title=" " alt="" coords="5,5,144,47"/>
-</map>
