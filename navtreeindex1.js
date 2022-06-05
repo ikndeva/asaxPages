@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"class_sindex.html#af7062cf7717b9c903f41ed00b35dff55":[1,0,29,12],
 "class_stat_value.html":[1,0,30],
 "class_string_buf.html":[1,0,34],
 "class_string_buf_impl.html":[1,0,35],
@@ -127,8 +128,8 @@ var NAVTREEINDEX1 =
 "functions_e.html":[1,3,0,5],
 "functions_enum.html":[1,3,3],
 "functions_f.html":[1,3,0,6],
-"functions_func.html":[1,3,1],
 "functions_func.html":[1,3,1,0],
+"functions_func.html":[1,3,1],
 "functions_func_b.html":[1,3,1,1],
 "functions_func_c.html":[1,3,1,2],
 "functions_func_d.html":[1,3,1,3],

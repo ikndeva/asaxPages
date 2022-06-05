@@ -6,12 +6,13 @@ var searchData=
   ['children_3',['children',['../class_visitable.html#a76552e3ac7400758ae46f10af3d43e59',1,'Visitable']]],
   ['clear_4',['clear',['../class_string_buf_impl.html#aca12720e1c52617b1ff1acd0adee4f1d',1,'StringBufImpl']]],
   ['clear_5fprimary_5',['clear_primary',['../class_visitable.html#a1fb7044c1e2d960fb2178f6978a75486',1,'Visitable']]],
-  ['close_6',['close',['../class_expr_buf_impl.html#af90b78fd1de5ea9d9d109d61165cea97',1,'ExprBufImpl']]],
-  ['collect_5fdepth_7',['collect_depth',['../class_dot_printer_impl.html#a0c0a8a2e316ba83847b60cbb4c489c94',1,'DotPrinterImpl']]],
-  ['color_8',['color',['../class_style_pen.html#a286458e87b84711bd8f3d7d803aafcf1',1,'StylePen']]],
-  ['compute_5fdepth_9',['compute_depth',['../class_dot_printer_rev.html#a0380fe9f4b79f719b66cff2eb94b01d5',1,'DotPrinterRev']]],
-  ['compute_5fdepth_5frec_10',['compute_depth_rec',['../class_dot_printer.html#a1fa1d92b67539093a01fe47a279abfae',1,'DotPrinter']]],
-  ['copy_11',['copy',['../class_buf_env.html#af4d21918e85879b471b297f1cff700f0',1,'BufEnv::copy()'],['../class_level.html#ab4a2ebb6ab169ecefe21f0c0450f871c',1,'Level::copy()']]],
-  ['create_5fa_5fnode_12',['create_a_node',['../class_s_tree.html#a716a1df2153162baa69b1758b63f3277',1,'STree']]],
-  ['create_5fmaster_5fnode_13',['create_master_node',['../class_map_edge_node_factory.html#a3ce63f835e569e316204e9440dbae672',1,'MapEdgeNodeFactory::create_master_node()'],['../class_map_label_node_factory.html#a7976048ced5a65c4fade9e89a67fd99d',1,'MapLabelNodeFactory::create_master_node()'],['../class_map_plain_node_factory.html#a17a9ed45df5db4e576327ac6f9b178fb',1,'MapPlainNodeFactory::create_master_node()'],['../class_node_factory.html#a9210b0bd0c4f5520fad7c790544fd1fc',1,'NodeFactory::create_master_node()']]]
+  ['clone_6',['clone',['../class_dawg.html#a63602a7b6f1350be4bfcf55a98224940',1,'Dawg']]],
+  ['close_7',['close',['../class_expr_buf_impl.html#af90b78fd1de5ea9d9d109d61165cea97',1,'ExprBufImpl']]],
+  ['collect_5fdepth_8',['collect_depth',['../class_dot_printer_impl.html#a0c0a8a2e316ba83847b60cbb4c489c94',1,'DotPrinterImpl']]],
+  ['color_9',['color',['../class_style_pen.html#a286458e87b84711bd8f3d7d803aafcf1',1,'StylePen']]],
+  ['compute_5fdepth_10',['compute_depth',['../class_dot_printer_rev.html#a0380fe9f4b79f719b66cff2eb94b01d5',1,'DotPrinterRev']]],
+  ['compute_5fdepth_5frec_11',['compute_depth_rec',['../class_dot_printer.html#a1fa1d92b67539093a01fe47a279abfae',1,'DotPrinter']]],
+  ['copy_12',['copy',['../class_buf_env.html#af4d21918e85879b471b297f1cff700f0',1,'BufEnv::copy()'],['../class_level.html#ab4a2ebb6ab169ecefe21f0c0450f871c',1,'Level::copy()']]],
+  ['create_5fa_5fnode_13',['create_a_node',['../class_s_tree.html#a716a1df2153162baa69b1758b63f3277',1,'STree']]],
+  ['create_5fmaster_5fnode_14',['create_master_node',['../class_map_edge_node_factory.html#a3ce63f835e569e316204e9440dbae672',1,'MapEdgeNodeFactory::create_master_node()'],['../class_map_label_node_factory.html#a7976048ced5a65c4fade9e89a67fd99d',1,'MapLabelNodeFactory::create_master_node()'],['../class_map_plain_node_factory.html#a17a9ed45df5db4e576327ac6f9b178fb',1,'MapPlainNodeFactory::create_master_node()'],['../class_node_factory.html#a9210b0bd0c4f5520fad7c790544fd1fc',1,'NodeFactory::create_master_node()']]]
 ];

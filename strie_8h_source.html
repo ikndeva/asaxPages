@@ -154,23 +154,23 @@ $(document).ready(function(){initNavTree('strie_8h_source.html',''); initResizab
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>      curr = head; </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>      last = <span class="keyword">nullptr</span>; </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>      <span class="keywordflow">while</span> (<span class="keyword">true</span>) {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    child = curr-&gt;<a class="code hl_function" href="class_map_plain_node.html#aa3f6ebf7ef631d385a63f6acfdfd5acf">get</a>(ch); </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordflow">if</span> (child != <span class="keyword">nullptr</span>) <span class="keywordflow">break</span>; </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        child = curr-&gt;<a class="code hl_function" href="class_map_plain_node.html#aa3f6ebf7ef631d385a63f6acfdfd5acf">get</a>(ch); </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        <span class="keywordflow">if</span> (child != <span class="keyword">nullptr</span>) <span class="keywordflow">break</span>; </div>
 <div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="comment">//add a new leaf child</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    child = this-&gt;<a class="code hl_function" href="class_sindex.html#af7062cf7717b9c903f41ed00b35dff55">get_node</a>(); </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    curr-&gt;put(ch, child);</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>        <span class="comment">//add a new leaf child</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        child = this-&gt;<a class="code hl_function" href="class_sindex.html#af7062cf7717b9c903f41ed00b35dff55">get_node</a>(); </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>        curr-&gt;put(ch, child);</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>    <span class="comment">//dot::experimental </span></div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    <span class="keywordflow">if</span> (curr == head) {</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>      curr-&gt;put_primary(ch); </div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>      child-&gt;<a class="code hl_variable" href="class_visitable.html#a0ba409081c8b8293a8cfb39f11661221">is_heavy</a>=<span class="keyword">true</span>; </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    }</div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    <span class="keywordflow">if</span> (last != <span class="keyword">nullptr</span>) last-&gt;<a class="code hl_function" href="class_visitable.html#a865192f438557ec973b522d0d6b9d387">set_suf</a>(child);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>        <span class="comment">//dot::experimental </span></div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>        <span class="keywordflow">if</span> (curr == head) {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>          curr-&gt;put_primary(ch); </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>          child-&gt;<a class="code hl_variable" href="class_visitable.html#a0ba409081c8b8293a8cfb39f11661221">is_heavy</a>=<span class="keyword">true</span>; </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <span class="keywordflow">if</span> (last != <span class="keyword">nullptr</span>) last-&gt;<a class="code hl_function" href="class_visitable.html#a865192f438557ec973b522d0d6b9d387">set_suf</a>(child);</div>
 <div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="comment">//next</span></div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    last = child; </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    curr = curr-&gt;<a class="code hl_function" href="class_visitable.html#ada38e4f7950034d9ae12cd76598c892d">get_suf</a>();</div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>        <span class="comment">//next</span></div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        last = child; </div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        curr = curr-&gt;<a class="code hl_function" href="class_visitable.html#ada38e4f7950034d9ae12cd76598c892d">get_suf</a>();</div>
 <div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>      }</div>
 <div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>      <span class="keywordflow">if</span> (last != <span class="keyword">nullptr</span>) last-&gt;<a class="code hl_function" href="class_visitable.html#a865192f438557ec973b522d0d6b9d387">set_suf</a>(child);</div>
 <div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>      head = head-&gt;<a class="code hl_function" href="class_map_plain_node.html#aa3f6ebf7ef631d385a63f6acfdfd5acf">get</a>(ch);</div>
@@ -202,16 +202,16 @@ $(document).ready(function(){initNavTree('strie_8h_source.html',''); initResizab
 <div class="ttc" id="aclass_sindex_html_af7062cf7717b9c903f41ed00b35dff55"><div class="ttname"><a href="class_sindex.html#af7062cf7717b9c903f41ed00b35dff55">Sindex&lt; MapPlainNode &gt;::get_node</a></div><div class="ttdeci">MapPlainNode * get_node()</div><div class="ttdoc">新しいノードを生成して返す。</div><div class="ttdef"><b>Definition:</b> sindex.h:100</div></div>
 <div class="ttc" id="aclass_tindex_html"><div class="ttname"><a href="class_tindex.html">Tindex</a></div><div class="ttdoc">ノード型NTをもつグラフを用いたテキスト索引のクラス。</div><div class="ttdef"><b>Definition:</b> tindex.h:28</div></div>
 <div class="ttc" id="aclass_visitable_html_a0ba409081c8b8293a8cfb39f11661221"><div class="ttname"><a href="class_visitable.html#a0ba409081c8b8293a8cfb39f11661221">Visitable::is_heavy</a></div><div class="ttdeci">bool is_heavy</div><div class="ttdoc">ヘビーノードかどうかの二値フラグ。用途は利用者指定。DAWGの描画で用いる。</div><div class="ttdef"><b>Definition:</b> visitable.h:80</div></div>
-<div class="ttc" id="aclass_visitable_html_a1de59ea6d322b98d6d68964b88c96ade"><div class="ttname"><a href="class_visitable.html#a1de59ea6d322b98d6d68964b88c96ade">Visitable::put_primary</a></div><div class="ttdeci">virtual Visitable&lt; NT &gt; * put_primary(int ch)</div><div class="ttdoc">ノードのch-辺をプライマリに設定する。</div><div class="ttdef"><b>Definition:</b> visitable.h:124</div></div>
-<div class="ttc" id="aclass_visitable_html_a865192f438557ec973b522d0d6b9d387"><div class="ttname"><a href="class_visitable.html#a865192f438557ec973b522d0d6b9d387">Visitable::set_suf</a></div><div class="ttdeci">Visitable * set_suf(NT *suf)</div><div class="ttdoc">与えられたノード suf をこのノードの接尾辞リンクが指すノードに設定する。</div><div class="ttdef"><b>Definition:</b> visitable.h:136</div></div>
-<div class="ttc" id="aclass_visitable_html_ada38e4f7950034d9ae12cd76598c892d"><div class="ttname"><a href="class_visitable.html#ada38e4f7950034d9ae12cd76598c892d">Visitable::get_suf</a></div><div class="ttdeci">NT * get_suf()</div><div class="ttdoc">このノードの接尾辞リンクが指すノード suf を返す。</div><div class="ttdef"><b>Definition:</b> visitable.h:152</div></div>
+<div class="ttc" id="aclass_visitable_html_a1de59ea6d322b98d6d68964b88c96ade"><div class="ttname"><a href="class_visitable.html#a1de59ea6d322b98d6d68964b88c96ade">Visitable::put_primary</a></div><div class="ttdeci">virtual Visitable&lt; NT &gt; * put_primary(int ch)</div><div class="ttdoc">ノードのch-辺をプライマリに設定する。</div><div class="ttdef"><b>Definition:</b> visitable.h:123</div></div>
+<div class="ttc" id="aclass_visitable_html_a865192f438557ec973b522d0d6b9d387"><div class="ttname"><a href="class_visitable.html#a865192f438557ec973b522d0d6b9d387">Visitable::set_suf</a></div><div class="ttdeci">Visitable * set_suf(NT *suf)</div><div class="ttdoc">与えられたノード suf をこのノードの接尾辞リンクが指すノードに設定する。</div><div class="ttdef"><b>Definition:</b> visitable.h:135</div></div>
+<div class="ttc" id="aclass_visitable_html_ada38e4f7950034d9ae12cd76598c892d"><div class="ttname"><a href="class_visitable.html#ada38e4f7950034d9ae12cd76598c892d">Visitable::get_suf</a></div><div class="ttdeci">NT * get_suf()</div><div class="ttdoc">このノードの接尾辞リンクが指すノード suf を返す。</div><div class="ttdef"><b>Definition:</b> visitable.h:151</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>strie.h</b></li>
-    <li class="footer">Generated on Sun Jun 5 2022 22:58:41 for LSTRIE: C++によるテキスト索引の実装 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
+    <li class="footer">Generated on Sun Jun 5 2022 23:38:26 for LSTRIE: C++によるテキスト索引の実装 by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4 </li>
   </ul>
 </div>
 </body>
