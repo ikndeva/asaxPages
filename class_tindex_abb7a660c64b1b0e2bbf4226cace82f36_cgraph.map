@@ -1,8 +1,0 @@
-<map id="get_suf_label_string" name="get_suf_label_string">
-<area shape="rect" id="node1" title="ノード v のSlinkのラベル文字列を返す。デバッグ時は、ノードの深さとslinkの文字列ラベルを表す文字列 &quot;depth:slabel&quot; を返す。" alt="" coords="5,81,144,108"/>
-<area shape="rect" id="node2" href="$class_doc_set.html#a47dbaf4e835c88a96273ddf1216e2947" title=" " alt="" coords="192,45,335,86"/>
-<area shape="rect" id="node5" href="$class_level.html#a00f58ebaa844f8b8b5c1e2f1cce0e5ed" title="現在のトレースレベルが引数以上ならば真になる述語。述語LEVELに同じ。" alt="" coords="222,111,305,137"/>
-<area shape="rect" id="node3" href="$class_doc_set.html#a7bde8524f416c0155cb6aa5db5d34284" title="文書連番 did の文書の終了イタレータを返す。" alt="" coords="390,5,485,32"/>
-<area shape="rect" id="node4" href="$class_doc_set.html#a7c7322a50818bf6156ffa291cdcbc260" title=" " alt="" coords="383,56,492,83"/>
-<area shape="rect" id="node6" href="$class_level.html#aef6d042b2367206e14cb8acfc6734d16" title="現在のトレースレベルが引数以上ならば真になる述語。" alt="" coords="386,111,489,137"/>
-</map>

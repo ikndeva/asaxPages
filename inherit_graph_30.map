@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_suf_printable.html" title=" " alt="" coords="5,5,208,32"/>
-<area shape="rect" id="node2" href="$class_map_plain_node.html" title="グラフ索引のノードの実装クラス。" alt="" coords="256,31,363,57"/>
-<area shape="rect" id="node3" href="$class_map_master_node.html" title="MapPlainNodeに対応するマスターノードのクラス。" alt="" coords="411,31,529,57"/>
-<area shape="rect" id="node4" href="$class_visitable.html" title=" " alt="" coords="16,56,197,83"/>
-</map>

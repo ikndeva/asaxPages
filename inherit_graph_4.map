@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_dot_printable.html" title="グラフ索引のdot形式の出力器のインタフェースを表す抽象クラス." alt="" coords="5,5,141,32"/>
-<area shape="rect" id="node2" href="$class_dot_printer_impl.html" title="グラフ索引 Sindex Gをdot形式で書き出すためのクラス。" alt="" coords="189,5,337,32"/>
-<area shape="rect" id="node3" href="$class_dot_printer.html" title="グラフ索引 Sindex Gをdot形式で書き出すためのクラス。" alt="" coords="385,5,508,32"/>
-<area shape="rect" id="node4" href="$class_dot_printer_rev.html" title="グラフ索引 Sindex Gをdot形式で書き出すためのクラス。" alt="" coords="556,5,703,32"/>
-</map>

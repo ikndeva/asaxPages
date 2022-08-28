@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>crtool module &mdash; GridBoard v0.9 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="help module" href="help.html" />
+    <link rel="prev" title="common module" href="common.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> GridBoard
+          </a>
+              <div class="version">
+                v0.9
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="cboard.html">cboard module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cimage.html">cimage module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="common.html">common module</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">crtool module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">help module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kwargs.html">kwargs module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="path.html">path module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GridBoard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>crtool module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/crtool.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-crtool">
+<span id="crtool-module"></span><h1>crtool module<a class="headerlink" href="#module-crtool" title="Permalink to this heading">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="crtool.GeoTransform">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">GeoTransform</span></span><a class="reference internal" href="_modules/crtool.html#GeoTransform"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.GeoTransform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>空間変換の抽象クラス</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="crtool.GeoTransform.apply_context">
+<span class="sig-name descname"><span class="pre">apply_context</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#GeoTransform.apply_context"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.GeoTransform.apply_context" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換をCairoの文脈contextに適用する．オーバーライドすること．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="crtool.GeoTransform.apply_point">
+<span class="sig-name descname"><span class="pre">apply_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#GeoTransform.apply_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.GeoTransform.apply_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換を点(x, y)に適用した結果(x1, y1)を返す．オーバーライドすること．</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="crtool.Rotate">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">Rotate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angle</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#Rotate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.Rotate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#crtool.GeoTransform" title="crtool.GeoTransform"><code class="xref py py-class docutils literal notranslate"><span class="pre">GeoTransform</span></code></a></p>
+<p>並行移動の変換のクラス</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="crtool.Rotate.apply_context">
+<span class="sig-name descname"><span class="pre">apply_context</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#Rotate.apply_context"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.Rotate.apply_context" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換をCairoの文脈contextに適用する．オーバーライドすること．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="crtool.Rotate.apply_point">
+<span class="sig-name descname"><span class="pre">apply_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#Rotate.apply_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.Rotate.apply_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換を点(x, y)に適用した結果(x1, y1)を返す．オーバーライドすること．</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="crtool.Translate">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">Translate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#Translate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.Translate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#crtool.GeoTransform" title="crtool.GeoTransform"><code class="xref py py-class docutils literal notranslate"><span class="pre">GeoTransform</span></code></a></p>
+<p>並行移動の変換のクラス</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="crtool.Translate.apply_context">
+<span class="sig-name descname"><span class="pre">apply_context</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#Translate.apply_context"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.Translate.apply_context" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換をCairoの文脈contextに適用する．オーバーライドすること．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="crtool.Translate.apply_point">
+<span class="sig-name descname"><span class="pre">apply_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#Translate.apply_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.Translate.apply_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換を点(x, y)に適用した結果(x1, y1)を返す．オーバーライドすること．</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.box_apply_trans">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">box_apply_trans</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trans</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#box_apply_trans"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.box_apply_trans" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換を適用する
+:param cr: Cairo.Context
+:type cr: Cairo.Context
+:param trans: 空間変換
+:type trans: GeoTransform</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.box_normalize">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">box_normalize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#box_normalize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.box_normalize" title="Permalink to this definition">¶</a></dt>
+<dd><p>4座標（矩形）からなる正しい矩形であることを検査し，2座標（点）なら4座標に正規化する．</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.box_union">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">box_union</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">boxes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">box1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#box_union"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.box_union" title="Permalink to this definition">¶</a></dt>
+<dd><p>矩形の対を受け取り，それらの最小包含長方形を表す対を返す．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>boxes</strong> – 点 (x0, y0) または矩形 (x0, y0, x1, y1)</p></li>
+<li><p><strong>box1</strong> – 点 (x0, y0) または矩形 (x0, y0, x1, y1)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>矩形 box = [p, q]</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>rect</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_add_alpha">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_add_alpha</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rgb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alpha</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_add_alpha"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_add_alpha" title="Permalink to this definition">¶</a></dt>
+<dd><p>色指定の三つ組rgbにalpha in [0.0,1.0]を追加する</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_apply_trans">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_apply_trans</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trans</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_apply_trans"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_apply_trans" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換を適用する
+:param context: Cairo.Context
+:type context: Cairo.Context
+:param trans: 空間変換
+:type trans: GeoTransform</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_arc">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_arc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_arc"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_arc" title="Permalink to this definition">¶</a></dt>
+<dd><p>円盤を描く．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – x-coordinate of the center</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – y-coordinate of the center</p></li>
+<li><p><strong>r</strong> (<em>float</em>) – radius</p></li>
+<li><p><strong>start</strong> (<em>float</em>) – the starting and ending angle in radian</p></li>
+<li><p><strong>end</strong> (<em>float</em>) – the starting and ending angle in radian</p></li>
+<li><p><strong>fill</strong> (<em>bool</em>) – fill (True) or stroke (False, default)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>包含矩形</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(Rect)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_arrow_head">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_arrow_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_last</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y_last</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_shape</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_length</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_angle</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.3490658503988659</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_offset_ratio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to_surpress_short_head</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_arrow_head"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_arrow_head" title="Permalink to this definition">¶</a></dt>
+<dd><p>ペンを移動する．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – x-coordinate of the center</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – y-coordinate of the center</p></li>
+<li><p><strong>x_last</strong> (<em>float</em>) – 矢印をもつ場合に，前の点の座標を与える．矢印の向きを決める．</p></li>
+<li><p><strong>y_last</strong> (<em>float</em>) – 矢印をもつ場合に，前の点の座標を与える．矢印の向きを決める．</p></li>
+<li><p><strong>context</strong> (<em>cairo.Context</em>) – 文脈オブジェクト．必須．</p></li>
+<li><p><strong>head_shape</strong> (<em>str</em>) – 矢印頭の形状. 省略時は，<cite>DEFAULT_HEAD_SHAPE=’sharp’</cite>.</p></li>
+<li><p><strong>head_length</strong> (<em>float</em>) – デフォールトARROWHEAD_LENGTH</p></li>
+<li><p><strong>head_angle</strong> (<em>float</em>) – デフォールトARROWHEAD_ANGLE</p></li>
+<li><p><strong>head_offset_ratio</strong> (<em>float</em>) – デフォールトARROWHEAD_OFFSET_RATIO</p></li>
+<li><p><strong>to_surpress_short_head</strong> (<em>bool</em>) – 矢印頭と同程度以下の長さの線分に対して矢印頭の描画を省略する．デフォールトTrue</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>なし</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>矢印頭の形状 <cite>head_shape (str)</cite> は次のいずれかの値をとる.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>stroke   : 2辺の輪郭線によるV字型の矢印頭</p></li>
+<li><p>triangle : 塗りつぶした二等辺三角形の矢印頭</p></li>
+<li><p>sharp    : 塗りつぶした尖った鏃型の矢印頭．<a href="#id1"><span class="problematic" id="id2">`</span></a>triangle`の根本が凹んだ形．</p></li>
+</ul>
+</div></blockquote>
+<p>関数`line_to`による線分`(x_last, y_last), (x, y)`の描画時に呼びだされる．</p>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_circle">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_circle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_circle"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_circle" title="Permalink to this definition">¶</a></dt>
+<dd><p>円盤を描く</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – x-coordinate of the center</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – y-coordinate of the center</p></li>
+<li><p><strong>r</strong> (<em>float</em>) – radius</p></li>
+<li><p><strong>fill</strong> (<em>bool</em>) – fill (True) or stroke (False, default)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>包含矩形</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(Rect)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_draw_marker">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_draw_marker</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ax</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ay</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_draw_marker"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_draw_marker" title="Permalink to this definition">¶</a></dt>
+<dd><p>関数cr_draw_marker_circleのラッパー関数．下位互換性のため．</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_draw_marker_circle">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_draw_marker_circle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ax</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ay</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_draw_marker_circle"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_draw_marker_circle" title="Permalink to this definition">¶</a></dt>
+<dd><p>円形(circle)のマークを描画する．
+Args :</p>
+<blockquote>
+<div><p>ax (float) : 配置位置のx座標
+ay (float) : 配置位置のy座標
+r (float) : 半径．
+context (cairo.Context) : Cairoの文脈オブジェクト．</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_draw_marker_cross">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_draw_marker_cross</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">angle</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.7853981633974483</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ticklen</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">4</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_draw_marker_cross"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_draw_marker_cross" title="Permalink to this definition">¶</a></dt>
+<dd><p>十文字型（crossing）のマークを描画する．
+Args :</p>
+<blockquote>
+<div><p>x (float) : 配置位置のx座標
+y (float) : 配置位置のy座標
+angle (float) : マーカーの十文字の向きをラジアンで指定する実数．
+ticklen (float) : 十文字の各線分の長さ（default: DEFAULT_MARKER_TICKLEN)
+context (cairo.Context) : Cairoの文脈オブジェクト．</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_line_to">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_line_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">has_arrow</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_last</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y_last</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_line_to"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_line_to" title="Permalink to this definition">¶</a></dt>
+<dd><p>ペンを移動する．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – x-coordinate of the center</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – y-coordinate of the center</p></li>
+<li><p><strong>context</strong> (<em>cairo.Context</em>) – 文脈オブジェクト</p></li>
+<li><p><strong>has_arrow</strong> (<em>bool</em>) – 線分端に矢印をもつか?</p></li>
+<li><p><strong>x_last</strong> (<em>float</em>) – 矢印をもつ場合に，前の点の座標を与える．矢印の向きを決める．省略可能．</p></li>
+<li><p><strong>y_last</strong> (<em>float</em>) – 矢印をもつ場合に，前の点の座標を与える．矢印の向きを決める．省略可能．</p></li>
+<li><p><strong>arrow_head</strong> (<em>str</em>) – 矢印の形状. 値は，関数`crtool.cr_arrow_head`を参照のこと．</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>包含矩形</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(Rect)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_move_to">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_move_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_move_to"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_move_to" title="Permalink to this definition">¶</a></dt>
+<dd><p>ペンを移動する．
+:param x: x- and y-coordinate of the center
+:type x: float
+:param y: x- and y-coordinate of the center
+:type y: float</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>包含矩形</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>(Rect)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_process_stroke_or_fill">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_process_stroke_or_fill</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_process_stroke_or_fill"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_process_stroke_or_fill" title="Permalink to this definition">¶</a></dt>
+<dd><p>図形描画後の書き出しを行う．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>context</strong> (<em>cairo.Context</em>) – Cairoの文脈オブジェクト．</p></li>
+<li><p><strong>cmd</strong> (<em>str</em>) – 次の命令の一つ: ‘stroke’, ‘fill’, ‘stroke_preserve’, ‘fill_preserve’.</p></li>
+<li><p><strong>preserve</strong> (<em>bool</em>) – 演算後にパスを保存するなら`True`, しないなら`False`</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>なし</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_rectangle">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_rectangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fill</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge_rgb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_rectangle"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_rectangle" title="Permalink to this definition">¶</a></dt>
+<dd><p>矩形を描く</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>float</em>) – x-coordinate of the center</p></li>
+<li><p><strong>y</strong> (<em>float</em>) – y-coordinate of the center</p></li>
+<li><p><strong>width</strong> (<em>float</em>) – width</p></li>
+<li><p><strong>height</strong> (<em>float</em>) – height</p></li>
+<li><p><strong>fill</strong> (<em>bool</em>) – fill if <cite>True</cite> or stroke if <cite>False</cite> (default)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>包含矩形</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(Rect)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_set_context_parameters">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_set_context_parameters</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_set_context_parameters"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_set_context_parameters" title="Permalink to this definition">¶</a></dt>
+<dd><p>cairo.Contextに各種パラメータを設定するラッパー関数．各種の代替キーを提供する．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>context</strong> (<em>cairo.Context</em>) – Cairoの文脈オブジェクト．</p></li>
+<li><p><strong>source_rgb</strong> (<em>tuple</em><em>(</em><em>float</em><em>, </em><em>float</em><em>, </em><em>float</em><em>)</em>) – Cairoの色指定の数の三つ組．代替キー’rgb’</p></li>
+<li><p><strong>linewidth</strong> (<em>float</em>) – 線幅．代替キー’line_width’, ‘pen_width’</p></li>
+<li><p><strong>linecap</strong> (<em>str</em>) – 線端の形状．代替キー’line_cap’, ‘line_end’</p></li>
+<li><p><strong>fontsize</strong> (<em>float</em>) – フォントサイズ．代替キー’font_size’, ‘fsize’.</p></li>
+<li><p><strong>fontfamily</strong> (<em>str</em>) – フォントファミリー指定．代替キーfont_family, ffamily．</p></li>
+<li><p><strong>fontslant</strong> (<em>str</em>) – フォントの斜体指定．代替キーfont_slant, fslant．値は`(‘italic’, ‘normal’, ‘oblique’)`をとる．詳しくは，関数`cr_font_face`を参照のこと．</p></li>
+<li><p><strong>fontweight</strong> (<em>str</em>) – フォントの太字指定．代替キーfont_weight, fweight．値は，<a href="#id3"><span class="problematic" id="id4">`</span></a>(‘normal’, ‘bold’)`をとる．詳しくは，関数`cr_font_face`を参照のこと．</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>なし</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_set_font_face">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_set_font_face</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_set_font_face"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_set_font_face" title="Permalink to this definition">¶</a></dt>
+<dd><p>cairo.ContextにFont Faceを設定する．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>context</strong> (<em>cairo.Context</em>) – Cairoの文脈オブジェクト．</p></li>
+<li><p><strong>fontfamily</strong> (<em>str</em>) – Cairoのフォントファミリー指定．代替キーfont_family, ffamily．</p></li>
+<li><p><strong>fontslant</strong> (<em>str</em>) – Cairoの斜体指定．値は`(‘italic’, ‘normal’, ‘oblique’)`をとる．詳しくは，辞書`crtool.FONT_SLANT`を参照のこと．代替キーfont_slant, fslant．</p></li>
+<li><p><strong>fontweight</strong> (<em>str</em>) – Cairoの太字指定．値は，<a href="#id5"><span class="problematic" id="id6">`</span></a>(‘normal’, ‘bold’)`をとる．詳しくは，辞書`crtool.FONT_WEIGHT`を参照のこと．代替キーfont_weight, fweight．</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>なし</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_set_source_rgb">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_set_source_rgb</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">source_rgb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_set_source_rgb"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_set_source_rgb" title="Permalink to this definition">¶</a></dt>
+<dd><p>contextに色source_rgbを設定する．
+source_rgbはアルファなし(r,g,b)とアルファあり(r,g,b,a)の両方を受け付ける．</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_text">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_text</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ox</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">oy</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_text"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_text" title="Permalink to this definition">¶</a></dt>
+<dd><p>テキストを描画する．</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.cr_text_extent">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">cr_text_extent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ox</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">oy</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#cr_text_extent"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.cr_text_extent" title="Permalink to this definition">¶</a></dt>
+<dd><p>テキストの配置情報を事前に取得する．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>context</strong> (<em>cairo.Context</em>) – Cairoの文脈オブジェクト．</p></li>
+<li><p><strong>ox</strong> (<em>float</em>) – テキストの配置位置 (ox, oy)</p></li>
+<li><p><strong>oy</strong> (<em>float</em>) – テキストの配置位置 (ox, oy)</p></li>
+<li><p><strong>msg</strong> (<em>str</em>) – テキスト</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>テキストの描画情報の6つ組 (x, y, width, height, dx, dy)</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(tuple)</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>返り値の6つ組は次の通り</p>
+<ul class="simple">
+<li><p>x, y : テキストの配置位置．原点は左上</p></li>
+<li><p>width, height : テキストの包含矩形のサイズ</p></li>
+<li><p>dx, dy : グリフ位置の増分</p></li>
+</ul>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.get_anchor_ratio">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">get_anchor_ratio</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">anchor_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#get_anchor_ratio"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.get_anchor_ratio" title="Permalink to this definition">¶</a></dt>
+<dd><p>アンカーキーワード(anchor_x, anchor_y)またはanchorを受け取り
+Args :</p>
+<blockquote>
+<div><p>anchor_x (str) : 横方向の位置指示 in (left, center, right)
+anchor_y (str) : 縦方向の位置指示 in (top, middle, bottom, above, below)
+anchor (str) : 代替の位置指示．単一キーワードまたはキーワードの対(anchor_x, anchor_y)．単一キーワードのときは，値に応じて横または縦の位置表示として用いる．</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns :</dt><dd><p>(tuple(float, float)) : 矩形[0,1]x[0,1]における正規化されたアンカー位置(anchor_x, anchor_y) in [0,1]x[0,1]</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.get_point_by_anchor_ratio">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">get_point_by_anchor_ratio</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ratio_x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ratio_y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#get_point_by_anchor_ratio"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.get_point_by_anchor_ratio" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Args :</dt><dd><p>ratio_x (float) : 正規化されたx方向の位置 in [0,1]
+ratio_y (float) : 正規化されたy方向の位置 in [0,1]</p>
+</dd>
+<dt>Returns :</dt><dd><p>(tuple(float, float)) : 包含矩形box上のアンカー位置の点 (x, y)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.isBoxOrPoint">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">isBoxOrPoint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#isBoxOrPoint"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.isBoxOrPoint" title="Permalink to this definition">¶</a></dt>
+<dd><p>与えられたオブジェクトboxが，点または矩形かどうかを返す．
+Args :</p>
+<blockquote>
+<div><p>box (tuple) : オブジェクト</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns :</dt><dd><p>(bool) : boxが，点または矩形ならばTrue, それ以外ならばFalse.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.isProperBox">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">isProperBox</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#isProperBox"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.isProperBox" title="Permalink to this definition">¶</a></dt>
+<dd><p>与えられたオブジェクトboxが，正しい矩形かをTrue, Falseで返す．
+Args :</p>
+<blockquote>
+<div><p>box (tuple) : オブジェクト</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns :</dt><dd><p>(bool) : boxが，4座標（矩形）からなる正しい矩形ならばTrue, それ以外ならばFalse.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.isProperPoint">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">isProperPoint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#isProperPoint"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.isProperPoint" title="Permalink to this definition">¶</a></dt>
+<dd><p>与えられたオブジェクトboxが，点かどうかを返す．
+Args :</p>
+<blockquote>
+<div><p>box (tuple) : オブジェクト</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns :</dt><dd><p>(bool) : boxが，点ならばTrue, それ以外ならばFalse.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="crtool.lookup_dict">
+<span class="sig-prename descclassname"><span class="pre">crtool.</span></span><span class="sig-name descname"><span class="pre">lookup_dict</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dict</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/crtool.html#lookup_dict"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#crtool.lookup_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="common.html" class="btn btn-neutral float-left" title="common module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="help.html" class="btn btn-neutral float-right" title="help module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Hiroki Arimura, Hokkaido University.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

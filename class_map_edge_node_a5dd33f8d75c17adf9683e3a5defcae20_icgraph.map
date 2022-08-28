@@ -1,6 +1,0 @@
-<map id="childlist" name="childlist">
-<area shape="rect" id="node1" title="ノードの子供のリストを表すmapを返す。" alt="" coords="380,31,447,57"/>
-<area shape="rect" id="node2" href="$class_dawg.html#a63602a7b6f1350be4bfcf55a98224940" title="ノードの複製を作成して返す．出辺とslinkもコピーする．" alt="" coords="149,5,244,32"/>
-<area shape="rect" id="node4" href="$class_map_edge_node.html#a906cc56464416fcf3004083026fa9dad" title="文字 ch に対して、与えられたノード vをこのノードのc&#45;子ノードとする。" alt="" coords="292,56,332,83"/>
-<area shape="rect" id="node3" href="$class_dawg.html#a19ebc75db6cbfc3809c9454c979e044f" title="索引構築の主手続き。" alt="" coords="5,31,101,57"/>
-</map>

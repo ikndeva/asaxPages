@@ -1,6 +1,0 @@
-<map id="put" name="put">
-<area shape="rect" id="node1" title="文字 ch に対して、与えられたノード vをこのノードのc&#45;子ノードとする。" alt="" coords="299,31,339,57"/>
-<area shape="rect" id="node2" href="$class_s_tree.html#a19ebc75db6cbfc3809c9454c979e044f" title="索引構築の主手続き。" alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node3" href="$class_s_tree.html#a548b638823b42469d76b7b91f7aa2594" title="refが指す点にある実ノードwを返す。もし点wが辺e上の仮想ノードなら、その辺eを二分割して、その場所wに実ノードを生成し、それを返す。" alt="" coords="156,31,245,57"/>
-<area shape="rect" id="node4" href="$class_s_tree.html#a100e9b6f7d5c5397e5e0b033b19d0ec1" title="現在までのテキスト" alt="" coords="151,81,251,108"/>
-</map>

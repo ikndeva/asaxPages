@@ -1,9 +1,0 @@
-<map id="insert" name="insert">
-<area shape="rect" id="node1" title="索引に文字列を挿入する。" alt="" coords="5,159,60,185"/>
-<area shape="rect" id="node2" href="$class_map_plain_node.html#aa3f6ebf7ef631d385a63f6acfdfd5acf" title="文字 ch に対して、このノードのc&#45;子ノードを返す。" alt="" coords="121,5,254,32"/>
-<area shape="rect" id="node3" href="$class_sindex.html#af7062cf7717b9c903f41ed00b35dff55" title="新しいノードを生成して返す。" alt="" coords="108,57,267,98"/>
-<area shape="rect" id="node4" href="$class_sindex.html#ab206226faa3c017d0ff999c7e45ca5f4" title="グラフの描画用の根を返す。" alt="" coords="108,122,267,163"/>
-<area shape="rect" id="node5" href="$class_map_plain_node.html#abc950ff9a3961b77b757bce1c3314993" title="文字 ch に対して、与えられたノード vをこのノードのc&#45;子ノードとする。" alt="" coords="121,188,254,215"/>
-<area shape="rect" id="node6" href="$class_level.html#a00f58ebaa844f8b8b5c1e2f1cce0e5ed" title="現在のトレースレベルが引数以上ならば真になる述語。述語LEVELに同じ。" alt="" coords="315,213,397,240"/>
-<area shape="rect" id="node7" href="$class_sindex.html#a45925755b62142b466eb83d2524ee252" title="索引の文字列表現を返す。" alt="" coords="108,290,267,331"/>
-</map>

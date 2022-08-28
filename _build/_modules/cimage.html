@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cimage &mdash; GridBoard v0.9 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> GridBoard
+          </a>
+              <div class="version">
+                v0.9
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../cboard.html">cboard module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cimage.html">cimage module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../common.html">common module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../crtool.html">crtool module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html">help module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../kwargs.html">kwargs module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../path.html">path module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">GridBoard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Module code</a> &raquo;</li>
+      <li>cimage</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <h1>Source code for cimage</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python3 </span>
+<span class="c1"># coding: utf_8</span>
+<span class="c1"># cimage.py</span>
+<span class="sd">&quot;&quot;&quot;Pillowライブラリを用いた基底の画版のパッケージ</span>
+<span class="sd">* 220815 created by Hiroki Arimura</span>
+<span class="sd">* based on pilimage.py</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os</span> 
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="s1">&#39;../board&#39;</span><span class="p">))</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">cairo</span>
+
+<span class="c1">#private</span>
+<span class="kn">import</span> <span class="nn">crtool</span>
+<span class="kn">import</span> <span class="nn">common</span> <span class="k">as</span> <span class="nn">com</span> 
+<span class="kn">import</span> <span class="nn">kwargs</span> <span class="k">as</span> <span class="nn">kw</span>
+
+<span class="n">DEBUG_PATH</span><span class="o">=</span><span class="kc">True</span>
+<span class="n">DEBUG_OPS</span> <span class="o">=</span> <span class="kc">False</span>
+
+<span class="c1">#スタイルパラメータ</span>
+<span class="c1">#要設定．経験的</span>
+<span class="c1"># DEFAULT_PEN_WIDTH_PT=4</span>
+<span class="c1"># DEFAULT_DOT_WIDTH_PT=8 #px</span>
+<span class="c1"># DEFAULT_CORNER_KIND = &#39;round&#39;</span>
+<span class="c1"># DEFAULT_ARROW_SHAPE=(1,3)</span>
+<span class="c1"># RATIO_ARROW_HEAD_WIDTH = 4 ##矢印幅が線の幅の何倍か</span>
+<span class="c1"># debug_native=False</span>
+
+<span class="c1">##=====</span>
+<span class="c1"># Old: 描画対象の矩形のクラス</span>
+<span class="c1">##=====</span>
+
+<span class="c1">#note: length</span>
+<span class="c1">#1inch = 2.54cm = 25.4mm</span>
+<span class="c1">#1pt = 1/72inch</span>
+<span class="c1">#実測：macbookpro13, retina, 2段大きめ:</span>
+<span class="c1"># - 1px = 0.6299 pt =&gt; 120dpi</span>
+<span class="c1"># - 1pt = 1.5875 = 1.6 px</span>
+
+<span class="c1">#==========</span>
+<span class="c1">#ヘルパー関数</span>
+<span class="c1">#==========</span>
+
+<span class="c1">#==========</span>
+<span class="c1">#基盤画像系</span>
+<span class="c1">#==========</span>
+
+<div class="viewcode-block" id="ImageBoard"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard">[docs]</a><span class="k">class</span> <span class="nc">ImageBoard</span><span class="p">(</span><span class="n">com</span><span class="o">.</span><span class="n">Loggable</span><span class="p">):</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1">#count instance id </span>
+    
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">dep_init</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> 
+                 <span class="n">imgtype</span><span class="o">=</span><span class="n">cairo</span><span class="o">.</span><span class="n">FORMAT_ARGB32</span><span class="p">,</span> <span class="c1">#cairoのSurface format</span>
+                 <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;pdf&quot;</span><span class="p">,</span>   <span class="c1">#出力ファイルフォーマット（拡張子 pdf, png）</span>
+                 <span class="n">outfile</span><span class="o">=</span><span class="s2">&quot;out&quot;</span><span class="p">,</span>  <span class="c1">#出力ファイル名（拡張子を除く）</span>
+                 <span class="n">display_size</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> 
+                 <span class="c1"># imagesize=&#39;XGA&#39;,#初期の画像サイズ</span>
+                 <span class="c1"># portrait=False, #画像サイズが縦長か？</span>
+                 <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;実装レイヤーの画盤を生成するコンストラクタ．</span>
+<span class="sd">        Args : </span>
+<span class="sd">          imgtype (str) : 画像フォーマット (cairo)</span>
+<span class="sd">          format (str) : 出力ファイルの描画フォーマット (cairo) in &quot;pdf&quot;, &quot;png&quot;</span>
+<span class="sd">          display_size (tuple(int, int)) : 画像のサイズ `(xsize, ysize)`</span>
+<span class="sd">          verbose (bool) : 実行情報を表示する</span>
+
+<span class="sd">        Returns : </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">#親Loggableの初期化</span>
+        <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="n">dep_init</span><span class="o">=</span><span class="n">dep_init</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span><span class="p">)</span>
+        <span class="c1">#パラメータ</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">imgtype</span> <span class="o">=</span> <span class="n">imgtype</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">format</span>  <span class="o">=</span> <span class="nb">format</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">outfile</span> <span class="o">=</span> <span class="n">outfile</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">display_size</span> <span class="o">=</span> <span class="n">display_size</span>
+        <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="n">msg</span><span class="o">=</span><span class="sa">f</span><span class="s1">&#39;ImageBoard.__init__(): </span><span class="si">{</span> <span class="n">kw</span><span class="o">.</span><span class="n">reduce</span><span class="p">(</span><span class="nb">vars</span><span class="p">(</span><span class="bp">self</span><span class="p">))</span> <span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+        <span class="c1">#==========</span>
+        <span class="c1">#準備</span>
+        <span class="c1">#==========</span>
+        <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;option: format=</span><span class="si">{</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+            
+        <span class="c1">## 出力ファイルフォーマット</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span><span class="o">==</span><span class="s2">&quot;png&quot;</span><span class="p">:</span> 
+            <span class="n">OFILE_EXT</span> <span class="o">=</span> <span class="s2">&quot;png&quot;</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span><span class="o">==</span><span class="s2">&quot;pdf&quot;</span><span class="p">:</span> 
+            <span class="n">OFILE_EXT</span> <span class="o">=</span> <span class="s2">&quot;pdf&quot;</span>
+        <span class="k">else</span><span class="p">:</span> 
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;the file format=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">format</span><span class="si">}</span><span class="s1"> is not supported; instead use the default format=</span><span class="si">{</span> <span class="s2">&quot;pdf&quot;</span>  <span class="si">}</span><span class="s1">: &#39;</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="o">=</span> <span class="n">OFILE_EXT</span> <span class="o">=</span> <span class="s2">&quot;pdf&quot;</span> <span class="c1">#default</span>
+            
+        <span class="c1">## 出力ファイル名</span>
+        <span class="k">if</span> <span class="n">outfile</span><span class="p">:</span>
+            <span class="n">mybody</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">outfile</span> <span class="c1">#本体名</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">mybody</span> <span class="o">=</span> <span class="s2">&quot;out&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">myoutfile</span> <span class="o">=</span> <span class="n">mybody</span> <span class="o">+</span> <span class="s2">&quot;.&quot;</span> <span class="o">+</span> <span class="n">OFILE_EXT</span> <span class="c1">#ファイル名</span>
+
+        <span class="c1">##画像サイズ</span>
+        <span class="n">com</span><span class="o">.</span><span class="n">ensure</span><span class="p">(</span><span class="n">com</span><span class="o">.</span><span class="n">is_sequence_type</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">display_size</span><span class="p">,</span> <span class="n">elemtype</span><span class="o">=</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="nb">float</span><span class="p">)),</span>
+                   <span class="sa">f</span><span class="s1">&#39;display_size must be a pair of numbers: </span><span class="si">{</span><span class="n">display_size</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        
+        <span class="c1">## Cairoのサーフェースの生成</span>
+        <span class="sd">&quot;&quot;&quot; class cairo.ImageSurface(format, width, height)</span>
+<span class="sd">        Parameters:	</span>
+<span class="sd">          format – FORMAT of pixels in the surface to create</span>
+<span class="sd">          width – width of the surface, in pixels</span>
+<span class="sd">          height – height of the surface, in pixels</span>
+<span class="sd">        Returns:	</span>
+<span class="sd">          a new ImageSurface</span>
+<span class="sd">        Raises :	</span>
+<span class="sd">          MemoryError in case of no memory</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="o">==</span> <span class="s2">&quot;png&quot;</span><span class="p">:</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">ims</span> <span class="o">=</span> <span class="n">cairo</span><span class="o">.</span><span class="n">ImageSurface</span><span class="p">(</span><span class="n">cairo</span><span class="o">.</span><span class="n">FORMAT_ARGB32</span><span class="p">,</span>
+                                          <span class="bp">self</span><span class="o">.</span><span class="n">display_size</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                                          <span class="bp">self</span><span class="o">.</span><span class="n">display_size</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#image surface</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="o">==</span> <span class="s2">&quot;pdf&quot;</span><span class="p">:</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">ims</span> <span class="o">=</span> <span class="n">cairo</span><span class="o">.</span><span class="n">PDFSurface</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">myoutfile</span><span class="p">,</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">display_size</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+                                        <span class="bp">self</span><span class="o">.</span><span class="n">display_size</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="c1">#image surface</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">panic</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;no such a file format=</span><span class="si">{</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="si">}</span><span class="s1"> is supported!&#39;</span><span class="p">)</span>
+
+        <span class="c1">## CairoのContext (image handle)の生成</span>
+        <span class="sd">&quot;&quot;&quot; class cairo.Context(target)</span>
+<span class="sd">        Parameters:	target – target Surface for the context</span>
+<span class="sd">        Returns:	a newly allocated Context</span>
+<span class="sd">        Raises :	MemoryError in case of no memory</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cr</span> <span class="o">=</span> <span class="n">cairo</span><span class="o">.</span><span class="n">Context</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">ims</span><span class="p">)</span> 
+        <span class="k">return</span> 
+                
+<div class="viewcode-block" id="ImageBoard.context"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.context">[docs]</a>    <span class="k">def</span> <span class="nf">context</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;描画ハンドルを返す．</span>
+<span class="sd">        Args: </span>
+<span class="sd">          </span>
+<span class="sd">        Returns: </span>
+<span class="sd">          (cairo.Context) : Cairoの描画contextオブジェクト </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">cr</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">com</span><span class="o">.</span><span class="n">panic</span><span class="p">(</span><span class="s1">&#39;画像オブジェクトself.cr==None!&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">cr</span> </div>
+
+<div class="viewcode-block" id="ImageBoard.show"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.show">[docs]</a>    <span class="k">def</span> <span class="nf">show</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">noshow</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">depth</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;画像を表示する．</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">noshow</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;.show()@@: @Warning: skipping show() for pil.Image object due to flag noshow=</span><span class="si">{</span> <span class="n">noshow</span> <span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="k">return</span> 
+
+        <span class="c1">#============</span>
+        <span class="c1">#表示</span>
+        <span class="c1">#============</span>
+        <span class="k">if</span> <span class="n">verbose</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;ImageBoard.show()...&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;@printing an image to &quot;</span><span class="si">{</span> <span class="bp">self</span><span class="o">.</span><span class="n">myoutfile</span> <span class="si">}</span><span class="s1">&quot;...&#39;</span><span class="p">)</span>
+        
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span><span class="o">==</span><span class="s2">&quot;png&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ims</span><span class="o">.</span><span class="n">write_to_png</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">myoutfile</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span><span class="o">==</span><span class="s2">&quot;pdf&quot;</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">show_page</span><span class="p">()</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">panic</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;the file format=</span><span class="si">{</span> <span class="bp">self</span><span class="o">.</span><span class="n">format</span> <span class="si">}</span><span class="s1"> is not supported!&#39;</span><span class="p">)</span>
+        
+        <span class="k">return</span> </div>
+            
+
+    <span class="c1"># 基本：描画命令の転送</span>
+    <span class="c1"># </span>
+<div class="viewcode-block" id="ImageBoard.send_draw"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.send_draw">[docs]</a>    <span class="k">def</span> <span class="nf">send_draw</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cmd</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">kwargs</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">trans</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;基本：描画命令の転送を行う．</span>
+
+<span class="sd">        Args: </span>
+<span class="sd">            cmd (str): 描画命令名の文字列</span>
+<span class="sd">            kwargs (dict): 描画命令のキーワードパラメータからなる辞書．</span>
+<span class="sd">            trans (nested tuple) : 変換行列の入れ子タプルによるリスト</span>
+
+<span class="sd">        Returns: </span>
+<span class="sd">        	なし</span>
+
+<span class="sd">        描画命令は対 (cmd, kwargs)である．</span>
+<span class="sd">        transは変換命令の列である．</span>
+
+<span class="sd">        現在，pillow上で，次の描画命令を実装している．</span>
+
+<span class="sd">        * line: 直線を描く．</span>
+<span class="sd">        * rectangle: 長方形を描く．</span>
+<span class="sd">        * arc: 円弧を描く．</span>
+<span class="sd">        * text: テキストを書く．</span>
+<span class="sd">        * text_extent: テキストの配置情報を返す．</span>
+
+<span class="sd">        本pilimageクラスに，新しい描画演算を実装する際は，次のように行う．</span>
+
+<span class="sd">        * 新しい描画演算を，Cairo.Contextのメソッドfuncxxx(self, cmd, kwargs)として実装する．</span>
+<span class="sd">        * この関数は，native描画演算を用いて，pillowの描画オブジェクトへのハンドルself.drawerに直接書き込む形で実装する．</span>
+<span class="sd">        * メソッドの引数は，関数名の文字列&#39;cmdxxx&#39;と，演算のキーワード引数の辞書**kwargsをとるものとする．</span>
+<span class="sd">        * これを，本関数のディスパッチの条件分岐に，次のようにして追加する::</span>
+
+<span class="sd">            if cmd==&#39;line&#39;:</span>
+<span class="sd">                return self.line(depth+1, **kwargs)</span>
+<span class="sd">            ...</span>
+<span class="sd">            elif cmd==&#39;cmdxxx&#39;:</span>
+<span class="sd">                return self.oprxxx(depth+1, **kwargs)</span>
+<span class="sd">            ...</span>
+<span class="sd">            else:</span>
+<span class="sd">                panic(f&#39;no such a cmd={cmd}!: kwargs={kwargs}&#39;)</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span><span class="p">:</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;ImageBoard.send_draw@@: cmd=</span><span class="si">{</span><span class="n">cmd</span><span class="si">}</span><span class="s2"> kwargs=</span><span class="si">{</span> <span class="n">kwargs</span> <span class="si">}</span><span class="s2"> trans=</span><span class="si">{</span> <span class="n">trans</span> <span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+            
+        <span class="c1">#演算のdispatch</span>
+        <span class="n">com</span><span class="o">.</span><span class="n">ensure</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">cmd</span><span class="p">)</span> <span class="ow">is</span> <span class="nb">str</span><span class="p">,</span> <span class="s1">&#39;cmd=</span><span class="si">{cmd}</span><span class="s1"> must be a string!&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">cmd</span><span class="o">==</span><span class="s1">&#39;move_to&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">cmd</span><span class="o">==</span><span class="s1">&#39;line_to&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">line_to</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">cmd</span><span class="o">==</span><span class="s1">&#39;rectangle&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">rectangle</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> 
+        <span class="k">elif</span> <span class="n">cmd</span><span class="o">==</span><span class="s1">&#39;arc&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">cmd</span><span class="o">==</span><span class="s1">&#39;text&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">cmd</span><span class="o">==</span><span class="s1">&#39;text_extent&#39;</span><span class="p">:</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">text_extent</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">panic</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;no such a cmd=</span><span class="si">{</span><span class="n">cmd</span><span class="si">}</span><span class="s1">!: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span></div>
+            
+    
+    <span class="c1"># # キーワード引数辞書からの部分コピー</span>
+    <span class="c1"># def extract_with_trans_px(self, kwargs=None, keys=None,</span>
+    <span class="c1">#                           trans=None, verbose=False):</span>
+    <span class="c1">#     &quot;&quot;&quot;キーワード引数辞書から，新しい引数辞書を作成して返す．この際，</span>
+    <span class="c1">#     - keysのキーはそのまま抽出.</span>
+    <span class="c1">#     - transのキーはfuncで変換して抽出．</span>
+    <span class="c1">#     &quot;&quot;&quot;</span>
+    <span class="c1">#     ### 内部関数：数値，点，点対を，pt単位px単位へ出る数値を長さ変換する</span>
+    <span class="c1">#     def geom_trans_(num_or_xy, verbose=False):</span>
+    <span class="c1">#         return vec.ex_geom_trans_gen(num_or_xy,</span>
+    <span class="c1">#                                      func=lambda num: com.point_to_pixel(num, ppi=self.ppi),</span>
+    <span class="c1">#                                      verbose=verbose)</span>
+        
+    <span class="c1">#     return kw.extract(kwargs=kwargs, keys=keys, trans=trans,</span>
+    <span class="c1">#                       func=geom_trans_, verbose=verbose)</span>
+        
+        
+    <span class="c1">#============</span>
+    <span class="c1">#便利関数</span>
+    <span class="c1">#============</span>
+<div class="viewcode-block" id="ImageBoard.set_context_parameters"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.set_context_parameters">[docs]</a>    <span class="k">def</span> <span class="nf">set_context_parameters</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Cairo.Contextの修飾情報を設定する．</span>
+<span class="sd">        ラッパー関数：`crtool.cr_set_context_parameters()`に転送する．</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">crtool</span><span class="o">.</span><span class="n">cr_set_context_parameters</span><span class="p">(</span><span class="n">context</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="ImageBoard.process_stroke_or_fill"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.process_stroke_or_fill">[docs]</a>    <span class="k">def</span> <span class="nf">process_stroke_or_fill</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;図形描画後の書き出しを行う．</span>
+<span class="sd">        ラッパー関数：`crtool.cr_set_context_parameters()`に転送する．</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1"># kwargs0 = kw.extract(kwargs=kwargs, keys=[&#39;fill&#39;, &#39;preserve&#39;], verbose=verbose)</span>
+        <span class="c1"># if False:</span>
+        <span class="c1">#     print(f&#39;@debug: rectangle: fill_cmd={fill_cmd}&#39;)</span>
+        <span class="k">return</span> <span class="n">crtool</span><span class="o">.</span><span class="n">cr_process_stroke_or_fill</span><span class="p">(</span><span class="n">context</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></div>
+    
+<div class="viewcode-block" id="ImageBoard.move_to"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.move_to">[docs]</a>    <span class="k">def</span> <span class="nf">move_to</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="sd">&quot;&quot;&quot;ペンを移動する．native演算による実装．</span>
+<span class="sd">        Args: </span>
+<span class="sd">          x, y (float) : x- and y-coordinate of the center</span>
+<span class="sd">        Returns: </span>
+<span class="sd">          (Rect) : 包含矩形</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="kc">True</span> <span class="ow">or</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">):</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;.move_to@@: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_context_parameters</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">crtool</span><span class="o">.</span><span class="n">cr_move_to</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">kwargs</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;context&#39;</span><span class="p">],</span> <span class="n">keys</span><span class="o">=</span><span class="n">keys</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="ImageBoard.line_to"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.line_to">[docs]</a>    <span class="k">def</span> <span class="nf">line_to</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="sd">&quot;&quot;&quot;ペンを移動する．native演算による実装．</span>
+<span class="sd">        Args: </span>
+<span class="sd">          x, y (float) : x- and y-coordinate of the center</span>
+<span class="sd">        Returns: </span>
+<span class="sd">          (Rect) : 包含矩形</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="kc">True</span> <span class="ow">or</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">):</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;.line_to@@: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_context_parameters</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">crtool</span><span class="o">.</span><span class="n">cr_line_to</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">kwargs</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;context&#39;</span><span class="p">],</span> <span class="n">keys</span><span class="o">=</span><span class="n">keys</span><span class="p">))</span></div>
+
+    <span class="c1"># 矩形を描く</span>
+<div class="viewcode-block" id="ImageBoard.rectangle"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.rectangle">[docs]</a>    <span class="k">def</span> <span class="nf">rectangle</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="sd">&quot;&quot;&quot;矩形を描く．描画命令のpillowのdrawオブジェクトのnative演算による実装．</span>
+
+<span class="sd">        Args: </span>
+<span class="sd">          px (float) : x-coordinate of the center</span>
+<span class="sd">          py (float) : y-coordinate of the center</span>
+<span class="sd">          width, height (float) : </span>
+<span class="sd">          ** kwargs (dict): 次のサブルーチンが処理する辞書．</span>
+<span class="sd">              - set_context_parameters()</span>
+<span class="sd">              - process_stroke_or_fill()</span>
+<span class="sd">                * fill (str) :  次のCairoの命令の一つ: </span>
+<span class="sd">                * source_rgb (tuple) : 色を表す実数の三つ組(r,g,b)</span>
+<span class="sd">                * line_width (float) : 線幅</span>
+<span class="sd">        	* verbose (bool): ログ出力のフラグ. </span>
+<span class="sd">        Returns: </span>
+<span class="sd">          (Rect) : 包含矩形</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;@debug: rectangle: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="kc">True</span> <span class="ow">or</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">):</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;.rectangle@@: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_context_parameters</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+        <span class="c1">#長方形を描く</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">rectangle</span><span class="p">(</span><span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">)</span>
+
+        <span class="c1">#図形の書き出しをする</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">process_stroke_or_fill</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">px</span><span class="p">,</span> <span class="n">py</span><span class="p">,</span> <span class="n">px</span><span class="o">+</span><span class="n">width</span><span class="p">,</span> <span class="n">py</span><span class="o">+</span><span class="n">height</span><span class="p">)</span></div>
+
+    <span class="c1"># 円弧を描く</span>
+<div class="viewcode-block" id="ImageBoard.arc"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.arc">[docs]</a>    <span class="k">def</span> <span class="nf">arc</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="sd">&quot;&quot;&quot;円弧を描く．native演算による実装．</span>
+
+<span class="sd">        Args: </span>
+<span class="sd">          x, y (float) : x- and y-coordinate of the center</span>
+<span class="sd">          r (float) : radius </span>
+<span class="sd">          start, end (float) : radius </span>
+<span class="sd">          ** kwargs (dict): 次のサブルーチンが処理する辞書．</span>
+<span class="sd">              - set_context_parameters()</span>
+<span class="sd">              - process_stroke_or_fill()</span>
+<span class="sd">                * fill (str) :  次のCairoの命令の一つ: </span>
+<span class="sd">                * source_rgb (tuple) : 色を表す実数の三つ組(r,g,b)</span>
+<span class="sd">                * line_width (float) : 線幅</span>
+<span class="sd">        	* verbose (bool): ログ出力のフラグ. </span>
+<span class="sd">        Returns: </span>
+<span class="sd">          (Rect) : 包含矩形</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;@debug: arc: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="kc">True</span> <span class="ow">or</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">):</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;.arc@@: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_context_parameters</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+        <span class="c1">#円弧を描く</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">new_sub_path</span><span class="p">()</span> <span class="c1">#for beginning with arc(). See pycairo manual</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">arc</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">)</span>
+
+        <span class="c1">#図形の書き出しをする</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">process_stroke_or_fill</span><span class="p">(</span><span class="o">**</span><span class="n">kw</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">kwargs</span><span class="o">=</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;context&#39;</span><span class="p">,</span> <span class="s1">&#39;fill&#39;</span><span class="p">,</span> <span class="s1">&#39;preserve&#39;</span><span class="p">]))</span>
+        <span class="c1"># self.process_stroke_or_fill(**kwargs0)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="n">r</span><span class="p">,</span> <span class="n">y</span><span class="o">-</span><span class="n">r</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="n">r</span><span class="p">,</span> <span class="n">y</span><span class="o">+</span><span class="n">r</span><span class="p">)</span></div>
+
+    <span class="c1"># テキストを描く</span>
+    <span class="k">def</span> <span class="nf">text</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">msg</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">ffamily</span><span class="o">=</span><span class="s2">&quot;Sans&quot;</span><span class="p">,</span> <span class="n">fsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="sd">&quot;&quot;&quot;円弧を描く．native演算による実装．</span>
+
+<span class="sd">        Args: </span>
+<span class="sd">          x, y (float) : x- and y-coordinate of the box</span>
+<span class="sd">          msg    (str) : a string to write </span>
+<span class="sd">          ffamily (str): font family name </span>
+<span class="sd">          fsize   (int): font size, default 10pt</span>
+<span class="sd">          ** kwargs (dict): 次のサブルーチンが処理する辞書．</span>
+<span class="sd">              - set_context_parameters()</span>
+<span class="sd">              - process_stroke_or_fill()</span>
+<span class="sd">                * source_rgb (tuple) : 色を表す実数の三つ組(r,g,b)</span>
+<span class="sd">        	* verbose (bool): ログ出力のフラグ. </span>
+<span class="sd">        Returns: </span>
+<span class="sd">          (Rect) : 包含矩形</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;@debug: text: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="kc">True</span> <span class="ow">or</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">):</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;.text@@: kwargs=</span><span class="si">{</span><span class="n">kwargs</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">set_context_parameters</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">ffamily</span><span class="p">:</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">select_font_face</span><span class="p">(</span><span class="n">ffamily</span><span class="p">,</span>
+                                <span class="n">cairo</span><span class="o">.</span><span class="n">FONT_SLANT_NORMAL</span><span class="p">,</span>
+                                <span class="n">cairo</span><span class="o">.</span><span class="n">FONT_WEIGHT_NORMAL</span><span class="p">)</span>
+    
+        <span class="c1">## テキストの描画情報を取得</span>
+        <span class="k">if</span> <span class="n">fsize</span><span class="p">:</span> 
+            <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">set_font_size</span><span class="p">(</span><span class="n">fsize</span><span class="p">)</span> <span class="c1">#default: font_size = 10</span>
+        
+        <span class="k">if</span> <span class="n">msg</span><span class="p">:</span>
+            <span class="n">fx</span><span class="p">,</span> <span class="n">fy</span><span class="p">,</span> <span class="n">width</span><span class="p">,</span> <span class="n">height</span><span class="p">,</span> <span class="n">dx</span><span class="p">,</span> <span class="n">dy</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">text_extents</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">panic</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;msg must be non-None!&#39;</span><span class="p">)</span>
+    
+        <span class="c1">## テキストを描画</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cr</span><span class="o">.</span><span class="n">show_text</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+    
+        <span class="c1">#図形の書き出しをする</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">process_stroke_or_fill</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span><span class="o">+</span><span class="n">width</span><span class="p">,</span> <span class="n">y</span><span class="o">+</span><span class="n">height</span><span class="p">)</span>
+
+            
+    <span class="c1"># テキストを描く</span>
+<div class="viewcode-block" id="ImageBoard.text"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.text">[docs]</a>    <span class="k">def</span> <span class="nf">text</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">depth</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="sd">&quot;&quot;&quot;テキストを描く．描画命令のpillowのdrawオブジェクトのnative演算による実装．</span>
+
+<span class="sd">        Args: </span>
+<span class="sd">            kwargs (dict): 次のキーワードパラメータを含む辞書．</span>
+
+<span class="sd">                * xy : tuple (with is_point(xy)==True)</span>
+<span class="sd">                  a point (x0,y0) in grid coordinate</span>
+<span class="sd">                * text : str </span>
+<span class="sd">                  a text to dislay. </span>
+<span class="sd">                * fill : str </span>
+<span class="sd">                  a string represeting a color</span>
+<span class="sd">                * size : str</span>
+<span class="sd">                  a string representing the size of a font such as &#39;scriptsize&#39;, &#39;small&#39;, &#39;regular&#39;, &#39;large&#39;, &#39;huge&#39;. See `pilfont.py`. </span>
+<span class="sd">                * anchor : str</span>
+<span class="sd">                  a string A in {a,m,b}x{l,m,r} representing the location of an anchor point. </span>
+
+<span class="sd">                * verbose (bool): ログ出力のフラグ．</span>
+
+<span class="sd">        Returns: </span>
+<span class="sd">        	なし</span>
+
+<span class="sd">        Note: The anchor feature of PIL has the form of {a,m,b}x{l,m,r,t,s,d}, where </span>
+
+<span class="sd">        * horizontal axis (from left to right): </span>
+<span class="sd">            - l:left, m:middle, r:right</span>
+
+<span class="sd">        * vertical axis (from top to bottom): </span>
+<span class="sd">            - a: ascender (top of a line)</span>
+<span class="sd">            - t:top, m:middle, s:baseline, b:bottom (of a font)</span>
+<span class="sd">            - d: descender (bottom of a line)</span>
+
+<span class="sd">        The following features are same in the features of PIL with the same names: </span>
+
+<span class="sd">             spacing, align (&#39;left&#39;, &#39;right&#39;)</span>
+<span class="sd">             direction, features, language, </span>
+<span class="sd">             stroke_width=0, stroke_fill, </span>
+<span class="sd">             embedded_color (True or False),</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="c1">## フォント辞書を設定する</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;font&#39;</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;size&#39;</span><span class="p">):</span> <span class="n">size</span> <span class="o">=</span> <span class="n">kwargs</span><span class="p">[</span><span class="s1">&#39;size&#39;</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span> <span class="n">size</span> <span class="o">=</span> <span class="s1">&#39;regular&#39;</span>
+            <span class="n">kwargs</span><span class="p">[</span><span class="s1">&#39;font&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fontbase</span><span class="o">.</span><span class="n">lookup_font_by_size</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+        <span class="c1">## 引数</span>
+        <span class="k">if</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">):</span>
+            <span class="c1">#kwargs_ = kw.extract(kwargs, keys=[&#39;xy&#39;], reduced=True)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;.text@@: kwargs=</span><span class="si">{</span> <span class="n">kw</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;xy&#39;</span><span class="p">],</span> <span class="n">reduced</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="c1">#引数抽出</span>
+        <span class="n">kwargs1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">extract_with_trans_px</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">trans</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;xy&#39;</span><span class="p">],</span> <span class="n">keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">,</span> <span class="s1">&#39;font&#39;</span><span class="p">,</span> <span class="s1">&#39;size&#39;</span><span class="p">,</span> <span class="s1">&#39;fill&#39;</span><span class="p">,</span> <span class="s1">&#39;anchor&#39;</span><span class="p">,</span> <span class="s1">&#39;align&#39;</span><span class="p">,</span> <span class="s1">&#39;direction&#39;</span> <span class="p">])</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs1</span><span class="p">)</span>  <span class="c1">## テキストを描画する</span>
+        <span class="k">return</span> </div>
+        
+    <span class="c1"># テキストのbounding boxを返す</span>
+<div class="viewcode-block" id="ImageBoard.text_extent"><a class="viewcode-back" href="../cimage.html#cimage.ImageBoard.text_extent">[docs]</a>    <span class="k">def</span> <span class="nf">text_extent</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">depth</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span> 
+        <span class="sd">&quot;&quot;&quot;テキストの最小包含長方形を返す．描画命令のpillowのdrawオブジェクトのnative演算による実装．</span>
+
+<span class="sd">        Args: </span>
+<span class="sd">            kwargs (dict): 次のキーワードパラメータを含む辞書．</span>
+
+<span class="sd">                * xy : tuple (with is_point(xy)==True)</span>
+<span class="sd">                  a point (x0,y0) in grid coordinate</span>
+<span class="sd">                * text : str </span>
+<span class="sd">                  a text to dislay. </span>
+<span class="sd">                * size : str</span>
+<span class="sd">                  a string representing the size of a font such as &#39;scriptsize&#39;, &#39;small&#39;, &#39;regular&#39;, &#39;large&#39;, &#39;huge&#39;. See `pilfont.py`. </span>
+<span class="sd">                * anchor : str</span>
+<span class="sd">                  a string A in {a,m,b}x{l,m,r} representing the location of an anchor point. </span>
+
+<span class="sd">                * verbose (bool): ログ出力のフラグ．</span>
+
+<span class="sd">        Returns: </span>
+<span class="sd">        	rect: テキストの最小包含矩形 bbox = ((x0, y0), (x1, y1)). </span>
+
+<span class="sd">        The following features are same to the text_extent command in PIL: </span>
+
+<span class="sd">             spacing, align (&#39;left&#39;, &#39;right&#39;)</span>
+<span class="sd">             direction, features, language, </span>
+<span class="sd">             stroke_width=0, stroke_fill, </span>
+<span class="sd">             embedded_color (True or False),</span>
+
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;font&#39;</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;size&#39;</span><span class="p">):</span> <span class="n">size</span> <span class="o">=</span> <span class="n">kwargs</span><span class="p">[</span><span class="s1">&#39;size&#39;</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span> <span class="n">size</span> <span class="o">=</span> <span class="s1">&#39;regular&#39;</span>
+            <span class="n">kwargs</span><span class="p">[</span><span class="s1">&#39;font&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">fontbase</span><span class="o">.</span><span class="n">lookup_font_by_size</span><span class="p">(</span><span class="n">size</span><span class="p">)</span>
+        <span class="c1">## 引数</span>
+        <span class="k">if</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;verbose&#39;</span><span class="p">):</span>
+            <span class="c1">#kwargs_ = </span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">repo</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;.text_extent@@: kwargs=</span><span class="si">{</span> <span class="n">kw</span><span class="o">.</span><span class="n">extract</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;xy&#39;</span><span class="p">],</span> <span class="n">reduced</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="c1">#引数抽出</span>
+        <span class="n">kwargs1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">extract_with_trans_px</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">trans</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;xy&#39;</span><span class="p">],</span> <span class="n">keys</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">,</span> <span class="s1">&#39;font&#39;</span><span class="p">,</span> <span class="s1">&#39;size&#39;</span><span class="p">,</span> <span class="s1">&#39;anchor&#39;</span><span class="p">,</span> <span class="s1">&#39;align&#39;</span><span class="p">,</span> <span class="s1">&#39;direction&#39;</span><span class="p">,</span> <span class="p">])</span>
+        <span class="n">x0</span><span class="p">,</span> <span class="n">y0</span><span class="p">,</span> <span class="n">x1</span><span class="p">,</span> <span class="n">y1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">drawer</span><span class="o">.</span><span class="n">text_extent</span><span class="p">(</span><span class="o">**</span><span class="n">kwargs1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">kw</span><span class="o">.</span><span class="n">contains</span><span class="p">(</span><span class="n">kwargs</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="s1">&#39;relative&#39;</span><span class="p">):</span> 
+            <span class="n">bbox</span> <span class="o">=</span> <span class="p">((</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="n">x1</span><span class="o">-</span><span class="n">x0</span><span class="p">,</span> <span class="n">y1</span><span class="o">-</span><span class="n">y0</span><span class="p">))</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">bbox</span> <span class="o">=</span> <span class="p">((</span><span class="n">x0</span><span class="p">,</span> <span class="n">y0</span><span class="p">),</span> <span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">y1</span><span class="p">))</span> 
+        <span class="k">return</span> <span class="n">bbox</span></div></div>
+
+    <span class="c1">##===============================</span>
+    <span class="c1">## 210717: ここまで．各描画演算を完成させる</span>
+    <span class="c1">##===============================</span>
+                    
+<span class="c1">#EOF</span>
+</pre></div>
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Hiroki Arimura, Hokkaido University.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

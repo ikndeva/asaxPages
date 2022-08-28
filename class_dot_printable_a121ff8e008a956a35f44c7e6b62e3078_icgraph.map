@@ -1,5 +1,0 @@
-<map id="print_dot" name="print_dot">
-<area shape="rect" id="node1" title="ノード型NTをもつグラフ索引をファイルにdot形式で書き出す。" alt="" coords="289,5,361,32"/>
-<area shape="rect" id="node2" href="$class_app.html#a39d2e050c864392569928d68a702dfed" title="定数 DOT_FILE で指定されたファイルへ、索引のグラフをdot形式で書き出す。" alt="" coords="124,5,241,32"/>
-<area shape="rect" id="node3" href="$class_app.html#a498662fc68e812638771a38fe4856bd7" title="入力テキストから索引のグラフを構築する。" alt="" coords="5,5,76,32"/>
-</map>

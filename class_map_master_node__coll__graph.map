@@ -1,6 +1,0 @@
-<map id="MapMasterNode" name="MapMasterNode">
-<area shape="rect" id="node1" title="MapPlainNodeに対応するマスターノードのクラス。" alt="" coords="5,171,124,197"/>
-<area shape="rect" id="node2" href="$class_map_plain_node.html" title="グラフ索引のノードの実装クラス。" alt="" coords="143,81,250,108"/>
-<area shape="rect" id="node3" href="$class_visitable.html" title=" " alt="" coords="149,171,330,197"/>
-<area shape="rect" id="node4" href="$class_suf_printable.html" title=" " alt="" coords="95,5,298,32"/>
-</map>

@@ -1,0 +1,7 @@
+cboard module
+=============
+
+.. automodule:: cboard
+   :members:
+   :undoc-members:
+   :show-inheritance:

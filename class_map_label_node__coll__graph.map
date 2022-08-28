@@ -1,7 +1,0 @@
-<map id="MapLabelNode" name="MapLabelNode">
-<area shape="rect" id="node1" title="グラフ索引のノードの実装クラス。" alt="" coords="178,81,287,108"/>
-<area shape="rect" id="node2" href="$class_visitable.html" title=" " alt="" coords="59,171,241,197"/>
-<area shape="rect" id="node3" href="$class_yaml_buf.html" title="再帰的な多相型テンプレートを実現するためのExprBufImplクラスのラッパークラス．" alt="" coords="5,81,76,108"/>
-<area shape="rect" id="node4" href="$class_level.html" title="簡易型のログ出力用ユティリティ。" alt="" coords="101,81,154,108"/>
-<area shape="rect" id="node5" href="$class_suf_printable.html" title=" " alt="" coords="131,5,335,32"/>
-</map>

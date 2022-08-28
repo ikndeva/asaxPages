@@ -1,5 +1,0 @@
-<map id="add" name="add">
-<area shape="rect" id="node1" title="バッファの末尾にstringクラスオブジェクト val の文字列表現を追加する." alt="" coords="5,5,48,32"/>
-<area shape="rect" id="node2" href="$class_string_buf_impl.html#a615ccd723733653b9e6a2d72563f1cab" title="バッファが表す文字列を返す。 カスケードスタイルではないことに注意。カスケード呼び出しの末端で用いる。" alt="" coords="96,5,135,32"/>
-<area shape="rect" id="node3" href="$class_string_buf_impl.html#a2c93eefb47e761e1c4aada67f3178e38" title="改行を追加する. フラグto_lineが真ならば改行しない、そうでなければ空白を出力する. カスケードスタイルの呼び出し。" alt="" coords="183,5,221,32"/>
-</map>

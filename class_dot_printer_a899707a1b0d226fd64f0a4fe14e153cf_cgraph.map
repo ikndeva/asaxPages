@@ -1,5 +1,0 @@
-<map id="node_to_dot" name="node_to_dot">
-<area shape="rect" id="node1" title="dot形式で頂点を記述する文字列を返す。" alt="" coords="5,35,99,61"/>
-<area shape="rect" id="node2" href="$class_dot_printer_impl.html#acedd900b97053296a63977004eab4742" title="文字列nameとint値valueを受け取り、属性値対の文字列を返す。" alt="" coords="147,5,308,32"/>
-<area shape="rect" id="node3" href="$class_dot_printer_impl.html#ad8604c3c601c8e73645cc428a328a06b" title="スタイルを表すdot形式の文字列を返す。" alt="" coords="163,57,292,98"/>
-</map>

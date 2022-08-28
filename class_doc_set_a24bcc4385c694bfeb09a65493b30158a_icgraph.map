@@ -1,5 +1,0 @@
-<map id="get_substring" name="get_substring">
-<area shape="rect" id="node1" title=" " alt="" coords="209,31,309,57"/>
-<area shape="rect" id="node2" href="$class_doc_set.html#a79a60cbf162eca015dd8101df636ec99" title="文書集合の内容の文字列表現を返す。" alt="" coords="28,5,139,32"/>
-<area shape="rect" id="node3" href="$class_s_tree.html#a0889c29da8788605202bb81bd220a229" title="ノード v の入り辺 (par =&gt; v) のラベル文字列を返す。" alt="" coords="5,56,161,83"/>
-</map>

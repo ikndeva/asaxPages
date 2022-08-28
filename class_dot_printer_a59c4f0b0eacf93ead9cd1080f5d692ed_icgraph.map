@@ -1,6 +1,0 @@
-<map id="edge_to_dot" name="edge_to_dot">
-<area shape="rect" id="node1" title="dot形式でエッジを記述する文字列を返す。" alt="" coords="312,35,405,61"/>
-<area shape="rect" id="node2" href="$class_dot_printer.html#a969310f29dd59db45a225128b64f3020" title=" " alt="" coords="141,5,248,32"/>
-<area shape="rect" id="node4" href="$class_dot_printer_rev.html#a10f213d361cb612c82f016114464fc68" title=" " alt="" coords="125,57,264,98"/>
-<area shape="rect" id="node3" href="$class_dot_printer.html#a188eec94914eeda611cf31db15eb880d" title=" " alt="" coords="5,5,77,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="ExprBuf" name="ExprBuf">
-<area shape="rect" id="node1" title="再帰的な多相型テンプレートを実現するためのExprBufImplクラスのラッパークラス．" alt="" coords="57,155,126,181"/>
-<area shape="rect" id="node2" href="$class_expr_buf_impl.html" title=" " alt="" coords="9,80,174,107"/>
-<area shape="rect" id="node3" href="$class_string_buf_impl.html" title=" " alt="" coords="5,5,177,32"/>
-</map>

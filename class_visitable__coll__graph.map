@@ -1,6 +1,0 @@
-<map id="Visitable&lt; NT &gt;" name="Visitable&lt; NT &gt;">
-<area shape="rect" id="node1" title="グラフ索引のノードのテンプレートクラス。" alt="" coords="77,171,191,197"/>
-<area shape="rect" id="node2" href="$class_yaml_buf.html" title="再帰的な多相型テンプレートを実現するためのExprBufImplクラスのラッパークラス．" alt="" coords="55,81,125,108"/>
-<area shape="rect" id="node3" href="$class_yaml_buf_impl.html" title=" " alt="" coords="5,5,175,32"/>
-<area shape="rect" id="node4" href="$class_level.html" title="簡易型のログ出力用ユティリティ。" alt="" coords="150,81,203,108"/>
-</map>

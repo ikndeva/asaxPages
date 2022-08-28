@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cboard module &mdash; GridBoard v0.9 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="cimage module" href="cimage.html" />
+    <link rel="prev" title="Welcome to gridboard’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> GridBoard
+          </a>
+              <div class="version">
+                v0.9
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">cboard module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cimage.html">cimage module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="common.html">common module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="crtool.html">crtool module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">help module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="kwargs.html">kwargs module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="path.html">path module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">GridBoard</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>cboard module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/cboard.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-cboard">
+<span id="cboard-module"></span><h1>cboard module<a class="headerlink" href="#module-cboard" title="Permalink to this heading">¶</a></h1>
+<p>画盤モジュール</p>
+<p>cboard.py
+220815 Created based on board.py
+by Hiroki Arimura, <a class="reference external" href="mailto:arim&#37;&#52;&#48;ist&#46;hokudai&#46;ac&#46;jp">arim<span>&#64;</span>ist<span>&#46;</span>hokudai<span>&#46;</span>ac<span>&#46;</span>jp</a></p>
+<dl class="py attribute">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">DEFAULT_PPT</span> <span class="pre">=</span> <span class="pre">720</span></span></dt>
+<dd><p>デフォールトの解像度</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">DEFAULT_LINE_WIDTH</span> <span class="pre">=</span> <span class="pre">1</span></span></dt>
+<dd><p>デフォールトの辺幅</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">DEFAULT_COLOR_BORDER_INNER</span> <span class="pre">=</span> <span class="pre">'red'</span></span></dt>
+<dd><p>デフォールトの境界色（内側）</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">DEFAULT_COLOR_BORDER_OUTER</span> <span class="pre">=</span> <span class="pre">'blue'</span></span></dt>
+<dd><p>デフォールトの境界色（外側）</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.AnchorBoard">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">AnchorBoard</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">anchor_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#AnchorBoard"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.AnchorBoard" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.BoardBase" title="cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">BoardBase</span></code></a></p>
+<p>画盤（board）のクラス．BoardBaseのラッパー．</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.AnchorBoard.arrange_self_transform">
+<span class="sig-name descname"><span class="pre">arrange_self_transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box_native</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#AnchorBoard.arrange_self_transform"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.AnchorBoard.arrange_self_transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>アンカー情報から，変換と包含矩形を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.AnchorWrapper">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">AnchorWrapper</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">anchor_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#AnchorWrapper"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.AnchorWrapper" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.BoardBase" title="cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">BoardBase</span></code></a></p>
+<p>アンカーオブジェクトのクラス</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cboard.AnchorWrapper.anchor_info">
+<span class="sig-name descname"><span class="pre">anchor_info</span></span><a class="headerlink" href="#cboard.AnchorWrapper.anchor_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>下記の属性をもつ辞書</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>dict</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cboard.AnchorWrapper.anchor_x">
+<span class="sig-name descname"><span class="pre">anchor_x</span></span><a class="headerlink" href="#cboard.AnchorWrapper.anchor_x" title="Permalink to this definition">¶</a></dt>
+<dd><p>x方向のアンカー文字列．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cboard.AnchorWrapper.anchor_y">
+<span class="sig-name descname"><span class="pre">anchor_y</span></span><a class="headerlink" href="#cboard.AnchorWrapper.anchor_y" title="Permalink to this definition">¶</a></dt>
+<dd><p>y方向のアンカー文字列．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cboard.AnchorWrapper.anchor">
+<span class="sig-name descname"><span class="pre">anchor</span></span><a class="headerlink" href="#cboard.AnchorWrapper.anchor" title="Permalink to this definition">¶</a></dt>
+<dd><p>代替のアンカー文字列．anchor_xとanchor_yが指定されていない時に，内容に応じて指定に使う．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl>
+<dt>Example :</dt><dd><p>キー`anchor_x`と`anchor_y`の値のアンカー文字列は，それぞれ，次の辞書`ALIGN_X`と`ALIGN_Y`のキーである．各キーの辞書中の値それぞれは，正規矩形 <a href="#id1"><span class="problematic" id="id2">`</span></a>[0,1]x[0,1]`の周上の点を表す．</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ALIGN_X</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;left&#39;</span><span class="p">:</span><span class="mf">0.0</span><span class="p">,</span> <span class="s1">&#39;center&#39;</span><span class="p">:</span><span class="mf">0.5</span><span class="p">,</span> <span class="s1">&#39;right&#39;</span><span class="p">:</span><span class="mf">1.0</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="n">ALIGN_Y</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;top&#39;</span><span class="p">:</span><span class="mf">0.0</span><span class="p">,</span> <span class="s1">&#39;middle&#39;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span> <span class="s1">&#39;bottom&#39;</span><span class="p">:</span><span class="mf">1.0</span><span class="p">,</span>
+    <span class="s1">&#39;mid&#39;</span><span class="p">:</span> <span class="mf">0.5</span><span class="p">,</span>  <span class="s1">&#39;bot&#39;</span> <span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span> <span class="s1">&#39;above&#39;</span><span class="p">:</span><span class="mf">0.0</span><span class="p">,</span> <span class="s1">&#39;below&#39;</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span> <span class="c1">#代替キー</span>
+<span class="p">}</span>
+<span class="n">DEFAULT_ALIGN_RATIO_X</span> <span class="o">=</span> <span class="mf">0.0</span>
+<span class="n">DEFAULT_ALIGN_RATIO_Y</span> <span class="o">=</span> <span class="mf">0.0</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.AnchorWrapper.arrange_modify_child">
+<span class="sig-name descname"><span class="pre">arrange_modify_child</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trans</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">child_box</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#AnchorWrapper.arrange_modify_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.AnchorWrapper.arrange_modify_child" title="Permalink to this definition">¶</a></dt>
+<dd><p>クラス`Board`の関数`arrange`のフック関数．利用者が上書きして用いる．</p>
+<ul class="simple">
+<li><p>変換と，子ボード，子の包含矩形`trans, child, child_box`から，更新した変換と子ボード`trans, child`を返す．</p></li>
+<li><p>クラス`Board`の同名の関数を上書きし，関数`arrange`からフックとして呼び出され，変換と子の対を修正するのに用いられる．</p></li>
+</ul>
+<dl class="simple">
+<dt>Args :</dt><dd><p>trans (crtool.GeoTrans) : 現在の子の変換オブジェクト
+child (Board) : 現在の子ボード
+child_box (tuple()) : 現在の子の包含矩形(x0, y0, x1, y1)</p>
+</dd>
+<dt>Returns :</dt><dd><p>(crtool.GeoTrans, Board) : 新しい変換と子ボード`trans, child`</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.AnchorWrapper.put">
+<span class="sig-name descname"><span class="pre">put</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trans</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#AnchorWrapper.put"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.AnchorWrapper.put" title="Permalink to this definition">¶</a></dt>
+<dd><p>子を追加する．<a href="#id3"><span class="problematic" id="id4">`</span></a>self.put(child)`のように，<a href="#id5"><span class="problematic" id="id6">`</span></a>trans`を指定せずに使う．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>child</strong> (<a class="reference internal" href="#cboard.Board" title="cboard.Board"><em>Board</em></a>) – 子として追加するBoardオブジェクト</p></li>
+<li><p><strong>trans</strong> (<em>cairo.Matrix</em>) – 無視される</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>自分自身．いわゆる’cascade object call interface’ のため．</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(<a class="reference internal" href="#cboard.Board" title="cboard.Board">Board</a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.Board">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">Board</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Board"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Board" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.AnchorBoard" title="cboard.AnchorBoard"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnchorBoard</span></code></a></p>
+<p>画盤（board）のクラス．BoardBaseのラッパー．</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.BoardBase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">BoardBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="common.html#common.Loggable" title="common.Loggable"><code class="xref py py-class docutils literal notranslate"><span class="pre">Loggable</span></code></a></p>
+<p>画盤（board）のクラス: 座標系オブジェクト</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cboard.BoardBase.verbose">
+<span class="sig-name descname"><span class="pre">verbose</span></span><a class="headerlink" href="#cboard.BoardBase.verbose" title="Permalink to this definition">¶</a></dt>
+<dd><p>ログ出力のフラグ</p>
+<dl class="field-list simple">
+<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>bool</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.arrange">
+<span class="sig-name descname"><span class="pre">arrange</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.arrange"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.arrange" title="Permalink to this definition">¶</a></dt>
+<dd><p>配置を計算する．配置は，ボトムアップに再帰的に計算される．</p>
+<p>Args:
+:returns: 計算済みの自身の包含矩形オブジェクト
+:rtype: rect</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.arrange_me">
+<span class="sig-name descname"><span class="pre">arrange_me</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.arrange_me"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.arrange_me" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の座標系で配置を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.arrange_me_post">
+<span class="sig-name descname"><span class="pre">arrange_me_post</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.arrange_me_post"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.arrange_me_post" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の座標系で配置を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.arrange_modify_child">
+<span class="sig-name descname"><span class="pre">arrange_modify_child</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">trans</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">child</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">child_box</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.arrange_modify_child"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.arrange_modify_child" title="Permalink to this definition">¶</a></dt>
+<dd><p>変換と，子ボード，子の包含矩形から，更新した変換と子ボードを返す．上書きすること．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.arrange_self_transform">
+<span class="sig-name descname"><span class="pre">arrange_self_transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.arrange_self_transform"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.arrange_self_transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>アンカー情報から，変換と包含矩形を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.bname">
+<span class="sig-name descname"><span class="pre">bname</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">depth</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ord</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tag</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.bname"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.bname" title="Permalink to this definition">¶</a></dt>
+<dd><p>便利関数．ログ用に，Boardオブジェクトの情報の文字列を返す．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.children_indexed">
+<span class="sig-name descname"><span class="pre">children_indexed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.children_indexed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.children_indexed" title="Permalink to this definition">¶</a></dt>
+<dd><p>添字とエントリの対`idx, value`の並び children を返す．
+現在は，<a href="#id7"><span class="problematic" id="id8">`</span></a>trans, child = value`である．部分クラスで上書きする．
+:returns: 子オブジェクトのリスト
+:rtype: list</p>
+<dl class="simple">
+<dt>Notes :</dt><dd><p>読み出し`idx, value = children_indexed()`と書き込み`children_replace(idx, value)`を対にして用いる．</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.children_replace">
+<span class="sig-name descname"><span class="pre">children_replace</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">idx</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.children_replace"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.children_replace" title="Permalink to this definition">¶</a></dt>
+<dd><p>添字とエントリの対`idx, value`の並び children において，
+idx番目のエントリを`value=(trans, child)`で置換する．部分クラスで上書きする．
+:returns: 自分自身．
+:rtype: (Board)</p>
+<dl class="simple">
+<dt>Notes :</dt><dd><p>読み出し`idx, value = children_indexed()`と書き込み`children_replace(idx, value)`を対にして用いる．</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="cboard.BoardBase.count">
+<span class="sig-name descname"><span class="pre">count</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">0</span></em><a class="headerlink" href="#cboard.BoardBase.count" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.draw">
+<span class="sig-name descname"><span class="pre">draw</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.draw"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.draw" title="Permalink to this definition">¶</a></dt>
+<dd><p>トップダウンに画像を描画する．
+:param trans: 空間変換
+:type trans: crt.GeoTransform
+:param pm0: 基本描画のプリミティブボード
+:type pm0: pim.ImageBoard</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.draw_me">
+<span class="sig-name descname"><span class="pre">draw_me</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.draw_me"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.draw_me" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の描画を行う．子孫クラスでオーバーライドすること．
+:param cr: Cairoの文脈オブジェクト
+:type cr: Cairo.Context</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.draw_me_post">
+<span class="sig-name descname"><span class="pre">draw_me_post</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.draw_me_post"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.draw_me_post" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の描画を行う．子孫クラスでオーバーライドすること．
+:param cr: Cairoの文脈オブジェクト
+:type cr: Cairo.Context</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.draw_perturbed_box">
+<span class="sig-name descname"><span class="pre">draw_perturbed_box</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">box</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_perturb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.draw_perturbed_box"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.draw_perturbed_box" title="Permalink to this definition">¶</a></dt>
+<dd><p>位置を</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.get_anchor_point">
+<span class="sig-name descname"><span class="pre">get_anchor_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">anchor_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.get_anchor_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.get_anchor_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>アンカー指定から，自身の包含矩形上の対応する点を返す．
+Args :</p>
+<blockquote>
+<div><p>anchor_x (str) : 横方向の位置指示 in (left, middle, right)
+anchor_y (str) : 縦方向の位置指示 in (top, middle, bottom, above, below)
+anchor (str) : 代替の位置指示．内容に応じて横または縦の位置表示として用いる．ただし，anchor_xまたはanchor_yを優先し，両方設定しようとするとエラーを呼ぶ．</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns :</dt><dd><p>(tuple(float, float)) : アンカー点(x,y)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.get_box">
+<span class="sig-name descname"><span class="pre">get_box</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.get_box"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.get_box" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.put">
+<span class="sig-name descname"><span class="pre">put</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trans</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.put"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.put" title="Permalink to this definition">¶</a></dt>
+<dd><p>子を追加する．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>trans</strong> (<em>cairo.Matrix</em>) – 自座標における子の配置を指示する変換行列．原点にある子を所望の場所に配置するためのアフィン変換を表す．</p></li>
+<li><p><strong>child</strong> (<a class="reference internal" href="#cboard.Board" title="cboard.Board"><em>Board</em></a>) – 子として追加するBoardオブジェクト</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>自分自身．いわゆる’cascade object call interface’ のため．</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(<a class="reference internal" href="#cboard.Board" title="cboard.Board">Board</a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.relative_apath_get">
+<span class="sig-name descname"><span class="pre">relative_apath_get</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">top</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cid</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">apath</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">hgt</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.relative_apath_get"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.relative_apath_get" title="Permalink to this definition">¶</a></dt>
+<dd><p>基準オブジェクトから自身へのアクセスパス（子添字列）を返す．
+:param top: 基準オブジェクト．このBoardBaseか根へ到達すると停止する．
+:type top: BoardBase</p>
+<dl class="simple">
+<dt>Returns :</dt><dd><p>(list(int)) : 成功すれば，基準オブジェクトから自身へのアクセスパス（子添字列）．失敗すればNone</p>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>仮定：self.depth==Noneの場合は，全ての子孫のdepth==None</p>
+</div>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.relative_apath_to_tpath">
+<span class="sig-name descname"><span class="pre">relative_apath_to_tpath</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">apath</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tpath</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.relative_apath_to_tpath"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.relative_apath_to_tpath" title="Permalink to this definition">¶</a></dt>
+<dd><p>点p=(x,y)を，アクセスパスapath=((), …, ())
+:param p: 点p=(x,y) or 矩形p=(x0, y0, x1, y1)
+:type p: tuple
+:param apath: (ord, board)のリスト．最初の要素はord=None
+:type apath: list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.relative_apply_transform_by_apath">
+<span class="sig-name descname"><span class="pre">relative_apply_transform_by_apath</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">apath</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.relative_apply_transform_by_apath"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.relative_apply_transform_by_apath" title="Permalink to this definition">¶</a></dt>
+<dd><p>点p=(x,y)を，アクセスパスapath=((), …, ())
+:param p: 点p=(x,y) or 矩形p=(x0, y0, x1, y1)
+:type p: tuple
+:param apath: (ord, board)のリスト．最初の要素はord=None
+:type apath: list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.relative_transform">
+<span class="sig-name descname"><span class="pre">relative_transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">p</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">target</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.relative_transform"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.relative_transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>自身の子孫であるBoardBaseオブジェクトtargetの座標系における，
+点p=(x,y)の局所座標を返す，
+:param target: 自身の子孫であるBoardBaseオブジェクト
+:type target: BoardBase
+:param p: 点p=(x,y)
+:type p: tuple</p>
+<p class="rubric">Notes</p>
+<p>apath (list) は，selfからtargetへのアクセスパスであり，
+(board, ord)のリスト．
+- 末尾以外の要素boardについて，その子はboard.chidren_[ord]であり，
+- 末尾要素boardに対してはord=Noneである．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.BoardBase.vars">
+<span class="sig-name descname"><span class="pre">vars</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#BoardBase.vars"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.BoardBase.vars" title="Permalink to this definition">¶</a></dt>
+<dd><p>自身のオブジェクトの属性からなる辞書を返す．
+その際，未定義（値がNone）の属性はスキップする．</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.Canvas">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">Canvas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">imgtype</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">cairo.Format.ARGB32</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pdf'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outfile</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'out'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">imagesize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'XGA'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">portrait</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundingbox</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_perturb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Canvas"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Canvas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.Board" title="cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">Board</span></code></a></p>
+<p>トップレベルのボードのクラス．描画のためのCairoのSurfaceを保持する．
+描画対象のすべての要素（ボード）は，本オブジェクトの子孫として保持する．</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.Canvas.canvas_size">
+<span class="sig-name descname"><span class="pre">canvas_size</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Canvas.canvas_size"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Canvas.canvas_size" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.Canvas.get_image_board">
+<span class="sig-name descname"><span class="pre">get_image_board</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Canvas.get_image_board"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Canvas.get_image_board" title="Permalink to this definition">¶</a></dt>
+<dd><p>ImageBoardオブジェクトを返す．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.Canvas.save">
+<span class="sig-name descname"><span class="pre">save</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">imgfile</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Canvas.save"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Canvas.save" title="Permalink to this definition">¶</a></dt>
+<dd><p>imgfile: 保存する画像ファイルの名前．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.Canvas.show">
+<span class="sig-name descname"><span class="pre">show</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">noshow</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">depth</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Canvas.show"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Canvas.show" title="Permalink to this definition">¶</a></dt>
+<dd><p>配置と描画を行ない，画像をディスプレイに表示する．
+次の手順で描画する．</p>
+<ul class="simple">
+<li><p>ステップ1: 再帰的に子オブジェクトへ arrange() 命令を送り，ボトムアップに配置の包含矩形 box を計算する</p></li>
+<li><p>ステップ2: 包含矩形情報 box を元に，self.create_pim() 命令を発行して，pillowの画像盤 self.pim を生成する．</p></li>
+<li><p>ステップ3: 再帰的に draw() 命令を発行して，トップダウンに描画を行う</p></li>
+<li><p>ステップ4: 自身のもつpillowオブジェクト self.pimに show() 命令を送り，画像を表示する</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.DrawCircle">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">DrawCircle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCircle"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCircle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.DrawCommandBase" title="cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawCircle.arrange_me">
+<span class="sig-name descname"><span class="pre">arrange_me</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCircle.arrange_me"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCircle.arrange_me" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の座標系で配置を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawCircle.draw_me_impl">
+<span class="sig-name descname"><span class="pre">draw_me_impl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCircle.draw_me_impl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCircle.draw_me_impl" title="Permalink to this definition">¶</a></dt>
+<dd><p>To be implemented</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.DrawCommandBase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">DrawCommandBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCommandBase"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCommandBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.Board" title="cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">Board</span></code></a></p>
+<p>描画演算オブジェクトの基底クラス．Boardクラスのサブクラス．</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawCommandBase.draw_me">
+<span class="sig-name descname"><span class="pre">draw_me</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCommandBase.draw_me"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCommandBase.draw_me" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の描画を行う．子孫クラスでオーバーライドすること．
+:param cr: Cairoの文脈オブジェクト
+:type cr: Cairo.Context</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawCommandBase.draw_me_impl">
+<span class="sig-name descname"><span class="pre">draw_me_impl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCommandBase.draw_me_impl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCommandBase.draw_me_impl" title="Permalink to this definition">¶</a></dt>
+<dd><p>To be implemented</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawCommandBase.get_kwargs">
+<span class="sig-name descname"><span class="pre">get_kwargs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCommandBase.get_kwargs"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCommandBase.get_kwargs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.DrawCommandTemplate">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">DrawCommandTemplate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawCommandTemplate"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawCommandTemplate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.DrawCommandBase" title="cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.DrawMarkerCross">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">DrawMarkerCross</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawMarkerCross"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawMarkerCross" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.DrawPolyLines" title="cboard.DrawPolyLines"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawPolyLines</span></code></a></p>
+<p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.DrawPolyLines">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">DrawPolyLines</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawPolyLines"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawPolyLines" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.DrawCommandBase" title="cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawPolyLines.arrange_me">
+<span class="sig-name descname"><span class="pre">arrange_me</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawPolyLines.arrange_me"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawPolyLines.arrange_me" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の座標系で配置を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawPolyLines.draw_me_impl">
+<span class="sig-name descname"><span class="pre">draw_me_impl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawPolyLines.draw_me_impl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawPolyLines.draw_me_impl" title="Permalink to this definition">¶</a></dt>
+<dd><p>To be implemented</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawPolyLines.line_to">
+<span class="sig-name descname"><span class="pre">line_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">has_arrow</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawPolyLines.line_to"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawPolyLines.line_to" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Args :</dt><dd><p>x, y (float) : x- and y-coodinates</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>自分自身．いわゆる’cascade object call interface’ のため．</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>(<a class="reference internal" href="#cboard.Board" title="cboard.Board">Board</a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawPolyLines.move_to">
+<span class="sig-name descname"><span class="pre">move_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawPolyLines.move_to"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawPolyLines.move_to" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="simple">
+<dt>Args :</dt><dd><p>x, y (float) : x- and y-coodinates</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>自分自身．いわゆる’cascade object call interface’ のため．</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>(<a class="reference internal" href="#cboard.Board" title="cboard.Board">Board</a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.DrawRectangle">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">DrawRectangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawRectangle"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawRectangle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.DrawCommandBase" title="cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawRectangle.arrange_me">
+<span class="sig-name descname"><span class="pre">arrange_me</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawRectangle.arrange_me"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawRectangle.arrange_me" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の座標系で配置を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.DrawRectangle.draw_me_impl">
+<span class="sig-name descname"><span class="pre">draw_me_impl</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#DrawRectangle.draw_me_impl"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.DrawRectangle.draw_me_impl" title="Permalink to this definition">¶</a></dt>
+<dd><p>To be implemented</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.GridLocator">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">GridLocator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">num_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#GridLocator"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.GridLocator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.Board" title="cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">Board</span></code></a></p>
+<p>アンカーオブジェクトのクラス</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.GridLocator.arrange">
+<span class="sig-name descname"><span class="pre">arrange</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#GridLocator.arrange"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.GridLocator.arrange" title="Permalink to this definition">¶</a></dt>
+<dd><p>配置を計算する．配置は，ボトムアップに再帰的に計算される．
+Args:
+:returns: 計算済みの自身の包含矩形オブジェクト
+:rtype: rect</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.GridLocator.children_indexed">
+<span class="sig-name descname"><span class="pre">children_indexed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#GridLocator.children_indexed"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.GridLocator.children_indexed" title="Permalink to this definition">¶</a></dt>
+<dd><p>添字とエントリの対`idx, value`の並び children を返す．実際にはiteratorを返す．
+現在は，<a href="#id9"><span class="problematic" id="id10">`</span></a>trans, child = value`である．
+:returns: 添字とエントリの対`idx, value`のリスト
+:rtype: list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.GridLocator.children_replace">
+<span class="sig-name descname"><span class="pre">children_replace</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">idx</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#GridLocator.children_replace"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.GridLocator.children_replace" title="Permalink to this definition">¶</a></dt>
+<dd><p>添字とエントリの対`idx, value`の並び children において，
+idx番目のエントリを`value=(trans, child)`で置換する．
+:returns: 自分自身．
+:rtype: (Board)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.GridLocator.get_shape">
+<span class="sig-name descname"><span class="pre">get_shape</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#GridLocator.get_shape"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.GridLocator.get_shape" title="Permalink to this definition">¶</a></dt>
+<dd><p>格子の形状 <a href="#id11"><span class="problematic" id="id12">`</span></a>(num_x, num_y)`を返す．</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.GridLocator.put">
+<span class="sig-name descname"><span class="pre">put</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">i</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">j</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#GridLocator.put"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.GridLocator.put" title="Permalink to this definition">¶</a></dt>
+<dd><p>子を追加する．</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>child</strong> (<a class="reference internal" href="#cboard.Board" title="cboard.Board"><em>Board</em></a>) – 子として追加するBoardオブジェクト</p></li>
+<li><p><strong>i</strong> (<em>int</em>) – x方向のセル添字</p></li>
+<li><p><strong>j</strong> (<em>int</em>) – y方向のセル添字</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>自分自身．いわゆる’cascade object call interface’ のため．</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>(<a class="reference internal" href="#cboard.Board" title="cboard.Board">Board</a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="cboard.Packer">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">Packer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">axis</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">align</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fit</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Packer"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Packer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#cboard.Board" title="cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">Board</span></code></a></p>
+<p>パッカーのクラス</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.Packer.arrange_me_post">
+<span class="sig-name descname"><span class="pre">arrange_me_post</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Packer.arrange_me_post"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Packer.arrange_me_post" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の座標系で配置を計算する．子孫クラスでオーバーライドすること</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cboard.Packer.draw_me_post">
+<span class="sig-name descname"><span class="pre">draw_me_post</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cr</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#Packer.draw_me_post"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.Packer.draw_me_post" title="Permalink to this definition">¶</a></dt>
+<dd><p>自分の描画を行う．子孫クラスでオーバーライドすること．
+:param cr: Cairoの文脈オブジェクト
+:type cr: Cairo.Context</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="cboard.perturb_point">
+<span class="sig-prename descclassname"><span class="pre">cboard.</span></span><span class="sig-name descname"><span class="pre">perturb_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_perturb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/cboard.html#perturb_point"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#cboard.perturb_point" title="Permalink to this definition">¶</a></dt>
+<dd><p>与えられた点 (x, y) に対して，幅
+[(-1)*max_perturb, (+1)*max_perturb]
+の摂動を与えた点(x1, y1)を返す．
+Args :</p>
+<blockquote>
+<div><p>x, y (float) : 入力点のx- and y-coordinates．デフォールト値 x = y = 0.0</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Returns :</dt><dd><p>x1, y1 (float) : 摂動を加えた点のx- and y-coordinates</p>
+</dd>
+</dl>
+<p class="rubric">Notes</p>
+<p>xとyが省略された老婆は，値0.0, 0.0を中心とした摂動を返す．</p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to gridboard’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="cimage.html" class="btn btn-neutral float-right" title="cimage module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Hiroki Arimura, Hokkaido University.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,6 +1,0 @@
-<map id="reset" name="reset">
-<area shape="rect" id="node1" title="型変数 S のメモリオブジェクトを初期化する。初期化の際には、以前の情報が残らないようにする(memory&#45;free)。" alt="" coords="385,31,436,57"/>
-<area shape="rect" id="node2" href="$class_reusable_stack.html#a98b45e0a7ed122b6710df00209b67827" title="メモリスタックの最上部に新しく初期化されたメモリオブジェクトを積み、レベルを一つ高くする。メモリオブジェクトは再利用されることに注意。" alt="" coords="191,31,337,57"/>
-<area shape="rect" id="node3" href="$class_string_buf_impl.html#aca12720e1c52617b1ff1acd0adee4f1d" title="初期化する．" alt="" coords="5,5,143,32"/>
-<area shape="rect" id="node4" href="$class_string_buf_impl.html#ae635ecf16a874334f0567cd7c196e74b" title="入れ子を一つ深く、プッシュする。 カスケードスタイルの呼び出し。" alt="" coords="5,56,143,83"/>
-</map>

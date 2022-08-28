@@ -1,0 +1,7 @@
+crtool module
+=============
+
+.. automodule:: crtool
+   :members:
+   :undoc-members:
+   :show-inheritance:

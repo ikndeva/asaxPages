@@ -1,6 +1,0 @@
-<map id="MapMasterEdgeNode" name="MapMasterEdgeNode">
-<area shape="rect" id="node1" title=" " alt="" coords="5,171,153,197"/>
-<area shape="rect" id="node2" href="$class_map_edge_node.html" title="辺ベースのグラフ索引のノードの実装クラス。" alt="" coords="172,81,280,108"/>
-<area shape="rect" id="node3" href="$class_visitable.html" title=" " alt="" coords="177,171,360,197"/>
-<area shape="rect" id="node4" href="$class_suf_printable.html" title=" " alt="" coords="125,5,327,32"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="get_print_src" name="get_print_src">
-<area shape="rect" id="node1" title="索引のグラフの根を返す。" alt="" coords="372,5,469,32"/>
-<area shape="rect" id="node2" href="$class_dot_printer.html#a188eec94914eeda611cf31db15eb880d" title=" " alt="" coords="5,5,144,32"/>
-<area shape="rect" id="node3" href="$class_dot_printer_impl.html#a04a9ba2e5a1f109cac121345874aab3e" title="与えられた索引からからグラフの頂上ノードを設定する。" alt="" coords="192,27,324,69"/>
-</map>
