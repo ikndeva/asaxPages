@@ -1,7 +1,0 @@
-cimage module
-=============
-
-.. automodule:: cimage
-   :members:
-   :undoc-members:
-   :show-inheritance:

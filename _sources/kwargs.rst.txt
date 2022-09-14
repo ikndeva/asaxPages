@@ -1,7 +1,0 @@
-kwargs module
-=============
-
-.. automodule:: kwargs
-   :members:
-   :undoc-members:
-   :show-inheritance:
