@@ -1,95 +1,151 @@
-<!DOCTYPE html>
-<html class="writer-html5" lang="ja" >
-<head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>board package &mdash; GridBoard 0.7 ドキュメント</title>
-      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <!--[if lt IE 9]>
-    <script src="_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-        <script src="_static/doctools.js"></script>
-        <script src="_static/translations.js"></script>
-    <script src="_static/js/theme.js"></script>
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>board package &#8212; GridBoard 0.7 ドキュメント</title><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/pydoctheme.css?2022.1" />
+    
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/translations.js"></script>
+    
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="検索" href="search.html" />
-    <link rel="prev" title="Welcome to gridboard&#39;s documentation!" href="index.html" /> 
-</head>
-
-<body class="wy-body-for-nav"> 
-  <div class="wy-grid-for-nav">
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
-      <div class="wy-side-scroll">
-        <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> GridBoard
-          </a>
-              <div class="version">
-                v2
-              </div>
-<div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-    <input type="hidden" name="check_keywords" value="yes" />
-    <input type="hidden" name="area" value="default" />
-  </form>
-</div>
-        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">board package</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.backupcaller">board.backupcaller module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.cboard">board.cboard module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.cimage">board.cimage module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.common">board.common module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.crtool">board.crtool module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#board-help-module">board.help module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.kwargs">board.kwargs module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.loggable">board.loggable module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board.path">board.path module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-board">Module contents</a></li>
+    <link rel="prev" title="Welcome to gridboard&#39;s documentation!" href="index.html" /><link rel="shortcut icon" type="image/png" href="_static/py.svg" />
+            <script type="text/javascript" src="_static/copybutton.js"></script>
+            <script type="text/javascript" src="_static/menu.js"></script> 
+  </head>
+<body>
+<div class="mobile-nav">
+    <input type="checkbox" id="menuToggler" class="toggler__input" aria-controls="navigation"
+           aria-pressed="false" aria-expanded="false" role="button" aria-label="Menu" />
+    <label for="menuToggler" class="toggler__label">
+        <span></span>
+    </label>
+    <nav class="nav-content" role="navigation">
+         <a href="https://www.python.org/" class="nav-logo">
+             <img src="_static/py.svg" alt="Logo"/>
+         </a>
+        <div class="version_switcher_placeholder"></div>
+        <form role="search" class="search" action="search.html" method="get">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" class="search-icon">
+                <path fill-rule="nonzero"
+                        d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 001.48-5.34c-.47-2.78-2.79-5-5.59-5.34a6.505 6.505 0 00-7.27 7.27c.34 2.8 2.56 5.12 5.34 5.59a6.5 6.5 0 005.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="#444"></path>
+            </svg>
+            <input type="text" name="q" aria-label="クイック検索"/>
+            <input type="submit" value="検索"/>
+        </form>
+    </nav>
+    <div class="menu-wrapper">
+        <nav class="menu" role="navigation" aria-label="main navigation">
+            <div class="language_switcher_placeholder"></div>
+  <div>
+    <h3><a href="index.html">目次</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">board package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-board.backupcaller">board.backupcaller module</a></li>
+<li><a class="reference internal" href="#module-board.cboard">board.cboard module</a></li>
+<li><a class="reference internal" href="#module-board.cimage">board.cimage module</a></li>
+<li><a class="reference internal" href="#module-board.common">board.common module</a></li>
+<li><a class="reference internal" href="#module-board.crtool">board.crtool module</a></li>
+<li><a class="reference internal" href="#board-help-module">board.help module</a></li>
+<li><a class="reference internal" href="#module-board.kwargs">board.kwargs module</a></li>
+<li><a class="reference internal" href="#module-board.loggable">board.loggable module</a></li>
+<li><a class="reference internal" href="#module-board.path">board.path module</a></li>
+<li><a class="reference internal" href="#module-board">Module contents</a></li>
 </ul>
 </li>
 </ul>
 
-        </div>
-      </div>
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">GridBoard</a>
-      </nav>
-
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="Page navigation">
-  <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>board package</li>
-      <li class="wy-breadcrumbs-aside">
-            <a href="_sources/board.rst.txt" rel="nofollow"> View page source</a>
-      </li>
-  </ul>
-  <hr/>
+  </div>
+  <div>
+    <h4>前のトピックへ</h4>
+    <p class="topless"><a href="index.html"
+                          title="前の章へ">Welcome to gridboard's documentation!</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>このページ</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/board.rst.txt"
+            rel="nofollow">ソースコードを表示</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
 </div>
-          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
-           <div itemprop="articleBody">
-             
+<script>$('#searchbox').show(0);</script>
+        </nav>
+    </div>
+</div>
+  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             accesskey="I">索引</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Pythonモジュール索引"
+             >モジュール</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to gridboard&#39;s documentation!"
+             accesskey="P">前へ</a> |</li>
+          <li><img src="_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.python.org/">Python</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="index.html">GridBoard 0.7 ドキュメント</a> &#187;
+              
+          </li>
+        <li class="nav-item nav-item-this"><a href="">board package</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="search.html" method="get">
+          <input placeholder="クイック検索" aria-label="クイック検索" type="text" name="q" />
+          <input type="submit" value="検索" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+    </div>
+                     |
+                </li>
+            
+      </ul>
+    </div>    
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
   <section id="board-package">
-<h1>board package<a class="headerlink" href="#board-package" title="この見出しへのパーマリンク">¶</a></h1>
+<h1>board package<a class="headerlink" href="#board-package" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <section id="submodules">
-<h2>Submodules<a class="headerlink" href="#submodules" title="この見出しへのパーマリンク">¶</a></h2>
+<h2>Submodules<a class="headerlink" href="#submodules" title="このヘッドラインへのパーマリンク">¶</a></h2>
 </section>
 <section id="module-board.backupcaller">
-<span id="board-backupcaller-module"></span><h2>board.backupcaller module<a class="headerlink" href="#module-board.backupcaller" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-backupcaller-module"></span><h2>board.backupcaller module<a class="headerlink" href="#module-board.backupcaller" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>forward_medhods.py</p>
 <ul class="simple">
 <li><p>未定義メソッドの代理呼び出しをするクラス．</p></li>
@@ -102,7 +158,7 @@
 <dd><p>ベースクラス: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>メソッド呼び出しの転送をするクラス．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>host</strong> (<em>Object</em>) -- 呼び出しの転送先オブジェクト．</p></li>
 <li><p><strong>fname</strong> (<em>str</em>) -- 呼び出しの関数名/メソッド名．</p></li>
@@ -171,7 +227,7 @@
 
 </section>
 <section id="module-board.cboard">
-<span id="board-cboard-module"></span><h2>board.cboard module<a class="headerlink" href="#module-board.cboard" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-cboard-module"></span><h2>board.cboard module<a class="headerlink" href="#module-board.cboard" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>画盤モジュール</p>
 <ul class="simple">
 <li><p>画盤システムの実装モジュール．</p></li>
@@ -183,7 +239,7 @@
 <span class="sig-name descname"><span class="pre">DEFAULT_PPT</span> <span class="pre">=</span> <span class="pre">720</span></span></dt>
 <dd><p>デフォールトの解像度</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>int</p>
 </dd>
 </dl>
@@ -194,7 +250,7 @@
 <span class="sig-name descname"><span class="pre">DEFAULT_LINE_WIDTH</span> <span class="pre">=</span> <span class="pre">1</span></span></dt>
 <dd><p>デフォールトの辺幅</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>float</p>
 </dd>
 </dl>
@@ -205,7 +261,7 @@
 <span class="sig-name descname"><span class="pre">DEFAULT_COLOR_BORDER_INNER</span> <span class="pre">=</span> <span class="pre">'red'</span></span></dt>
 <dd><p>デフォールトの境界色（内側）</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>str</p>
 </dd>
 </dl>
@@ -216,7 +272,7 @@
 <span class="sig-name descname"><span class="pre">DEFAULT_COLOR_BORDER_OUTER</span> <span class="pre">=</span> <span class="pre">'blue'</span></span></dt>
 <dd><p>デフォールトの境界色（外側）</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>str</p>
 </dd>
 </dl>
@@ -225,10 +281,10 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.AnchorBoard">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">AnchorBoard</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">anchor_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anchor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#AnchorBoard"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.AnchorBoard" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.BoardBase" title="board.cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">BoardBase</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.BoardBase" title="board.cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.BoardBase</span></code></a></p>
 <p>画盤オブジェクトのクラス．BoardBaseのラッパー．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>anchor_x</strong> (<em>str</em>) -- 横方向の位置指示 in (left, middle, right)</p></li>
 <li><p><strong>anchor_y</strong> (<em>str</em>) -- 縦方向の位置指示 in (top, middle, bottom, above, below)</p></li>
@@ -248,7 +304,7 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.Board">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">Board</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#Board"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.Board" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.AnchorBoard" title="board.cboard.AnchorBoard"><code class="xref py py-class docutils literal notranslate"><span class="pre">AnchorBoard</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.AnchorBoard" title="board.cboard.AnchorBoard"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.AnchorBoard</span></code></a></p>
 <p>画盤（board）のクラス．<a href="#id9"><span class="problematic" id="id10">`</span></a>AnchorBase`のラッパー．</p>
 <dl class="simple">
 <dt>Args :</dt><dd><p><a href="#id11"><span class="problematic" id="id12">**</span></a>kwargs : 他のキーワード引数．上位クラスに渡される．</p>
@@ -258,11 +314,11 @@
 
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.BoardBase">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">BoardBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_children</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-1</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#BoardBase"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.BoardBase" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <code class="xref py py-class docutils literal notranslate"><span class="pre">Loggable</span></code></p>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">BoardBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">max_children</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">-</span> <span class="pre">1</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#BoardBase"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.BoardBase" title="この定義へのパーマリンク">¶</a></dt>
+<dd><p>ベースクラス: <code class="xref py py-class docutils literal notranslate"><span class="pre">loggable.Loggable</span></code></p>
 <p>画盤（board）のクラス: 座標系オブジェクト</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>**kwargs</strong> -- 他のキーワード引数．上位クラスに渡される．</p>
 </dd>
 </dl>
@@ -271,7 +327,7 @@
 <span class="sig-name descname"><span class="pre">verbose</span></span><a class="headerlink" href="#board.cboard.BoardBase.verbose" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>ログ出力のフラグ</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>bool</p>
 </dd>
 </dl>
@@ -403,16 +459,16 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <span class="sig-name descname"><span class="pre">put</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trans</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#BoardBase.put"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.BoardBase.put" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>子を追加する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>trans</strong> (<em>cairo.Matrix</em>) -- 自座標における子の配置を指示する変換行列．原点にある子を所望の場所に配置するためのアフィン変換を表す．</p></li>
 <li><p><strong>child</strong> (<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><em>Board</em></a>) -- 子として追加するBoardオブジェクト</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>追加した子</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board">Board</a>)</p>
 </dd>
 </dl>
@@ -482,11 +538,11 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.Canvas">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">Canvas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">imgtype</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">cairo.Format.ARGB32</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pdf'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outfile</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'out'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">imagesize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'XGA'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">portrait</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundingbox</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_perturb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#Canvas"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.Canvas" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">Board</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.Board</span></code></a></p>
 <p>トップレベルのボードのクラス．描画のためのCairoのSurfaceを保持する．
 描画対象のすべての要素（ボード）は，本オブジェクトの子孫として保持する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>imgtype</strong> (<em>cairo.Format</em>) -- Surfaceフォーマット (default: cairo.FORMAT_ARGB32)</p></li>
 <li><p><strong>format</strong> (<em>str</em>) -- 出力ファイルフォーマット（拡張子 pdf, png）default: &quot;pdf&quot;</p></li>
@@ -540,10 +596,10 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.DrawCircle">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">DrawCircle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#DrawCircle"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.DrawCircle" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.DrawCommandBase</span></code></a></p>
 <p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- 円の中心位置のx座標．default=0.0.</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- 円の中心位置のy座標．default=0.0.</p></li>
@@ -568,10 +624,10 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.DrawCommandBase">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">DrawCommandBase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#DrawCommandBase"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.DrawCommandBase" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">Board</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.Board</span></code></a></p>
 <p>描画演算オブジェクトの基底クラス．Boardクラスのサブクラス．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>cmd</strong> (<em>str</em>) -- 命令の名前の文字列．default=None.</p></li>
 <li><p><strong>**kwargs</strong> (<em>dict</em>) -- 上位コマンドに渡すオプション引数．</p></li>
@@ -583,7 +639,7 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <span class="sig-name descname"><span class="pre">cmd</span></span><a class="headerlink" href="#board.cboard.DrawCommandBase.cmd" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>命令の名前の文字列．default=None.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>str</p>
 </dd>
 </dl>
@@ -613,17 +669,17 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.DrawCommandTemplate">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">DrawCommandTemplate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#DrawCommandTemplate"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.DrawCommandTemplate" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.DrawCommandBase</span></code></a></p>
 <p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
 </dd></dl>
 
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.DrawMarkerCross">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">DrawMarkerCross</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#DrawMarkerCross"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.DrawMarkerCross" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawPolyLines" title="board.cboard.DrawPolyLines"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawPolyLines</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawPolyLines" title="board.cboard.DrawPolyLines"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.DrawPolyLines</span></code></a></p>
 <p>原点 (0,0) を中心とした×印（Cross）を書く．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>ticklen</strong> (<em>float</em>) -- ×印の交差辺の長さ. default=4.0.</p></li>
 <li><p><strong>line_width</strong> (<em>float</em>) -- ×印の交差辺の線幅．default=0.75．</p></li>
@@ -635,10 +691,10 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.DrawPolyLines">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">DrawPolyLines</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#DrawPolyLines"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.DrawPolyLines" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.DrawCommandBase</span></code></a></p>
 <p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>**kwargs</strong> (<em>dict</em>) -- 上位コマンドに渡すオプション引数．</p>
 </dd>
 </dl>
@@ -663,10 +719,10 @@ anchor (str) : 代替の位置指示．内容に応じて横または縦の位�
 <p>y (float) : x- and y-coodinates</p>
 </div></blockquote>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>自分自身．いわゆる'cascade object call interface' のため．</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>(<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board">Board</a>)</p>
 </dd>
 </dl>
@@ -688,10 +744,10 @@ Args :</p>
 <p>y (float) : x- and y-coodinates</p>
 </div></blockquote>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>自分自身．いわゆる'cascade object call interface' のため．</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>(<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board">Board</a>)</p>
 </dd>
 </dl>
@@ -702,10 +758,10 @@ Args :</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.DrawRectangle">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">DrawRectangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#DrawRectangle"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.DrawRectangle" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DrawCommandBase</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.DrawCommandBase" title="board.cboard.DrawCommandBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.DrawCommandBase</span></code></a></p>
 <p>描画演算オブジェクトのクラス．DrawCommandBaseクラスのサブクラス．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- default=0.0.</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- default=0.0.</p></li>
@@ -729,7 +785,7 @@ Args :</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.GridLocator">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">GridLocator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">num_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.0</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#GridLocator"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.GridLocator" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.BoardBase" title="board.cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">BoardBase</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.BoardBase" title="board.cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.BoardBase</span></code></a></p>
 <p>アンカーオブジェクトのクラス
 Args :</p>
 <blockquote>
@@ -766,17 +822,17 @@ Args:
 <span class="sig-name descname"><span class="pre">put</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">i</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">j</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#GridLocator.put"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.GridLocator.put" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>子を追加する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>child</strong> (<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><em>Board</em></a>) -- 子として追加するBoardオブジェクト</p></li>
 <li><p><strong>i</strong> (<em>int</em>) -- x方向のセル添字</p></li>
 <li><p><strong>j</strong> (<em>int</em>) -- y方向のセル添字</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>追加した子</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board">Board</a>)</p>
 </dd>
 </dl>
@@ -794,10 +850,10 @@ Args:
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.PackerBoard">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">PackerBoard</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">align</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'x'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin_x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin_y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">margin</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pack_anchor</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">expand</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#PackerBoard"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.PackerBoard" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">Board</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.Board</span></code></a></p>
 <p>画盤（board）のクラス．Boardのサブクラス</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>align</strong> (<em>str</em>) -- 並べる主軸方向の指定．<a href="#id19"><span class="problematic" id="id20">`</span></a>x`または`y`の値をとる．default='x'</p></li>
 <li><p><strong>margin_x</strong> (<em>float</em>) -- 子セルそれぞれの周囲のx方向の余白．default=None．</p></li>
@@ -826,13 +882,13 @@ Args:
 <span class="sig-name descname"><span class="pre">add</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#PackerBoard.add"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.PackerBoard.add" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>子を追加する．関数`BoardBase.put(child, trans=None)`へのラッパー関数．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>child</strong> (<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board"><em>Board</em></a>) -- 子として追加するBoardオブジェクト</p>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>追加した子</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(<a class="reference internal" href="#board.cboard.Board" title="board.cboard.Board">Board</a>)</p>
 </dd>
 </dl>
@@ -869,10 +925,10 @@ max_length (float) : 主軸方向の固定長さ</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cboard.WrapperBoard">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cboard.</span></span><span class="sig-name descname"><span class="pre">WrapperBoard</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">child</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cboard.html#WrapperBoard"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cboard.WrapperBoard" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.BoardBase" title="board.cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">BoardBase</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.cboard.BoardBase" title="board.cboard.BoardBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.cboard.BoardBase</span></code></a></p>
 <p>ラッパーのクラス．唯一の子をもち，指定された以外のメソッド呼び出しを子に転送する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>**kwargs</strong> -- 他のキーワード引数．上位クラスに渡される．</p>
 </dd>
 </dl>
@@ -881,7 +937,7 @@ max_length (float) : 主軸方向の固定長さ</p>
 <span class="sig-name descname"><span class="pre">verbose</span></span><a class="headerlink" href="#board.cboard.WrapperBoard.verbose" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>ログ出力のフラグ</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>bool</p>
 </dd>
 </dl>
@@ -918,20 +974,20 @@ Args :</p>
 
 </section>
 <section id="module-board.cimage">
-<span id="board-cimage-module"></span><h2>board.cimage module<a class="headerlink" href="#module-board.cimage" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-cimage-module"></span><h2>board.cimage module<a class="headerlink" href="#module-board.cimage" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>Pillowライブラリを用いた基底の画版のパッケージ
 * 220815 created by Hiroki Arimura
 * based on pilimage.py</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="board.cimage.ImageBoard">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.cimage.</span></span><span class="sig-name descname"><span class="pre">ImageBoard</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dep_init</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">imgtype</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">cairo.Format.ARGB32</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'pdf'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outfile</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'out'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">display_size</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cimage.html#ImageBoard"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cimage.ImageBoard" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <code class="xref py py-class docutils literal notranslate"><span class="pre">Loggable</span></code></p>
+<dd><p>ベースクラス: <code class="xref py py-class docutils literal notranslate"><span class="pre">loggable.Loggable</span></code></p>
 <dl class="py method">
 <dt class="sig sig-object py" id="board.cimage.ImageBoard.arc">
 <span class="sig-name descname"><span class="pre">arc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cimage.html#ImageBoard.arc"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cimage.ImageBoard.arc" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>円弧を描く．native演算による実装．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- x- and y-coordinate of the center</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- x- and y-coordinate of the center</p></li>
@@ -952,10 +1008,10 @@ Args :</p>
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>包含矩形</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(Rect)</p>
 </dd>
 </dl>
@@ -967,10 +1023,10 @@ Args :</p>
 <dd><p>描画ハンドルを返す．
 Args:</p>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>Cairoの描画contextオブジェクト</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>(cairo.Context)</p>
 </dd>
 </dl>
@@ -990,10 +1046,10 @@ Args:</p>
 :param y: x- and y-coordinate of the center
 :type y: float</p>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>包含矩形</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1008,10 +1064,10 @@ Args:</p>
 :param y: x- and y-coordinate of the center
 :type y: float</p>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>包含矩形</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1029,7 +1085,7 @@ Args:</p>
 <span class="sig-name descname"><span class="pre">rectangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">px</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">py</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cimage.html#ImageBoard.rectangle"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cimage.ImageBoard.rectangle" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>矩形を描く．描画命令のpillowのdrawオブジェクトのnative演算による実装．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>px</strong> (<em>float</em>) -- x-coordinate of the center</p></li>
 <li><p><strong>py</strong> (<em>float</em>) -- y-coordinate of the center</p></li>
@@ -1049,10 +1105,10 @@ Args:</p>
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>包含矩形</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1063,14 +1119,14 @@ Args:</p>
 <span class="sig-name descname"><span class="pre">send_draw</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">cmd</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">trans</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cimage.html#ImageBoard.send_draw"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cimage.ImageBoard.send_draw" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>基本：描画命令の転送を行う．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>cmd</strong> (<em>str</em>) -- 描画命令名の文字列</p></li>
 <li><p><strong>kwargs</strong> (<em>dict</em>) -- 描画命令のキーワードパラメータからなる辞書．</p></li>
 <li><p><strong>trans</strong> (<em>nested tuple</em>) -- 変換行列の入れ子タプルによるリスト</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>なし</p>
 </dd>
 </dl>
@@ -1122,7 +1178,7 @@ transは変換命令の列である．</p>
 <span class="sig-name descname"><span class="pre">text</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">depth</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cimage.html#ImageBoard.text"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cimage.ImageBoard.text" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>テキストを描く．描画命令のpillowのdrawオブジェクトのnative演算による実装．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>kwargs</strong> (<em>dict</em>) -- <p>次のキーワードパラメータを含む辞書．</p>
 <ul class="simple">
 <li><p>xy : tuple (with is_point(xy)==True)
@@ -1139,7 +1195,7 @@ a string A in {a,m,b}x{l,m,r} representing the location of an anchor point.</p><
 </ul>
 </p>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>なし</p>
 </dd>
 </dl>
@@ -1176,7 +1232,7 @@ embedded_color (True or False),</p>
 <span class="sig-name descname"><span class="pre">text_extent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">depth</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/cimage.html#ImageBoard.text_extent"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.cimage.ImageBoard.text_extent" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>テキストの最小包含長方形を返す．描画命令のpillowのdrawオブジェクトのnative演算による実装．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>kwargs</strong> (<em>dict</em>) -- <p>次のキーワードパラメータを含む辞書．</p>
 <ul class="simple">
 <li><p>xy : tuple (with is_point(xy)==True)
@@ -1191,10 +1247,10 @@ a string A in {a,m,b}x{l,m,r} representing the location of an anchor point.</p><
 </ul>
 </p>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>テキストの最小包含矩形 bbox = ((x0, y0), (x1, y1)).</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>rect</p>
 </dd>
 </dl>
@@ -1211,7 +1267,7 @@ embedded_color (True or False),</p>
 
 </section>
 <section id="module-board.common">
-<span id="board-common-module"></span><h2>board.common module<a class="headerlink" href="#module-board.common" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-common-module"></span><h2>board.common module<a class="headerlink" href="#module-board.common" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <dl class="py function">
 <dt class="sig sig-object py" id="board.common.dump_board">
 <span class="sig-prename descclassname"><span class="pre">board.common.</span></span><span class="sig-name descname"><span class="pre">dump_board</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">B</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dep</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/common.html#dump_board"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.common.dump_board" title="この定義へのパーマリンク">¶</a></dt>
@@ -1227,7 +1283,7 @@ Args :</p>
 <span class="sig-prename descclassname"><span class="pre">board.common.</span></span><span class="sig-name descname"><span class="pre">ensure</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">test</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/common.html#ensure"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.common.ensure" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>ブール式test を評価し，真ならばTrueを返し，偽ならば，panic関数を呼んで，メッセージ文字列を出力して実行を中止する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>test</strong> (<em>ブール式</em>) -- テストのためのブール式</p></li>
 <li><p><strong>msg</strong> (<em>str</em>) -- メッセージ文字列</p></li>
@@ -1246,10 +1302,10 @@ Args :</p>
 :param idx=0:
 :type idx=0: int</p>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>選択された要素</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>object</p>
 </dd>
 </dl>
@@ -1315,7 +1371,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <span class="sig-prename descclassname"><span class="pre">board.common.</span></span><span class="sig-name descname"><span class="pre">panic</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">outs=&lt;_io.TextIOWrapper</span> <span class="pre">name='&lt;stdout&gt;'</span> <span class="pre">mode='w'</span> <span class="pre">encoding='utf-8'&gt;</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/common.html#panic"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.common.panic" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>メッセージ文字列を標準出力に印刷して，例外を投げて実行を中止する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>msg</strong> (<em>str</em>) -- メッセージ文字列</p></li>
 <li><p><strong>outs</strong> (<em>outstream</em>) -- 出力ストリーム．デフォールトはsys.stdout.</p></li>
@@ -1342,7 +1398,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 
 </section>
 <section id="module-board.crtool">
-<span id="board-crtool-module"></span><h2>board.crtool module<a class="headerlink" href="#module-board.crtool" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-crtool-module"></span><h2>board.crtool module<a class="headerlink" href="#module-board.crtool" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>Cairoライブラリの描画機能を提供するモジュール．</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="board.crtool.FONT_SLANT">
@@ -1354,7 +1410,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p>'oblique': cairo.FontSlant.OBLIQUE</p></li>
 </ul>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, cairo.FontSlant)</p>
 </dd>
 </dl>
@@ -1369,7 +1425,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p>'normal': cairo.FontWeight.NORMAL</p></li>
 </ul>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, cairo.FontWeight)</p>
 </dd>
 </dl>
@@ -1385,7 +1441,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p>'butt': cairo.LINE_CAP_BUTT</p></li>
 </ul>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, Object)</p>
 </dd>
 </dl>
@@ -1401,7 +1457,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p>'bevel': cairo.LINE_JOIN_BEVEL</p></li>
 </ul>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, Object)</p>
 </dd>
 </dl>
@@ -1416,7 +1472,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p>'beg' : 0.0, 'mid' : 0.5, 'end' : 1.0, #xとy方向の共通名</p></li>
 </ul>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, float)</p>
 </dd>
 </dl>
@@ -1432,7 +1488,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p>'beg' : 0.0, 'mid' : 0.5, 'end' : 1.0, #xとy方向の共通名</p></li>
 </ul>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, float)</p>
 </dd>
 </dl>
@@ -1450,7 +1506,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p>black-and-white: 'black':(0,0,0), 'grey0':(0,0,0), 'grey10':(0.10,0.10,0.10), 'grey25':(0.25,0.25,0.25), 'grey50':(0.50,0.50,0.50), 'grey75':(0.75,0.75,0.75), 'grey100':(1,1,1), 'white':(1,1,1).</p></li>
 </ul>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, (float,float,float))</p>
 </dd>
 </dl>
@@ -1468,7 +1524,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 </ul>
 </div></blockquote>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict(str, (float,float,float))</p>
 </dd>
 </dl>
@@ -1496,10 +1552,10 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="board.crtool.Rotate">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">Rotate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">angle</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#Rotate"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.Rotate" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.crtool.GeoTransform" title="board.crtool.GeoTransform"><code class="xref py py-class docutils literal notranslate"><span class="pre">GeoTransform</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.crtool.GeoTransform" title="board.crtool.GeoTransform"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.crtool.GeoTransform</span></code></a></p>
 <p>並行移動の変換のクラス</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>angle</strong> (<em>float</em>) -- 回転の量．単位はラジアンであり，<cite>math.pi*0.5</cite>, <a href="#id37"><span class="problematic" id="id38">`</span></a>math.pi/6`などのように指定する．</p>
 </dd>
 </dl>
@@ -1520,10 +1576,10 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <dl class="py class">
 <dt class="sig sig-object py" id="board.crtool.Translate">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">Translate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#Translate"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.Translate" title="この定義へのパーマリンク">¶</a></dt>
-<dd><p>ベースクラス: <a class="reference internal" href="#board.crtool.GeoTransform" title="board.crtool.GeoTransform"><code class="xref py py-class docutils literal notranslate"><span class="pre">GeoTransform</span></code></a></p>
+<dd><p>ベースクラス: <a class="reference internal" href="#board.crtool.GeoTransform" title="board.crtool.GeoTransform"><code class="xref py py-class docutils literal notranslate"><span class="pre">board.crtool.GeoTransform</span></code></a></p>
 <p>並行移動の変換のクラス．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- x方向の移動量.</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- y方向の移動量.</p></li>
@@ -1571,16 +1627,16 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">box_union</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">boxes</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">box1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#box_union"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.box_union" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>矩形の対を受け取り，それらの最小包含長方形を表す対を返す．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>boxes</strong> -- 点 (x0, y0) または矩形 (x0, y0, x1, y1)</p></li>
 <li><p><strong>box1</strong> -- 点 (x0, y0) または矩形 (x0, y0, x1, y1)</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>矩形 box = [p, q]</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>rect</p>
 </dd>
 </dl>
@@ -1607,7 +1663,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_arc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_arc"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_arc" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>円盤を描く．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- x-coordinate of the center</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- y-coordinate of the center</p></li>
@@ -1617,10 +1673,10 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p><strong>fill</strong> (<em>bool</em>) -- fill (True) or stroke (False, default)</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>包含矩形</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1631,7 +1687,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_arrow_head</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_last</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y_last</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_shape</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_length</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">10</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_angle</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.3490658503988659</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">head_offset_ratio</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0.3</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">to_surpress_short_head</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_arrow_head"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_arrow_head" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>ペンを移動する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- x-coordinate of the center</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- y-coordinate of the center</p></li>
@@ -1645,7 +1701,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p><strong>to_surpress_short_head</strong> (<em>bool</em>) -- 矢印頭と同程度以下の長さの線分に対して矢印頭の描画を省略する．デフォールトTrue</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>なし</p>
 </dd>
 </dl>
@@ -1668,7 +1724,7 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_circle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_circle"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_circle" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>円盤を描く</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- x-coordinate of the center</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- y-coordinate of the center</p></li>
@@ -1676,10 +1732,10 @@ elemtype (Type) : 型のリスト`(ty1, ..., tyN)`．</p>
 <li><p><strong>fill</strong> (<em>bool</em>) -- fill (True) or stroke (False, default)</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>包含矩形</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1723,7 +1779,7 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_line_to</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">has_arrow</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">x_last</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y_last</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_line_to"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_line_to" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>ペンを移動する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- x-coordinate of the center</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- y-coordinate of the center</p></li>
@@ -1734,10 +1790,10 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <li><p><strong>arrow_head</strong> (<em>str</em>) -- 矢印の形状. 値は，関数`crtool.cr_arrow_head`を参照のこと．</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>包含矩形</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1752,10 +1808,10 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 :param y: x- and y-coordinate of the center
 :type y: float</p>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>包含矩形</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1766,14 +1822,14 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_process_stroke_or_fill</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_process_stroke_or_fill"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_process_stroke_or_fill" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>図形描画後の書き出しを行う．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>context</strong> (<em>cairo.Context</em>) -- Cairoの文脈オブジェクト．</p></li>
 <li><p><strong>cmd</strong> (<em>str</em>) -- 次の命令の一つ: 'stroke', 'fill', 'stroke_preserve', 'fill_preserve'.</p></li>
 <li><p><strong>preserve</strong> (<em>bool</em>) -- 演算後にパスを保存するなら`True`, しないなら`False`</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>なし</p>
 </dd>
 </dl>
@@ -1784,7 +1840,7 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_rectangle</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">width</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fill</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">edge_rgb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_rectangle"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_rectangle" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>矩形を描く</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>x</strong> (<em>float</em>) -- x-coordinate of the center</p></li>
 <li><p><strong>y</strong> (<em>float</em>) -- y-coordinate of the center</p></li>
@@ -1793,10 +1849,10 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <li><p><strong>fill</strong> (<em>bool</em>) -- fill if <cite>True</cite> or stroke if <cite>False</cite> (default)</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>包含矩形</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(Rect)</p>
 </dd>
 </dl>
@@ -1807,7 +1863,7 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_set_context_parameters</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_set_context_parameters"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_set_context_parameters" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>cairo.Contextに各種パラメータを設定するラッパー関数．各種の代替キーを提供する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>context</strong> (<em>cairo.Context</em>) -- Cairoの文脈オブジェクト．</p></li>
 <li><p><strong>source_rgb</strong> (<em>tuple</em><em>(</em><em>float</em><em>, </em><em>float</em><em>, </em><em>float</em><em>)</em>) -- Cairoの色指定の数の三つ組．代替キー'rgb'</p></li>
@@ -1819,7 +1875,7 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <li><p><strong>fontweight</strong> (<em>str</em>) -- フォントの太字指定．代替キーfont_weight, fweight．値は，<a href="#id41"><span class="problematic" id="id42">`</span></a>('normal', 'bold')`をとる．詳しくは，関数`cr_font_face`を参照のこと．</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>なし</p>
 </dd>
 </dl>
@@ -1830,7 +1886,7 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_set_font_face</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_set_font_face"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_set_font_face" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>cairo.ContextにFont Faceを設定する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>context</strong> (<em>cairo.Context</em>) -- Cairoの文脈オブジェクト．</p></li>
 <li><p><strong>fontfamily</strong> (<em>str</em>) -- Cairoのフォントファミリー指定．代替キーfont_family, ffamily．</p></li>
@@ -1838,7 +1894,7 @@ context (cairo.Context) : Cairoの文脈オブジェクト．</p>
 <li><p><strong>fontweight</strong> (<em>str</em>) -- Cairoの太字指定．値は，<a href="#id43"><span class="problematic" id="id44">`</span></a>('normal', 'bold')`をとる．詳しくは，辞書`crtool.FONT_WEIGHT`を参照のこと．代替キーfont_weight, fweight．</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>なし</p>
 </dd>
 </dl>
@@ -1862,7 +1918,7 @@ source_rgbはアルファなし(r,g,b)とアルファあり(r,g,b,a)の両方を
 <span class="sig-prename descclassname"><span class="pre">board.crtool.</span></span><span class="sig-name descname"><span class="pre">cr_text_extent</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">ox</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">oy</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">msg</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/crtool.html#cr_text_extent"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.crtool.cr_text_extent" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>テキストの配置情報を事前に取得する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>context</strong> (<em>cairo.Context</em>) -- Cairoの文脈オブジェクト．</p></li>
 <li><p><strong>ox</strong> (<em>float</em>) -- テキストの配置位置 (ox, oy)</p></li>
@@ -1870,10 +1926,10 @@ source_rgbはアルファなし(r,g,b)とアルファあり(r,g,b,a)の両方を
 <li><p><strong>msg</strong> (<em>str</em>) -- テキスト</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>テキストの描画情報の6つ組 (x, y, width, height, dx, dy)</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(tuple)</p>
 </dd>
 </dl>
@@ -1971,10 +2027,10 @@ Args :</p>
 
 </section>
 <section id="board-help-module">
-<h2>board.help module<a class="headerlink" href="#board-help-module" title="この見出しへのパーマリンク">¶</a></h2>
+<h2>board.help module<a class="headerlink" href="#board-help-module" title="このヘッドラインへのパーマリンク">¶</a></h2>
 </section>
 <section id="module-board.kwargs">
-<span id="board-kwargs-module"></span><h2>board.kwargs module<a class="headerlink" href="#module-board.kwargs" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-kwargs-module"></span><h2>board.kwargs module<a class="headerlink" href="#module-board.kwargs" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <dl class="py function">
 <dt class="sig sig-object py" id="board.kwargs.contains">
 <span class="sig-prename descclassname"><span class="pre">board.kwargs.</span></span><span class="sig-name descname"><span class="pre">contains</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/kwargs.html#contains"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.kwargs.contains" title="この定義へのパーマリンク">¶</a></dt>
@@ -1987,7 +2043,7 @@ Args :</p>
 <dd><p>キーワード引数辞書から指定した属性を抽出して得られた新しい辞書を返す．
 このとき，パラメータtransに指定したキーワード属性は，ptからpxへ単位変換を行う．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>kwargs</strong> (<em>dict</em>) -- 元のキーワード引数の辞書．</p></li>
 <li><p><strong>keys</strong> (<em>list</em><em>(</em><em>str</em><em>)</em>) -- 抽出するキーワードのリスト．Noneならば，transと全てのキーをコピーする．空リスト`[]`のときは，trans以外のキーはコピーしない</p></li>
@@ -1998,10 +2054,10 @@ Args :</p>
 <li><p><strong>reduced=False</strong> (<em>bool</em>) -- 関数kwargs.reduceを用いて，値がNoneのキーワードを除去したコピーを作成して返す．非破壊的であり，元の辞書は変更しない．</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>新しいキーワード引数の辞書 kwargs1.</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>dict</p>
 </dd>
 </dl>
@@ -2044,7 +2100,7 @@ Args :</p>
 - ブール値required=Trueが指定されていれば，直ちにエラーを起こして停止する．
 - もし見つからなければNoneを返す．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>kwargs</strong> (<em>dict</em>) -- キーワード辞書 (None)</p></li>
 <li><p><strong>key</strong> (<em>int</em><em> or </em><em>str</em>) -- 指定したキーワード.</p></li>
@@ -2052,10 +2108,10 @@ Args :</p>
 <li><p><strong>required</strong> (<em>bool</em>) -- 必須キーワードかのフラグ．この値がTrueの場合，キーワードの値が未定義（None）ならば，エラーを投げる．default=False.</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>辞書におけるキーワードkeyの値．値がNoneの場合は上記の説明に従う．</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>object</p>
 </dd>
 </dl>
@@ -2075,13 +2131,13 @@ Args :</p>
 <span class="sig-prename descclassname"><span class="pre">board.kwargs.</span></span><span class="sig-name descname"><span class="pre">reduce</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/kwargs.html#reduce"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.kwargs.reduce" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>キーワード辞書kwargsからNone値のキーと値を取り除き，残りを複製して得られた辞書を返す．元の辞書は破壊されず，コピーを返す．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><p><strong>kwargs</strong> (<em>dict</em>) -- 元のキーワード引数の辞書．</p>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>新しいキーワード引数の辞書 kwargs1.</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>dict</p>
 </dd>
 </dl>
@@ -2092,17 +2148,17 @@ Args :</p>
 <span class="sig-prename descclassname"><span class="pre">board.kwargs.</span></span><span class="sig-name descname"><span class="pre">replace_apply</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">kwargs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">keys</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">func</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/kwargs.html#replace_apply"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.kwargs.replace_apply" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>キーワード引数辞書において，指定したキーに関数funcを適用して置き換える．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>kwargs</strong> (<em>dict</em>) -- 元のキーワード引数の辞書．</p></li>
 <li><p><strong>keys</strong> (<em>list</em><em>(</em><em>str</em><em>)</em>) -- 抽出するキーワードのリスト．Noneならば，transと全てのキーをコピーする．空リスト`[]`のときは，trans以外のキーはコピーしない</p></li>
 <li><p><strong>func</strong> (<em>lambda</em>) -- 座標変換関数. transのための座標変換関数またはラムダ式．ここに，関数func(xy)は，引数として，点xy=(x0,y0)または点のリストxy=[(x0,x1), (y0,y1), ...]の型の入力を受けつけること．</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>新しいキーワード引数の辞書 kwargs1.</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>dict</p>
 </dd>
 </dl>
@@ -2120,7 +2176,7 @@ Args :</p>
 
 </section>
 <section id="module-board.loggable">
-<span id="board-loggable-module"></span><h2>board.loggable module<a class="headerlink" href="#module-board.loggable" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-loggable-module"></span><h2>board.loggable module<a class="headerlink" href="#module-board.loggable" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>ボードの基本機能を提供するモジュール．</p>
 <ul>
 <li><p>loggableモジュールは，ボードオブジェクトが，複合画像の木のノードとしてもつ最低限の機能を提供する．</p></li>
@@ -2141,7 +2197,7 @@ Args :</p>
 <p>ボードの最基底クラス．
 複合画像を表すボードオブジェクトの木のノードがもつ最低限の機能を提供する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>dep_init</strong> (<em>int</em>) -- 深さの初期値．default=None.</p></li>
 <li><p><strong>tags</strong> (<em>str</em><em>, </em><em>list</em><em>(</em><em>str</em><em>)</em>) -- タグ文字列またはタグ文字列のリスト．タグ文字列のリストは，オブジェクトの属性`tags`に保持され，実装者と利用者により，各種の用途に用いることができる．default=None.</p></li>
@@ -2155,7 +2211,7 @@ Args :</p>
 <span class="sig-name descname"><span class="pre">tags</span></span><a class="headerlink" href="#board.loggable.Loggable.tags" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>タグ文字列またはタグ文字列のリスト．実装者と利用者により，各種の用途に用いることができる．</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>str, list(str)</p>
 </dd>
 </dl>
@@ -2166,7 +2222,7 @@ Args :</p>
 <span class="sig-name descname"><span class="pre">kwargs</span></span><a class="headerlink" href="#board.loggable.Loggable.kwargs" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>オプション引数の辞書．オブジェクトの属性`kwargs`に保持されて，実装者と利用者により，各種の用途に用いることができる．</p>
 <dl class="field-list simple">
-<dt class="field-odd">Type<span class="colon">:</span></dt>
+<dt class="field-odd">Type</dt>
 <dd class="field-odd"><p>dict</p>
 </dd>
 </dl>
@@ -2179,10 +2235,10 @@ Args :</p>
 :param tags: タグ文字列．任意のグルーピングに用いる．
 :type tags: str</p>
 <dl class="field-list simple">
-<dt class="field-odd">戻り値<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値</dt>
 <dd class="field-odd"><p>自分自身．いわゆる'cascade object call interface' のため．</p>
 </dd>
-<dt class="field-even">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-even">戻り値の型</dt>
 <dd class="field-even"><p>(<a class="reference internal" href="#board.loggable.Loggable" title="board.loggable.Loggable">Loggable</a>)</p>
 </dd>
 </dl>
@@ -2203,16 +2259,16 @@ Args :</p>
 <span class="sig-name descname"><span class="pre">fetch</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/loggable.html#Loggable.fetch"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.loggable.Loggable.fetch" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>自分の先祖にフィールド`key`が定義されているボードがあれば，そのような直近の先祖での値を返す．もしそのような先祖がなければ，<a href="#id45"><span class="problematic" id="id46">`</span></a>default`が指定されていれば，その値を返し，それ以外ならば`None`を返す．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>key</strong> (<em>str</em>) -- 検索するキー文字列</p></li>
 <li><p><strong>default</strong> (<em>Any</em>) -- キーをもつ先祖が見つからない時に返すデフォールト値</p></li>
 </ul>
 </dd>
-<dt class="field-even">戻り値<span class="colon">:</span></dt>
+<dt class="field-even">戻り値</dt>
 <dd class="field-even"><p>キーをもつ最近先祖におけるキーの値</p>
 </dd>
-<dt class="field-odd">戻り値の型<span class="colon">:</span></dt>
+<dt class="field-odd">戻り値の型</dt>
 <dd class="field-odd"><p>(Any)</p>
 </dd>
 </dl>
@@ -2259,7 +2315,7 @@ dep (int) : 自分に設定すべき深さ．親の深さ + 1</p>
 <span class="sig-name descname"><span class="pre">repo</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">msg=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">header=True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">isChild=False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">file=&lt;_io.TextIOWrapper</span> <span class="pre">name='&lt;stderr&gt;'</span> <span class="pre">mode='w'</span> <span class="pre">encoding='utf-8'&gt;</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/board/loggable.html#Loggable.repo"><span class="viewcode-link"><span class="pre">[ソース]</span></span></a><a class="headerlink" href="#board.loggable.Loggable.repo" title="この定義へのパーマリンク">¶</a></dt>
 <dd><p>入れ子深さを考慮したレポート文字列を出力する．</p>
 <dl class="field-list simple">
-<dt class="field-odd">パラメータ<span class="colon">:</span></dt>
+<dt class="field-odd">パラメータ</dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>dep=0</strong> (<em>int</em>) -- 入れ小深さ</p></li>
 <li><p><strong>msg=None</strong> (<em>str</em>) -- 出力する文字列</p></li>
@@ -2285,41 +2341,127 @@ dep (int) : 自分に設定すべき深さ．親の深さ + 1</p>
 
 </section>
 <section id="module-board.path">
-<span id="board-path-module"></span><h2>board.path module<a class="headerlink" href="#module-board.path" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="board-path-module"></span><h2>board.path module<a class="headerlink" href="#module-board.path" title="このヘッドラインへのパーマリンク">¶</a></h2>
 </section>
 <section id="module-board">
-<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-board" title="この見出しへのパーマリンク">¶</a></h2>
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-board" title="このヘッドラインへのパーマリンク">¶</a></h2>
 </section>
 </section>
 
 
-           </div>
+            <div class="clearer"></div>
           </div>
-          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to gridboard&#39;s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-    </div>
-
-  <hr/>
-
-  <div role="contentinfo">
-    <p>&#169; Copyright 2022, Hiroki Arimura, Hokkaido University.</p>
-  </div>
-
-  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
-    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
-    provided by <a href="https://readthedocs.org">Read the Docs</a>.
-   
-
-</footer>
         </div>
       </div>
-    </section>
-  </div>
-  <script>
-      jQuery(function () {
-          SphinxRtdTheme.Navigation.enable(true);
-      });
-  </script> 
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div>
+    <h3><a href="index.html">目次</a></h3>
+    <ul>
+<li><a class="reference internal" href="#">board package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-board.backupcaller">board.backupcaller module</a></li>
+<li><a class="reference internal" href="#module-board.cboard">board.cboard module</a></li>
+<li><a class="reference internal" href="#module-board.cimage">board.cimage module</a></li>
+<li><a class="reference internal" href="#module-board.common">board.common module</a></li>
+<li><a class="reference internal" href="#module-board.crtool">board.crtool module</a></li>
+<li><a class="reference internal" href="#board-help-module">board.help module</a></li>
+<li><a class="reference internal" href="#module-board.kwargs">board.kwargs module</a></li>
+<li><a class="reference internal" href="#module-board.loggable">board.loggable module</a></li>
+<li><a class="reference internal" href="#module-board.path">board.path module</a></li>
+<li><a class="reference internal" href="#module-board">Module contents</a></li>
+</ul>
+</li>
+</ul>
 
-</body>
+  </div>
+  <div>
+    <h4>前のトピックへ</h4>
+    <p class="topless"><a href="index.html"
+                          title="前の章へ">Welcome to gridboard's documentation!</a></p>
+  </div>
+  <div role="note" aria-label="source link">
+    <h3>このページ</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/board.rst.txt"
+            rel="nofollow">ソースコードを表示</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">クイック検索</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="検索" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>  
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>ナビゲーション</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="総合索引"
+             >索引</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Pythonモジュール索引"
+             >モジュール</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Welcome to gridboard&#39;s documentation!"
+             >前へ</a> |</li>
+          <li><img src="_static/py.svg" alt="python logo" style="vertical-align: middle; margin-top: -1px"/></li>
+          <li><a href="https://www.python.org/">Python</a> &#187;</li>
+          <li class="switchers">
+            <div class="language_switcher_placeholder"></div>
+            <div class="version_switcher_placeholder"></div>
+          </li>
+          <li>
+              
+              <a href="index.html">GridBoard 0.7 ドキュメント</a> &#187;
+              
+          </li>
+        <li class="nav-item nav-item-this"><a href="">board package</a></li>
+                <li class="right">
+                    
+
+    <div class="inline-search" role="search">
+        <form class="inline-search" action="search.html" method="get">
+          <input placeholder="クイック検索" aria-label="クイック検索" type="text" name="q" />
+          <input type="submit" value="検索" />
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+    </div>
+                     |
+                </li>
+            
+      </ul>
+    </div>  
+    <div class="footer">
+    &copy; 著作権 2022, Hiroki Arimura, Hokkaido University.
+    <br />
+    This page is licensed under the Python Software Foundation License Version 2.
+    <br />
+    Examples, recipes, and other code in the documentation are additionally licensed under the Zero Clause BSD License.
+    <br />
+    
+    <br />
+
+    The Python Software Foundation is a non-profit corporation.
+<a href="https://www.python.org/psf/donations/">Please donate.</a>
+<br />
+    <br />
+
+    最終更新: None
+    
+    <br />
+
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.5.0.
+    </div>
+
+  </body>
 </html>
